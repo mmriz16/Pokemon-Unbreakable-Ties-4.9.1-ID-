@@ -18,6 +18,7 @@
 - Cleanup UI pass diterapkan ke `Party`, `Summary`, `Bag`, `Save`, `PC`, `Pokemon Storage`, `Move Relearner`, `Mystery Gift`, `Text Entry`, dan `Hall of Fame` untuk menghapus sisa path asset yang salah serta string `Pokedex/Pokemon` yang rusak encoding.
 - Proofreading pass battle diterapkan ke runtime data untuk memperhalus kalimat yang paling sering muncul, misalnya status/stat down, pemblokiran jurus, serangan yang dihindari, dan beberapa pesan efek ability/item.
 - Proofreading pass battle kedua diterapkan untuk effectiveness, flee text, miss text, dan beberapa pesan status/ability yang sangat sering tampil saat turn berjalan.
+- Proofreading pass battle ketiga diterapkan untuk status ailment text dan beberapa kalimat flavour yang masih kaku, termasuk paralysis cure, drowsy/levitate text, dan beberapa deskripsi karakter yang sempat masih bercampur Spanyol.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
