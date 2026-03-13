@@ -13,7 +13,9 @@ TRANSLATE_ARRAYS = [
   2,   # Kinds
   3,   # Entries
   6,   # MoveDescriptions
+  9,   # ItemDescriptions
   11,  # AbilityDescs
+  12,  # Types
   13,  # TrainerTypes
   18,  # RegionNames
   25,  # RibbonNames
@@ -39,9 +41,7 @@ KEEP_AS_IS = [
   5,   # Moves
   7,   # Items
   8,   # ItemPlurals
-  9,   # ItemDescriptions handled elsewhere via PBS compile, keep runtime file stable
   10,  # Abilities
-  12,  # Types
   21   # MapNames
 ].freeze
 
