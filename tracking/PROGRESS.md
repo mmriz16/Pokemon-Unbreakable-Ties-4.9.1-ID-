@@ -1,5 +1,19 @@
 # Progress
 
+## Dashboard
+- Overall playable Indonesian progress: `40%`
+- Phase 1. Audit source text: `100%`
+- Phase 2. Build Indonesian runtime baseline (`english.dat`, `messages.dat`): `100%`
+- Phase 3. Proofread runtime/UI/system text: `70%`
+- Phase 4. Audit story/event text (`CommonEvents.rxdata`, `Map*.rxdata`): `100%`
+- Phase 5. Draft story translation per batch/map: `10%`
+- Phase 6. Inject translated story back into event runtime: `0%`
+- Phase 7. In-game verification and polish pass: `0%`
+
+## How To Read
+- `Overall playable Indonesian progress` mengukur kesiapan game untuk dimainkan penuh dalam Bahasa Indonesia, bukan sekadar jumlah file yang sudah disentuh.
+- Fase runtime sudah jauh lebih maju daripada fase story. Bottleneck utama sekarang ada di translasi event map/common event dan proses inject kembali ke file runtime.
+
 ## Done
 - Audit sumber teks runtime selesai.
 - Repo kerja lokal di folder `Pokemon Unbreakable Ties 4.9.1 (ID)` dibuat.
