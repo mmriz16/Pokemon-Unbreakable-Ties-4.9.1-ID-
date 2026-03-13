@@ -1,0 +1,25 @@
+Area,Path,Priority,Status,RuntimeSource,Notes
+UI,Data/Scripts/016_UI,P1,In Progress,Direct scripts,Menu dan layar utama
+Battle,Data/Scripts/011_Battle,P1,Todo,Direct scripts,Teks battle paling banyak
+Items,Data/Scripts/013_Items,P1,Todo,Direct scripts,Teks penggunaan item
+Overworld,Data/Scripts/012_Overworld,P1,Todo,Direct scripts,Field move dan prompt overworld
+Custom Main,Data/Scripts/999_Main,P1,Todo,Direct scripts,Script custom dengan banyak teks unik
+Minigames,Data/Scripts/017_Minigames,P2,Todo,Direct scripts,UI dan aturan minigame
+Alt Battle Modes,Data/Scripts/018_Alternate battle modes,P2,Todo,Direct scripts,Mode battle tambahan
+Utilities,Data/Scripts/019_Utilities,P2,Todo,Direct scripts,Prompt utilitas gameplay
+PBS Abilities,PBS/abilities.txt,P1,In Progress,Compile to Data/abilities.dat,Deskripsi saja
+PBS Items,PBS/items.txt,P1,In Progress,Compile to Data/items.dat,Deskripsi saja
+PBS Moves,PBS/moves.txt,P1,In Progress,Compile to Data/moves.dat,Deskripsi saja
+PBS Pokemon,PBS/pokemon.txt,P1,In Progress,Compile to Data/species.dat,Kind dan Pokedex saja
+PBS Pokemon Forms,PBS/pokemonforms.txt,P1,In Progress,Compile to Data/species.dat,Pokedex forms saja
+PBS Ribbons,PBS/ribbons.txt,P2,In Progress,Compile to Data/ribbons.dat,Deskripsi saja
+PBS Phone,PBS/phone.txt,P2,Todo,Compile to Data/phone.dat,Dialog phone
+PBS Trainers,PBS/trainers.txt,P2,Todo,Compile to Data/trainers.dat,Perlu seleksi teks yang benar-benar user-facing
+PBS Trainer Types,PBS/trainertypes.txt,P2,Todo,Compile to Data/trainer_types.dat,Nama class trainer
+PBS Town Map,PBS/townmap.txt,P2,Todo,Compile to Data/town_map.dat,Nama lokasi map
+PBS Metadata,PBS/metadata.txt,P2,Todo,Compile to Data/metadata.dat,Nama map dan metadata terkait
+Messages,Data/messages.dat,P1,Todo,Runtime message pack,Harus dipetakan dengan language config
+English Dat,Data/english.dat,P1,Blocked,Language file,Versi Indonesia lama tidak ditemukan
+Common Events,Data/CommonEvents.rxdata,P1,Todo,Runtime event text,Perlu ekstraksi per event
+Map Events,Data/Map*.rxdata,P1,Todo,Runtime event text,Perlu diproses sesuai urutan story
+Plugins,Plugins/**/*.rb,P2,Todo,Plugin runtime,Banyak plugin kemungkinan punya string UI

@@ -1,0 +1,844 @@
+﻿1,MEGAHORN,Megahorn,000,120,BUG,Physical,85,10,0,NearOther,0,abef,Tuduhan kekerasan dengan tanduk yang mengesankan.
+2,ATTACKORDER,Attack order,000,90,BUG,Physical,100,15,0,NearOther,0,befh,Pengguna memanggil bawahannya untuk menyerang target. Seringkali menghasilkan serangan kritis.
+3,BUGBUZZ,Bug buzz,046,90,BUG,Special,100,10,10,NearOther,0,befk,Sayap pengguna menciptakan gelombang sonik yang merusak. Mungkin juga menurunkan pertahanan khusus target.
+4,XSCISSOR,X-scissor,000,80,BUG,Physical,100,15,0,NearOther,0,abef,Menebas sasaran dengan cakar menyilang seperti gunting.
+5,SIGNALBEAM,Signal beam,013,75,BUG,Special,100,15,10,NearOther,0,bef,Menembakkan seberkas cahaya yang menyeramkan. Mungkin membingungkan target.
+6,UTURN,U-turn,0EE,70,BUG,Physical,100,20,0,NearOther,0,abef,"Setelah menyerang, pengguna bergegas kembali untuk berganti dengan Pokémon party."
+7,STEAMROLLER,Steamroller,010,65,BUG,Physical,100,20,30,NearOther,0,abe,Pengguna menghancurkan target dengan menggulingkannya. Dapat menyebabkan tersentak.
+8,BUGBITE,Bug bite,0F4,60,BUG,Physical,100,20,0,NearOther,0,abef,"Menggigit target. Jika target memiliki Berry, pengguna akan memakannya untuk mendapatkan efeknya."
+9,SILVERWIND,Silver wind,02D,60,BUG,Special,100,5,10,NearOther,0,bef,Angin kencang dipenuhi sisik. Dapat meningkatkan semua statistik pengguna.
+10,STRUGGLEBUG,Struggle bug,045,50,BUG,Special,100,20,100,AllNearFoes,0,bef,Melakukan serangan balik sambil menurunkan serangan khusus musuh.
+11,TWINEEDLE,Twineedle,0BE,25,BUG,Physical,100,20,20,NearOther,0,bef,Menyengat target dua kali dengan pin. Mungkin racun.
+12,FURYCUTTER,Fury cutter,091,40,BUG,Physical,95,20,0,NearOther,0,abef,Menyerang dengan sabit atau cakar. Kekuatan meningkat dengan penggunaan berturut-turut.
+13,LEECHLIFE,Leech life,0DD,80,BUG,Physical,100,10,0,NearOther,0,abef,Menguras setengah kerusakan yang ditimbulkan untuk memulihkan PS pengguna.
+14,PINMISSILE,Pin missile,0C0,25,BUG,Physical,95,20,0,NearOther,0,bef,Paku tajam ditembakkan dua hingga lima kali berturut-turut.
+15,DEFENDORDER,Defend order,02A,0,BUG,Status,0,10,0,User,0,d,"Pengguna memanggil bawahannya untuk membentuk perisai hidup, meningkatkan pertahanan dan pertahanan khusus."
+16,HEALORDER,Heal order,0D5,0,BUG,Status,0,10,0,User,0,d,"Pengguna memanggil bawahannya untuk menyembuhkannya, memulihkan hingga setengah dari PS maksimumnya."
+17,QUIVERDANCE,Quiver dance,02B,0,BUG,Status,0,20,0,User,0,do,"Tarian mistis yang meningkatkan serangan khusus, pertahanan khusus, dan kecepatan."
+18,RAGEPOWDER,Rage powder,117,0,BUG,Status,0,20,0,User,2,l,Menyebarkan bubuk untuk membuat musuh memfokuskan serangan pada pengguna.
+19,SPIDERWEB,Spider web,0EF,0,BUG,Status,0,10,0,NearOther,0,bce,Menjerat target untuk mencegah pelarian.
+20,STRINGSHOT,String shot,04D,0,BUG,Status,95,40,0,AllNearFoes,0,bce,Menembakkan sutra yang menurunkan kecepatan musuh.
+21,TAILGLOW,Tail glow,039,0,BUG,Status,0,20,0,User,0,d,Pengguna memancarkan semburan cahaya yang secara tajam meningkatkan serangan khusus.
+22,FOULPLAY,Foul play,121,95,DARK,Physical,100,15,0,NearOther,0,abef,"Menggunakan stat serangan target sendiri. Semakin tinggi serangan target, semakin besar pula damage yang ditimbulkan."
+23,NIGHTDAZE,Night daze,047,85,DARK,Special,95,10,40,NearOther,0,bef,Mencapai target dengan gelombang yang menyeramkan. Dapat menurunkan akurasi.
+24,CRUNCH,Crunch,043,80,DARK,Physical,100,15,20,NearOther,0,abefi,Gigitan dengan taring yang tajam. Dapat menurunkan pertahanan target.
+25,DARKPULSE,Dark pulse,00F,80,DARK,Special,100,15,20,Other,0,bem,Melepaskan aura mengerikan yang dipenuhi pikiran gelap. Mungkin menggagalkan target.
+26,SUCKERPUNCH,Sucker punch,116,70,DARK,Physical,100,5,0,NearOther,1,abef,Izinkan menyerang terlebih dahulu. Gagal jika target tidak mempersiapkan serangan.
+27,NIGHTSLASH,Night slash,000,70,DARK,Physical,100,15,0,NearOther,0,abefh,Menyerang pada kesempatan pertama. Rasio serangan kritis yang tinggi.
+28,BITE,Bite,00F,60,DARK,Physical,100,25,30,NearOther,0,abei,Gigitannya yang rakus bisa membuat sasarannya tersentak.
+29,FEINTATTACK,Feint attack,0A5,60,DARK,Physical,0,20,0,NearOther,0,abef,"Menarik musuh mendekat, lalu menyerang tanpa gagal."
+30,SNARL,Snarl,045,55,DARK,Special,95,15,100,AllNearFoes,0,befk,"Berteriak dengan cara yang menakutkan, menurunkan serangan khusus musuh."
+31,ASSURANCE,Assurance,082,60,DARK,Physical,100,10,0,NearOther,0,abef,"Jika musuh telah menerima kerusakan pada giliran ini, kekuatannya akan berlipat ganda."
+32,PAYBACK,Payback,084,50,DARK,Physical,100,10,0,NearOther,0,abef,Memberikan kerusakan ganda jika pengguna bergerak mengejar target.
+33,PURSUIT,Pursuit,088,40,DARK,Physical,100,20,0,NearOther,0,abe,Menimbulkan kerusakan ganda pada musuh yang mencoba untuk keluar.
+34,THIEF,Thief,0F1,60,DARK,Physical,100,25,0,NearOther,0,abef,Menyerang dan mencuri barang milik musuh kecuali pengguna sudah memegangnya.
+35,KNOCKOFF,Knock off,0F0,65,DARK,Physical,100,20,0,NearOther,0,abef,"Merobohkan item target yang dipegang, membuatnya tidak dapat digunakan selama sisa pertempuran."
+36,BEATUP,Beat up,0C1,1,DARK,Physical,100,10,0,NearOther,0,bef,"Semua Pokémon dalam party bergabung. Semakin banyak sekutu, semakin banyak hit."
+37,FLING,Fling,0F7,1,DARK,Physical,100,10,0,NearOther,0,bef,Melemparkan item yang dipegang pengguna ke arah musuh. Kekuatan dan efek bervariasi tergantung itemnya.
+38,PUNISHMENT,Punishment,08F,1,DARK,Physical,100,5,0,NearOther,0,abef,Kekuatan meningkat ketika musuh semakin meningkatkan statistiknya.
+39,DARKVOID,Dark void,003,0,DARK,Status,50,10,0,AllNearFoes,0,bce,"Mengirim target ke dunia kegelapan, membuat mereka tertidur."
+40,EMBARGO,Embargo,0F8,0,DARK,Status,100,15,0,NearOther,0,bce,Mencegah target menggunakan item yang dipegangnya. Juga menghentikan Pelatih menggunakan item di dalamnya.
+41,FAKETEARS,Fake tears,04F,0,DARK,Status,100,20,0,NearOther,0,bce,Pengguna berpura-pura menangis untuk menurunkan pertahanan khusus target secara tajam.
+42,FLATTER,Flatter,040,0,DARK,Status,100,15,0,NearOther,0,bce,Membingungkan target tetapi meningkatkan serangan spesialnya.
+43,HONECLAWS,Hone claws,029,0,DARK,Status,0,15,0,User,0,d,Mempertajam cakar untuk meningkatkan serangan dan akurasi.
+44,MEMENTO,Memento,0E2,0,DARK,Status,100,10,0,NearOther,0,be,"Pengguna pingsan, tetapi secara drastis menurunkan serangan musuh dan serangan khusus."
+45,NASTYPLOT,Nasty plot,032,0,DARK,Status,0,20,0,User,0,d,Pengguna merangsang otaknya dengan memikirkan pikiran-pikiran buruk. Meningkatkan serangan khusus dengan tajam.
+46,QUASH,Quash,11E,0,DARK,Status,100,15,0,NearOther,0,be,Memaksa target untuk bertindak terakhir pada giliran ini.
+47,SNATCH,Snatch,0B2,0,DARK,Status,0,10,0,User,4,,Mencuri efek penyembuhan atau gerakan perubahan stat yang coba digunakan musuh.
+48,SWITCHEROO,Switcheroo,0F2,0,DARK,Status,100,10,0,NearOther,0,be,Bertukar item yang dipegang dengan musuh dengan sangat cepat hingga tidak terlihat.
+49,TAUNT,Taunt,0BA,0,DARK,Status,100,20,0,NearOther,0,bce,"Membuat marah musuh, memaksanya hanya menggunakan gerakan merusak selama tiga putaran."
+50,TORMENT,Torment,0B7,0,DARK,Status,100,15,0,NearOther,0,bce,Menyiksa musuh untuk mencegah penggunaan gerakan yang sama berulang kali.
+51,ROAROFTIME,Roar of time,0C2,150,DRAGON,Special,90,5,0,NearOther,0,bef,Serangan kuat yang mendistorsi waktu. Pengguna harus beristirahat pada giliran berikutnya.
+52,DRACOMETEOR,Draco meteor,03F,130,DRAGON,Special,90,5,0,NearOther,0,bef,Memanggil meteor dari langit. Menurunkan serangan khusus pengguna dengan tajam.
+53,OUTRAGE,Outrage,0D2,120,DRAGON,Physical,100,10,0,RandomNearFoe,0,abef,"Menyerang selama dua hingga tiga putaran, lalu membuat penggunanya bingung."
+54,DRAGONRUSH,Dragon rush,010,100,DRAGON,Physical,75,10,20,NearOther,0,abef,Barel ke sasaran sambil mengintimidasinya. Dapat menyebabkan tersentak.
+55,SPACIALREND,Spacial rend,000,100,DRAGON,Special,95,5,0,NearOther,0,befh,Merobek target beserta ruang di sekitarnya. Rasio serangan kritis yang tinggi.
+56,DRAGONPULSE,Dragon pulse,000,85,DRAGON,Special,100,10,0,Other,0,befm,Pengguna membuka mulutnya lebar-lebar dan melepaskan gelombang kejut ke sasaran.
+57,DRAGONCLAW,Dragon claw,000,80,DRAGON,Physical,100,15,0,NearOther,0,abef,Menebas target dengan cakar yang tajam.
+58,DRAGONTAIL,Dragon tail,0EC,60,DRAGON,Physical,90,10,0,NearOther,-6,abef,"Menjatuhkan target, memaksanya untuk beralih. Mengakhiri pertempuran liar."
+59,DRAGONBREATH,Dragon breath,007,60,DRAGON,Special,100,20,30,NearOther,0,bef,Nafas kuat yang mungkin melumpuhkan target.
+60,DUALCHOP,Dual chop,0BD,40,DRAGON,Physical,90,15,0,NearOther,0,abef,Menyerang dua kali berturut-turut menggunakan tubuh pengguna.
+61,TWISTER,Twister,078,40,DRAGON,Special,100,20,20,AllNearFoes,0,be,Menimbulkan tornado yang ganas. Mungkin membuat musuh gentar.
+62,DRAGONRAGE,Dragon rage,06B,1,DRAGON,Special,100,10,0,NearOther,0,bef,Gelombang kejut yang selalu menimbulkan kerusakan sebesar 40 PS.
+63,DRAGONDANCE,Dragon dance,026,0,DRAGON,Status,0,20,0,User,0,d,Tarian mistis yang meningkatkan serangan dan kecepatan.
+64,BOLTSTRIKE,Bolt strike,007,130,ELECTRIC,Physical,85,5,20,NearOther,0,abef,Menyerang dengan muatan listrik yang sangat besar. Mungkin melumpuhkan.
+65,THUNDER,Thunder,008,110,ELECTRIC,Special,70,10,30,NearOther,0,bef,Sebuah sambaran petir brutal yang dapat melumpuhkan target.
+66,VOLTTACKLE,Volt tackle,0FD,120,ELECTRIC,Physical,100,15,10,NearOther,0,abef,Tagihan habis-habisan yang juga sedikit merugikan pengguna.
+67,ZAPCANNON,Zap cannon,007,120,ELECTRIC,Special,50,5,100,NearOther,0,befn,Menembakkan ledakan listrik yang menyebabkan kerusakan dan kelumpuhan.
+68,FUSIONBOLT,Fusion bolt,079,100,ELECTRIC,Physical,100,5,0,NearOther,0,bef,Menyerang dengan ledakan listrik yang dahsyat. Kekuatannya meningkat jika dipengaruhi oleh api raksasa.
+69,THUNDERBOLT,Thunderbolt,007,90,ELECTRIC,Special,100,15,10,NearOther,0,bef,Serangan listrik kuat yang dapat melumpuhkan target.
+70,WILDCHARGE,Wild charge,0FA,90,ELECTRIC,Physical,100,15,0,NearOther,0,abef,Pengisian daya yang sembrono ke seluruh tubuh yang juga sedikit merugikan pengguna.
+71,DISCHARGE,Discharge,007,80,ELECTRIC,Special,100,15,30,AllNearOthers,0,bef,Semburan listrik yang mengenai Pokémon lain di dekatnya. Mungkin melumpuhkan.
+72,THUNDERPUNCH,Thunder punch,007,75,ELECTRIC,Physical,100,15,10,NearOther,0,abefj,Pukulan listrik yang mungkin melumpuhkan.
+73,VOLTSWITCH,Volt switch,0EE,70,ELECTRIC,Special,100,20,0,NearOther,0,bef,"Setelah menyerang, pengguna keluar dengan cepat."
+74,SPARK,Spark,007,65,ELECTRIC,Physical,100,20,30,NearOther,0,abef,Tekel listrik yang bisa melumpuhkan.
+75,THUNDERFANG,Thunder fang,009,65,ELECTRIC,Physical,95,15,100,NearOther,0,abei,Taring tajamnya berderak karena aliran listrik. Dapat menyebabkan tersentak atau kelumpuhan.
+76,SHOCKWAVE,Shock wave,0A5,60,ELECTRIC,Special,0,20,0,NearOther,0,bef,Gelombang listrik deras yang tak pernah meleset.
+77,ELECTROWEB,Electroweb,044,55,ELECTRIC,Special,95,15,100,AllNearFoes,0,bef,"Menangkap dan menyerang musuh dalam jaring listrik, menurunkan kecepatan mereka."
+78,CHARGEBEAM,Charge beam,020,50,ELECTRIC,Special,90,10,70,NearOther,0,bef,Menembakkan seberkas listrik. Dapat meningkatkan serangan khusus pengguna.
+79,THUNDERSHOCK,Thunder shock,007,40,ELECTRIC,Special,100,30,10,NearOther,0,bef,Sengatan listrik yang mungkin melumpuhkan.
+80,ELECTROBALL,Electro ball,099,1,ELECTRIC,Special,100,10,0,NearOther,0,befn,"Melemparkan bola listrik. Semakin cepat penggunanya, semakin besar kerusakannya."
+81,CHARGE,Charge,021,0,ELECTRIC,Status,0,20,0,User,0,d,Mengisi daya untuk meningkatkan gerakan LISTRIK berikutnya. Juga meningkatkan pertahanan khusus.
+82,MAGNETRISE,Magnet rise,119,0,ELECTRIC,Status,0,10,0,User,0,d,Mengapung dengan magnet selama lima putaran.
+83,THUNDERWAVE,Thunder wave,007,0,ELECTRIC,Status,90,20,0,NearOther,0,bce,Sengatan listrik lemah yang melumpuhkan jika terkena.
+84,FOCUSPUNCH,Focus punch,115,150,FIGHTING,Physical,100,20,0,NearOther,-3,abfj,"Memfokuskan kekuatan, lalu meninju. Gagal jika pengguna terkena sebelumnya."
+85,HIGHJUMPKICK,High jump kick,10B,130,FIGHTING,Physical,90,10,0,NearOther,0,abef,"Tendangan lompatan yang kuat. Jika meleset, pengguna akan terluka."
+86,CLOSECOMBAT,Close combat,03C,120,FIGHTING,Physical,100,5,0,NearOther,0,abef,Bertarung dari dekat tanpa menjaga. Menurunkan pertahanan dan pertahanan khusus.
+87,FOCUSBLAST,Focus blast,046,120,FIGHTING,Special,70,5,10,NearOther,0,befn,"Berkonsentrasi secara intens, lalu menembak. Dapat menurunkan pertahanan khusus musuh."
+88,SUPERPOWER,Superpower,03B,120,FIGHTING,Physical,100,5,0,NearOther,0,abef,Serangan kuat yang juga menurunkan serangan dan pertahanan pengguna.
+89,CROSSCHOP,Cross chop,000,100,FIGHTING,Physical,80,5,0,NearOther,0,abefh,Pemotongan ganda dengan rasio serangan kritis yang tinggi.
+90,DYNAMICPUNCH,Dynamic punch,013,100,FIGHTING,Physical,50,5,100,NearOther,0,abefj,Pukulan dengan kekuatan terkonsentrasi penuh. Bingung kalau kena.
+91,HAMMERARM,Hammer arm,03E,100,FIGHTING,Physical,90,10,0,NearOther,0,abefj,Mengayunkan tinju yang berat. Juga menurunkan kecepatan pengguna.
+92,JUMPKICK,Jump kick,10B,100,FIGHTING,Physical,95,10,0,NearOther,0,abefl,"Tendangan melompat. Jika meleset, pengguna akan terluka."
+93,AURASPHERE,Aura sphere,0A5,80,FIGHTING,Special,0,20,0,Other,0,befmn,Menelan telapak tangan penggunanya dengan kekuatan aura. Tidak pernah ketinggalan.
+94,SACREDSWORD,Sacred sword,0A9,90,FIGHTING,Physical,100,15,0,NearOther,0,abef,Menyerang dengan pedang yang mengabaikan perubahan stat.
+95,SECRETSWORD,Secret sword,122,85,FIGHTING,Special,100,10,0,NearOther,0,bef,"Menusuk musuh dengan pedang misterius, menimbulkan kerusakan khusus."
+96,SKYUPPERCUT,Sky uppercut,11B,85,FIGHTING,Physical,90,15,0,NearOther,0,abefj,Pukulan keras yang meninggi.
+97,SUBMISSION,Submission,0FA,80,FIGHTING,Physical,80,20,0,NearOther,0,abef,Mengatasi musuh hingga jatuh ke tanah. Pengguna juga terluka.
+98,BRICKBREAK,Brick break,10A,75,FIGHTING,Physical,100,15,0,NearOther,0,abef,Pukulan kuat yang juga menghancurkan penghalang seperti Light Screen dan Reflect.
+99,DRAINPUNCH,Drain punch,0DD,75,FIGHTING,Physical,100,10,0,NearOther,0,abefj,Pukulan yang menguras tenaga. Pengguna memulihkan setengah dari kerusakan yang ditimbulkan.
+100,VITALTHROW,Vital throw,0A5,70,FIGHTING,Physical,0,10,0,NearOther,-1,abef,Serangan pengguna bertahan lama tetapi tidak pernah meleset.
+101,CIRCLETHROW,Circle throw,0EC,60,FIGHTING,Physical,90,10,0,NearOther,-6,abef,"Melempar target ke sekeliling, memaksanya untuk beralih. Mengakhiri pertempuran liar."
+102,FORCEPALM,Force palm,007,70,FIGHTING,Physical,100,10,30,NearOther,0,abef,Mencapai target dengan gelombang kejut yang mungkin melumpuhkan.
+103,LOWSWEEP,Low sweep,044,65,FIGHTING,Physical,100,20,100,NearOther,0,abef,Tendangan cepat ke kaki yang mengurangi kecepatan target.
+104,REVENGE,Revenge,081,60,FIGHTING,Physical,100,10,0,NearOther,-4,abef,Menimbulkan kerusakan ganda jika pengguna terkena serangan pada giliran yang sama.
+105,ROLLINGKICK,Rolling kick,00F,60,FIGHTING,Physical,85,15,30,NearOther,0,abe,Tendangan berputar yang cepat. Mungkin menggagalkan target.
+106,WAKEUPSLAP,Wake-up slap,07D,70,FIGHTING,Physical,100,10,0,NearOther,0,abef,"Menimbulkan kerusakan besar pada musuh yang tertidur, namun juga membangunkan mereka."
+107,KARATECHOP,Karate chop,000,50,FIGHTING,Physical,100,25,0,NearOther,0,abefh,Serangan tebasan dengan rasio serangan kritis yang tinggi.
+108,MACHPUNCH,Mach punch,000,40,FIGHTING,Physical,100,30,0,NearOther,1,abefj,Sebuah pukulan dilempar dengan kecepatan yang membutakan. Menyerang lebih dulu.
+109,ROCKSMASH,Rock smash,043,40,FIGHTING,Physical,100,15,50,NearOther,0,abef,Serangan yang juga dapat menurunkan pertahanan target.
+110,STORMTHROW,Storm throw,0A0,60,FIGHTING,Physical,100,10,0,NearOther,0,abef,Pukulan dahsyat yang selalu menghasilkan pukulan kritis.
+111,VACUUMWAVE,Vacuum wave,000,40,FIGHTING,Special,100,30,0,NearOther,1,bef,Meluncurkan gelombang vakum pada sasarannya. Selalu pergi duluan.
+112,DOUBLEKICK,Double kick,0BD,30,FIGHTING,Physical,100,30,0,NearOther,0,abef,Tendangan ganda yang mengenai dua kali.
+113,ARMTHRUST,Arm thrust,0C0,15,FIGHTING,Physical,100,20,0,NearOther,0,abef,Pukulan lengan lurus yang mengenai dua sampai lima kali.
+114,TRIPLEKICK,Triple kick,0BF,10,FIGHTING,Physical,90,10,0,NearOther,0,abef,"Tendangan hingga tiga kali berturut-turut, masing-masing lebih bertenaga."
+115,COUNTER,Counter,071,1,FIGHTING,Physical,100,20,0,None,-5,abf,Membalas serangan fisik apa pun dengan kekuatan dua kali lipat.
+116,FINALGAMBIT,Final gambit,0E1,1,FIGHTING,Special,100,5,0,NearOther,0,abf,Pengguna mengorbankan dirinya untuk memberikan kerusakan yang setara dengan PSnya yang hilang.
+117,LOWKICK,Low kick,09A,1,FIGHTING,Physical,100,20,0,NearOther,0,abef,Tendangan rendah yang semakin kuat seiring dengan berat target.
+118,REVERSAL,Reversal,098,1,FIGHTING,Physical,100,15,0,NearOther,0,abef,Serangan habis-habisan yang semakin kuat jika semakin sedikit PS yang dimiliki pengguna.
+119,SEISMICTOSS,Seismic toss,06D,1,FIGHTING,Physical,100,20,0,NearOther,0,abef,Menimbulkan kerusakan yang setara dengan level pengguna.
+120,BULKUP,Bulk up,024,0,FIGHTING,Status,0,20,0,User,0,d,"Pengguna menegangkan ototnya, meningkatkan serangan dan pertahanan."
+121,DETECT,Detect,0AA,0,FIGHTING,Status,0,5,0,User,4,,Menghindari serangan. Kemungkinan gagal meningkat jika digunakan secara berurutan.
+122,QUICKGUARD,Quick guard,0AB,0,FIGHTING,Status,0,15,0,UserSide,3,,Melindungi tim pengguna dari gerakan dengan prioritas lebih tinggi.
+123,VCREATE,V-create,03D,180,FIRE,Physical,95,5,0,NearOther,0,abef,"Pukulan dengan api berbentuk V. Menurunkan pertahanan pengguna, pertahanan khusus, dan kecepatan."
+124,BLASTBURN,Blast burn,0C2,150,FIRE,Special,90,5,0,NearOther,0,bef,Sebuah ledakan yang berapi-api. Pengguna harus beristirahat pada giliran berikutnya.
+125,ERUPTION,Eruption,08B,150,FIRE,Special,100,5,0,AllNearFoes,0,bef,Kemarahan yang meledak-ledak. Daya berkurang seiring penurunan PS pengguna.
+126,OVERHEAT,Overheat,03F,130,FIRE,Special,90,5,0,NearOther,0,bef,Menyerang dengan kekuatan penuh tetapi menurunkan serangan khusus pengguna secara tajam.
+127,BLUEFLARE,Blue flare,00A,130,FIRE,Special,85,5,20,NearOther,0,bef,Menyerang dengan nyala api biru yang indah namun kuat. Dapat membakar target.
+128,FIREBLAST,Fire blast,00A,110,FIRE,Special,85,5,10,NearOther,0,bef,Nyala api yang kuat yang dapat membakar target.
+129,FLAREBLITZ,Flare blitz,0FE,120,FIRE,Physical,100,15,10,NearOther,0,abefg,Pengguna menyamarkan dirinya dalam api dan menyerang. Pengguna juga menerima kerusakan.
+130,MAGMASTORM,Magma storm,0CF,100,FIRE,Special,75,5,0,NearOther,0,bef,Menjebak target dalam pusaran api yang berputar-putar selama dua hingga lima putaran.
+131,FUSIONFLARE,Fusion flare,07A,100,FIRE,Special,100,5,0,NearOther,0,befg,Menyerang dengan api raksasa. Tenaga bertambah jika dipengaruhi oleh listrik yang luar biasa besarnya.
+132,HEATWAVE,Heat wave,00A,95,FIRE,Special,90,10,10,AllNearFoes,0,bef,Gelombang panas yang mungkin membakar sasarannya.
+133,INFERNO,Inferno,00A,100,FIRE,Special,50,5,100,NearOther,0,bef,Memunculkan semburan api besar yang meninggalkan luka bakar.
+134,SACREDFIRE,Sacred fire,00A,100,FIRE,Physical,95,5,50,NearOther,0,befg,Api mistik dengan kemungkinan besar untuk terbakar.
+135,SEARINGSHOT,Searing shot,00A,100,FIRE,Special,100,5,30,AllNearFoes,0,befn,Menembakkan api yang membara ke arah musuh. Mungkin membakarnya.
+136,FLAMETHROWER,Flamethrower,00A,90,FIRE,Special,100,15,10,NearOther,0,be,Semburan api hebat yang dapat menyebabkan luka bakar.
+137,BLAZEKICK,Blaze kick,00A,85,FIRE,Physical,90,10,10,NearOther,0,abefh,Tendangan berapi-api dengan rasio serangan kritis yang tinggi. Mungkin terbakar.
+138,FIERYDANCE,Fiery dance,020,80,FIRE,Special,100,10,50,NearOther,0,bef,Menyelubungi dirinya dalam api dan serangan. Dapat meningkatkan serangan khusus pengguna.
+139,LAVAPLUME,Lava plume,00A,80,FIRE,Special,100,15,30,AllNearFoes,0,bef,Semburan api merusak musuh di sekitar. Mungkin terbakar.
+140,FIREPUNCH,Fire punch,00A,75,FIRE,Physical,100,15,10,NearOther,0,abefj,Pukulan berapi-api yang mungkin bisa membakar.
+141,FLAMEBURST,Flame burst,074,70,FIRE,Special,100,15,0,NearOther,0,bef,Musuh terkena ledakan api yang juga memberikan kerusakan pada sekutu di dekatnya.
+142,FIREFANG,Fire fang,00B,65,FIRE,Physical,95,15,10,NearOther,0,abei,Gigitan dengan taring terselubung api. Mungkin menyentak atau membakar target.
+143,FLAMEWHEEL,Flame wheel,00A,60,FIRE,Physical,100,25,10,NearOther,0,abefg,"Pengguna menyamarkan dirinya dalam api, lalu mengisi daya. Dapat menyebabkan luka bakar."
+144,FIREPLEDGE,Fire pledge,107,80,FIRE,Special,100,10,0,NearOther,0,bef,"Kolom api menyerang musuh. Ketika dikombinasikan dengan janji tipe Rumput, itu menciptakan lautan api."
+145,FLAMECHARGE,Flame charge,01F,50,FIRE,Physical,100,20,100,NearOther,0,abef,Menyelubungi dirinya sendiri dalam api dan serangan. Meningkatkan kecepatan.
+146,EMBER,Ember,00A,40,FIRE,Special,100,25,10,NearOther,0,bef,Nyala api kecil yang dapat membakar target.
+147,FIRESPIN,Fire spin,0CF,35,FIRE,Special,85,15,0,NearOther,0,bef,Menjebak target dalam lingkaran api selama empat hingga lima putaran.
+148,INCINERATE,Incinerate,0F5,60,FIRE,Special,100,15,0,AllNearFoes,0,bef,"Membakar Berry yang dipegang musuh, membuatnya tidak dapat digunakan."
+149,HEATCRASH,Heat crash,09B,1,FIRE,Physical,100,10,0,NearOther,0,abef,"Pengguna membanting tubuhnya yang terbakar ke sasaran. Semakin berat pengguna dibandingkan target, maka damage yang dihasilkan akan semakin besar."
+150,SUNNYDAY,Sunny day,0FF,0,FIRE,Status,0,5,0,BothSides,0,,"Mengintensifkan sinar matahari selama lima putaran, meningkatkan gerakan tipe KEBAKARAN."
+151,WILLOWISP,Will-o-wisp,00A,0,FIRE,Status,85,15,0,NearOther,0,bce,Api ungu menyeramkan yang menimbulkan luka bakar.
+152,SKYATTACK,Sky attack,0C7,140,FLYING,Physical,90,5,30,Other,0,befh,Pergerakan dua putaran dengan rasio serangan kritis yang tinggi. Dapat menyebabkan tersentak.
+153,BRAVEBIRD,Brave bird,0FB,120,FLYING,Physical,100,15,0,Other,0,abef,"Serangan yang ganas, juga sedikit menimbulkan kerusakan pada penggunanya."
+154,HURRICANE,Hurricane,015,110,FLYING,Special,70,10,30,Other,0,bef,Melepaskan angin kencang yang mungkin membingungkan musuh.
+155,AEROBLAST,Aeroblast,000,100,FLYING,Special,95,5,0,Other,0,befh,Menembakkan semburan udara dengan rasio serangan kritis yang tinggi.
+156,FLY,Fly,0C9,90,FLYING,Physical,95,15,0,Other,0,abef,"Terbang pada belokan pertama, lalu menyerang pada belokan berikutnya."
+157,BOUNCE,Bounce,0CC,85,FLYING,Physical,85,5,30,Other,0,abef,"Memantul pada putaran pertama, lalu turun pada putaran kedua. Mungkin melumpuhkan."
+158,DRILLPECK,Drill peck,000,80,FLYING,Physical,100,20,0,Other,0,abef,Serangan mematuk pembuka botol.
+159,AIRSLASH,Air slash,00F,75,FLYING,Special,95,15,30,Other,0,be,Meluncurkan bilah udara yang mungkin membuat sasarannya tersentak.
+160,AERIALACE,Aerial ace,0A5,60,FLYING,Physical,0,20,0,Other,0,abef,Serangan yang sangat cepat yang tidak pernah meleset.
+161,CHATTER,Chatter,014,65,FLYING,Special,100,20,0,Other,0,bfk,Menyerang dengan gelombang suara dari kata-kata yang dipelajari. Mungkin membingungkan musuh.
+162,PLUCK,Pluck,0F4,60,FLYING,Physical,100,20,0,Other,0,abef,"Mematuk sasarannya. Jika memegang Berry, pengguna akan memakannya."
+163,SKYDROP,Sky drop,0CE,60,FLYING,Physical,100,10,0,Other,0,abef,"Pada giliran pertama, membawa musuh ke udara. Yang kedua, jatuhkan."
+164,WINGATTACK,Wing attack,000,60,FLYING,Physical,100,35,0,Other,0,abef,Menyerang sasaran dengan sayap yang besar dan mengesankan.
+165,ACROBATICS,Acrobatics,086,55,FLYING,Physical,100,15,0,Other,0,abef,Serangan yang lincah. Kekuatan berlipat ganda jika pengguna tidak memiliki item yang dipegang.
+166,AIRCUTTER,Air cutter,000,60,FLYING,Special,95,25,0,AllNearFoes,0,befh,Air mata dengan bilah udara. Rasio serangan kritis yang tinggi.
+167,GUST,Gust,077,40,FLYING,Special,100,35,0,Other,0,bef,Serangan angin diluncurkan dengan sayap.
+168,PECK,Peck,000,35,FLYING,Physical,100,35,0,Other,0,abef,Menusuk dengan tanduk atau paruh.
+169,DEFOG,Defog,049,0,FLYING,Status,0,15,0,NearOther,0,bce,Angin kencang yang meniup Pantulan atau Layar Cahaya dan menurunkan penghindaran.
+170,FEATHERDANCE,Feather dance,04B,0,FLYING,Status,100,15,0,NearOther,0,bce,Menutupi musuh dengan bulu untuk menurunkan serangannya secara tajam.
+171,MIRRORMOVE,Mirror move,0AE,0,FLYING,Status,0,20,0,NearOther,0,,Counter dengan gerakan yang sama terakhir digunakan oleh target.
+172,ROOST,Roost,0D6,0,FLYING,Status,0,10,0,User,0,d,"Mendarat dan beristirahat, memulihkan hingga setengah PS maksimalnya."
+173,TAILWIND,Tailwind,05B,0,FLYING,Status,0,15,0,UserSide,0,d,Menghasilkan angin turbulen yang menggandakan kecepatan selama empat putaran.
+174,SHADOWFORCE,Shadow force,0CD,120,GHOST,Physical,100,5,0,NearOther,0,aef,"Menghilang di tikungan pertama, menyerang di tikungan kedua, memukul meski terlindungi."
+175,SHADOWBALL,Shadow ball,046,80,GHOST,Special,100,15,20,NearOther,0,befn,Melemparkan segumpal aura bayangan. Dapat menurunkan pertahanan khusus musuh.
+176,SHADOWCLAW,Shadow claw,000,70,GHOST,Physical,100,15,0,NearOther,0,abefh,Menyerang dengan cakar bayangan. Rasio serangan kritis yang tinggi.
+177,OMINOUSWIND,Ominous wind,02D,60,GHOST,Special,100,5,10,NearOther,0,bef,Angin yang mengerikan. Dapat meningkatkan semua statistik pengguna.
+178,SHADOWPUNCH,Shadow punch,0A5,60,GHOST,Physical,0,20,0,NearOther,0,abefj,Pukulan dari bayang-bayang yang tak pernah meleset.
+179,HEX,Hex,07F,65,GHOST,Special,100,10,0,NearOther,0,bef,Serangan tanpa henti yang menimbulkan kerusakan besar pada target yang terpengaruh oleh kondisi status.
+180,SHADOWSNEAK,Shadow sneak,000,40,GHOST,Physical,100,30,0,NearOther,1,abef,Memperluas bayangan pengguna untuk menyerang terlebih dahulu.
+181,ASTONISH,Astonish,00F,30,GHOST,Physical,100,15,30,NearOther,0,abe,Pengguna mengejutkan musuh. Dapat menyebabkan tersentak.
+182,LICK,Lick,007,30,GHOST,Physical,100,30,30,NearOther,0,abef,Menyerang dengan lidah. Dapat menyebabkan kelumpuhan.
+183,NIGHTSHADE,Night shade,06D,1,GHOST,Special,100,15,0,NearOther,0,bef,Menciptakan fatamorgana untuk menimbulkan kerusakan yang setara dengan level pengguna.
+184,CONFUSERAY,Confuse ray,013,0,GHOST,Status,100,10,0,NearOther,0,bce,Sinar menyeramkan yang membingungkan target.
+185,CURSE,Curse,10D,0,GHOST,Status,0,10,0,User,0,,"Bekerja secara berbeda untuk Pokémon tipe GHOST. Jika tidak, akan meningkatkan statistik."
+186,DESTINYBOND,Destiny bond,0E7,0,GHOST,Status,0,5,0,User,0,,"Jika pengguna pingsan, musuh yang melakukan KO juga akan pingsan."
+187,GRUDGE,Grudge,0E6,0,GHOST,Status,0,5,0,User,0,,"Jika pengguna pingsan karena suatu gerakan, gerakan tersebut kehilangan semua PP-nya."
+188,NIGHTMARE,Nightmare,10F,0,GHOST,Status,100,15,0,NearOther,0,be,Musuh yang tertidur mengalami mimpi buruk yang menguras PS-nya setiap giliran.
+189,SPITE,Spite,10E,0,GHOST,Status,100,10,0,NearOther,0,bce,Melepaskan dendamnya untuk memotong 4 PP dari gerakan terakhir yang digunakan target.
+190,FRENZYPLANT,Frenzy plant,0C2,150,GRASS,Special,90,5,0,NearOther,0,bef,Dihantam dengan tanaman raksasa. Pengguna tidak dapat bergerak pada giliran berikutnya.
+191,LEAFSTORM,Leaf storm,03F,130,GRASS,Special,90,5,0,NearOther,0,bef,Badai daun tajam yang menurunkan tajam serangan khusus pengguna.
+192,PETALDANCE,Petal dance,0D2,120,GRASS,Special,100,10,0,RandomNearFoe,0,abef,"Menyerang dua hingga tiga putaran dengan kelopak, lalu membingungkan pengguna."
+193,POWERWHIP,Power whip,000,120,GRASS,Physical,85,10,0,NearOther,0,abef,Mengayunkan tanaman merambat atau tentakel dengan keras untuk menyerang sasaran.
+194,SEEDFLARE,Seed flare,04F,120,GRASS,Special,85,5,40,NearOther,0,bef,Gelombang kejut digunakan untuk menyerang. Dapat menurunkan pertahanan khusus musuh.
+195,SOLARBEAM,Solar beam,0C4,120,GRASS,Special,100,10,0,NearOther,0,bef,"Menyerap cahaya pada putaran pertama, lalu menyerang pada putaran kedua."
+196,WOODHAMMER,Wood hammer,0FB,120,GRASS,Physical,100,15,0,NearOther,0,abef,Pengguna membanting tubuh kasarnya ke musuh dan juga terluka.
+197,LEAFBLADE,Leaf blade,000,90,GRASS,Physical,100,15,0,NearOther,0,abefh,Ditebas dengan daun yang tajam. Rasio serangan kritis yang tinggi.
+198,ENERGYBALL,Energy ball,046,90,GRASS,Special,100,10,10,NearOther,0,befn,Mengambil kekuatan dari alam dan menyalakannya. Dapat menurunkan pertahanan khusus.
+199,SEEDBOMB,Seed bomb,000,80,GRASS,Physical,100,15,0,NearOther,0,befn,Menembakkan serangan benih eksplosif ke sasaran.
+200,GIGADRAIN,Giga drain,0DD,90,GRASS,Special,100,10,0,NearOther,0,bef,Serangan yang menguras nutrisi. Pengguna memulihkan setengah dari kerusakan yang ditimbulkan.
+201,HORNLEECH,Horn leech,0DD,75,GRASS,Physical,100,10,0,NearOther,0,abef,Menguras energi target. Memulihkan PS pengguna sebesar setengah kerusakan yang ditimbulkan.
+202,LEAFTORNADO,Leaf tornado,047,65,GRASS,Special,90,10,50,NearOther,0,bef,Memutar musuh dengan daun tajam. Dapat menurunkan akurasinya.
+203,MAGICALLEAF,Magical leaf,0A5,60,GRASS,Special,0,20,0,NearOther,0,bef,Menyebarkan dedaunan aneh yang tak pernah terlewatkan.
+204,NEEDLEARM,Needle arm,00F,60,GRASS,Physical,100,15,30,NearOther,0,abe,Menyerang dengan tangan penuh duri. Mungkin tersentak.
+205,RAZORLEAF,Razor leaf,000,55,GRASS,Physical,95,25,0,AllNearFoes,0,befh,Dipotong dengan daun yang ujungnya tajam. Rasio serangan kritis yang tinggi.
+206,GRASSPLEDGE,Grass pledge,106,80,GRASS,Special,100,10,0,NearOther,0,bef,"Menyerang dengan tiang rumput. Dikombinasikan dengan janji Air, menciptakan rawa."
+207,MEGADRAIN,Mega drain,0DD,40,GRASS,Special,100,15,0,NearOther,0,bef,Serangan yang menguras nutrisi. Pengguna memulihkan setengah dari kerusakan yang ditimbulkan.
+208,VINEWHIP,Vine whip,000,45,GRASS,Physical,100,25,0,NearOther,0,abef,Menyerang musuh dengan tanaman merambat yang ramping dan seperti cambuk.
+209,BULLETSEED,Bullet seed,0C0,25,GRASS,Physical,100,30,0,NearOther,0,befn,Tunas bibit yang dipukul dua sampai lima kali berturut-turut.
+210,ABSORB,Absorb,0DD,20,GRASS,Special,100,25,0,NearOther,0,bef,Serangan yang menguras nutrisi. Pengguna memulihkan setengah dari kerusakan yang ditimbulkan.
+211,GRASSKNOT,Grass knot,09A,1,GRASS,Special,100,20,0,NearOther,0,abef,"Ikat musuh dengan rumput dan tersandung. Semakin berat musuhnya, semakin besar kerusakannya."
+212,AROMATHERAPY,Aromatherapy,019,0,GRASS,Status,0,5,0,UserAndAllies,0,d,Menyembuhkan semua masalah status di party pengguna dengan aroma yang menenangkan.
+213,COTTONGUARD,Cotton guard,038,0,GRASS,Status,0,10,0,User,0,d,Membungkus tubuhnya dengan kapas. Meningkatkan pertahanan secara drastis.
+214,COTTONSPORE,Cotton spore,04D,0,GRASS,Status,100,40,0,AllNearFoes,0,bcel,"Menempelkan spora lengket pada musuh, menurunkan kecepatan secara tajam."
+215,GRASSWHISTLE,Grass whistle,003,0,GRASS,Status,55,15,0,NearOther,0,bcek,Melodi menyenangkan yang menidurkan targetnya.
+216,INGRAIN,Ingrain,0DB,0,GRASS,Status,0,20,0,User,0,d,Meletakkan akar yang memulihkan PS setiap giliran. Pengguna tidak dapat beralih keluar.
+217,LEECHSEED,Leech seed,0DC,0,GRASS,Status,90,10,0,NearOther,0,bce,Menanam benih yang mencuri PS di setiap giliran dan mengembalikannya ke pengguna.
+218,SLEEPPOWDER,Sleep powder,003,0,GRASS,Status,75,15,0,NearOther,0,bcel,Menyebarkan bubuk yang membuat target tertidur.
+219,SPORE,Spore,003,0,GRASS,Status,100,15,0,NearOther,0,bcel,Menyebarkan spora yang menyebabkan tidur.
+220,STUNSPORE,Stun spore,007,0,GRASS,Status,75,30,0,NearOther,0,bcel,Menyebarkan bubuk yang melumpuhkan target.
+221,SYNTHESIS,Synthesis,0D8,0,GRASS,Status,0,5,0,User,0,d,Memulihkan PS; jumlahnya bervariasi tergantung cuaca.
+222,WORRYSEED,Worry seed,064,0,GRASS,Status,100,10,0,NearOther,0,bce,"Menanam benih yang mengganggu musuh, mengubah kemampuannya menjadi Insomnia."
+223,EARTHQUAKE,Earthquake,076,100,GROUND,Physical,100,10,0,AllNearOthers,0,bef,Gempa dahsyat yang menyerang semua Pokémon di dekatnya.
+224,EARTHPOWER,Earth power,046,90,GROUND,Special,100,10,10,NearOther,0,bef,Tanah meletus di bawah musuh. Dapat menurunkan pertahanan khususnya.
+225,DIG,Dig,0CA,80,GROUND,Physical,100,10,0,NearOther,0,abef,"Menggali di bawah tanah pada belokan pertama, lalu menyerang pada belokan berikutnya."
+226,DRILLRUN,Drill run,000,80,GROUND,Physical,95,10,0,NearOther,0,abefh,Berputar seperti bor untuk menyerang. Rasio serangan kritis yang tinggi.
+227,BONECLUB,Bone club,00F,65,GROUND,Physical,85,20,10,NearOther,0,be,Memukul musuh dengan tulang. Dapat menyebabkan tersentak.
+228,MUDBOMB,Mud bomb,047,65,GROUND,Special,85,10,30,NearOther,0,befn,Melemparkan segumpal lumpur. Dapat menurunkan akurasi.
+229,BULLDOZE,Bulldoze,044,60,GROUND,Physical,100,20,100,AllNearOthers,0,bef,"Menginjak tanah, mengenai Pokémon di dekatnya dan menurunkan kecepatannya."
+230,MUDSHOT,Mud shot,044,55,GROUND,Special,95,15,100,NearOther,0,bef,"Melemparkan lumpur ke musuh, menurunkan kecepatan."
+231,BONEMERANG,Bonemerang,0BD,50,GROUND,Physical,90,10,0,NearOther,0,bef,Melempar tulang seperti bumerang yang menyerang dua kali.
+232,SANDTOMB,Sand tomb,0CF,35,GROUND,Physical,85,15,0,NearOther,0,bef,Menjebak musuh dalam badai pasir yang berputar-putar selama empat hingga lima putaran.
+233,BONERUSH,Bone rush,0C0,25,GROUND,Physical,90,10,0,NearOther,0,bef,Pukulan dengan tulang dua sampai lima kali berturut-turut.
+234,MUDSLAP,Mud-slap,047,20,GROUND,Special,100,10,100,NearOther,0,bef,Melemparkan lumpur ke wajah target untuk menurunkan akurasi.
+235,FISSURE,Fissure,070,1,GROUND,Physical,30,5,0,NearOther,0,be,Sebuah retakan besar yang menjadi target KO dalam satu pukulan.
+236,MAGNITUDE,Magnitude,095,1,GROUND,Physical,100,30,0,AllNearOthers,0,bef,Serangan yang menggemparkan dengan intensitas acak.
+237,MUDSPORT,Mud sport,09D,0,GROUND,Status,0,15,0,BothSides,0,,"Menutupi penggunanya dengan lumpur, melemahkan gerakan LISTRIK saat berperang."
+238,SANDATTACK,Sand-attack,047,0,GROUND,Status,100,15,0,NearOther,0,bce,Melemparkan pasir ke wajah target untuk menurunkan akurasi.
+239,SPIKES,Spikes,103,0,GROUND,Status,0,20,0,FoeSide,0,c,Menyebarkan paku di bidang musuh untuk melukai musuh saat mereka beralih.
+240,FREEZESHOCK,Freeze shock,0C5,140,ICE,Physical,90,5,30,NearOther,0,bef,"Di belokan pertama, pengguna mengisi daya dengan listrik sedingin es. Di tikungan kedua, itu menyerang. Mungkin melumpuhkan."
+241,ICEBURN,Ice burn,0C6,140,ICE,Special,90,5,30,NearOther,0,bef,"Di tikungan kedua, pengguna menyerang, membungkus target di udara dingin. Mungkin terbakar."
+242,BLIZZARD,Blizzard,00D,110,ICE,Special,70,5,10,AllNearOthers,0,bef,Badai salju dahsyat yang mungkin membekukan musuh.
+243,ICEBEAM,Ice beam,00C,90,ICE,Special,100,10,10,NearOther,0,bef,Menembakkan sinar es yang mungkin membekukan musuh.
+244,ICICLECRASH,Icicle crash,00F,85,ICE,Physical,90,10,30,NearOther,0,be,Menjatuhkan es besar ke musuh. Mungkin tersentak.
+245,ICEPUNCH,Ice punch,00C,75,ICE,Physical,100,15,10,NearOther,0,abefj,Pukulan dingin yang mungkin membekukan.
+246,AURORABEAM,Aurora beam,042,65,ICE,Special,100,20,10,NearOther,0,bef,Sinar berwarna pelangi yang dapat menurunkan serangan.
+247,GLACIATE,Glaciate,044,65,ICE,Special,95,10,100,AllNearFoes,0,bef,"Meledakkan musuh dengan udara dingin, menurunkan kecepatannya."
+248,ICEFANG,Ice fang,00E,65,ICE,Physical,95,15,10,NearOther,0,abei,Gigitan dengan taring yang mengandung rasa dingin. Mungkin menyentak atau membekukan target.
+249,AVALANCHE,Avalanche,081,60,ICE,Physical,100,10,0,NearOther,-4,abef,Kerusakan ganda jika pengguna menerima kerusakan pada giliran ini.
+250,ICYWIND,Icy wind,044,55,ICE,Special,95,15,100,AllNearFoes,0,bef,Hembusan dingin yang menurunkan kecepatan musuh.
+251,FROSTBREATH,Frost breath,0A0,60,ICE,Special,90,10,0,NearOther,0,bef,Menghembuskan udara dingin. Selalu menghasilkan serangan kritis.
+252,ICESHARD,Ice shard,000,40,ICE,Physical,100,30,0,NearOther,1,bef,Meluncurkan pecahan es dengan kecepatan tinggi. Menyerang lebih dulu.
+253,POWDERSNOW,Powder snow,00C,40,ICE,Special,100,25,10,AllNearFoes,0,bef,Meledakkan musuh dengan hembusan dingin yang mungkin membekukan mereka.
+254,ICEBALL,Ice ball,0D3,30,ICE,Physical,90,20,0,NearOther,0,abefn,Berguling ke musuh selama lima putaran dengan kekuatan yang meningkat.
+255,ICICLESPEAR,Icicle spear,0C0,25,ICE,Physical,100,30,0,NearOther,0,bef,Meluncurkan es dua hingga lima kali berturut-turut.
+256,SHEERCOLD,Sheer cold,070,1,ICE,Special,30,5,0,NearOther,0,be,Serangan dingin yang menyebabkan KO satu pukulan jika mengenai.
+257,HAIL,Hail,102,0,ICE,Status,0,10,0,BothSides,0,,Badai es yang berlangsung selama lima putaran. Merusak semua kecuali tipe ICE.
+258,HAZE,Haze,051,0,ICE,Status,0,30,0,BothSides,0,,Menciptakan kabut yang menghilangkan semua perubahan stat.
+259,MIST,Mist,056,0,ICE,Status,0,30,0,UserSide,0,d,Menyelubungi tim pengguna dalam kabut untuk melindungi statistik selama lima putaran.
+260,EXPLOSION,Explosion,0E0,250,NORMAL,Physical,100,5,0,AllNearOthers,0,bef,Pengguna meledak untuk merusak semua Pokémon di dekatnya dan pingsan.
+261,SELFDESTRUCT,Self-destruct,0E0,200,NORMAL,Physical,100,5,0,AllNearOthers,0,bef,Pengguna meledakkan dirinya sendiri untuk merusak semua Pokémon di dekatnya dan pingsan.
+262,GIGAIMPACT,Giga impact,0C2,150,NORMAL,Physical,90,5,0,NearOther,0,abef,Pukulan dengan kekuatan habis-habisan. Harus istirahat pada giliran berikutnya.
+263,HYPERBEAM,Hyper beam,0C2,150,NORMAL,Special,90,5,0,NearOther,0,bef,Sinar yang kuat. Pengguna tidak dapat melanjutkan pada giliran berikutnya.
+264,LASTRESORT,Last resort,125,140,NORMAL,Physical,100,5,0,NearOther,0,abef,Hanya dapat digunakan setelah semua gerakan lainnya digunakan.
+265,DOUBLEEDGE,Double-edge,0FB,120,NORMAL,Physical,100,15,0,NearOther,0,abef,Tekel nekat yang juga merugikan penggunanya.
+266,HEADCHARGE,Head charge,0FA,120,NORMAL,Physical,100,15,0,NearOther,0,abef,Sebuah pukulan keras di kepala. Pengguna juga menerima kerusakan mundur.
+267,MEGAKICK,Mega kick,000,120,NORMAL,Physical,75,5,0,NearOther,0,abef,Tendangan kuat dengan kekuatan besar.
+268,THRASH,Thrash,0D2,120,NORMAL,Physical,100,10,0,RandomNearFoe,0,abef,"Menyerang dengan liar selama dua hingga tiga putaran, lalu membingungkan."
+269,EGGBOMB,Egg bomb,000,100,NORMAL,Physical,75,10,0,NearOther,0,befn,Melempar telur ke sasaran dengan kekuatan besar.
+270,JUDGMENT,Judgment,09F,100,NORMAL,Special,100,10,0,NearOther,0,bef,Melepaskan sinar cahaya yang tak terhitung jumlahnya. Jenisnya bervariasi berdasarkan Pelat yang dipegang pengguna.
+271,SKULLBASH,Skull bash,0C8,130,NORMAL,Physical,100,10,0,NearOther,0,abef,"Meningkatkan pertahanan pada giliran pertama, lalu menyerang pada giliran berikutnya."
+272,HYPERVOICE,Hyper voice,000,90,NORMAL,Special,100,10,0,AllNearFoes,0,befk,Melepaskan teriakan yang sangat keras dan melukai musuh.
+273,ROCKCLIMB,Rock climb,013,90,NORMAL,Physical,85,20,20,NearOther,0,abef,Serangan menyerang yang mungkin membingungkan musuh.
+274,TAKEDOWN,Take down,0FA,90,NORMAL,Physical,85,20,0,NearOther,0,abef,Serangan serangan sembrono yang juga sedikit merugikan penggunanya.
+275,UPROAR,Uproar,0D1,90,NORMAL,Special,100,10,0,RandomNearFoe,0,befk,Mengamuk tiga putaran. Mencegah tidur di antara semua kombatan.
+276,BODYSLAM,Body slam,007,85,NORMAL,Physical,100,15,30,NearOther,0,abef,Melemparkan seluruh tubuhnya ke arah musuh. Mungkin melumpuhkan.
+277,TECHNOBLAST,Techno blast,09F,120,NORMAL,Special,100,5,0,NearOther,0,bef,Menyerang dengan sinar dari meriamnya. Ketik perubahan berdasarkan Drive yang dipegang.
+278,EXTREMESPEED,Extreme speed,000,80,NORMAL,Physical,100,5,0,NearOther,2,abef,Sebuah langkah sangat cepat yang selalu didahulukan.
+279,HYPERFANG,Hyper fang,00F,80,NORMAL,Physical,90,15,10,NearOther,0,abe,Menggigit dengan cepat dengan taringnya. Dapat menyebabkan tersentak.
+280,MEGAPUNCH,Mega punch,000,80,NORMAL,Physical,85,20,0,NearOther,0,abefj,Pukulan kuat yang dilontarkan dengan kekuatan penuh otot.
+281,RAZORWIND,Razor wind,0C3,80,NORMAL,Special,100,10,0,AllNearFoes,0,befh,"Menyerang pada giliran pertama, lalu menyerang pada giliran berikutnya. Rasio serangan kritis yang tinggi."
+282,SLAM,Slam,000,80,NORMAL,Physical,75,20,0,NearOther,0,abef,"Membanting musuh dengan ekor panjang, tanaman merambat, atau sejenisnya."
+283,STRENGTH,Strength,000,80,NORMAL,Physical,100,15,0,NearOther,0,abef,Pukulan yang kuat. Digunakan di luar pertempuran untuk memindahkan batu besar.
+284,TRIATTACK,Tri attack,017,80,NORMAL,Special,100,10,20,NearOther,0,bef,"Menembakkan tiga sinar yang dapat melumpuhkan, membakar, atau membekukan musuh."
+285,CRUSHCLAW,Crush claw,043,75,NORMAL,Physical,95,10,50,NearOther,0,abef,Merobek musuh dengan cakar yang tajam. Dapat menurunkan pertahanannya.
+286,RELICSONG,Relic song,003,75,NORMAL,Special,100,10,100,AllNearFoes,0,befk,Menyerang musuh di sekitarnya dengan lagu kuno. Mungkin membuat mereka tertidur.
+287,CHIPAWAY,Chip away,0A9,70,NORMAL,Physical,100,20,0,NearOther,0,abef,Menyerang perubahan stat target untuk menimbulkan kerusakan.
+288,DIZZYPUNCH,Dizzy punch,013,70,NORMAL,Physical,100,10,20,NearOther,0,abefj,Pukulan berirama yang mungkin membingungkan musuh.
+289,FACADE,Facade,07E,70,NORMAL,Physical,100,20,0,NearOther,0,abef,"Kekuatannya berlipat ganda jika penggunanya terbakar, lumpuh, atau diracuni."
+290,HEADBUTT,Headbutt,00F,70,NORMAL,Physical,100,15,30,NearOther,0,abe,Sundulan keras yang mungkin membuat musuh tersentak.
+291,RETALIATE,Retaliate,085,70,NORMAL,Physical,100,5,0,NearOther,0,abef,Serangan yang memperoleh kekuatan jika sekutunya pingsan pada giliran terakhir.
+292,SECRETPOWER,Secret power,0A4,70,NORMAL,Physical,100,20,30,NearOther,0,be,Serangan yang efek sekundernya bervariasi menurut medan.
+293,SLASH,Slash,000,70,NORMAL,Physical,100,20,0,NearOther,0,abefh,Tebasan dengan cakar atau sabit. Rasio serangan kritis yang tinggi.
+294,HORNATTACK,Horn attack,000,65,NORMAL,Physical,100,25,0,NearOther,0,abef,Menusuk musuh dengan terompet.
+295,STOMP,Stomp,010,65,NORMAL,Physical,100,20,30,NearOther,0,abe,Musuh diinjak dengan kaki yang besar. Mungkin tersentak.
+296,COVET,Covet,0F1,60,NORMAL,Physical,100,25,0,NearOther,0,abef,"Mendekati dengan manis, lalu menyerang dan mungkin mencuri barang yang dipegang musuh."
+297,ROUND,Round,083,60,NORMAL,Special,100,15,0,NearOther,0,befk,Pengguna menyerang dengan sebuah lagu. Kekuatan meningkat jika lebih banyak Pokémon yang menggunakannya.
+298,SMELLINGSALTS,Smelling salts,07C,70,NORMAL,Physical,100,10,0,NearOther,0,abef,"Kerusakan ganda pada musuh yang lumpuh, tetapi juga menyembuhkan kelumpuhan."
+299,SWIFT,Swift,0A5,60,NORMAL,Special,0,20,0,AllNearFoes,0,bef,Sinar berbentuk bintang yang tak pernah meleset.
+300,VICEGRIP,Vise grip,000,55,NORMAL,Physical,100,30,0,NearOther,0,abef,Mencengkeram musuh dari kedua sisi dengan penjepit.
+301,CUT,Cut,000,50,NORMAL,Physical,95,30,0,NearOther,0,abef,"Dipotong dengan sabit, cakar, dll. Juga digunakan untuk menebang pohon kecil."
+302,STRUGGLE,Struggle,002,50,NORMAL,Physical,0,1,0,RandomNearFoe,0,abf,Hanya digunakan jika semua gerakan di luar PP. Sedikit menyakiti pengguna.
+303,TACKLE,Tackle,000,40,NORMAL,Physical,100,35,0,NearOther,0,abef,Menyerang musuh dengan seluruh tubuh.
+304,WEATHERBALL,Weather ball,087,50,NORMAL,Special,100,10,0,NearOther,0,befn,Jenis dan daya berubah seiring cuaca.
+305,ECHOEDVOICE,Echoed voice,092,40,NORMAL,Special,100,15,0,NearOther,0,befk,Serangan gema yang semakin kuat jika digunakan berulang kali.
+306,FAKEOUT,Fake out,012,40,NORMAL,Physical,100,10,100,NearOther,3,abe,Pukul lebih dulu dan membuat musuh tersentak. Hanya berfungsi pada putaran pertama.
+307,FALSESWIPE,False swipe,0E9,40,NORMAL,Physical,100,40,0,NearOther,0,abef,Serangan terkendali yang meninggalkan musuh dengan setidaknya 1 PS.
+308,PAYDAY,Pay day,109,40,NORMAL,Physical,100,20,0,NearOther,0,bef,Melempar koin yang kemudian diambil untuk mendapatkan uang.
+309,POUND,Pound,000,40,NORMAL,Physical,100,35,0,NearOther,0,abef,Pukul musuh dengan kaki depan atau ekor.
+310,QUICKATTACK,Quick attack,000,40,NORMAL,Physical,100,30,0,NearOther,1,abef,Serangan yang sangat cepat dan selalu menyerang lebih dulu.
+311,SCRATCH,Scratch,000,40,NORMAL,Physical,100,35,0,NearOther,0,abef,Goresan dengan cakar yang tajam.
+312,SNORE,Snore,011,50,NORMAL,Special,100,15,30,NearOther,0,bek,Mendengkur keras yang wajib digunakan saat tidur. Dapat menyebabkan tersentak.
+313,DOUBLEHIT,Double hit,0BD,35,NORMAL,Physical,90,10,0,NearOther,0,abef,Menyerang musuh dua kali berturut-turut dengan ekor atau bagian lainnya.
+314,FEINT,Feint,0AD,30,NORMAL,Physical,100,10,0,NearOther,2,f,Menekan Perlindungan atau Deteksi dan membatalkannya.
+315,TAILSLAP,Tail slap,0C0,25,NORMAL,Physical,85,10,0,NearOther,0,abef,Menyerang dua sampai lima kali dengan ekor atau bagian tubuh lainnya.
+316,RAGE,Rage,093,20,NORMAL,Physical,100,20,0,NearOther,0,abef,"Setelah digunakan, jika pengguna menerima pukulan, serangannya meningkat."
+317,RAPIDSPIN,Rapid spin,110,50,NORMAL,Physical,100,40,0,NearOther,0,abef,"Berputar untuk menghilangkan gerakan seperti Bind, Wrap, Leech seed, dan Spikes."
+318,SPIKECANNON,Spike cannon,0C0,20,NORMAL,Physical,100,15,0,NearOther,0,bef,Paku tajam yang menyerang dua hingga lima kali.
+319,COMETPUNCH,Comet punch,0C0,18,NORMAL,Physical,85,15,0,NearOther,0,abefj,Meninju musuh dua hingga lima kali berturut-turut dengan cepat.
+320,FURYSWIPES,Fury swipes,0C0,18,NORMAL,Physical,80,15,0,NearOther,0,abef,Menggaruk musuh dengan cakar dua sampai lima kali.
+321,BARRAGE,Barrage,0C0,15,NORMAL,Physical,85,20,0,NearOther,0,befn,Melemparkan benda bulat dua sampai lima kali ke sasaran.
+322,BIND,Bind,0CF,15,NORMAL,Physical,85,20,0,NearOther,0,abef,Mengikat dan menekan musuh selama empat hingga lima putaran.
+323,DOUBLESLAP,Double slap,0C0,15,NORMAL,Physical,85,10,0,NearOther,0,abef,Menampar musuh dua hingga lima kali berturut-turut dengan cepat.
+324,FURYATTACK,Fury attack,0C0,15,NORMAL,Physical,85,20,0,NearOther,0,abef,Menusuk musuh dua sampai lima kali dengan tanduk atau paruh.
+325,WRAP,Wrap,0CF,15,NORMAL,Physical,90,20,0,NearOther,0,abef,Membungkus dan menekan musuh selama empat hingga lima putaran.
+326,CONSTRICT,Constrict,044,10,NORMAL,Physical,100,35,10,NearOther,0,abef,Menyempit untuk melukai musuh. Dapat menurunkan kecepatan.
+327,BIDE,Bide,0D4,1,NORMAL,Physical,0,10,0,None,1,abf,"Menahan serangan selama dua putaran, lalu menyerang balik dua kali lipat."
+328,CRUSHGRIP,Crush grip,08C,1,NORMAL,Physical,100,5,0,NearOther,0,abef,"Musuh dihancurkan dengan kekuatan besar. Semakin banyak PS yang dimiliki musuh, maka semakin kuat pula musuh tersebut."
+329,ENDEAVOR,Endeavor,06E,1,NORMAL,Physical,100,5,0,NearOther,0,abef,Memotong PS musuh agar sesuai dengan PS pengguna saat ini.
+330,FLAIL,Flail,098,1,NORMAL,Physical,100,15,0,NearOther,0,abef,Serangan putus asa yang meningkatkan kekuatan semakin sedikit PS yang dimiliki pengguna.
+331,FRUSTRATION,Frustration,08A,1,NORMAL,Physical,100,20,0,NearOther,0,abef,Kekuatan menjadi kurang bersahabat antara pengguna dengan Pelatih.
+332,GUILLOTINE,Guillotine,070,1,NORMAL,Physical,30,5,0,NearOther,0,abe,"KO sekali pukul jika mengenai, menggunakan penjepit seperti guillotine."
+333,HIDDENPOWER,Hidden power,090,60,NORMAL,Special,100,15,0,NearOther,0,bef,Serangan unik yang jenis dan kekuatannya berbeda-beda tergantung penggunanya.
+334,HORNDRILL,Horn drill,070,1,NORMAL,Physical,30,5,0,NearOther,0,abe,"KO sekali pukul jika mengenai, menggunakan klakson seperti bor."
+335,NATURALGIFT,Natural gift,096,1,NORMAL,Physical,100,15,0,NearOther,0,be,Pengguna mengambil kekuatan dari Berry yang dipegangnya untuk menyerang. Jenis dan kekuatannya bergantung pada Berry.
+336,PRESENT,Present,094,1,NORMAL,Physical,90,15,0,NearOther,0,be,Hadiah dengan bom. Terkadang memulihkan PS target.
+337,RETURN,Return,089,1,NORMAL,Physical,100,20,0,NearOther,0,abef,"Semakin bahagia pengguna dengan Pelatih, semakin kuat gerakan ini."
+338,SONICBOOM,Sonic boom,06A,1,NORMAL,Special,90,20,0,NearOther,0,bef,Meluncurkan gelombang kejut yang selalu menimbulkan kerusakan sebesar 20 PS.
+339,SPITUP,Spit up,113,1,NORMAL,Special,100,10,0,NearOther,0,bf,Melepaskan daya yang tersimpan dari Stockpile sekaligus.
+340,SUPERFANG,Super fang,06C,1,NORMAL,Physical,90,10,0,NearOther,0,abef,Taring tajam yang mengurangi separuh PS target saat ini.
+341,TRUMPCARD,Trump card,097,1,NORMAL,Special,0,5,0,NearOther,0,abef,Lebih sedikit PP berarti lebih banyak kekuatan.
+342,WRINGOUT,Wring out,08C,1,NORMAL,Special,100,5,0,NearOther,0,abef,"Meremas musuh. Semakin banyak PS yang dimiliki musuh, maka semakin kuat jadinya."
+343,ACUPRESSURE,Acupressure,037,0,NORMAL,Status,0,30,0,UserOrNearAlly,0,,"Menerapkan tekanan pada titik stres, meningkatkan salah satu statistiknya secara tajam."
+344,AFTERYOU,After you,11D,0,NORMAL,Status,0,15,0,NearOther,0,,Pengguna membantu target berikutnya tepat setelah pengguna.
+345,ASSIST,Assist,0B5,0,NORMAL,Status,0,20,0,User,0,,Secara acak menggunakan salah satu gerakan yang diketahui dari pihak pengguna.
+346,ATTRACT,Attract,016,0,NORMAL,Status,100,15,0,User,0,bce,"Jika musuhnya adalah lawan jenis, ia menjadi tergila-gila dan kecil kemungkinannya untuk menyerang."
+347,BATONPASS,Baton pass,0ED,0,NORMAL,Status,0,40,0,User,0,,Beralih saat meneruskan perubahan stat.
+348,BELLYDRUM,Belly drum,03A,0,NORMAL,Status,0,10,0,User,0,d,Mengorbankan setengah PS maksimalnya untuk memaksimalkan serangan.
+349,BESTOW,Bestow,0F3,0,NORMAL,Status,0,15,0,NearOther,0,be,Memberikan item yang dipegang pengguna ke target jika tidak ada.
+350,BLOCK,Block,0EF,0,NORMAL,Status,0,5,0,NearOther,0,bce,Menghalangi jalan musuh untuk mencegah pelarian.
+351,CAMOUFLAGE,Camouflage,060,0,NORMAL,Status,0,20,0,User,0,d,Mengubah tipe pengguna berdasarkan medan.
+352,CAPTIVATE,Captivate,04E,0,NORMAL,Status,100,20,0,AllNearFoes,0,bce,Menurunkan serangan khusus musuh lawan jenis secara drastis.
+353,CHARM,Charm,04B,0,FAIRY,Status,100,20,0,NearOther,0,bce,"Memesona musuh, menurunkan serangannya dengan keras."
+354,CONVERSION,Conversion,05E,0,NORMAL,Status,0,30,0,User,0,d,Mengubah tipe pengguna agar sesuai dengan salah satu gerakannya.
+355,CONVERSION2,Conversion2,05F,0,NORMAL,Status,0,30,0,NearOther,0,,Pengguna mengubah tipenya untuk melawan gerakan terakhir yang digunakan musuh.
+356,COPYCAT,Copycat,0AE,0,NORMAL,Status,0,20,0,User,0,,Menyalin gerakan terakhir yang digunakan dalam pertempuran.
+357,DEFENSECURL,Defense curl,01E,0,NORMAL,Status,0,40,0,User,0,d,Meringkuk untuk menyembunyikan titik lemah dan meningkatkan pertahanan.
+358,DISABLE,Disable,0B9,0,NORMAL,Status,100,20,0,NearOther,0,bce,"Selama empat putaran, menonaktifkan gerakan yang terakhir digunakan musuh."
+359,DOUBLETEAM,Double team,022,0,NORMAL,Status,0,15,0,User,0,d,Menciptakan ilusi dirinya sendiri untuk meningkatkan penghindaran.
+360,ENCORE,Encore,0BC,0,NORMAL,Status,100,5,0,NearOther,0,bce,Membuat musuh mengulangi gerakan terakhirnya selama tiga putaran.
+361,ENDURE,Endure,0E8,0,NORMAL,Status,0,10,0,User,3,,Bersiap untuk bertahan dari serangan apa pun dengan setidaknya 1 PS. Tingkat keberhasilan menurun jika digunakan berulang kali.
+362,ENTRAINMENT,Entrainment,066,0,NORMAL,Status,100,15,0,NearOther,0,bce,"Menari dengan aneh, membuat pengguna dan musuh memiliki kemampuan yang sama."
+363,FLASH,Flash,047,0,NORMAL,Status,100,20,0,NearOther,0,bce,Kehilangan kilatan cahaya untuk menurunkan akurasi. Digunakan di luar untuk menerangi gua yang gelap.
+364,FOCUSENERGY,Focus energy,023,0,NORMAL,Status,0,30,0,User,0,d,Pengguna menarik napas dalam-dalam untuk meningkatkan rasio serangan kritisnya.
+365,FOLLOWME,Follow me,117,0,NORMAL,Status,0,20,0,User,2,,Menarik perhatian untuk membuat musuh hanya menyerang penggunanya.
+366,FORESIGHT,Foresight,0A7,0,NORMAL,Status,0,40,0,NearOther,0,bce,Memungkinkan gerakan Normal dan Pertarungan untuk mengenai tipe GHOST. Juga mengatur ulang peningkatan penghindaran.
+367,GLARE,Glare,007,0,NORMAL,Status,100,30,0,NearOther,0,bce,"Mengintimidasi musuh dengan tatapan pengguna, membuatnya lumpuh."
+368,GROWL,Growl,042,0,NORMAL,Status,100,40,0,AllNearFoes,0,bcek,Geraman lucu yang menurunkan serangan musuh.
+369,GROWTH,Growth,028,0,NORMAL,Status,0,20,0,User,0,d,"Memaksa tubuhnya untuk tumbuh, meningkatkan serangan dan serangan khusus."
+370,HARDEN,Harden,01D,0,NORMAL,Status,0,30,0,User,0,d,Memperkuat semua otot untuk meningkatkan pertahanan.
+371,HEALBELL,Heal bell,019,0,NORMAL,Status,0,5,0,UserAndAllies,0,d,Lonceng menenangkan yang menyembuhkan masalah status pihak pengguna.
+372,HELPINGHAND,Helping hand,09C,0,NORMAL,Status,0,20,0,NearAlly,5,,Meningkatkan kekuatan gerakan sekutu.
+373,HOWL,Howl,01C,0,NORMAL,Status,0,40,0,UserAndAllies,0,d,Mengeluarkan lolongan yang meningkatkan status serangan.
+374,LEER,Leer,043,0,NORMAL,Status,100,30,0,AllNearFoes,0,bce,Memberikan tampilan melirik yang menurunkan pertahanan musuh.
+375,LOCKON,Lock-on,0A6,0,NORMAL,Status,0,5,0,NearOther,0,be,"Mengunci musuh, menjamin gerakan selanjutnya berhasil."
+376,LOVELYKISS,Lovely kiss,003,0,NORMAL,Status,75,10,0,NearOther,0,bce,Ciuman berwajah menakutkan yang menidurkan musuh hingga tertidur lelap.
+377,LUCKYCHANT,Lucky chant,0A1,0,NORMAL,Status,0,30,0,UserSide,0,d,Mencegah Pokémon sekutu menerima serangan kritis selama lima putaran.
+378,MEFIRST,Me first,0B0,0,NORMAL,Status,0,20,0,NearFoe,0,b,"Jika pengguna lebih cepat, ia mencoba menggunakan gerakan yang diinginkan target dengan kekuatan lebih besar. Gagal jika pengguna lebih lambat."
+379,MEANLOOK,Mean look,0EF,0,NORMAL,Status,0,5,0,NearOther,0,bce,Memperbaiki musuh dengan tampilan yang mencegah pelarian.
+380,METRONOME,Metronome,0B6,0,NORMAL,Status,0,10,0,User,0,,Menggoyangkan jari untuk menggunakan hampir semua gerakan secara acak.
+381,MILKDRINK,Milk drink,0D5,0,NORMAL,Status,0,10,0,User,0,d,Memulihkan hingga setengah PS maksimal pengguna. Dapat juga menyembuhkan PS sekutu di luar pertempuran.
+382,MIMIC,Mimic,05C,0,NORMAL,Status,0,10,0,NearOther,0,b,Menyalin gerakan terakhir target. Jurus itu dapat digunakan hingga penggunanya meninggalkan pertempuran.
+383,MINDREADER,Mind reader,0A6,0,NORMAL,Status,0,5,0,NearOther,0,be,Merasakan tindakan musuh untuk memastikan serangan berikutnya terjadi.
+384,MINIMIZE,Minimize,034,0,NORMAL,Status,0,10,0,User,0,d,Pengguna menekan tubuhnya untuk meningkatkan penghindaran secara tajam.
+385,MOONLIGHT,Moonlight,0D8,0,FAIRY,Status,0,5,0,User,0,d,Memulihkan PS pengguna; jumlahnya tergantung pada cuaca.
+386,MORNINGSUN,Morning sun,0D8,0,NORMAL,Status,0,5,0,User,0,d,Memulihkan PS pengguna; jumlahnya tergantung pada cuaca.
+387,NATUREPOWER,Nature power,0B3,0,NORMAL,Status,0,20,0,NearOther,0,,Jenis dan efeknya bervariasi menurut medan.
+388,ODORSLEUTH,Odor sleuth,0A7,0,NORMAL,Status,0,40,0,NearOther,0,bce,Mengaktifkan gerakan Normal dan Pertarungan untuk mencapai tipe GHOST. Menyetel ulang penghindaran.
+389,PAINSPLIT,Pain split,05A,0,NORMAL,Status,0,20,0,NearOther,0,be,"Rata-ratakan PS pengguna dan musuh, lalu distribusikan ulang."
+390,PERISHSONG,Perish song,0E5,0,NORMAL,Status,0,5,0,AllBattlers,0,k,Setiap Pokémon yang mendengar ini akan pingsan dalam tiga putaran kecuali jika dimatikan.
+391,PROTECT,Protect,0AA,0,NORMAL,Status,0,10,0,User,4,,Menghindari serangan. Tingkat keberhasilan menurun jika digunakan secara berurutan.
+392,PSYCHUP,Psych up,055,0,NORMAL,Status,0,10,0,NearOther,0,,Menghipnotis dirinya sendiri untuk meniru perubahan stat musuh saat ini.
+393,RECOVER,Recover,0D5,0,NORMAL,Status,0,10,0,User,0,d,Memulihkan hingga setengah dari PS maksimumnya.
+394,RECYCLE,Recycle,0F6,0,NORMAL,Status,0,10,0,User,0,d,Mendaur ulang barang sekali pakai untuk digunakan kembali.
+395,REFLECTTYPE,Reflect type,062,0,NORMAL,Status,0,15,0,NearOther,0,b,"Pengguna mencerminkan tipe musuh, menjadi tipe itu."
+396,REFRESH,Refresh,018,0,NORMAL,Status,0,20,0,User,0,d,"Menyembuhkan luka bakar, kelumpuhan, atau racun pengguna."
+397,ROAR,Roar,0EB,0,NORMAL,Status,0,20,0,NearOther,-6,bcek,Membuat musuh keluar. Mengakhiri pertempuran liar.
+398,SAFEGUARD,Safeguard,01A,0,NORMAL,Status,0,25,0,UserSide,0,d,Bidang pelindung yang mencegah masalah status selama lima putaran.
+399,SCARYFACE,Scary face,04D,0,NORMAL,Status,100,10,0,NearOther,0,bce,"Menakut-nakuti musuh, menurunkan kecepatan secara tajam."
+400,SCREECH,Screech,04C,0,NORMAL,Status,85,40,0,NearOther,0,bcek,Mengeluarkan pekikan yang menurunkan pertahanan secara tajam.
+401,SHARPEN,Sharpen,01C,0,NORMAL,Status,0,30,0,User,0,d,Memoles tepi pengguna untuk meningkatkan serangan.
+402,SHELLSMASH,Shell smash,035,0,NORMAL,Status,0,15,0,User,0,d,"Menghancurkan cangkangnya, menurunkan pertahanan dan pertahanan khusus tetapi meningkatkan serangan, serangan khusus, dan kecepatan dengan tajam."
+403,SIMPLEBEAM,Simple beam,063,0,NORMAL,Status,100,15,0,NearOther,0,bce,Mengirimkan gelombang psikis misterius yang mengubah kemampuan musuh menjadi Sederhana.
+404,SING,Sing,003,0,NORMAL,Status,55,15,0,NearOther,0,bcek,Lagu pengantar tidur yang menenangkan yang membuat musuh tertidur.
+405,SKETCH,Sketch,05D,0,NORMAL,Status,0,1,0,NearOther,0,,Menyalin gerakan terakhir musuh secara permanen. Penggunaan satu kali.
+406,SLACKOFF,Slack off,0D5,0,NORMAL,Status,0,10,0,User,0,d,"Pengguna mengendur, memulihkan hingga setengah dari PS maksimalnya."
+407,SLEEPTALK,Sleep talk,0B4,0,NORMAL,Status,0,10,0,User,0,,Menggunakan salah satu gerakannya secara acak saat tidur.
+408,SMOKESCREEN,Smokescreen,047,0,NORMAL,Status,100,20,0,NearOther,0,bce,Menurunkan akurasi dengan kepulan asap atau tinta.
+409,SOFTBOILED,Soft-boiled,0D5,0,NORMAL,Status,0,10,0,User,0,d,Memulihkan setengah PS maksimal pengguna. Dapat juga menyembuhkan PS sekutu di luar pertempuran.
+410,SPLASH,Splash,001,0,NORMAL,Status,0,40,0,User,0,,Sama sekali tidak melakukan apa pun. Hanya memercik ke mana-mana.
+411,STOCKPILE,Stockpile,112,0,NORMAL,Status,0,20,0,User,0,d,Mengisi daya dan meningkatkan pertahanan dan pertahanan khusus. Dapat digunakan hingga tiga kali.
+412,SUBSTITUTE,Substitute,10C,0,NORMAL,Status,0,10,0,User,0,d,Menggunakan beberapa PS untuk membuat umpan yang menerima pukulan bagi pengguna.
+413,SUPERSONIC,Supersonic,013,0,NORMAL,Status,55,20,0,NearOther,0,bcek,Menghasilkan gelombang suara aneh yang membingungkan musuh.
+414,SWAGGER,Swagger,041,0,NORMAL,Status,85,15,0,NearOther,0,bce,Membuat marah dan membingungkan musuh namun meningkatkan serangannya dengan tajam.
+415,SWALLOW,Swallow,114,0,NORMAL,Status,0,10,0,User,0,d,"Menyerap tenaga yang ditimbun, memulihkan PS."
+416,SWEETKISS,Sweet kiss,013,0,FAIRY,Status,75,10,0,NearOther,0,bce,Memberikan ciuman manis yang membingungkan musuh.
+417,SWEETSCENT,Sweet scent,048,0,NORMAL,Status,100,20,0,AllNearFoes,0,bce,"Menelan musuh dengan aroma manis, menurunkan penghindaran. Juga memikat Pokémon liar."
+418,SWORDSDANCE,Swords dance,02E,0,NORMAL,Status,0,20,0,User,0,d,Sebuah tarian hingar bingar yang meningkatkan serangan secara tajam.
+419,TAILWHIP,Tail whip,043,0,NORMAL,Status,100,30,0,AllNearFoes,0,bce,Mengibaskan ekornya dengan manis untuk menurunkan pertahanan.
+420,TEETERDANCE,Teeter dance,013,0,NORMAL,Status,100,20,0,AllNearFoes,0,bce,Tarian goyah yang membingungkan semua musuh di dekatnya.
+421,TICKLE,Tickle,04A,0,NORMAL,Status,100,20,0,NearOther,0,bce,"Membuat musuh tertawa, menurunkan serangan dan pertahanan."
+422,TRANSFORM,Transform,069,0,NORMAL,Status,0,10,0,NearOther,0,,Mengubah sel pengguna menjadi salinan musuh.
+423,WHIRLWIND,Whirlwind,0EB,0,NORMAL,Status,0,20,0,NearOther,-6,bce,"Menghantam musuh, memaksa tombol. Mengakhiri pertempuran liar."
+424,WISH,Wish,0D7,0,NORMAL,Status,0,10,0,User,0,d,Sebuah keinginan yang memulihkan setengah dari PS maksimal pengguna pada giliran berikutnya.
+425,WORKUP,Work up,027,0,NORMAL,Status,0,30,0,User,0,d,"Pengguna dibangkitkan, meningkatkan serangan dan serangan khusus."
+426,YAWN,Yawn,004,0,NORMAL,Status,0,10,0,NearOther,0,bce,Menguap besar yang menidurkan musuh pada giliran berikutnya.
+427,GUNKSHOT,Gunk shot,005,120,POISON,Physical,80,5,30,NearOther,0,bef,Meluncurkan sampah kotor ke arah musuh. Mungkin racun.
+428,SLUDGEWAVE,Sludge wave,005,95,POISON,Special,100,10,10,AllNearFoes,0,bef,Gelombang lumpur yang menghantam musuh di dekatnya. Mungkin racun.
+429,SLUDGEBOMB,Sludge bomb,005,90,POISON,Special,100,10,30,NearOther,0,befn,Tembakan lemah yang mungkin meracuni musuh.
+430,POISONJAB,Poison jab,005,80,POISON,Physical,100,20,30,NearOther,0,abef,Menusuk musuh dengan lengan atau tentakel beracun. Mungkin racun.
+431,CROSSPOISON,Cross poison,005,70,POISON,Physical,100,20,10,NearOther,0,abefh,Tebasan yang mungkin meracuni musuh. Rasio serangan kritis yang tinggi.
+432,SLUDGE,Sludge,005,65,POISON,Special,100,20,30,NearOther,0,bef,Melemparkan lumpur ke arah musuh. Mungkin racun.
+433,VENOSHOCK,Venoshock,07B,65,POISON,Special,100,10,0,NearOther,0,bef,Serangan yang memberikan damage ganda jika target sudah terkena racun.
+434,CLEARSMOG,Clear smog,050,50,POISON,Special,0,15,0,NearOther,0,bef,Menyerang dengan kabut aneh yang mengatur ulang semua perubahan stat.
+435,POISONFANG,Poison fang,006,50,POISON,Physical,100,15,30,NearOther,0,abefi,Taring tajam yang bisa meracuni musuh.
+436,POISONTAIL,Poison tail,005,50,POISON,Physical,100,25,10,NearOther,0,abefh,Mungkin beracun dan memiliki rasio serangan kritis yang tinggi.
+437,ACID,Acid,046,40,POISON,Special,100,30,10,AllNearFoes,0,bef,Menyemprotkan asam korosif. Dapat menurunkan pertahanan khusus.
+438,ACIDSPRAY,Acid spray,04F,40,POISON,Special,100,20,100,NearOther,0,befn,"Menyerang dengan asam korosif, menurunkan pertahanan khusus secara tajam."
+439,SMOG,Smog,005,30,POISON,Special,70,20,40,NearOther,0,bef,Menyerang dengan awan gas beracun. Mungkin racun.
+440,POISONSTING,Poison sting,005,15,POISON,Physical,100,35,30,NearOther,0,bef,Menusuk dengan alat penyengat beracun. Mungkin meracuni musuh.
+441,ACIDARMOR,Acid armor,02F,0,POISON,Status,0,20,0,User,0,d,Mengubah sel pengguna untuk mencairkan dan meningkatkan pertahanan secara tajam.
+442,COIL,Coil,025,0,POISON,Status,0,20,0,User,0,d,"Melingkar untuk meningkatkan serangan, pertahanan, dan akurasi."
+443,GASTROACID,Gastro acid,068,0,POISON,Status,100,10,0,NearOther,0,bce,Menyemprot musuh dengan asam yang membatalkan kemampuannya.
+444,POISONGAS,Poison gas,005,0,POISON,Status,90,40,0,AllNearFoes,0,bce,"Menyelimuti musuh dengan gas beracun, menyebabkan keracunan."
+445,POISONPOWDER,Poison powder,005,0,POISON,Status,75,35,0,NearOther,0,bcel,Menyebarkan bubuk beracun yang meracuni musuh.
+446,TOXIC,Toxic,006,0,POISON,Status,90,10,0,NearOther,0,bce,"Meracuni musuh dengan parah, menimbulkan lebih banyak kerusakan di setiap giliran."
+447,TOXICSPIKES,Toxic spikes,104,0,POISON,Status,0,20,0,FoeSide,0,c,Menyebarkan paku beracun yang meracuni musuh saat mereka masuk.
+448,PSYCHOBOOST,Psycho boost,03F,140,PSYCHIC,Special,90,5,0,NearOther,0,bef,Serangan psikis brutal yang menurunkan tajam serangan khusus pengguna.
+449,DREAMEATER,Dream eater,0DE,100,PSYCHIC,Special,100,15,0,NearOther,0,bef,Menyerap setengah kerusakan yang ditimbulkan pada musuh yang tertidur.
+450,FUTURESIGHT,Future sight,111,120,PSYCHIC,Special,100,10,0,NearOther,0,,"Terkunci di tikungan pertama, lalu mengenai dua putaran lagi."
+451,PSYSTRIKE,Psystrike,122,100,PSYCHIC,Special,100,10,0,NearOther,0,bef,Gelombang psikis yang memberikan kerusakan berdasarkan pertahanan musuh.
+452,PSYCHIC,Psychic,046,90,PSYCHIC,Special,100,10,10,NearOther,0,bef,Serangan telekinetik kuat yang mungkin menurunkan pertahanan khusus musuh.
+453,EXTRASENSORY,Extrasensory,00F,80,PSYCHIC,Special,100,20,10,NearOther,0,be,Menyerang dengan kekuatan aneh. Dapat menyebabkan tersentak.
+454,PSYSHOCK,Psyshock,122,80,PSYCHIC,Special,100,10,0,NearOther,0,bef,"Menyerang target dengan kekuatan psikis, menimbulkan kerusakan fisik."
+455,ZENHEADBUTT,Zen headbutt,00F,80,PSYCHIC,Physical,90,15,20,NearOther,0,abe,Memfokuskan kekuatan psikis di kepala. Dapat menyebabkan tersentak.
+456,LUSTERPURGE,Luster purge,046,70,PSYCHIC,Special,100,5,50,NearOther,0,bef,Semburan cahaya yang mungkin menurunkan pertahanan khusus musuh.
+457,MISTBALL,Mist ball,045,70,PSYCHIC,Special,100,5,50,NearOther,0,befn,Menyerang dengan kabut halus. Dapat menurunkan serangan khusus musuh.
+458,PSYCHOCUT,Psycho cut,000,70,PSYCHIC,Physical,100,20,0,NearOther,0,befh,Air mata dengan pisau psikis. Rasio serangan kritis yang tinggi.
+459,SYNCHRONOISE,Synchronoise,123,120,PSYCHIC,Special,100,10,0,AllNearOthers,0,bef,Gelombang kejut aneh yang hanya merusak Pokémon bertipe sama dengan penggunanya.
+460,PSYBEAM,Psybeam,013,65,PSYCHIC,Special,100,20,10,NearOther,0,bef,Sinar aneh yang dapat menyebabkan kebingungan.
+461,HEARTSTAMP,Heart stamp,00F,60,PSYCHIC,Physical,100,25,30,NearOther,0,abe,Sebuah gestur menawan yang mungkin bisa membuat musuh tersentak.
+462,CONFUSION,Confusion,013,50,PSYCHIC,Special,100,25,10,NearOther,0,bef,Serangan telekinetik lemah yang mungkin membingungkan.
+463,MIRRORCOAT,Mirror coat,072,1,PSYCHIC,Special,100,20,0,None,-5,bf,Membalas setiap serangan khusus dengan kekuatan dua kali lipat.
+464,PSYWAVE,Psywave,06F,1,PSYCHIC,Special,100,15,0,NearOther,0,bef,Menyerang dengan gelombang psikis dengan intensitas yang bervariasi.
+465,STOREDPOWER,Stored power,08E,1,PSYCHIC,Special,100,10,0,NearOther,0,bef,Kekuatan meningkat semakin banyak statistik pengguna yang ditingkatkan.
+466,AGILITY,Agility,030,0,PSYCHIC,Status,0,30,0,User,0,d,Merilekskan tubuh untuk meningkatkan kecepatan secara tajam.
+467,ALLYSWITCH,Ally switch,120,0,PSYCHIC,Status,0,15,0,User,1,,Pengguna berpindah tempat dengan sekutu yang dipilih secara instan.
+468,AMNESIA,Amnesia,033,0,PSYCHIC,Status,0,20,0,User,0,d,"Melupakan kekhawatirannya, meningkatkan pertahanan khusus secara tajam."
+469,BARRIER,Barrier,02F,0,PSYCHIC,Status,0,20,0,User,0,d,Menciptakan penghalang yang meningkatkan pertahanan secara tajam.
+470,CALMMIND,Calm mind,02C,0,PSYCHIC,Status,0,20,0,User,0,d,Menenangkan pikiran untuk meningkatkan serangan khusus dan pertahanan khusus.
+471,COSMICPOWER,Cosmic power,02A,0,PSYCHIC,Status,0,20,0,User,0,d,Menarik kekuatan dari luar angkasa untuk meningkatkan pertahanan dan pertahanan khusus.
+472,GRAVITY,Gravity,118,0,PSYCHIC,Status,0,5,0,BothSides,0,,"Gravitasi meningkat selama lima putaran, mencegah gerakan yang melibatkan penerbangan atau levitasi."
+473,GUARDSPLIT,Guard split,059,0,PSYCHIC,Status,0,10,0,NearOther,0,b,"Rata-rata pertahanan pengguna dan target serta pertahanan khusus, lalu membaginya."
+474,GUARDSWAP,Guard swap,053,0,PSYCHIC,Status,0,10,0,NearOther,0,be,Menukar pertahanan dan perubahan pertahanan khusus dengan musuh.
+475,HEALBLOCK,Heal block,0BB,0,PSYCHIC,Status,100,15,0,AllNearFoes,0,bce,"Mencegah musuh menggunakan gerakan, kemampuan, atau item yang menyembuhkan PS selama lima putaran."
+476,HEALPULSE,Heal pulse,0DF,0,PSYCHIC,Status,0,10,0,Other,0,bcm,Pulsa penyembuhan yang memulihkan setengah PS maksimal target.
+477,HEALINGWISH,Healing wish,0E3,0,PSYCHIC,Status,0,10,0,User,0,d,Pengguna pingsan untuk menyembuhkan Pokémon berikutnya yang diaktifkan.
+478,HEARTSWAP,Heart swap,054,0,PSYCHIC,Status,0,10,0,NearOther,0,be,Menukar perubahan stat dengan target menggunakan kekuatan psikis.
+479,HYPNOSIS,Hypnosis,003,0,PSYCHIC,Status,60,20,0,NearOther,0,bce,Sugesti menghipnotis yang membuat musuh tertidur.
+480,IMPRISON,Imprison,0B8,0,PSYCHIC,Status,0,10,0,User,0,d,Mencegah musuh menggunakan gerakan apa pun yang diketahui pengguna.
+481,KINESIS,Kinesis,047,0,PSYCHIC,Status,80,15,0,NearOther,0,bce,Mengalihkan perhatian musuh dengan menekuk sendok untuk menurunkan akurasi.
+482,LIGHTSCREEN,Light screen,0A3,0,PSYCHIC,Status,0,30,0,UserSide,0,d,Dinding cahaya yang mengurangi kerusakan khusus selama lima putaran.
+483,LUNARDANCE,Lunar dance,0E4,0,PSYCHIC,Status,0,10,0,User,0,d,"Pengguna pingsan, tetapi semua HP dan status Pokémon yang masuk telah dipulihkan, ditambah PP."
+484,MAGICCOAT,Magic coat,0B1,0,PSYCHIC,Status,0,15,0,User,4,,Mencerminkan gerakan seperti benih Lintah dan gerakan mengubah status.
+485,MAGICROOM,Magic room,0F9,0,PSYCHIC,Status,0,10,0,BothSides,0,,Area aneh di mana item yang ditahan akan kehilangan efeknya selama lima putaran.
+486,MEDITATE,Meditate,01C,0,PSYCHIC,Status,0,40,0,User,0,d,"Bermeditasi untuk membangkitkan kekuatan jauh di dalam, meningkatkan serangan."
+487,MIRACLEEYE,Miracle eye,0A8,0,PSYCHIC,Status,0,40,0,NearOther,0,bce,"Mengaktifkan gerakan Psikis untuk mengenai musuh tipe GELAP, dan menyetel ulang penghindaran musuh."
+488,POWERSPLIT,Power split,058,0,PSYCHIC,Status,0,10,0,NearOther,0,b,"Rata-ratakan serangan pengguna dan target serta serangan khusus, lalu bagikan."
+489,POWERSWAP,Power swap,052,0,PSYCHIC,Status,0,10,0,NearOther,0,be,Tukar serangan dan perubahan serangan khusus dengan musuh.
+490,POWERTRICK,Power trick,057,0,PSYCHIC,Status,0,10,0,User,0,d,Menukar serangan pengguna dengan pertahanannya.
+491,PSYCHOSHIFT,Psycho shift,01B,0,PSYCHIC,Status,100,10,0,NearOther,0,be,Mentransfer kondisi status pengguna ke target menggunakan kekuatan psikis.
+492,REFLECT,Reflect,0A2,0,PSYCHIC,Status,0,20,0,UserSide,0,d,Dinding cahaya yang melemahkan kerusakan fisik selama lima putaran.
+493,REST,Rest,0D9,0,PSYCHIC,Status,0,10,0,User,0,d,Memulihkan sepenuhnya PS dan status pengguna tetapi pengguna tertidur selama dua putaran.
+494,ROLEPLAY,Role play,065,0,PSYCHIC,Status,0,10,0,NearOther,0,,Meniru target untuk meniru kemampuannya.
+495,SKILLSWAP,Skill swap,067,0,PSYCHIC,Status,0,10,0,NearOther,0,be,Bertukar kemampuan dengan musuh menggunakan kekuatan psikis.
+496,TELEKINESIS,Telekinesis,11A,0,PSYCHIC,Status,0,15,0,NearOther,0,bce,"Membuat musuh melayang dengan kekuatan psikis, membuatnya lebih mudah untuk dipukul selama tiga putaran."
+497,TELEPORT,Teleport,300,0,PSYCHIC,Status,0,20,0,User,-6,,Memungkinkan pengguna untuk melarikan diri dari pertempuran atau keluar.
+498,TRICK,Trick,0F2,0,PSYCHIC,Status,100,10,0,NearOther,0,be,Menangkap musuh yang lengah dan menukar item yang dipegang.
+499,TRICKROOM,Trick room,11F,0,PSYCHIC,Status,0,5,0,BothSides,-7,,Ruang terdistorsi tempat Pokémon yang lebih lambat bergerak terlebih dahulu selama lima putaran.
+500,WONDERROOM,Wonder room,124,0,PSYCHIC,Status,0,10,0,BothSides,0,,Area aneh yang menukar pertahanan dan pertahanan khusus semua Pokémon selama lima putaran.
+501,HEADSMASH,Head smash,0FC,150,ROCK,Physical,80,5,0,NearOther,0,abef,Pukulan keras yang membahayakan nyawa dan sangat merugikan penggunanya.
+502,ROCKWRECKER,Rock wrecker,0C2,150,ROCK,Physical,90,5,0,NearOther,0,befn,Meluncurkan batu besar. Harus istirahat pada giliran berikutnya.
+503,STONEEDGE,Stone edge,000,100,ROCK,Physical,80,5,0,NearOther,0,befh,Menusuk musuh dengan batu tajam. Rasio serangan kritis yang tinggi.
+504,ROCKSLIDE,Rock slide,00F,75,ROCK,Physical,90,10,30,AllNearFoes,0,be,Batu-batu besar dijatuhkan ke arah musuh. Mungkin tersentak.
+505,POWERGEM,Power gem,000,80,ROCK,Special,100,20,0,NearOther,0,bef,Menyerang dengan sinar cahaya yang berkilau seperti permata.
+506,ANCIENTPOWER,Ancient power,02D,60,ROCK,Special,100,5,10,NearOther,0,bef,Kekuatan kuno yang dapat meningkatkan semua statistik penggunanya.
+507,ROCKTHROW,Rock throw,000,50,ROCK,Physical,90,15,0,NearOther,0,bef,Melemparkan batu kecil ke arah musuh.
+508,ROCKTOMB,Rock tomb,044,60,ROCK,Physical,95,15,100,NearOther,0,bef,Menjatuhkan batu besar ke arah musuh untuk menurunkan kecepatannya.
+509,SMACKDOWN,Smack down,11C,50,ROCK,Physical,100,15,0,NearOther,0,bef,"Melempar batu ke arah musuh, menjatuhkannya jika berada di udara."
+510,ROLLOUT,Rollout,0D3,30,ROCK,Physical,90,20,0,NearOther,0,abef,Berguling ke arah musuh selama lima putaran dengan intensitas yang meningkat.
+511,ROCKBLAST,Rock blast,0C0,25,ROCK,Physical,90,10,0,NearOther,0,bef,Meluncurkan batu dua hingga lima kali berturut-turut dengan cepat.
+512,ROCKPOLISH,Rock polish,030,0,ROCK,Status,0,20,0,User,0,d,Memoles tubuh pengguna untuk meningkatkan kecepatan secara tajam.
+513,SANDSTORM,Sandstorm,101,0,ROCK,Status,0,10,0,BothSides,0,,"Badai pasir lima putaran merusak semua jenis kecuali ROCK, GROUND, dan STEEL."
+514,STEALTHROCK,Stealth rock,105,0,ROCK,Status,0,20,0,FoeSide,0,c,Menetapkan batu mengambang untuk memberikan damage pada musuh saat mereka beralih.
+515,WIDEGUARD,Wide guard,0AC,0,ROCK,Status,0,10,0,UserSide,3,,Melindungi tim pengguna dari serangan multi-target selama satu giliran. Tingkat keberhasilan menurun jika digunakan berulang kali.
+516,DOOMDESIRE,Doom desire,111,140,STEEL,Special,100,5,0,NearOther,0,,Memanggil seberkas cahaya yang menyerang dua putaran kemudian.
+517,IRONTAIL,Iron tail,043,100,STEEL,Physical,75,15,30,NearOther,0,abef,Menyerang dengan ekor yang keras. Dapat menurunkan pertahanan musuh.
+518,METEORMASH,Meteor mash,01C,90,STEEL,Physical,90,10,20,NearOther,0,abefj,Pukulan dunia lain yang mungkin meningkatkan serangan pengguna.
+519,FLASHCANNON,Flash cannon,046,80,STEEL,Special,100,10,10,NearOther,0,bef,Mengumpulkan cahaya dan melepaskannya. Dapat menurunkan pertahanan khusus musuh.
+520,IRONHEAD,Iron head,00F,80,STEEL,Physical,100,15,30,NearOther,0,abe,Membanting musuh dengan kepala sekeras baja. Mungkin tersentak.
+521,STEELWING,Steel wing,01D,70,STEEL,Physical,90,25,10,NearOther,0,abef,Menyerang dengan sayap yang kuat. Dapat meningkatkan pertahanan pengguna.
+522,MIRRORSHOT,Mirror shot,047,65,STEEL,Special,85,10,30,NearOther,0,bef,Kehilangan kilatan energi dari tubuhnya yang dipoles. Dapat menurunkan akurasi.
+523,MAGNETBOMB,Magnet bomb,0A5,60,STEEL,Physical,0,20,0,NearOther,0,befn,Meluncurkan bom baja yang menempel pada sasaran. Tidak pernah ketinggalan.
+524,GEARGRIND,Gear grind,0BD,50,STEEL,Physical,85,15,0,NearOther,0,abef,Hancurkan musuh dengan dua roda gigi berputar. Memukul dua kali.
+525,METALCLAW,Metal claw,01C,50,STEEL,Physical,95,35,10,NearOther,0,abef,Menyerang dengan cakar baja. Dapat meningkatkan serangan pengguna.
+526,BULLETPUNCH,Bullet punch,000,40,STEEL,Physical,100,30,0,NearOther,1,abefj,Pukulan secepat peluru. Menyerang lebih dulu.
+527,GYROBALL,Gyro ball,08D,1,STEEL,Physical,100,5,0,NearOther,0,abefn,"Tekel dengan putaran kecepatan tinggi. Semakin lambat penggunanya, semakin besar kerusakannya."
+528,HEAVYSLAM,Heavy slam,09B,1,STEEL,Physical,100,10,0,NearOther,0,abef,"Membanting ke arah musuh. Semakin berat pengguna dibandingkan musuh, semakin besar kerusakannya."
+529,METALBURST,Metal burst,073,1,STEEL,Physical,100,10,0,None,0,bf,Membalas dengan kekuatan yang lebih besar terhadap serangan fisik atau khusus terakhir musuh.
+530,AUTOTOMIZE,Autotomize,031,0,STEEL,Status,0,15,0,User,0,d,Menurunkan bobot tambahan untuk meningkatkan kecepatan secara tajam.
+531,IRONDEFENSE,Iron defense,02F,0,STEEL,Status,0,15,0,User,0,d,"Mengeraskan tubuhnya seperti besi, meningkatkan pertahanan secara tajam."
+532,METALSOUND,Metal sound,04F,0,STEEL,Status,85,40,0,NearOther,0,bcek,Mengeluarkan pekikan logam mengerikan yang menurunkan pertahanan khusus secara tajam.
+533,SHIFTGEAR,Shift gear,036,0,STEEL,Status,0,10,0,User,0,d,"Memutar persnelingnya, meningkatkan serangan dan meningkatkan kecepatan secara signifikan."
+534,HYDROCANNON,Hydro cannon,0C2,150,WATER,Special,90,5,0,NearOther,0,bef,Tembakan air yang ekstrem. Pengguna harus beristirahat pada giliran berikutnya.
+535,WATERSPOUT,Water spout,08B,150,WATER,Special,100,5,0,AllNearFoes,0,bef,Menimbulkan lebih banyak kerusakan ketika pengguna memiliki lebih banyak PS.
+536,HYDROPUMP,Hydro pump,000,110,WATER,Special,80,5,0,NearOther,0,bef,Menembakkan semburan air yang kuat.
+537,MUDDYWATER,Muddy water,047,90,WATER,Special,85,10,30,AllNearFoes,0,bef,Menyerang dengan air berlumpur. Dapat menurunkan akurasi.
+538,SURF,Surf,075,90,WATER,Special,100,15,0,AllNearOthers,0,bef,Menyerang dengan gelombang besar. Digunakan untuk melakukan perjalanan di atas air di luar pertempuran.
+539,AQUATAIL,Aqua tail,000,90,WATER,Physical,90,10,0,NearOther,0,abef,Menyerang dengan mengayunkan ekornya seperti ombak yang mengamuk.
+540,CRABHAMMER,Crabhammer,000,100,WATER,Physical,90,10,0,NearOther,0,abefh,Pukulan dengan penjepit besar. Rasio serangan kritis yang tinggi.
+541,DIVE,Dive,0CB,80,WATER,Physical,100,10,0,NearOther,0,abef,"Menyelam di bawah air pada belokan pertama, lalu mencapai belokan berikutnya."
+542,SCALD,Scald,00A,80,WATER,Special,100,15,30,NearOther,0,befg,Menembak air mendidih yang dapat membakar musuh.
+543,WATERFALL,Waterfall,00F,80,WATER,Physical,100,15,20,NearOther,0,abe,Menyerang musuh dengan tenaga air. Mungkin tersentak. Digunakan untuk mendaki air terjun.
+544,RAZORSHELL,Razor shell,043,75,WATER,Physical,95,10,50,NearOther,0,abef,Cangkang tajam digunakan untuk menebas musuh. Dapat menurunkan pertahanannya.
+545,BRINE,Brine,080,65,WATER,Special,100,10,0,NearOther,0,bef,"Jika PS musuh setengah atau kurang, kekuatan serangan ini berlipat ganda."
+546,BUBBLEBEAM,Bubble beam,044,65,WATER,Special,100,20,10,NearOther,0,bef,Serangan dengan gelembung. Dapat menurunkan kecepatan.
+547,OCTAZOOKA,Octazooka,047,65,WATER,Special,85,10,50,NearOther,0,befn,Menembakkan tinta ke wajah musuh. Dapat menurunkan akurasi.
+548,WATERPULSE,Water pulse,013,60,WATER,Special,100,20,20,NearOther,0,befm,Menyerang dengan semburan air yang berdenyut. Mungkin membingungkan musuh.
+549,WATERPLEDGE,Water pledge,108,80,WATER,Special,100,10,0,NearOther,0,bef,"Menyerang dengan kolom air. Dikombinasikan dengan janji Api, itu menciptakan pelangi."
+550,AQUAJET,Aqua jet,000,40,WATER,Physical,100,20,0,NearOther,1,abef,Pergerakan air yang sangat cepat dan menyerang lebih dulu.
+551,WATERGUN,Water gun,000,40,WATER,Special,100,25,0,NearOther,0,bef,Menyemprotkan air dengan kuat ke arah musuh.
+552,CLAMP,Clamp,0CF,35,WATER,Physical,85,15,0,NearOther,0,abef,Menjepit musuh dengan erat selama empat hingga lima putaran.
+553,WHIRLPOOL,Whirlpool,0D0,35,WATER,Special,85,15,0,NearOther,0,bef,Menjebak musuh dalam pusaran air yang berputar-putar selama empat hingga lima putaran.
+554,BUBBLE,Bubble,044,40,WATER,Special,100,30,10,AllNearFoes,0,bef,Serangan gelembung yang mungkin menurunkan kecepatan musuh.
+555,AQUARING,Aqua ring,0DA,0,WATER,Status,0,20,0,User,0,d,Membentuk selubung air yang mengembalikan PS sedikit setiap putaran.
+556,RAINDANCE,Rain dance,100,0,WATER,Status,0,5,0,BothSides,0,,Memanggil hujan deras yang memperkuat gerakan tipe AIR selama lima putaran.
+557,SOAK,Soak,061,0,WATER,Status,100,20,0,NearOther,0,bce,"Menyemprotkan air bervolume tinggi, mengubah tipe target menjadi AIR."
+558,WATERSPORT,Water sport,09E,0,WATER,Status,0,15,0,BothSides,0,,Meredam medan untuk melemahkan gerakan KEBAKARAN saat pengguna berada dalam pertempuran.
+559,WITHDRAW,Withdraw,01D,0,WATER,Status,0,40,0,User,0,d,"Menarik diri ke dalam cangkang, meningkatkan pertahanan."
+560,AROMATICMIST,Aromatic mist,138,0,FAIRY,Status,0,20,0,NearAlly,0,,Kabut misterius yang meningkatkan pertahanan khusus sekutu.
+561,BABYDOLLEYES,Baby-doll eyes,042,0,FAIRY,Status,100,30,0,NearOther,1,bce,Memberi musuh tampilan manis yang menurunkan serangannya. Pengguna selalu menjadi yang pertama.
+562,BELCH,Belch,158,120,POISON,Special,90,10,0,NearOther,0,be,Serangan pengguna dengan sendawa. Hanya dapat digunakan setelah mengkonsumsi Berry.
+563,BOOMBURST,Boomburst,000,140,NORMAL,Special,100,10,0,AllNearOthers,0,bek,Menyerang sekeliling dengan gelombang suara yang memekakkan telinga.
+564,CELEBRATE,Celebrate,134,0,NORMAL,Status,100,40,0,User,0,,Pengguna mengucapkan selamat kepada Anda pada hari istimewa—tidak ada hal lain yang terjadi dalam pertempuran.
+565,CONFIDE,Confide,13C,0,NORMAL,Status,0,20,0,NearOther,0,ek,"Berbagi rahasia dengan musuh, menurunkan serangan spesialnya."
+566,CRAFTYSHIELD,Crafty shield,14A,0,FAIRY,Status,0,10,0,UserSide,3,d,Melindungi tim pengguna dari perpindahan status pada giliran ini.
+567,DAZZLINGGLEAM,Dazzling gleam,000,80,FAIRY,Special,100,10,0,NearOther,0,bef,Merusak musuh dengan kilatan cahaya yang kuat.
+568,DISARMINGVOICE,Disarming voice,0A5,40,FAIRY,Special,0,15,0,AllNearFoes,0,befk,Mari keluarkan seruan menawan yang tak pernah terlewatkan.
+569,DRAININGKISS,Draining kiss,14F,50,FAIRY,Special,100,10,0,NearOther,0,abef,Mencuri PS dengan ciuman dan memulihkan setidaknya setengah kerusakan yang ditimbulkan.
+570,EERIEIMPULSE,Eerie impulse,13D,0,ELECTRIC,Status,100,15,0,NearOther,0,bc,"Aura listrik pengguna menyentak musuh, menurunkan serangan spesialnya secara tajam."
+571,ELECTRICTERRAIN,Electric terrain,154,0,ELECTRIC,Status,0,10,0,BothSides,0,,"Mengaliri listrik di lapangan selama lima putaran, mencegah tidur dan meningkatkan gerakan LISTRIK untuk Pokémon yang di-ground."
+572,ELECTRIFY,Electrify,145,0,ELECTRIC,Status,0,20,0,NearOther,0,bce,"Menyetrum target sebelum menggunakan gerakan, mengubah gerakan itu menjadi LISTRIK."
+573,FAIRYLOCK,Fairy lock,152,0,FAIRY,Status,0,10,0,BothSides,0,bce,Tidak ada Pokémon yang dapat melarikan diri pada giliran berikutnya.
+574,FAIRYWIND,Fairy wind,000,40,FAIRY,Special,100,30,0,NearOther,0,bef,Pengguna membangkitkan angin peri dan menyerang sasaran.
+575,FELLSTINGER,Fell stinger,150,50,BUG,Physical,100,25,100,NearOther,0,abef,"Jika berhasil melumpuhkan musuh, serangan pengguna akan meningkat pesat."
+576,FLOWERSHIELD,Flower shield,13F,0,FAIRY,Status,0,10,0,AllBattlers,0,,Meningkatkan pertahanan semua Pokémon tipe GRASS dalam pertempuran.
+577,FLYINGPRESS,Flying press,144,100,FIGHTING,Physical,95,10,0,NearOther,0,abefm,Sebuah gerakan yang bertipe FIGHTING dan FLYING sekaligus.
+578,FORESTSCURSE,Forest's curse,143,0,GRASS,Status,0,20,0,NearOther,0,bce,Memberi kutukan pada target. Menambahkan tipe GRASS ke tipe target.
+579,FREEZEDRY,Freeze-dry,135,70,ICE,Special,100,20,0,NearOther,0,be,Serangan khusus dingin yang mungkin membekukan. Sangat efektif pada tipe AIR.
+580,GEOMANCY,Geomancy,14E,0,FAIRY,Status,0,10,0,User,0,,"Mengisi daya pada putaran pertama, meningkatkan serangan khusus, pertahanan khusus, dan kecepatan secara tajam pada putaran kedua."
+581,GRASSYTERRAIN,Grassy terrain,155,0,GRASS,Status,0,10,0,BothSides,0,,"Menutupi lapangan dengan rumput selama lima putaran, memulihkan PS Pokémon yang di-ground setiap putaran."
+582,HAPPYHOUR,Happy hour,157,0,NORMAL,Status,0,30,0,UserSide,0,e,Meningkatkan hadiah uang setelah pertempuran.
+583,INFESTATION,Infestation,0CF,20,BUG,Physical,100,20,0,NearOther,0,abef,Musuh diserang dan diserang selama empat hingga lima putaran.
+584,IONDELUGE,Ion deluge,146,0,ELECTRIC,Status,0,25,0,BothSides,1,d,Mengalirkan gerakan tipe Normal menjadi LISTRIK.
+585,KINGSSHIELD,King's shield,14B,0,STEEL,Status,0,10,0,User,4,d,"Melindungi pengguna. Jika terkena gerakan kontak, akan menurunkan serangan musuh secara tajam."
+586,LANDSWRATH,Land's wrath,000,90,GROUND,Physical,100,10,0,AllNearFoes,0,bf,Mengumpulkan dan menyalurkan kekuatan bumi ke semua musuh.
+587,MAGNETICFLUX,Magnetic flux,137,0,ELECTRIC,Status,0,20,0,UserAndAllies,0,d,Memanipulasi medan magnet untuk meningkatkan pertahanan dan pertahanan khusus sekutu dengan Plus atau Minus.
+588,MATBLOCK,Mat block,149,0,FIGHTING,Status,0,10,0,UserSide,4,d,Melindungi pihak pengguna dari gerakan merusak pada giliran pertama. Gagal terhadap perpindahan status.
+589,MISTYTERRAIN,Misty terrain,156,0,FAIRY,Status,0,10,0,BothSides,0,d,"Menutupi lapangan dengan kabut selama lima putaran, melindungi Pokémon yang membumi dari status dan meningkatkan resistensi tipe DRAGON."
+590,MOONBLAST,Moonblast,045,95,FAIRY,Special,100,15,10,NearOther,0,bef,Menyerang dengan kekuatan bulan. Dapat menurunkan serangan khusus musuh.
+591,MYSTICALFIRE,Mystical fire,045,75,FIRE,Special,100,10,100,NearOther,0,bef,Menghembuskan api khusus pada musuh. Menurunkan serangan spesialnya dengan tajam.
+592,NOBLEROAR,Noble roar,13A,0,NORMAL,Status,100,30,0,NearOther,0,bcfk,Mengeluarkan raungan mulia yang menurunkan serangan musuh dan serangan spesial.
+593,NUZZLE,Nuzzle,008,20,ELECTRIC,Physical,100,20,100,NearOther,0,abef,"Pengguna menggosokkan pipi listriknya ke musuh, menyebabkan kelumpuhan."
+594,OBLIVIONWING,Oblivion wing,14F,80,FLYING,Special,100,10,0,NearOther,0,bf,"Menyerap energi musuh, memulihkan lebih dari setengah kerusakan yang ditimbulkan."
+595,PARABOLICCHARGE,Parabolic charge,0DD,65,ELECTRIC,Special,100,20,0,NearOther,0,be,Merusak semua musuh di sekitar. Pengguna memulihkan setengah kerusakan yang ditimbulkan.
+596,PARTINGSHOT,Parting shot,151,0,DARK,Status,100,20,0,NearOther,0,bcefk,"Menurunkan serangan musuh dan serangan khusus, lalu pengguna keluar."
+597,PETALBLIZZARD,Petal blizzard,000,90,GRASS,Physical,100,15,0,AllNearOthers,0,bdef,Menimbulkan badai kelopak bunga yang dahsyat yang menyerang segala sesuatu di sekitarnya.
+598,PHANTOMFORCE,Phantom force,14D,90,GHOST,Physical,100,10,0,NearOther,0,aef,"Hilang pada giliran pertama, lalu menyerang. Menyerang meskipun musuh melindungi."
+599,PLAYNICE,Play nice,139,0,NORMAL,Status,0,20,0,NearOther,0,de,"Berteman dengan musuh, menurunkan serangannya."
+600,PLAYROUGH,Play rough,042,90,FAIRY,Physical,90,10,10,NearOther,0,abef,"Bermain dengan musuh, lalu menyerang. Dapat menurunkan serangannya."
+601,POWDER,Powder,148,0,BUG,Status,100,10,0,NearOther,1,bcel,"Menutupi musuh dengan bubuk. Jika menggunakan gerakan KEBAKARAN pada giliran ini, bubuknya akan meledak."
+602,POWERUPPUNCH,Power-up punch,01C,40,FIGHTING,Physical,100,20,100,NearOther,0,abdefj,"Memukul musuh akan memperkuat tinju pengguna, meningkatkan serangan saat musuh mendarat."
+603,ROTOTILLER,Rototiller,13E,0,GROUND,Status,0,10,0,AllBattlers,0,,"Mengolah tanah, meningkatkan serangan dan serangan khusus Pokémon tipe GRASS."
+604,SPIKYSHIELD,Spiky shield,14C,0,GRASS,Status,0,10,0,User,4,,Melindungi pengguna dan merusak musuh yang melakukan kontak.
+605,STICKYWEB,Sticky web,153,0,BUG,Status,0,20,0,FoeSide,0,c,Menjalin jaring lengket yang menurunkan kecepatan Pokémon musuh yang masuk.
+606,TOPSYTURVY,Topsy-turvy,141,0,DARK,Status,0,20,0,NearOther,0,bce,Membalikkan semua perubahan stat yang mempengaruhi target.
+607,TRICKORTREAT,Trick-or-treat,142,0,GHOST,Status,100,20,0,NearOther,0,bd,Menambahkan tipe GHOST ke tipe target.
+608,VENOMDRENCH,Venom drench,140,0,POISON,Status,100,20,0,AllNearFoes,0,bc,"Menurunkan serangan, serangan khusus, dan kecepatan musuh yang terkena racun."
+609,WATERSHURIKEN,Water shuriken,0C0,15,WATER,Special,100,20,0,NearOther,1,bf,Memukul dua hingga lima kali dengan lemparan bintang air. Menyerang lebih dulu.
+610,DIAMONDSTORM,Diamond storm,136,100,ROCK,Physical,95,5,50,NearOther,0,,Menyiapkan berlian untuk merusak musuh. Dapat meningkatkan pertahanan pengguna.
+611,HYPERSPACEHOLE,Hyperspace hole,147,80,PSYCHIC,Special,0,5,0,NearOther,0,,Muncul tepat di sebelah musuh melalui warp. Abaikan Lindungi atau Deteksi.
+612,STEAMERUPTION,Steam eruption,00A,110,WATER,Special,95,5,30,NearOther,0,,Mengelilingi musuh dengan uap yang sangat panas yang mungkin terbakar.
+613,THOUSANDARROWS,Thousand arrows,11C,90,GROUND,Physical,100,10,100,AllNearFoes,0,a,"Bahkan menyerang musuh di udara, menjatuhkan mereka."
+614,THOUSANDWAVES,Thousand waves,0EF,90,GROUND,Physical,100,10,0,AllNearFoes,0,a,"Mengirimkan gelombang ke tanah, mencegah musuh melarikan diri."
+615,LIGHTOFRUIN,Light of ruin,0FD,140,FAIRY,Special,90,5,0,NearOther,0,,"Sinar kuat yang dilepaskan oleh Pokémon Bunga, juga memberikan kerusakan besar pada penggunanya."
+616,DRAGONASCENT,Dragon ascent,03C,120,FLYING,Special,100,5,0,NearOther,0,,Melambung dari langit dengan kecepatan tinggi. Menurunkan pertahanan pengguna dan pertahanan khusus.
+617,ORIGINPULSE,Origin pulse,000,120,WATER,Special,85,10,0,NearOther,0,,Menyerang musuh dengan sinar biru yang tak terhitung banyaknya.
+618,PRECIPICEBLADES,Precipice blades,000,120,GROUND,Physical,85,10,0,AllNearFoes,0,,Melepaskan pedang kuat dari tanah ke semua musuh.
+619,HYPERSPACEFURY,Hyperspace fury,13B,100,DARK,Special,0,5,0,NearOther,0,,Menembakkan serangkaian serangan yang mengabaikan Perlindungan atau Deteksi. Menurunkan pertahanan pengguna.
+620,HOLDBACK,Hold back,0E9,40,NORMAL,Physical,100,40,0,NearOther,0,abef,Serangan terkendali yang meninggalkan musuh dengan setidaknya 1 PS.
+621,HOLDHANDS,Hold hands,133,0,NORMAL,Status,0,40,0,NearAlly,0,,"Pengguna dan sekutunya berpegangan tangan, merasakan kebahagiaan luar biasa."
+622,DRAGONHAMMER,Dragon hammer,0,90,DRAGON,Physical,100,15,0,NearOther,0,abe,Menggunakan tubuhnya seperti palu untuk membanting musuh.
+623,SHADOWBONE,Shadow bone,043,85,GHOST,Physical,100,10,20,NearOther,0,bef,Memukul musuh dengan tulang yang dipenuhi roh. Dapat menurunkan pertahanan.
+624,AURORAVEIL,Aurora veil,CF6,0,ICE,Status,0,20,0,UserSide,0,d,Membagi dua kerusakan fisik dan khusus pada tim Anda selama lima putaran. Hanya berfungsi saat hujan es.
+625,TROPKICK,Trop kick,042,70,GRASS,Physical,100,15,100,NearOther,0,abef,Memberikan tendangan tropis yang menurunkan serangan musuh.
+626,LASERFOCUS,Laser focus,19A,0,NORMAL,Status,0,30,0,User,0,d,Berkonsentrasi secara intens sehingga serangan pengguna berikutnya dijamin merupakan serangan kritis.
+627,SPIRITSHACKLE,Spirit shackle,CF11,80,GHOST,Physical,100,10,0,NearOther,0,bef,"Setelah menyerang, bayangan target terjepit, mencegah pelarian."
+628,SPEEDSWAP,Speed swap,CF10,0,PSYCHIC,Status,0,10,0,NearOther,0,be,Menukar statistik kecepatan dengan target.
+629,GEARUP,Gear up,CF12,0,STEEL,Status,0,20,0,UserAndAllies,0,d,Meningkatkan serangan dan serangan khusus sekutu dengan Plus atau Minus.
+630,PURIFY,Purify,CF3,0,POISON,Status,0,20,0,NearOther,0,bc,"Menyembuhkan status target, memulihkan PS pengguna."
+631,SOLARBLADE,Solar blade,C04,140,GRASS,Physical,100,10,0,NearOther,0,abef,"Menyerap sinar matahari, lalu menebas dengan bilah cahaya pada putaran kedua."
+632,FIRELASH,Fire lash,043,80,FIRE,Physical,100,15,100,NearOther,0,abef,"Menyerang musuh dengan cambuk yang membara, menurunkan pertahanannya."
+633,LEAFAGE,Leafage,0,40,GRASS,Physical,100,40,0,NearOther,0,bef,Menyerang dengan melempari musuh dengan dedaunan.
+634,SHOREUP,Shore up,CF5,0,GROUND,Status,0,10,0,User,0,d,Memulihkan setengah dari PS maksimal. Pulih lebih banyak dalam badai pasir.
+635,SPARKLINGARIA,Sparkling aria,CF8,90,WATER,Special,100,10,0,AllNearOthers,0,befk,"Bernyanyi sambil mengeluarkan gelembung air, menyembuhkan luka bakar pada orang yang dirusaknya."
+636,TOXICTHREAD,Toxic thread,1B9,0,POISON,Status,100,20,0,NearOther,0,bce,"Menyerang musuh dengan benang beracun, menurunkan kecepatannya dan meracuninya."
+637,POLLENPUFF,Pollen puff,CF19,90,BUG,Special,100,15,0,NearOther,0,bef,"Jika digunakan pada musuh, itu akan meledak untuk menimbulkan kerusakan. Jika digunakan pada sekutu, itu memulihkan PS."
+638,ICEHAMMER,Ice hammer,03E,100,ICE,Physical,90,10,0,NearOther,0,abefj,Mengayunkan tinju es yang berat. Menurunkan kecepatan pengguna.
+639,SMARTSTRIKE,Smart strike,0A5,70,STEEL,Physical,0,10,0,NearOther,0,abef,Menusuk musuh dengan tanduk yang tajam. Tidak pernah ketinggalan.
+640,BRUTALSWING,Brutal swing,0,60,DARK,Physical,100,20,0,NearOther,0,abf,Mengayunkan tubuh dengan keras untuk menyerang musuh di sekitarnya.
+641,FIRSTIMPRESSION,First impression,15A,90,BUG,Physical,100,10,0,NearOther,2,abef,Serangan pembuka yang ampuh yang hanya berfungsi pada giliran pertama pengguna keluar.
+642,LUNGE,Lunge,042,80,BUG,Physical,100,15,100,NearOther,0,abef,Pengguna menerjang musuh untuk menurunkan serangannya.
+643,LIQUIDATION,Liquidation,043,85,WATER,Physical,100,10,20,NearOther,0,abef,Dihantam dengan semburan air berkekuatan penuh. Dapat menurunkan pertahanan musuh.
+644,STRENGTHSAP,Strength sap,CF13,0,GRASS,Status,0,10,0,NearOther,0,bcf,"Pengguna memulihkan PS berdasarkan status serangan musuh, yang kemudian diturunkan."
+645,ACCELEROCK,Accelerock,0,40,ROCK,Physical,100,20,0,NearOther,1,abef,Pengguna menabrak musuh dengan kecepatan tinggi. Menyerang lebih dulu.
+646,FLORALHEALING,Floral healing,CF2,0,FAIRY,Status,0,10,0,NearOther,0,bc,Memulihkan setengah PS target. Lebih efektif di bawah medan GRASSY.
+647,TEARFULLOOK,Tearful look,CF14,0,NORMAL,Status,0,20,0,NearOther,0,ce,"Pengguna memberikan tampilan sedih pada musuh, menurunkan serangannya dan serangan spesialnya."
+648,PSYCHICTERRAIN,Psychic terrain,159,0,PSYCHIC,Status,0,10,0,BothSides,0,,"Meningkatkan gerakan PSYCHIC dan mencegah gerakan prioritas selama lima putaran, memengaruhi Pokémon yang di-ground."
+649,SPECTRALTHIEF,Spectral thief,CF9,90,GHOST,Physical,100,10,0,NearOther,0,abef,"Mencuri peningkatan stat target, lalu menyerang dari bayangan."
+650,FLEURCANNON,Fleur cannon,03F,130,FAIRY,Special,90,5,0,NearOther,0,be,Menembakkan sinar yang kuat tetapi menurunkan serangan khusus pengguna secara tajam.
+651,BEAKBLAST,Beak blast,1BC,100,FLYING,Physical,100,15,20,NearOther,-3,bn,"Mengisi paruhnya pada giliran pertama. Jika terkena gerakan kontak saat mengisi daya, musuh akan terbakar."
+652,ZINGZAP,Zing zap,00F,80,ELECTRIC,Physical,100,10,30,NearOther,0,abe,Pengguna melompat ke arah musuh dengan kekuatan listrik. Dapat menyebabkan tersentak.
+653,CLANGINGSCALES,Clanging scales,CF1,110,DRAGON,Special,100,5,0,NearOther,0,befk,"Rattles berskala untuk menyerang, menurunkan pertahanan pengguna."
+654,PRISMATICLASER,Prismatic laser,0C2,160,PSYCHIC,Special,100,10,0,NearOther,0,bef,Laser yang kuat dibiaskan melalui prisma. Pengguna tidak dapat bergerak pada giliran berikutnya.
+655,ANCHORSHOT,Anchor shot,CF11,80,STEEL,Physical,100,20,0,NearOther,0,abe,"Menembakkan jangkar ke arah musuh, mencegahnya melarikan diri."
+656,POWERTRIP,Power trip,08E,1,DARK,Physical,100,10,0,NearOther,0,abef,Menyerang sambil memamerkan kekuatan. Peningkatan stat yang lebih banyak berarti kerusakan yang lebih besar.
+657,DARKESTLARIAT,Darkest lariat,0A9,85,DARK,Physical,100,10,0,NearOther,0,abe,Mengayunkan lengan untuk menyerang. Mengabaikan perubahan stat musuh.
+658,NATURESMADNESS,Nature's madness,06C,1,FAIRY,Special,90,10,0,NearOther,0,bef,"Menyerang dengan kemarahan alam, mengurangi separuh PS musuh saat ini."
+659,PSYCHICFANGS,Psychic fangs,10A,85,PSYCHIC,Physical,100,10,0,NearOther,0,abef,"Menggigit dengan energi psikis, juga menghancurkan penghalang seperti Light Screen dan Reflect."
+660,HIGHHORSEPOWER,High horsepower,0,95,GROUND,Physical,95,10,0,NearOther,0,abef,Tekel yang kuat menggunakan seluruh berat badannya.
+661,MOONGEISTBEAM,Moongeist beam,000,100,GHOST,Special,100,5,0,NearOther,0,bef,Menyerang dengan pancaran energi bulan yang misterius.
+662,SUNSTEELSTRIKE,Sunsteel strike,000,100,STEEL,Physical,100,5,0,NearOther,0,abef,Membanting musuh dengan kekuatan meteor.
+663,STOMPINGTANTRUM,Stomping tantrum,CF22,75,GROUND,Physical,100,10,0,NearOther,0,abef,"Jika gerakan pengguna sebelumnya gagal, kekuatan menjadi dua kali lipat."
+664,BANEFULBUNKER,Baneful bunker,15B,0,POISON,Status,0,10,0,User,4,,Melindungi pengguna dan meracuni musuh yang melakukan kontak.
+665,THROATCHOP,Throat chop,CF15,80,DARK,Physical,100,15,0,NearOther,0,abef,"Menyerang tenggorokan target, mencegah gerakan suara selama dua putaran."
+666,SPOTLIGHT,Spotlight,CF23,0,NORMAL,Status,0,15,0,NearOther,3,bc,Menyorotkan sorotan pada target sehingga semua serangan mengarah ke sana.
+667,INSTRUCT,Instruct,CF0,0,PSYCHIC,Status,0,15,0,NearOther,0,d,Memaksa target untuk segera menggunakan jurus terakhirnya kembali.
+668,REVELATIONDANCE,Revelation dance,192,90,NORMAL,Special,100,15,0,NearOther,0,bef,Menari dengan kekuatan mistis yang sesuai dengan tipe utama penggunanya.
+669,COREENFORCER,Core enforcer,CF21,100,DRAGON,Special,100,10,0,NearOther,0,be,"Jika musuh telah menggunakan suatu gerakan, kemampuannya akan dibatalkan."
+670,FREEZINGGLARE,Freezing glare,00C,90,PSYCHIC,Special,100,10,10,NearOther,0,bef,Kekuatan psikis disalurkan melalui mata. Dapat membekukan target.
+671,THUNDEROUSKICK,Thunderous kick,043,90,FIGHTING,Physical,100,10,100,NearOther,0,abef,"Menyetrum musuh dengan gerakan mempesona, lalu menendang. Menurunkan pertahanannya."
+672,FIERYWRATH,Fiery wrath,00F,90,DARK,Special,100,10,20,AllNearFoes,0,bef,Mengubah kemarahan menjadi aura yang berapi-api dan menyerang. Mungkin membuat musuh gentar.
+673,PLASMAFISTS,Plasma fists,CF2,100,ELECTRIC,Physical,100,15,0,NearOther,0,abef,Pukulan dengan tinju yang dialiri arus listrik. Mengubah gerakan tipe Normal menjadi LISTRIK.
+674,MINDBLOWN,Mind blown,1CF,150,FIRE,Special,100,5,0,AllNearOthers,0,bef,"Pengguna mengorbankan sebagian kepalanya untuk meledak, merugikan sekelilingnya dan dirinya sendiri."
+675,SHELLTRAP,Shell trap,171,150,FIRE,Special,100,5,0,AllNearFoes,-3,bf,"Memasang jebakan cangkang. Jika terkena gerakan fisik, jebakan tersebut akan meledak."
+676,PHOTONGEYSER,Photon geyser,170,100,PSYCHIC,Special,100,5,0,NearOther,0,bef,Menyerang dengan pilar cahaya. Menggunakan serangan pengguna atau serangan khusus yang lebih tinggi.
+677,BURNUP,Burn up,1C9,130,FIRE,Special,100,5,0,NearOther,0,bef,Menggunakan semua kekuatan api dari tubuhnya. Kehilangan tipe FIRE sesudahnya.
+678,MULTIATTACK,Multi-attack,09F,120,NORMAL,Physical,100,10,0,NearOther,0,abef,Menyerang dengan energi dari selnya. Jenisnya tergantung pada Memori yang dimilikinya.
+679,DOUBLEIRONBASH,Double iron bash,191,60,STEEL,Physical,100,5,30,NearOther,0,abej,Memukul dua kali dengan tangan besi yang berat. Dapat menyebabkan tersentak.
+680,BRANCHPOKE,Branch poke,000,40,GRASS,Physical,100,40,0,NearOther,0,abef,Menusuk musuh dengan tongkat runcing.
+681,DRUMBEATING,Drum beating,044,80,GRASS,Physical,100,10,100,NearOther,0,bef,Mengontrol tunggul drum untuk menyerang dan menurunkan kecepatan musuh.
+682,PYROBALL,Pyro ball,00A,120,FIRE,Physical,90,5,10,NearOther,0,befgn,Pengguna menyalakan batu kecil untuk membuat bola panas. Dapat membakar target.
+683,GRAVAPPLE,Grav apple,213,80,GRASS,Physical,100,10,100,NearOther,0,bef,Menjatuhkan apel dari langit untuk memberikan damage pada musuh dan menurunkan pertahanannya.
+684,APPLEACID,Apple acid,046,80,GRASS,Special,100,10,100,NearOther,0,bef,Menyemprotkan cairan korosif dari apel asam. Menurunkan pertahanan khusus musuh secara tajam.
+685,STRANGESTEAM,Strange steam,013,95,FAIRY,Special,95,10,20,NearOther,0,bef,Menyerang dengan uap yang berputar-putar. Mungkin membingungkan target.
+686,SPIRITBREAK,Spirit break,045,75,FAIRY,Physical,100,15,100,NearOther,0,bef,"Bentrok dengan musuh, mengurangi serangan spesialnya."
+687,FALSESURRENDER,False surrender,0A5,80,DARK,Physical,0,10,0,NearOther,0,abef,"Berpura-pura membungkuk, lalu memukul dengan rambut acak-acakan. Tidak pernah ketinggalan."
+688,STEELBEAM,Steel beam,214,140,STEEL,Special,95,5,0,NearOther,0,bef,"Menembakkan seberkas logam yang terkumpul dari tubuhnya, melukai penggunanya."
+689,OVERDRIVE,Overdrive,000,80,ELECTRIC,Special,100,10,0,AllNearFoes,0,befk,Memetik gitar atau bass untuk menciptakan gaung yang dahsyat.
+690,METEORASSAULT,Meteor assault,0C2,150,FIGHTING,Physical,100,5,0,NearOther,0,bef,Serangan yang kuat menggunakan daun bawang sebagai tombak. Pengguna tidak dapat bergerak pada giliran berikutnya.
+691,ETERNABEAM,Eternabeam,0C2,160,DRAGON,Special,90,5,0,NearOther,0,bef,Jurus terkuat Eternatus dalam bentuk aslinya. Giliran selanjutnya harus istirahat.
+692,SNAPTRAP,Snap trap,0CF,35,GRASS,Physical,100,15,0,NearOther,0,abef,Menangkap musuh dalam jebakan selama empat hingga lima putaran.
+693,BREAKINGSWIPE,Breaking swipe,042,60,DRAGON,Physical,100,15,100,NearOther,0,abef,Mengayunkan ekornya ke semua musuh untuk menurunkan serangannya.
+694,AURAWHEEL,Aura wheel,174,110,ELECTRIC,Physical,100,10,100,NearOther,0,bef,"Serangan Morpeko, lalu kecepatan ditingkatkan. Jenisnya bervariasi menurut bentuk Morpeko."
+695,DRAGONDARTS,Dragon darts,212,50,DRAGON,Physical,100,10,0,AllNearFoes,0,bef,"Meluncurkan dua Dreepy. Jika ada dua musuh, masing-masing terkena satu kali."
+696,FISHIOUSREND,Fishious rend,176,85,WATER,Physical,100,10,0,NearOther,0,abefi,Air mata dengan rahangnya yang seperti ikan. Kekuatannya berlipat ganda jika mengenai sebelum target bergerak.
+697,BOLTBEAK,Bolt beak,176,85,ELECTRIC,Physical,100,10,0,NearOther,0,abef,Mematuk dengan paruh yang dialiri listrik. Kekuatannya berlipat ganda jika ia berjalan lebih dulu.
+698,OBSTRUCT,Obstruct,184,0,DARK,Status,0,10,0,NearOther,4,,Melindungi pengguna dan menurunkan pertahanan secara drastis jika musuh melakukan kontak.
+699,JAWLOCK,Jaw lock,181,80,DARK,Physical,100,10,0,NearOther,0,abefi,Menggigit musuh dengan rahang yang kuat. Tidak ada yang bisa melarikan diri sampai ada yang pingsan.
+700,COURTCHANGE,Court change,178,0,NORMAL,Status,0,10,0,BothSides,0,e,Secara misterius menukar efek di lapangan.
+701,TARSHOT,Tar shot,044,0,ROCK,Status,100,15,0,NearOther,0,bce,"Menutupi musuh dengan tar, menurunkan kecepatan dan membuatnya lemah terhadap gerakan KEBAKARAN."
+702,BODYPRESS,Body press,175,80,FIGHTING,Physical,100,10,0,NearOther,0,abef,Membanting musuh dengan tubuh penggunanya. Kekuatan akan semakin tinggi jika pertahanan penggunanya semakin tinggi.
+703,STUFFCHEEKS,Stuff cheeks,188,0,NORMAL,Status,0,10,0,User,0,d,"Memakan Berry yang dipegang, meningkatkan pertahanan secara tajam."
+704,OCTOLOCK,Octolock,185,0,FIGHTING,Status,100,15,0,NearOther,0,bce,Mencengkeram musuh untuk mencegah melarikan diri dan menurunkan pertahanan dan pertahanan khusus setiap giliran.
+705,MAGICPOWDER,Magic powder,061,0,PSYCHIC,Status,100,20,0,NearOther,0,bcel,Taburkan bubuk yang mengubah tipe musuh menjadi PSYCHIC.
+706,TEATIME,Tea time,187,0,NORMAL,Status,0,10,0,AllBattlers,0,,"Pengguna mengundang semua orang untuk minum teh, membuat mereka semua segera memakan Berry mereka."
+707,LIFEDEW,Life dew,182,0,WATER,Status,0,10,0,UserAndAllies,0,d,Pengguna menyebarkan air misterius untuk memulihkan PS dirinya dan sekutunya.
+708,NORETREAT,No retreat,183,0,FIGHTING,Status,0,5,0,User,0,d,Meningkatkan semua statistik pengguna tetapi mencegah pelarian atau peralihan.
+709,DECORATE,Decorate,179,0,FAIRY,Status,0,15,0,NearOther,0,ce,"Menghiasi target, meningkatkan serangan dan serangan spesialnya sebanyak dua tahap."
+710,CLANGOROUSSOUL,Clangorous soul,177,0,DRAGON,Status,0,5,0,User,0,dk,Menggunakan sebagian PS-nya untuk meningkatkan semua statistiknya.
+711,BEHEMOTHBASH,Behemoth bash,000,100,STEEL,Physical,100,5,0,NearOther,0,abef,Zacian berubah menjadi perisai raksasa dan menyerang musuh.
+712,BEHEMOTHBLADE,Behemoth blade,000,100,STEEL,Physical,100,5,0,NearOther,0,abef,Zacian berubah menjadi pedang raksasa dan menebas musuh.
+713,DYNAMAXCANNON,Dynamax cannon,000,100,DRAGON,Special,100,5,0,NearOther,0,bef,Menembakkan sinar energi yang kuat dari inti pengguna.
+714,SNIPESHOT,Snipe shot,000,80,WATER,Special,100,15,0,NearOther,0,befh,Mengabaikan gerakan yang menarik serangan dan mengenai target yang dipilih.
+715,WICKEDBLOW,Wicked blow,0A0,80,DARK,Physical,100,5,0,NearOther,0,abef,Pukulan dahsyat yang dilakukan dengan penguasaan seni jahat. Selalu memberikan serangan kritis.
+716,SURGINGSTRIKES,Surging strikes,189,25,WATER,Physical,100,5,0,NearOther,0,abef,Pukulan tiga kali dengan hembusan cairan air. Selalu memberikan serangan kritis.
+717,JUNGLEHEALING,Jungle healing,210,0,GRASS,Status,0,10,0,UserAndAllies,0,d,"Menggunakan tanaman merambat untuk menarik energi dari hutan, memulihkan PS dan menyembuhkan status pengguna dan sekutu."
+718,SHELLSIDEARM,Shell side arm,206,90,POISON,Special,100,10,20,NearOther,0,bef,"Menyerang secara fisik atau khusus, mana saja yang menghasilkan lebih banyak kerusakan. Mungkin racun."
+719,TERRAINPULSE,Terrain pulse,203,50,NORMAL,Special,100,10,0,NearOther,0,befm,Menggunakan kekuatan medan untuk menyerang. Jenis dan kekuatan berubah sesuai medan.
+720,BURNINGJEALOUSY,Burning jealousy,209,70,FIRE,Special,100,5,100,AllNearFoes,0,bef,Sebuah serangan yang dipicu oleh rasa iri. Musuh yang mendapat peningkatan stat pada giliran ini akan terbakar.
+721,FLIPTURN,Flip turn,0EE,60,WATER,Physical,100,20,0,NearOther,0,abef,"Menyerang, lalu beralih dengan cepat ke Pokémon pihak lain."
+722,RISINGVOLTAGE,Rising voltage,201,70,ELECTRIC,Special,100,20,0,NearOther,0,bef,Tenaga listrik dari dalam tanah. Kekuatannya berlipat ganda jika target berada di bawah medan listrik.
+723,GRASSYGLIDE,Grassy glide,211,70,GRASS,Physical,100,20,0,NearOther,0,abef,Meluncur di sepanjang rumput untuk menyerang. Telah meningkatkan prioritas di medan GRASSY.
+724,TRIPLEAXEL,Triple axel,0BF,20,ICE,Physical,90,10,0,NearOther,0,abef,"Menendang musuh hingga tiga kali, mendapatkan kekuatan setiap pukulan."
+725,COACHING,Coaching,200,0,FIGHTING,Status,0,10,0,UserAndAllies,0,e,Instruksi yang tepat meningkatkan serangan dan pertahanan sekutu.
+726,CORROSIVEGAS,Corrosive gas,1A1,0,POISON,Status,0,40,0,AllNearOthers,0,bce,"Mencairkan benda-benda dengan gas kaustik, menghilangkan efeknya."
+727,SCORCHINGSANDS,Scorching sands,00A,70,GROUND,Special,100,10,30,NearOther,0,befg,Hancurkan musuh dengan pasir super panas. Dapat membakar target.
+728,DUALWINGBEAT,Dual wingbeat,0BD,40,FLYING,Physical,90,10,0,NearOther,0,abef,Menyerang musuh dua kali dengan sayap pengguna.
+729,EXPANDINGFORCE,Expanding force,207,80,PSYCHIC,Special,100,10,0,AllNearOthers,0,bef,Serangan dengan kekuatan psikis. Lebih kuat di medan PSYCHIC dan menghantam semua musuh.
+730,SKITTERSMACK,Skitter smack,045,70,BUG,Physical,90,10,100,NearOther,0,abef,"Menyerang secara diam-diam dari belakang, menurunkan serangan khusus musuh."
+731,METEORBEAM,Meteor beam,190,120,ROCK,Special,90,10,0,NearOther,0,bef,"Pada giliran pertama, pengguna mengisi daya dan meningkatkan serangan khusus. Di tikungan kedua, ia menyerang."
+732,POLTERGEIST,Poltergeist,204,110,GHOST,Physical,90,5,0,NearOther,0,bef,Menyerang menggunakan item yang dipegang musuh. Gagal jika musuh tidak memiliki item.
+733,SCALESHOT,Scale shot,0C0,25,DRAGON,Physical,90,20,0,NearOther,0,bef,Meluncurkan skala dua hingga lima kali. Meningkatkan kecepatan pengguna tetapi menurunkan pertahanan.
+734,LASHOUT,Lash out,208,75,DARK,Physical,100,5,0,NearOther,0,abef,"Jika pengguna menurunkan stat pada giliran ini, kekuatannya akan berlipat ganda."
+735,STEELROLLER,Steel roller,205,130,STEEL,Physical,100,5,0,NearOther,0,abef,"Menghancurkan musuh dengan kekuatan besar, menghancurkan medan. Gagal jika tidak ada medan."
+736,MISTYEXPLOSION,Misty explosion,202,100,FAIRY,Special,100,5,0,AllNearOthers,0,bef,"Memukul segala sesuatu di dekatnya, lalu pengguna pingsan. Kekuatan meningkat di medan MISTY."
+737,DRAGONENERGY,Dragon energy,08B,150,DRAGON,Special,100,5,0,AllNearFoes,0,bef,Mengubah energi vital menjadi sinar naga. Tenaga turun dengan PS lebih rendah.
+738,THUNDERCAGE,Thunder cage,0CF,80,ELECTRIC,Special,90,15,0,NearOther,0,bef,Menjebak musuh dalam sangkar listrik selama empat hingga lima putaran.
+739,EERIESPELL,Eerie spell,215,80,PSYCHIC,Special,100,5,0,NearOther,0,befk,"Menyerang dengan kekuatan psikis yang sangat besar, menghilangkan 3 PP dari gerakan terakhir yang digunakan musuh."
+740,GLACIALLANCE,Glacial lance,000,130,ICE,Physical,100,5,0,NearOther,0,bef,Serangan dengan es raksasa yang diselimuti badai salju.
+741,ASTRALBARRAGE,Astral barrage,000,120,GHOST,Special,100,5,0,AllNearFoes,0,bef,Pengguna menyerang musuh dengan mengirimkan segerombolan roh spektral.
+742,VISEGRIP,Vise grip,000,55,NORMAL,Physical,100,30,0,NearOther,0,abef,Meraih musuh dengan penjepit yang kuat untuk menimbulkan kerusakan.
+#########
+743,BITTERBLADE,Bitter blade,0DD,90,FIRE,Physical,100,10,0,NearOther,0,abef,Pengguna memfokuskan perasaannya ke dalam serangan pemotongan. PS pengguna dipulihkan setengah dari kerusakan yang diberikan.
+744,WAVECRASH,Wave crash,0FE,120,WATER,Physical,100,15,10,NearOther,0,abefh,"Pengguna menyamarkan dirinya dalam gelombang dan menyerang musuh, juga sedikit melukai dirinya sendiri."
+745,GIGATONHAMMER,Gigaton hammer,0C2,180,STEEL,Physical,90,5,0,NearOther,0,abef,Memberikan pukulan besar dengan palu besar.
+746,JETPUNCH,Jet punch,000,60,WATER,Physical,100,30,0,NearOther,1,abefj,Pukulan cepat berisi air yang menyerang lebih dulu.
+747,MAKEITRAIN,Make it rain,03F,140,STEEL,Special,100,5,0,NearOther,0,bef,Pancuran koin emas berkekuatan penuh yang secara tajam menurunkan serangan khusus pengguna.
+748,FLOWERTRICK,Flower trick,0A0,70,GRASS,Physical,0,15,0,NearOther,0,bef,Melempar bunga yang meledak. Selalu menghasilkan serangan kritis.
+749,STONEAXE,Stone Axe,105,65,ROCK,Physical,90,15,0,NearOther,0,abefx,"Menimbulkan kerusakan dan meninggalkan serpihan tajam yang bersarang di target, menyebabkannya kehilangan HP di akhir setiap giliran."
+750,AQUACUTTER,Aqua Cutter,000,70,WATER,Physical,100,15,0,NearOther,0,abefhx,Memotong target pada kesempatan pertama. Seringkali memberikan serangan kritis.
+751,AQUASTEP,Aqua Step,01F,80,WATER,Physical,100,10,100,NearOther,0,abef,Menimbulkan kerusakan dan selalu meningkatkan Kecepatan pengguna sebanyak satu tahap.
+752,TORCHSONG,Torch Song,020,80,FIRE,Special,100,10,100,NearOther,0,bef,Memberikan damage dan selalu meningkatkan Sp pengguna. Serang satu tahap.
+753,NIGHTHOWL,Night Howl,04G,70,DARK,Special,100,15,100,AllNearFoes,0,befkz,Raungan malam yang kuat yang mengenai dan selalu menurunkan Attack dan Sp musuh. Serangan.
+754,SILVERBLITZ,Silver Blitz,0FG,100,FIRE,Physical,100,15,10,NearOther,0,abefgz,"Mengisi target dengan api perak, menyembuhkan penggunanya, dan dapat terbakar. Tanpa Mega-nya, ia gagal."
+755,SALTCURE,Salt Cure,10G,40,ROCK,Physical,100,15,0,NearOther,0,abce,"Memukul dan meninggalkan garam pada lawan, menimbulkan kerusakan pada setiap giliran. Memberikan dua kali lipat setiap giliran jika lawannya bertipe Baja atau Air."
+
+####### KRUL GEN 9 MOVES WITHOUT REAL FUNCTION ########
+
+761,DIRECLAW,Dire Claw,19B,80,POISON,Physical,100,15,50,NearOther,0,abeh,"Penggunanya mungkin terkena serangan kritis dengan cakarnya yang merusak. Mungkin juga membuat targetnya keracunan, lumpuh, atau tertidur."
+762,SPRINGTIDESTORM,Springtide Storm,042,100,FAIRY,Special,80,5,30,AllNearFoes,0,be,Pengguna membungkus angin emosi yang dahsyat di sekitar lawan. Hal ini dapat menurunkan statistik Serangan mereka.
+763,RAGINGFURY,Raging Fury,0D2,120,FIRE,Physical,100,10,0,RandomNearFoe,0,be,Pengguna mengamuk sambil memuntahkan api selama dua hingga tiga putaran. Pengguna kemudian menjadi bingung.
+764,CHLOROBLAST,Chloroblast,1CF,150,GRASS,Special,95,5,0,NearOther,0,be,Pengguna meluncurkan klorofil yang terkumpul untuk menimbulkan kerusakan pada target. Hal ini juga merugikan penggunanya.
+765,MOUNTAINGALE,Mountain Gale,00F,100,ICE,Physical,85,10,30,NearOther,0,be,Pengguna melemparkan bongkahan es raksasa ke sasaran. Hal ini juga dapat membuat targetnya tersentak.
+766,HEADLONGRUSH,Headlong Rush,03C,120,GROUND,Physical,100,5,0,NearOther,0,abej,Pengguna menabrak target dengan tekel seluruh tubuh. Ini menurunkan Pertahanan dan Sp pengguna. Statistik pasti.
+767,BARBBARRAGE,Barb Barrage,19C,60,POISON,Physical,100,10,100,NearOther,0,be,Menembakkan duri beracun yang dapat meracuni target. Kekuatannya berlipat ganda jika targetnya diracuni.
+768,ESPERWING,Esper Wing,01F,80,PSYCHIC,Special,100,10,100,NearOther,0,beh,Pengguna menebas dengan sayap yang diperkaya aura yang meningkatkan status Kecepatannya. Critical lebih mudah mendarat.
+769,BITTERMALICE,Bitter Malice,042,75,GHOST,Special,100,10,100,NearOther,0,be,Pengguna menyerang target dengan kebencian yang mengerikan. Ini juga menurunkan stat Serangan target.
+770,TRIPLEARROWS,Triple Arrows,19D,90,FIGHTING,Physical,100,10,100,NearOther,0,beh,Pengguna menembakkan panah yang dapat menurunkan Pertahanan target atau membuatnya bergeming. Critical lebih mudah mendarat.
+771,BLEAKWINDSTORM,Bleakwind Storm,044,100,FLYING,Special,80,10,30,AllNearFoes,0,be,Pengguna menyerang dengan angin dingin yang menyebabkan Pokémon lawan gemetar. Hal ini dapat menurunkan statistik Kecepatannya.
+772,WILDBOLTSTORM,Wildbolt Storm,007,100,ELECTRIC,Special,80,10,20,AllNearFoes,0,be,Pengguna menyerang Pokémon lawan dengan badai yang menggelegar. Hal ini mungkin juga membuat mereka lumpuh.
+773,SANDSEARSTORM,Sandsear Storm,00A,100,GROUND,Special,80,10,20,AllNearFoes,0,be,Pengguna membungkus lawan dengan angin kencang dan pasir panas. Hal ini dapat menyebabkan luka bakar.
+774,LUNARBLESSING,Lunar Blessing,210,0,PSYCHIC,Status,0,5,0,UserAndAllies,0,d,"Pengguna diberkati oleh bulan, memulihkan HP dan menyembuhkan kondisi status dirinya dan sekutunya."
+775,PSYSHIELDBASH,Psyshield Bash,01D,70,PSYCHIC,Physical,90,10,100,NearOther,0,abe,"Menyelubungi dirinya dalam energi psikis, pengguna menghantam target. Ini meningkatkan Pertahanan pengguna."
+776,POWERSHIFT,Power Shift,057,0,NORMAL,Status,0,10,0,User,0,d,Pengguna menukar statistik Serangan dan Pertahanannya.
+777,MYSTICALPOWER,Mystical Power,020,70,PSYCHIC,Special,90,10,100,NearOther,0,be,Pengguna menyerang dengan memancarkan kekuatan misterius. Ini juga meningkatkan Sp pengguna. Statistik serangan.
+778,VICTORYDANCE,Victory Dance,19F,0,FIGHTING,Status,0,10,0,User,0,o,"Pengguna melakukan tarian yang intens untuk mengantarkan kemenangan, meningkatkan Serangan, Pertahanan, dan Kecepatannya."
+779,SHELTER,Shelter,02F,0,STEEL,Status,0,10,0,User,0,d,"Pengguna membuat kulitnya sekeras perisai besi, meningkatkan status Pertahanannya secara tajam."
+780,INFERNALPARADE,Infernal Parade,20A,60,GHOST,Special,100,15,100,NearOther,0,be,Melemparkan bola api yang dapat menyebabkan luka bakar. Kekuatan menjadi dua kali lipat jika target memiliki kondisi status.
+781,CEASELESSEDGE,Ceaseless Edge,103,65,DARK,Physical,90,15,100,NearOther,0,abe,Pengguna menebas lawan dengan bilah cangkangnya. Mungkin meninggalkan lonjakan di sekitar target.
+782,TAKEHEART,Take Heart,20B,0,PSYCHIC,Status,0,10,0,User,0,d,"Pengguna meningkatkan semangatnya, menyembuhkan kondisi statusnya sendiri dan meningkatkan Sp-nya. Atk dan Sp. Statistik pasti."
+783,ARMORCANNON,Armor Cannon,03C,120,FIRE,Special,100,5,100,NearOther,0,be,Pengguna menembakkan armornya sendiri sebagai proyektil yang menyala-nyala. Ini menurunkan Pertahanan dan Sp pengguna. Def.
+784,AXEKICK,Axe Kick,20C,120,FIGHTING,Physical,90,10,100,NearOther,0,abe,Melakukan tendangan ke bawah yang dapat membingungkan sasaran. Pengguna menerima kerusakan jika meleset.
+785,BLAZINGTORQUE,Blazing Torque,00A,80,FIRE,Physical,100,10,30,NearOther,0,b,Jurus ini hanya digunakan oleh Starmobile. Ini mungkin meninggalkan target dengan luka bakar.
+786,CHILLINGWATER,Chilling Water,042,50,WATER,Special,100,20,100,NearOther,0,be,Pengguna menghujani target dengan air dingin. Ini juga menurunkan stat Serangan target.
+787,CHILLYRECEPTION,Chilly Reception,20D,0,ICE,Status,0,10,0,BothSides,0,d,Pengguna menceritakan lelucon yang sangat buruk dan keluar. Hal ini menyebabkan badai salju yang berlangsung selama lima putaran.
+788,COLLISIONCOURSE,Collision Course,20E,100,FIGHTING,Physical,100,5,0,NearOther,0,abe,Ledakan besar prasejarah. Kekuatan gerakan ini ditingkatkan lebih dari biasanya jika serangannya super efektif.
+789,COMBATTORQUE,Combat Torque,007,100,FIGHTING,Physical,100,10,30,NearOther,0,b,Jurus ini hanya digunakan oleh Starmobile. Ini mungkin melumpuhkan target.
+790,COMEUPPANCE,Comeuppance,073,1,DARK,Physical,100,10,0,None,0,abe,Pengguna membalas dengan kekuatan yang jauh lebih besar terhadap lawan yang terakhir kali memberikan kerusakan padanya.
+791,DOODLE,Doodle,20F,0,NORMAL,Status,100,10,0,NearFoe,0,d,"Pengguna menangkap sketsa cepat, mengubah Kemampuan pengguna dan sekutunya sesuai target."
+792,DOUBLESHOCK,Double Shock,216,120,ELECTRIC,Physical,100,5,0,NearOther,0,abe,Pengguna menyerang dengan mengeluarkan seluruh listriknya. Penggunanya bukan lagi tipe Listrik.
+793,ELECTRODRIFT,Electro Drift,20E,100,ELECTRIC,Special,100,5,0,NearOther,0,abe,Serangan listrik futuristik. Kekuatan gerakan ini ditingkatkan lebih dari biasanya jika serangannya super efektif.
+794,FILLETAWAY,Fillet Away,217,0,NORMAL,Status,0,10,0,NearOther,0,d,"Pengguna secara tajam meningkatkan Serangannya, Sp. Statistik Atk, dan Speed ​​dengan menggunakan HP sendiri."
+795,GLAIVERUSH,Glaive Rush,218,120,DRAGON,Physical,100,5,0,NearOther,0,abe,Pengguna menjadi sangat rentan terhadap serangan hingga giliran berikutnya setelah menggunakan jurus ini.
+796,HYPERDRILL,Hyper Drill,000,100,NORMAL,Physical,100,5,0,NearOther,0,ae,"Pengguna memutar bagian tubuhnya yang runcing dengan kecepatan tinggi untuk menembus target, mengabaikan perlindungan."
+797,ICESPINNER,Ice Spinner,219,80,ICE,Physical,100,15,0,NearOther,0,abe,Pengguna berputar ke sasaran dengan kaki tertutup es tipis. Hal ini juga merusak medan.
+798,KOWTOWCLEAVE,Kowtow Cleave,0A5,85,DARK,Physical,0,10,0,NearOther,0,abe,"Pengguna melakukan kowtow untuk membuat target menurunkan pertahanannya, lalu menebas. Serangan ini tidak pernah meleset."
+799,LASTRESPECTS,Last Respects,21A,50,GHOST,Physical,100,10,0,NearOther,0,be,Pengguna menyerang untuk membalaskan dendam sekutunya. Kekuatan gerakan ini meningkat untuk setiap sekutu yang dikalahkan.
+800,LUMINACRASH,Lumina Crash,04F,80,PSYCHIC,Special,100,10,100,NearOther,0,be,Pengguna menyerang dengan melepaskan cahaya aneh dan menakjubkan yang menurunkan Sp target secara drastis. Def.
+801,MAGICALTORQUE,Magical Torque,013,100,FAIRY,Physical,100,10,30,NearOther,0,b,Jurus ini hanya digunakan oleh Starmobile. Ini mungkin membingungkan targetnya.
+802,MORTALSPIN,Mortal Spin,21B,30,POISON,Physical,100,15,100,AllNearFoes,0,abe,Melakukan putaran yang menghilangkan jebakan dan bahaya tertentu. Ini juga meracuni Pokémon lawan.
+803,NOXIOUSTORQUE,Noxious Torque,006,100,POISON,Physical,100,10,30,NearOther,0,b,Jurus ini hanya digunakan oleh Starmobile. Ini mungkin meracuni target.
+804,ORDERUP,Order Up,232,80,DRAGON,Physical,100,10,100,NearOther,0,b,"Jika digunakan saat pengguna mempunyai Tatsugiri di mulutnya, dorongan akan terjadi berdasarkan bentuknya."
+805,POPULATIONBOMB,Population Bomb,21C,20,NORMAL,Physical,100,10,0,NearOther,0,abe,Rekan pengguna berkumpul berbondong-bondong untuk melakukan serangan kombo yang mengenai satu hingga sepuluh kali berturut-turut.
+806,POUNCE,Pounce,044,50,BUG,Physical,100,20,100,NearOther,0,abe,Pengguna menyerang dengan menerkam sasaran. Ini juga menurunkan stat Kecepatan target.
+807,RAGEFIST,Rage Fist,21D,50,GHOST,Physical,100,10,0,NearOther,0,abej,Pengguna mengubah kemarahannya menjadi energi untuk menyerang. Kekuatan gerakannya meningkat setiap kali penggunanya terkena.
+808,RAGINGBULL,Raging Bull,233,90,NORMAL,Physical,100,10,0,NearOther,0,abe,Pengguna mengisi daya dan menghancurkan penghalang musuh. Jenis gerakan ini bergantung pada formulir pengguna.
+809,REVIVALBLESSING,Revival Blessing,21E,0,NORMAL,Status,0,1,0,User,0,,Pengguna menghidupkan kembali Pokémon party yang pingsan dan memulihkan setengah HP maksimalnya.
+810,RUINATION,Ruination,06C,1,DARK,Special,90,10,0,NearOther,0,be,Pengguna memanggil bencana yang menghancurkan. Ini memotong setengah HP target.
+811,SHEDTAIL,Shed Tail,21F,0,NORMAL,Status,0,10,0,User,0,,Pengguna membuat pengganti dan bertukar tempat dengan Pokémon party yang menunggu.
+812,SILKTRAP,Silk Trap,220,0,BUG,Status,0,10,0,User,4,,Pengguna memutar jebakan sutra untuk melindungi dirinya sendiri. Menurunkan Kecepatan siapa pun yang melakukan kontak langsung.
+813,SNOWSCAPE,Snowscape,102,0,ICE,Status,0,10,0,BothSides,0,,Memanggil badai salju lima putaran yang meningkatkan Pertahanan Pokémon tipe Es.
+814,SPICYEXTRACT,Spicy Extract,221,0,GRASS,Status,0,15,0,NearOther,0,be,Memancarkan ekstrak pedas yang meningkatkan Serangan target dan menurunkan Pertahanan masing-masing sebanyak dua tahap.
+815,SPINOUT,Spin Out,222,100,STEEL,Physical,100,5,0,NearOther,0,abe,Pengguna menimbulkan kerusakan pada target dengan putaran yang ganas. Ini sangat menurunkan Kecepatan pengguna.
+816,TIDYUP,Tidy Up,223,0,NORMAL,Status,0,10,100,User,0,,Membersihkan bahaya dan pengganti dari lapangan. Ini juga meningkatkan Serangan dan Kecepatan pengguna.
+817,TRAILBLAZE,Trailblaze,01F,50,GRASS,Physical,100,20,100,NearOther,0,abe,Penggunanya menyerang secara tiba-tiba seolah-olah melompat keluar dari rumput tinggi. Ini meningkatkan stat Kecepatan pengguna.
+818,TRIPLEDIVE,Triple Dive,224,30,WATER,Physical,95,10,0,NearOther,0,abe,"Pengguna melakukan tiga kali penyelaman dengan waktu yang tepat, mencapai target tiga kali berturut-turut."
+819,TWINBEAM,Twin Beam,0BD,40,PSYCHIC,Special,100,10,0,NearOther,0,be,Pengguna menembakkan sinar mistis dari matanya untuk menimbulkan kerusakan. Targetnya terkena dua kali berturut-turut.
+820,WICKEDTORQUE,Wicked Torque,003,80,DARK,Physical,100,10,10,NearOther,0,b,Jurus ini hanya digunakan oleh Starmobile. Ini mungkin membuat target tertidur.
+821,HYDROSTEAM,Hydro Steam,000,80,WATER,Special,100,15,0,NearOther,0,be,Pengguna meledakkan target dengan air panas mendidih yang kekuatannya ditingkatkan di bawah sinar matahari yang terik.
+822,PSYBLADE,Psyblade,225,80,PSYCHIC,Physical,100,15,0,NearOther,0,abe,Pengguna membelah target dengan pedang halus yang kekuatannya ditingkatkan di Medan Listrik.
+823,BLOODMOON,Blood Moon,226,140,NORMAL,Special,100,5,0,NearOther,0,be,Pengguna melepaskan seluruh kekuatan rohnya dari bulan darah. Jurus ini tidak dapat digunakan dua kali berturut-turut.
+824,MATCHAGOTCHA,Matcha Gotcha,227,80,GRASS,Special,90,15,100,AllNearFoes,0,beg,Meledakkan lawan dengan teh panas. Menyembuhkan pengguna hingga setengah dari kerusakan yang diberikan dan juga dapat membakar target.
+825,SYRUPBOMB,Syrup Bomb,228,60,GRASS,Special,85,10,100,NearOther,0,ben,"Ledakan sirup permen lengket, yang menjatuhkan status Kecepatan target setiap putaran selama tiga putaran."
+826,IVYCUDGEL,Ivy Cudgel,09F,100,GRASS,Physical,100,10,0,NearOther,0,beh,Serangan gada berbalut tanaman ivy dengan rasio serangan kritis yang tinggi. Ketik perubahan berdasarkan Mask pengguna.
+827,ELECTROSHOT,Electro Shot,229,130,ELECTRIC,Special,100,10,100,NearOther,0,be,Serangan dua putaran. Pengguna meningkatkan Sp-nya. Menyerang dan kemudian melepaskan tembakan tegangan tinggi.
+828,FICKLEBEAM,Fickle Beam,22A,80,DRAGON,Special,100,5,0,NearOther,0,be,"Terkadang semua kepala pengguna menembakkan sinar secara bersamaan, sehingga menggandakan kekuatan gerakan ini."
+829,TERASTARSTORM,Tera Starstorm,000,120,NORMAL,Special,100,5,0,NearOther,0,be,"Saat digunakan oleh Terapagos dalam Bentuk Stellarnya, gerakan ini memberikan kerusakan pada semua Pokémon lawan."
+830,BURNINGBULWARK,Burning Bulwark,22D,0,FIRE,Status,0,10,0,User,4,,Melindungi pengguna dari serangan. Juga membakar setiap penyerang yang melakukan kontak dengan pengguna.
+831,THUNDERCLAP,Thunderclap,116,70,ELECTRIC,Special,100,5,0,NearOther,1,be,Langkah ini memungkinkan pengguna untuk menyerang terlebih dahulu. Namun gagal jika target tidak menyiapkan serangan.
+832,MIGHTYCLEAVE,Mighty Cleave,000,95,ROCK,Physical,100,5,0,NearOther,0,ae,Pengguna membelah target. Gerakan ini berhasil meskipun targetnya melindungi dirinya sendiri.
+833,TACHYONCUTTER,Tachyon Cutter,22B,50,STEEL,Special,0,10,0,NearOther,0,be,Pengguna menyerang dengan meluncurkan bilah partikel ke sasaran dua kali berturut-turut. Serangan ini tidak pernah meleset.
+834,HARDPRESS,Hard Press,22C,1,STEEL,Physical,100,10,0,NearOther,0,abe,Targetnya dihancurkan dengan kekuatan besar. Serangannya akan semakin kuat jika semakin banyak HP yang tersisa dari target.
+835,DRAGONCHEER,Dragon Cheer,22E,0,DRAGON,Status,0,15,0,NearOther,0,,Pengguna meningkatkan rasio serangan kritis sekutunya dengan teriakan keras. Ini membangkitkan tipe Naga lebih banyak.
+836,ALLURINGVOICE,Alluring Voice,22F,80,FAIRY,Special,100,10,100,NearOther,0,bek,Serangan menggunakan suara malaikat. Ini membingungkan target jika statistiknya dinaikkan pada giliran ini.
+837,TEMPERFLARE,Temper Flare,CF22,75,FIRE,Physical,100,10,0,NearOther,0,abe,Serangan pengguna didorong oleh frustrasi. Kekuatan meningkat jika langkah pengguna sebelumnya gagal.
+838,SUPERCELLSLAM,Supercell Slam,230,100,ELECTRIC,Physical,95,15,0,NearOther,0,abe,"Pengguna menjatuhkan diri ke target dengan tubuh yang dialiri listrik. Jika meleset, penggunanya malah terluka."
+839,PSYCHICNOISE,Psychic Noise,0BB,75,PSYCHIC,Special,100,10,100,NearOther,0,bek,Menyerang target dengan gelombang suara yang tidak menyenangkan. Mencegah target melakukan penyembuhan selama dua putaran.
+840,UPPERHAND,Upper Hand,231,65,FIGHTING,Physical,100,15,100,NearOther,3,abe,Serangan yang mengenai terlebih dahulu dan membuat targetnya tersentak. Gagal jika target tidak menggunakan gerakan prioritas tinggi.
+841,MALIGNANTCHAIN,Malignant Chain,006,100,POISON,Special,100,5,50,NearOther,0,be,Membungkus target dalam rantai beracun dan korosif. Hal ini juga dapat membuat targetnya keracunan parah.
+
+###### SHADOW MOVES ######
+
+842,SHADOWRUSH,Shadow Rush,000,55,SHADOW,Physical,100,0,0,NearOther,0,abef,Golpea al musuh.

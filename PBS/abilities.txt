@@ -1,0 +1,288 @@
+1,STENCH,Stench,"Karena bau busuk yang dikeluarkannya, serangannya bisa membuat musuh bergidik."
+2,DRIZZLE,Drizzle,Memanggil hujan saat memasuki pertempuran.
+3,SPEEDBOOST,Speed Boost,Meningkatkan Kecepatan setiap belokan.
+4,BATTLEARMOR,Battle Armor,Armornya yang kokoh memblokir serangan kritis.
+5,STURDY,Sturdy,Mencegah tersingkir dengan satu pukulan saat HP penuh.
+6,DAMP,Damp,Merendam lapangan dan mencegah penggunaan gerakan eksplosif.
+7,LIMBER,Limber,Tubuhnya yang lentur mencegah kelumpuhan.
+8,SANDVEIL,Sand Veil,Meningkatkan penghindaran dalam badai pasir.
+9,STATIC,Static,Kontak dengan Pokémon dapat menyebabkan kelumpuhan.
+10,VOLTABSORB,Volt Absorb,Memulihkan HP alih-alih menerima kerusakan dari gerakan tipe Listrik.
+11,WATERABSORB,Water Absorb,Memulihkan HP alih-alih menerima kerusakan dari gerakan tipe Air.
+12,OBLIVIOUS,Oblivious,Mencegah kegilaan dan ejekan.
+13,CLOUDNINE,Cloud Nine,Meniadakan semua efek cuaca.
+14,COMPOUNDEYES,Compound Eyes,Meningkatkan akurasi gerakannya.
+15,INSOMNIA,Insomnia,Mencegah tidur.
+16,COLORCHANGE,Color Change,Menjadi tipe jurus terakhir yang mengenainya.
+17,IMMUNITY,Immunity,Mencegah keracunan.
+18,FLASHFIRE,Flash Fire,Memperkuat gerakan tipe Api jika terkena salah satunya.
+19,SHIELDDUST,Shield Dust,Memblokir efek tambahan dari serangan yang dilakukan.
+20,OWNTEMPO,Own Tempo,Mencegah kebingungan dengan melakukan sesuatu dengan caranya sendiri.
+21,SUCTIONCUPS,Suction Cups,Meniadakan peralihan paksa dari gerakan dan item.
+22,INTIMIDATE,Intimidate,Menurunkan Serangan musuh saat masuk.
+23,SHADOWTAG,Shadow Tag,Mencegah musuh melarikan diri atau tersingkir.
+24,ROUGHSKIN,Rough Skin,Menimbulkan kerusakan pada kontak.
+25,WONDERGUARD,Wonder Guard,Hanya gerakan super efektif yang akan merusaknya.
+26,LEVITATE,Levitate,Memberikan kekebalan penuh terhadap gerakan tipe Tanah.
+27,EFFECTSPORE,Effect Spore,"Kontak dapat menyebabkan tidur, keracunan, atau kelumpuhan."
+28,SYNCHRONIZE,Synchronize,"Menularkan racun, luka bakar, atau kelumpuhan kepada musuh yang menyebabkannya."
+29,CLEARBODY,Clear Body,Mencegah statistiknya diturunkan karena gerakan atau Kemampuan.
+30,NATURALCURE,Natural Cure,Menyembuhkan kondisi status saat beralih keluar.
+31,LIGHTNINGROD,Lightning Rod,"Menarik gerakan Listrik, meniadakannya dan menaikkan Sp. Serangan."
+32,SERENEGRACE,Serene Grace,Meningkatkan kemungkinan terjadinya efek tambahan.
+33,SWIFTSWIM,Swift Swim,Meningkatkan Kecepatan saat hujan.
+34,CHLOROPHYLL,Chlorophyll,Meningkatkan Kecepatan di bawah sinar matahari.
+35,ILLUMINATE,Illuminate,Meningkatkan kemungkinan bertemu Pokémon liar.
+36,TRACE,Trace,Menyalin Kemampuan musuh saat masuk.
+37,HUGEPOWER,Huge Power,Menggandakan Serangan pengguna.
+38,POISONPOINT,Poison Point,Kontak dapat meracuni penyerang.
+39,INNERFOCUS,Inner Focus,Fokusnya yang intens mencegahnya bergeming.
+40,MAGMAARMOR,Magma Armor,Mencegah pembekuan dengan tubuhnya yang terbakar.
+41,WATERVEIL,Water Veil,Mencegah luka bakar dengan lapisan air.
+42,MAGNETPULL,Magnet Pull,Mencegah musuh tipe Baja melarikan diri.
+43,SOUNDPROOF,Soundproof,Kebal terhadap gerakan berbasis suara.
+44,RAINDISH,Rain Dish,Memulihkan HP secara bertahap saat hujan.
+45,SANDSTREAM,Sand Stream,Memanggil badai pasir saat masuk.
+46,PRESSURE,Pressure,"Memberikan tekanan, membuat musuh menggunakan lebih banyak PP."
+47,THICKFAT,Thick Fat,Membagi dua kerusakan dari gerakan tipe Api dan Es.
+48,EARLYBIRD,Early Bird,Bangun dua kali lebih cepat dari tidur.
+49,FLAMEBODY,Flame Body,Kontak dapat membakar penyerang.
+50,RUNAWAY,Run Away,Memastikan melarikan diri dari Pokémon liar.
+51,KEENEYE,Keen Eye,Mencegah akurasinya diturunkan.
+52,HYPERCUTTER,Hyper Cutter,Mencegah Serangannya diturunkan.
+53,PICKUP,Pickup,Dapat mengambil barang bekas atau ditemukan selama petualangan.
+54,TRUANT,Truant,Roti di setiap belokan.
+55,HUSTLE,Hustle,Meningkatkan Serangan tetapi menurunkan akurasi.
+56,CUTECHARM,Cute Charm,Kontak mungkin membuat penyerang tergila-gila.
+57,PLUS,Plus,Meningkatkan Sp. Serang jika sekutu memiliki Plus atau Minus.
+58,MINUS,Minus,Meningkatkan Sp. Serang jika sekutu memiliki Plus atau Minus.
+59,FORECAST,Forecast,"Perubahan jenis Air, Api, atau Es seiring dengan cuaca."
+60,STICKYHOLD,Sticky Hold,Mencegah pencurian barang; benda menempel pada tubuhnya.
+61,SHEDSKIN,Shed Skin,Dapat menyembuhkan masalah status dengan melepaskan kulitnya.
+62,GUTS,Guts,Meningkatkan Serangan jika memiliki kondisi status.
+63,MARVELSCALE,Marvel Scale,Meningkatkan Pertahanan jika memiliki kondisi status.
+64,LIQUIDOOZE,Liquid Ooze,Merusak musuh yang mencoba menguras HP-nya karena lumpur busuk.
+65,OVERGROW,Overgrow,Memperkuat gerakan tipe Rumput dengan HP rendah.
+66,BLAZE,Blaze,Memperkuat gerakan tipe Api pada HP rendah.
+67,TORRENT,Torrent,Memperkuat gerakan tipe Air dengan HP rendah.
+68,SWARM,Swarm,Memperkuat gerakan tipe Bug pada HP rendah.
+69,ROCKHEAD,Rock Head,Mencegah kerusakan mundur dari gerakannya sendiri.
+70,DROUGHT,Drought,Memanggil sinar matahari yang keras saat masuk.
+71,ARENATRAP,Arena Trap,Mencegah musuh melarikan diri.
+72,VITALSPIRIT,Vital Spirit,Mencegah tidur melalui kekuatan belaka.
+73,WHITESMOKE,White Smoke,Mencegah statistiknya diturunkan oleh orang lain.
+74,PUREPOWER,Pure Power,Menggandakan Serangan pengguna.
+75,SHELLARMOR,Shell Armor,Memblokir serangan kritis dengan cangkang keras.
+76,AIRLOCK,Air Lock,Meniadakan semua efek cuaca.
+77,TANGLEDFEET,Tangled Feet,Meningkatkan penghindaran jika menjadi bingung.
+78,MOTORDRIVE,Motor Drive,Meningkatkan Kecepatan alih-alih menerima kerusakan dari gerakan Listrik.
+79,RIVALRY,Rivalry,Menimbulkan lebih banyak kerusakan pada target berjenis kelamin sama dan lebih sedikit pada lawannya.
+80,STEADFAST,Steadfast,"Setiap kali ia tersentak, Kecepatannya meningkat."
+81,SNOWCLOAK,Snow Cloak,Meningkatkan penghindaran dalam hujan es.
+82,GLUTTONY,Gluttony,"Memakan Berry yang ditahan saat HP turun menjadi setengah, tidak hanya rendah."
+83,ANGERPOINT,Anger Point,Serangan kritis memaksimalkan Serangannya.
+84,UNBURDEN,Unburden,Meningkatkan Kecepatan jika menggunakan atau kehilangan item yang dipegangnya.
+85,HEATPROOF,Heatproof,Membagi dua kerusakan dari gerakan tipe Api.
+86,SIMPLE,Simple,Menggandakan setiap perubahan stat yang diterimanya.
+87,DRYSKIN,Dry Skin,Kehilangan HP di bawah sinar matahari; memulihkan HP saat hujan atau dari gerakan Air; menerima kerusakan Api ekstra.
+88,DOWNLOAD,Download,Membandingkan pertahanan musuh dan meningkatkan Serangan atau Sp miliknya sendiri. Serang sesuai.
+89,IRONFIST,Iron Fist,Meningkatkan kekuatan gerakan meninju.
+90,POISONHEAL,Poison Heal,Memulihkan HP alih-alih hilang saat diracuni.
+91,ADAPTABILITY,Adaptability,Lebih lanjut meningkatkan gerakan yang sesuai dengan tipenya sendiri.
+92,SKILLLINK,Skill Link,Gerakan multi-serangan selalu mencapai waktu maksimal.
+93,HYDRATION,Hydration,Menyembuhkan kondisi status dalam hujan.
+94,SOLARPOWER,Solar Power,Meningkatkan Sp. Menyerang di bawah sinar matahari tetapi kehilangan HP setiap giliran.
+95,QUICKFEET,Quick Feet,Meningkatkan Kecepatan jika memiliki kondisi status.
+96,NORMALIZE,Normalize,Semua gerakan menjadi tipe Normal dan mendapat sedikit peningkatan kekuatan.
+97,SNIPER,Sniper,Serangan kritis menghasilkan lebih banyak kerusakan.
+98,MAGICGUARD,Magic Guard,Menerima kerusakan hanya dari serangan.
+99,NOGUARD,No Guard,Semua gerakan yang digunakan oleh atau melawannya akan selalu mengenai.
+100,STALL,Stall,Selalu bergerak mengejar Pokémon lain.
+101,TECHNICIAN,Technician,Meningkatkan kekuatan gerakan yang lebih lemah.
+102,LEAFGUARD,Leaf Guard,Mencegah kondisi status di bawah sinar matahari.
+103,KLUTZ,Klutz,Tidak dapat menggunakan item yang ditahan.
+104,MOLDBREAKER,Mold Breaker,Gerakan mengabaikan Kemampuan target.
+105,SUPERLUCK,Super Luck,Meningkatkan kemungkinan mendaratkan serangan kritis.
+106,AFTERMATH,Aftermath,Merusak musuh yang mendaratkan pukulan kontak terakhir.
+107,ANTICIPATION,Anticipation,Merasakan gerakan berbahaya yang mungkin dilakukan musuh.
+108,FOREWARN,Forewarn,Mengungkapkan gerakan musuh yang paling kuat saat masuk.
+109,UNAWARE,Unaware,Mengabaikan peningkatan stat musuh saat menyerang.
+110,TINTEDLENS,Tinted Lens,Memperkuat gerakan yang tidak terlalu efektif.
+111,FILTER,Filter,Mengurangi kerusakan dari gerakan superefektif.
+112,SLOWSTART,Slow Start,Membagi dua Serangan dan Kecepatan selama lima putaran.
+113,SCRAPPY,Scrappy,Gerakan tipe normal dan pertarungan menyerang musuh tipe hantu.
+114,STORMDRAIN,Storm Drain,"Menarik gerakan Air, meniadakannya dan menaikkan Sp. Serangan."
+115,ICEBODY,Ice Body,Memulihkan HP secara bertahap saat hujan es.
+116,SOLIDROCK,Solid Rock,Mengurangi kerusakan dari gerakan superefektif.
+117,SNOWWARNING,Snow Warning,Panggilan diterima saat masuk.
+118,HONEYGATHER,Honey Gather,Dapat menemukan Madu setelah pertempuran.
+119,FRISK,Frisk,Mengungkap item yang dipegang musuh saat masuk.
+120,RECKLESS,Reckless,Memperkuat gerakan yang juga melukai pengguna.
+121,MULTITYPE,Multitype,Mengubah jenis agar sesuai dengan Pelat yang dipegangnya.
+122,FLOWERGIFT,Flower Gift,Meningkatkan Serangan dan Sp sekutu. Pasti di bawah sinar matahari.
+123,BADDREAMS,Bad Dreams,Merusak musuh yang tertidur di setiap giliran.
+124,PICKPOCKET,Pickpocket,Mencuri item penyerang saat bersentuhan.
+125,SHEERFORCE,Sheer Force,Meningkatkan kekuatan gerakan tetapi menghilangkan efek tambahannya.
+126,CONTRARY,Contrary,Membalikkan semua perubahan stat.
+127,UNNERVE,Unnerve,Membuat musuh bingung dan menghentikan mereka memakan Berry.
+128,DEFIANT,Defiant,Meningkatkan Serangan dengan tajam jika ada stat yang diturunkan oleh musuh.
+129,DEFEATIST,Defeatist,"Ketika HP turun di bawah setengah, Attack dan Sp. Jatuhkan serangan."
+130,CURSEDBODY,Cursed Body,Dapat menonaktifkan gerakan yang mengenainya.
+131,HEALER,Healer,Terkadang menyembuhkan kondisi status sekutu.
+132,FRIENDGUARD,Friend Guard,Mengurangi kerusakan yang diterima sekutu.
+133,WEAKARMOR,Weak Armor,Menerima serangan fisik akan menurunkan Pertahanan namun meningkatkan Kecepatan secara tajam.
+134,HEAVYMETAL,Heavy Metal,Menggandakan berat Pokémon.
+135,LIGHTMETAL,Light Metal,Membagi dua berat Pokémon.
+136,MULTISCALE,Multiscale,Mengurangi damage yang diterima saat HP penuh.
+137,TOXICBOOST,Toxic Boost,Meningkatkan Serangan saat diracuni.
+138,FLAREBOOST,Flare Boost,Meningkatkan Sp. Serangan saat terbakar.
+139,HARVEST,Harvest,Dapat berulang kali menggunakan kembali Berry yang dikonsumsi.
+140,TELEPATHY,Telepathy,Menghindari kerusakan akibat gerakan sekutu dalam pertempuran.
+141,MOODY,Moody,Menaikkan satu stat dengan tajam dan menurunkan stat lainnya di setiap giliran.
+142,OVERCOAT,Overcoat,"Melindungi dari gerakan pasir, hujan es, dan bubuk."
+143,POISONTOUCH,Poison Touch,Dapat meracuni target jika bersentuhan.
+144,REGENERATOR,Regenerator,Memulihkan sebagian HP ketika mati.
+145,BIGPECKS,Big Pecks,Mencegah Pertahanan diturunkan.
+146,SANDRUSH,Sand Rush,Meningkatkan Kecepatan dalam badai pasir.
+147,WONDERSKIN,Wonder Skin,Membuat perpindahan status lebih mungkin untuk dilewatkan.
+148,ANALYTIC,Analytic,Gerakannya akan lebih keras jika ia bertindak paling akhir.
+149,ILLUSION,Illusion,Memasuki pertempuran dengan menyamar sebagai Pokémon terakhir dalam party.
+150,IMPOSTER,Imposter,Berubah menjadi Pokémon lawan saat masuk.
+151,INFILTRATOR,Infiltrator,Melewati penghalang musuh dan Pengganti.
+152,MUMMY,Mummy,Kontak mengubah Kemampuan penyerang menjadi Mumi.
+153,MOXIE,Moxie,Meningkatkan Serangan setelah melumpuhkan musuh.
+154,JUSTIFIED,Justified,Serangan tipe gelap memicu rasa keadilan dan meningkatkan Serangan.
+155,RATTLED,Rattled,"Serangan Gelap, Bug, atau Hantu membuatnya gugup dan meningkatkan Kecepatan."
+156,MAGICBOUNCE,Magic Bounce,Mencerminkan perpindahan status kembali pada pengguna.
+157,SAPSIPPER,Sap Sipper,Membatalkan gerakan Rumput dan meningkatkan Serangan.
+158,PRANKSTER,Prankster,Memberikan prioritas pada perpindahan status.
+159,SANDFORCE,Sand Force,"Meningkatkan pergerakan Tanah, Baja, dan Batuan dalam badai pasir."
+160,IRONBARBS,Iron Barbs,Merusak musuh saat bersentuhan.
+161,ZENMODE,Zen Mode,Berubah bentuk ketika HP turun di bawah setengah.
+162,VICTORYSTAR,Victory Star,Meningkatkan akurasi seluruh tim.
+163,TURBOBLAZE,Teravolt,Mengabaikan kemampuan yang dapat memengaruhi gerakannya.
+164,TERAVOLT,Teravolt,Mengabaikan kemampuan yang dapat memengaruhi gerakannya.
+165,AROMAVEIL,Aroma Veil,Melindungi tim dari pembatasan pilihan langkah.
+166,FLOWERVEIL,Flower Veil,Mencegah sekutu tipe Rumput mengalami penurunan status dan stat.
+167,CHEEKPOUCH,Cheek Pouch,Memulihkan HP ketika memakan Berry apa pun.
+168,PROTEAN,Protean,Mengubah tipenya menjadi tipe gerakan yang digunakannya.
+169,FURCOAT,Fur Coat,Mengurangi separuh kerusakan akibat gerakan fisik.
+170,MAGICIAN,Magician,Mencuri item target ketika mengenai suatu gerakan.
+171,BULLETPROOF,Bulletproof,Melindungi dari pergerakan bola dan bom.
+172,COMPETITIVE,Competitive,Menaikkan Sp dengan tajam. Serang jika ada stat yang diturunkan oleh musuh.
+173,STRONGJAW,Strong Jaw,Meningkatkan kekuatan gerakan menggigit.
+174,REFRIGERATE,Refrigerate,Gerakan tipe normal menjadi tipe Es dan mendapat sedikit peningkatan kekuatan.
+175,SWEETVEIL,Sweet Veil,Mencegah tim tertidur.
+176,STANCECHANGE,Stance Change,Menjadi Bentuk Pedang untuk menyerang atau Bentuk Perisai ketika menggunakan Perisai Raja.
+177,GALEWINGS,Gale Wings,Pergerakan tipe terbang mendapat prioritas saat HP penuh.
+178,MEGALAUNCHER,Mega Launcher,Meningkatkan kekuatan gerakan berbasis denyut nadi dan aura.
+179,GRASSPELT,Grass Pelt,Meningkatkan Pertahanan saat Grassy Terrain aktif.
+180,SYMBIOSIS,Symbiosis,Meneruskan item yang dipegangnya kepada sekutu yang telah menggunakan item miliknya.
+181,TOUGHCLAWS,Tough Claws,Meningkatkan kekuatan gerakan kontak.
+182,PIXILATE,Pixilate,Gerakan tipe normal menjadi tipe Peri dan mendapat sedikit peningkatan kekuatan.
+183,GOOEY,Gooey,Menurunkan Kecepatan penyerang saat melakukan kontak.
+184,AERILATE,Aerilate,Gerakan tipe normal menjadi tipe Terbang dan mendapat sedikit peningkatan kekuatan.
+185,PARENTALBOND,Parental Bond,Orang tua dan anak menyerang dua kali.
+186,DARKAURA,Dark Aura,Meningkatkan kekuatan semua gerakan tipe Gelap.
+187,FAIRYAURA,Fairy Aura,Meningkatkan kekuatan semua gerakan tipe Peri.
+188,AURABREAK,Aura Break,"Membalikkan efek aura, melemahkannya alih-alih meningkatkannya."
+189,PRIMORDIALSEA,Primordial Sea,Menciptakan hujan lebat yang membatalkan gerakan tipe Api.
+190,DESOLATELAND,Desolate Land,Menciptakan sinar matahari yang terik yang membatalkan gerakan tipe Air.
+191,DELTASTREAM,Delta Stream,Menciptakan angin kencang yang menghilangkan kelemahan tipe Terbang.
+192,STAMINA,Stamina,Meningkatkan Pertahanan saat terkena.
+193,WIMPOUT,Wimp Out,"Dengan setengah HP, ia panik dan kabur (mati)."
+194,EMERGENCYEXIT,Emergency Exit,"Dengan setengah HP, ia mundur (mati) untuk menghindari hal yang lebih buruk."
+195,WATERCOMPACTION,Water Compaction,Meningkatkan Pertahanan secara tajam ketika terkena gerakan tipe Air.
+196,MERCILESS,Merciless,Selalu mendaratkan serangan kritis pada target yang terkena racun.
+197,SHIELDSDOWN,Shields Down,"Ketika HP turun menjadi setengah, cangkangnya pecah dan menjadi ofensif."
+198,STAKEOUT,Stakeout,Menimbulkan kerusakan ganda pada musuh yang baru saja masuk.
+199,WATERBUBBLE,Water Bubble,"Meningkatkan pergerakan Air, mengurangi separuh kerusakan akibat Kebakaran, dan mencegah luka bakar."
+200,STEELWORKER,Steelworker,Meningkatkan gerakan tipe Baja.
+201,BERSERK,Berserk,Menaikkan Sp. Menyerang ketika HP turun di bawah setengah dari kerusakan.
+202,SLUSHRUSH,Slush Rush,Meningkatkan Kecepatan dalam hujan es.
+203,LONGREACH,Long Reach,Menggunakan gerakan tanpa melakukan kontak.
+204,LIQUIDVOICE,Liquid Voice,Mengubah gerakan berbasis suara yang digunakan oleh pembawa menjadi tipe Air.
+205,TRIAGE,Triage,Memberikan prioritas pada gerakan memulihkan HP.
+206,GALVANIZE,Galvanize,Gerakan tipe normal menjadi tipe Listrik dan mendapat sedikit peningkatan kekuatan.
+207,SURGESURFER,Surge Surfer,Menggandakan Kecepatan di Medan Listrik.
+208,SCHOOLING,Schooling,Membentuk sekolah dengan sekutu dengan HP tinggi; sekolah bubar dengan HP rendah.
+209,DISGUISE,Disguise,Menghindari satu serangan merusak dengan menggunakan penyamarannya.
+210,BATTLEBOND,Battle Bond,"Setelah KO, ikatan menguat dan menjadi Ash-Greninja."
+211,POWERCONSTRUCT,Power Construct,"Dengan setengah HP, sel-sel berkumpul dan menjadi Bentuk Lengkap."
+212,CORROSION,Corrosion,Bahkan dapat meracuni musuh bertipe Baja dan Racun.
+213,COMATOSE,Comatose,Tidak pernah benar-benar bangun—dapat bertindak sambil selalu dianggap tertidur.
+214,QUEENLYMAJESTY,Queenly Majesty,Membingungkan musuh dan memblokir gerakan prioritas yang ditujukan padanya.
+215,INNARDSOUT,Innards Out,"Saat tersingkir, menimbulkan kerusakan sebesar sisa HP-nya."
+216,DANCER,Dancer,Meniru gerakan tarian apa pun yang digunakan dalam pertempuran.
+217,BATTERY,Battery,Meningkatkan gerakan khusus sekutu.
+218,FLUFFY,Fluffy,Membagi dua kerusakan kontak tetapi menggandakan kerusakan dari Api.
+219,DAZZLING,Dazzling,Mengejutkan musuh dan memblokir gerakan prioritas yang menentangnya.
+220,SOULHEART,Soul-Heart,Menaikkan Sp. Serang setiap kali Pokémon pingsan.
+221,TANGLINGHAIR,Tangling Hair,Menurunkan Kecepatan penyerang saat melakukan kontak.
+222,RECEIVER,Receiver,Mengambil Kemampuan sekutu yang pingsan.
+223,POWEROFALCHEMY,Power of Alchemy,Meniru Kemampuan sekutu yang pingsan.
+224,BEASTBOOST,Beast Boost,"Setelah KO, meningkatkan status tertingginya."
+225,RKSSYSTEM,RKS System,Mengubah jenis agar sesuai dengan Memori yang dimilikinya.
+226,ELECTRICSURGE,Electric Surge,Menciptakan Medan Listrik saat masuk.
+227,PSYCHICSURGE,Psychic Surge,Menciptakan Medan Psikis saat masuk.
+228,MISTYSURGE,Misty Surge,Menciptakan Medan Berkabut saat masuk.
+229,GRASSYSURGE,Grassy Surge,Menciptakan Medan Berumput saat masuk.
+230,FULLMETALBODY,Full Metal Body,Mencegah statistiknya diturunkan oleh orang lain.
+231,SHADOWSHIELD,Shadow Shield,Mengurangi damage yang diterima saat HP penuh.
+232,PRISMARMOR,Prism Armor,Mengurangi kerusakan dari gerakan superefektif.
+233,NEUROFORCE,Neuroforce,Meningkatkan kekuatan serangan super efektif.
+234,BALLFETCH,Ball Fetch,"Jika tidak memegang item, ambil Poké Ball dari lemparan pertama yang gagal."
+235,COTTONDOWN,Cotton Down,"Saat dipukul, bulunya menurunkan Kecepatan semua Pokémon lainnya."
+236,DAUNTLESSSHIELD,Dauntless Shield,Meningkatkan Pertahanan saat masuk.
+237,GORILLATACTICS,Gorilla Tactics,Meningkatkan Serangan tetapi mengunci gerakan pertama yang digunakan.
+238,GULPMISSILE,Gulp Missile,"Setelah menggunakan Surf atau Dive, simpan mangsanya; ketika dipukul, meludahkannya ke penyerang."
+239,HUNGERSWITCH,Hunger Switch,Bergantian antara Full Belly dan Hangry di setiap akhir giliran.
+240,ICEFACE,Ice Face,Menerima serangan fisik dengan kepala esnya dan berubah bentuk; hujan es memulihkan kepala.
+241,ICESCALES,Ice Scales,Membagi dua kerusakan dari gerakan khusus.
+242,INTREPIDSWORD,Intrepid Sword,Meningkatkan Serangan saat masuk.
+243,LIBERO,Libero,Mengubah tipenya menjadi tipe gerakan yang akan digunakan.
+244,MIMICRY,Mimicry,Mengubah jenis agar sesuai dengan medan aktif.
+245,MIRRORARMOR,Mirror Armor,Mencerminkan efek penurunan status kembali ke pengirim.
+246,NEUTRALIZINGGAS,Neutralizing Gas,Membatalkan Kemampuan semua Pokémon di lapangan.
+247,PASTELVEIL,Pastel Veil,Melindungi dirinya sendiri dan sekutunya dari keracunan.
+248,PERISHBODY,Perish Body,"Saat bersentuhan, kedua Pokémon akan pingsan setelah 3 putaran."
+249,POWERSPOT,Power Spot,Meningkatkan kekuatan gerakan sekutu di dekatnya.
+250,PROPELLERTAIL,Propeller Tail,Gerakan mengabaikan pengalihan dari gerakan dan Kemampuan.
+251,PUNKROCK,Punk Rock,Meningkatkan gerakan berbasis suara dan mengurangi separuh kerusakan yang diterima darinya.
+252,RIPEN,Ripen,Mematangkan Berries untuk menggandakan efeknya.
+253,SANDSPIT,Sand Spit,Menimbulkan badai pasir saat menghantam.
+254,SCREENCLEANER,Screen Cleaner,"Menghapus Reflect, Light Screen, dan Aurora Veil saat masuk."
+255,STALWART,Stalwart,Gerakan mengabaikan pengalihan dari gerakan dan Kemampuan.
+256,STEAMENGINE,Steam Engine,Terkena gerakan tipe Api atau Air akan meningkatkan Kecepatan secara besar-besaran.
+257,STEELYSPIRIT,Steely Spirit,Meningkatkan gerakan sekutu tipe Baja.
+258,WANDERINGSPIRIT,Wandering Spirit,"Saat bersentuhan, tukar Kemampuan dengan penyerang."
+259,UNSEENFIST,Unseen Fist,Pergerakan kontak dapat menembus pertahanan.
+260,QUICKDRAW,Quick Draw,Terkadang membiarkannya bergerak terlebih dahulu.
+261,CURIOUSMEDICINE,Curious Medicine,"Saat masuk, cangkangnya mengeluarkan tonik yang mengatur ulang perubahan stat sekutu."
+262,TRANSISTOR,Transistor,Meningkatkan gerakan tipe Listrik.
+263,DRAGONSMAW,Dragon’s Maw,Meningkatkan gerakan tipe Naga.
+264,CHILLINGNEIGH,Chilling Neigh,Menghancurkan target akan memicu rengekan dingin yang meningkatkan Serangan.
+265,GRIMNEIGH,Grim Neigh,Menghancurkan target memicu rengekan mengerikan yang memunculkan Sp. Serangan.
+266,ASONEICE,As One,"Memiliki 2 Kemampuan, Neigh yang Mengerikan dan Dingin."
+267,ASONEGHOST,As One,"Memiliki 2 Kemampuan, Neigh Neigh dan Grim."
+268,SHARPNESS,Sharpness,Meningkatkan kekuatan gerakan mengiris sebesar 50%.
+269,SILVERFLAMES,Silver Flames,Menyembuhkan pengguna setiap giliran di malam hari dan meningkatkan gerakan bertema malam sebesar 30%.
+270,PURIFYINGSALT,Purifying Salt,"Tidak dapat diracuni, dibakar, dilumpuhkan, dibekukan, atau ditidurkan; memblokir status tersebut dari gerakan dan item."
+271,COMMANDER,Commander,Berpasangan dan memerintah dengan Dondozo yang aktif.
+272,BEADSOFRUIN,Beads of Ruin,Menurunkan Sp. Def dari semua Pokémon kecuali pengguna.
+273,SWORDOFRUIN,Sword of Ruin,Menurunkan Pertahanan semua Pokémon kecuali pengguna.
+274,TABLETSOFRUIN,Tablets of Ruin,Menurunkan Serangan semua Pokémon kecuali pengguna.
+275,VESSELOFRUIN,Vessel of Ruin,Menurunkan Sp. Serangan semua Pokémon kecuali pengguna.
+276,TOXICCHAIN,Toxic Chain,Mungkin sangat meracuni target ketika pengguna menyerang.
+277,GOODASGOLD,Good as Gold,Pokémon menjadi kebal terhadap perpindahan status.
+278,TOXICDEBRIS,Toxic Debris,Menyebarkan paku racun ketika terkena gerakan fisik.
+279,PROTOSYNTHESIS,Protosynthesis,Meningkatkan status terbaiknya di bawah sinar matahari yang terik.
+280,QUARKDRIVE,Quark Drive,Meningkatkan status terbaiknya di Medan Listrik.
+281,THERMALEXCHANGE,Thermal Exchange,Meningkatkan Serangan ketika terkena gerakan tipe Api dan mencegah luka bakar.
+282,MINDSEYE,Mind's Eye,Mencegah hilangnya akurasi. Mengabaikan kekebalan Hantu.
+283,ARMORTAIL,Armor Tail,Mencegah Pokémon lawan menggunakan gerakan prioritas.
+284,GUARDDOG,Guard Dog,Meningkatkan Atk jika terintimidasi dan kebal terhadap paksaan.
+285,SUPREMEOVERLORD,Supreme Overlord,Meningkatkan kekuatan gerakannya pada setiap sekutu yang pingsan.
+286,WELLBAKEDBODY,Well-Baked Body,Gerakan tipe api tidak menimbulkan kerusakan dan meningkatkan Pertahanan secara tajam.
+
+
