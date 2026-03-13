@@ -23,7 +23,7 @@ def pbEditMysteryGift(type,item,id=0,giftname="")
       commands.push(_INTL("[Custom]"))
       loop do
         command=pbMessage(
-           _INTL("Pilih frasa yang menjadi tempat asal hadiah PokÃ©mon."),commands,-1)
+           _INTL("Pilih frasa yang menjadi asal hadiah Pokemon."),commands,-1)
         if command<0
           return nil if pbConfirmMessage(_INTL("Berhenti mengedit hadiah ini?"))
         elsif command<commands.length-1
@@ -303,7 +303,7 @@ def pbDownloadMysteryGift(trainer)
           end
           sprites["msgwindow"].visible=true
           pbMessageDisplay(sprites["msgwindow"],_INTL("Hadiah telah diterima!")) { sprite.update }
-          pbMessageDisplay(sprites["msgwindow"],_INTL("Silakan ambil hadiah Anda dari pengantar di PokÃ© Mart mana pun.")) { sprite.update }
+          pbMessageDisplay(sprites["msgwindow"],_INTL("Silakan ambil hadiah Anda dari kurir di Poke Mart mana pun.")) { sprite.update }
           trainer.mystery_gifts.push(gift)
           pending[command]=nil; pending.compact!
           opacityDiff = 16*20/Graphics.frame_rate

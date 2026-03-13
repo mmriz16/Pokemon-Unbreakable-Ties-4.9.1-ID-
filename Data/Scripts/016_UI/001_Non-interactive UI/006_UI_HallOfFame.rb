@@ -280,7 +280,7 @@ class HallOfFame_Scene
     lefttext= _INTL("Nama<r>{1}<br>",$Trainer.name)
     lefttext+=_INTL("Nomor ID.<r>{1}<br>",pubid)
     lefttext+=_ISPRINTF("Waktu<r>{1:02d}:{2:02d}<br>",hour,min)
-    lefttext+=_INTL("PokÃ©dex<r>{1}/{2}<br>",
+    lefttext+=_INTL("Pokedex<r>{1}/{2}<br>",
         $Trainer.pokedex.owned_count,$Trainer.pokedex.seen_count)
     @sprites["messagebox"]=Window_AdvancedTextPokemon.new(lefttext)
     @sprites["messagebox"].viewport=@viewport
@@ -517,3 +517,5 @@ def pbHallOfFamePC
   screen=HallOfFameScreen.new(scene)
   screen.pbStartScreenPC
 end
+
+

@@ -216,7 +216,7 @@ class PokemonPartyPanel < SpriteWrapper
     @overlaysprite = BitmapSprite.new(Graphics.width,Graphics.height,viewport)
     @overlaysprite.z = self.z+4
     @hpbar    = AnimatedBitmap.new("Graphics/Pictures/Party/overlay_hp")
-    @statuses = AnimatedBitmap.new(_INTL("Grafik/Gambar/status"))
+    @statuses = AnimatedBitmap.new(_INTL("Graphics/Pictures/status"))
     @selected      = false
     @preselected   = false
     @switching     = false
@@ -919,7 +919,7 @@ class PokemonPartyScreen
     if pkmnid>=0
       pkmn = @party[pkmnid]
       if pkmn.hasItem? || pkmn.mail
-        pbDisplay(_INTL("PokÃ©mon ini sedang memegang sebuah benda. Itu tidak bisa menampung surat."))
+        pbDisplay(_INTL("Pokemon ini sedang memegang sebuah item. Itu tidak bisa membawa surat."))
       elsif pkmn.egg?
         pbDisplay(_INTL("Telur tidak bisa menampung surat."))
       else
@@ -1419,7 +1419,7 @@ class PokemonPartyScreen
         pbDisplay(_INTL("{1} diubah namanya menjadi {2}.",pkmn.speciesName,pkmn.name))
 elsif cmdRelearn>=0 && command == cmdRelearn
 if MoveRelearnerScreen.pbGetRelearnableMoves(pkmn).empty?
-pbDisplay(_INTL("PokÃ©mon ini belum memiliki gerakan apa pun yang perlu diingat."))
+      pbDisplay(_INTL("Pokemon ini belum memiliki jurus apa pun yang perlu diingat."))
 else
 pbRelearnMoveScreen(pkmn)
 end

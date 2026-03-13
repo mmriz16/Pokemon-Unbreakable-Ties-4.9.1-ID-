@@ -1441,7 +1441,7 @@ class PokemonStorageScene
       if pokemon.shiny?
         imagepos.push(["Graphics/Pictures/shiny",156,198])
       end
-      typebitmap = AnimatedBitmap.new(_INTL("Grafik/Gambar/tipe"))
+      typebitmap = AnimatedBitmap.new(_INTL("Graphics/Pictures/types"))
       type1_number = GameData::Type.get(pokemon.type1).id_number
       type2_number = GameData::Type.get(pokemon.type2).id_number
       type1rect = Rect.new(0, type1_number * 28, 64, 28)

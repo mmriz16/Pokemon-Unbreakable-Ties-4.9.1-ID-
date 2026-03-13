@@ -413,7 +413,7 @@ class PurifyChamberScreen
       end
     elsif (position>=1)
       if pkmn.shadowPokemon?
-        @scene.pbDisplay(_INTL("Tidak dapat menempatkan Shadow PokÃ©mon di sana."))
+        @scene.pbDisplay(_INTL("Tidak dapat menempatkan Shadow Pokemon di sana."))
         return false
       else
         oldpkmn=PurifyChamberHelper.pbGetPokemon(@chamber,position)

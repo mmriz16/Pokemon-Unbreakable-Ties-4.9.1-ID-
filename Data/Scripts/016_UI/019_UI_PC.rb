@@ -41,9 +41,9 @@ class StorageSystemPC
          _INTL("Tarik Pokemon"),
          _INTL("Setor Pokemon"),
          _INTL("Sampai jumpa!")],
-         [_INTL("Atur Pokémon Anda di dalam kotak dan di pesta Anda."),
-         _INTL("Tarik PokÃ©mon dari kotak ke pesta Anda."),
-         _INTL("Setorkan PokÃ©mon dari party Anda ke dalam kotak."),
+         [_INTL("Atur Pokemon Anda di dalam kotak dan di party Anda."),
+         _INTL("Pindahkan Pokemon dari kotak ke party Anda."),
+         _INTL("Simpan Pokemon dari party Anda ke dalam kotak."),
          _INTL("Kembali ke menu pilihan.")],-1,command
       )
       if command>=0 && command<3
@@ -58,7 +58,7 @@ class StorageSystemPC
             count += 1 if p && !p.egg? && p.hp>0
           end
           if count<=1
-            pbMessage(_INTL("Anda tidak dapat menyetorkan Pokémon terakhir!"))
+            pbMessage(_INTL("Anda tidak dapat menyimpan Pokemon terakhir!"))
             next
           end
         end
@@ -257,3 +257,5 @@ end
 #===============================================================================
 PokemonPCList.registerPC(StorageSystemPC.new)
 PokemonPCList.registerPC(TrainerPC.new)
+
+

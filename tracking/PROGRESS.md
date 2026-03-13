@@ -15,6 +15,7 @@
 - Verifikasi sample `messages.dat` berhasil: type text, move descriptions, ability descriptions, trainer types, dan map/common messages sudah terbaca dari file hasil rebuild.
 - Proofreading pass runtime pertama diterapkan langsung ke `english.dat` dan `messages.dat` untuk istilah yang paling terlihat salah, terutama `types` dan `trainer types`.
 - Proofreading pass kedua diterapkan untuk trainer classes yang masih kaku dan string UI Pokedex yang sempat merusak path asset (`Graphics/Pictures`).
+- Cleanup UI pass diterapkan ke `Party`, `Summary`, `Bag`, `Save`, `PC`, `Pokemon Storage`, `Move Relearner`, `Mystery Gift`, `Text Entry`, dan `Hall of Fame` untuk menghapus sisa path asset yang salah serta string `Pokedex/Pokemon` yang rusak encoding.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.

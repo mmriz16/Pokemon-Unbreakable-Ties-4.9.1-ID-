@@ -49,7 +49,7 @@ class PokemonSave_Scene
     end
     loctext+=_INTL("Lencana<r><c3={1}>{2}</c3><br>",textColor,$Trainer.badge_count)
     if $Trainer.has_pokedex
-      loctext+=_INTL("PokÃ©dex<r><c3={1}>{2}/{3}</c3>",textColor,$Trainer.pokedex.owned_count,$Trainer.pokedex.seen_count)
+      loctext+=_INTL("Pokedex<r><c3={1}>{2}/{3}</c3>",textColor,$Trainer.pokedex.owned_count,$Trainer.pokedex.seen_count)
     end
     @sprites["locwindow"]=Window_AdvancedTextPokemon.new(loctext)
     @sprites["locwindow"].viewport=@viewport
@@ -92,7 +92,7 @@ class PokemonSaveScreen
       if SaveData.exists? && $PokemonTemp.begunNewGame
         pbMessage(_INTL('WARNING!'))
         pbMessage(_INTL('There is a different game file that is already saved.'))
-        pbMessage(_INTL("Jika Anda menyimpannya sekarang, petualangan file lainnya, termasuk item dan PokÃ©mon, akan hilang seluruhnya."))
+        pbMessage(_INTL("Jika Anda menyimpan sekarang, data petualangan lain, termasuk item dan Pokemon, akan hilang seluruhnya."))
         if !pbConfirmMessageSerious(
             _INTL('Are you sure you want to save now and overwrite the other save file?'))
           pbSEPlay('GUI save choice')
