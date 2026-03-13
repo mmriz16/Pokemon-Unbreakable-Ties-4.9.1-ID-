@@ -1,0 +1,647 @@
+story_index,map_id,order,parent_id,map_name
+1,22,10,0,Intro real
+2,42,3,32,Your home
+3,32,1,0,Sparrow Town
+4,76,4,32,Laboratory
+5,78,11,0,Route 1
+6,79,12,0,Linnet Town
+7,80,15,0,Route 2
+8,83,17,0,Finch Town
+9,88,23,0,Route 3
+10,90,25,0,Route 4
+11,92,27,0,Calentra City
+12,43,2,32,Sparrow School
+13,48,5,32,Alama's House
+14,126,6,32,Darek's House
+15,159,7,32,Eda's House
+16,340,8,32,Sparrow Beach
+17,342,9,340,Sparrow Beach - Houses
+18,138,13,79,Linnet Town
+19,81,14,79,Linnet Town
+20,98,16,80,Route 2 
+21,86,18,83,Finch Town - Cafetería
+22,82,19,83,Gate 1
+23,85,20,83,Gate 2
+24,128,21,83,Finch Town
+25,84,22,83,Finch Town
+26,89,24,0,Finch cave
+27,130,26,90,Route 4 
+28,94,28,92,Calentra City - Gym
+29,96,29,92,Calentra City - Gym
+30,97,30,92,Calentra City - Gym
+31,95,31,92,Calentra City - Gym
+32,91,32,92,Gate 3
+33,99,33,92,Gate 4
+34,110,34,92,Gate 5
+35,135,35,92,Calentra City
+36,93,36,92,Calentra City
+37,101,37,0,Greenfinch Forest
+38,102,38,0,Greenfinch Forest
+39,103,39,0,Greenfinch City
+40,104,40,103,Greenfinch City - Gym
+41,105,41,103,Greenfinch City - Gym
+42,106,42,103,Greenfinch City - Gym
+43,108,43,103,Greenfinch City (Silvano home)
+44,109,44,103,Gate 6
+45,132,45,103,Greenfinch City
+46,133,46,103,Gate 7
+47,107,47,103,Greenfinch City
+48,111,48,0,Route 6
+49,112,49,0,Rute 6 (North)
+50,137,50,112,Route 6 (North)
+51,113,51,112,Gate 8
+52,114,52,0,Route 6 (South)
+53,123,53,114,Route 6 (South)
+54,115,54,0,Relic Cave (P0)
+55,116,55,0,Relic Cave (P1)
+56,117,56,0,Relic Cave (P2)
+57,118,57,0,Relic Cave (P-1)
+58,124,58,118,Relic Cave (P-1)
+59,119,59,0,Relic Cave (P-2)
+60,120,60,0,Goldfinch Town
+61,134,61,120,Goldfinch Town
+62,121,62,0,Goldfinch Viewpoint
+63,122,63,0,Mountain of Wisdom
+64,125,64,0,Route 7
+65,131,65,0,Route 8
+66,140,66,0,Nymph city
+67,139,67,140,Gate 9
+68,142,68,140,Nymph city 
+69,143,69,140,Nymph city - ice cream shop
+70,144,70,140,Nymph city - cafeteria
+71,145,71,140,Nymph city
+72,147,72,140,Mysterious cave
+73,148,73,140,Mysterious cave
+74,146,74,140,Gate 10
+75,149,75,0,Route 9
+76,151,76,149,Algorithm Cave
+77,152,77,149,Algorithm Cave
+78,158,78,149,Algorithm Cave
+79,150,79,0,Route 10
+80,127,80,0,???
+81,160,81,0,Cardinal City (West)
+82,163,82,160,Cardinal City 
+83,161,83,160,Spinda Cafe
+84,162,84,160,Cardinal City (West)
+85,164,85,160,Gate 11
+86,165,86,0,Cardinal City (Center)
+87,166,87,165,Cardinal City (Center)
+88,167,88,165,Cardinal City - Ice Cream Parlor
+89,168,89,165,Cardinal City - Jewelry
+90,169,90,165,Cardinal City - Marinas house
+91,170,91,165,Cardinal City - Pizzeria
+92,172,92,165,Cardinal City - Bar
+93,87,93,172,Cardinal City (South)
+94,183,94,165,Hotel MiraMar
+95,184,95,183,Hotel MiraMar(P1)
+96,188,96,184,Hotel MiraMar(P1)
+97,185,97,183,Hotel MiraMar(P2)
+98,186,98,185,Hotel MiraMar(P2)
+99,195,99,186,Eda dream
+100,196,100,195,Dream Garden
+101,171,101,0,Cardinal City (South)
+102,173,102,171,Cardinal Museum
+103,174,103,171,Cardinal City (South)
+104,201,104,171,Cardinal Church
+105,175,105,0,Cardinal City (East)
+106,176,106,175,Cardinal City (East)
+107,177,107,175,Cardinal City - Library
+108,178,108,177,Cardinal City - Library (P1)
+109,187,109,175,Cardinal Aquarium
+110,189,110,187,Cardinal Aquarium
+111,190,111,187,Cardinal Aquarium
+112,192,112,175,Cardinal City - Gym
+113,193,113,192,Cardinal City - Gym
+114,191,114,192,Cardinal City - Gym
+115,200,115,175,Latias Restaurant
+116,599,116,175,Cardinal City 
+117,179,117,0,Cardinal City (North)
+118,180,118,179,Cardinal City (North)
+119,181,119,179,Cardinal City (North)
+120,199,120,179,Latios restaurant
+121,77,121,179,Cardinal City (North)
+122,182,122,0,Dream Garden
+123,202,123,182,Cardinal City - Ice Cream
+124,194,124,0,Dream Garden
+125,197,125,194,Dream Garden
+126,198,126,0,Jail???
+127,203,127,0,Symphony of the Seas
+128,204,128,203,Symphony of the Seas
+129,205,129,203,Symphony of the Seas
+130,206,130,0,Tucan Town
+131,207,131,206,Gate 12
+132,331,132,206,Tucan Town
+133,334,133,206,Pokémon Center - Toucan Town
+134,208,134,0,Route 11
+135,210,135,0,Route 12
+136,209,136,210,Forest of Time
+137,211,137,0,Forbe City
+138,219,138,211,Forbe City
+139,220,139,211,Forbe City 
+140,221,140,211,Gate 13
+141,214,141,211,Gate 14
+142,222,142,211,Forbe Pastry Shop
+143,215,143,0,Forbe City
+144,218,144,215,Forbe City
+145,225,145,215,Forbe City - Sakura's House
+146,230,146,215,Forbe City - Gym
+147,229,147,230,Forbe City - Gym
+148,213,148,0,Sanctuary of music
+149,216,149,213,Sanctuary of music
+150,231,150,216,Sanctuary of music
+151,237,151,216,Forbe City - Sakura's House
+152,232,152,237,Forbe City
+153,212,153,0,Route 13
+154,238,154,212,Mystic Cave
+155,217,155,0,Route 14
+156,234,156,0,Akebia Prison
+157,251,157,234,Akebia Prison
+158,250,158,234,Akebia Prison (P-1)
+159,239,159,234,Akebia Prison (P-2)
+160,235,160,234,Akebia Prison (P-3)
+161,236,161,235,Akebia Prison (P-3)
+162,341,162,236,Royal Palace
+163,253,163,235,Akebia Prison (P-3)
+164,240,164,234,Akebia Prison (P-4)
+165,241,165,240,Akebia Prison (P-4)
+166,254,166,241,Akebia Prison (P-4)
+167,242,167,234,Akebia Prison (P-5)
+168,243,168,242,Akebia Prison (P-5)
+169,255,169,234,Akebia Prison (P-5)
+170,252,170,234,Jail Elevator
+171,244,171,0,Pueblo Ruiseñor
+172,245,172,244,Gate 15
+173,246,173,244,Pueblo Ruiseñor 
+174,247,174,244,Gate 16
+175,248,175,244,Bar Stones
+176,296,176,244,Pueblo Ruiseñor 
+177,338,177,244,Guardería
+178,249,178,0,Lost Forest
+179,256,179,249,Lost Forest
+180,257,180,0,Route 15
+181,332,181,257,House - Route 15
+182,223,182,0,Forest of Memories
+183,224,183,223,Forest of Memories
+184,226,184,223,Pueblo Ruiseñor
+185,227,185,223,School
+186,228,186,0,Blackbird Town
+187,259,187,228,Gate 17
+188,260,188,228,Blackbird Town
+189,261,189,228,Pokémon Center
+190,292,190,228,Blackbird Town
+191,270,191,228,Blackbird Town Gym 
+192,271,192,270,Blackbird Town Gym Heal
+193,272,193,270,Blackbird Town Gym Fight
+194,273,194,270,Blackbird Town Gym Bow
+195,274,195,270,Blackbird Town Gym Bow
+196,275,196,270,Blackbird Town Gym Bow
+197,276,197,270,Blackbird Town Gym Bow
+198,277,198,270,Blackbird Town Gym Bow
+199,278,199,270,Blackbird Town Gym Final
+200,262,200,0,Celestial Tower
+201,258,201,262,Celestial Tower (P0)
+202,264,202,262,Celestial Tower (P1)
+203,265,203,262,Celestial Tower (P2)
+204,266,204,262,Celestial Tower (P3)
+205,267,205,262,Celestial Tower (P4)
+206,268,206,262,Celestial Tower (P5)
+207,263,207,262,Celestial Tower (P-1)
+208,269,208,262,Celestial Tower Top
+209,279,209,0,Lugano City
+210,280,210,279,Ciudad Lugano (Bar)
+211,281,211,280,Bosque Perdido
+212,282,212,0,???
+213,283,213,0,Jungla Camachuelo
+214,284,214,283,Jungla Camachuelo
+215,286,215,284,Jungla Camachuelo
+216,333,216,284,Casa - Jungla Camachuelo
+217,285,217,0,Aldea Camachuelo
+218,294,218,285,Aldea Camachuelo 
+219,295,219,285,Aldea Camachuelo 
+220,666,220,295,Aldea Camachuelo 
+221,670,221,666,Aldea Camachuelo
+222,293,222,285,Cueva Sagrada
+223,287,223,293,Cueva Sagrada
+224,288,224,293,Cueva Sagrada
+225,289,225,293,Cueva Sagrada
+226,290,226,293,Cueva Sagrada
+227,291,227,293,Cueva Sagrada
+228,298,228,0,Zona Tué-Tué
+229,297,229,298,Selva Tué-Tué
+230,327,230,297,Selva Tué-Tué
+231,328,231,327,Selva Tué-Tué
+232,299,232,298,Selva Tué-Tué 
+233,300,233,299,Selva Tué-Tué
+234,301,234,300,Jungla Camachuelo
+235,302,235,301,???
+236,303,236,302,Aldea Camachuelo
+237,305,237,303,Aldea Camachuelo
+238,671,238,300,Cueva Legendaria
+239,304,239,298,Villa Tué-Tué
+240,306,240,304,Selva Tué-Tué
+241,307,241,306,Selva Tué-Tué 
+242,308,242,307,Selva Tué-Tué
+243,309,243,308,Aldea Camachuelo
+244,310,244,309,Villa Tué-Tué
+245,311,245,298,Villa Tué-Tué
+246,312,246,311,Villa Tué-Tué
+247,313,247,312,Villa Tué-Tué
+248,667,248,313,Villa Tué-Tué
+249,668,249,313,Villa Tué-Tué
+250,314,250,0,Ladera Tué-Tué
+251,315,251,0,Cima Tué-Tué
+252,669,252,315,Cima Tué-Tué
+253,316,253,0,Cinemática
+254,317,254,316,Cinemática
+255,318,255,317,Cinemática
+256,319,256,318,Selva Tué-Tué
+257,320,257,319,Cima Tué-Tué
+258,321,258,320,Selva Tué-Tué
+259,322,259,321,Cima Tué-Tué
+260,323,260,322,Villa Tué-Tué
+261,324,261,323,Aldea Camachuelo
+262,325,262,0,Jungla Camachuelo
+263,326,263,325,Pueblo Gorrión
+264,335,264,325,Palacio Real (P3)
+265,336,265,335,Jungla Camachuelo
+266,337,266,336,Palacio Real (P3)
+267,343,267,0,Alama dreaming
+268,344,268,343,Cárcel de Akebia (P-3)
+269,345,269,344,Palacio Real
+270,129,270,0,Ruta 5
+271,100,271,129,Ruta 5 - Escuela
+272,136,272,129,Ruta 5
+273,330,273,129,Ruta 5
+274,329,274,0,Ruta 16
+275,350,275,329,Orfanato Abandonado
+276,354,276,350,Habitación
+277,355,277,350,Sala de Estudio
+278,361,278,350,Laberinto
+279,364,279,350,Despacho
+280,356,280,350,Comedor
+281,366,281,350,Cocina
+282,367,282,350,Almacén
+283,369,283,350,Pasillo
+284,374,284,350,Rotom Sala
+285,370,285,350,Habitación de Shadow
+286,371,286,370,Ruta 16
+287,372,287,370,???
+288,373,288,370,Pasillo Kaleo
+289,393,289,373,Ruta 18
+290,606,290,393,Cima Torre Celestial
+291,357,291,329,Orfanato Antiguo
+292,358,292,357,Habitación
+293,359,293,357,Sala de Estudio
+294,362,294,357,Pasillo
+295,363,295,357,Despacho
+296,360,296,357,Comedor
+297,365,297,357,Cocina
+298,368,298,357,Almacén
+299,339,299,329,Ruta 16 
+300,375,300,339,Cueva Magnética (P0)
+301,376,301,339,Cueva Magnética (P0)
+302,377,302,376,Cueva Magnética (P0)
+303,378,303,376,Cueva Magnética (P0)
+304,384,304,376,Cueva Magnética (P0)
+305,387,305,376,Cueva Magnética (P1)
+306,401,306,387,Ruta 19 (Exterior)
+307,404,307,401,Jardín del Palacio Real
+308,405,308,404,Ciudad Lugano (Centro)
+309,406,309,405,Zona de Ejecuciones
+310,412,310,406,Ciudad Lugano (Centro)
+311,413,311,412,Casa de Vesta
+312,414,312,413,Hospital
+313,415,313,414,Cementerio
+314,417,314,415,Barrio Pobre
+315,418,315,417,Ciudad Lugano (Centro)
+316,420,316,418,Palacio Real
+317,421,317,406,Ciudad Lugano (Norte)
+318,422,318,421,Ciudad Lugano (Centro)
+319,423,319,422,Escena
+320,379,320,339,Cueva Magnética (P1)
+321,380,321,379,Cueva Magnética (P1)
+322,381,322,379,Cueva Magnética (P1)
+323,385,323,379,Cueva Magnética (P2)
+324,386,324,385,Ruta 17
+325,382,325,339,Cueva Magnética (P-1)
+326,383,326,339,Cueva Magnética (P-1)
+327,675,327,383,Cueva Legendaria
+328,395,328,339,Ruta 16
+329,394,329,395,Bosque Perdido
+330,347,330,0,Ruta 17
+331,388,331,347,Ruta 17
+332,389,332,388,Ruta 17
+333,346,333,0,Ruta 18
+334,155,334,346,Gate 20
+335,390,335,0,Ciudad Lugano (Oeste)
+336,407,336,390,Hospital
+337,408,337,407,Hospital (PB)
+338,409,338,407,Hospital (P1)
+339,432,339,409,Hospital (P1)
+340,410,340,407,Hospital (P2)
+341,416,341,410,Hospital (P2)
+342,661,342,410,Hospital (P2)
+343,662,343,410,Hospital (P2) - Celeste
+344,665,344,410,Hospital (P2) - SakuraChan
+345,411,345,407,Hospital (Azotea)
+346,392,346,390,Centro Pokémon
+347,391,347,390,Gate 18
+348,424,348,390,Galería de Arte
+349,427,349,424,Galería de Arte (P1)
+350,426,350,427,Galería de Arte (P1)
+351,19,351,424,Galería de Arte (P2)
+352,425,352,390,Galería de Arte
+353,428,353,425,Galería de Arte (P1)
+354,431,354,428,Parque del Retiro 
+355,434,355,390,Heladería
+356,438,356,390,GoldBanco
+357,672,357,390,Ciudad Lugano (Oeste)
+358,396,358,0,Ciudad Lugano (Centro)
+359,419,359,396,Bar Stones
+360,430,360,396,Barrio Pobre
+361,497,361,430,Barrio Pobre
+362,501,362,497,Barrio Pobre
+363,433,363,396,Unbreakable Ties S.A
+364,435,364,433,Unbreakable Ties S.A
+365,436,365,435,Unbreakable Ties S.A
+366,437,366,436,Unbreakable Ties S.A
+367,441,367,396,Koffeetería
+368,439,368,396,Floristería
+369,459,369,396,Casino
+370,460,370,459,Casino
+371,461,371,459,Casino (P1)
+372,499,372,461,Casino (P1)
+373,463,373,461,Guarida
+374,465,374,463,Guarida (P-1)
+375,492,375,465,Habitación \PN
+376,494,376,465,Almacén
+377,464,377,463,Guarida (P-2)
+378,467,378,464,Sala de Reuniones
+379,468,379,467,Sala de Reuniones
+380,469,380,468,Palacio Real (Subterráneo)
+381,502,381,469,Palacio Real (Subterráneo)
+382,647,382,502,Jardín del Palacio Real
+383,498,383,464,Sala de Reuniones
+384,533,384,464,Guarida (P-2)
+385,534,385,533,Sala de Reuniones
+386,535,386,534,Pasillo Kaleo
+387,536,387,535,Habitación Kaleo
+388,538,388,536,Casino (P1)
+389,466,389,463,Guarida (P-3) - Cocina
+390,500,390,463,Guarida (P-4)
+391,495,391,500,Guarida (P-4) - Sala de Entr.
+392,537,392,495,Guarida (P-4) - Sala de Entr.
+393,517,393,500,Guarida (P-4) - Sala de Entrenamiento
+394,518,394,517,Sala de Entrenamiento
+395,519,395,518,Frente Batalla
+396,520,396,519,Frente Batalla
+397,521,397,520,Arena de Combate
+398,522,398,519,Frente Batalla
+399,523,399,522,Arena de Combate
+400,524,400,519,Frente Batalla
+401,525,401,524,Arena de Combate
+402,526,402,519,Frente Batalla
+403,527,403,526,Arena de Combate
+404,528,404,519,Frente Batalla
+405,529,405,528,Arena de Combate
+406,496,406,463,Guarida (P-5) - Sótano
+407,505,407,496,Guarida (P-5) - Sótano
+408,462,408,396,Ciudad Lugano (Centro)
+409,679,409,396,Ciudad Lugano (Centro)
+410,398,410,0,Ciudad Lugano (Norte)
+411,400,411,398,Zona de Ejecuciones
+412,531,412,400,Zona de Ejecuciones
+413,532,413,531,Bar Stones
+414,440,414,398,Centro Comercial (PB)
+415,442,415,440,Centro Comercial (P1)
+416,443,416,440,Centro Comercial (P2)
+417,444,417,440,Centro Comercial (P3)
+418,445,418,440,Centro Comercial (P4)
+419,446,419,440,Centro Comercial (P5)
+420,447,420,440,Centro Comercial (P6)
+421,449,421,440,Centro Comercial (P7)
+422,448,422,440,Centro Comercial (Azotea)
+423,402,423,398,Ciudad Lugano (Norte)
+424,403,424,402,Jardín del Palacio Real
+425,540,425,403,Jardín del Palacio Real
+426,609,426,540,Cinemática Jardín
+427,450,427,398,Comisaría
+428,678,428,398,Ciudad Lugano (Norte)
+429,397,429,0,Ciudad Lugano (Este)
+430,454,430,397,Gate 19
+431,453,431,397,Gate 22
+432,455,432,453,Parque del Retiro
+433,451,433,455,Parque del Retiro
+434,452,434,451,Parque del Retiro 
+435,633,435,452,Cueva Talégalo
+436,634,436,452,Cueva Talégalo
+437,635,437,452,Cueva Talégalo
+438,456,438,397,Centro Pokémon
+439,544,439,397,Teatro
+440,545,440,544,Teatro (PB)
+441,546,441,545,Cloacas - Sala Final
+442,548,442,546,Jardín del Palacio Real
+443,549,443,548,Jardín del Palacio Real
+444,557,444,549,Jardín del Palacio Real
+445,560,445,557,Biblioteca de Estela
+446,574,446,560,Palacio Real (Subterráneo)
+447,547,447,544,Teatro (PB)
+448,550,448,547,Teatro (P1)
+449,551,449,550,Teatro (P1)
+450,563,450,551,Teatro (P2)
+451,569,451,563,Sala de Teatro
+452,566,452,569,Conducto de ventilación
+453,567,453,566,Conducto de ventilación
+454,568,454,567,Conducto de ventilación (Verde)
+455,570,455,567,Conducto de ventilación (Yellow)
+456,571,456,567,Conducto de ventilación (Blue)
+457,572,457,567,Conducto de ventilación (Red)
+458,573,458,567,Palacio Real - Trono
+459,648,459,573,Jardín del Palacio Real
+460,542,460,569,Palacio Real (P0)
+461,562,461,550,Teatro (P1)
+462,564,462,562,Teatro (P1)
+463,565,463,550,Teatro (P1)
+464,600,464,550,Teatro (P2)
+465,601,465,600,Sala de Teatro
+466,575,466,547,Laboratorio
+467,576,467,575,Laboratorio (P0)
+468,577,468,576,Laboratorio (P0)
+469,579,469,576,Laboratorio (P0)
+470,578,470,575,Laboratorio (P-1)
+471,580,471,578,Laboratorio (P-1)
+472,581,472,575,Laboratorio (P-2)
+473,582,473,581,Laboratorio (P-2)
+474,583,474,575,Laboratorio (P-3)
+475,585,475,575,Laboratorio (P-5)
+476,586,476,585,Laboratorio (Sala final)
+477,590,477,586,Palacio Real - Entrada
+478,594,478,590,Jardín del Palacio Real
+479,595,479,594,Despacho
+480,593,480,595,Palacio Real (P-1)
+481,587,481,586,Sala de Teatro
+482,602,482,587,Palacio Real (Subterráneo)
+483,399,483,0,Ciudad Lugano (Sur)
+484,458,484,399,Ristorante del Amour
+485,457,485,458,Ristorante del Amour
+486,348,486,0,Ruta 19
+487,353,487,348,Ruta 19
+488,351,488,353,Ruta 19
+489,352,489,348,Cementerio
+490,349,490,352,Cementerio
+491,470,491,0,Escenas Pasado Edward
+492,472,492,470,Ciudad Lugano (Norte)
+493,473,493,472,Ciudad Lugano (Centro)
+494,471,494,473,Floristería
+495,474,495,471,Parque del Retiro 
+496,475,496,474,Paso Floral
+497,476,497,474,Paso Floral
+498,477,498,476,Ladera Floral
+499,478,499,477,Cima Floral
+500,479,500,478,Bar Stones
+501,480,501,479,Parque del Retiro 
+502,481,502,480,Palacio Real
+503,482,503,481,Hospital (P2)
+504,483,504,482,Cima Floral
+505,484,505,483,Palacio Real
+506,485,506,484,Parque del Retiro 
+507,486,507,485,Casa de Edward
+508,488,508,486,Palacio Real
+509,489,509,488,Jardín del Palacio Real
+510,491,510,489,Palacio Real - Trono
+511,487,511,491,Ciudad Lugano (Norte)
+512,490,512,487,Zona de Ejecuciones
+513,680,513,490,Palacio Real - Trono
+514,503,514,0,Cloacas
+515,504,515,503,Cloacas - Zona A
+516,506,516,503,Cloacas - Zona B
+517,507,517,503,Cloacas - Zona C
+518,513,518,507,Cloacas - Zona C (FINAL)
+519,508,519,513,Cloacas - Zona C (Agua Media)
+520,509,520,508,Cloacas - Zona C (Agua Alta)
+521,510,521,503,Cloacas - Zona D
+522,511,522,510,Cloacas - Zona D (Agua Media)
+523,512,523,511,Cloacas - Zona D (Agua Baja)
+524,514,524,503,Cloacas - Sala Final
+525,515,525,514,Despacho de Liberty
+526,516,526,515,Ciudad Lugano (Centro)
+527,539,527,503,Cloacas - Sala Extra
+528,530,528,0,Cima Floral
+529,541,529,0,Palacio Real
+530,543,530,541,Palacio Real - Entrada
+531,588,531,543,Palacio Real (P0)
+532,591,532,543,Palacio Real (P0)
+533,592,533,591,Cocina Palacio
+534,613,534,591,Palacio Real (P0)
+535,552,535,541,Palacio Real (P1)
+536,608,536,552,Palacio Real (P1)
+537,554,537,541,Palacio Real (P2)
+538,614,538,554,Palacio Real (P2)
+539,615,539,554,Palacio Real (P2)
+540,616,540,615,Palacio Real (P2)
+541,553,541,541,Palacio Real (P3)
+542,558,542,553,Despacho
+543,559,543,553,Palacio Real - Trono
+544,596,544,553,Palacio Real (P3)
+545,597,545,596,Palacio Real (P3)
+546,598,546,597,Palacio Real - Trono
+547,607,547,598,Palacio Real - Entrada
+548,604,548,553,Entrada Jardín
+549,154,549,604,Jardín de crianza
+550,618,550,553,Palacio Real (P3)
+551,676,551,618,Palacio Real (P3)
+552,677,552,676,Salón de piano
+553,603,553,541,Palacio Real (P4)
+554,561,554,603,Biblioteca de Estela
+555,621,555,561,Escenas finales Palacio
+556,620,556,621,Biblioteca de Estela
+557,622,557,620,Palacio Real (P2)
+558,623,558,622,Palacio Real (P-2)
+559,624,559,623,Biblioteca de Estela
+560,555,560,541,Palacio Real (P-1)
+561,589,561,555,Palacio Real (P-1)
+562,556,562,541,Palacio Real (P-2)
+563,605,563,556,Palacio Real (Subterráneo)
+564,617,564,605,Palacio Real - Entrada
+565,619,565,617,Palacio Real (P-1)
+566,610,566,556,Palacio Real (P-2)
+567,611,567,610,Palacio Real (P-3)
+568,612,568,611,Sala del Tesoro Celestial
+569,625,569,0,Escenas post Palacio
+570,626,570,625,Ciudad Lugano (Norte)
+571,627,571,625,Zona de Ejecuciones
+572,628,572,625,Cima Floral
+573,629,573,625,Parque del Retiro 
+574,630,574,625,Pueblo Gorrión
+575,631,575,625,Sala de Reuniones
+576,632,576,625,Aldea Camachuelo
+577,640,577,625,Cima Floral
+578,642,578,625,Hospital (Azotea)
+579,643,579,642,Ciudad Forbe
+580,644,580,625,Ciudad Lugano (Norte)
+581,645,581,625,EDA Y DAREK VOLANDO AAA
+582,636,582,0,PASO FLORAL XD
+583,637,583,636,Paso Floral
+584,638,584,636,Paso Floral
+585,639,585,636,Ladera Floral
+586,641,586,636,Ladera Floral
+587,673,587,641,Cueva Talégalo (Extend)
+588,674,588,673,Sala legendaria
+589,233,589,636,Cima Floral
+590,649,590,0,PASADO AMATISTA
+591,650,591,649,Sendero Graznido
+592,651,592,650,Cima Graznido
+593,652,593,649,Cima Torre Celestial
+594,663,594,649,Floristería
+595,653,595,649,Choque con Álama Ruta 16
+596,654,596,649,Oficinista y Sheila con Darek
+597,664,597,649,Álama en la Cima Shaymin
+598,655,598,649,Zona ejecuciones (Henry busca Darek)
+599,656,599,649,Oficinista en el Bar
+600,657,600,649,Escena del coche en llamas
+601,659,601,649,Zona ejecuciones (Henry busca Darek)
+602,658,602,649,Palacio Real (Subterráneo)
+603,681,603,0,INTRODUCCION
+604,682,604,681,Ruta 1
+605,33,605,681,Ciudad Cardenal (Centro)
+606,685,606,681,Ciudad Forbe
+607,686,607,681,Cima Floral
+608,141,608,681,Ciudad Forbe - Gym
+609,429,609,681,Ciudad Lugano (Centro)
+610,684,610,681,Cima Quetzales
+611,683,611,681,Reino de Celestia
+612,153,612,0,------- NUEVA PARTE -------
+613,156,613,0,Ruta 20
+614,157,614,156,Paso Graznido
+615,660,615,156,Sendero Graznido
+616,493,616,660,Sendero Graznido
+617,687,617,493,Claro del Sueño
+618,646,618,493,Claro del Sueño (final)
+619,688,619,646,Cima Graznido
+620,690,620,660,Cueva Graznido
+621,689,621,156,Paso Cacatúa
+622,691,622,689,Caverna Tángara
+623,692,623,689,Caverna Tángara
+624,693,624,692,Paso Cacatúa (final)
+625,694,625,693,Ruta 21 (Extra)
+626,695,626,0,Ruta 21
+627,696,627,695,Ruta 21
+628,697,628,695,Granja abandonada
+629,698,629,695,Granja de \PN
+630,700,630,698,Granja de \PN
+631,702,631,698,Casa de \PN
+632,699,632,695,Tienda agropecuaria
+633,701,633,695,Gate 22
+634,703,634,0,Pueblo Mandarín
+635,704,635,703,Centro Pokémon
+636,705,636,703,Pueblo Mandarín
+637,706,637,0,Isla del Sur
+638,707,638,706,Isla del Sur (Central)
+639,2,639,707,Isla del Sur (Risco)
+640,3,640,707,Volcán Tucán
+641,4,641,707,???
+642,1,642,707,Isla del Sur (Oeste)
+643,25,643,0,Summer Resort
+644,27,644,25,Summer Info Resort
+645,28,645,25,Fishing Minigame
+646,29,646,25,Flashback MC

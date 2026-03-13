@@ -14,4 +14,5 @@
 - [ ] Verifikasi `messages.dat` hasil rebuild di game
 - [x] Audit `CommonEvents.rxdata` dan `Map*.rxdata` di luar cakupan `messages.dat`
 - [x] Bentuk backlog khusus berdasarkan urutan story awal game
+- [x] Generate draft baseline untuk semua map berdasarkan urutan story
 - [ ] Proofread istilah penting agar hasil benar-benar playable
