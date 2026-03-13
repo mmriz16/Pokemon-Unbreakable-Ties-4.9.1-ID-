@@ -22,10 +22,12 @@
 - Cleanup pass item/overworld diterapkan ke `messages.dat` untuk memulihkan path asset runtime (`Graphics/Pictures/...`), merapikan prompt mail/item/editor, dan membersihkan beberapa string story/profile yang masih bercampur Spanyol atau terlalu literal.
 - Cleanup pass save/shop/storage diterapkan ke `messages.dat` untuk merapikan prompt save, PC/mail wording, Summer Mart text, dan beberapa label editor yang masih memakai kata `gerakan` atau frasa hasil translasi literal.
 - Cleanup pass residual story/dialog diterapkan ke `messages.dat` untuk mengubah wording `gerakan -> jurus` di pesan gameplay tertentu, merapikan deskripsi karakter Akebia, dan memperhalus sejumlah string meta/editor yang masih terasa seperti hasil translasi mesin.
+- Audit event source di luar `messages.dat` selesai dengan extractor baru `tools/extract_event_text_audit.rb`. Hasil awal: `100` common events, `646` maps, dan `61,004` row teks event berhasil diekstrak ke `tracking/event_text_audit.csv`, dengan map paling padat teks saat ini antara lain `Map698`, `Map025`, dan `Map001`.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
 - Audit `CommonEvents.rxdata` dan `Map*.rxdata` per urutan story.
+- Prioritaskan translasi event/story berdasarkan hasil audit `event_text_audit.csv` dan map dengan row teks terbanyak.
 - Rapikan istilah UI dan trainer class yang masih kaku.
 - Mulai translasi `011_Battle`, `012_Overworld`, `013_Items`, dan `999_Main`.
 - Putuskan apakah `english.dat` hasil rebuild akan dipakai langsung atau dijadikan baseline lalu diproofread dulu.

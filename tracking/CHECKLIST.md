@@ -12,5 +12,5 @@
 - [x] Selesaikan rebuild `messages.dat` versi Indonesia
 - [x] Verifikasi sample struktur `messages.dat` hasil rebuild
 - [ ] Verifikasi `messages.dat` hasil rebuild di game
-- [ ] Audit `CommonEvents.rxdata` dan `Map*.rxdata` di luar cakupan `messages.dat`
+- [x] Audit `CommonEvents.rxdata` dan `Map*.rxdata` di luar cakupan `messages.dat`
 - [ ] Proofread istilah penting agar hasil benar-benar playable
