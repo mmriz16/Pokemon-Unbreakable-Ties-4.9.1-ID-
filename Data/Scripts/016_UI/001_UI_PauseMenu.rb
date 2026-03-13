@@ -124,7 +124,7 @@ class PokemonPauseMenu
     commands[cmdBag = commands.length]       = _INTL("Tas") if !pbInBugContest?
     commands[cmdPokegear = commands.length]  = _INTL("Pokegear") if $Trainer.has_pokegear
     commands[cmdEncounter = commands.length] = _INTL("Pertemuan")
-    commands[cmdLogros = commands.length] = _INTL("Logros")
+    commands[cmdLogros = commands.length] = _INTL("Prestasi")
     commands[cmdTrainer = commands.length]   = $Trainer.name
 
      if $PokemonGlobal.commandCharacterSwitchOn && !pbInSafari? &&

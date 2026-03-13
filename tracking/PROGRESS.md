@@ -14,6 +14,7 @@
 - `Data/messages.dat` versi Indonesia berhasil dibangun di folder `ID`.
 - Verifikasi sample `messages.dat` berhasil: type text, move descriptions, ability descriptions, trainer types, dan map/common messages sudah terbaca dari file hasil rebuild.
 - Proofreading pass runtime pertama diterapkan langsung ke `english.dat` dan `messages.dat` untuk istilah yang paling terlihat salah, terutama `types` dan `trainer types`.
+- Proofreading pass kedua diterapkan untuk trainer classes yang masih kaku dan string UI Pokedex yang sempat merusak path asset (`Graphics/Pictures`).
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
