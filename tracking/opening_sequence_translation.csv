@@ -1,0 +1,1648 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text,story_index,draft_id,draft_status
+common_event,22,HEAL,,,,0,355,script,currentCharacter = $Trainer&.character_ID,0,,skip_script
+common_event,22,HEAL,,,,1,655,script_cont,"if $game_switches[2092] && !$PokemonTemp.battleRules[""canLose""] && [0, 1].include?(currentCharacter)",0,,skip_script
+common_event,22,HEAL,,,,2,655,script_cont,for i in(0...$Trainer.party.length),0,,skip_script
+common_event,22,HEAL,,,,3,655,script_cont,if !$Trainer.party[i].fainted?,0,,skip_script
+common_event,22,HEAL,,,,4,655,script_cont,$Trainer.party[i].heal,0,,skip_script
+common_event,22,HEAL,,,,5,655,script_cont,end,0,,skip_script
+common_event,22,HEAL,,,,6,655,script_cont,end,0,,skip_script
+common_event,22,HEAL,,,,7,655,script_cont,else,0,,skip_script
+common_event,22,HEAL,,,,8,655,script_cont,$Trainer.heal_party,0,,skip_script
+common_event,22,HEAL,,,,9,655,script_cont,end,0,,skip_script
+common_event,32,Me han pillado D:,,,,3,101,show_text,\f[ditto002]¡Dit...!,0,\f[ditto002]Dit...!,machine_draft
+map,22,,5,EV005,1,24,355,script,pbChangePlayer(0),1,,skip_script
+map,22,,5,EV005,1,38,355,script,pbChangePlayer(1),1,,skip_script
+map,22,,1,Quick start intro,1,0,108,comment,"This is the Debug intro, used to quickly start a game.",1,,skip_comment
+map,22,,1,Quick start intro,1,1,408,comment_cont,The player's name and trainer type are chosen,1,,skip_comment
+map,22,,1,Quick start intro,1,2,408,comment_cont,automatically.,1,,skip_comment
+map,22,,1,Quick start intro,1,3,355,script,pbChangePlayer(0),1,,skip_script
+map,22,,1,Quick start intro,1,4,355,script,"pbTrainerName(""Red"")",1,,skip_script
+map,22,,1,Quick start intro,1,6,355,script,pbToneChangeAll(,1,,skip_script
+map,22,,1,Quick start intro,1,7,655,script_cont,"Tone.new(-255, -255, -255, 0),",1,,skip_script
+map,22,,1,Quick start intro,1,8,655,script_cont,0,1,,skip_script
+map,22,,1,Quick start intro,1,9,655,script_cont,),1,,skip_script
+map,22,,1,Quick start intro,1,11,355,script,pbToneChangeAll(,1,,skip_script
+map,22,,1,Quick start intro,1,12,655,script_cont,"Tone.new(0, 0, 0, 0),",1,,skip_script
+map,22,,1,Quick start intro,1,13,655,script_cont,10,1,,skip_script
+map,22,,1,Quick start intro,1,14,655,script_cont,),1,,skip_script
+map,22,,2,Intro,1,8,101,show_text,"Antes de empezar, ¿necesitas saber cómo funcionan los controles?",1,"Sebelum memulai, apakah Anda perlu mengetahui cara kerja kontrol?",machine_draft
+map,22,,2,Intro,1,9,102,choices,Si,1,Ya,machine_draft
+map,22,,2,Intro,1,9,102,choices,Nah,1,Tidak,machine_draft
+map,22,,2,Intro,1,10,402,choice_branch,Si,1,Ya,machine_draft
+map,22,,2,Intro,1,11,355,script,pbEventScreen(ButtonEventScene),1,,skip_script
+map,22,,2,Intro,1,13,402,choice_branch,Nah,1,Tidak,machine_draft
+map,22,,2,Intro,1,17,101,show_text,Un par de preguntas antes de empezar...,1,Beberapa pertanyaan sebelum kita mulai...,machine_draft
+map,22,,2,Intro,1,19,101,show_text,¿Quieres subir este juego a Internet? Esta opción sustituirá algunas canciones que contienen copyright para evitar problemas.,1,Apakah Anda ingin mengunggah game ini ke Internet? Opsi ini akan menggantikan beberapa lagu yang mengandung hak cipta untuk menghindari masalah.,machine_draft
+map,22,,2,Intro,1,20,102,choices,"Sí, subiré el juego a Internet",1,"Ya, saya akan mengunggah game tersebut ke Internet",machine_draft
+map,22,,2,Intro,1,20,102,choices,"Nope, solo estoy jugando.",1,"Tidak, aku hanya bermain-main.",machine_draft
+map,22,,2,Intro,1,21,402,choice_branch,"Sí, subiré el juego a Internet",1,"Ya, saya akan mengunggah game tersebut ke Internet",machine_draft
+map,22,,2,Intro,1,22,355,script,$PokemonSystem.streamer = 1,1,,skip_script
+map,22,,2,Intro,1,24,402,choice_branch,"Nope, solo estoy jugando.",1,"Tidak, aku hanya bermain-main.",machine_draft
+map,22,,2,Intro,1,28,101,show_text,Para evitar cualquier problema... ¿Eres fotosensible a algunas luces e iluminación?,1,Untuk menghindari masalah... Apakah Anda fotosensitif terhadap beberapa lampu dan pencahayaan?,machine_draft
+map,22,,2,Intro,1,29,102,choices,"Sip, soy fotosensible",1,"Ya, aku fotosensitif",machine_draft
+map,22,,2,Intro,1,29,102,choices,Nope,1,Tidak,machine_draft
+map,22,,2,Intro,1,30,402,choice_branch,"Sip, soy fotosensible",1,"Ya, aku fotosensitif",machine_draft
+map,22,,2,Intro,1,31,355,script,$PokemonSystem.flashlight = 1,1,,skip_script
+map,22,,2,Intro,1,33,402,choice_branch,Nope,1,Tidak,machine_draft
+map,22,,2,Intro,1,42,108,comment,Selección de dificultad,1,,skip_comment
+map,22,,2,Intro,1,45,101,show_text,Selecciona un modo de dificultad.,1,Pilih mode kesulitan.,machine_draft
+map,22,,2,Intro,2,1,108,comment,Al pulsar hacia abajo,1,,skip_comment
+map,22,,2,Intro,2,3,355,script,echo pbGet(406),1,,skip_script
+map,22,,2,Intro,2,17,108,comment,Al pulsar hacia arriba,1,,skip_comment
+map,22,,2,Intro,2,32,108,comment,Qué imagen me enseña,1,,skip_comment
+map,22,,2,Intro,2,57,108,comment,Si la tecla de Aceptar está presionada,1,,skip_comment
+map,22,,2,Intro,2,60,101,show_text,El \c[2]Modo Fácil\c[0] es para gente que no está muy familiarizada con Pokémon.,1,\c[2]Mode Mudah\c[0] diperuntukkan bagi orang yang belum terlalu mengenal Pokémon.,machine_draft
+map,22,,2,Intro,2,62,101,show_text,Los Pokémon de los entrenadores tienen \c[2]2 nivel menos\c[0].,1,Pokémon Pelatih memiliki level \c[2]2 lebih sedikit\c[0].,machine_draft
+map,22,,2,Intro,2,64,101,show_text,"Todos los Pokémon de entrenadores, tendrán sus \c[2]IVs y EVs a 0\c[0].",1,Semua Pokémon pelatih akan memiliki \c[2]IV dan EV di 0\c[0].,machine_draft
+map,22,,2,Intro,2,66,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x0.75\c[0].",1,Semua PL (Poin Lokal) yang Anda peroleh akan dikalikan dengan \c[2]x0.75\c[0].,machine_draft
+map,22,,2,Intro,2,68,101,show_text,¿Estás seguro de que quieres jugar en \c[2]Modo Fácil\c[0]?,1,Apakah Anda yakin ingin bermain di \c[2]Mode Mudah\c[0]?,machine_draft
+map,22,,2,Intro,2,69,102,choices,Sí,1,Ya,machine_draft
+map,22,,2,Intro,2,69,102,choices,No,1,Tidak,machine_draft
+map,22,,2,Intro,2,70,402,choice_branch,Sí,1,Ya,machine_draft
+map,22,,2,Intro,2,82,402,choice_branch,No,1,Tidak,machine_draft
+map,22,,2,Intro,2,91,101,show_text,El \c[2]Modo Normal\c[0] es el más recomendado para el público.,1,\c[2]Mode Normal\c[0] adalah yang paling direkomendasikan untuk umum.,machine_draft
+map,22,,2,Intro,2,93,101,show_text,"Una dificultad estándar, para gente que juega Pokémon de manera casual.",1,"Tingkat kesulitan standar, bagi orang yang memainkan Pokémon dengan santai.",machine_draft
+map,22,,2,Intro,2,95,101,show_text,¿Estás seguro de que quieres jugar en \c[2]Modo Normal\c[0]?,1,Apakah Anda yakin ingin bermain dalam \c[2]Mode Normal\c[0]?,machine_draft
+map,22,,2,Intro,2,96,102,choices,Sí,1,Ya,machine_draft
+map,22,,2,Intro,2,96,102,choices,No,1,Tidak,machine_draft
+map,22,,2,Intro,2,97,402,choice_branch,Sí,1,Ya,machine_draft
+map,22,,2,Intro,2,109,402,choice_branch,No,1,Tidak,machine_draft
+map,22,,2,Intro,2,118,101,show_text,"El \c[2]Modo Difícil\c[0] es un poco más complicado, el nivel de todos los Pokémon de los entrenadores \c[2]aumentan en 1\c[0].",1,"\c[2]Hard Mode\c[0] sedikit lebih rumit, level semua Pokémon pelatih \c[2]meningkat sebesar 1\c[0].",machine_draft
+map,22,,2,Intro,2,120,101,show_text,"Además, todos sus Pokémon tendrán \c[2]31 IVs en cada estadística\c[0].",1,"Selain itu, semua Pokémon Anda akan memiliki \c[2]31 IV di setiap stat\c[0].",machine_draft
+map,22,,2,Intro,2,122,101,show_text,"No es lo más difícil, pero se te puede llegar a complicar en alguna situación.",1,"Ini bukan yang tersulit, namun bisa menjadi rumit dalam beberapa situasi.",machine_draft
+map,22,,2,Intro,2,124,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.25\c[0].",1,Semua PL (Poin Lokal) yang Anda peroleh akan dikalikan dengan \c[2]x1.25\c[0].,machine_draft
+map,22,,2,Intro,2,126,101,show_text,¿Estás seguro de que quieres jugar en \c[2]Modo Difícil\c[0]?,1,Apakah Anda yakin ingin bermain di \c[2]Hard Mode\c[0]?,machine_draft
+map,22,,2,Intro,2,127,102,choices,Sí,1,Ya,machine_draft
+map,22,,2,Intro,2,127,102,choices,No,1,Tidak,machine_draft
+map,22,,2,Intro,2,128,402,choice_branch,Sí,1,Ya,machine_draft
+map,22,,2,Intro,2,140,402,choice_branch,No,1,Tidak,machine_draft
+map,22,,2,Intro,2,149,101,show_text,"Oh dios mío, el \c[2]Modo Radical\c[0] es para gente muy loca...",1,"Ya Tuhan, \c[2]Mode Radikal\c[0] ditujukan untuk orang-orang yang sangat gila...",machine_draft
+map,22,,2,Intro,2,151,101,show_text,\sh¡Pero que muuuy loca!,1,\shTapi betapa gilanya!,machine_draft
+map,22,,2,Intro,2,153,101,show_text,¡Los niveles de todos los Pokémon de tus adversarios aumentarán en \c[2]+3\c[0]!,1,Level semua Pokémon lawan Anda akan meningkat sebesar \c[2]+3\c[0]!,machine_draft
+map,22,,2,Intro,2,155,101,show_text,Sus \c[2]EVs estarán al máximo y perfectamente repartidos según el Pokémon\c[0] y sus \c[2]IVs serán perfectos\c[0] en todas sus estadísticas!,1,\c[2]EV-nya akan dimaksimalkan dan didistribusikan dengan sempurna sesuai dengan Pokémon\c[0] dan \c[2]IV-nya akan sempurna\c[0] di semua statistiknya!,machine_draft
+map,22,,2,Intro,2,157,101,show_text,"Además, \c[2]NO podrás hacer uso de la mochila en combate contra ellos\c[0].",1,"Selanjutnya, \c[2]Anda TIDAK akan dapat menggunakan ransel dalam pertempuran melawan mereka\c[0].",machine_draft
+map,22,,2,Intro,2,159,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.75\c[0].",1,Semua PL (Poin Lokal) yang Anda peroleh akan dikalikan dengan \c[2]x1.75\c[0].,machine_draft
+map,22,,2,Intro,2,161,101,show_text,¿Estás seguro de que quieres jugar en \c[2]Modo Radical\c[0]?,1,Apakah Anda yakin ingin bermain di \c[2]Mode Radikal\c[0]?,machine_draft
+map,22,,2,Intro,2,162,102,choices,Sí,1,Ya,machine_draft
+map,22,,2,Intro,2,162,102,choices,No,1,Tidak,machine_draft
+map,22,,2,Intro,2,163,402,choice_branch,Sí,1,Ya,machine_draft
+map,22,,2,Intro,2,175,402,choice_branch,No,1,Tidak,machine_draft
+map,22,,2,Intro,3,1,108,comment,Al pulsar hacia abajo,1,,skip_comment
+map,22,,2,Intro,3,3,355,script,echo pbGet(406),1,,skip_script
+map,22,,2,Intro,3,17,108,comment,Al pulsar hacia arriba,1,,skip_comment
+map,22,,2,Intro,3,32,108,comment,Le doy al BACK,1,,skip_comment
+map,22,,2,Intro,3,83,108,comment,Le doy al START,1,,skip_comment
+map,22,,2,Intro,3,92,108,comment,Si la tecla de Aceptar está presionada,1,,skip_comment
+map,22,,2,Intro,3,96,102,choices,Deselect,1,Batalkan pilihan,machine_draft
+map,22,,2,Intro,3,96,102,choices,Information,1,Informasi,machine_draft
+map,22,,2,Intro,3,96,102,choices,Nothing,1,tidak ada apa-apa,machine_draft
+map,22,,2,Intro,3,97,402,choice_branch,Deselect,1,Batalkan pilihan,machine_draft
+map,22,,2,Intro,3,104,402,choice_branch,Information,1,Informasi,machine_draft
+map,22,,2,Intro,3,105,101,show_text,"Si se debilita un Pokémon, se considera muerto. Irá directamente a la caja del PC y no podrá ser revivido.",1,"Jika Pokémon dilemahkan, ia dianggap mati. Ini akan langsung masuk ke casing PC dan tidak dapat dihidupkan kembali.",machine_draft
+map,22,,2,Intro,3,107,101,show_text,Solo podrás atrapar un Pokémon de la misma linea evolutiva.,1,Anda hanya dapat menangkap satu Pokémon dari garis evolusi yang sama.,machine_draft
+map,22,,2,Intro,3,109,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.5\c[0].",1,Semua PL (Poin Lokal) yang Anda peroleh akan dikalikan dengan \c[2]x1.5\c[0].,machine_draft
+map,22,,2,Intro,3,112,402,choice_branch,Nothing,1,tidak ada apa-apa,machine_draft
+map,22,,2,Intro,3,118,102,choices,Select,1,Pilih,machine_draft
+map,22,,2,Intro,3,118,102,choices,Information,1,Informasi,machine_draft
+map,22,,2,Intro,3,118,102,choices,Nothing,1,tidak ada apa-apa,machine_draft
+map,22,,2,Intro,3,119,402,choice_branch,Select,1,Pilih,machine_draft
+map,22,,2,Intro,3,126,402,choice_branch,Information,1,Informasi,machine_draft
+map,22,,2,Intro,3,127,101,show_text,"Si se debilita un Pokémon, se considera muerto. Irá directamente a la caja del PC y no podrá ser revivido.",1,"Jika Pokémon dilemahkan, ia dianggap mati. Ini akan langsung masuk ke casing PC dan tidak dapat dihidupkan kembali.",machine_draft
+map,22,,2,Intro,3,129,101,show_text,Solo podrás atrapar un Pokémon de la misma linea evolutiva.,1,Anda hanya dapat menangkap satu Pokémon dari garis evolusi yang sama.,machine_draft
+map,22,,2,Intro,3,131,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.5\c[0].",1,Semua PL (Poin Lokal) yang Anda peroleh akan dikalikan dengan \c[2]x1.5\c[0].,machine_draft
+map,22,,2,Intro,3,134,402,choice_branch,Nothing,1,tidak ada apa-apa,machine_draft
+map,22,,2,Intro,3,145,101,show_text,Este modo no está activo por el momento. Se implementará en el futuro.,1,Mode ini tidak aktif saat ini. Ini akan diterapkan di masa depan.,machine_draft
+map,22,,2,Intro,3,153,102,choices,Deselect,1,Batalkan pilihan,machine_draft
+map,22,,2,Intro,3,153,102,choices,Information,1,Informasi,machine_draft
+map,22,,2,Intro,3,153,102,choices,Nothing,1,tidak ada apa-apa,machine_draft
+map,22,,2,Intro,3,154,402,choice_branch,Deselect,1,Batalkan pilihan,machine_draft
+map,22,,2,Intro,3,161,402,choice_branch,Information,1,Informasi,machine_draft
+map,22,,2,Intro,3,162,101,show_text,"El \c[2]Lucariolocke\c[0] es un modo donde \c[2]si Riolu / Lucario muere\c[0], será \c[2]Game Over\c[0] y \c[2]NO podrás continuar tu partida\c[0].",1,"\c[2]Lucariolocke\c[0] adalah mode di mana \c[2]jika Riolu / Lucario mati\c[0], maka akan menjadi \c[2]Game Over\c[0] dan \c[2]Anda TIDAK akan dapat melanjutkan permainan\c[0] Anda.",machine_draft
+map,22,,2,Intro,3,164,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.1\c[0].",1,Semua PL (Poin Lokal) yang Anda peroleh akan dikalikan dengan \c[2]x1.1\c[0].,machine_draft
+map,22,,2,Intro,3,167,402,choice_branch,Nothing,1,tidak ada apa-apa,machine_draft
+map,22,,2,Intro,3,173,102,choices,Select,1,Pilih,machine_draft
+map,22,,2,Intro,3,173,102,choices,Information,1,Informasi,machine_draft
+map,22,,2,Intro,3,173,102,choices,Nothing,1,tidak ada apa-apa,machine_draft
+map,22,,2,Intro,3,174,402,choice_branch,Select,1,Pilih,machine_draft
+map,22,,2,Intro,3,181,402,choice_branch,Information,1,Informasi,machine_draft
+map,22,,2,Intro,3,182,101,show_text,"El \c[2]Lucariolocke\c[0] es un modo donde \c[2]si Riolu / Lucario muere\c[0], será \c[2]Game Over\c[0] y \c[2]NO podrás continuar tu partida\c[0].",1,"\c[2]Lucariolocke\c[0] adalah mode di mana \c[2]jika Riolu / Lucario mati\c[0], maka akan menjadi \c[2]Game Over\c[0] dan \c[2]Anda TIDAK akan dapat melanjutkan permainan\c[0] Anda.",machine_draft
+map,22,,2,Intro,3,184,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.1\c[0].",1,Semua PL (Poin Lokal) yang Anda peroleh akan dikalikan dengan \c[2]x1.1\c[0].,machine_draft
+map,22,,2,Intro,3,187,402,choice_branch,Nothing,1,tidak ada apa-apa,machine_draft
+map,22,,2,Intro,3,197,108,comment,Le doy al START,1,,skip_comment
+map,22,,2,Intro,3,199,101,show_text,"Los Modos de Locke \c[2]NO\c[0] son modificables en opciones, el Modo de Dificultad sí.",1,"Mode Locke \c[2]NO\c[0] dapat dimodifikasi dalam opsi, Mode Kesulitan dapat dimodifikasi.",machine_draft
+map,22,,2,Intro,3,201,101,show_text,¿Estás seguro que quieres jugar con esta configuración?,1,Apakah Anda yakin ingin bermain-main dengan konfigurasi ini?,machine_draft
+map,22,,2,Intro,3,203,102,choices,Yes,1,Ya,machine_draft
+map,22,,2,Intro,3,203,102,choices,No,1,Tidak,machine_draft
+map,22,,2,Intro,3,204,402,choice_branch,Yes,1,Ya,machine_draft
+map,22,,2,Intro,3,221,402,choice_branch,No,1,Tidak,machine_draft
+map,22,,2,Intro,4,0,101,show_text,"Para activar el <b>turbo</b>, pulsa la tecla ""Q""</b>. Sólo recomendado en combate y fuera de escenas. Se desactiva pulsando por segunda vez.",1,"Untuk mengaktifkan <b>turbo</b>, tekan tombol ""Q""</b>. Hanya direkomendasikan dalam pertempuran dan di luar layar. Ini dinonaktifkan dengan menekan untuk kedua kalinya.",machine_draft
+map,22,,2,Intro,4,9,101,show_text,\dxn[???]¡Hey! ¿Y tú quién eres? ¿Quién interrumpe mi paseo por la playa?,1,\dxn[???]Hei! Dan siapa kamu? Siapa yang mengganggu perjalananku di pantai?,machine_draft
+map,22,,2,Intro,4,18,101,show_text,"\dxn[???]¡Oh, rayos! ¡Ya me había olvidado de ti!",1,"\dxn[???]Oh, sial! Aku sudah melupakanmu!",machine_draft
+map,22,,2,Intro,4,24,101,show_text,"\dxn[???]Lo siento, dicen que soy una chica muy despistada. Espero que sepas perdonarme.",1,"\dxn[???]Maaf, mereka bilang aku gadis yang sangat bodoh. Saya harap Anda tahu cara memaafkan saya.",machine_draft
+map,22,,2,Intro,4,28,101,show_text,"\dxn[Álama]Me presento. Me llamo \c[2]Álama\c[0] y soy la profesora de \c[2]Pueblo Gorrión\c[0], de la región de \c[2]Akebia\c[0].",1,"\dxn[Álama]Saya memperkenalkan diri. Nama saya \c[2]Álama\c[0] dan saya adalah guru \c[2]Pueblo Gorrión\c[0], di wilayah \c[2]Akebia\c[0].",machine_draft
+map,22,,2,Intro,4,32,101,show_text,\dxn[Álama]Akebia es una región tropical llena de Pokémon de todo tipo.,1,\dxn[Álama]Akebia adalah wilayah tropis yang penuh dengan segala jenis Pokémon.,machine_draft
+map,22,,2,Intro,4,39,101,show_text,\dxn[Álama]¿Cómo? ¿No sabes lo que son los Pokémon?,1,\dxn[Álama]Bagaimana caranya? Tahukah kamu apa itu Pokemon?,machine_draft
+map,22,,2,Intro,4,45,101,show_text,\dxn[Álama]Este mundo está habitado por unas criaturas llamadas Pokémon. La gente suele vivir con ellos.,1,\dxn[Álama]Dunia ini dihuni oleh makhluk yang disebut Pokémon. Orang biasanya tinggal bersama mereka.,machine_draft
+map,22,,2,Intro,4,49,101,show_text,"\dxn[Álama]Te voy a presentar a mi compañero del alma. ¡Sal, Psyduck!",1,"\dxn[Álama]Aku akan mengenalkanmu pada jodohku. Keluarlah, Psyduck!",machine_draft
+map,22,,2,Intro,4,69,101,show_text,\sh\dxn[Álama]¡¿P-Psyduck?! ¿A dónde vas?,1,\sh\dxn[Álama]P-Psyduck?! Kemana kamu pergi?,machine_draft
+map,22,,2,Intro,4,74,101,show_text,\dxn[Álama]Otra vez se me escapa... Si es que no hay manera de tratar con él.,1,\dxn[Álama]Setelah lolos dari saya... Jika tidak ada cara untuk menghadapinya.,machine_draft
+map,22,,2,Intro,4,79,101,show_text,"\dxn[Álama]En fin... Dicen que de tal Palossand tal astilla, o algo así.",1,"\dxn[Álama]Pokoknya... Katanya seperti Palossand seperti serpihan, atau semacamnya.",machine_draft
+map,22,,2,Intro,4,84,101,show_text,"\dxn[Álama]Volviendo a ti... Tú estás en mi clase, ¿verdad?",1,\dxn[Álama]Kembali lagi... Kamu satu kelas denganku kan?,machine_draft
+map,22,,2,Intro,4,88,101,show_text,"\dxn[Álama]Háblame un poco sobre ti, que mi memoria es bastante mala.",1,"\dxn[Álama]Ceritakan sedikit tentang diri Anda, ingatan saya sangat buruk.",machine_draft
+map,22,,2,Intro,4,91,101,show_text,¿Con quién te sientes más identificado/a?,1,Dengan siapa Anda merasa paling teridentifikasi?,machine_draft
+map,22,,2,Intro,6,2,101,show_text,"\dxn[Álama]¡Ajá, ya veo!",1,"\dxn[Álama]Aha, begitu!",machine_draft
+map,22,,2,Intro,6,6,101,show_text,\dxn[Álama]Esto... ¿Cómo te llamabas?,1,\dxn[Álama]Ini... Siapa namamu?,machine_draft
+map,22,,2,Intro,6,8,355,script,pbTrainerName,1,,skip_script
+map,22,,2,Intro,6,11,101,show_text,"\dxn[Álama]¡Ah, ya sé quién eres! ¿Eres \PN, quien vive justo a mi lado?",1,"\dxn[Álama]Ah, saya tahu siapa Anda! Apakah Anda \PN, yang tinggal tepat di sebelah saya?",machine_draft
+map,22,,2,Intro,6,12,102,choices,Sí,1,Ya,machine_draft
+map,22,,2,Intro,6,12,102,choices,No,1,Tidak,machine_draft
+map,22,,2,Intro,6,13,402,choice_branch,Sí,1,Ya,machine_draft
+map,22,,2,Intro,6,15,402,choice_branch,No,1,Tidak,machine_draft
+map,22,,2,Intro,6,17,101,show_text,"\dxn[Álama]¿Cómo te equivocas con tu nombre? ¡Eres peor que yo, eh!",1,"\dxn[Álama]Apa yang salah dengan namamu? Kamu lebih buruk dariku, ya!",machine_draft
+map,22,,2,Intro,6,30,101,show_text,"\dxn[Álama]¡Perfecto, estamos listos!",1,"\dxn[Álama]Sempurna, kami siap!",machine_draft
+map,22,,2,Intro,6,34,101,show_text,\dxn[Álama]¡Te doy la bienvenida...!,1,\dxn[Álama]Saya menyambut Anda...!,machine_draft
+map,22,,2,Intro,6,38,101,show_text,\sh\dxn[Álama]¡Al mundo de los Pokémon!,1,\sh\dxn[Álama]Ke dunia Pokémon!,machine_draft
+map,22,,2,Intro,6,41,355,script,pbToneChangeAll(,1,,skip_script
+map,22,,2,Intro,6,42,655,script_cont,"Tone.new(-255, -255, -255, 0),",1,,skip_script
+map,22,,2,Intro,6,43,655,script_cont,10),1,,skip_script
+map,22,,2,Intro,6,48,355,script,getPointMultiplier,1,,skip_script
+map,32,,9,EV009,1,0,101,show_text,<ac>Laboratorio</ac>,3,<ac>Laboratorium</ac>,machine_draft
+map,32,,47,EV047,1,0,101,show_text,<ac>Casa de \PN</ac>,3,<ac>Rumah \PN</ac>,machine_draft
+map,32,,85,EV085,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,28,EV028,1,0,355,script,pbItemBall(:POTION),3,,skip_script
+map,32,,66,EV066,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,19,EV019,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,57,EV057,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,38,EV038,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,48,EV048,1,0,101,show_text,<ac>¡Bienvenido a Pueblo Gorrión!</ac>,3,<ac>Selamat datang di Kota Sparrow!</ac>,machine_draft
+map,32,,48,EV048,1,1,101,show_text,<ac>Dirección Sur: Playa Gorrión</ac>,3,<ac>Arah Selatan: Pantai Sparrow</ac>,machine_draft
+map,32,,48,EV048,1,2,101,show_text,<ac>Dirección Este: Ruta 1</ac>,3,<ac>Arah Timur: Rute 1</ac>,machine_draft
+map,32,,86,EV086,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,29,EV029,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,67,"size(3,3) EV067",1,0,108,comment,noshadow,3,,skip_comment
+map,32,,20,EV020,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,58,EV058,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,39,EV039,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,87,Monotype Challenge,1,2,101,show_text,¡Hola! ¿Quieres activar el \c[2]reto monotipo\c[0]?,3,Halo! Apakah Anda ingin mengaktifkan tantangan monotype \c[2]\c[0]?,machine_draft
+map,32,,87,Monotype Challenge,1,4,101,show_text,Solo puedes activarlo si NO es tu primera partida.,3,Anda hanya dapat mengaktifkannya jika ini BUKAN game pertama Anda.,machine_draft
+map,32,,87,Monotype Challenge,1,5,102,choices,"Sí, quiero monotipo.",3,"Ya, saya ingin monotipe.",machine_draft
+map,32,,87,Monotype Challenge,1,5,102,choices,No quiero.,3,Saya tidak mau.,machine_draft
+map,32,,87,Monotype Challenge,1,6,402,choice_branch,"Sí, quiero monotipo.",3,"Ya, saya ingin monotipe.",machine_draft
+map,32,,87,Monotype Challenge,1,7,355,script,options = MonotypeChallenge.type_options,3,,skip_script
+map,32,,87,Monotype Challenge,1,8,655,script_cont,"ret = pbMessage(""Elige el tipo para tu reto"", options)",3,,skip_script
+map,32,,87,Monotype Challenge,1,9,655,script_cont,MonotypeChallenge.type = ret,3,,skip_script
+map,32,,87,Monotype Challenge,1,10,101,show_text,"Estupendo, a partir de aquí, solo podrás tener Pokémon de dicho tipo.",3,"Hebat, mulai sekarang, Anda hanya bisa memiliki Pokémon jenis itu.",machine_draft
+map,32,,87,Monotype Challenge,1,12,101,show_text,¡Nos vemos!,3,Sampai jumpa!,machine_draft
+map,32,,87,Monotype Challenge,1,16,402,choice_branch,No quiero.,3,Saya tidak mau.,machine_draft
+map,32,,87,Monotype Challenge,1,19,108,comment,Salimos del evento para que no ejecute lo que viene,3,,skip_comment
+map,32,,87,Monotype Challenge,1,20,408,comment_cont,después.,3,,skip_comment
+map,32,,87,Monotype Challenge,1,28,101,show_text,No tienes instalado en tu juego el script del,3,Anda belum menginstal skrip di game Anda.,machine_draft
+map,32,,87,Monotype Challenge,1,29,401,show_text_cont,Monotype. Añádelo para poder usar estas funciones.,3,Monotipe. Tambahkan untuk dapat menggunakan fitur ini.,machine_draft
+map,32,,30,EV030,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,68,"size(3,3) EV068",1,0,108,comment,noshadow,3,,skip_comment
+map,32,,11,EV011,1,0,101,show_text,<ac>Casa de Eda</ac>,3,<ac>Rumah Eda</ac>,machine_draft
+map,32,,49,EV049,1,0,101,show_text,<ac>¡Bienvenido a Pueblo Gorrión!</ac>,3,<ac>Selamat datang di Kota Sparrow!</ac>,machine_draft
+map,32,,49,EV049,1,1,101,show_text,<ac>Dirección Sur: Playa Gorrión</ac>,3,<ac>Arah Selatan: Pantai Sparrow</ac>,machine_draft
+map,32,,49,EV049,1,2,101,show_text,<ac>Dirección Este: Ruta 1</ac>,3,<ac>Arah Timur: Rute 1</ac>,machine_draft
+map,32,,21,,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",3,,skip_script
+map,32,,59,EV059,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,2,Intro2,1,40,355,script,pbToneChangeAll(,3,,skip_script
+map,32,,2,Intro2,1,41,655,script_cont,"Tone.new(-255, -255, -255, 0),",3,,skip_script
+map,32,,2,Intro2,1,42,655,script_cont,20),3,,skip_script
+map,32,,2,Intro2,1,47,355,script,pbToneChangeAll(,3,,skip_script
+map,32,,2,Intro2,1,48,655,script_cont,"Tone.new(0, 0, 0, 0),",3,,skip_script
+map,32,,2,Intro2,1,49,655,script_cont,30),3,,skip_script
+map,32,,40,EV040,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,31,EV031,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,69,EV069,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,12,EV012,1,0,101,show_text,<ac>Casa de Darek</ac>,3,<ac>Rumah Darek</ac>,machine_draft
+map,32,,50,EV050,1,0,101,show_text,<ac>Dirección Este: Ruta 1</ac>,3,<ac>Arah Timur: Rute 1</ac>,machine_draft
+map,32,,3,EV003,1,0,101,show_text,Por algún motivo mi Pikachu es más moreno...,3,Entah kenapa Pikachu-ku lebih gelap...,machine_draft
+map,32,,3,EV003,1,1,401,show_text_cont,Supongo que será porque le ha dado mucho el sol.,3,Saya kira itu karena banyak terkena sinar matahari.,machine_draft
+map,32,,79,PELIPPER,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,22,,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",3,,skip_script
+map,32,,60,EV060,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,32,EV032,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0),3,,skip_script
+map,32,,32,EV032,1,19,101,show_text,"\dxn[Mamá]Buenos días, cariño.",3,\dxn[Mamá]Selamat pagi sayang.,machine_draft
+map,32,,32,EV032,1,21,101,show_text,\dxn[Mamá]Tus amigos han marchado hace un rato y no querían despertarte.,3,\dxn[Mamá]Teman Anda pergi beberapa waktu lalu dan tidak ingin membangunkan Anda.,machine_draft
+map,32,,32,EV032,1,23,101,show_text,"\dxn[Mamá]Me han dicho que te esperan en una \c[2]Guarida\c[0] de Ciudad Lugano, en la \c[2]Sala de Reuniones\c[0].",3,"\dxn[Mamá]Mereka memberi tahu saya bahwa mereka menunggu Anda di \c[2]Lair\c[0] di Kota Lugano, di \c[2]Ruang Rapat\c[0].",machine_draft
+map,32,,32,EV032,1,26,101,show_text,\dxn[Mamá]Supongo que te irás sin siquiera desayunar.,3,\dxn[Mamá]Saya kira Anda akan pergi bahkan tanpa sarapan.,machine_draft
+map,32,,32,EV032,1,28,101,show_text,\dxn[Mamá]Espero que vengas a vernos a tu padre y a mí de vez en cuando.,3,\dxn[Mamá]Saya harap Anda datang menemui ayah Anda dan saya dari waktu ke waktu.,machine_draft
+map,32,,32,EV032,1,31,101,show_text,\dxn[Mamá]¡Ten mucho cuidado y suerte con el resto de tu viaje!,3,\dxn[Mamá]Berhati-hatilah dan semoga sukses dengan sisa perjalanan Anda!,machine_draft
+map,32,,32,EV032,1,48,355,script,pbCameraReset,3,,skip_script
+map,32,,32,EV032,1,51,101,show_text,\dxn[\PN]Puede que todos estén reunidos en Ciudad Lugano otra vez.,3,\dxn[\PN]Mungkin semua orang berkumpul di Kota Lugano lagi.,machine_draft
+map,32,,32,EV032,1,55,101,show_text,\dxn[\PN]¡Vayamos de nuevo a la Guarida!,3,\dxn[\PN]Ayo ke Lair lagi!,machine_draft
+map,32,,32,EV032,1,60,101,show_text,\dxn[\PN]Puede que todos estén reunidos en Ciudad Lugano otra vez.,3,\dxn[\PN]Mungkin semua orang berkumpul di Kota Lugano lagi.,machine_draft
+map,32,,32,EV032,1,64,101,show_text,\dxn[\PN]¡Vayamos de nuevo a la Guarida!,3,\dxn[\PN]Ayo ke Lair lagi!,machine_draft
+map,32,,70,EV070,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,51,EV051,1,0,101,show_text,<ac>Dirección Este: Ruta 1</ac>,3,<ac>Arah Timur: Rute 1</ac>,machine_draft
+map,32,,4,EV004,1,1,101,show_text,¡PIKACHU!,3,PIKACHU!,machine_draft
+map,32,,80,PELIPPER,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,23,,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",3,,skip_script
+map,32,,61,EV061,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,14,EV014,2,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")",3,,skip_script
+map,32,,33,EV033,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,43,Evento Eda,1,15,101,show_text,"\dxn[Eda]¡Ey, \PN! ¿Qué tal, ya tienes a tu Pokémon?",3,"\dxn[Eda]Hai, \PN! Bagaimana kabarmu, apakah kamu sudah memiliki Pokemonmu?",machine_draft
+map,32,,43,Evento Eda,1,28,101,show_text,\dxn[Eda]¿Cómo? ¿Un huevo?,3,\dxn[Eda]Bagaimana caranya? Telur?,machine_draft
+map,32,,43,Evento Eda,1,32,101,show_text,"\dxn[Eda]Ya veo... En fin, nos vemos en la playa, haremos una pequeña despedida junto a Darek. Te esperamos allá.",3,"\dxn[Eda]Begitu... Pokoknya sampai jumpa di pantai, kita ngobrol sebentar dengan Darek. Kami menunggumu di sana.",machine_draft
+map,32,,81,PELIPPER,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,24,EV024,1,0,101,show_text,<ac>Escuela Pokémon</ac>,3,<ac>Sekolah Pokemon</ac>,machine_draft
+map,32,,62,EV062,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,5,EV005,1,0,101,show_text,<ac>Casa de Álama</ac>,3,<ac>Rumah de Álama</ac>,machine_draft
+map,32,,15,EV015,1,6,101,show_text,"Se está haciendo una investigación en la Ruta 1, no",3,"Investigasi sedang dilakukan di Rute 1, no",machine_draft
+map,32,,15,EV015,1,7,401,show_text_cont,se puede pasar todavía.,3,itu masih bisa terjadi.,machine_draft
+map,32,,34,EV034,1,0,101,show_text,Tengo entendido que la profesora del colegio vive en,3,Saya mengerti bahwa guru sekolah tinggal di sana,machine_draft
+map,32,,34,EV034,1,1,401,show_text_cont,"la casa de abajo, he visto casos de profesores",3,"rumah di bawah, saya telah melihat kasus guru",machine_draft
+map,32,,34,EV034,1,2,401,show_text_cont,viviendo en su propio laboratorio. ¿Te parece normal?,3,tinggal di laboratoriumnya sendiri. Apakah itu tampak normal bagi Anda?,machine_draft
+map,32,,34,EV034,1,3,102,choices,Si,3,Ya,machine_draft
+map,32,,34,EV034,1,3,102,choices,No,3,Tidak,machine_draft
+map,32,,34,EV034,1,4,402,choice_branch,Si,3,Ya,machine_draft
+map,32,,34,EV034,1,7,101,show_text,Pues mira que eres rarito.,3,Lihat betapa anehnya dirimu.,machine_draft
+map,32,,34,EV034,1,9,402,choice_branch,No,3,Tidak,machine_draft
+map,32,,34,EV034,1,10,101,show_text,Menos mal que estamos de acuerdo.,3,Untungnya kami setuju.,machine_draft
+map,32,,72,EV072,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,25,EV025,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,63,EV063,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,6,escolta,1,0,101,show_text,"Se está haciendo una investigación en la Ruta 1, no",3,"Investigasi sedang dilakukan di Rute 1, no",machine_draft
+map,32,,6,escolta,1,1,401,show_text_cont,se puede pasar todavía.,3,itu masih bisa terjadi.,machine_draft
+map,32,,82,PELIPPER2,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,16,EV016,1,6,101,show_text,"Se está haciendo una investigación en la Ruta 1, no",3,"Investigasi sedang dilakukan di Rute 1, no",machine_draft
+map,32,,16,EV016,1,7,401,show_text_cont,se puede pasar todavía.,3,itu masih bisa terjadi.,machine_draft
+map,32,,73,EV073,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,54,EV054,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,35,EV035,1,0,101,show_text,"No, no soy el típico que te habla de tecnología, de",3,"Tidak, saya bukan tipikal orang yang berbicara kepada Anda tentang teknologi",machine_draft
+map,32,,35,EV035,1,1,401,show_text_cont,hecho me dedico a la dietética.,3,"Faktanya, saya mengabdikan diri pada dietetika.",machine_draft
+map,32,,83,PELIPPER2,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,26,EV026,1,0,101,show_text,<ac>Laboratorio</ac>,3,<ac>Laboratorium</ac>,machine_draft
+map,32,,64,EV064,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,7,EV007,1,0,101,show_text,Este pueblo es pequeño pero acogedor. Sin embargo,3,Kota ini kecil tapi nyaman. Namun,machine_draft
+map,32,,7,EV007,1,1,401,show_text_cont,nosotros tenemos la casita en la playa.,3,Kami memiliki rumah di pantai.,machine_draft
+map,32,,7,EV007,1,2,108,comment,$Trainer.party[1] = $game_variables[999],3,,skip_comment
+map,32,,55,EV055,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,74,EV074,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,36,EV036,1,13,101,show_text,Está cerrado con llave.,3,Itu terkunci.,machine_draft
+map,32,,36,EV036,2,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",3,,skip_script
+map,32,,17,EV017,1,7,101,show_text,"Se está haciendo una investigación en la Ruta 1, no",3,"Investigasi sedang dilakukan di Rute 1, no",machine_draft
+map,32,,17,EV017,1,8,401,show_text_cont,se puede pasar todavía.,3,itu masih bisa terjadi.,machine_draft
+map,32,,84,PELIPPER2,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,8,EV008,1,0,101,show_text,<ac>Laboratorio</ac>,3,<ac>Laboratorium</ac>,machine_draft
+map,32,,65,EV065,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,27,EV027,1,0,108,comment,noshadow,3,,skip_comment
+map,32,,37,EV037,1,0,101,show_text,La puerta está cerrada con llave.,3,Pintunya terkunci.,machine_draft
+map,32,,37,EV037,4,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")",3,,skip_script
+map,32,,56,EV056,1,0,108,comment,noshadow,3,,skip_comment
+map,42,,49,EV049,1,0,355,script,pbSetPokemonCenter,2,,skip_script
+map,42,,38,EV038,1,0,101,show_text,"Hay novelas ligeras, a tu madre le gustan bastante.",2,"Ada novel ringan, ibumu sangat menyukainya.",machine_draft
+map,42,,27,EV027,1,0,101,show_text,Hay muchos mangas distintos.,2,Ada banyak manga yang berbeda.,machine_draft
+map,42,,44,EV044,1,0,101,show_text,Tocas una canción:,2,Anda memutar lagu:,machine_draft
+map,42,,33,EV033,1,0,101,show_text,Aquí hay libros de conocimiento de Pokémon.,2,Berikut adalah buku pengetahuan Pokémon.,machine_draft
+map,42,,22,EV022,1,0,101,show_text,Es un muñeco de Eevee.,2,Itu boneka Eevee.,machine_draft
+map,42,,11,Smeargle,2,0,355,script,Pokemon.play_cry(:CHANSEY),2,,skip_script
+map,42,,39,EV039,1,0,101,show_text,"Hay novelas ligeras, a tu madre le gustan bastante.",2,"Ada novel ringan, ibumu sangat menyukainya.",machine_draft
+map,42,,28,EV028,1,0,101,show_text,Hay muchos mangas distintos.,2,Ada banyak manga yang berbeda.,machine_draft
+map,42,,50,Tele,1,0,108,comment,noshadow,2,,skip_comment
+map,42,,45,EV045,1,1,101,show_text,Se ve una foto de cuando eras más pequeño.,2,Anda melihat foto ketika Anda masih muda.,machine_draft
+map,42,,45,EV045,1,4,101,show_text,Se ve una foto de cuando eras más pequeña.,2,Anda melihat foto ketika Anda masih muda.,machine_draft
+map,42,,34,EV034,1,0,101,show_text,"Hay novelas ligeras, a tu madre le gustan bastante.",2,"Ada novel ringan, ibumu sangat menyukainya.",machine_draft
+map,42,,23,EV023,1,0,101,show_text,Es un muñeco de Poliwag.,2,Itu boneka Poliwag.,machine_draft
+map,42,,1,Padre,5,0,101,show_text,"\dxn[Papá]Sé que eres fuerte, \PN, estoy seguro de que encontrarás a Lucario y volveréis a viajar juntos.",2,"\dxn[Papá]Saya tahu Anda kuat, \PN, saya yakin Anda akan menemukan Lucario dan bepergian bersama lagi.",machine_draft
+map,42,,1,Padre,5,2,101,show_text,\dxn[Papá]Mucho ánimo.,2,\dxn[Papá]Semoga berhasil.,machine_draft
+map,42,,12,EV012,2,0,108,comment,noshadow,2,,skip_comment
+map,42,,12,EV012,2,1,355,script,$Trainer.has_running_shoes = true,2,,skip_script
+map,42,,12,EV012,2,3,101,show_text,¡Te has puesto las \c[2]deportivas\c[0]!,2,Anda telah memakai \c[2]sports\c[0]!,machine_draft
+map,42,,40,EV040,1,0,101,show_text,"Queda media pizza en la nevera, pero no te la vas a comer así fría.",2,"Masih ada setengah pizza tersisa di lemari es, tapi Anda tidak akan memakannya dalam keadaan dingin seperti itu.",machine_draft
+map,42,,29,EV029,1,0,101,show_text,Hay muchos mangas distintos.,2,Ada banyak manga yang berbeda.,machine_draft
+map,42,,7,EV007,1,0,101,show_text,"Lo de que no te hayas puesto las zapatillas antes de bajar, me tiene bailando danza aleteo.",2,Fakta bahwa kamu tidak memakai sepatu kets sebelum turun membuatku menari flutter dance.,machine_draft
+map,42,,51,EV051,1,0,108,comment,noshadow,2,,skip_comment
+map,42,,18,EV018,1,6,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)",2,,skip_script
+map,42,,46,EV046,1,0,108,comment,noshadow,2,,skip_comment
+map,42,,13,EV013,1,59,101,show_text,"\dxn[Mamá]Por fin llegas a casa, cariño. ¿Dónde te metiste?",2,"\dxn[Mamá]Akhirnya kamu sampai di rumah, sayang. Kemana kamu pergi?",machine_draft
+map,42,,13,EV013,1,64,101,show_text,"\dxn[Mamá]Ya veo, así que al final has conseguido un Pokémon.",2,"\dxn[Mamá]Begitu, jadi Anda akhirnya mendapatkan Pokémon.",machine_draft
+map,42,,13,EV013,1,66,101,show_text,\dxn[Mamá]De todas formas... ¿Dónde están tus notas?,2,\dxn[Mamá]Omong-omong... Dimana catatanmu?,machine_draft
+map,42,,13,EV013,1,82,102,choices,I uh... I lost them,2,Aku uh... aku kehilangan mereka,machine_draft
+map,42,,13,EV013,1,82,102,choices,A Psyduck ate them,2,Seorang Psyduck memakannya,machine_draft
+map,42,,13,EV013,1,83,402,choice_branch,I uh... I lost them,2,Aku uh... aku kehilangan mereka,machine_draft
+map,42,,13,EV013,1,93,101,show_text,\dxn[Mamá]¿Pero dónde tienes la cabeza?,2,\dxn[Mamá]Tapi di mana kepalamu?,machine_draft
+map,42,,13,EV013,1,95,402,choice_branch,A Psyduck ate them,2,Seorang Psyduck memakannya,machine_draft
+map,42,,13,EV013,1,105,101,show_text,\dxn[Mamá]¿De verdad crees que me voy a creer eso?,2,\dxn[Mamá]Apakah menurut Anda saya akan mempercayai hal itu?,machine_draft
+map,42,,13,EV013,1,109,101,show_text,\dxn[Mamá]En fin... ¿Ya sabes qué es lo que quieres estudiar?,2,\dxn[Mamá]Omong-omong... Apakah kamu sudah tahu apa yang ingin kamu pelajari?,machine_draft
+map,42,,13,EV013,1,119,101,show_text,\dxn[\PN]Quiero...,2,\dxn[\PN]Saya ingin...,machine_draft
+map,42,,13,EV013,1,120,102,choices,Ser Maestro Pokémon,2,Menjadi Master Pokémon,machine_draft
+map,42,,13,EV013,1,120,102,choices,Viajar por el mundo,2,Jelajahi dunia,machine_draft
+map,42,,13,EV013,1,121,402,choice_branch,Ser Maestro Pokémon,2,Menjadi Master Pokémon,machine_draft
+map,42,,13,EV013,1,125,101,show_text,\dxn[Mamá]¿Pero qué estás diciendo? ¿Es una broma?,2,\dxn[Mamá]Tapi apa yang kamu katakan? Itu hanya lelucon?,machine_draft
+map,42,,13,EV013,1,128,402,choice_branch,Viajar por el mundo,2,Jelajahi dunia,machine_draft
+map,42,,13,EV013,1,132,101,show_text,\dxn[Mamá]¿Ah si? ¿Y de qué quieres vivir?,2,\dxn[Mamá]Oh ya? Dan kamu ingin hidup dengan apa?,machine_draft
+map,42,,13,EV013,1,144,101,show_text,"\dxn[Papá]Espera un segundo, cariño, déjame preguntarle una cosa.",2,"\dxn[Papá]Tunggu sebentar sayang, izinkan saya menanyakan sesuatu.",machine_draft
+map,42,,13,EV013,1,159,101,show_text,\dxn[Papá]Imagino que habrás tenido un combate Pokémon para decir tal cosa. ¿Qué has sentido combatiendo?,2,\dxn[Papá]Saya membayangkan Anda pasti pernah bertarung dengan Pokémon untuk mengatakan hal seperti itu. Pertarungan apa yang kamu rasakan?,machine_draft
+map,42,,13,EV013,1,168,102,choices,It was amazing.,2,Sungguh menakjubkan.,machine_draft
+map,42,,13,EV013,1,168,102,choices,It made me very happy.,2,Itu membuatku sangat bahagia.,machine_draft
+map,42,,13,EV013,1,169,402,choice_branch,It was amazing.,2,Sungguh menakjubkan.,machine_draft
+map,42,,13,EV013,1,181,101,show_text,"\sh\dxn[Papá]¡Me alegra escuchar eso, \PN!",2,"\sh\dxn[Papá]Saya senang mendengarnya, \PN!",machine_draft
+map,42,,13,EV013,1,183,402,choice_branch,It made me very happy.,2,Itu membuatku sangat bahagia.,machine_draft
+map,42,,13,EV013,1,195,101,show_text,\sh\dxn[Papá]¡Me alegra saber que por fin hay algo que te hace feliz!,2,\sh\dxn[Papá]Saya senang mengetahui bahwa akhirnya ada sesuatu yang membuat Anda bahagia!,machine_draft
+map,42,,13,EV013,1,206,101,show_text,\dxn[Mamá]¿Pero qué más dará? Esa no es la manera de ver las cosas.,2,\dxn[Mamá]Tetapi apa bedanya? Itu bukan cara memandang sesuatu.,machine_draft
+map,42,,13,EV013,1,208,101,show_text,\dxn[Mamá]¡Ni siquiera tu padre cuando viajó por el mundo consiguió...!,2,\dxn[Mamá]Bahkan ayahmu ketika dia berkeliling dunia tidak mendapatkan...!,machine_draft
+map,42,,13,EV013,1,233,101,show_text,\sh\dxn[Papá]¡MARTA!,2,\sh\dxn[Papá]MARTA!,machine_draft
+map,42,,13,EV013,1,247,101,show_text,\dxn[Papá]...,2,\dxn[Papá]...,machine_draft
+map,42,,13,EV013,1,249,101,show_text,"\dxn[Papá]Es cierto, yo salí de viaje cuando era joven porque quería ser un Maestro Pokémon. Ese fue mi sueño desde bien pequeño...",2,"\dxn[Papá]Memang benar, saya melakukan perjalanan ketika saya masih muda karena saya ingin menjadi Pokémon Master. Itu adalah cita-citaku sejak kecil...",machine_draft
+map,42,,13,EV013,1,257,101,show_text,"\dxn[Papá]No todos somos capaces de cumplir nuestros sueños, y al final me tuve que conformar con trabajar como pintor en la obra.",2,"\dxn[Papá]Tidak semua dari kami mampu mewujudkan impian kami, dan pada akhirnya saya harus puas bekerja sebagai pelukis di lokasi konstruksi.",machine_draft
+map,42,,13,EV013,1,259,101,show_text,"\dxn[Papá]Yo perdí mi oportunidad, pero tú todavía tienes la tuya, y si de verdad sientes que es lo que quieres... No me puedo negar.",2,"\dxn[Papá]Aku kehilangan kesempatanku, tapi kamu masih punya kesempatanmu, dan jika kamu benar-benar merasa itu yang kamu inginkan... Aku tidak bisa menolak.",machine_draft
+map,42,,13,EV013,1,261,101,show_text,"\dxn[Papá]Pero también quiero que estés bien, te quiero y me preocupa tu seguridad y tu futuro, así que si quieres cumplir tu sueño...",2,"\dxn[Papá]Tapi aku juga ingin kamu baik-baik saja, aku mencintaimu dan aku khawatir tentang keselamatan dan masa depanmu, jadi jika kamu ingin mewujudkan impianmu...",machine_draft
+map,42,,13,EV013,1,263,101,show_text,"\dxn[Papá]¡Quiero comprobar con un combate Pokémon, que puedes viajar por la región de Akebia!",2,"\dxn[Papá]Saya ingin menguji dengan pertarungan Pokémon, bahwa Anda dapat melakukan perjalanan melalui wilayah Akebia!",machine_draft
+map,42,,13,EV013,1,274,101,show_text,"\sh\dxn[Papá]¡Prepárate, este viejo no se anda con chiquitas!",2,"\sh\dxn[Papá]Bersiaplah, orang tua ini tidak main-main!",machine_draft
+map,42,,13,EV013,1,275,355,script,"setBattleRule(""canLose"")",2,,skip_script
+map,42,,13,EV013,1,287,101,show_text,"\dxn[Papá]¡Eres mejor de lo que imaginaba, sin duda has sacado las fuerzas de tu padre!",2,"\dxn[Papá]Kamu lebih baik dari yang saya bayangkan, kamu pasti telah memanfaatkan kekuatan ayahmu!",machine_draft
+map,42,,13,EV013,1,291,101,show_text,"\dxn[Papá]No ha estado mal, mejor de lo que esperaba sinceramente.",2,"\dxn[Papá]Tidak buruk, sejujurnya lebih baik dari perkiraan saya.",machine_draft
+map,42,,13,EV013,1,302,101,show_text,\dxn[Mamá]Ciertamente se parece a ti cuando eras joven.,2,\dxn[Mamá]Dia pasti mirip dengan Anda ketika Anda masih muda.,machine_draft
+map,42,,13,EV013,1,304,101,show_text,\dxn[Mamá]Justo del hombre del que me enamoré.,2,\dxn[Mamá]Hanya pria yang membuatku jatuh cinta.,machine_draft
+map,42,,13,EV013,1,308,101,show_text,"\dxn[Papá]¡Soy exactamente igual que en aquel entonces, soy una bestia!",2,"\dxn[Papá]Saya sama persis seperti dulu, saya adalah binatang buas!",machine_draft
+map,42,,13,EV013,1,310,101,show_text,"\dxn[Mamá]Bueno, tampoco te pases.",2,"\dxn[Mamá]Yah, jangan berlebihan juga.",machine_draft
+map,42,,13,EV013,1,323,355,script,"pbZoomMap(2,0.1,zoom=""in"")",2,,skip_script
+map,42,,13,EV013,1,325,101,show_text,\ts[1]Supongo... \wt[10]que ha llegado el momento de que herede esto...,2,\ts[1]Saya kira... \wt[10]telah tiba waktunya bagi saya untuk mewarisi ini...,machine_draft
+map,42,,13,EV013,1,326,108,comment,// Animación del lazo,2,,skip_comment
+map,42,,13,EV013,1,339,355,script,"pbZoomMap(1,0.1,zoom=""out"")",2,,skip_script
+map,42,,13,EV013,1,342,101,show_text,"\dxn[Papá]Antes de nada, me gustaría darte esto.",2,"\dxn[Papá]Pertama-tama, saya ingin memberikan ini kepada Anda.",machine_draft
+map,42,,13,EV013,1,351,101,show_text,\dxn[Papá]Es la vieja bandana que me regaló mi padre y con la que yo viajaba cuando era joven.,2,\dxn[Papá]Ini adalah bandana tua yang diberikan ayah saya dan saya gunakan untuk bepergian ketika saya masih muda.,machine_draft
+map,42,,13,EV013,1,353,101,show_text,\dxn[Papá]Ahora me gustaría que la llevaras tú y se la pusieras a tu Pokémon.,2,\dxn[Papá]Sekarang saya ingin Anda mengambilnya dan menaruhnya di Pokémon Anda.,machine_draft
+map,42,,13,EV013,1,356,355,script,pbReceiveItem(:LAZO),2,,skip_script
+map,42,,13,EV013,1,366,101,show_text,\dxn[Papá]También me gustaría darte esta última cosa para tu viaje.,2,\dxn[Papá]Saya juga ingin memberikan barang terakhir ini untuk perjalanan Anda.,machine_draft
+map,42,,13,EV013,1,367,355,script,pbReceiveItem(:EXPALL),2,,skip_script
+map,42,,13,EV013,1,369,101,show_text,\dxn[Papá]Se llama \c[2]Repartir Experiencia\c[0]. Supongo que en la escuela ya habéis estudiado para qué sirve.,2,\dxn[Papá]Namanya \c[2]Bagikan Pengalaman\c[0]. Saya kira di sekolah Anda sudah mempelajari kegunaannya.,machine_draft
+map,42,,13,EV013,1,387,101,show_text,"\dxn[Mamá]Cielo, al menos llévate esto para no preocuparme.",2,"\dxn[Mamá]Yang terhormat, setidaknya ambillah ini agar saya tidak khawatir.",machine_draft
+map,42,,13,EV013,1,388,355,script,pbReceiveItem(:POKEVIAL),2,,skip_script
+map,42,,13,EV013,1,392,101,show_text,\dxn[Mamá]Se trata de un Botiquín. Con él podrás curar a tus Pokémon mientras estés fuera.,2,\dxn[Mamá]Ini adalah Kotak P3K. Dengan itu Anda dapat menyembuhkan Pokémon Anda saat Anda pergi.,machine_draft
+map,42,,13,EV013,1,394,101,show_text,"\dxn[Mamá]Si te quedas sin curas, en los \c[2]Centros Pokémon\c[0] podrás recargarlo.",2,"\dxn[Mamá]Jika Anda kehabisan obat, Anda dapat mengisi ulangnya di \c[2]Pokémon Centers\c[0].",machine_draft
+map,42,,13,EV013,1,401,101,show_text,"\dxn[Papá]Dicho esto, ve a dormir, que mañana te espera un largo viaje.",2,"\dxn[Papá]Oleh karena itu, tidurlah, perjalanan panjang menanti Anda besok.",machine_draft
+map,42,,13,EV013,1,412,355,script,$Trainer.party[0].form = 1,2,,skip_script
+map,42,,13,EV013,1,413,355,script,$PokemonBag.pbDeleteItem(:LAZO),2,,skip_script
+map,42,,35,EV035,1,0,101,show_text,"Hay novelas ligeras, a tu madre le gustan bastante.",2,"Ada novel ringan, ibumu sangat menyukainya.",machine_draft
+map,42,,24,EV024,1,0,101,show_text,La papelera está llena de... vamos a dejar de mirarla mejor.,2,Tempat sampahnya penuh... mari kita berhenti melihatnya dengan lebih baik.,machine_draft
+map,42,,2,Intro en casa,1,5,101,show_text,"\dxn[Papá]Bueno, pues ya he terminado de preparar la cena. Mi mujer debería estar a punto de llegar.",2,"\dxn[Papá]Baiklah, saya sudah selesai menyiapkan makan malam. Istri saya seharusnya akan segera tiba.",machine_draft
+map,42,,2,Intro en casa,1,10,101,show_text,"\dxn[Papá]Le alegrará que haya preparado unas KrabbyBurger con queso, es su plato favorito.",2,"\dxn[Papá]Dia akan senang Anda membuat KrabbyBurger dengan keju, itu hidangan favoritnya.",machine_draft
+map,42,,2,Intro en casa,1,26,101,show_text,\dxn[Papá]Hablando de la reina de la casa.,2,\dxn[Papá]Berbicara tentang ratu rumah.,machine_draft
+map,42,,2,Intro en casa,1,40,101,show_text,\dxn[Mamá]¡Ya he llegado de trabajar! ¿Qué tal te ha ido el día?,2,\dxn[Mamá]Saya pulang kerja! Apa kabar hari ini?,machine_draft
+map,42,,2,Intro en casa,1,45,101,show_text,"\sh\dxn[Papá]¡Estupendamente, trabajar en la obra es muy duro, pero sigo hecho todo un roble!",2,"\sh\dxn[Papá]Hebat, bekerja di lokasi konstruksi sangat sulit, tapi saya tetap saja gagal total!",machine_draft
+map,42,,2,Intro en casa,1,47,101,show_text,"\dxn[Papá]¿Tú qué tal, cariño?",2,\dxn[Papá]Apa kabarmu sayang?,machine_draft
+map,42,,2,Intro en casa,1,49,101,show_text,"\dxn[Mamá]Hemos tenido muchos casos de Covidknight, los pacientes nos han dado mucho trabajo.",2,"\dxn[Mamá]Kami memiliki banyak kasus Covidknight, para pasien telah memberi kami banyak pekerjaan.",machine_draft
+map,42,,2,Intro en casa,1,53,101,show_text,"\dxn[Papá]Ya me imagino. Si quieres ve a cambiarte y relájate, que te he preparado la cena.",2,"\dxn[Papá]Saya bisa membayangkannya. Jika kamu mau, pergilah berganti pakaian dan bersantai, aku sudah menyiapkan makan malam untukmu.",machine_draft
+map,42,,2,Intro en casa,1,55,101,show_text,"\dxn[Mamá]¡Gracias, cariño!",2,\dxn[Mamá]Terima kasih sayang!,machine_draft
+map,42,,2,Intro en casa,1,67,101,show_text,\dxn[Mamá]¿Quién puede ser a estas horas?,2,\dxn[Mamá]Siapakah orang tersebut pada jam segini?,machine_draft
+map,42,,2,Intro en casa,1,69,355,script,"pbCameraScrollTo(23,31)",2,,skip_script
+map,42,,2,Intro en casa,1,100,101,show_text,\f[psyduck000]¡¡¡¡PSYYYYDUCK!!!!,2,\f[psyduck000]PSYYYYDUCK!!!!,machine_draft
+map,42,,2,Intro en casa,1,105,101,show_text,\dxn[Mamá]¿De dónde ha salido este Psyduck?,2,\dxn[Mamá]Dari mana asal Psyduck ini?,machine_draft
+map,42,,2,Intro en casa,1,108,101,show_text,\f[psyduck002]¡¡¡¡PSYYYYDUCK!!!!,2,\f[psyduck002]PSYYYYDUCK!!!!,machine_draft
+map,42,,2,Intro en casa,1,110,101,show_text,\sh\dxn[???]¿Otra vez sales corriendo?,2,\sh\dxn[???]Apakah kamu melarikan diri lagi?,machine_draft
+map,42,,2,Intro en casa,1,118,101,show_text,\f[psyduck001]¡¡¡¡PSYYYYDUCK!!!!,2,\f[psyduck001]PSYYYYDUCK!!!!,machine_draft
+map,42,,2,Intro en casa,1,129,101,show_text,"\dxn[???]Perdonad, todavía no controlo a Psyduck, soy un poco patosa con los Pokémon.",2,"\dxn[???]Maaf, saya masih belum bisa mengontrol Psyduck, saya agak canggung dengan Pokémon.",machine_draft
+map,42,,2,Intro en casa,1,133,101,show_text,"\dxn[Mamá]\ts[2]Esto... no se preocupe, supongo.",2,"\dxn[Mamá]\ts[2]Ini... jangan khawatir, saya rasa.",machine_draft
+map,42,,2,Intro en casa,1,136,101,show_text,"\dxn[???]¡Debo irme, disculpad las molestias!",2,"\dxn[???]Saya harus pergi, maaf atas ketidaknyamanan ini!",machine_draft
+map,42,,2,Intro en casa,1,156,101,show_text,\sh\dxn[???]¡Ay no! ¡Pero si yo he venido a hablar de vuestro hijo!,2,\sh\dxn[???]Oh tidak! Tapi saya datang untuk membicarakan putra Anda!,machine_draft
+map,42,,2,Intro en casa,1,159,101,show_text,\sh\dxn[???]¡Ay no! ¡Pero si yo he venido a hablar de vuestra hija!,2,\sh\dxn[???]Oh tidak! Tapi saya datang untuk membicarakan putri Anda!,machine_draft
+map,42,,2,Intro en casa,1,167,101,show_text,\dxn[Mamá]¿De nuestro hijo?,2,\dxn[Mamá]Dari anak kami?,machine_draft
+map,42,,2,Intro en casa,1,170,101,show_text,\dxn[Mamá]¿De nuestra hija?,2,\dxn[Mamá]Dari putri kami?,machine_draft
+map,42,,2,Intro en casa,1,174,101,show_text,\dxn[Mamá]Perdone... ¿Quién es usted?,2,\dxn[Mamá]Permisi... Siapakah anda?,machine_draft
+map,42,,2,Intro en casa,1,179,101,show_text,\sh\dxn[???]¡Cierto! ¡Ni me he presentado!,2,\sh\dxn[???]Benar! Aku bahkan belum memperkenalkan diriku!,machine_draft
+map,42,,2,Intro en casa,1,190,101,show_text,\dxn[Álama]Mi nombre es Álama y soy la profesora de \PN.,2,\dxn[Álama]Nama saya Álama dan saya guru \PN.,machine_draft
+map,42,,2,Intro en casa,1,194,101,show_text,"\dxn[Álama]Me dedico a enseñar y soy investigadora Pokémon también. Nunca habíamos coincidido cara a cara, creo.",2,"\dxn[Álama]Saya mendedikasikan diri saya untuk mengajar dan saya juga seorang peneliti Pokémon. Menurutku, kami belum pernah bertemu langsung.",machine_draft
+map,42,,2,Intro en casa,1,198,101,show_text,\dxn[Mamá]¿La profesora de \PN? ¡Oh! Es un placer conocerle.,2,Guru \dxn[Mamá]\PN? Oh! Senang bertemu dengan Anda.,machine_draft
+map,42,,2,Intro en casa,1,201,101,show_text,"\dxn[Álama]He venido para comentarles la situación de \PN, ya saben que mañana tendrá la oportunidad de pasar el examen de Entrenador.",2,"\dxn[Álama]Saya datang untuk memberi tahu Anda tentang situasi \PN, Anda sudah tahu bahwa besok dia akan memiliki kesempatan untuk lulus ujian Pelatih.",machine_draft
+map,42,,2,Intro en casa,1,205,101,show_text,\dxn[Álama]¡Se le dará la posibilidad de conseguir su primer Pokémon!,2,\dxn[Álama]Anda akan diberi kesempatan untuk mendapatkan Pokémon pertama Anda!,machine_draft
+map,42,,2,Intro en casa,1,216,101,show_text,"\dxn[Mamá]Si \PN quiere tener un Pokémon, que lo tenga, siempre y cuando no le aparte de sus estudios.",2,"\dxn[Mamá]Jika \PN ingin memiliki Pokémon, biarkan dia memilikinya, selama hal itu tidak mengganggu studinya.",machine_draft
+map,42,,2,Intro en casa,1,219,101,show_text,"\dxn[Mamá]Tiene que llegar a ser un buen doctor para tener un futuro estable, debida a la situación de la región.",2,"\dxn[Mamá]Dia harus menjadi dokter yang baik untuk memiliki masa depan yang stabil, karena situasi di wilayah tersebut.",machine_draft
+map,42,,2,Intro en casa,1,222,101,show_text,"\dxn[Mamá]Tiene que llegar a ser una buena doctora para tener un futuro estable, debida a la situación de la región.",2,"\dxn[Mamá]Dia harus menjadi dokter yang baik untuk memiliki masa depan yang stabil, karena situasi di wilayah tersebut.",machine_draft
+map,42,,2,Intro en casa,1,227,101,show_text,\dxn[Álama]Hmm...,2,\dxn[Álama]Hmm...,machine_draft
+map,42,,2,Intro en casa,1,237,101,show_text,\dxn[Álama]No tiene por qué irse a ver mundo junto a sus Pokémon.,2,\dxn[Álama]Anda tidak perlu melihat dunia dengan Pokémon Anda.,machine_draft
+map,42,,2,Intro en casa,1,251,101,show_text,"\dxn[Álama]Pero debe saber que poder ver el mundo con sus propios ojos, es una experiencia que ningún libro le puede ofrecer.",2,\dxn[Álama]Tetapi Anda harus tahu bahwa bisa melihat dunia dengan mata kepala sendiri adalah pengalaman yang tidak bisa ditawarkan oleh buku mana pun.,machine_draft
+map,42,,2,Intro en casa,1,258,101,show_text,"\dxn[Álama]¡En fin, me retiro, que empieza mi serie favorita!",2,"\dxn[Álama]Pokoknya, saya berangkat, serial favorit saya dimulai!",machine_draft
+map,42,,2,Intro en casa,1,262,101,show_text,\dxn[Álama]¡Nos vemos!,2,\dxn[Álama]Sampai jumpa!,machine_draft
+map,42,,2,Intro en casa,1,277,101,show_text,\dxn[Mamá]Qué chica más rara... ¿Seguro que es profesora?,2,\dxn[Mamá]Gadis yang aneh... Apakah kamu yakin dia seorang guru?,machine_draft
+map,42,,2,Intro en casa,1,280,101,show_text,\dxn[Papá]¡A mí me ha parecido de lo más divertida!,2,\dxn[Papá]Saya pikir itu yang paling menyenangkan!,machine_draft
+map,42,,2,Intro en casa,1,283,101,show_text,"\dxn[Mamá]En fin, creo que iré a comentarle esto a \PN, puedes ir preparando la mesa.",2,"\dxn[Mamá]Bagaimanapun, saya rasa saya akan pergi dan memberi tahu \PN tentang ini, Anda dapat mulai menyiapkan meja.",machine_draft
+map,42,,2,Intro en casa,1,287,101,show_text,\sh\dxn[Papá]¡¡¡Las hamburguesas se van a enfriar!!!,2,\sh\dxn[Papá]Burgernya akan jadi dingin!!!,machine_draft
+map,42,,2,Intro en casa,1,289,355,script,pbToneChangeAll(,2,,skip_script
+map,42,,2,Intro en casa,1,290,655,script_cont,"Tone.new(-255, -255, -255, -255),",2,,skip_script
+map,42,,2,Intro en casa,1,291,655,script_cont,20),2,,skip_script
+map,42,,2,Intro en casa,1,316,355,script,pbToneChangeAll(,2,,skip_script
+map,42,,2,Intro en casa,1,317,655,script_cont,"Tone.new(0, 0, 0, 0),",2,,skip_script
+map,42,,2,Intro en casa,1,318,655,script_cont,20),2,,skip_script
+map,42,,2,Intro en casa,1,321,101,show_text,(Estás viendo una retransmisión de Turtwitch...),2,(Anda sedang menonton siaran Turtwitch...),machine_draft
+map,42,,2,Intro en casa,1,329,101,show_text,"\dxn[Mamá]Hola, cariño.",2,\dxn[Mamá]Halo sayang.,machine_draft
+map,42,,2,Intro en casa,1,339,101,show_text,"\dxn[Mamá]Ha venido Álama, tu profesora de la escuela.",2,"\dxn[Mamá]Álama, guru sekolahmu, telah datang.",machine_draft
+map,42,,2,Intro en casa,1,341,101,show_text,\dxn[Mamá]Nos ha comentado que mañana puedes optar por hacer el examen de Entrenador Pokémon.,2,\dxn[Mamá]Dia memberi tahu kami bahwa besok Anda dapat memilih untuk mengikuti ujian Pelatih Pokémon.,machine_draft
+map,42,,2,Intro en casa,1,343,101,show_text,"\dxn[Mamá]Hemos hablado de esto muchas veces, pero lograr destacar en esa rama es ralmente complicado.",2,"\dxn[Mamá]Kami telah membicarakan hal ini berkali-kali, tetapi untuk bisa menonjol di cabang tersebut sangatlah rumit.",machine_draft
+map,42,,2,Intro en casa,1,345,101,show_text,\dxn[Mamá]Pocos son capaces de llegar a lo más alto y venderse como figuras públicas.,2,\dxn[Mamá]Hanya sedikit yang mampu mencapai puncak dan menjual diri mereka sebagai figur publik.,machine_draft
+map,42,,2,Intro en casa,1,347,101,show_text,"\dxn[Mamá]Nosotros sólo queremos lo mejor para ti, la vida como Entrenador Pokémon puede ser un fracaso si no eres de los mejores.",2,"\dxn[Mamá]Kami hanya menginginkan yang terbaik untuk Anda, hidup sebagai Pelatih Pokémon bisa menjadi kegagalan jika Anda bukan salah satu yang terbaik.",machine_draft
+map,42,,2,Intro en casa,1,349,101,show_text,"\dxn[Mamá]Además, la situación de Akebia no es la más óptima por culpa de la \c[2]Familia Real\c[0].",2,"\dxn[Mamá]Selain itu, situasi Akebia sedang tidak optimal karena \c[2]Keluarga Kerajaan\c[0].",machine_draft
+map,42,,2,Intro en casa,1,352,101,show_text,"\dxn[Mamá]Lo digo por tu bien, estudia, y ya luego haz lo que te apetezca.",2,"\dxn[Mamá]Saya mengatakannya demi kebaikan Anda sendiri, belajarlah, lalu lakukan apa yang Anda inginkan.",machine_draft
+map,42,,2,Intro en casa,1,354,101,show_text,"\dxn[Mamá]Te quiero, cariño.",2,"\dxn[Mamá]Aku mencintaimu, sayang.",machine_draft
+map,42,,2,Intro en casa,1,359,101,show_text,\dxn[Mamá]Recuerda ir mañana a la \c[2]escuela\c[0] para recoger tus notas.,2,\dxn[Mamá]Ingatlah untuk pergi ke \c[2]school\c[0] besok untuk mengambil catatan Anda.,machine_draft
+map,42,,2,Intro en casa,1,362,101,show_text,"\dxn[Mamá]¡Por cierto, encontré esto tirado por tu habitación, a ver si recogemos las cosas!",2,"\dxn[Mamá]Ngomong-ngomong, saya menemukan ini tergeletak di sekitar kamar Anda, mari kita lihat apakah kami bisa mengambilnya!",machine_draft
+map,42,,2,Intro en casa,1,363,355,script,pbReceiveItem(:DIARIO),2,,skip_script
+map,42,,2,Intro en casa,1,365,101,show_text,\sh\dxn[Mamá]¡Y no te acuestes tarde!,2,\sh\dxn[Mamá]Dan jangan begadang!,machine_draft
+map,42,,2,Intro en casa,1,374,355,script,pbToneChangeAll(,2,,skip_script
+map,42,,2,Intro en casa,1,375,655,script_cont,"Tone.new(-255, -255, -255, -255),",2,,skip_script
+map,42,,2,Intro en casa,1,376,655,script_cont,20),2,,skip_script
+map,42,,2,Intro en casa,1,389,101,show_text,<ac>Esa misma noche...</ac>,2,<ac>Malam itu juga...</ac>,machine_draft
+map,42,,19,EV019,1,6,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)",2,,skip_script
+map,42,,41,EV041,1,0,101,show_text,Hay Pokéball y libros de pintura.,2,Ada Pokéball dan buku melukis.,machine_draft
+map,42,,30,EV030,1,0,101,show_text,El teclado está un poco sucio...,2,Keyboardnya agak kotor..,machine_draft
+map,42,,47,EV047,1,0,108,comment,noshadow,2,,skip_comment
+map,42,,36,EV036,1,0,101,show_text,"Hay novelas ligeras, a tu madre le gustan bastante.",2,"Ada novel ringan, ibumu sangat menyukainya.",machine_draft
+map,42,,25,EV025,1,0,355,script,pbItemBall(:FRESHWATER),2,,skip_script
+map,42,,3,mama llega de trabajar,4,4,101,show_text,"\dxn[Mamá]Hola, cariño, yo y Chansey tenemos fiesta durante este verano, así que estaré en casa por si necesitas cualquier cosa.",2,"\dxn[Mamá]Hai sayang, aku dan Chansey mengadakan pesta musim panas ini, jadi aku akan pulang jika kamu butuh sesuatu.",machine_draft
+map,42,,3,mama llega de trabajar,4,6,101,show_text,\dxn[Mamá]Tenemos equipo suficiente como para poder curar a tus Pokémon en un apuro.,2,\dxn[Mamá]Kami memiliki peralatan yang cukup untuk dapat menyembuhkan Pokémon Anda dalam keadaan darurat.,machine_draft
+map,42,,3,mama llega de trabajar,4,18,101,show_text,"\dxn[Mamá]Y siento haberme comportado así ayer, ya sabes que me preocupo por tu futuro. Soy tu madre, tengo que ser pesada cuando toca, supongo.",2,"\dxn[Mamá]Dan aku minta maaf karena bersikap seperti itu kemarin, kamu tahu aku mengkhawatirkan masa depanmu. Aku ibumu, kurasa aku harus tegar jika itu terjadi.",machine_draft
+map,42,,3,mama llega de trabajar,4,23,101,show_text,\dxn[Mamá]Conviértete en lo que tu padre no pudo ser.,2,\dxn[Mamá]Jadilah apa yang ayahmu tidak bisa lakukan.,machine_draft
+map,42,,3,mama llega de trabajar,4,25,101,show_text,"\dxn[Mamá]Mucha suerte en tu viaje, te quiero.",2,"\dxn[Mamá]Semoga sukses dalam perjalananmu, aku mencintaimu.",machine_draft
+map,42,,3,mama llega de trabajar,5,0,101,show_text,\dxn[Mamá]¿Qué tal todo cariño?¿Necesitas,2,\dxn[Mamá]Bagaimana semuanya sayang? Apakah kamu membutuhkan,machine_draft
+map,42,,3,mama llega de trabajar,5,1,401,show_text_cont,recuperar a tus Pokémon?,2,mendapatkan Pokemonmu kembali?,machine_draft
+map,42,,3,mama llega de trabajar,5,2,102,choices,Si,2,Ya,machine_draft
+map,42,,3,mama llega de trabajar,5,2,102,choices,No,2,Tidak,machine_draft
+map,42,,3,mama llega de trabajar,5,3,402,choice_branch,Si,2,Ya,machine_draft
+map,42,,3,mama llega de trabajar,5,4,101,show_text,\dxn[Mamá]Ahora mismo atendemos a tu equipo Pokémon.,2,\dxn[Mamá]Saat ini kami melayani tim Pokémon Anda.,machine_draft
+map,42,,3,mama llega de trabajar,5,23,402,choice_branch,No,2,Tidak,machine_draft
+map,42,,3,mama llega de trabajar,5,24,101,show_text,\dxn[Mamá]Ten un buen viaje entonces.,2,\dxn[Mamá]Semoga perjalananmu aman.,machine_draft
+map,42,,3,mama llega de trabajar,7,0,101,show_text,\dxn[Mamá]¿Qué tal todo cariño?¿Necesitas,2,\dxn[Mamá]Bagaimana semuanya sayang? Apakah kamu membutuhkan,machine_draft
+map,42,,3,mama llega de trabajar,7,1,401,show_text_cont,recuperar a tus Pokémon?,2,mendapatkan Pokemonmu kembali?,machine_draft
+map,42,,3,mama llega de trabajar,7,2,102,choices,Si,2,Ya,machine_draft
+map,42,,3,mama llega de trabajar,7,2,102,choices,No,2,Tidak,machine_draft
+map,42,,3,mama llega de trabajar,7,3,402,choice_branch,Si,2,Ya,machine_draft
+map,42,,3,mama llega de trabajar,7,4,101,show_text,\dxn[Mamá]Ahora mismo atendemos a tu equipo Pokémon.,2,\dxn[Mamá]Saat ini kami melayani tim Pokémon Anda.,machine_draft
+map,42,,3,mama llega de trabajar,7,23,402,choice_branch,No,2,Tidak,machine_draft
+map,42,,3,mama llega de trabajar,7,24,101,show_text,\dxn[Mamá]Ten un buen viaje entonces.,2,\dxn[Mamá]Semoga perjalananmu aman.,machine_draft
+map,42,,42,EV042,1,0,101,show_text,Hay Pokéball y libros de pintura.,2,Ada Pokéball dan buku melukis.,machine_draft
+map,42,,31,EV031,1,0,101,show_text,Tienes un fondo de pantalla de JoTos.,2,Anda memiliki wallpaper JoTos.,machine_draft
+map,42,,20,EV020,1,0,101,show_text,There's a photo of your childhood friends and the professor.,2,Ada foto teman masa kecilmu dan profesornya.,machine_draft
+map,42,,20,EV020,1,9,101,show_text,\w[],2,\w[],machine_draft
+map,42,,9,EV009,1,6,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)",2,,skip_script
+map,42,,53,EV053,1,40,101,show_text,"\dxn[\PN]Antes de irme, debería colocarle lazo de papá a Riolu.",2,"\dxn[\PN]Sebelum saya pergi, saya harus menaruh busur ayah pada Riolu.",machine_draft
+map,42,,53,EV053,1,45,101,show_text,"\dxn[\PN]Antes de irme, debería colocarle lazo de papá a Riolu.",2,"\dxn[\PN]Sebelum saya pergi, saya harus menaruh busur ayah pada Riolu.",machine_draft
+map,42,,53,EV053,1,65,101,show_text,\f[riolu002]¡Riolu!,2,\f[riolu002]Riolu!,machine_draft
+map,42,,53,EV053,1,69,101,show_text,"\sh\dxn[\PN]¡Bien, es hora de empezar nuestro viaje!",2,"\sh\dxn[\PN]Oke, saatnya memulai perjalanan kita!",machine_draft
+map,42,,53,EV053,1,74,101,show_text,"\sh\dxn[\PN]¡Bien, es hora de empezar nuestro viaje!",2,"\sh\dxn[\PN]Oke, saatnya memulai perjalanan kita!",machine_draft
+map,42,,48,Tele,1,0,108,comment,noshadow,2,,skip_comment
+map,42,,4,EV004,1,0,101,show_text,Hay restos de hamburguesa de la cena de ayer...,2,Masih ada sisa hamburger dari makan malam kemarin...,machine_draft
+map,42,,37,EV037,1,0,101,show_text,"Hay novelas ligeras, a tu madre le gustan bastante.",2,"Ada novel ringan, ibumu sangat menyukainya.",machine_draft
+map,42,,26,EV026,1,1,101,show_text,Se ve una foto de cuando eras más pequeño.,2,Anda melihat foto ketika Anda masih muda.,machine_draft
+map,42,,26,EV026,1,4,101,show_text,Se ve una foto de cuando eras más pequeña.,2,Anda melihat foto ketika Anda masih muda.,machine_draft
+map,42,,21,EV021,1,0,101,show_text,Hay una foto de tus amigos de la infancia y la profesora:,2,Ada foto teman masa kecilmu dan gurunya:,machine_draft
+map,42,,21,EV021,1,9,101,show_text,\w[],2,\w[],machine_draft
+map,42,,43,EV043,1,0,101,show_text,Hay Pokéball y libros de pintura.,2,Ada Pokéball dan buku melukis.,machine_draft
+map,42,,32,EV032,1,0,101,show_text,Aquí hay libros de conocimiento de Pokémon.,2,Berikut adalah buku pengetahuan Pokémon.,machine_draft
+map,76,,5,ayudante,1,0,101,show_text,"La profesora Álama llegó a Pueblo Gorrión hace como unos 7 años y fue asignada como profesora en la escuela, pero nunca hizo una carrera o algo similar...",4,"Profesor Álama tiba di Pueblo Gorrión sekitar 7 tahun yang lalu dan ditugaskan sebagai guru di sekolah tersebut, tetapi dia tidak pernah mengejar karir atau hal serupa...",machine_draft
+map,76,,5,ayudante,1,1,101,show_text,"No sé de dónde ha sacado sus conocimientos sobre los Pokémon, es una chica ciertamente curiosa.",4,"Entah darimana dia mendapatkan ilmunya tentang Pokémon, dia pasti gadis yang penuh rasa ingin tahu.",machine_draft
+map,76,,16,Tele,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,27,EV027,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,22,EV022,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,33,EV033,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,17,EV017,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,28,EV028,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,23,EV023,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,18,EV018,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,29,EV029,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,2,EV002,1,6,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)",4,,skip_script
+map,76,,24,EV024,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,46,EV046,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,19,EV019,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,30,EV030,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,3,Escogiendo Pokémon,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0),4,,skip_script
+map,76,,3,Escogiendo Pokémon,1,89,101,show_text,"\dxn[Eda]¡Qué ilusión, por favor! ¡Son preciosos!",4,\dxn[Eda]Senang sekali! Mereka cantik!,machine_draft
+map,76,,3,Escogiendo Pokémon,1,97,101,show_text,\dxn[Eda]Espera... ¿No deberían ser tres Pokémon? Ahí sólo hay dos.,4,\dxn[Eda]Tunggu... Bukankah seharusnya ada tiga Pokémon? Hanya ada dua di sana.,machine_draft
+map,76,,3,Escogiendo Pokémon,1,109,101,show_text,"\dxn[Álama]¡Anda! ¡Pues sí, no me había dado cuenta!",4,"\dxn[Álama]Ayo! Ya, saya belum menyadarinya!",machine_draft
+map,76,,3,Escogiendo Pokémon,1,116,101,show_text,\dxn[Ayudante]Esto... Profesora Álama... Le recuerdo que esta mañana ha venido aquella joven entrenadora a recoger su Pokémon.,4,\dxn[Ayudante]Ini... Profesor Álama... Saya ingatkan Anda bahwa pagi ini pelatih muda itu datang untuk mengambil Pokémonnya.,machine_draft
+map,76,,3,Escogiendo Pokémon,1,119,101,show_text,\dxn[Ayudante]Esto... Profesora Álama... Le recuerdo que esta mañana ha venido aquél joven entrenador a recoger su Pokémon.,4,\dxn[Ayudante]Ini... Profesor Álama... Saya ingatkan Anda bahwa pagi ini pelatih muda itu datang untuk mengambil Pokémonnya.,machine_draft
+map,76,,3,Escogiendo Pokémon,1,124,101,show_text,"\dxn[Álama]¡Es verdad, qué cabeza la mía!",4,"\dxn[Álama]Memang benar, otakku luar biasa!",machine_draft
+map,76,,3,Escogiendo Pokémon,1,136,101,show_text,\dxn[Darek]Me temía algo parecido cuando he visto sólo a dos Pokémon...,4,\dxn[Darek]Saya takut akan hal serupa ketika saya hanya melihat dua Pokémon...,machine_draft
+map,76,,3,Escogiendo Pokémon,1,140,101,show_text,\dxn[Eda]Y... ¿qué vamos a hacer ahora?,4,\dxn[Eda]Dan... apa yang akan kita lakukan sekarang?,machine_draft
+map,76,,3,Escogiendo Pokémon,1,145,101,show_text,"\dxn[Álama]Pues es una buena pregunta, la verdad...",4,"\dxn[Álama]Yah, itu pertanyaan yang bagus, kok...",machine_draft
+map,76,,3,Escogiendo Pokémon,1,148,101,show_text,\f[treecko000]¡TREECKO!,4,\f[treecko000]TREECKO!,machine_draft
+map,76,,3,Escogiendo Pokémon,1,151,101,show_text,\f[Torchic000]¡CHIC!,4,\f[Torchic000]CHIC!,machine_draft
+map,76,,3,Escogiendo Pokémon,1,182,101,show_text,\dxn[Álama]¡Parece que les habéis caído bien!,4,\dxn[Álama]Mereka sepertinya menyukai Anda!,machine_draft
+map,76,,3,Escogiendo Pokémon,1,191,101,show_text,\dxn[Eda]¡Ay! ¡Justamente es el que más me gusta de los dos!,4,\dxn[Eda]Oh! Justru itulah yang paling saya sukai dari keduanya!,machine_draft
+map,76,,3,Escogiendo Pokémon,1,195,101,show_text,"\dxn[Darek]Lo mismo digo, Treecko tiene el mismo carácter que yo.",4,"\dxn[Darek]Sama saja, Treecko memiliki karakter yang sama dengan saya.",machine_draft
+map,76,,3,Escogiendo Pokémon,1,227,101,show_text,\dxn[Eda]Pero... ¿y \PN?,4,\dxn[Eda]Tapi... bagaimana dengan \PN?,machine_draft
+map,76,,3,Escogiendo Pokémon,1,231,101,show_text,\dxn[Eda]¿Con qué Pokémon se va a quedar?,4,\dxn[Eda]Pokemon manakah yang akan Anda pelihara?,machine_draft
+map,76,,3,Escogiendo Pokémon,1,247,101,show_text,\dxn[Álama]¡Espera! ¡Creo que sé qué podemos hacer!,4,\dxn[Álama]Tunggu! Saya rasa saya tahu apa yang bisa kami lakukan!,machine_draft
+map,76,,3,Escogiendo Pokémon,1,251,101,show_text,"\dxn[Álama]Pásate por mi casa en un rato, creo que tengo una solución.",4,"\dxn[Álama]Datanglah ke rumah saya sebentar lagi, saya rasa saya punya solusinya.",machine_draft
+map,76,,3,Escogiendo Pokémon,1,255,101,show_text,"\dxn[Álama]Darek, Eda. Vosotros os podéis ir ya, si lo tenéis claro. Tomad la Pokédex y las Poké Ball.",4,"\dxn[Álama]Darek, Eda. Anda bisa pergi sekarang, jika Anda sudah jelas tentang hal itu. Ambil Pokédex dan Poké Balls.",machine_draft
+map,76,,3,Escogiendo Pokémon,1,300,101,show_text,"\dxn[Álama]Somos vecinos, así que no tiene mucha pérdida.",4,\dxn[Álama]Kita bertetangga jadi tidak rugi banyak.,machine_draft
+map,76,,3,Escogiendo Pokémon,1,304,101,show_text,"\dxn[Álama]¡Vamos, Psyduck!",4,"\dxn[Álama]Ayo, Psyduck!",machine_draft
+map,76,,3,Escogiendo Pokémon,1,308,101,show_text,\f[psyduck000]¡PSYDUCK!,4,\f[psyduck000]PSYDUCK!,machine_draft
+map,76,,3,Escogiendo Pokémon,1,350,355,script,"pbSetSocialLinkFavoritePokemon(:DAREK,:TREECKO,0,0,false)",4,,skip_script
+map,76,,3,Escogiendo Pokémon,1,351,355,script,"pbSetSocialLinkFavoritePokemon(:EDA,:TORCHIC,0,0,false)",4,,skip_script
+map,76,,25,EV025,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,47,EV047,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,20,"Fuente, size(3,1)",1,0,108,comment,noshadow,4,,skip_comment
+map,76,,31,EV031,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,15,EV015,1,6,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)",4,,skip_script
+map,76,,26,EV026,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,48,EV048,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,21,EV021,1,0,108,comment,noshadow,4,,skip_comment
+map,76,,32,EV032,1,0,108,comment,noshadow,4,,skip_comment
+map,78,,38,EV038,1,0,101,show_text,<b><ac>Ruta 1</ac></b><ac>¡Cuidado con los Pokémon salvajes!,5,<b><ac>Rute 1</ac></b><ac>Waspadalah terhadap Pokémon liar!,machine_draft
+map,78,,16,EV016,1,0,355,script,pbItemBall(:POTION),5,,skip_script
+map,78,,5,EV005,1,0,355,script,pbItemBall(:POTION),5,,skip_script
+map,78,,49,EV049,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,22,Trainer(3),1,0,355,script,pbTrainerIntro(:CHICA),5,,skip_script
+map,78,,22,Trainer(3),1,1,355,script,pbNoticePlayer(get_character(0)),5,,skip_script
+map,78,,22,Trainer(3),1,2,101,show_text,¡Vas con mucha prisa! ¿No quieres un combate?,5,Anda sedang terburu-buru! Apakah kamu tidak ingin berkelahi?,machine_draft
+map,78,,22,Trainer(3),1,7,355,script,pbTrainerEnd,5,,skip_script
+map,78,,22,Trainer(3),2,0,101,show_text,Si lo llego a saber te dejo ir de primeras...,5,"Jika aku mengetahuinya, aku akan membiarkanmu pergi dulu...",machine_draft
+map,78,,11,EV011,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,6,EV006,1,0,101,show_text,<b><ac>Ruta 1</ac></b><ac>¡Cuidado con los Pokémon salvajes!,5,<b><ac>Rute 1</ac></b><ac>Waspadalah terhadap Pokémon liar!,machine_draft
+map,78,,17,EV017,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,50,EV050,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,12,EV012,1,0,101,show_text,"Esta es la típica ruta en la que sólo hay puro magikarp, vaya tela.",5,"Ini adalah rute khas di mana hanya ada magikarp murni, sungguh luar biasa.",machine_draft
+map,78,,23,EV023,1,32,101,show_text,"\dxn[Álama]¡Espera, \PN!",5,"\dxn[Álama]Tunggu, \PN!",machine_draft
+map,78,,23,EV023,1,80,101,show_text,\dxn[Eda]¡\PN! ¡Menos mal que te hemos encontrado a tiempo!,5,\dxn[Eda]\PN! Syukurlah kami menemukanmu tepat waktu!,machine_draft
+map,78,,23,EV023,1,90,101,show_text,"\dxn[Álama]Al menos no ha volado como Darek, no me ha dado tiempo de darle nada.",5,"\dxn[Álama]Setidaknya dia belum terbang seperti Darek, saya belum sempat memberinya apa pun.",machine_draft
+map,78,,23,EV023,1,95,101,show_text,"\dxn[Álama]En fin, ya lo pillaré, tú necesitarás una <b>Pokédex</b> y unas <b>Poké Ball</b>.",5,"\dxn[Álama]Bagaimanapun, saya akan mengambilnya, Anda memerlukan <b>Pokédex</b> dan beberapa <b>Poké Ball</b>.",machine_draft
+map,78,,23,EV023,1,103,101,show_text,\wtnp[0]¡Has obtenido una <b>Pokédex</b>!\wt[30],5,\wtnp[0]Anda telah memperoleh <b>Pokédex</b>!\wt[30],machine_draft
+map,78,,23,EV023,1,104,355,script,$Trainer.has_pokedex=true,5,,skip_script
+map,78,,23,EV023,1,105,355,script,pbUnlockDex,5,,skip_script
+map,78,,23,EV023,1,107,355,script,"pbReceiveItem(:POKEBALL,5)",5,,skip_script
+map,78,,23,EV023,1,110,101,show_text,"\dxn[Álama]Bueno, ahora sí que sí. Yo me voy a buscar a Darek, que necesitará un <b>Mapa</b> o algo.",5,"\dxn[Álama]Nah, sekarang sudah. Saya akan mencari Darek, yang membutuhkan <b>Map</b> atau semacamnya.",machine_draft
+map,78,,23,EV023,1,124,101,show_text,"\dxn[Álama]¡Vamos Psyduck! ¡Quiero ir a una cafetería, que tengo hambre!",5,"\dxn[Álama]Ayo pergi ke Psyduck! Saya ingin pergi ke kafe, saya lapar!",machine_draft
+map,78,,23,EV023,1,128,101,show_text,\f[psyduck000]¡PSYDUCK!,5,\f[psyduck000]PSYDUCK!,machine_draft
+map,78,,23,EV023,1,185,101,show_text,\dxn[Eda]No sé si llegarán a una cafetería estos dos...,5,\dxn[Eda]Saya tidak tahu apakah keduanya akan sampai ke kedai kopi...,machine_draft
+map,78,,23,EV023,1,191,101,show_text,"\dxn[Eda]Bueno, tengo que ir en busca de Darek, que la profe dudo que lo encuentre.",5,"\dxn[Eda]Baiklah, saya harus pergi mencari Darek, saya ragu guru akan menemukannya.",machine_draft
+map,78,,23,EV023,1,195,101,show_text,"\dxn[Eda]Aunque Darek parezca tan independiente, en verdad me necesita a su lado. Es capaz de perderse incluso con un mapa.",5,"\dxn[Eda]Meskipun Darek terlihat sangat mandiri, dia sangat membutuhkan saya di sisinya. Dia mampu tersesat bahkan dengan peta.",machine_draft
+map,78,,23,EV023,1,200,101,show_text,\sh\dxn[Eda]¡Ahora que caigo!,5,\sh\dxn[Eda]Sekarang aku terjatuh!,machine_draft
+map,78,,23,EV023,1,204,101,show_text,"\dxn[Eda]Hablando de mapas, la profe no nos ha dado un mapa para movernos. Habrá que ir a buscarla.",5,"\dxn[Eda]Ngomong-ngomong soal peta, guru belum memberi kita peta untuk bergerak. Kita harus pergi mencarinya.",machine_draft
+map,78,,23,EV023,1,209,101,show_text,\dxn[Eda]¡Me adelanto antes de que la pierda de vista!,5,\dxn[Eda]Aku pergi duluan sebelum aku melupakannya!,machine_draft
+map,78,,23,EV023,1,240,101,show_text,"Ahora podrás usar la función de ""Encuentros"" del menú para saber qué Pokémon puedes encontrar en cada ruta. ¡Échale un vistazo!",5,"Anda sekarang dapat menggunakan fungsi ""Pertemuan"" di menu untuk mengetahui Pokémon mana yang dapat Anda temukan di setiap rute. Coba lihat!",machine_draft
+map,78,,23,EV023,1,244,101,show_text,¡A partir de ahora empieza el Modo Hardcore!,5,"Mulai sekarang, Mode Tegar dimulai!",machine_draft
+map,78,,23,EV023,1,250,101,show_text,¡A partir de ahora empieza el Lucariolocke!,5,Mulai sekarang Lucariolocke dimulai!,machine_draft
+map,78,,1,EV001,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,18,EV018,1,0,101,show_text,"¿Quieres una caña? No voy bien de pasta, espabílate.",5,"Apakah Anda ingin tongkat? Aku tidak pandai membuat pasta, bangunlah.",machine_draft
+map,78,,29,Trainer(3),1,0,355,script,pbTrainerIntro(:JOVEN),5,,skip_script
+map,78,,29,Trainer(3),1,1,355,script,pbNoticePlayer(get_character(0)),5,,skip_script
+map,78,,29,Trainer(3),1,2,101,show_text,¡Hey! Acabo de empezar en esto de ser entrenador... ¿Te apetece un combate?,5,Hei! Saya baru saja mulai menjadi pelatih... Apakah Anda suka berkelahi?,machine_draft
+map,78,,29,Trainer(3),1,7,355,script,pbTrainerEnd,5,,skip_script
+map,78,,29,Trainer(3),2,0,101,show_text,"Pues nada, tengo hambre.",5,"Tidak apa-apa, aku lapar.",machine_draft
+map,78,,51,EV051,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,46,EV046,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,2,EV002,1,0,355,script,pbItemBall(:POKEBALL),5,,skip_script
+map,78,,13,EV013,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,30,EV030,1,0,101,show_text,"Estoy entrenando a mi Pokémon en esta ruta, es",5,"Saya sedang melatih Pokémon saya pada rute ini, itu",machine_draft
+map,78,,30,EV030,1,1,401,show_text_cont,probablemente la más fácil para entrenadores,5,mungkin yang paling mudah bagi pelatih,machine_draft
+map,78,,30,EV030,1,2,401,show_text_cont,novatos.,5,pemula.,machine_draft
+map,78,,8,EV008,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,52,EV052,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,47,EV047,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,3,EV003,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,14,EV014,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,9,EV009,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,31,EV031,1,0,355,script,Pokemon.play_cry(:LILLIPUP),5,,skip_script
+map,78,,53,EV053,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,4,EV004,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,15,EV015,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,48,EV048,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,54,EV054,1,0,108,comment,noshadow,5,,skip_comment
+map,78,,32,EV032,1,1,101,show_text,"¡Hey! ¡No me des esos sustos, estoy intentado",5,"Hei! Jangan beri aku ketakutan itu, aku sedang berusaha",machine_draft
+map,78,,32,EV032,1,2,401,show_text_cont,atrapar un Pokémon!,5,menangkap Pokemon!,machine_draft
+map,78,,10,EV010,1,0,108,comment,noshadow,5,,skip_comment
+map,79,,49,EV049,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,38,"size(1,3) Evento niñoditto",1,29,101,show_text,\sh\dxn[???]¡BUAAAAAAA!,6,\sh\dxn[???]WOOOOOO!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,42,101,show_text,\dxn[\PN](¿Qué está pasando?),6,\dxn[\PN](Apa yang terjadi?),machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,71,101,show_text,\dxn[???]¡BUAAAAAAA!,6,\dxn[???]WOOOOOO!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,73,101,show_text,\sh\dxn[???]¡BUAAAAAAAAAAAA!,6,\sh\dxn[???]WOOOOOOOO!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,83,101,show_text,\dxn[\PN](Parece que ese niño necesita ayuda...),6,\dxn[\PN](Anak itu sepertinya butuh bantuan...),machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,102,101,show_text,"\dxn[???]Un... ¿Entrenador? Snif, snif...",6,"\dxn[???]A... Pelatih? Mengendus, mengendus...",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,114,101,show_text,"\dxn[???]Sabía que si me ponía a llorar alguien me ayudaría je, je, je.",6,\dxn[???]Saya tahu jika saya mulai menangis seseorang akan membantu saya heh heh heh.,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,122,101,show_text,\dxn[???]Resulta que mi Pokémon se ha perdido y no sé dónde está... ¿Podrías ayudarme a buscarlo?,6,\dxn[???]Ternyata Pokémon saya hilang dan saya tidak tahu di mana letaknya... Bisakah Anda membantu saya mencarinya?,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,126,102,choices,Yes,6,Ya,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,126,102,choices,No,6,Tidak,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,127,402,choice_branch,Yes,6,Ya,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,136,101,show_text,"\dxn[???]¡Qué chuli, menos mal!",6,"\dxn[???]Keren sekali, alhamdulillah!",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,140,101,show_text,"\dxn[???]Mi \c[2]Ditto\c[0] no puede andar muy lejos, pero es capaz de transformarse en cualquier cosa, aunque tiene preferencia por las \c[2]rocas\c[0]...",6,"\dxn[???]\c[2]Ditto\c[0] saya tidak dapat berjalan terlalu jauh, tetapi ia mampu berubah menjadi apa pun, meskipun ia lebih menyukai \c[2]rocks\c[0]...",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,144,101,show_text,"\dxn[???]Suerte con ello, yo mientras te esperaré sentado haciendo absolutamente nada.",6,"\dxn[???]Semoga berhasil, sementara saya akan duduk dan menunggu Anda tidak melakukan apa pun.",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,149,402,choice_branch,No,6,Tidak,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,158,101,show_text,\sh\dxn[???]¡BUAAAAAAAAAAAAAAAAAA!,6,\sh\dxn[???]WOOOOOOOO!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",1,168,101,show_text,\dxn[\PN](Así no llegaremos a ninguna parte...),6,\dxn[\PN](Dengan cara ini kita tidak akan kemana-mana...),machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,0,355,script,Pokemon.play_cry(:DITTO),6,,skip_script
+map,79,,38,"size(1,3) Evento niñoditto",3,1,101,show_text,\f[ditto000]¡DITTO!,6,\f[ditto000]DITTO!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,19,355,script,Pokemon.play_cry(:DITTO),6,,skip_script
+map,79,,38,"size(1,3) Evento niñoditto",3,20,101,show_text,\f[ditto000]¡DITTO!,6,\f[ditto000]DITTO!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,31,101,show_text,\dxn[???]¿Dónde te habías metido? ¡Te tengo dicho que no te separes de mi!,6,\dxn[???]Darimana saja kamu? Aku sudah bilang padamu untuk tidak memisahkan dirimu dariku!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,35,101,show_text,"\sh\dxn[???]¡Anda, sube!",6,\sh\dxn[???]Ayo naik!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,38,355,script,Pokemon.play_cry(:DITTO),6,,skip_script
+map,79,,38,"size(1,3) Evento niñoditto",3,39,101,show_text,\f[ditto000]¡DITTO!,6,\f[ditto000]DITTO!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,51,101,show_text,"\dxn[???]¡Entrenador, dime tu nombre!",6,"\dxn[???]Pelatih, sebutkan nama Anda!",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,54,101,show_text,"\dxn[???]¡Entrenadora, dime tu nombre!",6,"\dxn[???]Pelatih, sebutkan nama Anda!",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,60,101,show_text,"\dxn[???]Ya veo, encantado, \PN.",6,"\dxn[???]Saya mengerti, senang, \PN.",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,64,101,show_text,"\sh\dxn[???]¡Yo soy Rodolfo, la persona que dominará el mundo!",6,"\sh\dxn[???]Saya Rodolfo, orang yang akan mendominasi dunia!",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,69,101,show_text,\dxn[Rodolfo]¿No me crees? ¡Algún día te lo demostraré!,6,\dxn[Rodolfo]Kamu tidak percaya padaku? Suatu hari nanti aku akan menunjukkannya padamu!,machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,76,101,show_text,"\dxn[Rodolfo]¡Adiós, entrenador de pacotilla!",6,"\dxn[Rodolfo]Selamat tinggal, pelatih sampah!",machine_draft
+map,79,,38,"size(1,3) Evento niñoditto",3,98,355,script,pbAddSocialLink(:RODOLFO),6,,skip_script
+map,79,,38,"size(1,3) Evento niñoditto",3,99,355,script,"pbGainSocialLinkBond(:RODOLFO, 1, silent: true)",6,,skip_script
+map,79,,16,EV016,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,27,niño ditto,3,1,101,show_text,\dxn[???]¿Has encontrado ya a mi Pokémon?,6,\dxn[???]Apakah Anda sudah menemukan Pokémon saya?,machine_draft
+map,79,,27,niño ditto,3,10,102,choices,Yes,6,Ya,machine_draft
+map,79,,27,niño ditto,3,10,102,choices,No,6,Tidak,machine_draft
+map,79,,27,niño ditto,3,11,402,choice_branch,Yes,6,Ya,machine_draft
+map,79,,27,niño ditto,3,13,101,show_text,"\dxn[???]Es mentira, soy un niño pero no tonto",6,"\dxn[???]Bohong, saya masih anak-anak tapi tidak bodoh",machine_draft
+map,79,,27,niño ditto,3,14,401,show_text_cont,precisamente.,6,tepatnya.,machine_draft
+map,79,,27,niño ditto,3,17,402,choice_branch,No,6,Tidak,machine_draft
+map,79,,27,niño ditto,3,19,101,show_text,\dxn[???]¿Y a qué estás esperando? ¡Muévete!,6,\dxn[???]Dan tunggu apa lagi? Bergerak!,machine_draft
+map,79,,5,EV005,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,60,EV060,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,33,EV033,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,22,EV022,1,0,355,script,Pokemon.play_cry(:FURRET),6,,skip_script
+map,79,,11,EV011,1,0,101,show_text,"Mira mi nieta, se pasa el día jugando con nuestro Buneary.",6,"Lihat cucuku, dia menghabiskan harinya bermain dengan Buneary kita.",machine_draft
+map,79,,55,EV055,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,28,PUERTA,1,6,355,script,"pbZoomMap(1,1,zoom=""out"")",6,,skip_script
+map,79,,17,EV017,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,6,EV006,1,0,355,script,pbItemBall(:POTION),6,,skip_script
+map,79,,61,EV061,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,34,EV034,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,23,EV023,1,0,101,show_text,<b><ac>Pueblo Pardillo</ac></b><ac>¡Un lugar donde,6,<b><ac>Pueblo Pardillo</ac></b><ac>Tempat di mana,machine_draft
+map,79,,23,EV023,1,1,401,show_text_cont,a los furret les gusta caminar!,6,Furret suka berjalan!,machine_draft
+map,79,,12,EV012,1,0,101,show_text,Ya le vale a mi hija encasquetarme a mi nieta todos los fines de semana.,6,Sudah cukup bagi putriku untuk meniduri cucuku setiap akhir pekan.,machine_draft
+map,79,,56,EV056,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,40,EV040,1,1,101,show_text,Parece que la roca se puede romper. ¿Quieres usar,6,Sepertinya batu itu bisa pecah. Apakah Anda ingin menggunakan,machine_draft
+map,79,,40,EV040,1,2,401,show_text_cont,<b>Palmeo</b>?,6,<b>Palmeo</b>?,machine_draft
+map,79,,40,EV040,1,3,102,choices,Si,6,Ya,machine_draft
+map,79,,40,EV040,1,3,102,choices,No,6,Tidak,machine_draft
+map,79,,40,EV040,1,4,402,choice_branch,Si,6,Ya,machine_draft
+map,79,,40,EV040,1,6,101,show_text,¡Has usado <b>Palmeo</b>!,6,Anda menggunakan <b>Palmeo</b>!,machine_draft
+map,79,,40,EV040,1,25,402,choice_branch,No,6,Tidak,machine_draft
+map,79,,40,EV040,1,30,101,show_text,No parece que puedas romperla ahora mismo.,6,Sepertinya Anda tidak bisa memecahkannya sekarang.,machine_draft
+map,79,,62,EV062,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,51,EV051,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,18,EV018,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,7,EV007,1,0,355,script,pbItemBall(:PEARL),6,,skip_script
+map,79,,29,EV029,1,1,101,show_text,Parece que la roca se puede romper. ¿Quieres usar,6,Sepertinya batu itu bisa pecah. Apakah Anda ingin menggunakan,machine_draft
+map,79,,29,EV029,1,2,401,show_text_cont,<b>Palmeo</b>?,6,<b>Palmeo</b>?,machine_draft
+map,79,,29,EV029,1,3,102,choices,Si,6,Ya,machine_draft
+map,79,,29,EV029,1,3,102,choices,No,6,Tidak,machine_draft
+map,79,,29,EV029,1,4,402,choice_branch,Si,6,Ya,machine_draft
+map,79,,29,EV029,1,6,101,show_text,¡Has usado <b>Palmeo</b>!,6,Anda menggunakan <b>Palmeo</b>!,machine_draft
+map,79,,29,EV029,1,25,402,choice_branch,No,6,Tidak,machine_draft
+map,79,,29,EV029,1,30,101,show_text,No parece que puedas romperla ahora mismo.,6,Sepertinya Anda tidak bisa memecahkannya sekarang.,machine_draft
+map,79,,35,EV035,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,24,EV024,1,0,101,show_text,<b><ac>Pueblo Pardillo</ac></b><ac>¡Un lugar donde,6,<b><ac>Pueblo Pardillo</ac></b><ac>Tempat di mana,machine_draft
+map,79,,24,EV024,1,1,401,show_text_cont,a los furret les gusta caminar!,6,Furret suka berjalan!,machine_draft
+map,79,,13,EV013,1,0,101,show_text,¡Apártate! ¡Estoy jugando con el Pokémon de la abuela!,6,Minggir! Saya sedang bermain dengan Pokémon Nenek!,machine_draft
+map,79,,2,EV002,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,57,EV057,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,30,EV030,1,0,101,show_text,"Pueblo Gorrión... No queda muy lejos, ¿cierto?",6,Kota Sparrow... Jaraknya tidak terlalu jauh kan?,machine_draft
+map,79,,19,EV019,1,0,101,show_text,Vivo con mi madre porque no me puedo permitir,6,Saya tinggal bersama ibu saya karena saya tidak mampu membiayainya,machine_draft
+map,79,,19,EV019,1,1,401,show_text_cont,"comprar una casa, la inflación se está empezando a",6,"membeli rumah, inflasi mulai terjadi",machine_draft
+map,79,,19,EV019,1,2,401,show_text_cont,notar en la región de Akebia.,6,pemberitahuan di wilayah Akebia.,machine_draft
+map,79,,8,EV008,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,52,EV052,1,0,101,show_text,<ac>Hacia el Este: Pueblo Pinzón</ac>,6,<ac>Ke Timur: Pueblo Pinzón</ac>,machine_draft
+map,79,,52,EV052,1,1,101,show_text,<ac>Hacia el Sur: Pueblo Gorrión</ac>,6,<ac>Ke Selatan: Kota Sparrow</ac>,machine_draft
+map,79,,63,EV063,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,47,EV047,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,36,EV036,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,25,EV025,1,0,101,show_text,"¿Estás de viaje? ¡Qué guay, cuando sea mayor me iré de aventuras como tú!",6,"Apakah kamu bepergian? Wow, kalau aku besar nanti aku akan bertualang sepertimu!",machine_draft
+map,79,,3,EV003,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,14,EV014,1,1,355,script,Pokemon.play_cry(:BUNEARY),6,,skip_script
+map,79,,14,EV014,1,3,101,show_text,\xn[\PN](Parece estar hasta el moño de correr con la,6,\xn[\PN](Dia sepertinya muak dan lelah berlari bersamanya,machine_draft
+map,79,,14,EV014,1,4,401,show_text_cont,niña...),6,gadis...),machine_draft
+map,79,,58,EV058,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,31,Ditto encontrado,2,0,355,script,Pokemon.play_cry(:DITTO),6,,skip_script
+map,79,,20,EV020,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",6,,skip_script
+map,79,,20,EV020,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,20,EV020,3,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",6,,skip_script
+map,79,,53,EV053,1,0,101,show_text,<ac>Hacia el Este: Pueblo Pinzón</ac>,6,<ac>Ke Timur: Pueblo Pinzón</ac>,machine_draft
+map,79,,53,EV053,1,1,101,show_text,<ac>Hacia el Sur: Pueblo Gorrión</ac>,6,<ac>Ke Selatan: Kota Sparrow</ac>,machine_draft
+map,79,,64,EV064,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,48,EV048,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,26,EV026,1,0,355,script,Pokemon.play_cry(:AIPOM),6,,skip_script
+map,79,,4,EV004,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,15,EV015,1,0,101,show_text,"¡Mira qué mono es mi Furret, me encanta!",6,"Lihat betapa lucunya Furret-ku, aku menyukainya!",machine_draft
+map,79,,15,EV015,1,2,101,show_text,"Aunque eso no me hace furro, que lo sepas.",6,"Meski itu tidak membuatku gila, lho.",machine_draft
+map,79,,59,EV059,1,0,108,comment,noshadow,6,,skip_comment
+map,79,,32,EV032,1,0,101,show_text,"Vine para ver qué Pokémon aparecen aquí, pero en estas aguas solo hay puro Azurill, qué pereza.",6,"Saya datang untuk melihat Pokémon apa yang muncul di sini, tetapi di perairan ini hanya ada Azurill murni, malas sekali.",machine_draft
+map,79,,21,EV021,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",6,,skip_script
+map,79,,21,EV021,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...),6,\dxn[\PN](Saya harus membantu anak itu...),machine_draft
+map,79,,21,EV021,3,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",6,,skip_script
+map,79,,54,EV054,1,0,101,show_text,<b><ac>Pueblo Pardillo</ac></b><ac>¡Un lugar donde,6,<b><ac>Pueblo Pardillo</ac></b><ac>Tempat di mana,machine_draft
+map,79,,54,EV054,1,1,401,show_text_cont,a los furret les gusta caminar!,6,Furret suka berjalan!,machine_draft
+map,80,,9,EV009,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,47,EV047,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,28,EV028,1,0,101,show_text,<b><ac>RUTA 2</ac></b><ac>¡Pista de,7,<b><ac>ROUTE 2</ac></b><ac>Petunjuk,machine_draft
+map,80,,28,EV028,1,1,401,show_text_cont,entrenadores!</ac>,7,pelatih!</ac>,machine_draft
+map,80,,66,EV066,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,104,EV104,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,57,EV057,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,95,EV095,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,10,EV010,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,48,EV048,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,29,EV029,1,0,101,show_text,"Hace unos años había un Butterfree volando sobre una piedra justo delante, pero hace poco decidieron intercambiar dicha piedra por una fuente.",7,"Beberapa tahun yang lalu ada Butterfree yang terbang di atas batu tepat di depannya, namun baru-baru ini mereka memutuskan untuk menukar batu tersebut dengan air mancur.",machine_draft
+map,80,,67,EV067,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,105,EV105,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,20,EV020,1,0,101,show_text,Sólo hay basura.,7,Hanya ada sampah.,machine_draft
+map,80,,58,EV058,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,96,EV096,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",7,,skip_script
+map,80,,39,EV039,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,30,EV030,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,68,EV068,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,106,EV106,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,11,EV011,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,49,EV049,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,21,Darek,1,5,101,show_text,"\dxn[Darek]Buah, ya me he perdido... Qué mal se me da orientarme, por favor...",7,"\dxn[Darek]Wah, saya sudah tersesat... Saya sangat kesulitan menemukan jalan keluarnya, tolong...",machine_draft
+map,80,,21,Darek,1,17,101,show_text,\dxn[Darek]¿\PN? ¿Qué haces aquí? ¿Tú también te has perdido?,7,\dxn[Darek]\PN? Apa yang kamu lakukan di sini? Apakah kamu juga tersesat?,machine_draft
+map,80,,21,Darek,1,24,101,show_text,"\dxn[Darek](¡Espera, Darek!)",7,"\dxn[Darek](Tunggu, Darek!)",machine_draft
+map,80,,21,Darek,1,30,101,show_text,"\dxn[Darek](\PN no puede pensar que me he perdido. Yo soy Darek, el increíble y perfecto Darek...)",7,"\dxn[Darek](\PN kamu tidak bisa berpikir aku tersesat. Aku Darek, Darek yang luar biasa dan sempurna...)",machine_draft
+map,80,,21,Darek,1,34,101,show_text,"\dxn[Darek]Ejem, ejem... (Tose)",7,"\dxn[Darek]Ahem, ahem... (Batuk)",machine_draft
+map,80,,21,Darek,1,40,101,show_text,"\dxn[Darek]Quiero decir... ¡Es... estaba aquí explorando la zona, buscando Pokémon y eso!",7,"\dxn[Darek]Maksudku... Ini... Aku di sini menjelajahi area tersebut, mencari Pokémon dan sebagainya!",machine_draft
+map,80,,21,Darek,1,56,101,show_text,\dxn[\PN](...),7,\dxn[\PN](...),machine_draft
+map,80,,21,Darek,1,60,101,show_text,"\dxn[Darek]¡Oye, que va en serio!",7,"\dxn[Darek]Hei, ini serius!",machine_draft
+map,80,,21,Darek,1,71,101,show_text,"\dxn[Darek]Tú no has visto nada, ¿vale? Toma, anda.",7,"\dxn[Darek]Anda belum melihat apa pun, oke? Ini dia.",machine_draft
+map,80,,21,Darek,1,73,355,script,pbReceiveItem(:GREATBALL),7,,skip_script
+map,80,,21,Darek,1,76,101,show_text,"\dxn[Darek]Bu... bueno, he terminado con mi... exploración, me voy a por el primer líder de gimnasio.",7,"\dxn[Darek]Boo... baiklah, aku sudah selesai dengan... penjelajahanku, aku akan mengejar pemimpin gym yang pertama.",machine_draft
+map,80,,59,EV059,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,97,Update EV097,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,2,EV002,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,40,EV040,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,31,EV031,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,69,lucha rival f,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,69,lucha rival f,1,4,101,show_text,"\dxn[Eda]¡Espera, \PN!",7,"\dxn[Eda]Tunggu, \PN!",machine_draft
+map,80,,69,lucha rival f,1,24,101,show_text,\dxn[Eda]¡Parece que te me has adelantado!,7,\dxn[Eda]Sepertinya Anda berada di depan saya!,machine_draft
+map,80,,69,lucha rival f,1,28,101,show_text,"\dxn[Eda]Yo estuve comprando algunas cosillas y buscando a la profesora en Pueblo Pardillo, pero creo que está más lejos todavía...",7,"\dxn[Eda]Saya membeli beberapa barang dan mencari guru di Pueblo Pardillo, tapi menurut saya dia lebih jauh lagi...",machine_draft
+map,80,,69,lucha rival f,1,40,101,show_text,\dxn[Eda]También he sacado algún que otro Pokémon con el Gacha...,7,\dxn[Eda]Saya juga telah merilis beberapa Pokémon lain dengan Gacha...,machine_draft
+map,80,,69,lucha rival f,1,44,101,show_text,\dxn[Eda]¿Qué te parece si echamos un combate rápido para poder probarlo?,7,\dxn[Eda]Bagaimana kalau kita melakukan pertarungan cepat agar kita bisa mencobanya?,machine_draft
+map,80,,69,lucha rival f,1,52,355,script,"setBattleRule(""canLose"")",7,,skip_script
+map,80,,69,lucha rival f,1,54,101,show_text,"\dxn[Eda]¡Adelante Chic, vamos a calentar el ambiente!",7,"\dxn[Eda]Go Chic, yuk hangatkan suasana!",machine_draft
+map,80,,69,lucha rival f,1,57,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,69,lucha rival f,1,68,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es",7,"\dxn[Eda]Saya suka bertarung dengan Pokémon, itu",machine_draft
+map,80,,69,lucha rival f,1,69,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.,7,Jauh lebih baik dari yang saya bayangkan ketika saya masih kecil.,machine_draft
+map,80,,69,lucha rival f,1,73,101,show_text,\dxn[Eda]Sin duda voy a esforzarme por llegar a ser la,7,\dxn[Eda]Saya pasti akan berusaha untuk menjadi,machine_draft
+map,80,,69,lucha rival f,1,74,401,show_text_cont,Campeona de la región. Pero parece que primero voy,7,Juara wilayah. Tapi sepertinya aku pergi dulu,machine_draft
+map,80,,69,lucha rival f,1,75,401,show_text_cont,a tener que superarte.,7,harus mengatasi diri sendiri.,machine_draft
+map,80,,69,lucha rival f,1,79,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora, la cafetería debería estar en el próximo pueblo.",7,"\dxn[Eda]Pokoknya, saya akan mencari guru, kafetaria harusnya ada di kota berikutnya.",machine_draft
+map,80,,69,lucha rival f,1,83,101,show_text,\dxn[Eda]¡Nos vemos \PN!,7,\dxn[Eda]Sampai jumpa \PN!,machine_draft
+map,80,,69,lucha rival f,1,87,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,69,lucha rival f,1,99,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es",7,"\dxn[Eda]Saya suka bertarung dengan Pokémon, itu",machine_draft
+map,80,,69,lucha rival f,1,100,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.,7,Jauh lebih baik dari yang saya bayangkan ketika saya masih kecil.,machine_draft
+map,80,,69,lucha rival f,1,104,101,show_text,\dxn[Eda]Sin duda estoy un paso más cerca de llegar,7,\dxn[Eda]Saya pasti selangkah lebih dekat untuk mencapainya,machine_draft
+map,80,,69,lucha rival f,1,105,401,show_text_cont,a ser la Campeona de la región.,7,menjadi Juara daerah.,machine_draft
+map,80,,69,lucha rival f,1,109,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora! La cafetería debería estar en el próximo pueblo.",7,"\dxn[Eda]Pokoknya, saya akan mencari guru! Kantinnya seharusnya berada di kota berikutnya.",machine_draft
+map,80,,69,lucha rival f,1,113,101,show_text,"\dxn[Eda]¡Nos vemos, \PN!",7,"\dxn[Eda]Sampai jumpa, \PN!",machine_draft
+map,80,,107,EV107,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,12,EV012,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,50,EV050,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,98,EV098,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,3,EV003,1,0,355,script,pbItemBall(:SUPERPOTION),7,,skip_script
+map,80,,41,EV041,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,22,lucha rival f,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,22,lucha rival f,1,4,101,show_text,"\dxn[Eda]¡Espera, \PN!",7,"\dxn[Eda]Tunggu, \PN!",machine_draft
+map,80,,22,lucha rival f,1,23,101,show_text,\dxn[Eda]¡Parece que te me has adelantado!,7,\dxn[Eda]Sepertinya Anda berada di depan saya!,machine_draft
+map,80,,22,lucha rival f,1,27,101,show_text,"\dxn[Eda]Yo estuve comprando algunas cosillas y buscando a la profesora en Pueblo Pardillo, pero creo que está más lejos todavía...",7,"\dxn[Eda]Saya membeli beberapa barang dan mencari guru di Pueblo Pardillo, tapi menurut saya dia lebih jauh lagi...",machine_draft
+map,80,,22,lucha rival f,1,39,101,show_text,\dxn[Eda]También he sacado algún que otro Pokémon con el Gacha...,7,\dxn[Eda]Saya juga telah merilis beberapa Pokémon lain dengan Gacha...,machine_draft
+map,80,,22,lucha rival f,1,43,101,show_text,\dxn[Eda]¿Qué te parece si echamos un combate rápido para poder probarlo?,7,\dxn[Eda]Bagaimana kalau kita melakukan pertarungan cepat agar kita bisa mencobanya?,machine_draft
+map,80,,22,lucha rival f,1,51,355,script,"setBattleRule(""canLose"")",7,,skip_script
+map,80,,22,lucha rival f,1,53,101,show_text,"\dxn[Eda]¡Adelante Chic, vamos a calentar el ambiente!",7,"\dxn[Eda]Go Chic, yuk hangatkan suasana!",machine_draft
+map,80,,22,lucha rival f,1,56,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,22,lucha rival f,1,67,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es",7,"\dxn[Eda]Saya suka bertarung dengan Pokémon, itu",machine_draft
+map,80,,22,lucha rival f,1,68,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.,7,Jauh lebih baik dari yang saya bayangkan ketika saya masih kecil.,machine_draft
+map,80,,22,lucha rival f,1,72,101,show_text,\dxn[Eda]Sin duda voy a esforzarme por llegar a ser la,7,\dxn[Eda]Saya pasti akan berusaha untuk menjadi,machine_draft
+map,80,,22,lucha rival f,1,73,401,show_text_cont,Campeona de la región. Pero parece que primero voy,7,Juara wilayah. Tapi sepertinya aku pergi dulu,machine_draft
+map,80,,22,lucha rival f,1,74,401,show_text_cont,a tener que superarte.,7,harus mengatasi diri sendiri.,machine_draft
+map,80,,22,lucha rival f,1,78,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora, la cafetería debería estar en el próximo pueblo.",7,"\dxn[Eda]Pokoknya, saya akan mencari guru, kafetaria harusnya ada di kota berikutnya.",machine_draft
+map,80,,22,lucha rival f,1,82,101,show_text,\dxn[Eda]¡Nos vemos \PN!,7,\dxn[Eda]Sampai jumpa \PN!,machine_draft
+map,80,,22,lucha rival f,1,86,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,22,lucha rival f,1,98,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es",7,"\dxn[Eda]Saya suka bertarung dengan Pokémon, itu",machine_draft
+map,80,,22,lucha rival f,1,99,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.,7,Jauh lebih baik dari yang saya bayangkan ketika saya masih kecil.,machine_draft
+map,80,,22,lucha rival f,1,103,101,show_text,\dxn[Eda]Sin duda estoy un paso más cerca de llegar,7,\dxn[Eda]Saya pasti selangkah lebih dekat untuk mencapainya,machine_draft
+map,80,,22,lucha rival f,1,104,401,show_text_cont,a ser la Campeona de la región.,7,menjadi Juara daerah.,machine_draft
+map,80,,22,lucha rival f,1,108,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora! La cafetería debería estar en el próximo pueblo.",7,"\dxn[Eda]Pokoknya, saya akan mencari guru! Kantinnya seharusnya berada di kota berikutnya.",machine_draft
+map,80,,22,lucha rival f,1,112,101,show_text,"\dxn[Eda]¡Nos vemos, \PN!",7,"\dxn[Eda]Sampai jumpa, \PN!",machine_draft
+map,80,,60,EV060,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,32,EV032,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,70,lucha rival f,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,70,lucha rival f,1,4,101,show_text,"\dxn[Eda]¡Espera, \PN!",7,"\dxn[Eda]Tunggu, \PN!",machine_draft
+map,80,,70,lucha rival f,1,24,101,show_text,\dxn[Eda]¡Parece que te me has adelantado!,7,\dxn[Eda]Sepertinya Anda berada di depan saya!,machine_draft
+map,80,,70,lucha rival f,1,28,101,show_text,"\dxn[Eda]Yo estuve comprando algunas cosillas y buscando a la profesora en Pueblo Pardillo, pero creo que está más lejos todavía...",7,"\dxn[Eda]Saya membeli beberapa barang dan mencari guru di Pueblo Pardillo, tapi menurut saya dia lebih jauh lagi...",machine_draft
+map,80,,70,lucha rival f,1,40,101,show_text,\dxn[Eda]También he sacado algún que otro Pokémon con el Gacha...,7,\dxn[Eda]Saya juga telah merilis beberapa Pokémon lain dengan Gacha...,machine_draft
+map,80,,70,lucha rival f,1,44,101,show_text,\dxn[Eda]¿Qué te parece si echamos un combate rápido para poder probarlo?,7,\dxn[Eda]Bagaimana kalau kita melakukan pertarungan cepat agar kita bisa mencobanya?,machine_draft
+map,80,,70,lucha rival f,1,52,355,script,"setBattleRule(""canLose"")",7,,skip_script
+map,80,,70,lucha rival f,1,54,101,show_text,"\dxn[Eda]¡Adelante Chic, vamos a calentar el ambiente!",7,"\dxn[Eda]Go Chic, yuk hangatkan suasana!",machine_draft
+map,80,,70,lucha rival f,1,57,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,70,lucha rival f,1,68,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es",7,"\dxn[Eda]Saya suka bertarung dengan Pokémon, itu",machine_draft
+map,80,,70,lucha rival f,1,69,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.,7,Jauh lebih baik dari yang saya bayangkan ketika saya masih kecil.,machine_draft
+map,80,,70,lucha rival f,1,73,101,show_text,\dxn[Eda]Sin duda voy a esforzarme por llegar a ser la,7,\dxn[Eda]Saya pasti akan berusaha untuk menjadi,machine_draft
+map,80,,70,lucha rival f,1,74,401,show_text_cont,Campeona de la región. Pero parece que primero voy,7,Juara wilayah. Tapi sepertinya aku pergi dulu,machine_draft
+map,80,,70,lucha rival f,1,75,401,show_text_cont,a tener que superarte.,7,harus mengatasi diri sendiri.,machine_draft
+map,80,,70,lucha rival f,1,79,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora, la cafetería debería estar en el próximo pueblo.",7,"\dxn[Eda]Pokoknya, saya akan mencari guru, kafetaria harusnya ada di kota berikutnya.",machine_draft
+map,80,,70,lucha rival f,1,83,101,show_text,\dxn[Eda]¡Nos vemos \PN!,7,\dxn[Eda]Sampai jumpa \PN!,machine_draft
+map,80,,70,lucha rival f,1,87,355,script,ChangeSpeed.new.pbChangeSpeed(0),7,,skip_script
+map,80,,70,lucha rival f,1,99,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es",7,"\dxn[Eda]Saya suka bertarung dengan Pokémon, itu",machine_draft
+map,80,,70,lucha rival f,1,100,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.,7,Jauh lebih baik dari yang saya bayangkan ketika saya masih kecil.,machine_draft
+map,80,,70,lucha rival f,1,104,101,show_text,\dxn[Eda]Sin duda estoy un paso más cerca de llegar,7,\dxn[Eda]Saya pasti selangkah lebih dekat untuk mencapainya,machine_draft
+map,80,,70,lucha rival f,1,105,401,show_text_cont,a ser la Campeona de la región.,7,menjadi Juara daerah.,machine_draft
+map,80,,70,lucha rival f,1,109,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora! La cafetería debería estar en el próximo pueblo.",7,"\dxn[Eda]Pokoknya, saya akan mencari guru! Kantinnya seharusnya berada di kota berikutnya.",machine_draft
+map,80,,70,lucha rival f,1,113,101,show_text,"\dxn[Eda]¡Nos vemos, \PN!",7,"\dxn[Eda]Sampai jumpa, \PN!",machine_draft
+map,80,,108,EV108,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,13,EV013,1,0,101,show_text,"Atrapé a este Roselia cuando todavía era un Budew justamente en esta ruta, ojalá volver a ser jovencita...",7,"Roselia ini saya tangkap waktu masih Budew tepat di jalur ini, semoga muda lagi..",machine_draft
+map,80,,13,EV013,1,1,102,choices,Usted se conserva bien,7,Anda terpelihara dengan baik,machine_draft
+map,80,,13,EV013,1,1,102,choices,El tiempo pasa volando,7,waktu berlalu,machine_draft
+map,80,,13,EV013,1,2,402,choice_branch,Usted se conserva bien,7,Anda terpelihara dengan baik,machine_draft
+map,80,,13,EV013,1,3,101,show_text,"Gracias cielo. Por ser tan amable, te voy a dar esto.",7,"Terima kasih surga. Karena berbaik hati, aku akan memberimu ini.",machine_draft
+map,80,,13,EV013,1,4,355,script,pbReceiveItem(:GRASSGEM),7,,skip_script
+map,80,,13,EV013,1,7,402,choice_branch,El tiempo pasa volando,7,waktu berlalu,machine_draft
+map,80,,13,EV013,1,8,101,show_text,"Ciertamente, es triste pensar en ello...",7,Tentu saja miris jika memikirkan...,machine_draft
+map,80,,13,EV013,2,0,101,show_text,"Aprovecha el tiempo, nos vemos preciosidad.",7,"Manfaatkan waktu, sampai jumpa cantik.",machine_draft
+map,80,,51,EV051,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,4,EV004,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL),7,,skip_script
+map,80,,4,EV004,1,9,355,script,"setBattleRule(""base"", ""bridge"")",7,,skip_script
+map,80,,4,EV004,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 7)",7,,skip_script
+map,80,,4,EV004,1,11,355,script,pbSetEventTime,7,,skip_script
+map,80,,4,EV004,1,15,101,show_text,Parece que ha soltado una extraña moneda...,7,Sepertinya dia telah menjatuhkan koin aneh...,machine_draft
+map,80,,4,EV004,1,16,355,script,pbReceiveItem(:GOLD),7,,skip_script
+map,80,,4,EV004,3,1,355,script,"setTempSwitchOn(""A"")",7,,skip_script
+map,80,,42,EV042,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,80,EV080,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,23,EV023,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,61,EV061,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,99,EV099,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,109,EV109,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,14,EV014,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,52,EV052,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,33,EV033,1,0,101,show_text,Me gusta esta ruta porque es muy llana para correr.,7,Saya suka rute ini karena sangat datar untuk dilalui.,machine_draft
+map,80,,100,EV100,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,62,Slope,1,0,108,comment,Slope: -3x-2,7,,skip_comment
+map,80,,62,Slope,1,1,108,comment,Width: 1/2,7,,skip_comment
+map,80,,62,Slope,1,2,108,comment,Offset: 16px,7,,skip_comment
+map,80,,24,EV024,1,0,355,script,pbItemBall(:POTION),7,,skip_script
+map,80,,81,EV081,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,43,EV043,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,5,Trainer(5),1,0,355,script,pbTrainerIntro(:CHICA),7,,skip_script
+map,80,,5,Trainer(5),1,1,355,script,pbNoticePlayer(get_character(0)),7,,skip_script
+map,80,,5,Trainer(5),1,2,101,show_text,Tengo el Pokémon más fuerte del mundo.,7,Saya memiliki Pokémon terkuat di dunia.,machine_draft
+map,80,,5,Trainer(5),1,7,355,script,pbTrainerEnd,7,,skip_script
+map,80,,5,Trainer(5),2,0,101,show_text,Pensaba que Bidoof era más fuerte...,7,Saya pikir Bidoof lebih kuat...,machine_draft
+map,80,,15,EV015,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,91,EV091,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,101,EV101,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,63,Slope,1,0,108,comment,Slope: -3x-2,7,,skip_comment
+map,80,,63,Slope,1,1,108,comment,Width: 0/2,7,,skip_comment
+map,80,,63,Slope,1,2,108,comment,Offset: 16px,7,,skip_comment
+map,80,,44,EV044,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,25,EV025,1,0,355,script,pbItemBall(:REPEL),7,,skip_script
+map,80,,6,Trainer(4),1,0,355,script,pbTrainerIntro(:JOVEN),7,,skip_script
+map,80,,6,Trainer(4),1,1,355,script,pbNoticePlayer(get_character(0)),7,,skip_script
+map,80,,6,Trainer(4),1,2,101,show_text,Acabo de atrapar un Pokémon y quiero probarlo. ¿Te,7,Saya baru saja menangkap Pokémon dan ingin mencobanya. Apakah kamu,machine_draft
+map,80,,6,Trainer(4),1,3,401,show_text_cont,apuntas a un combate?,7,Apakah Anda ingin berkelahi?,machine_draft
+map,80,,6,Trainer(4),1,8,355,script,pbTrainerEnd,7,,skip_script
+map,80,,6,Trainer(4),2,0,101,show_text,Intentaré atrapar otra cosa...,7,Saya akan mencoba menangkap sesuatu yang lain...,machine_draft
+map,80,,16,EV016,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,54,EV054,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,35,EV035,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,92,EV092,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,102,EV102,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,83,EV083,1,0,355,script,Pokemon.play_cry(:ROSELIA),7,,skip_script
+map,80,,26,EV026,1,0,101,show_text,<b><ac>RUTA 2</ac></b><ac>¡Pista de,7,<b><ac>ROUTE 2</ac></b><ac>Petunjuk,machine_draft
+map,80,,26,EV026,1,1,401,show_text_cont,entrenadores!</ac>,7,pelatih!</ac>,machine_draft
+map,80,,64,Slope,1,0,108,comment,Slope: 3x2,7,,skip_comment
+map,80,,64,Slope,1,1,108,comment,Width: 1/2,7,,skip_comment
+map,80,,64,Slope,1,2,108,comment,Offset: 16px,7,,skip_comment
+map,80,,7,EV007,1,0,355,script,pbItemBall(:TM10),7,,skip_script
+map,80,,45,EV045,1,0,101,show_text,<b><ac>RUTA 2</ac></b><ac>¡Pista de,7,<b><ac>ROUTE 2</ac></b><ac>Petunjuk,machine_draft
+map,80,,45,EV045,1,1,401,show_text_cont,entrenadores!</ac>,7,pelatih!</ac>,machine_draft
+map,80,,36,EV036,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,17,EV017,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,55,EV055,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,93,EV093,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,103,EV103,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,65,Slope,1,0,108,comment,Slope: 3x2,7,,skip_comment
+map,80,,65,Slope,1,1,108,comment,Width: 0/2,7,,skip_comment
+map,80,,65,Slope,1,2,108,comment,Offset: 16px,7,,skip_comment
+map,80,,8,Trainer(2),1,0,355,script,pbTrainerIntro(:JOVEN),7,,skip_script
+map,80,,8,Trainer(2),1,1,355,script,pbNoticePlayer(get_character(0)),7,,skip_script
+map,80,,8,Trainer(2),1,2,101,show_text,"Soy el más fuerte de la escuela, prepárate.",7,"Aku yang terkuat di sekolah, bersiaplah.",machine_draft
+map,80,,8,Trainer(2),1,7,355,script,pbTrainerEnd,7,,skip_script
+map,80,,8,Trainer(2),2,0,101,show_text,Tendré que entrenar más entonces.,7,"Kalau begitu, aku harus berlatih lebih banyak.",machine_draft
+map,80,,46,EV046,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,27,EV027,1,0,101,show_text,<b><ac>RUTA 2</ac></b><ac>¡Pista de,7,<b><ac>ROUTE 2</ac></b><ac>Petunjuk,machine_draft
+map,80,,27,EV027,1,1,401,show_text_cont,entrenadores!</ac>,7,pelatih!</ac>,machine_draft
+map,80,,37,EV037,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,18,EV018,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,56,EV056,1,0,108,comment,noshadow,7,,skip_comment
+map,80,,94,EV094,1,0,108,comment,noshadow,7,,skip_comment
+map,83,,85,EV085,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,28,EV028,1,0,101,show_text,Sólo hay basura.,8,Hanya ada sampah.,machine_draft
+map,83,,66,EV066,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,66,EV066,1,1,355,script,pbItemBall(:STARDUST),8,,skip_script
+map,83,,76,EV076,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,57,EV057,1,0,101,show_text,"Estoy aquí tomándome un refresco. Hay muchas máquinas expendedoras por toda la región, por el tema del clima y eso. Está bien pensado.",8,"Aku di sini minum soda. Ada banyak mesin penjual otomatis di seluruh wilayah, karena cuaca dan sebagainya. Itu sudah dipikirkan dengan matang.",machine_draft
+map,83,,38,EV038,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,48,EV048,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,86,EV086,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,29,EV029,1,0,101,show_text,Sólo hay basura.,8,Hanya ada sampah.,machine_draft
+map,83,,67,Slope,1,0,108,comment,Slope: -2x-1,8,,skip_comment
+map,83,,67,Slope,1,1,108,comment,Width: 1/2,8,,skip_comment
+map,83,,67,Slope,1,2,108,comment,Offset: 16px,8,,skip_comment
+map,83,,20,EV020,1,0,101,show_text,<b><ac>PUEBLO PINZÓN</ac></b><ac>¡El ambiente,8,<b><ac>PUEBLO FINZÓN</ac></b><ac>Suasananya,machine_draft
+map,83,,20,EV020,1,1,401,show_text_cont,de este pueblo es muy acogedor y el clima ya no,8,Kota ini sangat ramah dan iklimnya tidak lagi,machine_draft
+map,83,,20,EV020,1,2,401,show_text_cont,"es tan caliente, por las noches hace frío!</ac>",8,"Panas sekali, dingin di malam hari!</ac>",machine_draft
+map,83,,58,EV058,1,0,101,show_text,"A mí me gusta entrenar con mi Pokémon, me importa un Pyukumuku lo que me digan mis padres.",8,"Saya suka berlatih dengan Pokémon saya, saya tidak peduli apa yang orang tua saya katakan.",machine_draft
+map,83,,39,EV039,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,77,EV077,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,87,EV087,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,30,EV030,1,0,355,script,pbItemBall(:LEMONADE),8,,skip_script
+map,83,,68,Slope,1,0,108,comment,Slope: -2x-1,8,,skip_comment
+map,83,,68,Slope,1,1,108,comment,Width: 1/2,8,,skip_comment
+map,83,,68,Slope,1,2,108,comment,Offset: 16px,8,,skip_comment
+map,83,,21,EV021,1,0,101,show_text,<b><ac>PUEBLO PINZÓN</ac></b><ac>¡El ambiente,8,<b><ac>PUEBLO FINZÓN</ac></b><ac>Suasananya,machine_draft
+map,83,,21,EV021,1,1,401,show_text_cont,de este pueblo es muy acogedor y el clima ya no,8,Kota ini sangat ramah dan iklimnya tidak lagi,machine_draft
+map,83,,21,EV021,1,2,401,show_text_cont,"es tan caliente, por las noches hace frío!</ac>",8,"Panas sekali, dingin di malam hari!</ac>",machine_draft
+map,83,,59,EV059,1,0,355,script,Pokemon.play_cry(:SHINX),8,,skip_script
+map,83,,2,EV002,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,40,EV040,1,0,101,show_text,"Me duelen los pies, no pienso andar más.",8,"Kakiku sakit, aku tidak berencana berjalan lagi.",machine_draft
+map,83,,78,EV078,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,31,EV031,1,0,101,show_text,¿Has visto estas flores? ¡Son preciosas!,8,Pernahkah Anda melihat bunga-bunga ini? Mereka cantik!,machine_draft
+map,83,,69,Slope,1,0,108,comment,Slope: 2x1,8,,skip_comment
+map,83,,69,Slope,1,1,108,comment,Width: 1/2,8,,skip_comment
+map,83,,69,Slope,1,2,108,comment,Offset: 16px,8,,skip_comment
+map,83,,88,EV088,1,0,355,script,pbItemBall(:GREATBALL),8,,skip_script
+map,83,,3,EV003,1,0,355,script,pbItemBall(:GREATBALL),8,,skip_script
+map,83,,41,EV041,1,0,101,show_text,¡Me cago en el bicho rosa este!,8,Aku sial pada serangga merah muda ini!,machine_draft
+map,83,,79,EV079,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,60,EV060,1,0,101,show_text,¿Sabías que el nombre de Eda proviene de la salud y la felicidad?,8,Tahukah Anda kalau nama Eda berasal dari kesehatan dan kebahagiaan?,machine_draft
+map,83,,32,EV032,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",8,,skip_script
+map,83,,70,Slope,1,0,108,comment,Slope: 2x1,8,,skip_comment
+map,83,,70,Slope,1,1,108,comment,Width: 1/2,8,,skip_comment
+map,83,,70,Slope,1,2,108,comment,Offset: 16px,8,,skip_comment
+map,83,,89,EV089,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,4,EV004,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,42,EV042,1,0,355,script,Pokemon.play_cry(:HAPPINY),8,,skip_script
+map,83,,80,EV080,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,61,EV061,1,0,101,show_text,<ac>¡BattleCoffe!</ac> ¡Disfruta de un buen café mientras combates contra entrenadores!,8,<ac>BattleCoffe!</ac> Nikmati kopi nikmat sambil bertarung dengan pelatih!,machine_draft
+map,83,,52,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)",8,,skip_script
+map,83,,52,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)",8,,skip_script
+map,83,,52,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)",8,,skip_script
+map,83,,52,Vending machine 1,1,3,355,script,pbPokemonMart2([,8,,skip_script
+map,83,,52,Vending machine 1,1,4,655,script_cont,":FRESHWATER,",8,,skip_script
+map,83,,52,Vending machine 1,1,5,655,script_cont,":SODAPOP,",8,,skip_script
+map,83,,52,Vending machine 1,1,6,655,script_cont,:LEMONADE]),8,,skip_script
+map,83,,90,EV090,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,33,EV033,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",8,,skip_script
+map,83,,71,Slope,1,0,108,comment,Slope: 2x-1,8,,skip_comment
+map,83,,71,Slope,1,1,108,comment,Width: 1/2,8,,skip_comment
+map,83,,71,Slope,1,2,108,comment,Offset: 16px,8,,skip_comment
+map,83,,43,EV043,1,0,101,show_text,"La juventud solo piensa en fumar, beber y salir de fiesta.",8,"Remaja hanya berpikir tentang merokok, minum-minuman keras dan berpesta.",machine_draft
+map,83,,43,EV043,1,2,101,show_text,\sh¡En mis tiempos todas íbamos a un colegio de monjas!,8,"\shDi masa saya, kami semua bersekolah di sekolah biarawati!",machine_draft
+map,83,,81,EV081,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,24,EV024,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",8,,skip_script
+map,83,,24,EV024,2,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",8,,skip_script
+map,83,,62,EV062,1,0,101,show_text,Sólo hay basura.,8,Hanya ada sampah.,machine_draft
+map,83,,15,EV015,1,4,355,script,"pbZoomMap(1,1,zoom=""out"")",8,,skip_script
+map,83,,15,EV015,1,5,355,script,"pbRemoveDependency2(""FollowerPkmn"")",8,,skip_script
+map,83,,53,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)",8,,skip_script
+map,83,,53,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)",8,,skip_script
+map,83,,53,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)",8,,skip_script
+map,83,,53,Vending machine 1,1,3,355,script,pbPokemonMart2([,8,,skip_script
+map,83,,53,Vending machine 1,1,4,655,script_cont,":FRESHWATER,",8,,skip_script
+map,83,,53,Vending machine 1,1,5,655,script_cont,":SODAPOP,",8,,skip_script
+map,83,,53,Vending machine 1,1,6,655,script_cont,:LEMONADE]),8,,skip_script
+map,83,,91,EV091,1,0,101,show_text,Siempre me he preguntado qué diablos hace esta piedra de aquí en medio.,8,Saya selalu bertanya-tanya apa yang dilakukan batu di tengah ini.,machine_draft
+map,83,,91,EV091,1,2,101,show_text,"Quiero decir, no hace nada, es una piedra y solo molesta.",8,"Maksudku, itu tidak melakukan apa-apa, itu batu dan itu hanya mengganggu.",machine_draft
+map,83,,34,EV034,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",8,,skip_script
+map,83,,72,Slope,1,0,108,comment,Slope: 2x-1,8,,skip_comment
+map,83,,72,Slope,1,1,108,comment,Width: 1/2,8,,skip_comment
+map,83,,72,Slope,1,2,108,comment,Offset: 16px,8,,skip_comment
+map,83,,63,EV063,1,0,101,show_text,Sólo hay basura.,8,Hanya ada sampah.,machine_draft
+map,83,,82,EV082,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,16,EV016,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,73,Slope,1,0,355,script,pbBridgeOff,8,,skip_script
+map,83,,73,Slope,1,1,108,comment,Slope: -2x1,8,,skip_comment
+map,83,,73,Slope,1,2,108,comment,Width: 1/2,8,,skip_comment
+map,83,,73,Slope,1,3,108,comment,Offset: 16px,8,,skip_comment
+map,83,,54,niña,1,0,101,show_text,¿Seguro que esta no es la princesa que estamos buscando?,8,Apakah kamu yakin ini bukan putri yang kita cari?,machine_draft
+map,83,,54,niña,1,2,101,show_text,Se parece a la antigua \c[2]Reina de Akebia\c[0]...,8,Dia tampak seperti \c[2]Ratu Akebia\c[0] kuno...,machine_draft
+map,83,,35,EV035,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",8,,skip_script
+map,83,,92,niña,1,0,101,show_text,"Mamá, quiero ser entrenadora cuando sea mayor.",8,"Bu, aku ingin menjadi pelatih ketika aku besar nanti.",machine_draft
+map,83,,45,EV045,1,0,101,show_text,"¡Este es el BattleCoffe, servimos cafés, batidos, de",8,"Ini BattleCoffe, kami menyajikan kopi, smoothie,",machine_draft
+map,83,,45,EV045,1,1,401,show_text_cont,todo!,8,semuanya!,machine_draft
+map,83,,64,EV064,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,83,EV083,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,74,Slope,1,0,355,script,pbBridgeOff,8,,skip_script
+map,83,,74,Slope,1,1,108,comment,Slope: -2x1,8,,skip_comment
+map,83,,74,Slope,1,2,108,comment,Width: 1/2,8,,skip_comment
+map,83,,74,Slope,1,3,108,comment,Offset: 16px,8,,skip_comment
+map,83,,36,EV036,1,0,101,show_text,"Mira esa niña con su Happiny, le está dando mucho cariño.",8,"Lihatlah gadis itu dengan Kebahagiaannya, dia memberinya banyak cinta.",machine_draft
+map,83,,36,EV036,1,2,101,show_text,¡Hay muchos Pokémon que evolucionan por amistad!,8,Ada banyak Pokémon yang berevolusi melalui persahabatan!,machine_draft
+map,83,,93,niña,1,0,101,show_text,"Mamá, quiero ser entrenadora cuando sea mayor.",8,"Bu, aku ingin menjadi pelatih ketika aku besar nanti.",machine_draft
+map,83,,55,niña,1,0,101,show_text,¿Seguro que esta no es la princesa que estamos buscando?,8,Apakah kamu yakin ini bukan putri yang kita cari?,machine_draft
+map,83,,55,niña,1,2,101,show_text,Se parece a la antigua \c[2]Reina de Akebia\c[0]...,8,Dia tampak seperti \c[2]Ratu Akebia\c[0] kuno...,machine_draft
+map,83,,46,EV046,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,65,EV065,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,84,EV084,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,27,EV027,1,0,108,comment,noshadow,8,,skip_comment
+map,83,,37,EV037,1,0,101,show_text,Mi marido y yo estamos en esta parte de la región porque la \c[2]Familia Real\c[0] tiene el Palacio en \c[2]Ciudad Lugano\c[0].,8,Saya dan suami berada di bagian wilayah ini karena \c[2]Keluarga Kerajaan\c[0] memiliki Istana di \c[2]Kota Lugano\c[0].,machine_draft
+map,83,,37,EV037,1,2,101,show_text,"Aún así, incluso aquí, es muy normal ver situaciones desagradables.",8,"Namun, bahkan di sini, melihat situasi yang tidak menyenangkan adalah hal yang wajar.",machine_draft
+map,83,,75,EV075,1,0,108,comment,noshadow,8,,skip_comment
+map,88,,47,Slope,1,0,108,comment,Slope: 3x2,9,,skip_comment
+map,88,,47,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,47,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,85,EV085,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,66,Slope,1,0,108,comment,Slope: -2x-1,9,,skip_comment
+map,88,,66,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,66,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,76,EV076,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,19,EV019,1,4,355,script,pbCaveEntrance,9,,skip_script
+map,88,,19,EV019,1,5,355,script,"pbRemoveDependency2(""FollowerPkmn"")",9,,skip_script
+map,88,,57,Slope,1,0,108,comment,Slope: 2x1,9,,skip_comment
+map,88,,57,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,57,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,95,EV095,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,48,Slope,1,0,108,comment,Slope: 3x2,9,,skip_comment
+map,88,,48,Slope,1,1,108,comment,Width: 0/2,9,,skip_comment
+map,88,,48,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,86,EV086,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,29,EV029,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,20,EV020,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,58,Slope,1,0,108,comment,Slope: 2x1,9,,skip_comment
+map,88,,58,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,58,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,96,EV096,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,1,Trainer(5),1,0,355,script,pbTrainerIntro(:JOVEN),9,,skip_script
+map,88,,1,Trainer(5),1,1,355,script,pbNoticePlayer(get_character(0)),9,,skip_script
+map,88,,1,Trainer(5),1,2,101,show_text,He entrenado muy bien a mis Pokémon. ¿Quieres,9,Saya telah melatih Pokémon saya dengan sangat baik. Apakah kamu mau,machine_draft
+map,88,,1,Trainer(5),1,3,401,show_text_cont,pelear?,9,berkelahi?,machine_draft
+map,88,,1,Trainer(5),1,8,355,script,pbTrainerEnd,9,,skip_script
+map,88,,1,Trainer(5),2,0,101,show_text,Tendré que entrenar más entonces.,9,"Kalau begitu, aku harus berlatih lebih banyak.",machine_draft
+map,88,,39,EV039,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,77,EV077,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,87,EV087,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,30,EV030,1,0,355,script,pbItemBall(:POKEBALL),9,,skip_script
+map,88,,11,EV011,1,0,101,show_text,¡Anda! Hay un Talonflame volando por aquí. ¿Será que puedes encontrar a Fletchling por esta zona?,9,Pergi! Ada Talonflame terbang di sekitar sini. Mungkinkah Anda bisa menemukan Fletchling di area ini?,machine_draft
+map,88,,49,Slope,1,0,108,comment,Slope: 3x2,9,,skip_comment
+map,88,,49,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,49,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,21,EV021,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,59,Slope,1,0,108,comment,Slope: -2x-1,9,,skip_comment
+map,88,,59,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,59,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,97,EV097,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,2,EV002,1,0,355,script,pbItemBall(:SUPERPOTION),9,,skip_script
+map,88,,40,EV040,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,78,EV078,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,31,EV031,1,0,355,script,pbItemBall(:TM12),9,,skip_script
+map,88,,12,EV012,1,5,101,show_text,"\sh¡Menudo susto, colega!",9,\shMenakutkan sekali sobat!,machine_draft
+map,88,,50,Slope,1,0,108,comment,Slope: 3x2,9,,skip_comment
+map,88,,50,Slope,1,1,108,comment,Width: 0/2,9,,skip_comment
+map,88,,50,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,88,EV088,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,98,EV098,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,3,EV003,1,0,101,show_text,<b><ac>RUTA 3</ac></b><ac>¡Entrenadores y excursionistas a montones!</ac>,9,<b><ac>ROUTE 3</ac></b><ac>Pelatih dan pejalan kaki berlimpah!</ac>,machine_draft
+map,88,,41,EV041,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,79,EV079,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,22,EV022,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,60,Slope,1,0,108,comment,Slope: -2x-1,9,,skip_comment
+map,88,,60,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,60,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,32,EV032,1,0,101,show_text,"He empezado a hacer deporte, no sé si se nota.",9,"Saya sudah mulai berolahraga, saya tidak tahu apakah itu terlihat.",machine_draft
+map,88,,13,EV013,1,0,101,show_text,"Mi nieto salió de aventuras como tú. Sin embargo, no he recibido ningún mensaje de él desde entonces, estoy preocupada...",9,"Cucu saya melakukan petualangan seperti Anda. Namun, aku belum menerima pesan apa pun darinya sejak itu, aku khawatir...",machine_draft
+map,88,,51,Slope,1,0,108,comment,Slope: 2x1,9,,skip_comment
+map,88,,51,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,51,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,89,EV089,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,4,EV004,1,0,101,show_text,<b><ac>RUTA 3</ac></b><ac>¡Entrenadores y excursionistas a montones!</ac>,9,<b><ac>ROUTE 3</ac></b><ac>Pelatih dan pejalan kaki berlimpah!</ac>,machine_draft
+map,88,,42,EV042,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,80,EV080,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,23,peruan,1,0,101,show_text,Estoy haciendo footing. Tengo pensado llegar hasta \c[2]Ciudad Ninfa\c[0] y pegarme un baño.,9,saya sedang joging. Saya berencana pergi ke \c[2]Ciudad Ninfa\c[0] dan mandi.,machine_draft
+map,88,,61,Slope,1,0,108,comment,Slope: -2x-1,9,,skip_comment
+map,88,,61,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,61,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,99,EV099,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,14,Trainer(5),1,0,355,script,pbTrainerIntro(:CHICA),9,,skip_script
+map,88,,14,Trainer(5),1,1,355,script,pbNoticePlayer(get_character(0)),9,,skip_script
+map,88,,14,Trainer(5),1,2,101,show_text,¡Mira qué Pokémon más mono!,9,Lihat betapa lucunya Pokemon itu!,machine_draft
+map,88,,14,Trainer(5),1,7,355,script,pbTrainerEnd,9,,skip_script
+map,88,,14,Trainer(5),2,0,101,show_text,Le daré un poco de agua a mi Pokémon cuando,9,Saya akan memberi Pokémon saya air kapan,machine_draft
+map,88,,14,Trainer(5),2,1,401,show_text_cont,vuelva a casa.,9,kembali ke rumah.,machine_draft
+map,88,,52,Slope,1,0,108,comment,Slope: 2x1,9,,skip_comment
+map,88,,52,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,52,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,90,EV090,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,33,EV033,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,43,Slope,1,0,108,comment,Slope: -3x-2,9,,skip_comment
+map,88,,43,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,43,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,81,EV081,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,24,EV024,1,0,101,show_text,¡Mi Pokémon y yo estamos entrenando!,9,Pokémon saya dan saya sedang berlatih!,machine_draft
+map,88,,62,Slope,1,0,108,comment,Slope: -2x-1,9,,skip_comment
+map,88,,62,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,62,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,5,EV005,1,0,355,script,pbItemBall(:ULTRABALL),9,,skip_script
+map,88,,53,Slope,1,0,108,comment,Slope: 2x1,9,,skip_comment
+map,88,,53,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,53,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,15,Trainer(3),1,0,355,script,pbTrainerIntro(:CHICAGUAY),9,,skip_script
+map,88,,15,Trainer(3),1,1,355,script,pbNoticePlayer(get_character(0)),9,,skip_script
+map,88,,15,Trainer(3),1,2,101,show_text,¿Te apetece salir de fiesta? ¿No? ¿Y un combate te,9,Apakah Anda ingin pergi ke pesta? TIDAK? Dan perkelahian,machine_draft
+map,88,,15,Trainer(3),1,3,401,show_text_cont,sirve?,9,apakah itu berhasil?,machine_draft
+map,88,,15,Trainer(3),1,8,355,script,pbTrainerEnd,9,,skip_script
+map,88,,15,Trainer(3),2,0,101,show_text,Este finde se sale de fiesta aunque me hayas,9,Akhir pekan ini dia akan pergi ke pesta meskipun kamu bersamaku,machine_draft
+map,88,,15,Trainer(3),2,1,401,show_text_cont,ganado jejeje,9,ternak hehehe,machine_draft
+map,88,,91,EV091,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,34,EV034,1,0,355,script,pbItemBall(:PEARL),9,,skip_script
+map,88,,82,EV082,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,44,Slope,1,0,108,comment,Slope: -3x-2,9,,skip_comment
+map,88,,44,Slope,1,1,108,comment,Width: 0/2,9,,skip_comment
+map,88,,44,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,6,EV006,1,0,355,script,pbItemBall(:PEARL),9,,skip_script
+map,88,,25,EV025,1,0,355,script,Pokemon.play_cry(:PACHIRISU),9,,skip_script
+map,88,,63,Slope,1,0,108,comment,Slope: -2x-1,9,,skip_comment
+map,88,,63,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,63,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,54,Slope,1,0,108,comment,Slope: 2x1,9,,skip_comment
+map,88,,54,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,54,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,35,EV035,1,0,101,show_text,"No me gustan las cuevas, pero para llegar a \c[2]Ciudad Calentra\c[0] debo atravesarla.",9,"Saya tidak suka gua, tapi untuk sampai ke \c[2]Calentra City\c[0] saya harus melewatinya.",machine_draft
+map,88,,73,EV073,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,92,EV092,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,45,Slope,1,0,108,comment,Slope: -3x-2,9,,skip_comment
+map,88,,45,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,45,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,64,Slope,1,0,108,comment,Slope: -2x-1,9,,skip_comment
+map,88,,64,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,64,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,26,EV026,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,83,EV083,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,17,EV017,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL),9,,skip_script
+map,88,,17,EV017,1,9,355,script,"setBattleRule(""base"", ""bridge"")",9,,skip_script
+map,88,,17,EV017,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 7)",9,,skip_script
+map,88,,17,EV017,1,11,355,script,pbSetEventTime,9,,skip_script
+map,88,,17,EV017,1,15,101,show_text,Parece que ha soltado una extraña moneda...,9,Sepertinya dia telah menjatuhkan koin aneh...,machine_draft
+map,88,,17,EV017,1,16,355,script,pbReceiveItem(:GOLD),9,,skip_script
+map,88,,17,EV017,3,1,355,script,"setTempSwitchOn(""A"")",9,,skip_script
+map,88,,93,EV093,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,55,Slope,1,0,108,comment,Slope: 2x1,9,,skip_comment
+map,88,,55,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,55,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,74,EV074,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,27,EV027,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,65,Slope,1,0,108,comment,Slope: -2x-1,9,,skip_comment
+map,88,,65,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,65,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,46,Slope,1,0,108,comment,Slope: -3x-2,9,,skip_comment
+map,88,,46,Slope,1,1,108,comment,Width: 0/2,9,,skip_comment
+map,88,,46,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,84,EV084,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,94,EV094,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,56,Slope,1,0,108,comment,Slope: 2x1,9,,skip_comment
+map,88,,56,Slope,1,1,108,comment,Width: 1/2,9,,skip_comment
+map,88,,56,Slope,1,2,108,comment,Offset: 16px,9,,skip_comment
+map,88,,37,EV037,1,0,108,comment,noshadow,9,,skip_comment
+map,88,,18,EV018,1,4,355,script,pbCaveEntrance,9,,skip_script
+map,88,,18,EV018,1,5,355,script,"pbRemoveDependency2(""FollowerPkmn"")",9,,skip_script
+map,88,,75,EV075,1,0,108,comment,noshadow,9,,skip_comment
+map,90,,9,EV009,1,0,101,show_text,"He quedado con esta chica, pero sólo me habla del calor que hace, vaya cita más aburrida...",10,"Aku pernah bertemu gadis ini, tapi dia hanya bercerita kepadaku tentang betapa panasnya saat itu, betapa membosankannya kencan itu...",machine_draft
+map,90,,47,EV047,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,85,EV085,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,66,EV066,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,76,EV076,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,57,EV057,1,0,355,script,pbItemBall(:PEARL),10,,skip_script
+map,90,,38,EV038,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,10,EV010,1,1,101,show_text,"Hidratarse es muy importante, toma hijo, toma.",10,"Hidrasi itu penting banget nih nak, nih.",machine_draft
+map,90,,10,EV010,1,4,101,show_text,"Hidratarse es muy importante, toma hija, toma.",10,"Hidrasi sangat penting, ini nak, ini.",machine_draft
+map,90,,10,EV010,1,7,355,script,pbReceiveItem(:FRESHWATER),10,,skip_script
+map,90,,10,EV010,2,0,101,show_text,"No me des las gracias, los jóvenes debéis cuidaros",10,"Jangan berterima kasih padaku, kalian anak muda harus menjaga dirimu sendiri",machine_draft
+map,90,,10,EV010,2,1,401,show_text_cont,también.,10,juga.,machine_draft
+map,90,,48,,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",10,,skip_script
+map,90,,86,EV086,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,67,EV067,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,58,EV058,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,39,EV039,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,77,EV077,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,87,EV087,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,68,EV068,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,11,Trainer(4),1,0,355,script,pbTrainerIntro(:RUNNER),10,,skip_script
+map,90,,11,Trainer(4),1,1,355,script,pbNoticePlayer(get_character(0)),10,,skip_script
+map,90,,11,Trainer(4),1,2,101,show_text,"¡Me gusta correr, pero también echar combates!",10,"Saya suka berlari, tapi saya juga suka berkelahi!",machine_draft
+map,90,,11,Trainer(4),1,7,355,script,pbTrainerEnd,10,,skip_script
+map,90,,11,Trainer(4),2,0,101,show_text,¡Seguiré corriendo hasta que muera!,10,Aku akan terus berlari sampai aku mati!,machine_draft
+map,90,,49,Pescador,1,0,101,show_text,"Sinceramente, me gustan más los Pokémon de río. Estos Gyarados se escapan con más facilidad.",10,"Sejujurnya, saya lebih suka Pokémon sungai. Para Gyarado ini bisa melarikan diri dengan lebih mudah.",machine_draft
+map,90,,59,EV059,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,2,EV002,1,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")",10,,skip_script
+map,90,,2,EV002,1,5,355,script,pbCaveEntrance,10,,skip_script
+map,90,,40,EV040,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,78,EV078,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,69,.noshadow,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,12,Nose,1,0,101,show_text,"Ni de broma me muevo de la sombra, qué pereza.",10,"Bahkan tidak bercanda aku beranjak dari bayangan, betapa malasnya.",machine_draft
+map,90,,50,EV050,1,0,101,show_text,"\dxn[Niño]¡Papá, papá, que se me escapa!",10,"\dxn[Niño]Ayah, Ayah, aku rindu itu!",machine_draft
+map,90,,50,EV050,1,2,101,show_text,"\sh\dxn[Padre]¡Tira con fuerza, hijo!",10,\sh\dxn[Padre]Tarik sekuat tenaga nak!,machine_draft
+map,90,,88,EV088,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,3,EV003,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL),10,,skip_script
+map,90,,3,EV003,1,9,355,script,"setBattleRule(""base"", ""bridge"")",10,,skip_script
+map,90,,3,EV003,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 10)",10,,skip_script
+map,90,,3,EV003,1,11,355,script,pbSetEventTime,10,,skip_script
+map,90,,3,EV003,1,15,101,show_text,Parece que ha soltado una extraña moneda...,10,Sepertinya dia telah menjatuhkan koin aneh...,machine_draft
+map,90,,3,EV003,1,16,355,script,pbReceiveItem(:GOLD),10,,skip_script
+map,90,,3,EV003,3,1,355,script,"setTempSwitchOn(""A"")",10,,skip_script
+map,90,,41,EV041,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,79,EV079,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,60,EV060,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,70,.noshadow,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,51,EV051,1,0,101,show_text,"\dxn[Niño]¡Papá, papá, que se me escapa!",10,"\dxn[Niño]Ayah, Ayah, aku rindu itu!",machine_draft
+map,90,,51,EV051,1,2,101,show_text,"\sh\dxn[Padre]¡Tira con fuerza, hijo!",10,\sh\dxn[Padre]Tarik sekuat tenaga nak!,machine_draft
+map,90,,89,EV089,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,4,EV004,1,0,355,script,pbItemBall(:PEARL),10,,skip_script
+map,90,,42,EV042,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,80,EV080,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,23,EV023,1,0,101,show_text,"<b><ac>RUTA 4</ac></b><ac>¡Esta ruta es para descender a Ciudad Calentra, una vez bajes, no podrás volver!</ac>",10,"<b><ac>ROUTE 4</ac></b><ac>Rute ini turun ke Ciudad Calentra, sekali turun tidak bisa kembali!</ac>",machine_draft
+map,90,,52,EV052,1,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")",10,,skip_script
+map,90,,52,EV052,1,5,355,script,pbCaveEntrance,10,,skip_script
+map,90,,90,EV090,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,71,.noshadow,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,43,EV043,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,81,EV081,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,24,EV024,1,0,101,show_text,"<b><ac>RUTA 4</ac></b><ac>¡Esta ruta es para descender a Ciudad Calentra, una vez bajes, no podrás volver!</ac>",10,"<b><ac>ROUTE 4</ac></b><ac>Rute ini turun ke Ciudad Calentra, sekali turun tidak bisa kembali!</ac>",machine_draft
+map,90,,5,Trainer(4),1,0,355,script,pbTrainerIntro(:EXPLORADOR),10,,skip_script
+map,90,,5,Trainer(4),1,1,355,script,pbNoticePlayer(get_character(0)),10,,skip_script
+map,90,,5,Trainer(4),1,2,101,show_text,"Me encanta la exploración, pero también los",10,"Saya suka eksplorasi, tetapi juga",machine_draft
+map,90,,5,Trainer(4),1,3,401,show_text_cont,combates. ¿Te hace uno?,10,pertempuran. Apakah itu membuatmu menjadi salah satunya?,machine_draft
+map,90,,5,Trainer(4),1,8,355,script,pbTrainerEnd,10,,skip_script
+map,90,,5,Trainer(4),2,0,101,show_text,Espero poder llegar a casa en algún momento.,10,Saya berharap bisa pulang suatu saat nanti.,machine_draft
+map,90,,15,EV015,1,0,355,script,pbItemBall(:TM76),10,,skip_script
+map,90,,53,Slope,1,0,355,script,pbBridgeOff,10,,skip_script
+map,90,,53,Slope,1,1,108,comment,Slope: -2x1,10,,skip_comment
+map,90,,53,Slope,1,2,108,comment,Width: 1/2,10,,skip_comment
+map,90,,53,Slope,1,3,108,comment,Offset: 16px,10,,skip_comment
+map,90,,72,.noshadow,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,82,EV082,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,6,Trainer(4),1,0,355,script,pbTrainerIntro(:EXPLORADORA),10,,skip_script
+map,90,,6,Trainer(4),1,1,355,script,pbNoticePlayer(get_character(0)),10,,skip_script
+map,90,,6,Trainer(4),1,2,101,show_text,"Viajar por esta región es maravilloso, ¿no crees?",10,"Bepergian melalui wilayah ini sungguh menyenangkan, bukan?",machine_draft
+map,90,,6,Trainer(4),1,3,101,show_text,¡Enséñame qué has visto!,10,Tunjukkan padaku apa yang kamu lihat!,machine_draft
+map,90,,6,Trainer(4),1,8,355,script,pbTrainerEnd,10,,skip_script
+map,90,,6,Trainer(4),2,0,101,show_text,"Al rato volveré a casa, no te preocupes por mi.",10,"Aku akan segera kembali ke rumah, jangan khawatirkan aku.",machine_draft
+map,90,,25,EV025,1,0,101,show_text,<b><ac>RUTA 4</ac></b><ac>¡Esta ruta es para,10,<b><ac>PATH 4</ac></b><ac>Rute ini untuk,machine_draft
+map,90,,25,EV025,1,1,401,show_text_cont,descender a Ciudad Calentra!</ac>,10,turun ke Kota Calentra!</ac>,machine_draft
+map,90,,63,xd,1,0,355,script,Pokemon.play_cry(:KRABBY),10,,skip_script
+map,90,,44,EV044,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,73,.noshadow,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,54,Slope,1,0,355,script,pbBridgeOff,10,,skip_script
+map,90,,54,Slope,1,1,108,comment,Slope: -2x1,10,,skip_comment
+map,90,,54,Slope,1,2,108,comment,Width: 1/2,10,,skip_comment
+map,90,,54,Slope,1,3,108,comment,Offset: 16px,10,,skip_comment
+map,90,,45,EV045,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,7,tio random,1,0,101,show_text,"En esa casa de abajo me han regalado una \c[2]Caña de pescar\c[0], qué majos.",10,"Di rumah di bawah itu mereka memberi saya \c[2]Tongkat\c[0], bagus sekali.",machine_draft
+map,90,,64,EV064,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,26,EV026,1,0,101,show_text,<b><ac>RUTA 4</ac></b><ac>¡Esta ruta es para,10,<b><ac>PATH 4</ac></b><ac>Rute ini untuk,machine_draft
+map,90,,26,EV026,1,1,401,show_text_cont,descender a Ciudad Calentra!</ac>,10,turun ke Kota Calentra!</ac>,machine_draft
+map,90,,83,EV083,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,17,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)",10,,skip_script
+map,90,,17,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)",10,,skip_script
+map,90,,17,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)",10,,skip_script
+map,90,,17,Vending machine 1,1,3,355,script,pbPokemonMart2([,10,,skip_script
+map,90,,17,Vending machine 1,1,4,655,script_cont,":FRESHWATER,",10,,skip_script
+map,90,,17,Vending machine 1,1,5,655,script_cont,":SODAPOP,",10,,skip_script
+map,90,,17,Vending machine 1,1,6,655,script_cont,:LEMONADE]),10,,skip_script
+map,90,,74,.noshadow,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,55,Slope,1,0,108,comment,Slope: 2x-1,10,,skip_comment
+map,90,,55,Slope,1,1,108,comment,Width: 1/2,10,,skip_comment
+map,90,,55,Slope,1,2,108,comment,Offset: 16px,10,,skip_comment
+map,90,,65,EV065,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,8,EV008,1,0,101,show_text,"Menuda humedad, se nota que estamos al lado del mar.",10,"Betapa lembabnya, itu menunjukkan bahwa kita berada di sebelah laut.",machine_draft
+map,90,,46,EV046,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,27,EV027,1,0,101,show_text,"Este trabajo no me gusta nada, pero pagan bien. Sólo hay que obedecer órdenes.",10,"Saya sama sekali tidak menyukai pekerjaan ini, tetapi bayarannya bagus. Anda hanya perlu mematuhi perintah.",machine_draft
+map,90,,84,EV084,1,0,108,comment,noshadow,10,,skip_comment
+map,90,,56,Slope,1,0,108,comment,Slope: 2x-1,10,,skip_comment
+map,90,,56,Slope,1,1,108,comment,Width: 1/2,10,,skip_comment
+map,90,,56,Slope,1,2,108,comment,Offset: 16px,10,,skip_comment
+map,90,,18,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)",10,,skip_script
+map,90,,18,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)",10,,skip_script
+map,90,,18,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)",10,,skip_script
+map,90,,18,Vending machine 1,1,3,355,script,pbPokemonMart2([,10,,skip_script
+map,90,,18,Vending machine 1,1,4,655,script_cont,":FRESHWATER,",10,,skip_script
+map,90,,18,Vending machine 1,1,5,655,script_cont,":SODAPOP,",10,,skip_script
+map,90,,18,Vending machine 1,1,6,655,script_cont,:LEMONADE]),10,,skip_script
+map,90,,75,EV075,1,0,108,comment,noshadow,10,,skip_comment
+map,92,,92,EV092,1,0,101,show_text,<b><ac>Ciudad Calentra</ac></b><ac>¡Una ciudad muy tranquila con playa!</ac><ac>,11,<b><ac>Ciudad Calentra</ac></b><ac>Kota yang sangat tenang dengan pantai!</ac><ac>,machine_draft
+map,92,,37,EV037,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0),11,,skip_script
+map,92,,37,EV037,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,74,Slope,1,0,108,comment,Slope: 2x1,11,,skip_comment
+map,92,,74,Slope,1,1,108,comment,Width: 1/2,11,,skip_comment
+map,92,,74,Slope,1,2,108,comment,Offset: 16px,11,,skip_comment
+map,92,,111,EV111,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,148,EV148,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,93,Slope,1,0,108,comment,Slope: 2x1,11,,skip_comment
+map,92,,93,Slope,1,1,108,comment,Width: 0/2,11,,skip_comment
+map,92,,93,Slope,1,2,108,comment,Offset: 16px,11,,skip_comment
+map,92,,19,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)",11,,skip_script
+map,92,,19,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)",11,,skip_script
+map,92,,19,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)",11,,skip_script
+map,92,,19,Vending machine 1,1,3,355,script,pbPokemonMart2([,11,,skip_script
+map,92,,19,Vending machine 1,1,4,655,script_cont,":FRESHWATER,",11,,skip_script
+map,92,,19,Vending machine 1,1,5,655,script_cont,":SODAPOP,",11,,skip_script
+map,92,,19,Vending machine 1,1,6,655,script_cont,:LEMONADE]),11,,skip_script
+map,92,,75,EV075,1,0,101,show_text,Llego de trabajar bastante tarde... Una cervecita y pa' casa.,11,Saya pulang kerja cukup larut... Bir dan pulang.,machine_draft
+map,92,,112,Slope,1,0,355,script,pbBridgeOff,11,,skip_script
+map,92,,112,Slope,1,1,108,comment,Slope: -2x1,11,,skip_comment
+map,92,,112,Slope,1,2,108,comment,Width: 0/2,11,,skip_comment
+map,92,,112,Slope,1,3,108,comment,Offset: 16px,11,,skip_comment
+map,92,,149,EV149,1,1,355,script,$PokemonGlobal.gachaCoins += 3,11,,skip_script
+map,92,,38,EV038,1,5,355,script,ChangeSpeed.new.pbChangeSpeed(0),11,,skip_script
+map,92,,38,EV038,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,94,Slope,1,0,108,comment,Slope: 2x-1,11,,skip_comment
+map,92,,94,Slope,1,1,108,comment,Width: 1/2,11,,skip_comment
+map,92,,94,Slope,1,2,108,comment,Offset: 16px,11,,skip_comment
+map,92,,131,EV131,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,20,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)",11,,skip_script
+map,92,,20,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)",11,,skip_script
+map,92,,20,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)",11,,skip_script
+map,92,,20,Vending machine 1,1,3,355,script,pbPokemonMart2([,11,,skip_script
+map,92,,20,Vending machine 1,1,4,655,script_cont,":FRESHWATER,",11,,skip_script
+map,92,,20,Vending machine 1,1,5,655,script_cont,":SODAPOP,",11,,skip_script
+map,92,,20,Vending machine 1,1,6,655,script_cont,:LEMONADE]),11,,skip_script
+map,92,,57,EV057,1,0,101,show_text,"Tengo entendido que el Líder de Gimnasio de este pueblo, usa Pokémon de tipo Lucha.",11,Saya memahami bahwa Gym Leader di kota ini menggunakan Pokémon tipe Fighting.,machine_draft
+map,92,,113,EV113,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,39,EV039,1,5,355,script,ChangeSpeed.new.pbChangeSpeed(0),11,,skip_script
+map,92,,39,EV039,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,76,EV076,1,0,355,script,Pokemon.play_cry(:SANDYGAST),11,,skip_script
+map,92,,132,EV132,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,21,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)",11,,skip_script
+map,92,,21,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)",11,,skip_script
+map,92,,21,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)",11,,skip_script
+map,92,,21,Vending machine 1,1,3,355,script,pbPokemonMart2([,11,,skip_script
+map,92,,21,Vending machine 1,1,4,655,script_cont,":FRESHWATER,",11,,skip_script
+map,92,,21,Vending machine 1,1,5,655,script_cont,":SODAPOP,",11,,skip_script
+map,92,,21,Vending machine 1,1,6,655,script_cont,:LEMONADE]),11,,skip_script
+map,92,,58,EV058,1,0,101,show_text,"Estoy regando mis plantitas, ¡con este clima crecen genial!",11,"Saya menyirami tanaman kecil saya, dalam cuaca seperti ini mereka tumbuh dengan baik!",machine_draft
+map,92,,95,Slope,1,0,108,comment,Slope: 2x-1,11,,skip_comment
+map,92,,95,Slope,1,1,108,comment,Width: 0/2,11,,skip_comment
+map,92,,95,Slope,1,2,108,comment,Offset: 16px,11,,skip_comment
+map,92,,40,EV040,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0),11,,skip_script
+map,92,,40,EV040,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,77,EV077,1,0,355,script,Pokemon.play_cry(:SANDYGAST),11,,skip_script
+map,92,,114,EV114,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,22,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)",11,,skip_script
+map,92,,22,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)",11,,skip_script
+map,92,,22,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)",11,,skip_script
+map,92,,22,Vending machine 1,1,3,355,script,pbPokemonMart2([,11,,skip_script
+map,92,,22,Vending machine 1,1,4,655,script_cont,":FRESHWATER,",11,,skip_script
+map,92,,22,Vending machine 1,1,5,655,script_cont,":SODAPOP,",11,,skip_script
+map,92,,22,Vending machine 1,1,6,655,script_cont,:LEMONADE]),11,,skip_script
+map,92,,59,EV059,1,0,355,script,Pokemon.play_cry(:BUDEW),11,,skip_script
+map,92,,96,Slope,1,0,355,script,pbBridgeOff,11,,skip_script
+map,92,,96,Slope,1,1,108,comment,Slope: -2x1,11,,skip_comment
+map,92,,96,Slope,1,2,108,comment,Width: 1/2,11,,skip_comment
+map,92,,96,Slope,1,3,108,comment,Offset: 16px,11,,skip_comment
+map,92,,133,EV133,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,115,EV115,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,23,EV023,1,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,60,EV060,1,0,101,show_text,¿Qué quieres? Estoy trabajando.,11,Apa yang kamu inginkan? saya sedang bekerja.,machine_draft
+map,92,,97,EV097,1,0,101,show_text,<b><ac>Ciudad Calentra</ac></b><ac>¡Una ciudad muy tranquila con playa!</ac><ac>,11,<b><ac>Ciudad Calentra</ac></b><ac>Kota yang sangat tenang dengan pantai!</ac><ac>,machine_draft
+map,92,,134,EV134,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,42,,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,79,EV079,1,0,101,show_text,Estoy entrenando para poder luchar contra el líder de esta ciudad.,11,Saya berlatih untuk bisa melawan pemimpin kota ini.,machine_draft
+map,92,,79,EV079,1,2,101,show_text,"No me molestes, por favor.",11,Tolong jangan ganggu aku.,machine_draft
+map,92,,116,EV116,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,24,EV024,1,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,61,EV061,1,0,101,show_text,Qué agotador tener que trabajar para la \c[2]Familia Real\c[0]...,11,Betapa melelahkannya harus bekerja untuk \c[2]Keluarga Kerajaan\c[0]...,machine_draft
+map,92,,135,EV135,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,43,,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,80,EV080,1,0,101,show_text,"Estudié para ser abogado. Exactamente, el que tengo aquí colgado.",11,"Saya belajar menjadi pengacara. Tepat sekali, yang saya gantung di sini.",machine_draft
+map,92,,117,EV117,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,25,evento playa,1,8,101,show_text,"\dxn[???]Muy bien Sawk, es hora de comprobar si eres capaz de usar nuestro movimiento clave.",11,"\dxn[???]Baiklah Sawk, saatnya memeriksa apakah Anda dapat menggunakan gerakan kunci kami.",machine_draft
+map,92,,25,evento playa,1,14,101,show_text,\f[Sawk]¡SAAAAWK!,11,\f[Sawk]SAAAAWK!,machine_draft
+map,92,,25,evento playa,1,17,101,show_text,"\dxn[???]Primero lo haré yo, fíjate bien en la posición. Controla tu alma, respira profundamente... y cuando tu energía llegue a tus puños...",11,"\dxn[???]Saya kerjakan dulu, perhatikan posisinya. Kendalikan jiwamu, bernapaslah dalam-dalam... dan ketika energimu mencapai kepalan tanganmu...",machine_draft
+map,92,,25,evento playa,1,21,101,show_text,\sh\dxn[???]¡PALMEO!,11,\sh\dxn[???]CLAP!,machine_draft
+map,92,,25,evento playa,1,48,101,show_text,"\dxn[???]Este movimiento es esencial para un luchador cuerpo a cuerpo, destruyes al rival desde dentro hasta el punto de paralizar su cuerpo. No es un golpe",11,"\dxn[???]Gerakan ini penting untuk petarung jarak dekat, kamu menghancurkan lawan dari dalam hingga melumpuhkan tubuhnya. Itu bukan sebuah pukulan",machine_draft
+map,92,,25,evento playa,1,49,401,show_text_cont,"simple, es un choque de energía.",11,"Sederhananya, ini adalah kejutan energi.",machine_draft
+map,92,,25,evento playa,1,58,101,show_text,"\dxn[???]Es tu turno, demuéstrame lo mucho que has mejorado.",11,"\dxn[???]Sekarang giliran Anda, tunjukkan seberapa banyak kemajuan Anda.",machine_draft
+map,92,,25,evento playa,1,67,101,show_text,\f[Sawk]¡SAAAAWK!,11,\f[Sawk]SAAAAWK!,machine_draft
+map,92,,25,evento playa,1,90,101,show_text,\f[ditto000]¡DITTO!,11,\f[ditto000]DITTO!,machine_draft
+map,92,,25,evento playa,1,115,101,show_text,\dxn[???]¡¿Cómo?! ¡¿Se puede saber de dónde ha salido este Ditto?!,11,\dxn[???]Bagaimana?! Bisakah Anda mengetahui dari mana asal Ditto ini?!,machine_draft
+map,92,,25,evento playa,1,119,101,show_text,\sh\dxn[Rodolfo]¡Ey! ¿Qué estáis haciendo con mi Ditto? ¡Mocosos!,11,\sh\dxn[Rodolfo]Hai! Apa yang kamu lakukan dengan Ditto-ku? Anak nakal!,machine_draft
+map,92,,25,evento playa,1,129,101,show_text,\dxn[Rodolfo]¿No os da vergüenza tratar así a un Pokémon?,11,\dxn[Rodolfo]Apakah kamu tidak malu memperlakukan Pokémon seperti itu?,machine_draft
+map,92,,25,evento playa,1,135,101,show_text,\dxn[???]Espera... ¿Me acaba de llamar mocoso un crío?,11,\dxn[???]Tunggu... Apa ada anak yang baru saja menyebutku anak nakal?,machine_draft
+map,92,,25,evento playa,1,149,101,show_text,\wtnp[0]\dxn[???]¡Vuelve Sawk!\wt[10],11,\wtnp[0]\dxn[???]Sawk kembali!\wt[10],machine_draft
+map,92,,25,evento playa,1,155,101,show_text,"\wtnp[0]\dxn[Rodolfo]¡Ditto, ven tú también!\wt[10]",11,"\wtnp[0]\dxn[Rodolfo]Ditto, datang juga!\wt[10]",machine_draft
+map,92,,25,evento playa,1,172,101,show_text,\dxn[Rodolfo]¿Cómo te atreves a golpear a mi Pokémon?,11,\dxn[Rodolfo]Beraninya kamu memukul Pokémon saya?,machine_draft
+map,92,,25,evento playa,1,176,101,show_text,\dxn[???]Esto... Fue sin querer.,11,\dxn[???]Ini... Itu tidak disengaja.,machine_draft
+map,92,,25,evento playa,1,180,101,show_text,"\dxn[???]Sawk y yo estábamos entrenando, no sabíamos que esa roca era tu Ditto.",11,"\dxn[???]Sawk dan saya sedang berlatih, kami tidak tahu bahwa rock adalah Ditto Anda.",machine_draft
+map,92,,25,evento playa,1,185,101,show_text,\dxn[???]De hecho... ¿Se puede saber cómo llegó a la roca en medio del mar?,11,\dxn[???]Sebenarnya... Bisakah kita mengetahui bagaimana ia bisa sampai ke batu karang di tengah laut?,machine_draft
+map,92,,25,evento playa,1,189,101,show_text,\dxn[Rodolfo]A Ditto le gusta salir corriendo y convertirse en cosas.,11,\dxn[Rodolfo]Ditto suka berlarian dan berubah menjadi benda.,machine_draft
+map,92,,25,evento playa,1,194,101,show_text,\sh\dxn[Rodolfo]Y por haber tocado a mi Ditto... ¡Nuestra furia caerá sobre ti!,11,\sh\dxn[Rodolfo]Dan karena telah menyentuh Ditto-ku... Kemarahan kami akan menimpamu!,machine_draft
+map,92,,25,evento playa,1,199,101,show_text,\dxn[Rodolfo]¡Adelante Ditto! ¡Conviértete en un Pokémon poderoso!,11,\dxn[Rodolfo]Lakukan Hal yang Sama! Menjadi Pokémon yang kuat!,machine_draft
+map,92,,25,evento playa,1,212,101,show_text,\f[sawk]¡SAWK!,11,\f[sawk]GERGAJI!,machine_draft
+map,92,,25,evento playa,1,216,101,show_text,"\dxn[Rodolfo]¡Ya que Ditto ha visto a Sawk, puede convertirse en él, estás acabado!",11,"\dxn[Rodolfo]Karena Ditto melihat Sawk, dia bisa berubah menjadi dia, selesai!",machine_draft
+map,92,,25,evento playa,1,222,101,show_text,\dxn[???]Mocoso... ¿Me estás retando? ¿Es una broma?,11,\dxn[???]Bocah... Apakah kamu menantangku? Itu hanya lelucon?,machine_draft
+map,92,,25,evento playa,1,230,101,show_text,\f[lucario000]¡LUCARIO!,11,\f[lucario000]LUCARIO!,machine_draft
+map,92,,25,evento playa,1,235,101,show_text,"\sh\dxn[Rodolfo]¡WAAAAH! ¡Un Lucario, este tío va en serio!",11,"\sh\dxn[Rodolfo]WAAAAH! Lucario, orang ini serius!",machine_draft
+map,92,,25,evento playa,1,267,101,show_text,\sh\dxn[Rodolfo]¡BUAAAAAAA! ¡Es \PN! ¡Sube Ditto!,11,\sh\dxn[Rodolfo]WOOOOOO! Ini \PN! Unggah Ditto!,machine_draft
+map,92,,25,evento playa,1,301,101,show_text,\dxn[???]¿Y tú quién eres?,11,\dxn[???]Dan siapa kamu?,machine_draft
+map,92,,25,evento playa,1,306,101,show_text,\dxn[Rodolfo]¡Es un Entrenador Pokémon! ¡Estás acabado!,11,\dxn[Rodolfo]Ini adalah Pelatih Pokémon! Anda sudah selesai!,machine_draft
+map,92,,25,evento playa,1,309,101,show_text,\dxn[Rodolfo]¡Es una Entrenadora Pokémon! ¡Estás acabado!,11,\dxn[Rodolfo]Dia adalah Pelatih Pokémon! Anda sudah selesai!,machine_draft
+map,92,,25,evento playa,1,318,101,show_text,\dxn[Rodolfo]¡Ahora no tendrás ninguna oportunidad! ¡Te has metido con la persona más fuerte del mundo (yo) y \PN!,11,\dxn[Rodolfo]Sekarang Anda tidak akan punya peluang! Anda telah mengacaukan orang terkuat di dunia (saya) dan \PN!,machine_draft
+map,92,,25,evento playa,1,322,101,show_text,"\sh\dxn[Rodolfo]¡Adelante, \PN! ¡Ataca!",11,"\sh\dxn[Rodolfo]Silakan, \PN! Menyerang!",machine_draft
+map,92,,25,evento playa,1,332,101,show_text,\sh\dxn[Rodolfo]¡Oye! ¡¿Qué estás haciendo?!,11,\sh\dxn[Rodolfo]Hai! Apa yang sedang kamu lakukan?!,machine_draft
+map,92,,25,evento playa,1,346,102,choices,I think you should leave.,11,Saya pikir kamu harus pergi.,machine_draft
+map,92,,25,evento playa,1,346,102,choices,It'is better for you to leave.,11,Lebih baik kamu pergi.,machine_draft
+map,92,,25,evento playa,1,347,402,choice_branch,I think you should leave.,11,Saya pikir kamu harus pergi.,machine_draft
+map,92,,25,evento playa,1,349,402,choice_branch,It'is better for you to leave.,11,Lebih baik kamu pergi.,machine_draft
+map,92,,25,evento playa,1,367,101,show_text,"\dxn[Rodolfo]¡Está bien, te librarás de mí por ahora, pero me vengaré!",11,"\dxn[Rodolfo]Oke, Anda akan menyingkirkan saya untuk saat ini, tapi saya akan membalas dendam!",machine_draft
+map,92,,25,evento playa,1,373,101,show_text,"\dxn[Rodolfo]¡Mientras tanto lo dejo en tus manos, \PN! ¡Mucha suerte!",11,"\dxn[Rodolfo]Sementara itu saya serahkan di tangan Anda, \PN! Semoga beruntung!",machine_draft
+map,92,,25,evento playa,1,419,101,show_text,"\dxn[???]En fin, qué más dará, es solo un niño.",11,"\dxn[???]Nah, apa bedanya, dia masih anak-anak.",machine_draft
+map,92,,25,evento playa,1,424,101,show_text,"\dxn[???]¿Y qué te trae por aquí? ¿Eres un Entrenador, cierto?",11,"\dxn[???]Dan apa yang membawamu ke sini? Anda seorang Pelatih, bukan?",machine_draft
+map,92,,25,evento playa,1,427,101,show_text,"\dxn[???]¿Y qué te trae por aquí? ¿Eres una Entrenadora, cierto?",11,"\dxn[???]Dan apa yang membawamu ke sini? Anda seorang Pelatih, bukan?",machine_draft
+map,92,,25,evento playa,1,438,101,show_text,\f[riolu002]¡RIOLU!,11,\f[riolu002]RIOLU!,machine_draft
+map,92,,25,evento playa,1,454,101,show_text,\dxn[???]¡Vaya! ¿Tienes un Riolu?,11,\dxn[???]Wow! Apakah kamu punya Riolu?,machine_draft
+map,92,,25,evento playa,1,475,101,show_text,\dxn[???]Parece que tu Riolu quería saludar a mi Lucario.,11,\dxn[???]Sepertinya Riolu Anda ingin menyapa Lucario saya.,machine_draft
+map,92,,25,evento playa,1,479,101,show_text,\f[lucario001]¡LUCARIO!,11,\f[lucario001]LUCARIO!,machine_draft
+map,92,,25,evento playa,1,482,101,show_text,\dxn[???]Lucario es la forma evolucionada de Riolu. Evoluciona cuando el aprecio que siente por su entrenador es tan grande que siente la necesidad de ir más,11,\dxn[???]Lucario adalah bentuk evolusi dari Riolu. Hal ini berkembang ketika penghargaan yang Anda rasakan terhadap pelatih Anda begitu besar sehingga Anda merasa perlu untuk melangkah lebih jauh.,machine_draft
+map,92,,25,evento playa,1,483,401,show_text_cont,allá de sus límites físicos.,11,melampaui batas fisiknya.,machine_draft
+map,92,,25,evento playa,1,488,101,show_text,"\dxn[???]Veo que estás cuidando de tu Riolu como se debe, parece bastante feliz.",11,"\dxn[???]Saya melihat Anda merawat Riolu Anda dengan baik, dia tampak cukup bahagia.",machine_draft
+map,92,,25,evento playa,1,492,101,show_text,"\dxn[???]Por cierto, se me ha olvidado presentarme. Soy Yang Xiao, el Líder de Gimnasio de <b>Ciudad Calentra</b>. Tu nombre es \PN... ¿Me equivoco?",11,"\dxn[???]Ngomong-ngomong, saya lupa memperkenalkan diri. Saya Yang Xiao, Pemimpin Gym <b>Calentra City</b>. Nama Anda \PN... Apakah saya salah?",machine_draft
+map,92,,25,evento playa,1,496,101,show_text,\dxn[Yang Xiao]¿Qué te trae por esta ciudad? No os había visto nunca por aquí.,11,\dxn[Yang Xiao]Apa yang membawamu ke kota ini? Aku belum pernah melihatmu di sini sebelumnya.,machine_draft
+map,92,,25,evento playa,1,499,102,choices,I want to be a Pkmn Master,11,Saya ingin menjadi Master Pkmn,machine_draft
+map,92,,25,evento playa,1,499,102,choices,I wanna challenge the Gym.,11,Saya ingin menantang Gym.,machine_draft
+map,92,,25,evento playa,1,500,402,choice_branch,I want to be a Pkmn Master,11,Saya ingin menjadi Master Pkmn,machine_draft
+map,92,,25,evento playa,1,502,402,choice_branch,I wanna challenge the Gym.,11,Saya ingin menantang Gym.,machine_draft
+map,92,,25,evento playa,1,509,101,show_text,"\dxn[Yang Xiao]Así que estás reuniendo las 8 medallas de gimnasio para presentarte a la Liga de este año y hacerte un hueco en este mundillo, supongo.",11,"\dxn[Yang Xiao]Jadi Anda mengumpulkan 8 medali olahraga untuk memasuki Liga tahun ini dan membuat tempat bagi diri Anda sendiri di dunia ini, saya rasa.",machine_draft
+map,92,,25,evento playa,1,516,101,show_text,"\dxn[Yang Xiao]Aún así, lamento decirte que no estás listo para enfrentarme, ni siquiera conoces el movimiento \c[2]Palmeo\c[0], esencial para los \c[2]Cultivadores",11,"\dxn[Yang Xiao]Namun, dengan menyesal saya harus memberi tahu Anda bahwa Anda belum siap menghadapi saya, Anda bahkan tidak tahu langkahnya \c[2]Palmeo\c[0], penting untuk \c[2]Penumbuh",machine_draft
+map,92,,25,evento playa,1,517,401,show_text_cont,del Alma\c[0].,11,dari Jiwa\c[0].,machine_draft
+map,92,,25,evento playa,1,520,101,show_text,"\dxn[Yang Xiao]Aún así, lamento decirte que no estás lista para enfrentarme, ni siquiera conoces el movimiento \c[2]Palmeo\c[0], esencial para los \c[2]Cultivadores",11,"\dxn[Yang Xiao]Namun, dengan menyesal saya harus memberi tahu Anda bahwa Anda belum siap menghadapi saya, Anda bahkan tidak tahu langkahnya \c[2]Palmeo\c[0], penting untuk \c[2]Penumbuh",machine_draft
+map,92,,25,evento playa,1,521,401,show_text_cont,del Alma\c[0].,11,dari Jiwa\c[0].,machine_draft
+map,92,,25,evento playa,1,527,101,show_text,"\dxn[Yang Xiao]Te recomiendo que vayas a <b>Ciudad Verderón</b> a librar un combate de Gimnasio, es conocido por ser muy... ""salvaje"".",11,"\dxn[Yang Xiao]Saya menyarankan Anda pergi ke <b>Ciudad Verderón</b> untuk bertarung di Gym, yang dikenal sangat... ""liar"".",machine_draft
+map,92,,25,evento playa,1,531,101,show_text,\dxn[Yang Xiao]Mejorarás muchísimo si eres capaz de vencerle.,11,\dxn[Yang Xiao]Kamu akan berkembang pesat jika mampu mengalahkannya.,machine_draft
+map,92,,25,evento playa,1,536,101,show_text,\dxn[Yang Xiao]¡Por cierto! Ya que estás... ¿Podrías hacerme un favor?,11,\dxn[Yang Xiao]Omong-omong! Selagi Anda melakukannya... Bisakah Anda membantu saya?,machine_draft
+map,92,,25,evento playa,1,547,101,show_text,\dxn[Yang Xiao]Tengo a mi maestro en <b>Pueblo Jilguero</b>. ¿Te importaría entregarle una carta de mi parte?,11,\dxn[Yang Xiao]Saya memiliki guru saya di <b>Pueblo Jilguero</b>. Maukah kamu memberinya surat dariku?,machine_draft
+map,92,,25,evento playa,1,551,101,show_text,\dxn[Yang Xiao]Haz lo que dije y después de eso te daré la oportunidad de combatir contra mí. ¿De acuerdo?,11,\dxn[Yang Xiao]Lakukan apa yang saya katakan dan setelah itu saya akan memberi Anda kesempatan untuk melawan saya. OKE?,machine_draft
+map,92,,25,evento playa,1,562,101,show_text,"\dxn[Yang Xiao]Muchas gracias de antemano. Ahora, si me disculpas, volveré al gimnasio Pokémon. Un chaval ha venido esta mañana a retarme y hay que",11,"\dxn[Yang Xiao]Terima kasih banyak sebelumnya. Sekarang, permisi, saya akan kembali ke gym Pokémon. Seorang anak datang pagi ini untuk menantang saya dan kami harus melakukannya",machine_draft
+map,92,,25,evento playa,1,563,401,show_text_cont,reconstruir las paredes.,11,membangun kembali tembok.,machine_draft
+map,92,,25,evento playa,1,574,101,show_text,"\dxn[Yang Xiao]No te preocupes, lo entenderás cuando lo veas con tus propios ojos.",11,"\dxn[Yang Xiao]Jangan khawatir, Anda akan mengerti jika Anda melihatnya dengan mata kepala sendiri.",machine_draft
+map,92,,25,evento playa,1,584,101,show_text,"\dxn[Yang Xiao]Nos vemos pronto, \PN.",11,"\dxn[Yang Xiao]Sampai jumpa lagi, \PN.",machine_draft
+map,92,,25,evento playa,1,615,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)",11,,skip_script
+map,92,,25,evento playa,1,618,355,script,pbAddSocialLink(:YANGXIAO),11,,skip_script
+map,92,,25,evento playa,1,619,355,script,"pbGainSocialLinkBond(:YANGXIAO, 1)",11,,skip_script
+map,92,,62,EV062,1,0,101,show_text,Y lo bien que estaría yo tomando el sol aquí... Quizás me acabe mudando a esta parte de la región.,11,Dan betapa menyenangkannya saya berjemur di sini... Mungkin saya akan pindah ke bagian wilayah ini.,machine_draft
+map,92,,136,EV136,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,44,,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,81,EV081,1,0,101,show_text,"Me gusta venir por la noche a ver el mar, me recuerda a ella...",11,"Saya suka datang di malam hari untuk melihat laut, itu mengingatkan saya padanya...",machine_draft
+map,92,,118,EV118,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,63,EV063,1,0,101,show_text,"Qué calor, por dios, encima tenemos que hacer vigilancia por esta zona.",11,"Panas sekali, insya Allah, apalagi di kawasan ini kita harus waspada.",machine_draft
+map,92,,100,EV100,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,137,EV137,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,45,,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,82,EV082,1,0,101,show_text,"Llevo todo el día en casa con el aire acondicionado puesto, he salido porque sino me acabaré resfriando...",11,"Saya berada di rumah sepanjang hari dengan AC menyala, saya keluar karena kalau tidak saya akan masuk angin...",machine_draft
+map,92,,119,EV119,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,64,EV064,1,0,101,show_text,Estamos buscando a una señorita de unos 23 años. ¿Has visto a alguien así?,11,Kami mencari seorang wanita muda berusia sekitar 23 tahun. Pernahkah Anda melihat orang seperti itu?,machine_draft
+map,92,,101,EV101,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,138,EV138,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,46,EV046,1,0,101,show_text,<b><ac>Ciudad Calentra</ac></b><ac>¡Una ciudad muy tranquila con playa!</ac><ac>,11,<b><ac>Ciudad Calentra</ac></b><ac>Kota yang sangat tenang dengan pantai!</ac><ac>,machine_draft
+map,92,,83,EV083,1,0,101,show_text,"La región de Akebia tiene muchos pueblos y ciudades tranquilas, pero Ciudad Lugano es todo lo contrario.",11,"Wilayah Akebia memiliki banyak kota yang tenang, namun Kota Lugano justru sebaliknya.",machine_draft
+map,92,,120,EV120,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,9,EV009,1,4,355,script,"pbZoomMap(1,1,zoom=""out"")",11,,skip_script
+map,92,,9,EV009,1,5,355,script,"pbRemoveDependency2(""FollowerPkmn"")",11,,skip_script
+map,92,,65,EV065,1,0,101,show_text,"Me estiraría en una de esas tumbonas, pero no sé yo si habrá que pagar...",11,"Saya akan berbaring di salah satu kursi santai itu, tapi saya tidak tahu apakah saya harus membayar...",machine_draft
+map,92,,102,EV102,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,139,EV139,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,84,EV084,1,0,101,show_text,"Me gustaría ir a \c[2]Ciudad Cardenal\c[0], dicen que es la ciudad más importante del sur de la región. Le llaman \c[2]la ciudad del agua\c[0].",11,"Saya ingin pergi ke \c[2]Ciudad Cardenal\c[0], menurut mereka ini adalah kota terpenting di selatan wilayah tersebut. Mereka menyebutnya \c[2]kota air\c[0].",machine_draft
+map,92,,121,EV121,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,10,EV010,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,47,EV047,1,0,101,show_text,<b><ac>Ciudad Calentra</ac></b><ac>¡Una ciudad muy tranquila con playa!</ac><ac>,11,<b><ac>Ciudad Calentra</ac></b><ac>Kota yang sangat tenang dengan pantai!</ac><ac>,machine_draft
+map,92,,103,EV103,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,140,EV140,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,29,EV029,1,0,101,show_text,<b><ac>LÍDER DE GIMNASIO</ac></b><ac>¡Demuestra la fuerza de tu alma!</ac><ac>By: Yang Xiao</ac>,11,<b><ac>GYM LEADER</ac></b><ac>Tunjukkan kekuatan jiwamu!</ac><ac>Oleh: Yang Xiao</ac>,machine_draft
+map,92,,66,EV066,1,0,101,show_text,No sé si meterme en el agua... Debe estar muy fría.,11,Saya tidak tahu apakah harus masuk ke dalam air... Pasti sangat dingin.,machine_draft
+map,92,,48,Slope,1,0,108,comment,Slope: -2x-1,11,,skip_comment
+map,92,,48,Slope,1,1,108,comment,Width: 1/2,11,,skip_comment
+map,92,,48,Slope,1,2,108,comment,Offset: 16px,11,,skip_comment
+map,92,,85,EV085,1,0,101,show_text,¡Qué bien huelen las flores!,11,Betapa harumnya bunga-bunga itu!,machine_draft
+map,92,,141,EV141,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,67,EV067,1,0,101,show_text,"¡Mira, he hecho un castillo de arena!",11,"Lihat, aku membuat istana pasir!",machine_draft
+map,92,,67,EV067,1,2,102,choices,So cool!,11,Keren sekali!,machine_draft
+map,92,,67,EV067,1,2,102,choices,What nonsense.,11,Omong kosong.,machine_draft
+map,92,,67,EV067,1,3,402,choice_branch,So cool!,11,Keren sekali!,machine_draft
+map,92,,67,EV067,1,4,101,show_text,"¡Muchas gracias! Mira, te voy a dar esto para que puedas hacer los tuyos.",11,"Terima kasih banyak! Dengar, aku akan memberimu ini agar kamu bisa membuatnya sendiri.",machine_draft
+map,92,,67,EV067,1,5,355,script,pbReceiveItem(:SOFTSAND),11,,skip_script
+map,92,,67,EV067,1,8,402,choice_branch,What nonsense.,11,Omong kosong.,machine_draft
+map,92,,67,EV067,1,9,101,show_text,Menudo idiota.,11,Bodoh sekali.,machine_draft
+map,92,,67,EV067,2,0,101,show_text,¡Inténtalo tú ahora!,11,Cobalah sekarang!,machine_draft
+map,92,,104,EV104,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,49,Slope,1,0,108,comment,Slope: -2x-1,11,,skip_comment
+map,92,,49,Slope,1,1,108,comment,Width: 0/2,11,,skip_comment
+map,92,,49,Slope,1,2,108,comment,Offset: 16px,11,,skip_comment
+map,92,,86,EV086,1,0,101,show_text,"Había venido a realizar un combate de Gimnasio, pero al parecer se está reconstruyendo...",11,"Dia datang untuk mengadakan pertandingan Gym, tapi tampaknya gym itu sedang dibangun kembali...",machine_draft
+map,92,,86,EV086,1,1,101,show_text,A saber por qué será.,11,Siapa yang tahu mengapa hal itu terjadi.,machine_draft
+map,92,,31,EV031,1,0,101,show_text,"Lo sentimos, el gimnasio está en reconstrucción. Si necesitas ver al líder de gimnasio, debe estar en la playa entrenando.",11,"Maaf, gym sedang dalam rekonstruksi. Jika Anda perlu menemui pemimpin gym, dia harus berada di pantai untuk berlatih.",machine_draft
+map,92,,31,EV031,2,0,101,show_text,"Lo sentimos, el gimnasio está en reconstrucción. Vuelve en otro momento.",11,"Maaf, gym sedang dalam rekonstruksi. Kembalilah lain kali.",machine_draft
+map,92,,31,EV031,4,0,101,show_text,"Lo sentimos, el gimnasio está cerrado temporalmente.",11,"Maaf, gym tutup sementara.",machine_draft
+map,92,,68,EV068,1,0,101,show_text,"Vengo de noche a pescar un poco, aquí salen algunos Pokémon de agua salada.",11,"Saya datang pada malam hari untuk memancing sedikit, beberapa Pokémon air asin muncul di sini.",machine_draft
+map,92,,105,EV105,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,142,EV142,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,50,EV050,1,2,101,show_text,\dxn[???]¡\PN!,11,\dxn[???]\PN!,machine_draft
+map,92,,50,EV050,1,25,101,show_text,"\sh\dxn[Eda]¡Buff, vaya pateada me he pegado desde la Cueva Reliquia!",11,"\sh\dxn[Eda]Wow, betapa hebatnya yang saya dapat dari Gua Relik!",machine_draft
+map,92,,50,EV050,1,30,101,show_text,\dxn[Eda]¿Dónde te metiste? ¿Te perdiste por el camino?,11,\dxn[Eda]Kemana saja kamu pergi? Apakah Anda tersesat di tengah jalan?,machine_draft
+map,92,,50,EV050,1,35,101,show_text,"\dxn[Eda]Yo estuve buscando a la profesora Álama, y no la encuentro por ninguna parte... Espero que esté bien.",11,"\dxn[Eda]Saya sedang mencari Profesor Álama, dan saya tidak dapat menemukannya di mana pun... Saya harap dia baik-baik saja.",machine_draft
+map,92,,50,EV050,1,42,101,show_text,\dxn[Eda]¿Y Darek? ¿Dónde se ha metido ese chico?,11,\dxn[Eda]Dan Darek? Kemana perginya anak itu?,machine_draft
+map,92,,50,EV050,1,52,101,show_text,\sh\dxn[Eda]¿Se puede saber por qué siempre vais por delante de mí? ¡No es justo!,11,\sh\dxn[Eda]Bolehkah saya tahu mengapa Anda selalu mendahului saya? Ini tidak adil!,machine_draft
+map,92,,50,EV050,1,57,101,show_text,"\dxn[Eda]En fin, espero que al menos no hayas estado divagando por ahí sin hacer nada. Habrás entrenado algo, supongo.",11,"\dxn[Eda]Bagaimanapun, saya harap setidaknya Anda tidak berkeliaran tanpa melakukan apa pun. Saya kira Anda pasti sudah melatihnya.",machine_draft
+map,92,,50,EV050,1,66,101,show_text,\dxn[Eda]¡Vamos a ver lo mucho que has progresado desde nuestro último combate juntos en Ciudad Verderón!,11,\dxn[Eda]Mari kita lihat seberapa banyak kemajuan Anda sejak pertarungan terakhir kita bersama di Greenfinch City!,machine_draft
+map,92,,50,EV050,1,69,101,show_text,\dxn[Eda]¡Chic!,11,\dxn[Eda]Cantik!,machine_draft
+map,92,,50,EV050,1,79,101,show_text,\f[combusken000]¡KEN!,11,\f[combusken000]KEN!,machine_draft
+map,92,,50,EV050,1,82,101,show_text,"\sh\dxn[Eda]¡Disfrutemos de un combate, antes de enfrentarnos al Líder de Gimnasio!",11,"\sh\dxn[Eda]Mari kita nikmati pertarungannya, sebelum menghadapi Gym Leader!",machine_draft
+map,92,,50,EV050,1,97,101,show_text,\dxn[Eda]¡Eres más fuerte de lo que imaginaba! ¿Qué ha pasado mientras no estábamos juntos?,11,\dxn[Eda]Kamu lebih kuat dari yang saya bayangkan! Apa yang terjadi saat kita tidak bersama?,machine_draft
+map,92,,50,EV050,1,101,101,show_text,"\dxn[Eda]¡Buen intento, Chic, muchas gracias!",11,"\dxn[Eda]Usaha yang bagus, Chic, terima kasih banyak!",machine_draft
+map,92,,50,EV050,1,107,101,show_text,"\dxn[Eda]Te dejo retar al Líder de Gimnasio. Yo me voy a refrescar un rato en la playa, no siempre es entrenar y entrenar.",11,"\dxn[Eda]Saya mengizinkan Anda menantang Gym Leader. Saya akan menenangkan diri sebentar di pantai, ini tidak selalu tentang latihan dan latihan.",machine_draft
+map,92,,50,EV050,1,112,101,show_text,"\dxn[Eda]Iré a retarle cuando hayas acabado. ¡Mucha suerte, \PN!",11,"\dxn[Eda]Saya akan menantangnya setelah Anda selesai. Semoga beruntung, \PN!",machine_draft
+map,92,,106,EV106,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,69,EV069,1,0,101,show_text,"Tengo a mi hijo jugando en la playa, a ver si con tanto construir castillos de arena, se acaba haciendo arquitecto.",11,"Saya mengajak anak saya bermain di pantai, untuk melihat apakah dengan banyak membangun istana pasir dia akhirnya menjadi seorang arsitek.",machine_draft
+map,92,,32,EV032,1,0,101,show_text,"Lo sentimos, el gimnasio está en reconstrucción. Si necesitas ver al líder de gimnasio, debe estar en la playa entrenando.",11,"Maaf, gym sedang dalam rekonstruksi. Jika Anda perlu menemui pemimpin gym, dia harus berada di pantai untuk berlatih.",machine_draft
+map,92,,32,EV032,2,0,101,show_text,"Lo sentimos, el gimnasio está en reconstrucción. Vuelve en otro momento.",11,"Maaf, gym sedang dalam rekonstruksi. Kembalilah lain kali.",machine_draft
+map,92,,32,EV032,4,0,101,show_text,"Lo sentimos, el gimnasio está cerrado temporalmente.",11,"Maaf, gym tutup sementara.",machine_draft
+map,92,,143,EV143,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,88,EV088,1,18,101,show_text,\dxn[Darek](¿Cómo puede ser tan fuerte?),11,\dxn[Darek](Bagaimana dia bisa sekuat itu?),machine_draft
+map,92,,88,EV088,1,22,101,show_text,"\dxn[???]Ya te dije que no hacía falta ni que entraras al Gimnasio, no tienes el nivel suficiente.",11,"\dxn[???]Saya sudah bilang bahwa Anda bahkan tidak perlu masuk ke Gym, level Anda tidak cukup.",machine_draft
+map,92,,88,EV088,1,26,101,show_text,"\dxn[???]No dejas de golpear al azar, tener un movimiento potente no te asegura la victoria. No puedes ir atacando a ciegas así como así.",11,"\dxn[???]Anda tidak berhenti memukul secara acak, memiliki gerakan yang kuat tidak menjamin kemenangan. Anda tidak bisa menyerang secara membabi buta begitu saja.",machine_draft
+map,92,,88,EV088,1,31,101,show_text,"\sh\dxn[Darek]¡Deja de decirme lo que debo hacer, llevo años estudiando para esto!",11,"\sh\dxn[Darek]Berhenti memberi tahu saya apa yang harus saya lakukan, saya sudah mempelajarinya selama bertahun-tahun!",machine_draft
+map,92,,88,EV088,1,36,101,show_text,\dxn[???]¿Estudiar? ¿Te crees que eso te dará ventaja?,11,\dxn[???]Belajar? Apakah menurut Anda hal itu akan memberi Anda keuntungan?,machine_draft
+map,92,,88,EV088,1,40,101,show_text,\dxn[???]Se nota que acabas de empezar a ser Entrenador Pokémon.,11,\dxn[???]Ini menunjukkan bahwa Anda baru saja mulai menjadi Pelatih Pokémon.,machine_draft
+map,92,,88,EV088,1,44,101,show_text,\dxn[???]Te queda mucho por aprender.,11,\dxn[???]Masih banyak yang harus kamu pelajari.,machine_draft
+map,92,,88,EV088,1,48,101,show_text,"\dxn[???]Y no sólo es eso. Para poder ganarme no sólo debes mejorar tu técnica, sino que tienes que cambiar tú como tal.",11,"\dxn[???]Dan bukan hanya itu. Untuk mengalahkan saya, Anda tidak hanya harus meningkatkan teknik Anda, namun Anda juga harus mengubah diri Anda sendiri.",machine_draft
+map,92,,88,EV088,1,53,101,show_text,\dxn[???]No me parece normal que te enfades con tu Pokémon por tu incapacidad.,11,\dxn[???]Rasanya tidak normal bagi saya jika Anda marah pada Pokémon karena ketidakmampuan Anda.,machine_draft
+map,92,,88,EV088,1,58,101,show_text,"\sh\dxn[Darek]¡Tch, no me des lecciones!",11,"\sh\dxn[Darek]Cih, jangan menguliahi aku!",machine_draft
+map,92,,88,EV088,1,65,101,show_text,"\dxn[???]No aparezcas de nuevo por aquí, no al menos hasta que hayas cambiado tu actitud. Puedes retirarte.",11,"\dxn[???]Jangan muncul lagi di sini, setidaknya sampai Anda mengubah sikap Anda. Anda dapat menarik diri.",machine_draft
+map,92,,88,EV088,1,69,101,show_text,"\dxn[Darek]Ya verás, la próxima vez no será igual, quedas avisado.",11,"\dxn[Darek]Anda akan lihat, lain kali keadaannya tidak akan sama, Anda sudah diperingatkan.",machine_draft
+map,92,,88,EV088,1,91,101,show_text,\dxn[???]¿Se puede saber de dónde ha salido este chico? Ese comportamiento no es normal.,11,\dxn[???]Dapatkah kita mengetahui dari mana anak ini berasal? Perilaku itu tidak normal.,machine_draft
+map,92,,88,EV088,1,95,101,show_text,\dxn[???]¿Qué tipo de infancia ha debido de vivir?,11,\dxn[???]Masa kecil seperti apa yang harus kamu jalani?,machine_draft
+map,92,,88,EV088,1,102,101,show_text,"\dxn[???]En fin, no es cosa mía, suficiente tengo con investigar a la gente esa \c[2]vestida de negro\c[0]...",11,"\dxn[???]Lagi pula, itu bukan urusan saya, saya punya cukup uang untuk menyelidiki orang-orang itu \c[2]berpakaian hitam\c[0]...",machine_draft
+map,92,,88,EV088,1,107,101,show_text,"\dxn[???]Qué estrés de día, por favor... Me voy a la playa a entrenar un poco el alma.",11,"\dxn[???]Hari yang menegangkan, tolong... Aku pergi ke pantai untuk sedikit melatih jiwaku.",machine_draft
+map,92,,88,EV088,1,123,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)",11,,skip_script
+map,92,,51,EDA,2,1,101,show_text,"\dxn[Eda]¿Fuiste a retar al líder de gimnasio? Yo estoy aquí, relajada. Necesito tener un buen mental para enfrentarme al líder de gimnasio.",11,"\dxn[Eda]Apakah Anda menantang pemimpin gym? Saya di sini, santai. Saya harus memiliki mental yang baik untuk menghadapi pemimpin sasana.",machine_draft
+map,92,,51,EDA,3,5,101,show_text,"\dxn[Eda]¡Hey, \PN! ¿Ya retaste al líder de gimnasio?",11,"\dxn[Eda]Hai, \PN! Apakah Anda sudah menantang pemimpin gym?",machine_draft
+map,92,,51,EDA,3,10,101,show_text,"\dxn[Eda]¿Ganaste? ¡Enhorabuena, sabía que lo lograrías!",11,"\dxn[Eda]Apakah kamu menang? Selamat, saya tahu Anda akan berhasil!",machine_draft
+map,92,,51,EDA,3,17,101,show_text,\sh\dxn[Eda]¿CÓMO? ¡¿HAN CERRADO EL GIMNASIO?!,11,\sh\dxn[Eda]BAGAIMANA? APAKAH MEREKA TUTUP GYM?!,machine_draft
+map,92,,51,EDA,3,21,101,show_text,\dxn[Eda]¿Y ahora qué hago yo?,11,\dxn[Eda]Dan sekarang apa yang harus saya lakukan?,machine_draft
+map,92,,51,EDA,3,25,101,show_text,\dxn[Eda]Supongo que le retaré en otro momento.,11,\dxn[Eda]Saya kira saya akan menantangnya lain kali.,machine_draft
+map,92,,51,EDA,3,30,101,show_text,\dxn[Eda]¿Ir a <b>Ciudad Cardenal</b>?,11,\dxn[Eda]Buka <b>Ciudad Cardenal</b>?,machine_draft
+map,92,,51,EDA,3,37,101,show_text,\sh\dxn[Eda]¿La profe está en problemas? ¿Qué me dices?,11,\sh\dxn[Eda]Apakah guru dalam kesulitan? Apa yang kamu katakan padaku?,machine_draft
+map,92,,51,EDA,3,43,101,show_text,(Le explicas todo lo ocurrido...),11,(Anda menjelaskan semua yang terjadi...),machine_draft
+map,92,,51,EDA,3,50,101,show_text,"\dxn[Eda]Entiendo, así que esas son las intenciones de la Familia Real.",11,"\dxn[Eda]Saya mengerti, jadi itulah niat Keluarga Kerajaan.",machine_draft
+map,92,,51,EDA,3,59,101,show_text,"\dxn[Eda]Parece que habrá que echar una mano, podemos quedarnos quietos.",11,"\dxn[Eda]Sepertinya kita harus mengulurkan tangan, kita bisa diam saja.",machine_draft
+map,92,,51,EDA,3,63,101,show_text,"\dxn[Eda]Habría que buscar a Darek y explicarle la situación, seguro que nos será de ayuda.",11,"\dxn[Eda]Kita harus mencari Darek dan menjelaskan situasinya kepadanya, dia pasti akan membantu kita.",machine_draft
+map,92,,51,EDA,3,67,101,show_text,"\dxn[Eda]Según el mapa, tendremos que ir al <b>Este</b> y pasar por <b>Ciudad Ninfa</b> para llegar hasta allá.",11,"\dxn[Eda]Menurut peta, kita harus pergi ke <b>East</b> dan melewati <b>Ciudad Ninfa</b> untuk sampai ke sana.",machine_draft
+map,92,,51,EDA,3,74,101,show_text,"\sh\dxn[Eda]¡Nos vemos entonces en dicha ciudad, \PN!",11,"\sh\dxn[Eda]Sampai jumpa di kota tersebut, \PN!",machine_draft
+map,92,,70,EV070,1,0,355,script,pbItemBall(:FRESHWATER),11,,skip_script
+map,92,,70,EV070,2,0,101,show_text,La papelera está vacía.,11,Tempat sampahnya kosong.,machine_draft
+map,92,,107,EV107,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,144,EV144,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,71,EV071,1,0,101,show_text,La papelera está vacía.,11,Tempat sampahnya kosong.,machine_draft
+map,92,,108,EV108,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,145,EV145,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,53,EV053,1,2,101,show_text,\dxn[???]¡\PN!,11,\dxn[???]\PN!,machine_draft
+map,92,,53,EV053,1,24,101,show_text,"\sh\dxn[Eda]¡Buff, vaya pateada me he pegado desde la Cueva Reliquia!",11,"\sh\dxn[Eda]Wow, betapa hebatnya yang saya dapat dari Gua Relik!",machine_draft
+map,92,,53,EV053,1,29,101,show_text,\dxn[Eda]¿Dónde te metiste? ¿Te perdiste por el camino?,11,\dxn[Eda]Kemana saja kamu pergi? Apakah Anda tersesat di tengah jalan?,machine_draft
+map,92,,53,EV053,1,34,101,show_text,"\dxn[Eda]Yo estuve buscando a la profesora Álama, y no la encuentro por ninguna parte... Espero que esté bien.",11,"\dxn[Eda]Saya sedang mencari Profesor Álama, dan saya tidak dapat menemukannya di mana pun... Saya harap dia baik-baik saja.",machine_draft
+map,92,,53,EV053,1,41,101,show_text,\dxn[Eda]¿Y Darek? ¿Dónde se ha metido ese chico?,11,\dxn[Eda]Dan Darek? Kemana perginya anak itu?,machine_draft
+map,92,,53,EV053,1,51,101,show_text,\sh\dxn[Eda]¿Se puede saber por qué siempre vais por delante de mí? ¡No es justo!,11,\sh\dxn[Eda]Bolehkah saya tahu mengapa Anda selalu mendahului saya? Ini tidak adil!,machine_draft
+map,92,,53,EV053,1,56,101,show_text,"\dxn[Eda]En fin, espero que al menos no hayas estado divagando por ahí sin hacer nada. Habrás entrenado algo, supongo.",11,"\dxn[Eda]Bagaimanapun, saya harap setidaknya Anda tidak berkeliaran tanpa melakukan apa pun. Saya kira Anda pasti sudah melatihnya.",machine_draft
+map,92,,53,EV053,1,65,101,show_text,\dxn[Eda]¡Vamos a ver lo mucho que has progresado desde nuestro último combate juntos en Ciudad Verderón!,11,\dxn[Eda]Mari kita lihat seberapa banyak kemajuan Anda sejak pertarungan terakhir kita bersama di Greenfinch City!,machine_draft
+map,92,,53,EV053,1,68,101,show_text,\dxn[Eda]¡Chic!,11,\dxn[Eda]Cantik!,machine_draft
+map,92,,53,EV053,1,78,101,show_text,\f[combusken000]¡KEN!,11,\f[combusken000]KEN!,machine_draft
+map,92,,53,EV053,1,81,101,show_text,"\sh\dxn[Eda]¡Disfrutemos de un combate, antes de enfrentarnos al Líder de Gimnasio!",11,"\sh\dxn[Eda]Mari kita nikmati pertarungannya, sebelum menghadapi Gym Leader!",machine_draft
+map,92,,53,EV053,1,96,101,show_text,\dxn[Eda]¡Eres más fuerte de lo que imaginaba! ¿Qué ha pasado mientras no estábamos juntos?,11,\dxn[Eda]Kamu lebih kuat dari yang saya bayangkan! Apa yang terjadi saat kita tidak bersama?,machine_draft
+map,92,,53,EV053,1,100,101,show_text,"\dxn[Eda]¡Buen intento, Chic, muchas gracias!",11,"\dxn[Eda]Usaha yang bagus, Chic, terima kasih banyak!",machine_draft
+map,92,,53,EV053,1,106,101,show_text,"\dxn[Eda]Te dejo retar al Líder de Gimnasio. Yo me voy a refrescar un rato en la playa, no siempre es entrenar y entrenar.",11,"\dxn[Eda]Saya mengizinkan Anda menantang Gym Leader. Saya akan menenangkan diri sebentar di pantai, ini tidak selalu tentang latihan dan latihan.",machine_draft
+map,92,,53,EV053,1,111,101,show_text,"\dxn[Eda]Iré a retarle cuando hayas acabado. ¡Mucha suerte, \PN!",11,"\dxn[Eda]Saya akan menantangnya setelah Anda selesai. Semoga beruntung, \PN!",machine_draft
+map,92,,109,EV109,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,72,EV072,1,0,355,script,"system(""start https://www.youtube.com/watch?v=w8MbR-No4X8"")",11,,skip_script
+map,92,,72,EV072,2,0,355,script,"system(""start https://www.youtube.com/watch?v=w8MbR-No4X8"")",11,,skip_script
+map,92,,35,EV035,1,0,101,show_text,"Mi hermana se cree que puede ganar, lo que no sabe es que Zangoose es mucho mejor que Seviper.",11,"Adikku berpikir dia bisa menang, yang dia tidak tahu adalah Zangoose jauh lebih baik daripada Seviper.",machine_draft
+map,92,,146,EV146,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,54,EV054,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0),11,,skip_script
+map,92,,54,EV054,1,39,101,show_text,"\dxn[Yang Xiao]En principio tu próxima parada es Ciudad Cardenal, si quieres seguir retando a los líderes de gimnasio.",11,"\dxn[Yang Xiao]Pada prinsipnya perhentian Anda berikutnya adalah Ciudad Cardenal, jika Anda ingin terus menantang para pemimpin gym.",machine_draft
+map,92,,54,EV054,1,43,101,show_text,"\dxn[Yang Xiao]He oído que la Familia Real va para allá. Ten mucho cuidado, no son trigo limpio. Intenta no meterte mucho en medio.",11,"\dxn[Yang Xiao]Saya mendengar bahwa Keluarga Kerajaan akan pergi ke sana. Berhati-hatilah, ini bukan gandum bersih. Cobalah untuk tidak terlalu menghalangi.",machine_draft
+map,92,,54,EV054,1,56,101,show_text,\sh\dxn[Yang Xiao]¿Cómo? ¿Ya has tenido contacto con ellos?,11,\sh\dxn[Yang Xiao]Bagaimana caranya? Apakah Anda sudah melakukan kontak dengan mereka?,machine_draft
+map,92,,54,EV054,1,60,101,show_text,\dxn[Yang Xiao]Sin duda eres toda una sorpresa...,11,\dxn[Yang Xiao]Anda tentu mengejutkan...,machine_draft
+map,92,,54,EV054,1,64,101,show_text,\dxn[Yang Xiao]Mi familia lleva mucho tiempo intentando cambiar el sistema actual.,11,\dxn[Yang Xiao]Keluarga saya telah lama mencoba mengubah sistem yang ada.,machine_draft
+map,92,,54,EV054,1,68,101,show_text,"\dxn[Yang Xiao]Mi abuelo, que pertence al Alto Mando, no puede revelarse así como así. Eso afectaría a su posición.",11,"\dxn[Yang Xiao]Kakek saya, yang merupakan anggota Komando Tinggi, tidak bisa mengungkapkan dirinya begitu saja. Itu akan mempengaruhi posisi Anda.",machine_draft
+map,92,,54,EV054,1,80,101,show_text,"\dxn[???]Así es, pero algo deberíamos hacer.",11,"\dxn[???]Benar, tapi kita harus melakukan sesuatu.",machine_draft
+map,92,,54,EV054,1,95,101,show_text,\dxn[Yang Xiao]¡Maestro!,11,\dxn[Yang Xiao]Tuan!,machine_draft
+map,92,,54,EV054,1,102,101,show_text,"\dxn[Yang Lao]\PN, ¿has conseguido proteger la lápida?",11,"\dxn[Yang Lao]\PN, apakah kamu sudah berhasil melindungi batu nisan tersebut?",machine_draft
+map,92,,54,EV054,1,113,101,show_text,"\dxn[Yang Lao]Hmm... Ya veo, conque han descifrado lo que pone.",11,"\dxn[Yang Lao]Hmm... Begitu, jadi mereka sudah mengerti maksudnya.",machine_draft
+map,92,,54,EV054,1,117,101,show_text,"\dxn[Yang Lao]Puede que la cosa se ponga seria, sabrán que su lugar actual de residencia, es \c[2]Ciudad Cardenal\c[0].",11,"\dxn[Yang Lao]Segalanya mungkin menjadi serius, mereka akan mengetahui bahwa tempat tinggal Anda saat ini adalah \c[2]Ciudad Cardenal\c[0].",machine_draft
+map,92,,54,EV054,1,124,101,show_text,"\dxn[Yang Lao]Los Pokémon Eón necesitan nuestro apoyo, la Familia Real concentrará su seguri...",11,"\dxn[Yang Lao]Eon Pokémon membutuhkan dukungan kami, Keluarga Kerajaan akan memusatkan keamanannya...",machine_draft
+map,92,,54,EV054,1,128,101,show_text,"\sh\dxn[Yang Lao]¡Cof, Cof...!",11,"\sh\dxn[Yang Lao]Batuk, Batuk...!",machine_draft
+map,92,,54,EV054,1,144,101,show_text,\sh\dxn[Yang Xiao]¡Maestro!,11,\sh\dxn[Yang Xiao]Guru!,machine_draft
+map,92,,54,EV054,1,157,101,show_text,"\dxn[Yang Xiao]No se preocupe, maestro, nosotros nos ocuparemos de todo esto.",11,"\dxn[Yang Xiao]Jangan khawatir guru, kami akan mengurus semua ini.",machine_draft
+map,92,,54,EV054,1,161,101,show_text,\dxn[Yang Lao]\ts[2]Por Arceus... La edad me pasa factura...,11,\dxn[Yang Lao]\ts[2]Oleh Arceus... Usia membawa dampak buruk bagi saya...,machine_draft
+map,92,,54,EV054,1,165,101,show_text,\dxn[Yang Lao](¿Debería dejar esto a los jóvenes?),11,\dxn[Yang Lao](Haruskah saya menyerahkan ini kepada kaum muda?),machine_draft
+map,92,,54,EV054,1,169,101,show_text,\dxn[Yang Lao]De acuerdo... Os dejaremos tomar el control de la situación.,11,\dxn[Yang Lao]Oke... Kami akan membiarkan Anda mengendalikan situasi.,machine_draft
+map,92,,54,EV054,1,173,101,show_text,"\dxn[Yang Lao]Pero ponte en contacto con el resto de líderes del Sur, tanto con \c[2]Silvano\c[0] como con \c[2]Celeste\c[0].",11,"\dxn[Yang Lao]Tetapi hubungi para pemimpin Selatan lainnya, baik dengan \c[2]Silvano\c[0] maupun dengan \c[2]Celeste\c[0].",machine_draft
+map,92,,54,EV054,1,177,101,show_text,"\dxn[Yang Lao]Si ya tenían suficiente poder, junto al misterioso poder de Latios, nunca podríamos darle la vuelta a la tortilla.",11,"\dxn[Yang Lao]Jika mereka sudah memiliki kekuatan yang cukup, bersama dengan kekuatan misterius Latios, kita tidak akan pernah bisa membalikkan keadaan.",machine_draft
+map,92,,54,EV054,1,186,101,show_text,"\dxn[Yang Xiao]Sin problema, eso haremos.",11,"\dxn[Yang Xiao]Tidak masalah, kami akan melakukannya.",machine_draft
+map,92,,54,EV054,1,190,101,show_text,"\dxn[Yang Xiao]Cerraremos el gimnasio temporalmente, no es prioridad ahora mismo.",11,"\dxn[Yang Xiao]Kami akan menutup gym untuk sementara, hal tersebut bukan menjadi prioritas saat ini.",machine_draft
+map,92,,54,EV054,1,194,101,show_text,\dxn[Yang Xiao]¿Podrás volver solo a casa?,11,\dxn[Yang Xiao]Apakah kamu bisa pulang ke rumah sendirian?,machine_draft
+map,92,,54,EV054,1,199,101,show_text,"\dxn[Yang Lao]Por supuesto que sí, sigo teniendo una salud de hierro, novato, sólo son problemas de la edad.",11,"\dxn[Yang Lao]Tentu saja iya, kesehatan saya masih prima newbie, itu hanya masalah usia.",machine_draft
+map,92,,54,EV054,1,203,101,show_text,\dxn[Yang Xiao]Perfecto entonces.,11,\dxn[Yang Xiao]Sempurna kalau begitu.,machine_draft
+map,92,,54,EV054,1,218,101,show_text,"\dxn[Yang Xiao]\PN, me gustaría que nos ayudaras con esta situación, tu fuerza puede ser indispensable.",11,"\dxn[Yang Xiao]\PN, saya ingin Anda membantu kami dalam situasi ini, kekuatan Anda mungkin sangat diperlukan.",machine_draft
+map,92,,54,EV054,1,222,101,show_text,"\dxn[Yang Xiao]Ve adelantándote a Ciudad Cardenal, yo tengo trabajo que hacer.",11,"\dxn[Yang Xiao]Silakan ke Ciudad Cardenal, ada pekerjaan yang harus saya selesaikan.",machine_draft
+map,92,,54,EV054,1,226,101,show_text,"\sh\dxn[Yang Xiao]¡Nos vemos pronto, \PN!",11,"\sh\dxn[Yang Xiao]Sampai jumpa lagi, \PN!",machine_draft
+map,92,,54,EV054,1,233,101,show_text,"Mientras tanto, en alguna parte de la región...",11,"Sementara itu, di suatu tempat di wilayah...",machine_draft
+map,92,,110,EV110,1,0,108,comment,noshadow,11,,skip_comment
+map,92,,73,EV073,1,0,355,script,pbItemBall(:FRESHWATER),11,,skip_script
+map,92,,73,EV073,2,0,101,show_text,La papelera está vacía.,11,Tempat sampahnya kosong.,machine_draft
+map,92,,36,EV036,1,0,101,show_text,"Mi hermano va de chulo con su Zangoose, no sabe la paliza que le voy a dar con mi Seviper.",11,"Adikku bersikap keren dengan Zangoose-nya, dia tidak tahu betapa hebatnya pukulan yang akan kuberikan padanya dengan Seviper-ku.",machine_draft
+map,92,,147,EV147,1,0,108,comment,noshadow,11,,skip_comment
