@@ -20,6 +20,7 @@
 - Proofreading pass battle kedua diterapkan untuk effectiveness, flee text, miss text, dan beberapa pesan status/ability yang sangat sering tampil saat turn berjalan.
 - Proofreading pass battle ketiga diterapkan untuk status ailment text dan beberapa kalimat flavour yang masih kaku, termasuk paralysis cure, drowsy/levitate text, dan beberapa deskripsi karakter yang sempat masih bercampur Spanyol.
 - Cleanup pass item/overworld diterapkan ke `messages.dat` untuk memulihkan path asset runtime (`Graphics/Pictures/...`), merapikan prompt mail/item/editor, dan membersihkan beberapa string story/profile yang masih bercampur Spanyol atau terlalu literal.
+- Cleanup pass save/shop/storage diterapkan ke `messages.dat` untuk merapikan prompt save, PC/mail wording, Summer Mart text, dan beberapa label editor yang masih memakai kata `gerakan` atau frasa hasil translasi literal.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
