@@ -1,0 +1,1607 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,698,,18,EV018,1,0,101,show_text,¡Bienvenido/a a la Granja de \PN!
+map,698,,18,EV018,1,2,101,show_text,"¿Necesitas información de algún apartado?\ch[1,-1,Huerto,Árboles,Corral,Cuadra,Casa,Lago Shiny,Cueva de Setas,Paneles de Miel]"
+map,698,,18,EV018,1,8,101,show_text,En el huerto podrás plantar bayas y semillas.
+map,698,,18,EV018,1,10,101,show_text,"Cada semilla tiene diferentes días de crecimiento, generalmente entre 2-4 días. Además, debe ser regada por primera vez y acelera su crecimiento."
+map,698,,18,EV018,1,12,101,show_text,"Además, al cosecharlas pueden dropear de 1-5 frutos."
+map,698,,18,EV018,1,14,101,show_text,¡Recuerda cuidar de tus plantas!
+map,698,,18,EV018,1,18,101,show_text,"Los árboles se pueden talar todos los días, al igual que otros que puedes encontrar por el mundo."
+map,698,,18,EV018,1,22,101,show_text,El Corral permite tener Pokémnon de Granja.
+map,698,,18,EV018,1,24,101,show_text,Los Pokémon de la Granja se pueden comprar en la Tienda de la Ruta 21.
+map,698,,18,EV018,1,26,101,show_text,Solo se puede comprar un Pokémon de Granja de cada tipo.
+map,698,,18,EV018,1,28,101,show_text,"Los Pokémon generalmente sueltan objetos en el Corral cada día, otros deben ser muñidos, como Miltank o Skiddo."
+map,698,,18,EV018,1,30,101,show_text,"Además, deberán ser alimentados por \c[2]Heno\c[0], que se puede comprar en la tienda."
+map,698,,18,EV018,1,32,101,show_text,Un Pokémon de Granja \c[2]consume 1 unidad de Heno al día\c[0].
+map,698,,18,EV018,1,34,101,show_text,"Si los Pokémon no tienen comida, no generarán dichos objetos hasta que puedan comer y se generarán al día siguiente."
+map,698,,18,EV018,1,36,101,show_text,Todos los objetos mencionados se puede comprar en la Tienda de la Ruta 21.
+map,698,,18,EV018,1,40,101,show_text,"La cuadra permite tener Pokemonturas, sin esto no podrás comprarlas ni usarlas."
+map,698,,18,EV018,1,42,101,show_text,Las Pokemonturas se pueden comprar en la tienda de la Ruta 21.
+map,698,,18,EV018,1,46,101,show_text,La casa permite guardar punto de inicio y curar a tus Pokémon desde la cama.
+map,698,,18,EV018,1,48,101,show_text,"Además, podrás casarte en dicha casa y posiblemente tener hijos en un futuro (?)"
+map,698,,18,EV018,1,50,101,show_text,"Hay ciertas partes de la casa que son decorables, con el Ekans Game de dicha casa, podrás canjear dichas decoraciones."
+map,698,,18,EV018,1,54,101,show_text,El Lago Shiny permite encontrar a Pokémon con el doble de probabilidad de que salga Shiny.
+map,698,,18,EV018,1,56,101,show_text,¡Buena suerte!
+map,698,,18,EV018,1,60,101,show_text,"La Cueva de Setas genera de manera aleatoria 3 tipos de Setas, con diferente probabilidad cada una."
+map,698,,18,EV018,1,62,101,show_text,"Puedes encontrar Mini Seta, Seta Grande o Seta Aroma."
+map,698,,18,EV018,1,66,101,show_text,"Los paneles de miel se regeneran cada día, sin más."
+map,698,,92,EV092,1,0,108,comment,noshadow
+map,698,,92,EV092,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,92,EV092,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,92,EV092,1,4,102,choices,Si
+map,698,,92,EV092,1,4,102,choices,No
+map,698,,92,EV092,1,5,402,choice_branch,Si
+map,698,,92,EV092,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,92,EV092,1,26,355,script,pbSetEventTime
+map,698,,92,EV092,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,92,EV092,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,92,EV092,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,92,EV092,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,92,EV092,1,102,402,choice_branch,No
+map,698,,92,EV092,2,0,108,comment,noshadow
+map,698,,92,EV092,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,92,EV092,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,92,EV092,2,4,102,choices,Si
+map,698,,92,EV092,2,4,102,choices,No
+map,698,,92,EV092,2,5,402,choice_branch,Si
+map,698,,92,EV092,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,92,EV092,2,26,355,script,pbSetEventTime
+map,698,,92,EV092,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,92,EV092,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,92,EV092,2,75,402,choice_branch,No
+map,698,,92,EV092,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,92,EV092,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,37,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,37,BerryPlant,1,1,108,comment,noshadow
+map,698,,74,ESPATHRA,1,1,355,script,Pokemon.play_cry(:ESPATHRA)
+map,698,,74,ESPATHRA,1,2,101,show_text,\f[espathra_000]¡Pathra!
+map,698,,74,ESPATHRA,1,5,101,show_text,Tu amistad con Espathra ha alcanzado su máximo.
+map,698,,74,ESPATHRA,1,8,355,script,"pbGainSocialLinkBond(:ESPATHRA, 1)"
+map,698,,74,ESPATHRA,1,11,355,script,pbSetEventTime
+map,698,,74,ESPATHRA,2,0,101,show_text,Ya has acariciado a Espathra hoy.
+map,698,,74,ESPATHRA,3,0,355,script,Pokemon.play_cry(:ESPATHRA)
+map,698,,74,ESPATHRA,3,1,101,show_text,"Espathra está triste, no ha tenido heno para comer, así que no producirá huevos hoy."
+map,698,,74,ESPATHRA,4,0,108,comment,noshadow
+map,698,,74,ESPATHRA,5,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,111,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,56,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,56,BerryPlant,1,1,108,comment,noshadow
+map,698,,93,EV093,1,0,108,comment,noshadow
+map,698,,93,EV093,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,93,EV093,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,93,EV093,1,4,102,choices,Si
+map,698,,93,EV093,1,4,102,choices,No
+map,698,,93,EV093,1,5,402,choice_branch,Si
+map,698,,93,EV093,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,93,EV093,1,26,355,script,pbSetEventTime
+map,698,,93,EV093,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,93,EV093,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,93,EV093,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,93,EV093,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,93,EV093,1,102,402,choice_branch,No
+map,698,,93,EV093,2,0,108,comment,noshadow
+map,698,,93,EV093,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,93,EV093,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,93,EV093,2,4,102,choices,Si
+map,698,,93,EV093,2,4,102,choices,No
+map,698,,93,EV093,2,5,402,choice_branch,Si
+map,698,,93,EV093,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,93,EV093,2,26,355,script,pbSetEventTime
+map,698,,93,EV093,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,93,EV093,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,93,EV093,2,75,402,choice_branch,No
+map,698,,93,EV093,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,93,EV093,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,19,"Fuente, size(2,1)",1,0,108,comment,noshadow
+map,698,,75,TORCHIC,1,1,355,script,Pokemon.play_cry(:TORCHIC)
+map,698,,75,TORCHIC,1,2,101,show_text,\f[torchic_000_shiny]¡Chic!
+map,698,,75,TORCHIC,1,5,101,show_text,Tu amistad con Torchic ha alcanzado su máximo.
+map,698,,75,TORCHIC,1,8,355,script,"pbGainSocialLinkBond(:TORCHIC2, 1)"
+map,698,,75,TORCHIC,1,11,355,script,pbSetEventTime
+map,698,,75,TORCHIC,2,0,101,show_text,Ya has acariciado a Torchic hoy.
+map,698,,75,TORCHIC,3,0,355,script,Pokemon.play_cry(:TORCHIC)
+map,698,,75,TORCHIC,3,1,101,show_text,"Torchic está triste, no ha tenido heno para comer, así que no producirá huevos hoy."
+map,698,,75,TORCHIC,4,0,108,comment,noshadow
+map,698,,75,TORCHIC,5,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,112,"Fuente, size(1,5)",1,0,108,comment,noshadow
+map,698,,1,EV001,1,15,355,script,"jess_fogs(0,""nubes"",0,100,0,2)"
+map,698,,1,EV001,1,22,355,script,"jess_fogs(0,""nubes"",0,100,0,2)"
+map,698,,1,EV001,1,29,355,script,"jess_fogs(0,""nubes"",0,100,0,2)"
+map,698,,1,EV001,2,15,355,script,"jess_fogs(0,""nubes"",0,100,0,2)"
+map,698,,1,EV001,2,22,355,script,"jess_fogs(0,""nubes"",0,100,0,2)"
+map,698,,1,EV001,2,29,355,script,"jess_fogs(0,""nubes"",0,100,0,2)"
+map,698,,38,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,38,BerryPlant,1,1,108,comment,noshadow
+map,698,,94,EV094,1,0,108,comment,noshadow
+map,698,,94,EV094,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,94,EV094,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,94,EV094,1,4,102,choices,Si
+map,698,,94,EV094,1,4,102,choices,No
+map,698,,94,EV094,1,5,402,choice_branch,Si
+map,698,,94,EV094,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,94,EV094,1,26,355,script,pbSetEventTime
+map,698,,94,EV094,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,94,EV094,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,94,EV094,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,94,EV094,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,94,EV094,1,102,402,choice_branch,No
+map,698,,94,EV094,2,0,108,comment,noshadow
+map,698,,94,EV094,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,94,EV094,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,94,EV094,2,4,102,choices,Si
+map,698,,94,EV094,2,4,102,choices,No
+map,698,,94,EV094,2,5,402,choice_branch,Si
+map,698,,94,EV094,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,94,EV094,2,26,355,script,pbSetEventTime
+map,698,,94,EV094,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,94,EV094,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,94,EV094,2,75,402,choice_branch,No
+map,698,,94,EV094,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,94,EV094,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,20,EV020,1,0,101,show_text,¡Bienvenido/a a la Granja de \PN!
+map,698,,20,EV020,1,2,101,show_text,"¿Necesitas información de algún apartado?\ch[1,-1,Huerto,Árboles,Corral,Cuadra,Casa,Lago Shiny,Cueva de Setas,Paneles de Miel]"
+map,698,,20,EV020,1,8,101,show_text,En el huerto podrás plantar bayas y semillas.
+map,698,,20,EV020,1,10,101,show_text,"Cada semilla tiene diferentes días de crecimiento, generalmente entre 2-4 días. Además, debe ser regada por primera vez y acelera su crecimiento."
+map,698,,20,EV020,1,12,101,show_text,"Además, al cosecharlas pueden dropear de 1-5 frutos."
+map,698,,20,EV020,1,14,101,show_text,¡Recuerda cuidar de tus plantas!
+map,698,,20,EV020,1,18,101,show_text,"Los árboles se pueden talar todos los días, al igual que otros que puedes encontrar por el mundo."
+map,698,,20,EV020,1,22,101,show_text,El Corral permite tener Pokémnon de Granja.
+map,698,,20,EV020,1,24,101,show_text,Los Pokémon de la Granja se pueden comprar en la Tienda de la Ruta 21.
+map,698,,20,EV020,1,26,101,show_text,Solo se puede comprar un Pokémon de Granja de cada tipo.
+map,698,,20,EV020,1,28,101,show_text,"Los Pokémon generalmente sueltan objetos en el Corral cada día, otros deben ser muñidos, como Miltank o Skiddo."
+map,698,,20,EV020,1,30,101,show_text,"Además, deberán ser alimentados por \c[2]Heno\c[0], que se puede comprar en la tienda."
+map,698,,20,EV020,1,32,101,show_text,Un Pokémon de Granja \c[2]consume 1 unidad de Heno al día\c[0].
+map,698,,20,EV020,1,34,101,show_text,"Si los Pokémon no tienen comida, no generarán dichos objetos hasta que puedan comer y se generarán al día siguiente."
+map,698,,20,EV020,1,36,101,show_text,Todos los objetos mencionados se puede comprar en la Tienda de la Ruta 21.
+map,698,,20,EV020,1,40,101,show_text,"La cuadra permite tener Pokemonturas, sin esto no podrás comprarlas ni usarlas."
+map,698,,20,EV020,1,42,101,show_text,Las Pokemonturas se pueden comprar en la tienda de la Ruta 21.
+map,698,,20,EV020,1,46,101,show_text,La casa permite guardar punto de inicio y curar a tus Pokémon desde la cama.
+map,698,,20,EV020,1,48,101,show_text,"Además, podrás casarte en dicha casa y posiblemente tener hijos en un futuro (?)"
+map,698,,20,EV020,1,50,101,show_text,"Hay ciertas partes de la casa que son decorables, con el Ekans Game de dicha casa, podrás canjear dichas decoraciones."
+map,698,,20,EV020,1,54,101,show_text,El Lago Shiny permite encontrar a Pokémon con el doble de probabilidad de que salga Shiny.
+map,698,,20,EV020,1,56,101,show_text,¡Buena suerte!
+map,698,,20,EV020,1,60,101,show_text,"La Cueva de Setas genera de manera aleatoria 3 tipos de Setas, con diferente probabilidad cada una."
+map,698,,20,EV020,1,62,101,show_text,"Puedes encontrar Mini Seta, Seta Grande o Seta Aroma."
+map,698,,20,EV020,1,66,101,show_text,"Los paneles de miel se regeneran cada día, sin más."
+map,698,,57,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,57,BerryPlant,1,1,108,comment,noshadow
+map,698,,113,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,2,Update CORRAL,1,0,108,comment,noshadow
+map,698,,2,Update CORRAL,2,0,108,comment,noshadow
+map,698,,39,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,39,BerryPlant,1,1,108,comment,noshadow
+map,698,,76,TRUFA,1,0,355,script,pbSetEventTime
+map,698,,76,TRUFA,1,2,355,script,"pbReceiveItem(:TRUFA,2)"
+map,698,,76,TRUFA,1,5,355,script,pbReceiveItem(:TRUFA)
+map,698,,76,TRUFA,3,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,21,"Fuente, size(7,5)",1,0,108,comment,noshadow
+map,698,,58,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,58,BerryPlant,1,1,108,comment,noshadow
+map,698,,95,EV095,1,0,108,comment,noshadow
+map,698,,95,EV095,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,95,EV095,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,95,EV095,1,4,102,choices,Si
+map,698,,95,EV095,1,4,102,choices,No
+map,698,,95,EV095,1,5,402,choice_branch,Si
+map,698,,95,EV095,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,95,EV095,1,26,355,script,pbSetEventTime
+map,698,,95,EV095,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,95,EV095,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,95,EV095,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,95,EV095,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,95,EV095,1,102,402,choice_branch,No
+map,698,,95,EV095,2,0,108,comment,noshadow
+map,698,,95,EV095,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,95,EV095,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,95,EV095,2,4,102,choices,Si
+map,698,,95,EV095,2,4,102,choices,No
+map,698,,95,EV095,2,5,402,choice_branch,Si
+map,698,,95,EV095,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,95,EV095,2,26,355,script,pbSetEventTime
+map,698,,95,EV095,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,95,EV095,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,95,EV095,2,75,402,choice_branch,No
+map,698,,95,EV095,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,95,EV095,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,3,"Fuente, size(8,1)",1,0,108,comment,noshadow
+map,698,,40,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,40,BerryPlant,1,1,108,comment,noshadow
+map,698,,77,EV077,1,0,108,comment,noshadow
+map,698,,77,EV077,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,77,EV077,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,77,EV077,1,4,102,choices,Si
+map,698,,77,EV077,1,4,102,choices,No
+map,698,,77,EV077,1,5,402,choice_branch,Si
+map,698,,77,EV077,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,77,EV077,1,26,355,script,pbSetEventTime
+map,698,,77,EV077,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,77,EV077,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,77,EV077,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,77,EV077,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,77,EV077,1,102,402,choice_branch,No
+map,698,,77,EV077,2,0,108,comment,noshadow
+map,698,,77,EV077,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,77,EV077,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,77,EV077,2,4,102,choices,Si
+map,698,,77,EV077,2,4,102,choices,No
+map,698,,77,EV077,2,5,402,choice_branch,Si
+map,698,,77,EV077,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,77,EV077,2,26,355,script,pbSetEventTime
+map,698,,77,EV077,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,77,EV077,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,77,EV077,2,75,402,choice_branch,No
+map,698,,77,EV077,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,77,EV077,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,114,THUNDURUS APPEARS,1,8,355,script,pbSetEventTime
+map,698,,114,THUNDURUS APPEARS,3,2,355,script,"echoln ""HOLAAAAAAAAAAAAAAAAAA"""
+map,698,,114,THUNDURUS APPEARS,3,4,355,script,"setTempSwitchOn(""A"")"
+map,698,,59,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,59,BerryPlant,1,1,108,comment,noshadow
+map,698,,96,Update CASA,1,0,108,comment,noshadow
+map,698,,96,Update CASA,2,0,108,comment,noshadow
+map,698,,96,Update CASA,2,17,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,698,,96,Update CASA,2,18,355,script,FollowingPkmn.toggle_off
+map,698,,4,"Fuente, size(8,1)",1,0,108,comment,noshadow
+map,698,,41,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,41,BerryPlant,1,1,108,comment,noshadow
+map,698,,78,EV078,1,0,108,comment,noshadow
+map,698,,78,EV078,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,78,EV078,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,78,EV078,1,4,102,choices,Si
+map,698,,78,EV078,1,4,102,choices,No
+map,698,,78,EV078,1,5,402,choice_branch,Si
+map,698,,78,EV078,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,78,EV078,1,26,355,script,pbSetEventTime
+map,698,,78,EV078,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,78,EV078,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,78,EV078,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,78,EV078,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,78,EV078,1,102,402,choice_branch,No
+map,698,,78,EV078,2,0,108,comment,noshadow
+map,698,,78,EV078,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,78,EV078,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,78,EV078,2,4,102,choices,Si
+map,698,,78,EV078,2,4,102,choices,No
+map,698,,78,EV078,2,5,402,choice_branch,Si
+map,698,,78,EV078,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,78,EV078,2,26,355,script,pbSetEventTime
+map,698,,78,EV078,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,78,EV078,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,78,EV078,2,75,402,choice_branch,No
+map,698,,78,EV078,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,78,EV078,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,115,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,60,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,60,BerryPlant,1,1,108,comment,noshadow
+map,698,,97,EV097,1,0,108,comment,noshadow
+map,698,,97,EV097,1,2,101,show_text,¿Quieres untar \c[2]Miel\c[0] en este árbol?
+map,698,,97,EV097,1,3,102,choices,Sí
+map,698,,97,EV097,1,3,102,choices,No
+map,698,,97,EV097,1,4,402,choice_branch,Sí
+map,698,,97,EV097,1,5,355,script,"$PokemonBag.pbDeleteItem(:HONEY,1)"
+map,698,,97,EV097,1,6,101,show_text,"Has untado miel, espera a mañana para ver si aparece algún Pokémon."
+map,698,,97,EV097,1,7,355,script,pbSetEventTime
+map,698,,97,EV097,1,9,402,choice_branch,No
+map,698,,97,EV097,2,0,108,comment,noshadow
+map,698,,97,EV097,2,3,101,show_text,\sh¡OOOOOOH! ¡Un Pokémon salvaje se estaba comiendo la miel y te quiere atacar!
+map,698,,97,EV097,2,4,355,script,"pkmnArr = [:BUTTERFREE,:BEEDRILL,:SCYTHER,:PINSIR,:LEDIAN,:HERACROSS,:YANMA,:PINECO,:APPLIN,:VESPIQUEN,"
+map,698,,97,EV097,2,5,655,script_cont,":MUNCHLAX,:CHERRIM,:BEAUTIFLY,:DUSTOX,:VOLBEAT,:ILLUMISE,:KRICKETUNE,:MOTHIM,:LEAVANNY,:RIBOMBEE]"
+map,698,,97,EV097,2,6,355,script,pos = rand(0...20)
+map,698,,97,EV097,2,7,655,script_cont,shiny = rand(0..10)
+map,698,,97,EV097,2,8,655,script_cont,"pkmn = Pokemon.new(pkmnArr[pos], 70)"
+map,698,,97,EV097,2,9,655,script_cont,pkmn.iv[:HP] = 31
+map,698,,97,EV097,2,10,655,script_cont,pkmn.iv[:DEFENSE] = 31
+map,698,,97,EV097,2,11,655,script_cont,pkmn.iv[:ATTACK] = 31
+map,698,,97,EV097,2,12,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+map,698,,97,EV097,2,13,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+map,698,,97,EV097,2,14,655,script_cont,pkmn.iv[:SPEED] = 31
+map,698,,97,EV097,2,15,655,script_cont,if shiny == 1
+map,698,,97,EV097,2,16,655,script_cont,pkmn.shiny = true
+map,698,,97,EV097,2,17,655,script_cont,end
+map,698,,97,EV097,2,18,355,script,pbWildBattleCore(pkmn)
+map,698,,97,EV097,3,0,108,comment,noshadow
+map,698,,97,EV097,3,1,101,show_text,"Todavía no ha aparecido ningún Pokémon, espera a mañana."
+map,698,,97,EV097,4,2,355,script,"setTempSwitchOn(""A"")"
+map,698,,5,a,1,0,108,comment,noshadow
+map,698,,42,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,42,BerryPlant,1,1,108,comment,noshadow
+map,698,,79,EV079,1,0,108,comment,noshadow
+map,698,,79,EV079,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,79,EV079,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,79,EV079,1,4,102,choices,Si
+map,698,,79,EV079,1,4,102,choices,No
+map,698,,79,EV079,1,5,402,choice_branch,Si
+map,698,,79,EV079,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,79,EV079,1,26,355,script,pbSetEventTime
+map,698,,79,EV079,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,79,EV079,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,79,EV079,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,79,EV079,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,79,EV079,1,102,402,choice_branch,No
+map,698,,79,EV079,2,0,108,comment,noshadow
+map,698,,79,EV079,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,79,EV079,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,79,EV079,2,4,102,choices,Si
+map,698,,79,EV079,2,4,102,choices,No
+map,698,,79,EV079,2,5,402,choice_branch,Si
+map,698,,79,EV079,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,79,EV079,2,26,355,script,pbSetEventTime
+map,698,,79,EV079,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,79,EV079,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,79,EV079,2,75,402,choice_branch,No
+map,698,,79,EV079,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,79,EV079,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,116,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,61,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,61,BerryPlant,1,1,108,comment,noshadow
+map,698,,98,EV098,1,0,108,comment,noshadow
+map,698,,98,EV098,1,2,101,show_text,¿Quieres untar \c[2]Miel\c[0] en este árbol?
+map,698,,98,EV098,1,3,102,choices,Sí
+map,698,,98,EV098,1,3,102,choices,No
+map,698,,98,EV098,1,4,402,choice_branch,Sí
+map,698,,98,EV098,1,5,355,script,"$PokemonBag.pbDeleteItem(:HONEY,1)"
+map,698,,98,EV098,1,6,101,show_text,"Has untado miel, espera a mañana para ver si aparece algún Pokémon."
+map,698,,98,EV098,1,7,355,script,pbSetEventTime
+map,698,,98,EV098,1,9,402,choice_branch,No
+map,698,,98,EV098,2,0,108,comment,noshadow
+map,698,,98,EV098,2,3,101,show_text,\sh¡OOOOOOH! ¡Un Pokémon salvaje se estaba comiendo la miel y te quiere atacar!
+map,698,,98,EV098,2,4,355,script,"pkmnArr = [:BUTTERFREE,:BEEDRILL,:SCYTHER,:PINSIR,:LEDIAN,:HERACROSS,:YANMA,:PINECO,:APPLIN,:VESPIQUEN,"
+map,698,,98,EV098,2,5,655,script_cont,":MUNCHLAX,:CHERRIM,:BEAUTIFLY,:DUSTOX,:VOLBEAT,:ILLUMISE,:KRICKETUNE,:MOTHIM,:LEAVANNY,:RIBOMBEE]"
+map,698,,98,EV098,2,6,355,script,pos = rand(0...20)
+map,698,,98,EV098,2,7,655,script_cont,shiny = rand(0..10)
+map,698,,98,EV098,2,8,655,script_cont,"pkmn = Pokemon.new(pkmnArr[pos], 70)"
+map,698,,98,EV098,2,9,655,script_cont,pkmn.iv[:HP] = 31
+map,698,,98,EV098,2,10,655,script_cont,pkmn.iv[:DEFENSE] = 31
+map,698,,98,EV098,2,11,655,script_cont,pkmn.iv[:ATTACK] = 31
+map,698,,98,EV098,2,12,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+map,698,,98,EV098,2,13,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+map,698,,98,EV098,2,14,655,script_cont,pkmn.iv[:SPEED] = 31
+map,698,,98,EV098,2,15,655,script_cont,if shiny == 1
+map,698,,98,EV098,2,16,655,script_cont,pkmn.shiny = true
+map,698,,98,EV098,2,17,655,script_cont,end
+map,698,,98,EV098,2,18,355,script,pbWildBattleCore(pkmn)
+map,698,,98,EV098,3,0,108,comment,noshadow
+map,698,,98,EV098,3,1,101,show_text,"Todavía no ha aparecido ningún Pokémon, espera a mañana."
+map,698,,98,EV098,4,2,355,script,"setTempSwitchOn(""A"")"
+map,698,,6,a,1,0,108,comment,noshadow
+map,698,,43,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,43,BerryPlant,1,1,108,comment,noshadow
+map,698,,80,EV080,1,0,108,comment,noshadow
+map,698,,80,EV080,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,80,EV080,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,80,EV080,1,4,102,choices,Si
+map,698,,80,EV080,1,4,102,choices,No
+map,698,,80,EV080,1,5,402,choice_branch,Si
+map,698,,80,EV080,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,80,EV080,1,26,355,script,pbSetEventTime
+map,698,,80,EV080,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,80,EV080,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,80,EV080,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,80,EV080,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,80,EV080,1,102,402,choice_branch,No
+map,698,,80,EV080,2,0,108,comment,noshadow
+map,698,,80,EV080,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,80,EV080,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,80,EV080,2,4,102,choices,Si
+map,698,,80,EV080,2,4,102,choices,No
+map,698,,80,EV080,2,5,402,choice_branch,Si
+map,698,,80,EV080,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,80,EV080,2,26,355,script,pbSetEventTime
+map,698,,80,EV080,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,80,EV080,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,80,EV080,2,75,402,choice_branch,No
+map,698,,80,EV080,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,80,EV080,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,117,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,25,CORRAL,1,0,108,comment,noshadow
+map,698,,25,CORRAL,2,0,108,comment,noshadow
+map,698,,62,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,62,BerryPlant,1,1,108,comment,noshadow
+map,698,,99,EV099,1,0,108,comment,noshadow
+map,698,,99,EV099,1,2,101,show_text,¿Quieres untar \c[2]Miel\c[0] en este árbol?
+map,698,,99,EV099,1,3,102,choices,Sí
+map,698,,99,EV099,1,3,102,choices,No
+map,698,,99,EV099,1,4,402,choice_branch,Sí
+map,698,,99,EV099,1,5,355,script,"$PokemonBag.pbDeleteItem(:HONEY,1)"
+map,698,,99,EV099,1,6,101,show_text,"Has untado miel, espera a mañana para ver si aparece algún Pokémon."
+map,698,,99,EV099,1,7,355,script,pbSetEventTime
+map,698,,99,EV099,1,9,402,choice_branch,No
+map,698,,99,EV099,2,0,108,comment,noshadow
+map,698,,99,EV099,2,3,101,show_text,\sh¡OOOOOOH! ¡Un Pokémon salvaje se estaba comiendo la miel y te quiere atacar!
+map,698,,99,EV099,2,4,355,script,"pkmnArr = [:BUTTERFREE,:BEEDRILL,:SCYTHER,:PINSIR,:LEDIAN,:HERACROSS,:YANMA,:PINECO,:APPLIN,:VESPIQUEN,"
+map,698,,99,EV099,2,5,655,script_cont,":MUNCHLAX,:CHERRIM,:BEAUTIFLY,:DUSTOX,:VOLBEAT,:ILLUMISE,:KRICKETUNE,:MOTHIM,:LEAVANNY,:RIBOMBEE]"
+map,698,,99,EV099,2,6,355,script,pos = rand(0...20)
+map,698,,99,EV099,2,7,655,script_cont,shiny = rand(0..10)
+map,698,,99,EV099,2,8,655,script_cont,"pkmn = Pokemon.new(pkmnArr[pos], 70)"
+map,698,,99,EV099,2,9,655,script_cont,pkmn.iv[:HP] = 31
+map,698,,99,EV099,2,10,655,script_cont,pkmn.iv[:DEFENSE] = 31
+map,698,,99,EV099,2,11,655,script_cont,pkmn.iv[:ATTACK] = 31
+map,698,,99,EV099,2,12,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+map,698,,99,EV099,2,13,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+map,698,,99,EV099,2,14,655,script_cont,pkmn.iv[:SPEED] = 31
+map,698,,99,EV099,2,15,655,script_cont,if shiny == 1
+map,698,,99,EV099,2,16,655,script_cont,pkmn.shiny = true
+map,698,,99,EV099,2,17,655,script_cont,end
+map,698,,99,EV099,2,18,355,script,pbWildBattleCore(pkmn)
+map,698,,99,EV099,3,0,108,comment,noshadow
+map,698,,99,EV099,3,1,101,show_text,"Todavía no ha aparecido ningún Pokémon, espera a mañana."
+map,698,,99,EV099,4,2,355,script,"setTempSwitchOn(""A"")"
+map,698,,7,"Fuente, size(6,1)",1,0,108,comment,noshadow
+map,698,,44,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,44,BerryPlant,1,1,108,comment,noshadow
+map,698,,81,EV081,1,0,108,comment,noshadow
+map,698,,81,EV081,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,81,EV081,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,81,EV081,1,4,102,choices,Si
+map,698,,81,EV081,1,4,102,choices,No
+map,698,,81,EV081,1,5,402,choice_branch,Si
+map,698,,81,EV081,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,81,EV081,1,26,355,script,pbSetEventTime
+map,698,,81,EV081,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,81,EV081,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,81,EV081,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,81,EV081,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,81,EV081,1,102,402,choice_branch,No
+map,698,,81,EV081,2,0,108,comment,noshadow
+map,698,,81,EV081,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,81,EV081,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,81,EV081,2,4,102,choices,Si
+map,698,,81,EV081,2,4,102,choices,No
+map,698,,81,EV081,2,5,402,choice_branch,Si
+map,698,,81,EV081,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,81,EV081,2,26,355,script,pbSetEventTime
+map,698,,81,EV081,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,81,EV081,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,81,EV081,2,75,402,choice_branch,No
+map,698,,81,EV081,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,81,EV081,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,118,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,26,"Fuente, size(3,1)",1,0,108,comment,noshadow
+map,698,,63,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,63,BerryPlant,1,1,108,comment,noshadow
+map,698,,100,HENO DIARIO,1,0,108,comment,Me cargo x heno según x pokemon de granja
+map,698,,100,HENO DIARIO,1,9,108,comment,Determina si hoy se come o no momento latam
+map,698,,100,HENO DIARIO,1,19,355,script,"echoln ""Heno de caja: "" + pbGet(347).to_s"
+map,698,,100,HENO DIARIO,1,20,355,script,pbSetEventTime
+map,698,,100,HENO DIARIO,3,2,355,script,"echoln ""HOLAAAAAAAAAAAAAAAAAA"""
+map,698,,100,HENO DIARIO,3,4,355,script,"setTempSwitchOn(""A"")"
+map,698,,8,Update CASA,1,0,108,comment,noshadow
+map,698,,8,Update CASA,2,0,108,comment,noshadow
+map,698,,45,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,45,BerryPlant,1,1,108,comment,noshadow
+map,698,,82,EV082,1,0,108,comment,noshadow
+map,698,,82,EV082,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,82,EV082,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,82,EV082,1,4,102,choices,Si
+map,698,,82,EV082,1,4,102,choices,No
+map,698,,82,EV082,1,5,402,choice_branch,Si
+map,698,,82,EV082,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,82,EV082,1,26,355,script,pbSetEventTime
+map,698,,82,EV082,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,82,EV082,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,82,EV082,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,82,EV082,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,82,EV082,1,102,402,choice_branch,No
+map,698,,82,EV082,2,0,108,comment,noshadow
+map,698,,82,EV082,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,82,EV082,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,82,EV082,2,4,102,choices,Si
+map,698,,82,EV082,2,4,102,choices,No
+map,698,,82,EV082,2,5,402,choice_branch,Si
+map,698,,82,EV082,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,82,EV082,2,26,355,script,pbSetEventTime
+map,698,,82,EV082,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,82,EV082,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,82,EV082,2,75,402,choice_branch,No
+map,698,,82,EV082,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,82,EV082,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,27,"Fuente, size(2,1)",1,0,108,comment,noshadow
+map,698,,64,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,64,BerryPlant,1,1,108,comment,noshadow
+map,698,,101,Thundurus,1,3,355,script,"$game_screen.weather(:Rain, 5, 1)"
+map,698,,101,Thundurus,1,7,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,698,,101,Thundurus,1,8,355,script,$PokemonGlobal.bicycle = false
+map,698,,101,Thundurus,1,9,355,script,FollowingPkmn.toggle_off
+map,698,,101,Thundurus,1,19,101,show_text,\dxn[\PN]Parece que está lloviendo muy fuerte...
+map,698,,101,Thundurus,1,23,101,show_text,\dxn[\PN]¡Quizás vaya bien para las plantas!
+map,698,,101,Thundurus,1,28,101,show_text,\dxn[\PN]Parece que está lloviendo muy fuerte...
+map,698,,101,Thundurus,1,32,101,show_text,\dxn[\PN]¡Quizás vaya bien para las plantas!
+map,698,,101,Thundurus,1,42,355,script,Pokemon.play_cry(:TORNADUS)
+map,698,,101,Thundurus,1,50,101,show_text,\sh\dxn[\PN]¿Qué ha sido eso?
+map,698,,101,Thundurus,1,55,101,show_text,\sh\dxn[\PN]¿Qué ha sido eso?
+map,698,,101,Thundurus,1,92,355,script,"pbZoomMap(2,0.2,zoom=""in"")"
+map,698,,101,Thundurus,1,100,355,script,pbCameraShake(6)
+map,698,,101,Thundurus,1,101,355,script,Pokemon.play_cry(:THUNDURUS)
+map,698,,101,Thundurus,1,102,355,script,Pokemon.play_cry(:TORNADUS)
+map,698,,101,Thundurus,1,103,101,show_text,\sh¡GROAAAAAAAR!
+map,698,,101,Thundurus,1,104,355,script,"pbZoomMap(1,0.2,zoom=""out"")"
+map,698,,101,Thundurus,1,105,355,script,pbCameraShakeOff
+map,698,,101,Thundurus,1,107,355,script,pbCameraReset
+map,698,,101,Thundurus,1,112,101,show_text,\dxn[\PN]¿Puede que ellos hayan provocado este clima?
+map,698,,101,Thundurus,1,117,101,show_text,\dxn[\PN]Es posible que me estén poniendo a prueba...
+map,698,,101,Thundurus,1,121,101,show_text,\sh\dxn[\PN]¡Venid a por mí!
+map,698,,101,Thundurus,1,126,101,show_text,\dxn[\PN]¿Puede que ellos hayan provocado este clima?
+map,698,,101,Thundurus,1,131,101,show_text,\dxn[\PN]Es posible que me estén poniendo a prueba...
+map,698,,101,Thundurus,1,135,101,show_text,\sh\dxn[\PN]¡Venid a por mí!
+map,698,,101,Thundurus,1,140,108,comment,"// setBattleRule(""canLose"")"
+map,698,,101,Thundurus,1,141,355,script,"setBattleRule(""cannotRun"")"
+map,698,,101,Thundurus,1,142,355,script,"setBattleRule(""base"", ""bridge"")"
+map,698,,101,Thundurus,1,146,355,script,"$PokemonGlobal.nextBattleBGM = ""VS_TRIO_BW"""
+map,698,,101,Thundurus,1,149,355,script,"pbDoubleWildBattle(:THUNDURUS_2,70,:TORNADUS_2,70)"
+map,698,,101,Thundurus,1,152,355,script,pbCameraShake(9)
+map,698,,101,Thundurus,1,155,355,script,pbCameraShakeOff
+map,698,,101,Thundurus,1,176,355,script,Pokemon.play_cry(:THUNDURUS)
+map,698,,101,Thundurus,1,177,355,script,Pokemon.play_cry(:TORNADUS)
+map,698,,101,Thundurus,1,188,101,show_text,\dxn[\PN]Parece que se quieren quedar conmigo...
+map,698,,101,Thundurus,1,193,101,show_text,\dxn[\PN]Parece que se quieren quedar conmigo...
+map,698,,101,Thundurus,1,197,355,script,"pbAddPokemon(:TORNADUS,70)"
+map,698,,101,Thundurus,1,198,355,script,"pbAddPokemon(:THUNDURUS,70)"
+map,698,,101,Thundurus,1,199,355,script,"$game_screen.weather(:None,2,2)"
+map,698,,101,Thundurus,1,212,101,show_text,\dxn[\PN]Ya veo... Según la Pokédex son Tornadus y Thundurus...
+map,698,,101,Thundurus,1,217,101,show_text,\dxn[\PN]Ya veo... Según la Pokédex son Tornadus y Thundurus...
+map,698,,101,Thundurus,1,225,101,show_text,\ts[2]\dxn[\PN]Me suena... que me han mencionado a otro dios de la cosecha en algún momento...
+map,698,,101,Thundurus,1,230,101,show_text,\ts[2]\dxn[\PN]Me suena... que me han mencionado a otro dios de la cosecha en algún momento...
+map,698,,101,Thundurus,1,240,355,script,FollowingPkmn.toggle_on
+map,698,,46,EV046,1,0,355,script,pbSetEventTime
+map,698,,46,EV046,1,1,355,script,pbReceiveItem(:HONEY)
+map,698,,46,EV046,1,2,108,comment,noshadow
+map,698,,46,EV046,2,0,101,show_text,"Ya has recogido la miel de hoy, espera hasta mañana."
+map,698,,46,EV046,3,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,83,EV083,1,0,108,comment,noshadow
+map,698,,83,EV083,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,83,EV083,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,83,EV083,1,4,102,choices,Si
+map,698,,83,EV083,1,4,102,choices,No
+map,698,,83,EV083,1,5,402,choice_branch,Si
+map,698,,83,EV083,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,83,EV083,1,26,355,script,pbSetEventTime
+map,698,,83,EV083,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,83,EV083,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,83,EV083,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,83,EV083,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,83,EV083,1,102,402,choice_branch,No
+map,698,,83,EV083,2,0,108,comment,noshadow
+map,698,,83,EV083,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,83,EV083,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,83,EV083,2,4,102,choices,Si
+map,698,,83,EV083,2,4,102,choices,No
+map,698,,83,EV083,2,5,402,choice_branch,Si
+map,698,,83,EV083,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,83,EV083,2,26,355,script,pbSetEventTime
+map,698,,83,EV083,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,83,EV083,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,83,EV083,2,75,402,choice_branch,No
+map,698,,83,EV083,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,83,EV083,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,9,Update ESTABLO,1,0,108,comment,noshadow
+map,698,,9,Update ESTABLO,2,0,108,comment,noshadow
+map,698,,65,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,65,BerryPlant,1,1,108,comment,noshadow
+map,698,,102,WARABITT,2,1,101,show_text,\f[warabbit_002]Bit...
+map,698,,102,WARABITT,2,2,101,show_text,Parece que \v[348] tiene hambre...
+map,698,,102,WARABITT,2,4,101,show_text,¿Quieres darle una \c[2]Zanahoria\c[0] a \v[348]?
+map,698,,102,WARABITT,2,5,102,choices,Sí
+map,698,,102,WARABITT,2,5,102,choices,No
+map,698,,102,WARABITT,2,6,402,choice_branch,Sí
+map,698,,102,WARABITT,2,15,101,show_text,\f[warabbit_001]¡Bit!
+map,698,,102,WARABITT,2,18,101,show_text,Tu amistad con \v[348] ha alcanzado su máximo.
+map,698,,102,WARABITT,2,21,355,script,"pbGainSocialLinkBond(:WARABBIT, 1)"
+map,698,,102,WARABITT,2,24,108,comment,// Recibes item random
+map,698,,102,WARABITT,2,25,355,script,pbSetEventTime
+map,698,,102,WARABITT,2,26,101,show_text,Parece que \v[348] ha encontrado algo...
+map,698,,102,WARABITT,2,27,355,script,"item = [:LIFEORB,:CHOICEBAND,:CHOICESCARF,:ASSAULTVEST,:EXPERTBELT,:METRONOME,:BLACKGLASSES,:LEFTOVERS,"
+map,698,,102,WARABITT,2,28,655,script_cont,":ROCKYHELMET,:FOCUSSASH,:EVIOLITE,:LIGHTCLAY,:PEARL,:NUGGET,:BIGNUGGET,:STARDUST]"
+map,698,,102,WARABITT,2,29,355,script,pos = rand(0...item.length)
+map,698,,102,WARABITT,2,30,355,script,pbReceiveItem(item[pos])
+map,698,,102,WARABITT,2,32,402,choice_branch,No
+map,698,,102,WARABITT,2,38,101,show_text,Puede que una \c[2]Zanahoria\c[0] le llene el estómago...
+map,698,,102,WARABITT,3,1,101,show_text,\f[warabbit_001]¡Bit!
+map,698,,102,WARABITT,3,3,101,show_text,Ya has dado de comer a \v[348] hoy.
+map,698,,102,WARABITT,4,0,108,comment,noshadow
+map,698,,102,WARABITT,5,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,28,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,28,BerryPlant,1,1,108,comment,noshadow
+map,698,,84,EV084,1,0,108,comment,noshadow
+map,698,,84,EV084,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,84,EV084,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,84,EV084,1,4,102,choices,Si
+map,698,,84,EV084,1,4,102,choices,No
+map,698,,84,EV084,1,5,402,choice_branch,Si
+map,698,,84,EV084,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,84,EV084,1,26,355,script,pbSetEventTime
+map,698,,84,EV084,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,84,EV084,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,84,EV084,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,84,EV084,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,84,EV084,1,102,402,choice_branch,No
+map,698,,84,EV084,2,0,108,comment,noshadow
+map,698,,84,EV084,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,84,EV084,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,84,EV084,2,4,102,choices,Si
+map,698,,84,EV084,2,4,102,choices,No
+map,698,,84,EV084,2,5,402,choice_branch,Si
+map,698,,84,EV084,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,84,EV084,2,26,355,script,pbSetEventTime
+map,698,,84,EV084,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,84,EV084,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,84,EV084,2,75,402,choice_branch,No
+map,698,,84,EV084,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,84,EV084,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,121,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,10,"Fuente, size(8,4)",1,0,108,comment,noshadow
+map,698,,47,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,47,BerryPlant,1,1,108,comment,noshadow
+map,698,,103,WOOLOO,1,1,355,script,Pokemon.play_cry(:WOOLOO)
+map,698,,103,WOOLOO,1,2,101,show_text,\f[wooloo000]¡Loo!
+map,698,,103,WOOLOO,1,4,101,show_text,Tu amistad con Wooloo ha alcanzado su máximo.
+map,698,,103,WOOLOO,1,7,355,script,"pbGainSocialLinkBond(:WOOLOO, 1)"
+map,698,,103,WOOLOO,1,10,355,script,pbSetEventTime
+map,698,,103,WOOLOO,2,0,101,show_text,Ya has acariciado a Wooloo hoy.
+map,698,,103,WOOLOO,3,1,355,script,Pokemon.play_cry(:WOOLOO)
+map,698,,103,WOOLOO,3,2,101,show_text,"Wooloo está triste, no ha tenido heno para comer, así que no producirá lana hoy."
+map,698,,103,WOOLOO,4,0,108,comment,noshadow
+map,698,,103,WOOLOO,5,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,29,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,29,BerryPlant,1,1,108,comment,noshadow
+map,698,,66,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,66,BerryPlant,1,1,108,comment,noshadow
+map,698,,122,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,11,"Fuente, size(1,4)",1,0,108,comment,noshadow
+map,698,,48,EV048,1,0,355,script,pbSetEventTime
+map,698,,48,EV048,1,1,355,script,pbReceiveItem(:HONEY)
+map,698,,48,EV048,1,2,108,comment,noshadow
+map,698,,48,EV048,2,0,101,show_text,"Ya has recogido la miel de hoy, espera hasta mañana."
+map,698,,48,EV048,3,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,85,EV085,1,0,108,comment,noshadow
+map,698,,85,EV085,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,85,EV085,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,85,EV085,1,4,102,choices,Si
+map,698,,85,EV085,1,4,102,choices,No
+map,698,,85,EV085,1,5,402,choice_branch,Si
+map,698,,85,EV085,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,85,EV085,1,26,355,script,pbSetEventTime
+map,698,,85,EV085,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,85,EV085,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,85,EV085,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,85,EV085,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,85,EV085,1,102,402,choice_branch,No
+map,698,,85,EV085,2,0,108,comment,noshadow
+map,698,,85,EV085,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,85,EV085,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,85,EV085,2,4,102,choices,Si
+map,698,,85,EV085,2,4,102,choices,No
+map,698,,85,EV085,2,5,402,choice_branch,Si
+map,698,,85,EV085,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,85,EV085,2,26,355,script,pbSetEventTime
+map,698,,85,EV085,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,85,EV085,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,85,EV085,2,75,402,choice_branch,No
+map,698,,85,EV085,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,85,EV085,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,30,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,30,BerryPlant,1,1,108,comment,noshadow
+map,698,,67,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,67,BerryPlant,1,1,108,comment,noshadow
+map,698,,12,"Fuente, size(2,4)",1,0,108,comment,noshadow
+map,698,,49,EV049,1,0,355,script,pbSetEventTime
+map,698,,49,EV049,1,1,355,script,pbReceiveItem(:HONEY)
+map,698,,49,EV049,1,2,108,comment,noshadow
+map,698,,49,EV049,2,0,101,show_text,"Ya has recogido la miel de hoy, espera hasta mañana."
+map,698,,49,EV049,3,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,86,EV086,1,0,108,comment,noshadow
+map,698,,86,EV086,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,86,EV086,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,86,EV086,1,4,102,choices,Si
+map,698,,86,EV086,1,4,102,choices,No
+map,698,,86,EV086,1,5,402,choice_branch,Si
+map,698,,86,EV086,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,86,EV086,1,26,355,script,pbSetEventTime
+map,698,,86,EV086,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,86,EV086,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,86,EV086,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,86,EV086,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,86,EV086,1,102,402,choice_branch,No
+map,698,,86,EV086,2,0,108,comment,noshadow
+map,698,,86,EV086,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,86,EV086,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,86,EV086,2,4,102,choices,Si
+map,698,,86,EV086,2,4,102,choices,No
+map,698,,86,EV086,2,5,402,choice_branch,Si
+map,698,,86,EV086,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,86,EV086,2,26,355,script,pbSetEventTime
+map,698,,86,EV086,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,86,EV086,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,86,EV086,2,75,402,choice_branch,No
+map,698,,86,EV086,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,86,EV086,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,123,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,698,,31,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,31,BerryPlant,1,1,108,comment,noshadow
+map,698,,68,EV068,1,0,108,comment,noshadow
+map,698,,68,EV068,1,2,101,show_text,¿Quieres untar \c[2]Miel\c[0] en este árbol?
+map,698,,68,EV068,1,3,102,choices,Sí
+map,698,,68,EV068,1,3,102,choices,No
+map,698,,68,EV068,1,4,402,choice_branch,Sí
+map,698,,68,EV068,1,5,355,script,"$PokemonBag.pbDeleteItem(:HONEY,1)"
+map,698,,68,EV068,1,6,101,show_text,"Has untado miel, espera a mañana para ver si aparece algún Pokémon."
+map,698,,68,EV068,1,7,355,script,pbSetEventTime
+map,698,,68,EV068,1,9,402,choice_branch,No
+map,698,,68,EV068,2,0,108,comment,noshadow
+map,698,,68,EV068,2,3,101,show_text,\sh¡OOOOOOH! ¡Un Pokémon salvaje se estaba comiendo la miel y te quiere atacar!
+map,698,,68,EV068,2,4,355,script,"pkmnArr = [:BUTTERFREE,:BEEDRILL,:SCYTHER,:PINSIR,:LEDIAN,:HERACROSS,:YANMA,:PINECO,:APPLIN,:VESPIQUEN,"
+map,698,,68,EV068,2,5,655,script_cont,":MUNCHLAX,:CHERRIM,:BEAUTIFLY,:DUSTOX,:VOLBEAT,:ILLUMISE,:KRICKETUNE,:MOTHIM,:LEAVANNY,:RIBOMBEE]"
+map,698,,68,EV068,2,6,355,script,pos = rand(0...20)
+map,698,,68,EV068,2,7,655,script_cont,shiny = rand(0..10)
+map,698,,68,EV068,2,8,655,script_cont,"pkmn = Pokemon.new(pkmnArr[pos], 70)"
+map,698,,68,EV068,2,9,655,script_cont,pkmn.iv[:HP] = 31
+map,698,,68,EV068,2,10,655,script_cont,pkmn.iv[:DEFENSE] = 31
+map,698,,68,EV068,2,11,655,script_cont,pkmn.iv[:ATTACK] = 31
+map,698,,68,EV068,2,12,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+map,698,,68,EV068,2,13,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+map,698,,68,EV068,2,14,655,script_cont,pkmn.iv[:SPEED] = 31
+map,698,,68,EV068,2,15,655,script_cont,if shiny == 1
+map,698,,68,EV068,2,16,655,script_cont,pkmn.shiny = true
+map,698,,68,EV068,2,17,655,script_cont,end
+map,698,,68,EV068,2,18,355,script,pbWildBattleCore(pkmn)
+map,698,,68,EV068,3,0,108,comment,noshadow
+map,698,,68,EV068,3,1,101,show_text,"Todavía no ha aparecido ningún Pokémon, espera a mañana."
+map,698,,68,EV068,4,2,355,script,"setTempSwitchOn(""A"")"
+map,698,,13,"Fuente, size(2,1)",1,0,108,comment,noshadow
+map,698,,50,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,50,BerryPlant,1,1,108,comment,noshadow
+map,698,,87,EV087,1,0,108,comment,noshadow
+map,698,,87,EV087,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,87,EV087,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,87,EV087,1,4,102,choices,Si
+map,698,,87,EV087,1,4,102,choices,No
+map,698,,87,EV087,1,5,402,choice_branch,Si
+map,698,,87,EV087,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,87,EV087,1,26,355,script,pbSetEventTime
+map,698,,87,EV087,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,87,EV087,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,87,EV087,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,87,EV087,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,87,EV087,1,102,402,choice_branch,No
+map,698,,87,EV087,2,0,108,comment,noshadow
+map,698,,87,EV087,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,87,EV087,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,87,EV087,2,4,102,choices,Si
+map,698,,87,EV087,2,4,102,choices,No
+map,698,,87,EV087,2,5,402,choice_branch,Si
+map,698,,87,EV087,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,87,EV087,2,26,355,script,pbSetEventTime
+map,698,,87,EV087,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,87,EV087,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,87,EV087,2,75,402,choice_branch,No
+map,698,,87,EV087,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,87,EV087,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,32,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,32,BerryPlant,1,1,108,comment,noshadow
+map,698,,69,EV069,1,0,108,comment,noshadow
+map,698,,69,EV069,1,1,101,show_text,¡Bienvenido/a a la Granja de \PN!
+map,698,,69,EV069,1,3,101,show_text,"¿Necesitas información de algún apartado?\ch[1,-1,Huerto,Árboles,Corral,Cuadra,Casa,Lago Shiny,Cueva de Setas,Paneles de Miel]"
+map,698,,69,EV069,1,9,101,show_text,En el huerto podrás plantar bayas y semillas.
+map,698,,69,EV069,1,11,101,show_text,"Cada semilla tiene diferentes días de crecimiento, generalmente entre 2-4 días. Además, debe ser regada por primera vez y acelera su crecimiento."
+map,698,,69,EV069,1,13,101,show_text,"Además, al cosecharlas pueden dropear de 1-5 frutos."
+map,698,,69,EV069,1,15,101,show_text,¡Recuerda cuidar de tus plantas!
+map,698,,69,EV069,1,19,101,show_text,"Los árboles se pueden talar todos los días, al igual que otros que puedes encontrar por el mundo."
+map,698,,69,EV069,1,23,101,show_text,El Corral permite tener Pokémnon de Granja.
+map,698,,69,EV069,1,25,101,show_text,Los Pokémon de la Granja se pueden comprar en la Tienda de la Ruta 21.
+map,698,,69,EV069,1,27,101,show_text,Solo se puede comprar un Pokémon de Granja de cada tipo.
+map,698,,69,EV069,1,29,101,show_text,"Los Pokémon generalmente sueltan objetos en el Corral cada día, otros deben ser muñidos, como Miltank o Skiddo."
+map,698,,69,EV069,1,31,101,show_text,"Además, deberán ser alimentados por \c[2]Heno\c[0], que se puede comprar en la tienda."
+map,698,,69,EV069,1,33,101,show_text,Un Pokémon de Granja \c[2]consume 1 unidad de Heno al día\c[0].
+map,698,,69,EV069,1,35,101,show_text,"Si los Pokémon no tienen comida, no generarán dichos objetos hasta que puedan comer y se generarán al día siguiente."
+map,698,,69,EV069,1,37,101,show_text,Todos los objetos mencionados se puede comprar en la Tienda de la Ruta 21.
+map,698,,69,EV069,1,41,101,show_text,"La cuadra permite tener Pokemonturas, sin esto no podrás comprarlas ni usarlas."
+map,698,,69,EV069,1,43,101,show_text,Las Pokemonturas se pueden comprar en la tienda de la Ruta 21.
+map,698,,69,EV069,1,47,101,show_text,La casa permite guardar punto de inicio y curar a tus Pokémon desde la cama.
+map,698,,69,EV069,1,49,101,show_text,"Además, podrás casarte en dicha casa y posiblemente tener hijos en un futuro (?)"
+map,698,,69,EV069,1,51,101,show_text,"Hay ciertas partes de la casa que son decorables, con el Ekans Game de dicha casa, podrás canjear dichas decoraciones."
+map,698,,69,EV069,1,55,101,show_text,El Lago Shiny permite encontrar a Pokémon con el doble de probabilidad de que salga Shiny.
+map,698,,69,EV069,1,57,101,show_text,¡Buena suerte!
+map,698,,69,EV069,1,61,101,show_text,"La Cueva de Setas genera de manera aleatoria 3 tipos de Setas, con diferente probabilidad cada una."
+map,698,,69,EV069,1,63,101,show_text,"Puedes encontrar Mini Seta, Seta Grande o Seta Aroma."
+map,698,,69,EV069,1,67,101,show_text,"Los paneles de miel se regeneran cada día, sin más."
+map,698,,14,a,1,0,108,comment,noshadow
+map,698,,51,EV051,1,0,355,script,pbSetEventTime
+map,698,,51,EV051,1,1,355,script,pbReceiveItem(:HONEY)
+map,698,,51,EV051,1,2,108,comment,noshadow
+map,698,,51,EV051,2,0,101,show_text,"Ya has recogido la miel de hoy, espera hasta mañana."
+map,698,,51,EV051,3,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,88,EV088,1,0,108,comment,noshadow
+map,698,,88,EV088,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,88,EV088,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,88,EV088,1,4,102,choices,Si
+map,698,,88,EV088,1,4,102,choices,No
+map,698,,88,EV088,1,5,402,choice_branch,Si
+map,698,,88,EV088,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,88,EV088,1,26,355,script,pbSetEventTime
+map,698,,88,EV088,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,88,EV088,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,88,EV088,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,88,EV088,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,88,EV088,1,102,402,choice_branch,No
+map,698,,88,EV088,2,0,108,comment,noshadow
+map,698,,88,EV088,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,88,EV088,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,88,EV088,2,4,102,choices,Si
+map,698,,88,EV088,2,4,102,choices,No
+map,698,,88,EV088,2,5,402,choice_branch,Si
+map,698,,88,EV088,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,88,EV088,2,26,355,script,pbSetEventTime
+map,698,,88,EV088,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,88,EV088,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,88,EV088,2,75,402,choice_branch,No
+map,698,,88,EV088,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,88,EV088,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,33,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,33,BerryPlant,1,1,108,comment,noshadow
+map,698,,70,EV070,1,0,108,comment,noshadow
+map,698,,70,EV070,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,70,EV070,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,70,EV070,1,4,102,choices,Si
+map,698,,70,EV070,1,4,102,choices,No
+map,698,,70,EV070,1,5,402,choice_branch,Si
+map,698,,70,EV070,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,70,EV070,1,26,355,script,pbSetEventTime
+map,698,,70,EV070,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,70,EV070,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,70,EV070,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,70,EV070,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,70,EV070,1,102,402,choice_branch,No
+map,698,,70,EV070,2,0,108,comment,noshadow
+map,698,,70,EV070,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,70,EV070,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,70,EV070,2,4,102,choices,Si
+map,698,,70,EV070,2,4,102,choices,No
+map,698,,70,EV070,2,5,402,choice_branch,Si
+map,698,,70,EV070,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,70,EV070,2,26,355,script,pbSetEventTime
+map,698,,70,EV070,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,70,EV070,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,70,EV070,2,75,402,choice_branch,No
+map,698,,70,EV070,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,70,EV070,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,107,xd,1,4,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,698,,107,xd,1,25,101,show_text,\dxn[\PN]¡Ha quedado increíble!
+map,698,,107,xd,1,30,101,show_text,\dxn[\PN]¡Ha quedado increíble!
+map,698,,107,xd,1,42,101,show_text,\dxn[Granjero Eric]He despejado toda la granja y he arado el suelo para que puedas empezar a plantar.
+map,698,,107,xd,1,44,101,show_text,"\dxn[Granjero Eric]También he añadido vallas y espantapájaros, para que los Murkrow no se coman tus cultivos."
+map,698,,107,xd,1,51,101,show_text,\dxn[Constructor Garo]Es increíble ver que hayas conseguido tener hasta tu propio terreno.
+map,698,,107,xd,1,53,101,show_text,"\dxn[Constructor Garo]Me alegro mucho por ti, \PN."
+map,698,,107,xd,1,64,101,show_text,"\dxn[Constructor Garo]Parece que también hay espacio suficiente como para poder construir una casa, un corral y una cuadra."
+map,698,,107,xd,1,74,101,show_text,"\dxn[Constructor Garo]Creo que por \c[2]un precio\c[0] y por una \c[2]cantidad de madera\c[0], te puedo ir construyendo todo por separado."
+map,698,,107,xd,1,76,101,show_text,\dxn[Constructor Garo]Me quedaré en la granja para que puedas irme pidiendo todo lo que necesites.
+map,698,,107,xd,1,81,101,show_text,"\dxn[Granjero Eric]Por mi parte, hasta aquí, espero que le sepas dar un buen uso."
+map,698,,107,xd,1,84,101,show_text,"\dxn[Granjero Eric]¡Oh, espera, toma esto antes de nada!"
+map,698,,107,xd,1,85,355,script,pbReceiveItem(:SPRAYDUCK)
+map,698,,107,xd,1,87,101,show_text,\dxn[Granjero Eric]Esto te hará falta para regar todos tus cultivos.
+map,698,,107,xd,1,89,101,show_text,"\dxn[Granjero Eric]Te recomiendo ir a la tienda que tenemos en la Ruta 21, de donde has venido."
+map,698,,107,xd,1,91,101,show_text,"\dxn[Granjero Eric]Ahí podrás comprar \c[2]semillas, fertilizantes, Pokémon de granja\c[0] y hasta \c[2]Pokémonturas\c[0]."
+map,698,,107,xd,1,94,101,show_text,"\dxn[Granjero Eric]¡Dicho esto, espero que disfrutes de todo lo que puede ofrecer el poder de la tierra!"
+map,698,,107,xd,1,96,101,show_text,\dxn[Granjero Eric]Conviértete en un gran granjero y... ¡quién sabe!
+map,698,,107,xd,1,98,101,show_text,"\dxn[Granjero Eric]¡Quizás venga a verte hasta \c[2]Landorus\c[0], el Dios de la cosecha!"
+map,698,,107,xd,1,110,355,script,FollowingPkmn.toggle_on
+map,698,,107,xd,3,1,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,698,,107,xd,3,18,101,show_text,\f[warabbit_000]¿Bit?
+map,698,,107,xd,3,31,101,show_text,\f[warabbit_001]¡Bit!
+map,698,,107,xd,3,35,101,show_text,\dxn[\PN]Parece que está perdido...
+map,698,,107,xd,3,39,101,show_text,\dxn[\PN]¡Lo adoptaré como un nuevo integrante de la Granja!
+map,698,,107,xd,3,44,101,show_text,\dxn[\PN]Parece que está perdido...
+map,698,,107,xd,3,48,101,show_text,\dxn[\PN]¡Lo adoptaré como un nuevo integrante de la Granja!
+map,698,,107,xd,3,52,355,script,pbAddSocialLink(:WARABBIT)
+map,698,,107,xd,3,54,101,show_text,"¡Este extraño ""Pokémon"" se quedará contigo en la Granja!"
+map,698,,107,xd,3,56,101,show_text,¿Quieres ponerle un mote a este extraño Pokémon?
+map,698,,107,xd,3,57,102,choices,Sí
+map,698,,107,xd,3,57,102,choices,No
+map,698,,107,xd,3,58,402,choice_branch,Sí
+map,698,,107,xd,3,59,355,script,"$game_variables[348] = pbEnterText(""Nombre de tu mascota"", 1, 10)"
+map,698,,107,xd,3,61,402,choice_branch,No
+map,698,,107,xd,3,62,355,script,"$game_variables[348] = ""Warabbit"""
+map,698,,107,xd,3,69,355,script,FollowingPkmn.toggle_on
+map,698,,107,xd,3,70,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,698,,107,xd,5,4,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,698,,107,xd,5,5,355,script,$PokemonGlobal.bicycle = false
+map,698,,107,xd,5,6,355,script,FollowingPkmn.toggle_off
+map,698,,107,xd,5,15,355,script,Pokemon.play_cry(:LANDORUS)
+map,698,,107,xd,5,23,101,show_text,\sh\dxn[\PN]¿Quién es este Pokémon?
+map,698,,107,xd,5,28,101,show_text,\sh\dxn[\PN]¿Quién es este Pokémon?
+map,698,,107,xd,5,33,355,script,pbCameraToEvent(105)
+map,698,,107,xd,5,44,355,script,Pokemon.play_cry(:LANDORUS)
+map,698,,107,xd,5,45,101,show_text,\f[landorus000]...
+map,698,,107,xd,5,66,355,script,"pbZoomMap(2,0.2,zoom=""in"")"
+map,698,,107,xd,5,72,355,script,pbCameraShake(6)
+map,698,,107,xd,5,73,355,script,Pokemon.play_cry(:LANDORUS)
+map,698,,107,xd,5,74,101,show_text,\sh¡LAAAAAND!
+map,698,,107,xd,5,75,355,script,"pbZoomMap(1,0.2,zoom=""out"")"
+map,698,,107,xd,5,76,355,script,pbCameraShakeOff
+map,698,,107,xd,5,78,355,script,pbCameraReset
+map,698,,107,xd,5,83,101,show_text,\sh\dxn[\PN]¿¡Q-Quiere combatir!?
+map,698,,107,xd,5,88,101,show_text,\sh\dxn[\PN]¿¡Q-Quiere combatir!?
+map,698,,107,xd,5,93,355,script,"setBattleRule(""canLose"")"
+map,698,,107,xd,5,94,355,script,"setBattleRule(""cannotRun"")"
+map,698,,107,xd,5,95,355,script,"setBattleRule(""base"", ""bridge"")"
+map,698,,107,xd,5,99,355,script,"$PokemonGlobal.nextBattleBGM = ""VS_TRIO_BW"""
+map,698,,107,xd,5,103,355,script,"pkmn = Pokemon.new(:LANDORUS_2, 70)"
+map,698,,107,xd,5,104,655,script_cont,pkmn.iv[:HP] = 31
+map,698,,107,xd,5,105,655,script_cont,pkmn.iv[:DEFENSE] = 31
+map,698,,107,xd,5,106,655,script_cont,pkmn.iv[:ATTACK] = 31
+map,698,,107,xd,5,107,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+map,698,,107,xd,5,108,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+map,698,,107,xd,5,109,655,script_cont,pkmn.iv[:SPEED] = 31
+map,698,,107,xd,5,110,655,script_cont,pkmn.learn_move(:EARTHQUAKE)
+map,698,,107,xd,5,111,655,script_cont,pkmn.learn_move(:STONEEDGE)
+map,698,,107,xd,5,112,655,script_cont,pkmn.learn_move(:UTURN)
+map,698,,107,xd,5,113,655,script_cont,pkmn.learn_move(:CRUNCH)
+map,698,,107,xd,5,114,655,script_cont,pbWildBattleCore(pkmn)
+map,698,,107,xd,5,117,355,script,pbCameraShake(9)
+map,698,,107,xd,5,120,355,script,pbCameraShakeOff
+map,698,,107,xd,5,124,355,script,Pokemon.play_cry(:LANDORUS)
+map,698,,107,xd,5,125,101,show_text,\f[landorus000]¡Land!
+map,698,,107,xd,5,127,355,script,pbCameraToEvent(106)
+map,698,,107,xd,5,138,101,show_text,"\sh\dxn[Granjero Eric]¡Ese Pokémon es Landorus, el mismísimo dios de la cosecha!"
+map,698,,107,xd,5,149,101,show_text,\sh\dxn[\PN]¡G-Granjero Eric!
+map,698,,107,xd,5,154,101,show_text,\sh\dxn[\PN]¡G-Granjero Eric!
+map,698,,107,xd,5,160,101,show_text,\dxn[Granjero Eric]Landorus aparece cuando necesitas ayuda con tu cosecha o cuando reconoce una gran Granja.
+map,698,,107,xd,5,166,101,show_text,\dxn[Granjero Eric]¡Tu Granja ha cambiado mucho desde el primer día!
+map,698,,107,xd,5,168,101,show_text,"\dxn[Granjero Eric]¡Tienes muchísimos Pokémon, les has dado cariño, has construído de todo y has cultivado todas las posibles semillas!"
+map,698,,107,xd,5,174,101,show_text,"\sh\dxn[Granjero Eric]¡Es increíble, Landorus debe de estar muy orgulloso de tu trabajo!"
+map,698,,107,xd,5,185,355,script,Pokemon.play_cry(:LANDORUS)
+map,698,,107,xd,5,186,101,show_text,\f[landorus000]¡Land!
+map,698,,107,xd,5,188,101,show_text,\dxn[Granjero Eric]Landorus a veces combate contra los granjeros para ver si es digno de ayudar en su cosecha... ¡pero parece que al haberle ganado quiere
+map,698,,107,xd,5,189,401,show_text_cont,querdarse contigo!
+map,698,,107,xd,5,193,355,script,Pokemon.play_cry(:LANDORUS)
+map,698,,107,xd,5,194,101,show_text,\f[landorus000]¡Land!
+map,698,,107,xd,5,196,355,script,"pbAddPokemon(:LANDORUS,70)"
+map,698,,107,xd,5,210,101,show_text,\sh\dxn[Granjero Eric]¡Parece que has alcanzado la Granja perfecta y hasta el Dios de la cosecha te ha aceptado como el mayor granjero!
+map,698,,107,xd,5,212,101,show_text,"\dxn[Granjero Eric]Me alegra mucho el haberte confiado mi Granja, ha valido totalmente la pena."
+map,698,,107,xd,5,214,101,show_text,"\dxn[Granjero Eric]¡Pero eso no significa que ahora puedas dejar a tus Pokémon de Granja de lado, recuerda darles mimos todos los días y cultivar increíbles"
+map,698,,107,xd,5,215,401,show_text_cont,hortalizas!
+map,698,,107,xd,5,220,101,show_text,"\dxn[\PN]No se preocupe, Eric, seguiré trabajando duro."
+map,698,,107,xd,5,224,101,show_text,\dxn[\PN]¡Gracias por todo!
+map,698,,107,xd,5,229,101,show_text,"\dxn[\PN]No se preocupe, Eric, seguiré trabajando duro."
+map,698,,107,xd,5,233,101,show_text,\dxn[\PN]¡Gracias por todo!
+map,698,,107,xd,5,243,355,script,FollowingPkmn.toggle_on
+map,698,,15,"Fuente, size(2,1)",1,0,108,comment,noshadow
+map,698,,89,EV089,1,0,108,comment,noshadow
+map,698,,89,EV089,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,89,EV089,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,89,EV089,1,4,102,choices,Si
+map,698,,89,EV089,1,4,102,choices,No
+map,698,,89,EV089,1,5,402,choice_branch,Si
+map,698,,89,EV089,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,89,EV089,1,26,355,script,pbSetEventTime
+map,698,,89,EV089,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,89,EV089,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,89,EV089,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,89,EV089,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,89,EV089,1,102,402,choice_branch,No
+map,698,,89,EV089,2,0,108,comment,noshadow
+map,698,,89,EV089,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,89,EV089,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,89,EV089,2,4,102,choices,Si
+map,698,,89,EV089,2,4,102,choices,No
+map,698,,89,EV089,2,5,402,choice_branch,Si
+map,698,,89,EV089,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,89,EV089,2,26,355,script,pbSetEventTime
+map,698,,89,EV089,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,89,EV089,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,89,EV089,2,75,402,choice_branch,No
+map,698,,89,EV089,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,89,EV089,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,34,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,34,BerryPlant,1,1,108,comment,noshadow
+map,698,,71,TORCHIC,1,1,355,script,Pokemon.play_cry(:TORCHIC)
+map,698,,71,TORCHIC,1,2,101,show_text,\f[torchic_000_2]¡Chic!
+map,698,,71,TORCHIC,1,5,101,show_text,Tu amistad con Torchic ha alcanzado su máximo.
+map,698,,71,TORCHIC,1,8,355,script,"pbGainSocialLinkBond(:TORCHIC, 1)"
+map,698,,71,TORCHIC,1,11,355,script,pbSetEventTime
+map,698,,71,TORCHIC,2,0,101,show_text,Ya has acariciado a Torchic hoy.
+map,698,,71,TORCHIC,3,0,355,script,Pokemon.play_cry(:TORCHIC)
+map,698,,71,TORCHIC,3,1,101,show_text,"Torchic está triste, no ha tenido heno para comer, así que no producirá huevos hoy."
+map,698,,71,TORCHIC,4,0,108,comment,noshadow
+map,698,,71,TORCHIC,5,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,108,Constructor2,1,0,108,comment,"Si tienes cerveza, posibilidad de darle"
+map,698,,108,Constructor2,1,2,101,show_text,¿Quieres darle una \c[2]Cerveza\c[0] a Garo?
+map,698,,108,Constructor2,1,3,102,choices,Sí
+map,698,,108,Constructor2,1,3,102,choices,No
+map,698,,108,Constructor2,1,4,402,choice_branch,Sí
+map,698,,108,Constructor2,1,5,355,script,"$PokemonBag.pbDeleteItem(:CERVEZA,1)"
+map,698,,108,Constructor2,1,8,101,show_text,\dxn[Constructor Garo]¡Sabes lo que me gusta! ¡Muchas gracias!
+map,698,,108,Constructor2,1,11,101,show_text,Su amistad no parece que vaya a subir más...
+map,698,,108,Constructor2,1,14,355,script,"pbGainSocialLinkBond(:GARO, 1)"
+map,698,,108,Constructor2,1,17,108,comment,"Si está al máximo, te mejora el hacha"
+map,698,,108,Constructor2,1,22,101,show_text,"\dxn[Constructor Garo]Oye, muchas gracias por todo lo que haces por mí."
+map,698,,108,Constructor2,1,24,101,show_text,"\dxn[Constructor Garo]Déjame, que voy a mejorar tu hacha, que está bastante reventada de tanto uso."
+map,698,,108,Constructor2,1,34,355,script,"$PokemonBag.pbDeleteItem(:HACHANCESTRAL,1)"
+map,698,,108,Constructor2,1,35,355,script,pbReceiveItem(:HACHAFINAL)
+map,698,,108,Constructor2,1,37,101,show_text,\dxn[Constructor Garo]Con esta mejora serás capaz de sacar \c[2] hasta 20 trozos de madera por árbol\c[0].
+map,698,,108,Constructor2,1,42,101,show_text,"\sh\dxn[\PN]¡Hey, eso es un montón!"
+map,698,,108,Constructor2,1,46,101,show_text,\dxn[\PN]¡Muchas gracias!
+map,698,,108,Constructor2,1,51,101,show_text,"\sh\dxn[\PN]¡Hey, eso es un montón!"
+map,698,,108,Constructor2,1,55,101,show_text,\dxn[\PN]¡Muchas gracias!
+map,698,,108,Constructor2,1,60,101,show_text,\dxn[Constructor Garo]¡Gracias a ti por todo!
+map,698,,108,Constructor2,1,73,402,choice_branch,No
+map,698,,108,Constructor2,1,82,108,comment,Guardamos cuántas piezas de leña tenemos
+map,698,,108,Constructor2,1,83,355,script,$game_variables[217]=$PokemonBag.pbQuantity(:PIEZADELENA)
+map,698,,108,Constructor2,1,84,101,show_text,"\dxn[Constructor Garo]Hola, \PN."
+map,698,,108,Constructor2,1,86,101,show_text,\dxn[Constructor Garo]¿Qué te gustaría que te construyera?
+map,698,,108,Constructor2,1,88,108,comment,Caso básico
+map,698,,108,Constructor2,1,89,102,choices,House
+map,698,,108,Constructor2,1,89,102,choices,Corral
+map,698,,108,Constructor2,1,89,102,choices,Stable
+map,698,,108,Constructor2,1,89,102,choices,"Nothing, thanks."
+map,698,,108,Constructor2,1,90,402,choice_branch,House
+map,698,,108,Constructor2,1,91,108,comment,Casa time
+map,698,,108,Constructor2,1,95,101,show_text,\dxn[Constructor Garo]Pero si ya has comprado la casa...
+map,698,,108,Constructor2,1,97,101,show_text,\dxn[Constructor Garo]Pero puede sea mejorable en un futuro...
+map,698,,108,Constructor2,1,103,101,show_text,"\dxn[Constructor Garo]Ya veo, la casa puede ser muy costosa de hacer..."
+map,698,,108,Constructor2,1,105,101,show_text,\dxn[Constructor Garo]Creo que por \c[2]150.000 Pokedólares\c[0] y \c[2]300 trozos de madera\c[0] te la puedo construir.
+map,698,,108,Constructor2,1,107,101,show_text,\dxn[Constructor Garo]¿Qué me dices?
+map,698,,108,Constructor2,1,108,102,choices,Let's go!
+map,698,,108,Constructor2,1,108,102,choices,"No, thank you..."
+map,698,,108,Constructor2,1,109,402,choice_branch,Let's go!
+map,698,,108,Constructor2,1,110,108,comment,Tiene dinero y madera suficiente?
+map,698,,108,Constructor2,1,113,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,300)"
+map,698,,108,Constructor2,1,124,101,show_text,"\dxn[Constructor Garo]¡De acuerdo, manos a la obra!"
+map,698,,108,Constructor2,1,135,101,show_text,"\dxn[Constructor Garo]¡Ya está todo listo, ya puedes entrar a tu nuevo hogar!"
+map,698,,108,Constructor2,1,141,101,show_text,\dxn[Constructor Garo]No tienes suficiente madera.
+map,698,,108,Constructor2,1,148,101,show_text,\dxn[Constructor Garo]No tienes suficientes dinero.
+map,698,,108,Constructor2,1,152,402,choice_branch,"No, thank you..."
+map,698,,108,Constructor2,1,153,101,show_text,"\dxn[Constructor Garo]Entiendo, si quieres que construya algo me lo dices."
+map,698,,108,Constructor2,1,157,402,choice_branch,Corral
+map,698,,108,Constructor2,1,158,108,comment,Corral time
+map,698,,108,Constructor2,1,162,101,show_text,\dxn[Constructor Garo]Pero si ya has comprado un corral...
+map,698,,108,Constructor2,1,168,101,show_text,\dxn[Constructor Garo]Creo que por \c[2]50.000 Pokedólares\c[0] y \c[2]100 trozos de madera\c[0] te la puedo construir.
+map,698,,108,Constructor2,1,170,101,show_text,\dxn[Constructor Garo]¿Qué me dices?
+map,698,,108,Constructor2,1,171,102,choices,Let's go!
+map,698,,108,Constructor2,1,171,102,choices,"No, thank you..."
+map,698,,108,Constructor2,1,172,402,choice_branch,Let's go!
+map,698,,108,Constructor2,1,173,108,comment,Tiene dinero y madera suficiente?
+map,698,,108,Constructor2,1,176,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,100)"
+map,698,,108,Constructor2,1,187,101,show_text,"\dxn[Constructor Garo]¡De acuerdo, manos a la obra!"
+map,698,,108,Constructor2,1,198,101,show_text,"\dxn[Constructor Garo]¡Ya está todo listo, ya puedes comprar Pokémon de Granja en el Corral!"
+map,698,,108,Constructor2,1,203,101,show_text,\dxn[Constructor Garo]No tienes suficiente madera.
+map,698,,108,Constructor2,1,210,101,show_text,\dxn[Constructor Garo]No tienes suficientes dinero.
+map,698,,108,Constructor2,1,214,402,choice_branch,"No, thank you..."
+map,698,,108,Constructor2,1,215,101,show_text,"\dxn[Constructor Garo]Entiendo, si quieres que construya algo me lo dices."
+map,698,,108,Constructor2,1,219,402,choice_branch,Stable
+map,698,,108,Constructor2,1,220,108,comment,Cuadra time
+map,698,,108,Constructor2,1,224,101,show_text,\dxn[Constructor Garo]Pero si ya has comprado una cuadra...
+map,698,,108,Constructor2,1,230,101,show_text,\dxn[Constructor Garo]Creo que por \c[2]10.000 Pokedólares\c[0] y \c[2]20 trozos de madera\c[0] te la puedo construir.
+map,698,,108,Constructor2,1,232,101,show_text,\dxn[Constructor Garo]¿Qué me dices?
+map,698,,108,Constructor2,1,233,102,choices,¡Del tirón!
+map,698,,108,Constructor2,1,233,102,choices,"No, gracias..."
+map,698,,108,Constructor2,1,234,402,choice_branch,¡Del tirón!
+map,698,,108,Constructor2,1,235,108,comment,Tiene dinero y madera suficiente?
+map,698,,108,Constructor2,1,238,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,20)"
+map,698,,108,Constructor2,1,249,101,show_text,"\dxn[Constructor Garo]¡De acuerdo, manos a la obra!"
+map,698,,108,Constructor2,1,260,101,show_text,"\dxn[Constructor Garo]¡Ya está todo listo, ya puedes comprar Pokémonturas y viajar por el mundo con ellas!"
+map,698,,108,Constructor2,1,265,101,show_text,\dxn[Constructor Garo]No tienes suficiente madera.
+map,698,,108,Constructor2,1,272,101,show_text,\dxn[Constructor Garo]No tienes suficientes dinero.
+map,698,,108,Constructor2,1,276,402,choice_branch,"No, gracias..."
+map,698,,108,Constructor2,1,277,101,show_text,"\dxn[Constructor Garo]Entiendo, si quieres que construya algo me lo dices."
+map,698,,108,Constructor2,1,281,402,choice_branch,"Nothing, thanks."
+map,698,,108,Constructor2,1,282,101,show_text,"\dxn[Constructor Garo]Entiendo, si quieres que construya algo me lo dices."
+map,698,,108,Constructor2,2,0,108,comment,"Si tienes cerveza, posibilidad de darle"
+map,698,,108,Constructor2,2,2,101,show_text,¿Quieres darle una \c[2]Cerveza\c[0] a Garo?
+map,698,,108,Constructor2,2,3,102,choices,Sí
+map,698,,108,Constructor2,2,3,102,choices,No
+map,698,,108,Constructor2,2,4,402,choice_branch,Sí
+map,698,,108,Constructor2,2,5,355,script,"$PokemonBag.pbDeleteItem(:CERVEZA,1)"
+map,698,,108,Constructor2,2,8,101,show_text,\dxn[Constructor Garo]¡Sabes lo que me gusta! ¡Muchas gracias!
+map,698,,108,Constructor2,2,11,101,show_text,Su amistad no parece que vaya a subir más...
+map,698,,108,Constructor2,2,14,355,script,"pbGainSocialLinkBond(:GARO, 1)"
+map,698,,108,Constructor2,2,17,108,comment,"Si está al máximo, te mejora el hacha"
+map,698,,108,Constructor2,2,22,101,show_text,"\dxn[Constructor Garo]Oye, muchas gracias por todo lo que haces por mí."
+map,698,,108,Constructor2,2,24,101,show_text,"\dxn[Constructor Garo]Déjame, que voy a mejorar tu hacha, que está bastante reventada de tanto uso."
+map,698,,108,Constructor2,2,34,355,script,"$PokemonBag.pbDeleteItem(:HACHANCESTRAL,1)"
+map,698,,108,Constructor2,2,35,355,script,pbReceiveItem(:HACHAFINAL)
+map,698,,108,Constructor2,2,37,101,show_text,\dxn[Constructor Garo]Con esta mejora serás capaz de sacar \c[2] hasta 20 trozos de madera por árbol\c[0].
+map,698,,108,Constructor2,2,42,101,show_text,"\sh\dxn[\PN]¡Hey, eso es un montón!"
+map,698,,108,Constructor2,2,46,101,show_text,\dxn[\PN]¡Muchas gracias!
+map,698,,108,Constructor2,2,51,101,show_text,"\sh\dxn[\PN]¡Hey, eso es un montón!"
+map,698,,108,Constructor2,2,55,101,show_text,\dxn[\PN]¡Muchas gracias!
+map,698,,108,Constructor2,2,60,101,show_text,\dxn[Constructor Garo]¡Gracias a ti por todo!
+map,698,,108,Constructor2,2,73,402,choice_branch,No
+map,698,,108,Constructor2,2,82,108,comment,Guardamos cuántas piezas de leña tenemos
+map,698,,108,Constructor2,2,83,355,script,$game_variables[217]=$PokemonBag.pbQuantity(:PIEZADELENA)
+map,698,,108,Constructor2,2,84,101,show_text,\dxn[Constructor Garo]¡Ya tienes todo construido!
+map,698,,108,Constructor2,2,86,101,show_text,"\dxn[Constructor Garo]Por ahora no hay nada más que puedas construir, así que no te puedo ofrecer nada, aun así..."
+map,698,,108,Constructor2,2,88,101,show_text,\dxn[Garo]¿Has venido a vender o intercambiar tus PL (Piezas de Leña)?
+map,698,,108,Constructor2,2,89,102,choices,Si
+map,698,,108,Constructor2,2,89,102,choices,No
+map,698,,108,Constructor2,2,90,402,choice_branch,Si
+map,698,,108,Constructor2,2,91,101,show_text,\dxn[Garo]¿Qué deseas? ¿Vender o intercambiar?
+map,698,,108,Constructor2,2,92,102,choices,Vender
+map,698,,108,Constructor2,2,92,102,choices,Intercambiar
+map,698,,108,Constructor2,2,92,102,choices,Nada
+map,698,,108,Constructor2,2,93,402,choice_branch,Vender
+map,698,,108,Constructor2,2,94,102,choices,"5 PL = 1,000$"
+map,698,,108,Constructor2,2,94,102,choices,"10 PL = 2,500$"
+map,698,,108,Constructor2,2,94,102,choices,"20 PL = 7,000$"
+map,698,,108,Constructor2,2,94,102,choices,Nada.
+map,698,,108,Constructor2,2,95,402,choice_branch,"5 PL = 1,000$"
+map,698,,108,Constructor2,2,97,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,5)"
+map,698,,108,Constructor2,2,100,101,show_text,<b>Has ganado 1000 Pokedólares.</b>
+map,698,,108,Constructor2,2,103,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,107,402,choice_branch,"10 PL = 2,500$"
+map,698,,108,Constructor2,2,109,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,10)"
+map,698,,108,Constructor2,2,111,101,show_text,<b>Has ganado 2500 Pokedólares.</b>
+map,698,,108,Constructor2,2,114,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,118,402,choice_branch,"20 PL = 7,000$"
+map,698,,108,Constructor2,2,120,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,20)"
+map,698,,108,Constructor2,2,122,101,show_text,<b>Has ganado 7000 Pokedólares.</b>
+map,698,,108,Constructor2,2,125,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,129,402,choice_branch,Nada.
+map,698,,108,Constructor2,2,130,101,show_text,"\dxn[Garo]Okey, sin problemas."
+map,698,,108,Constructor2,2,134,402,choice_branch,Intercambiar
+map,698,,108,Constructor2,2,135,101,show_text,\dxn[Garo]¿Qué tipo de recompensa deseas?
+map,698,,108,Constructor2,2,136,102,choices,MTs de un solo uso
+map,698,,108,Constructor2,2,136,102,choices,Objetos de Combate
+map,698,,108,Constructor2,2,136,102,choices,Pokéball Especiales
+map,698,,108,Constructor2,2,136,102,choices,"Nada, perdona"
+map,698,,108,Constructor2,2,137,402,choice_branch,MTs de un solo uso
+map,698,,108,Constructor2,2,138,101,show_text,"\dxn[Garo]Escoge alguna de las MTs disponibles: \ch[1,-1,TR00 - Danza Espada,TR23 - Púas,TR60 - TijeraX,TR71 - LlueveHojas,TR77 - Hierba Lazo]"
+map,698,,108,Constructor2,2,140,101,show_text,"\dxn[Garo]¿Nada? Okey, sin problema."
+map,698,,108,Constructor2,2,144,101,show_text,"\dxn[Garo]Danza Espada te costará 12 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,145,102,choices,Si
+map,698,,108,Constructor2,2,145,102,choices,No
+map,698,,108,Constructor2,2,146,402,choice_branch,Si
+map,698,,108,Constructor2,2,148,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,12)"
+map,698,,108,Constructor2,2,149,355,script,pbReceiveItem(:TR00)
+map,698,,108,Constructor2,2,152,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,156,402,choice_branch,No
+map,698,,108,Constructor2,2,157,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,163,101,show_text,"\dxn[Garo]Púas te costará 15 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,164,102,choices,Si
+map,698,,108,Constructor2,2,164,102,choices,No
+map,698,,108,Constructor2,2,165,402,choice_branch,Si
+map,698,,108,Constructor2,2,167,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,15)"
+map,698,,108,Constructor2,2,168,355,script,pbReceiveItem(:TR23)
+map,698,,108,Constructor2,2,171,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,175,402,choice_branch,No
+map,698,,108,Constructor2,2,176,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,182,101,show_text,"\dxn[Garo]TijeraX te costará 25 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,183,102,choices,Si
+map,698,,108,Constructor2,2,183,102,choices,No
+map,698,,108,Constructor2,2,184,402,choice_branch,Si
+map,698,,108,Constructor2,2,186,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,25)"
+map,698,,108,Constructor2,2,187,355,script,pbReceiveItem(:TR60)
+map,698,,108,Constructor2,2,190,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,194,402,choice_branch,No
+map,698,,108,Constructor2,2,195,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,201,101,show_text,"\dxn[Garo]LlueveHojas te costará 50 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,202,102,choices,Si
+map,698,,108,Constructor2,2,202,102,choices,No
+map,698,,108,Constructor2,2,203,402,choice_branch,Si
+map,698,,108,Constructor2,2,205,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,50)"
+map,698,,108,Constructor2,2,206,355,script,pbReceiveItem(:TR71)
+map,698,,108,Constructor2,2,209,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,213,402,choice_branch,No
+map,698,,108,Constructor2,2,214,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,220,101,show_text,"\dxn[Garo]Hierba Lazo te costará 20 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,221,102,choices,Si
+map,698,,108,Constructor2,2,221,102,choices,No
+map,698,,108,Constructor2,2,222,402,choice_branch,Si
+map,698,,108,Constructor2,2,224,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,20)"
+map,698,,108,Constructor2,2,225,355,script,pbReceiveItem(:TR77)
+map,698,,108,Constructor2,2,228,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,232,402,choice_branch,No
+map,698,,108,Constructor2,2,233,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,239,402,choice_branch,Objetos de Combate
+map,698,,108,Constructor2,2,240,101,show_text,"\dxn[Garo]Escoge alguno de los objetos disponibles: \ch[1,-1,Carbón,Semilla Milagro, Agua Mística]"
+map,698,,108,Constructor2,2,242,101,show_text,"\dxn[Garo]¿Nada? Okey, sin problema."
+map,698,,108,Constructor2,2,246,101,show_text,"\dxn[Garo]Carbón te costará 30 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,247,102,choices,Si
+map,698,,108,Constructor2,2,247,102,choices,No
+map,698,,108,Constructor2,2,248,402,choice_branch,Si
+map,698,,108,Constructor2,2,250,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,30)"
+map,698,,108,Constructor2,2,251,355,script,pbReceiveItem(:CHARCOAL)
+map,698,,108,Constructor2,2,254,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,258,402,choice_branch,No
+map,698,,108,Constructor2,2,259,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,265,101,show_text,"\dxn[Garo]Semilla Milagro te costará 30 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,266,102,choices,Si
+map,698,,108,Constructor2,2,266,102,choices,No
+map,698,,108,Constructor2,2,267,402,choice_branch,Si
+map,698,,108,Constructor2,2,269,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,30)"
+map,698,,108,Constructor2,2,270,355,script,pbReceiveItem(:MIRACLESEED)
+map,698,,108,Constructor2,2,273,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,277,402,choice_branch,No
+map,698,,108,Constructor2,2,278,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,284,101,show_text,"\dxn[Garo]Agua Mística te costará 30 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,285,102,choices,Si
+map,698,,108,Constructor2,2,285,102,choices,No
+map,698,,108,Constructor2,2,286,402,choice_branch,Si
+map,698,,108,Constructor2,2,288,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,30)"
+map,698,,108,Constructor2,2,289,355,script,pbReceiveItem(:MYSTICWATER)
+map,698,,108,Constructor2,2,292,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,296,402,choice_branch,No
+map,698,,108,Constructor2,2,297,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,303,402,choice_branch,Pokéball Especiales
+map,698,,108,Constructor2,2,304,101,show_text,"\dxn[Garo]Escoge alguna de las Pokéball disponibles: \ch[1,-1,Buceo Ball, Ocaso Ball, Turno Ball, Veloz Ball]"
+map,698,,108,Constructor2,2,306,101,show_text,"\dxn[Garo]¿Nada? Okey, sin problema."
+map,698,,108,Constructor2,2,310,101,show_text,"\dxn[Garo]Buceoball te costará 5 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,311,102,choices,Si
+map,698,,108,Constructor2,2,311,102,choices,No
+map,698,,108,Constructor2,2,312,402,choice_branch,Si
+map,698,,108,Constructor2,2,314,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,5)"
+map,698,,108,Constructor2,2,315,355,script,pbReceiveItem(:DIVEBALL)
+map,698,,108,Constructor2,2,318,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,322,402,choice_branch,No
+map,698,,108,Constructor2,2,323,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,329,101,show_text,"\dxn[Garo]Ocasoball te costará 7 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,330,102,choices,Si
+map,698,,108,Constructor2,2,330,102,choices,No
+map,698,,108,Constructor2,2,331,402,choice_branch,Si
+map,698,,108,Constructor2,2,333,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,7)"
+map,698,,108,Constructor2,2,334,355,script,pbReceiveItem(:DUSKBALL)
+map,698,,108,Constructor2,2,337,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,341,402,choice_branch,No
+map,698,,108,Constructor2,2,342,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,348,101,show_text,"\dxn[Garo]Turnoball te costará 5 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,349,102,choices,Si
+map,698,,108,Constructor2,2,349,102,choices,No
+map,698,,108,Constructor2,2,350,402,choice_branch,Si
+map,698,,108,Constructor2,2,352,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,5)"
+map,698,,108,Constructor2,2,353,355,script,pbReceiveItem(:TIMERBALL)
+map,698,,108,Constructor2,2,356,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,360,402,choice_branch,No
+map,698,,108,Constructor2,2,361,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,367,101,show_text,"\dxn[Garo]VelozBall te costará 7 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,2,368,102,choices,Si
+map,698,,108,Constructor2,2,368,102,choices,No
+map,698,,108,Constructor2,2,369,402,choice_branch,Si
+map,698,,108,Constructor2,2,371,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,7)"
+map,698,,108,Constructor2,2,372,355,script,pbReceiveItem(:QUICKBALL)
+map,698,,108,Constructor2,2,375,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,2,379,402,choice_branch,No
+map,698,,108,Constructor2,2,380,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,2,386,402,choice_branch,"Nada, perdona"
+map,698,,108,Constructor2,2,390,402,choice_branch,Nada
+map,698,,108,Constructor2,2,391,101,show_text,\dxn[Garo]Cualquier cosa me avisas.
+map,698,,108,Constructor2,2,395,402,choice_branch,No
+map,698,,108,Constructor2,2,396,101,show_text,Cualquier cosa me avisas.
+map,698,,108,Constructor2,4,0,108,comment,"Si tienes cerveza, posibilidad de darle"
+map,698,,108,Constructor2,4,2,101,show_text,¿Quieres darle una \c[2]Cerveza\c[0] a Garo?
+map,698,,108,Constructor2,4,3,102,choices,Sí
+map,698,,108,Constructor2,4,3,102,choices,No
+map,698,,108,Constructor2,4,4,402,choice_branch,Sí
+map,698,,108,Constructor2,4,5,355,script,"$PokemonBag.pbDeleteItem(:CERVEZA,1)"
+map,698,,108,Constructor2,4,8,101,show_text,\dxn[Constructor Garo]¡Sabes lo que me gusta! ¡Muchas gracias!
+map,698,,108,Constructor2,4,11,101,show_text,Su amistad no parece que vaya a subir más...
+map,698,,108,Constructor2,4,14,355,script,"pbGainSocialLinkBond(:GARO, 1)"
+map,698,,108,Constructor2,4,17,108,comment,"Si está al máximo, te mejora el hacha"
+map,698,,108,Constructor2,4,22,101,show_text,"\dxn[Constructor Garo]Oye, muchas gracias por todo lo que haces por mí."
+map,698,,108,Constructor2,4,24,101,show_text,"\dxn[Constructor Garo]Déjame, que voy a mejorar tu hacha, que está bastante reventada de tanto uso."
+map,698,,108,Constructor2,4,34,355,script,"$PokemonBag.pbDeleteItem(:HACHANCESTRAL,1)"
+map,698,,108,Constructor2,4,35,355,script,pbReceiveItem(:HACHAFINAL)
+map,698,,108,Constructor2,4,37,101,show_text,\dxn[Constructor Garo]Con esta mejora serás capaz de sacar \c[2] hasta 20 trozos de madera por árbol\c[0].
+map,698,,108,Constructor2,4,42,101,show_text,"\sh\dxn[\PN]¡Hey, eso es un montón!"
+map,698,,108,Constructor2,4,46,101,show_text,\dxn[\PN]¡Muchas gracias!
+map,698,,108,Constructor2,4,51,101,show_text,"\sh\dxn[\PN]¡Hey, eso es un montón!"
+map,698,,108,Constructor2,4,55,101,show_text,\dxn[\PN]¡Muchas gracias!
+map,698,,108,Constructor2,4,60,101,show_text,\dxn[Constructor Garo]¡Gracias a ti por todo!
+map,698,,108,Constructor2,4,73,402,choice_branch,No
+map,698,,108,Constructor2,4,82,108,comment,Guardamos cuántas piezas de leña tenemos
+map,698,,108,Constructor2,4,83,355,script,$game_variables[217]=$PokemonBag.pbQuantity(:PIEZADELENA)
+map,698,,108,Constructor2,4,84,101,show_text,"\dxn[Constructor Garo]Hola, \PN."
+map,698,,108,Constructor2,4,86,101,show_text,\dxn[Constructor Garo]¿Qué te gustaría que te construyera?
+map,698,,108,Constructor2,4,88,108,comment,Caso básico
+map,698,,108,Constructor2,4,89,102,choices,Casa
+map,698,,108,Constructor2,4,89,102,choices,Corral
+map,698,,108,Constructor2,4,89,102,choices,Cuadra
+map,698,,108,Constructor2,4,89,102,choices,"Nada, gracias."
+map,698,,108,Constructor2,4,90,402,choice_branch,Casa
+map,698,,108,Constructor2,4,91,108,comment,Casa time
+map,698,,108,Constructor2,4,95,101,show_text,\dxn[Constructor Garo]Pero si ya has comprado la casa...
+map,698,,108,Constructor2,4,97,101,show_text,\dxn[Constructor Garo]Pero puede sea mejorable en un futuro...
+map,698,,108,Constructor2,4,103,101,show_text,"\dxn[Constructor Garo]Ya veo, la casa puede ser muy costosa de hacer..."
+map,698,,108,Constructor2,4,105,101,show_text,\dxn[Constructor Garo]Creo que por \c[2]150.000 Pokedólares\c[0] y \c[2]300 trozos de madera\c[0] te la puedo construir.
+map,698,,108,Constructor2,4,107,101,show_text,\dxn[Constructor Garo]¿Qué me dices?
+map,698,,108,Constructor2,4,108,102,choices,¡Del tirón!
+map,698,,108,Constructor2,4,108,102,choices,"No, gracias..."
+map,698,,108,Constructor2,4,109,402,choice_branch,¡Del tirón!
+map,698,,108,Constructor2,4,110,108,comment,Tiene dinero y madera suficiente?
+map,698,,108,Constructor2,4,113,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,300)"
+map,698,,108,Constructor2,4,124,101,show_text,"\dxn[Constructor Garo]¡De acuerdo, manos a la obra!"
+map,698,,108,Constructor2,4,135,101,show_text,"\dxn[Constructor Garo]¡Ya está todo listo, ya puedes entrar a tu nuevo hogar!"
+map,698,,108,Constructor2,4,141,101,show_text,\dxn[Constructor Garo]No tienes suficiente madera.
+map,698,,108,Constructor2,4,148,101,show_text,\dxn[Constructor Garo]No tienes suficientes dinero.
+map,698,,108,Constructor2,4,152,402,choice_branch,"No, gracias..."
+map,698,,108,Constructor2,4,153,101,show_text,"\dxn[Constructor Garo]Entiendo, si quieres que construya algo me lo dices."
+map,698,,108,Constructor2,4,157,402,choice_branch,Corral
+map,698,,108,Constructor2,4,158,108,comment,Corral time
+map,698,,108,Constructor2,4,162,101,show_text,\dxn[Constructor Garo]Pero si ya has comprado un corral...
+map,698,,108,Constructor2,4,168,101,show_text,\dxn[Constructor Garo]Creo que por \c[2]50.000 Pokedólares\c[0] y \c[2]100 trozos de madera\c[0] te la puedo construir.
+map,698,,108,Constructor2,4,170,101,show_text,\dxn[Constructor Garo]¿Qué me dices?
+map,698,,108,Constructor2,4,171,102,choices,¡Del tirón!
+map,698,,108,Constructor2,4,171,102,choices,"No, gracias..."
+map,698,,108,Constructor2,4,172,402,choice_branch,¡Del tirón!
+map,698,,108,Constructor2,4,173,108,comment,Tiene dinero y madera suficiente?
+map,698,,108,Constructor2,4,176,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,100)"
+map,698,,108,Constructor2,4,187,101,show_text,"\dxn[Constructor Garo]¡De acuerdo, manos a la obra!"
+map,698,,108,Constructor2,4,198,101,show_text,"\dxn[Constructor Garo]¡Ya está todo listo, ya puedes comprar Pokémon de Granja en el Corral!"
+map,698,,108,Constructor2,4,203,101,show_text,\dxn[Constructor Garo]No tienes suficiente madera.
+map,698,,108,Constructor2,4,210,101,show_text,\dxn[Constructor Garo]No tienes suficientes dinero.
+map,698,,108,Constructor2,4,214,402,choice_branch,"No, gracias..."
+map,698,,108,Constructor2,4,215,101,show_text,"\dxn[Constructor Garo]Entiendo, si quieres que construya algo me lo dices."
+map,698,,108,Constructor2,4,219,402,choice_branch,Cuadra
+map,698,,108,Constructor2,4,220,108,comment,Cuadra time
+map,698,,108,Constructor2,4,224,101,show_text,\dxn[Constructor Garo]Pero si ya has comprado una cuadra...
+map,698,,108,Constructor2,4,230,101,show_text,\dxn[Constructor Garo]Creo que por \c[2]10.000 Pokedólares\c[0] y \c[2]20 trozos de madera\c[0] te la puedo construir.
+map,698,,108,Constructor2,4,232,101,show_text,\dxn[Constructor Garo]¿Qué me dices?
+map,698,,108,Constructor2,4,233,102,choices,¡Del tirón!
+map,698,,108,Constructor2,4,233,102,choices,"No, gracias..."
+map,698,,108,Constructor2,4,234,402,choice_branch,¡Del tirón!
+map,698,,108,Constructor2,4,235,108,comment,Tiene dinero y madera suficiente?
+map,698,,108,Constructor2,4,238,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,20)"
+map,698,,108,Constructor2,4,249,101,show_text,"\dxn[Constructor Garo]¡De acuerdo, manos a la obra!"
+map,698,,108,Constructor2,4,260,101,show_text,"\dxn[Constructor Garo]¡Ya está todo listo, ya puedes comprar Pokémonturas y viajar por el mundo con ellas!"
+map,698,,108,Constructor2,4,265,101,show_text,\dxn[Constructor Garo]No tienes suficiente madera.
+map,698,,108,Constructor2,4,272,101,show_text,\dxn[Constructor Garo]No tienes suficientes dinero.
+map,698,,108,Constructor2,4,276,402,choice_branch,"No, gracias..."
+map,698,,108,Constructor2,4,277,101,show_text,"\dxn[Constructor Garo]Entiendo, si quieres que construya algo me lo dices."
+map,698,,108,Constructor2,4,281,402,choice_branch,"Nada, gracias."
+map,698,,108,Constructor2,4,282,101,show_text,"\dxn[Constructor Garo]Entiendo, si quieres que construya algo me lo dices."
+map,698,,108,Constructor2,5,0,108,comment,"Si tienes cerveza, posibilidad de darle"
+map,698,,108,Constructor2,5,2,101,show_text,¿Quieres darle una \c[2]Cerveza\c[0] a Garo?
+map,698,,108,Constructor2,5,3,102,choices,Sí
+map,698,,108,Constructor2,5,3,102,choices,No
+map,698,,108,Constructor2,5,4,402,choice_branch,Sí
+map,698,,108,Constructor2,5,5,355,script,"$PokemonBag.pbDeleteItem(:CERVEZA,1)"
+map,698,,108,Constructor2,5,8,101,show_text,\dxn[Constructor Garo]¡Sabes lo que me gusta! ¡Muchas gracias!
+map,698,,108,Constructor2,5,11,101,show_text,Su amistad no parece que vaya a subir más...
+map,698,,108,Constructor2,5,14,355,script,"pbGainSocialLinkBond(:GARO, 1)"
+map,698,,108,Constructor2,5,17,108,comment,"Si está al máximo, te mejora el hacha"
+map,698,,108,Constructor2,5,22,101,show_text,"\dxn[Constructor Garo]Oye, muchas gracias por todo lo que haces por mí."
+map,698,,108,Constructor2,5,24,101,show_text,"\dxn[Constructor Garo]Déjame, que voy a mejorar tu hacha, que está bastante reventada de tanto uso."
+map,698,,108,Constructor2,5,34,355,script,"$PokemonBag.pbDeleteItem(:HACHANCESTRAL,1)"
+map,698,,108,Constructor2,5,35,355,script,pbReceiveItem(:HACHAFINAL)
+map,698,,108,Constructor2,5,37,101,show_text,\dxn[Constructor Garo]Con esta mejora serás capaz de sacar \c[2] hasta 20 trozos de madera por árbol\c[0].
+map,698,,108,Constructor2,5,42,101,show_text,"\sh\dxn[\PN]¡Hey, eso es un montón!"
+map,698,,108,Constructor2,5,46,101,show_text,\dxn[\PN]¡Muchas gracias!
+map,698,,108,Constructor2,5,51,101,show_text,"\sh\dxn[\PN]¡Hey, eso es un montón!"
+map,698,,108,Constructor2,5,55,101,show_text,\dxn[\PN]¡Muchas gracias!
+map,698,,108,Constructor2,5,60,101,show_text,\dxn[Constructor Garo]¡Gracias a ti por todo!
+map,698,,108,Constructor2,5,73,402,choice_branch,No
+map,698,,108,Constructor2,5,82,108,comment,Guardamos cuántas piezas de leña tenemos
+map,698,,108,Constructor2,5,83,355,script,$game_variables[217]=$PokemonBag.pbQuantity(:PIEZADELENA)
+map,698,,108,Constructor2,5,84,101,show_text,\dxn[Constructor Garo]¡Ya tienes todo construido!
+map,698,,108,Constructor2,5,86,101,show_text,"\dxn[Constructor Garo]Por ahora no hay nada más que puedas construir, así que no te puedo ofrecer nada, aun así..."
+map,698,,108,Constructor2,5,88,101,show_text,\dxn[Garo]¿Has venido a vender o intercambiar tus PL (Piezas de Leña)?
+map,698,,108,Constructor2,5,89,102,choices,Si
+map,698,,108,Constructor2,5,89,102,choices,No
+map,698,,108,Constructor2,5,90,402,choice_branch,Si
+map,698,,108,Constructor2,5,91,101,show_text,\dxn[Garo]¿Qué deseas? ¿Vender o intercambiar?
+map,698,,108,Constructor2,5,92,102,choices,Vender
+map,698,,108,Constructor2,5,92,102,choices,Intercambiar
+map,698,,108,Constructor2,5,92,102,choices,Nada
+map,698,,108,Constructor2,5,93,402,choice_branch,Vender
+map,698,,108,Constructor2,5,94,102,choices,"5 PL = 1,000$"
+map,698,,108,Constructor2,5,94,102,choices,"10 PL = 2,500$"
+map,698,,108,Constructor2,5,94,102,choices,"20 PL = 7,000$"
+map,698,,108,Constructor2,5,94,102,choices,Nada.
+map,698,,108,Constructor2,5,95,402,choice_branch,"5 PL = 1,000$"
+map,698,,108,Constructor2,5,97,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,5)"
+map,698,,108,Constructor2,5,100,101,show_text,<b>Has ganado 1000 Pokedólares.</b>
+map,698,,108,Constructor2,5,103,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,107,402,choice_branch,"10 PL = 2,500$"
+map,698,,108,Constructor2,5,109,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,10)"
+map,698,,108,Constructor2,5,111,101,show_text,<b>Has ganado 2500 Pokedólares.</b>
+map,698,,108,Constructor2,5,114,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,118,402,choice_branch,"20 PL = 7,000$"
+map,698,,108,Constructor2,5,120,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,20)"
+map,698,,108,Constructor2,5,122,101,show_text,<b>Has ganado 7000 Pokedólares.</b>
+map,698,,108,Constructor2,5,125,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,129,402,choice_branch,Nada.
+map,698,,108,Constructor2,5,130,101,show_text,"\dxn[Garo]Okey, sin problemas."
+map,698,,108,Constructor2,5,134,402,choice_branch,Intercambiar
+map,698,,108,Constructor2,5,135,101,show_text,\dxn[Garo]¿Qué tipo de recompensa deseas?
+map,698,,108,Constructor2,5,136,102,choices,MTs de un solo uso
+map,698,,108,Constructor2,5,136,102,choices,Objetos de Combate
+map,698,,108,Constructor2,5,136,102,choices,Pokéball Especiales
+map,698,,108,Constructor2,5,136,102,choices,"Nada, perdona"
+map,698,,108,Constructor2,5,137,402,choice_branch,MTs de un solo uso
+map,698,,108,Constructor2,5,138,101,show_text,"\dxn[Garo]Escoge alguna de las MTs disponibles: \ch[1,-1,TR00 - Danza Espada,TR23 - Púas,TR60 - TijeraX,TR71 - LlueveHojas,TR77 - Hierba Lazo]"
+map,698,,108,Constructor2,5,140,101,show_text,"\dxn[Garo]¿Nada? Okey, sin problema."
+map,698,,108,Constructor2,5,144,101,show_text,"\dxn[Garo]Danza Espada te costará 12 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,145,102,choices,Si
+map,698,,108,Constructor2,5,145,102,choices,No
+map,698,,108,Constructor2,5,146,402,choice_branch,Si
+map,698,,108,Constructor2,5,148,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,12)"
+map,698,,108,Constructor2,5,149,355,script,pbReceiveItem(:TR00)
+map,698,,108,Constructor2,5,152,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,156,402,choice_branch,No
+map,698,,108,Constructor2,5,157,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,163,101,show_text,"\dxn[Garo]Púas te costará 15 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,164,102,choices,Si
+map,698,,108,Constructor2,5,164,102,choices,No
+map,698,,108,Constructor2,5,165,402,choice_branch,Si
+map,698,,108,Constructor2,5,167,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,15)"
+map,698,,108,Constructor2,5,168,355,script,pbReceiveItem(:TR23)
+map,698,,108,Constructor2,5,171,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,175,402,choice_branch,No
+map,698,,108,Constructor2,5,176,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,182,101,show_text,"\dxn[Garo]TijeraX te costará 25 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,183,102,choices,Si
+map,698,,108,Constructor2,5,183,102,choices,No
+map,698,,108,Constructor2,5,184,402,choice_branch,Si
+map,698,,108,Constructor2,5,186,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,25)"
+map,698,,108,Constructor2,5,187,355,script,pbReceiveItem(:TR60)
+map,698,,108,Constructor2,5,190,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,194,402,choice_branch,No
+map,698,,108,Constructor2,5,195,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,201,101,show_text,"\dxn[Garo]LlueveHojas te costará 50 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,202,102,choices,Si
+map,698,,108,Constructor2,5,202,102,choices,No
+map,698,,108,Constructor2,5,203,402,choice_branch,Si
+map,698,,108,Constructor2,5,205,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,50)"
+map,698,,108,Constructor2,5,206,355,script,pbReceiveItem(:TR71)
+map,698,,108,Constructor2,5,209,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,213,402,choice_branch,No
+map,698,,108,Constructor2,5,214,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,220,101,show_text,"\dxn[Garo]Hierba Lazo te costará 20 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,221,102,choices,Si
+map,698,,108,Constructor2,5,221,102,choices,No
+map,698,,108,Constructor2,5,222,402,choice_branch,Si
+map,698,,108,Constructor2,5,224,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,20)"
+map,698,,108,Constructor2,5,225,355,script,pbReceiveItem(:TR77)
+map,698,,108,Constructor2,5,228,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,232,402,choice_branch,No
+map,698,,108,Constructor2,5,233,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,239,402,choice_branch,Objetos de Combate
+map,698,,108,Constructor2,5,240,101,show_text,"\dxn[Garo]Escoge alguno de los objetos disponibles: \ch[1,-1,Carbón,Semilla Milagro, Agua Mística]"
+map,698,,108,Constructor2,5,242,101,show_text,"\dxn[Garo]¿Nada? Okey, sin problema."
+map,698,,108,Constructor2,5,246,101,show_text,"\dxn[Garo]Carbón te costará 30 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,247,102,choices,Si
+map,698,,108,Constructor2,5,247,102,choices,No
+map,698,,108,Constructor2,5,248,402,choice_branch,Si
+map,698,,108,Constructor2,5,250,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,30)"
+map,698,,108,Constructor2,5,251,355,script,pbReceiveItem(:CHARCOAL)
+map,698,,108,Constructor2,5,254,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,258,402,choice_branch,No
+map,698,,108,Constructor2,5,259,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,265,101,show_text,"\dxn[Garo]Semilla Milagro te costará 30 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,266,102,choices,Si
+map,698,,108,Constructor2,5,266,102,choices,No
+map,698,,108,Constructor2,5,267,402,choice_branch,Si
+map,698,,108,Constructor2,5,269,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,30)"
+map,698,,108,Constructor2,5,270,355,script,pbReceiveItem(:MIRACLESEED)
+map,698,,108,Constructor2,5,273,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,277,402,choice_branch,No
+map,698,,108,Constructor2,5,278,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,284,101,show_text,"\dxn[Garo]Agua Mística te costará 30 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,285,102,choices,Si
+map,698,,108,Constructor2,5,285,102,choices,No
+map,698,,108,Constructor2,5,286,402,choice_branch,Si
+map,698,,108,Constructor2,5,288,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,30)"
+map,698,,108,Constructor2,5,289,355,script,pbReceiveItem(:MYSTICWATER)
+map,698,,108,Constructor2,5,292,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,296,402,choice_branch,No
+map,698,,108,Constructor2,5,297,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,303,402,choice_branch,Pokéball Especiales
+map,698,,108,Constructor2,5,304,101,show_text,"\dxn[Garo]Escoge alguna de las Pokéball disponibles: \ch[1,-1,Buceo Ball, Ocaso Ball, Turno Ball, Veloz Ball]"
+map,698,,108,Constructor2,5,306,101,show_text,"\dxn[Garo]¿Nada? Okey, sin problema."
+map,698,,108,Constructor2,5,310,101,show_text,"\dxn[Garo]Buceoball te costará 5 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,311,102,choices,Si
+map,698,,108,Constructor2,5,311,102,choices,No
+map,698,,108,Constructor2,5,312,402,choice_branch,Si
+map,698,,108,Constructor2,5,314,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,5)"
+map,698,,108,Constructor2,5,315,355,script,pbReceiveItem(:DIVEBALL)
+map,698,,108,Constructor2,5,318,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,322,402,choice_branch,No
+map,698,,108,Constructor2,5,323,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,329,101,show_text,"\dxn[Garo]Ocasoball te costará 7 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,330,102,choices,Si
+map,698,,108,Constructor2,5,330,102,choices,No
+map,698,,108,Constructor2,5,331,402,choice_branch,Si
+map,698,,108,Constructor2,5,333,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,7)"
+map,698,,108,Constructor2,5,334,355,script,pbReceiveItem(:DUSKBALL)
+map,698,,108,Constructor2,5,337,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,341,402,choice_branch,No
+map,698,,108,Constructor2,5,342,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,348,101,show_text,"\dxn[Garo]Turnoball te costará 5 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,349,102,choices,Si
+map,698,,108,Constructor2,5,349,102,choices,No
+map,698,,108,Constructor2,5,350,402,choice_branch,Si
+map,698,,108,Constructor2,5,352,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,5)"
+map,698,,108,Constructor2,5,353,355,script,pbReceiveItem(:TIMERBALL)
+map,698,,108,Constructor2,5,356,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,360,402,choice_branch,No
+map,698,,108,Constructor2,5,361,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,367,101,show_text,"\dxn[Garo]VelozBall te costará 7 PL, ¿estás de acuerdo?"
+map,698,,108,Constructor2,5,368,102,choices,Si
+map,698,,108,Constructor2,5,368,102,choices,No
+map,698,,108,Constructor2,5,369,402,choice_branch,Si
+map,698,,108,Constructor2,5,371,355,script,"$PokemonBag.pbDeleteItem(:PIEZADELENA,7)"
+map,698,,108,Constructor2,5,372,355,script,pbReceiveItem(:QUICKBALL)
+map,698,,108,Constructor2,5,375,101,show_text,\dxn[Garo]No tienes suficiente leña.
+map,698,,108,Constructor2,5,379,402,choice_branch,No
+map,698,,108,Constructor2,5,380,101,show_text,"\dxn[Garo]Okey, si quieres algo más házmelo saber."
+map,698,,108,Constructor2,5,386,402,choice_branch,"Nada, perdona"
+map,698,,108,Constructor2,5,390,402,choice_branch,Nada
+map,698,,108,Constructor2,5,391,101,show_text,\dxn[Garo]Cualquier cosa me avisas.
+map,698,,108,Constructor2,5,395,402,choice_branch,No
+map,698,,108,Constructor2,5,396,101,show_text,Cualquier cosa me avisas.
+map,698,,16,a,1,0,108,comment,noshadow
+map,698,,90,EV090,1,0,108,comment,noshadow
+map,698,,90,EV090,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,90,EV090,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,90,EV090,1,4,102,choices,Si
+map,698,,90,EV090,1,4,102,choices,No
+map,698,,90,EV090,1,5,402,choice_branch,Si
+map,698,,90,EV090,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,90,EV090,1,26,355,script,pbSetEventTime
+map,698,,90,EV090,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,90,EV090,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,90,EV090,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,90,EV090,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,90,EV090,1,102,402,choice_branch,No
+map,698,,90,EV090,2,0,108,comment,noshadow
+map,698,,90,EV090,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,90,EV090,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,90,EV090,2,4,102,choices,Si
+map,698,,90,EV090,2,4,102,choices,No
+map,698,,90,EV090,2,5,402,choice_branch,Si
+map,698,,90,EV090,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,90,EV090,2,26,355,script,pbSetEventTime
+map,698,,90,EV090,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,90,EV090,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,90,EV090,2,75,402,choice_branch,No
+map,698,,90,EV090,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,90,EV090,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,72,Lechonk,1,1,355,script,Pokemon.play_cry(:LECHONK)
+map,698,,72,Lechonk,1,2,101,show_text,\f[lechonk_000]¡Choonk!
+map,698,,72,Lechonk,1,5,101,show_text,Tu amistad con Lechonk ha alcanzado su máximo.
+map,698,,72,Lechonk,1,8,355,script,"pbGainSocialLinkBond(:OINKOLOGNE, 1)"
+map,698,,72,Lechonk,1,11,355,script,pbSetEventTime
+map,698,,72,Lechonk,2,0,101,show_text,Ya has acariciado a Lechonk hoy.
+map,698,,72,Lechonk,3,0,355,script,Pokemon.play_cry(:LECHONK)
+map,698,,72,Lechonk,3,1,101,show_text,"Lechonk está triste, no ha tenido heno para comer, así que no encontrará Trufa hoy."
+map,698,,72,Lechonk,4,0,108,comment,noshadow
+map,698,,72,Lechonk,5,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,35,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,35,BerryPlant,1,1,108,comment,noshadow
+map,698,,91,EV091,1,0,108,comment,noshadow
+map,698,,91,EV091,1,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,91,EV091,1,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,91,EV091,1,4,102,choices,Si
+map,698,,91,EV091,1,4,102,choices,No
+map,698,,91,EV091,1,5,402,choice_branch,Si
+map,698,,91,EV091,1,6,101,show_text,¡Usaste el Hacha!
+map,698,,91,EV091,1,26,355,script,pbSetEventTime
+map,698,,91,EV091,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,698,,91,EV091,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,698,,91,EV091,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,698,,91,EV091,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,91,EV091,1,102,402,choice_branch,No
+map,698,,91,EV091,2,0,108,comment,noshadow
+map,698,,91,EV091,2,1,101,show_text,En este árbol se puede sacar madera.
+map,698,,91,EV091,2,3,101,show_text,¿Quieres talar algo de leña?
+map,698,,91,EV091,2,4,102,choices,Si
+map,698,,91,EV091,2,4,102,choices,No
+map,698,,91,EV091,2,5,402,choice_branch,Si
+map,698,,91,EV091,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,698,,91,EV091,2,26,355,script,pbSetEventTime
+map,698,,91,EV091,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,698,,91,EV091,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,698,,91,EV091,2,75,402,choice_branch,No
+map,698,,91,EV091,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,698,,91,EV091,4,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,17,"Fuente, size(5,4)",1,0,108,comment,noshadow
+map,698,,110,Cave entrance,1,5,355,script,pbCaveEntrance
+map,698,,110,Cave entrance,2,7,355,script,"setTempSwitchOn(""A"")"
+map,698,,73,MAREEP,1,1,355,script,Pokemon.play_cry(:MAREEP)
+map,698,,73,MAREEP,1,2,101,show_text,\f[mareep_000]¡Reep!
+map,698,,73,MAREEP,1,4,101,show_text,Tu amistad con Mareep ha alcanzado su máximo.
+map,698,,73,MAREEP,1,7,355,script,"pbGainSocialLinkBond(:MAREEP, 1)"
+map,698,,73,MAREEP,1,10,355,script,pbSetEventTime
+map,698,,73,MAREEP,2,0,101,show_text,Ya has acariciado a Mareep hoy.
+map,698,,73,MAREEP,3,1,355,script,Pokemon.play_cry(:MAREEP)
+map,698,,73,MAREEP,3,2,101,show_text,"Mareep está triste, no ha tenido heno para comer, así que no producirá lana hoy."
+map,698,,73,MAREEP,4,0,108,comment,noshadow
+map,698,,73,MAREEP,5,1,355,script,"setTempSwitchOn(""A"")"
+map,698,,36,BerryPlant,1,0,355,script,pbBerryPlant
+map,698,,36,BerryPlant,1,1,108,comment,noshadow

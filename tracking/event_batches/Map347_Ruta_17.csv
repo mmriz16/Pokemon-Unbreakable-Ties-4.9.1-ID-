@@ -1,0 +1,522 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,347,,18,EV018,1,0,355,script,pbBridgeOn
+map,347,,55,EV055,1,0,355,script,pbItemBall(:STARDUST)
+map,347,,37,Slope,1,0,108,comment,Slope: 2x1
+map,347,,37,Slope,1,1,108,comment,Width: 1/2
+map,347,,37,Slope,1,2,108,comment,Offset: 16px
+map,347,,111,EV111,1,0,108,comment,noshadow
+map,347,,56,Trainer(3),1,26,101,show_text,"¡RasenShuriken, Greninja!"
+map,347,,56,Trainer(3),1,29,355,script,"setBattleRule(""base"", ""bridge"")"
+map,347,,56,Trainer(3),2,0,101,show_text,"En los animes siempre ganan, ¿porqué he perdido?"
+map,347,,93,EV093,1,0,101,show_text,"<ac>Ruta 17: ¡Mucha lluvia, cuidado no te resbales!"
+map,347,,19,EV019,1,0,355,script,pbBridgeOn
+map,347,,75,EV075,1,0,355,script,Pokemon.play_cry(:LOTAD)
+map,347,,112,EV112,1,0,108,comment,noshadow
+map,347,,38,Slope,1,0,108,comment,Slope: 2x1
+map,347,,38,Slope,1,1,108,comment,Width: 0/2
+map,347,,38,Slope,1,2,108,comment,Offset: 16px
+map,347,,94,EV094,1,0,101,show_text,"<ac>Ruta 17: ¡Mucha lluvia, cuidado no te resbales!"
+map,347,,20,EV020,1,0,355,script,pbBridgeOn
+map,347,,57,Trainer(3),1,14,101,show_text,"¡Técnica ninja! No te lo esperabas, ¿verdad?"
+map,347,,57,Trainer(3),1,17,355,script,"setBattleRule(""base"", ""bridge"")"
+map,347,,57,Trainer(3),2,0,101,show_text,Tengo que mejorar mi camuflaje.
+map,347,,113,EV113,1,0,108,comment,noshadow
+map,347,,2,EV002,1,0,355,script,pbItemBall(:REVIVE)
+map,347,,39,Slope,1,0,108,comment,Slope: -2x-1
+map,347,,39,Slope,1,1,108,comment,Width: 1/2
+map,347,,39,Slope,1,2,108,comment,Offset: 16px
+map,347,,76,EV076,1,0,355,script,Pokemon.play_cry(:LOTAD)
+map,347,,21,EV021,1,0,355,script,pbItemBall(:TM57)
+map,347,,58,EV058,1,0,101,show_text,"¿Qué sentido tiene seguir viviendo sin poder hacer mi broma de ""Te enseño mi Onix""?"
+map,347,,58,EV058,1,3,102,choices,"Come on, say your piece."
+map,347,,58,EV058,1,3,102,choices,What a pain.
+map,347,,58,EV058,1,4,402,choice_branch,"Come on, say your piece."
+map,347,,58,EV058,1,7,101,show_text,En... ¡¿En serio?!
+map,347,,58,EV058,1,9,101,show_text,Entonces... ¿Quieres que te enseñe mi Onix?
+map,347,,58,EV058,1,10,355,script,"setBattleRule(""base"", ""bridge"")"
+map,347,,58,EV058,1,18,101,show_text,¡Gracias por tal satisfacción! Toma esto para tu aventura.
+map,347,,58,EV058,1,19,355,script,pbReceiveItem(:HARDSTONE)
+map,347,,58,EV058,1,22,402,choice_branch,What a pain.
+map,347,,58,EV058,1,23,101,show_text,Así no me ayudas...
+map,347,,58,EV058,2,0,101,show_text,¡Gracias por tal satisfacción! Sigue haciendo feliz a los montañeros.
+map,347,,95,EV095,1,0,101,show_text,"<ac>Ruta 17: ¡Mucha lluvia, cuidado no te resbales!"
+map,347,,3,EV003,1,0,355,script,pbItemBall(:MAXELIXIR)
+map,347,,40,Slope,1,0,108,comment,Slope: -2x-1
+map,347,,40,Slope,1,1,108,comment,Width: 0/2
+map,347,,40,Slope,1,2,108,comment,Offset: 16px
+map,347,,77,EV077,1,0,355,script,Pokemon.play_cry(:LOTAD)
+map,347,,114,EV114,1,0,108,comment,noshadow
+map,347,,22,EV022,1,0,355,script,pbItemBall(:THUNDERSTONE)
+map,347,,59,EV059,1,0,101,show_text,"Dicen que si sigues la corriente de estas aguas, llegarás a un lugar donde alguna vez se ha visto un Pokémon que parecía el personaje ese de la TV que volaba en"
+map,347,,59,EV059,1,1,401,show_text_cont,una nube.
+map,347,,96,EV096,1,0,101,show_text,"<ac>Ruta 17: ¡Mucha lluvia, cuidado no te resbales!"
+map,347,,4,EV004,1,0,355,script,pbItemBall(:DAMPROCK)
+map,347,,41,Slope,1,0,108,comment,Slope: 2x1
+map,347,,41,Slope,1,1,108,comment,Width: 1/2
+map,347,,41,Slope,1,2,108,comment,Offset: 16px
+map,347,,78,EV078,1,0,355,script,Pokemon.play_cry(:LOTAD)
+map,347,,115,EV115,1,0,108,comment,noshadow
+map,347,,23,EV023,1,0,355,script,pbItemBall(:RAZORCLAW)
+map,347,,60,EV060,1,0,101,show_text,Casi me caigo al agua...
+map,347,,60,EV060,1,2,101,show_text,¿A quién se le ocurre poner un camino tan estrecho para pasar de un lado al otro?
+map,347,,97,Cave entrance,1,4,355,script,"$game_screen.weather(:None,0,0)"
+map,347,,97,Cave entrance,1,6,355,script,pbCaveEntrance
+map,347,,97,Cave entrance,2,7,355,script,"setTempSwitchOn(""A"")"
+map,347,,5,EV005,1,0,355,script,pbItemBall(:TM33)
+map,347,,42,Slope,1,0,108,comment,Slope: 2x1
+map,347,,42,Slope,1,1,108,comment,Width: 0/2
+map,347,,42,Slope,1,2,108,comment,Offset: 16px
+map,347,,79,EV079,1,0,355,script,Pokemon.play_cry(:LOTAD)
+map,347,,116,EV116,1,0,108,comment,noshadow
+map,347,,24,EV024,1,0,355,script,pbBridgeOff
+map,347,,61,EV061,1,0,355,script,pbItemBall(:STARDUST)
+map,347,,135,EV135,1,0,108,comment,noshadow
+map,347,,6,EV006,1,0,355,script,pbItemBall(:ULTRABALL)
+map,347,,43,Slope,1,0,108,comment,Slope: -2x-1
+map,347,,43,Slope,1,1,108,comment,Width: 1/2
+map,347,,43,Slope,1,2,108,comment,Offset: 16px
+map,347,,80,.noshadow,1,0,108,comment,noshadow
+map,347,,117,EV117,1,0,108,comment,noshadow
+map,347,,25,EV025,1,0,355,script,pbBridgeOff
+map,347,,62,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,347,,62,Trainer(4),1,1,101,show_text,¿Vas hacia Ciudad Lugano? ¡Déjame luchar contigo antes!
+map,347,,62,Trainer(4),1,2,355,script,"setBattleRule(""base"", ""bridge"")"
+map,347,,62,Trainer(4),2,0,101,show_text,"No sé, ¿qué quieres que te diga?"
+map,347,,99,EV099,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,347,,99,EV099,1,1,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,347,,99,EV099,1,11,101,show_text,"\dxn[Majime]Realmente va a ser ejecutada, es posible que haya sido en parte por mi culpa..."
+map,347,,99,EV099,1,15,101,show_text,\dxn[Majime]Al menos... cumplió con su objetivo.
+map,347,,99,EV099,1,24,101,show_text,\dxn[Majime]P-pero si eres... ¡El mocoso del Jardín de los Sueños!
+map,347,,99,EV099,1,27,101,show_text,\dxn[Majime]P-pero si eres... ¡La mocosa del Jardín de los Sueños!
+map,347,,99,EV099,1,32,102,choices,You seem really out of it...
+map,347,,99,EV099,1,33,402,choice_branch,You seem really out of it...
+map,347,,99,EV099,1,37,101,show_text,\dxn[Majime]¿P-perdona?
+map,347,,99,EV099,1,41,101,show_text,"\dxn[Majime]¡Ya te había detectado antes, estabas dentro de mi campo de visión!"
+map,347,,99,EV099,1,47,101,show_text,"\dxn[Majime]No me crees, ¿verdad?"
+map,347,,99,EV099,1,49,102,choices,I can see something's wrong
+map,347,,99,EV099,1,49,102,choices,You seem very upset...
+map,347,,99,EV099,1,50,402,choice_branch,I can see something's wrong
+map,347,,99,EV099,1,52,402,choice_branch,You seem very upset...
+map,347,,99,EV099,1,58,101,show_text,\dxn[Majime]¡¿Huh?!
+map,347,,99,EV099,1,62,101,show_text,\sh\dxn[Majime]¡Una ninja fría y calculadora como yo nunca perdería los estribos!
+map,347,,99,EV099,1,66,101,show_text,\dxn[Majime]...
+map,347,,99,EV099,1,74,101,show_text,\dxn[Majime]A quién pretendo engañar...
+map,347,,99,EV099,1,78,101,show_text,\dxn[Majime]La Familia Real me tiene el ojo echado después de que perdiera contra ti en el Jardín de los Sueños.
+map,347,,99,EV099,1,82,101,show_text,"\dxn[Majime]Encima tuve un enfrentamiento con Vesta, y por mi culpa, Edward, que llevaba años encarcelado, y Darek, lograron escapar..."
+map,347,,99,EV099,1,86,101,show_text,\dxn[Majime]Después de tal humillación no puedo presentarme delante de ellos como si nada...
+map,347,,99,EV099,1,92,101,show_text,"\dxn[Majime]¡Claro, eso es!"
+map,347,,99,EV099,1,99,101,show_text,\dxn[Majime]¡Si te llevo ante el nuestro jefe... puede que me perdone por los actos que he cometido!
+map,347,,99,EV099,1,104,101,show_text,"\dxn[Majime]¡Esto no será como la última vez, zanjaremos nuestra rivalidad como es debido!"
+map,347,,99,EV099,1,117,101,show_text,\f[seviper000]¡Seviper!
+map,347,,99,EV099,1,125,101,show_text,\f[lucario000]¡Lucario!
+map,347,,99,EV099,1,128,101,show_text,"\sh\dxn[Majime]¡En guardia, \PN!"
+map,347,,99,EV099,1,132,355,script,"setBattleRule(""backdrop"",""bridge_2"")"
+map,347,,99,EV099,1,159,101,show_text,\dxn[Majime]No puedo creerlo...
+map,347,,99,EV099,1,169,101,show_text,\dxn[Majime]¿Ni siquiera soy capaz de esto? Estoy cayendo en lo más bajo.
+map,347,,99,EV099,1,172,102,choices,You were holding back...
+map,347,,99,EV099,1,172,102,choices,You didn't want to catch me.
+map,347,,99,EV099,1,173,402,choice_branch,You were holding back...
+map,347,,99,EV099,1,175,402,choice_branch,You didn't want to catch me.
+map,347,,99,EV099,1,182,101,show_text,\dxn[Majime]...
+map,347,,99,EV099,1,191,101,show_text,"\dxn[Majime]No sé si será por tu ambición o por esos ojos insaciables de mejora, pero no puedo hacer tal cosa."
+map,347,,99,EV099,1,195,101,show_text,\dxn[Majime]Siento que todos acabamos luchando por nuestros sueños y ambiciones... ¿Qué derecho tengo yo para meterme en el camino de alguien?
+map,347,,99,EV099,1,199,101,show_text,\dxn[Majime]Vesta demostró ser alguien con un objetivo claro cuando se dio cuenta que debía proteger a alguien y no solo pensar en sí misma.
+map,347,,99,EV099,1,203,101,show_text,"\dxn[Majime]Siempre supe que cuando su alma se encendiera, sería un potencial peligro para mí."
+map,347,,99,EV099,1,207,101,show_text,"\dxn[Majime]Actué fría con ella, con superioridad, hacerle ver que era un simple microbio... Ese era mi papel para protegerme a mí misma."
+map,347,,99,EV099,1,212,101,show_text,"\dxn[Majime]Sin embargo, ni mis palabras la echaron para atrás, sus ojos ardían como el color de su pelo."
+map,347,,99,EV099,1,216,101,show_text,"\dxn[Majime]Ella ha conservado su honor y ha muerto en paz, pero... En consecuencia ha destruido el mío."
+map,347,,99,EV099,1,223,101,show_text,"\dxn[Majime]Desde nuestro combate en el Jardín, nadie había sido capaz de superar mis ambiciones."
+map,347,,99,EV099,1,227,101,show_text,"\dxn[Majime]Y finalmente Vesta fue la gota que colmó el vaso, sentí como toda esperanza se desvanecía, no sabía lo que se sentía cuando alguien tiraba tus"
+map,347,,99,EV099,1,228,401,show_text_cont,sueños a la basura.
+map,347,,99,EV099,1,232,101,show_text,"\dxn[Majime]Todo lo que he tenido que aparentar, todo por lo que me he esforzado, ahora no tiene ningún sentido."
+map,347,,99,EV099,1,240,101,show_text,"\dxn[Majime]La Familia Real me tiene entre la espada y la pared, al final soy una simple esclava más como lo era Vesta."
+map,347,,99,EV099,1,244,101,show_text,"\dxn[Majime]Sin embargo, a pesar del respeto que me tenían, cualquier flaqueza por mi parte será penalizada duramente por mis orígenes en <b>Ciudad Zorzal</b>."
+map,347,,99,EV099,1,248,101,show_text,"\dxn[Majime]Como ninja, debo mostrar lealtad a nuestro líder, pero..."
+map,347,,99,EV099,1,253,101,show_text,"\dxn[Majime]No quiero... que toquen a mis seres queridos, quiero proteger a la poca familia que me queda."
+map,347,,99,EV099,1,255,102,choices,How about joining us?
+map,347,,99,EV099,1,256,402,choice_branch,How about joining us?
+map,347,,99,EV099,1,266,101,show_text,"\dxn[Majime]Lo siento, pero lo que dices es una auténtica locura."
+map,347,,99,EV099,1,270,101,show_text,\dxn[Majime]Yo sufrí en mis propias carnes la destrucción de Ciudad Zorzal por intentar llevar la contraria a los mismísimos dioses.
+map,347,,99,EV099,1,274,101,show_text,"\dxn[Majime]No quiero que vuelva a ocurrir algo como eso, alentar la rabia de la Familia Real y al <b>Shougun</b> de nuestras tierras es un suicidio."
+map,347,,99,EV099,1,281,101,show_text,"\dxn[Majime]De todas formas, no sé porqué te cuento todo esto."
+map,347,,99,EV099,1,285,101,show_text,\dxn[Majime]Tú también eres causa de romper mi papel en esta historia...
+map,347,,99,EV099,1,290,101,show_text,"\dxn[Majime]Y que te quede claro, jugar en tu bando no te convierte en el ""bueno"" de esta historia."
+map,347,,99,EV099,1,294,101,show_text,\dxn[Majime]Frustrar mis planes significa poner en riesgo la vida de los que me importan.
+map,347,,99,EV099,1,298,101,show_text,\dxn[Majime]Recuerda que tanto tú como yo tenemos buenas intenciones.
+map,347,,99,EV099,1,302,101,show_text,"\dxn[Majime]Pero unos lo han tenido más fácil que otros, ¿sabes?"
+map,347,,99,EV099,1,306,102,choices,But... let me help you...
+map,347,,99,EV099,1,307,402,choice_branch,But... let me help you...
+map,347,,99,EV099,1,315,101,show_text,\sh\dxn[Majime]¡¿Acaso no conoces los valores éticos de un ninja?!
+map,347,,99,EV099,1,319,101,show_text,\dxn[Majime]Somos inaprensibles y autónomos.
+map,347,,99,EV099,1,323,101,show_text,"\dxn[Majime]Puedo valerme por mí misma, lo he hecho durante toda mi vida."
+map,347,,99,EV099,1,330,101,show_text,"\dxn[Majime]Debo retirarme, pronto habrá un evento importante en Ciudad Zorzal y me gustaría estar ahí a tiempo."
+map,347,,99,EV099,1,334,101,show_text,"\dxn[Majime]Aun así... Te deseo suerte recuperando a tus compañeros, yo haría lo mismo si tuviera una pizca de esperanza."
+map,347,,99,EV099,1,338,101,show_text,"\dxn[Majime]Nos vemos, \PN."
+map,347,,99,EV099,1,364,101,show_text,"\dxn[\PN]Supongo que su ego no le permite aceptar ninguna ayuda, ha tenido que pasar por mucho..."
+map,347,,99,EV099,1,374,101,show_text,"\dxn[\PN]¡Ciudad Lugano no puede andar lejos, no perdamos más el tiempo!"
+map,347,,99,EV099,1,379,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,347,,44,Slope,1,0,108,comment,Slope: -2x-1
+map,347,,44,Slope,1,1,108,comment,Width: 0/2
+map,347,,44,Slope,1,2,108,comment,Offset: 16px
+map,347,,81,.noshadow,1,0,108,comment,noshadow
+map,347,,118,EV118,1,0,101,show_text,No parece que haya nadie ahora mismo.
+map,347,,118,EV118,2,2,101,show_text,\dxn[\PN]Creo que no debería entrar hasta que haya termiando la investigación.
+map,347,,118,EV118,2,7,101,show_text,\dxn[\PN]Creo que no debería entrar hasta que haya termiando la investigación.
+map,347,,26,EV026,1,0,355,script,pbBridgeOff
+map,347,,63,Trainer(2),1,0,355,script,pbNoticePlayer(get_character(0))
+map,347,,63,Trainer(2),1,1,101,show_text,¿Y si esta vez cazo tu corazón?
+map,347,,63,Trainer(2),2,0,101,show_text,"Nah, imposible."
+map,347,,45,Slope,1,0,108,comment,Slope: 2x1
+map,347,,45,Slope,1,1,108,comment,Width: 1/2
+map,347,,45,Slope,1,2,108,comment,Offset: 16px
+map,347,,82,.noshadow,1,0,108,comment,noshadow
+map,347,,119,EV119,1,0,108,comment,noshadow
+map,347,,119,EV119,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,119,EV119,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,119,EV119,1,4,102,choices,Si
+map,347,,119,EV119,1,4,102,choices,No
+map,347,,119,EV119,1,5,402,choice_branch,Si
+map,347,,119,EV119,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,119,EV119,1,26,355,script,pbSetEventTime
+map,347,,119,EV119,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,119,EV119,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,119,EV119,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,119,EV119,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,119,EV119,1,102,402,choice_branch,No
+map,347,,119,EV119,2,0,108,comment,noshadow
+map,347,,119,EV119,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,119,EV119,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,119,EV119,2,4,102,choices,Si
+map,347,,119,EV119,2,4,102,choices,No
+map,347,,119,EV119,2,5,402,choice_branch,Si
+map,347,,119,EV119,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,119,EV119,2,26,355,script,pbSetEventTime
+map,347,,119,EV119,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,119,EV119,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,119,EV119,2,75,402,choice_branch,No
+map,347,,119,EV119,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,119,EV119,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,27,EV027,1,0,355,script,pbBridgeOff
+map,347,,64,Trainer(3),1,0,355,script,pbNoticePlayer(get_character(0))
+map,347,,64,Trainer(3),1,1,101,show_text,¿A dónde vas con tanta prisa?
+map,347,,64,Trainer(3),2,0,101,show_text,Te dejo a tu bola.
+map,347,,46,Slope,1,0,108,comment,Slope: 2x1
+map,347,,46,Slope,1,1,108,comment,Width: 0/2
+map,347,,46,Slope,1,2,108,comment,Offset: 16px
+map,347,,83,.noshadow,1,0,108,comment,noshadow
+map,347,,120,EV120,1,0,108,comment,noshadow
+map,347,,120,EV120,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,120,EV120,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,120,EV120,1,4,102,choices,Si
+map,347,,120,EV120,1,4,102,choices,No
+map,347,,120,EV120,1,5,402,choice_branch,Si
+map,347,,120,EV120,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,120,EV120,1,26,355,script,pbSetEventTime
+map,347,,120,EV120,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,120,EV120,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,120,EV120,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,120,EV120,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,120,EV120,1,102,402,choice_branch,No
+map,347,,120,EV120,2,0,108,comment,noshadow
+map,347,,120,EV120,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,120,EV120,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,120,EV120,2,4,102,choices,Si
+map,347,,120,EV120,2,4,102,choices,No
+map,347,,120,EV120,2,5,402,choice_branch,Si
+map,347,,120,EV120,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,120,EV120,2,26,355,script,pbSetEventTime
+map,347,,120,EV120,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,120,EV120,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,120,EV120,2,75,402,choice_branch,No
+map,347,,120,EV120,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,120,EV120,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,9,EV009,1,0,355,script,"$game_screen.weather(:Rain, 5, 1)"
+map,347,,65,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,347,,65,Trainer(4),1,1,101,show_text,¿Quieres acurrucarte bajo mi paraguas o prefieres combatir?
+map,347,,65,Trainer(4),1,2,355,script,"setBattleRule(""base"", ""bridge"")"
+map,347,,65,Trainer(4),2,0,101,show_text,Así no vas a encontrar el amor.
+map,347,,102,EV102,1,0,355,script,pbSetPokemonCenter
+map,347,,28,EV028,1,0,355,script,pbBridgeOff
+map,347,,84,xD,1,0,101,show_text,"La lluvia me tranquiliza mucho, la amo."
+map,347,,121,EV121,1,0,108,comment,noshadow
+map,347,,121,EV121,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,121,EV121,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,121,EV121,1,4,102,choices,Si
+map,347,,121,EV121,1,4,102,choices,No
+map,347,,121,EV121,1,5,402,choice_branch,Si
+map,347,,121,EV121,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,121,EV121,1,26,355,script,pbSetEventTime
+map,347,,121,EV121,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,121,EV121,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,121,EV121,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,121,EV121,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,121,EV121,1,102,402,choice_branch,No
+map,347,,121,EV121,2,0,108,comment,noshadow
+map,347,,121,EV121,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,121,EV121,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,121,EV121,2,4,102,choices,Si
+map,347,,121,EV121,2,4,102,choices,No
+map,347,,121,EV121,2,5,402,choice_branch,Si
+map,347,,121,EV121,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,121,EV121,2,26,355,script,pbSetEventTime
+map,347,,121,EV121,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,121,EV121,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,121,EV121,2,75,402,choice_branch,No
+map,347,,121,EV121,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,121,EV121,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,10,EV010,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL)
+map,347,,10,EV010,1,9,355,script,"setBattleRule(""base"", ""bridge"")"
+map,347,,10,EV010,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 52)"
+map,347,,10,EV010,1,11,355,script,pbSetEventTime
+map,347,,10,EV010,1,15,101,show_text,Parece que ha soltado una extraña moneda...
+map,347,,10,EV010,1,16,355,script,pbReceiveItem(:GOLD)
+map,347,,10,EV010,3,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,47,Slope,1,0,108,comment,Slope: -2x-1
+map,347,,47,Slope,1,1,108,comment,Width: 1/2
+map,347,,47,Slope,1,2,108,comment,Offset: 16px
+map,347,,103,EV103,1,0,355,script,pbItemBall(:LUREBALL)
+map,347,,29,EV029,1,0,355,script,pbBridgeOff
+map,347,,66,EV066,1,0,101,show_text,Tanto cultivar el alma para luego no poder destruir ni una sola roca.
+map,347,,66,EV066,1,2,101,show_text,¿Acaso tú sabes romperla?
+map,347,,66,EV066,2,6,101,show_text,¿Qué demonios? ¿Cómo has conseguido romperla?
+map,347,,66,EV066,2,8,101,show_text,"Seguro que ha sido suerte, toma esto que te irá muy bien con la suerte que me llevas."
+map,347,,66,EV066,2,9,355,script,pbReceiveItem(:LUCKYPUNCH)
+map,347,,66,EV066,2,11,101,show_text,"Venga, nos vemos."
+map,347,,122,EV122,1,0,108,comment,noshadow
+map,347,,122,EV122,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,122,EV122,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,122,EV122,1,4,102,choices,Si
+map,347,,122,EV122,1,4,102,choices,No
+map,347,,122,EV122,1,5,402,choice_branch,Si
+map,347,,122,EV122,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,122,EV122,1,26,355,script,pbSetEventTime
+map,347,,122,EV122,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,122,EV122,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,122,EV122,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,122,EV122,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,122,EV122,1,102,402,choice_branch,No
+map,347,,122,EV122,2,0,108,comment,noshadow
+map,347,,122,EV122,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,122,EV122,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,122,EV122,2,4,102,choices,Si
+map,347,,122,EV122,2,4,102,choices,No
+map,347,,122,EV122,2,5,402,choice_branch,Si
+map,347,,122,EV122,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,122,EV122,2,26,355,script,pbSetEventTime
+map,347,,122,EV122,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,122,EV122,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,122,EV122,2,75,402,choice_branch,No
+map,347,,122,EV122,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,122,EV122,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,11,EV011,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,347,,11,EV011,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,347,,11,EV011,1,2,102,choices,Si
+map,347,,11,EV011,1,2,102,choices,No
+map,347,,11,EV011,1,3,402,choice_branch,Si
+map,347,,11,EV011,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,347,,11,EV011,1,25,402,choice_branch,No
+map,347,,48,Slope,1,0,108,comment,Slope: -2x-1
+map,347,,48,Slope,1,1,108,comment,Width: 0/2
+map,347,,48,Slope,1,2,108,comment,Offset: 16px
+map,347,,85,.noshadow,1,0,108,comment,noshadow
+map,347,,30,EV030,1,0,355,script,pbBridgeOff
+map,347,,67,.noshadow,1,0,108,comment,noshadow
+map,347,,12,EV012,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,347,,12,EV012,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,347,,12,EV012,1,2,102,choices,Si
+map,347,,12,EV012,1,2,102,choices,No
+map,347,,12,EV012,1,3,402,choice_branch,Si
+map,347,,12,EV012,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,347,,12,EV012,1,24,402,choice_branch,No
+map,347,,49,EV049,1,0,101,show_text,"Vaya tormenta, menos mal que me he traído la chaqueta."
+map,347,,123,EV123,1,0,108,comment,noshadow
+map,347,,123,EV123,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,123,EV123,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,123,EV123,1,4,102,choices,Si
+map,347,,123,EV123,1,4,102,choices,No
+map,347,,123,EV123,1,5,402,choice_branch,Si
+map,347,,123,EV123,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,123,EV123,1,26,355,script,pbSetEventTime
+map,347,,123,EV123,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,123,EV123,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,123,EV123,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,123,EV123,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,123,EV123,1,102,402,choice_branch,No
+map,347,,123,EV123,2,0,108,comment,noshadow
+map,347,,123,EV123,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,123,EV123,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,123,EV123,2,4,102,choices,Si
+map,347,,123,EV123,2,4,102,choices,No
+map,347,,123,EV123,2,5,402,choice_branch,Si
+map,347,,123,EV123,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,123,EV123,2,26,355,script,pbSetEventTime
+map,347,,123,EV123,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,123,EV123,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,123,EV123,2,75,402,choice_branch,No
+map,347,,123,EV123,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,123,EV123,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,31,EV031,1,0,355,script,pbBridgeOff
+map,347,,68,.noshadow,1,0,108,comment,noshadow
+map,347,,13,EV013,1,0,355,script,pbItemBall(:MAXREPEL)
+map,347,,50,xD,1,0,101,show_text,Te curaré a tus Pokémon.
+map,347,,50,xD,1,4,101,show_text,"Hecho, ten cuidado."
+map,347,,124,EV124,1,0,108,comment,noshadow
+map,347,,124,EV124,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,124,EV124,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,124,EV124,1,4,102,choices,Si
+map,347,,124,EV124,1,4,102,choices,No
+map,347,,124,EV124,1,5,402,choice_branch,Si
+map,347,,124,EV124,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,124,EV124,1,26,355,script,pbSetEventTime
+map,347,,124,EV124,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,124,EV124,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,124,EV124,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,124,EV124,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,124,EV124,1,102,402,choice_branch,No
+map,347,,124,EV124,2,0,108,comment,noshadow
+map,347,,124,EV124,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,124,EV124,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,124,EV124,2,4,102,choices,Si
+map,347,,124,EV124,2,4,102,choices,No
+map,347,,124,EV124,2,5,402,choice_branch,Si
+map,347,,124,EV124,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,124,EV124,2,26,355,script,pbSetEventTime
+map,347,,124,EV124,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,124,EV124,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,124,EV124,2,75,402,choice_branch,No
+map,347,,124,EV124,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,124,EV124,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,32,EV032,1,0,355,script,pbBridgeOff
+map,347,,69,.noshadow,1,0,108,comment,noshadow
+map,347,,14,EV014,1,0,355,script,pbItemBall(:MAXREVIVE)
+map,347,,51,xD,1,0,101,show_text,En esa casa vive un científico un poco loco...
+map,347,,125,EV125,1,0,108,comment,noshadow
+map,347,,125,EV125,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,125,EV125,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,125,EV125,1,4,102,choices,Si
+map,347,,125,EV125,1,4,102,choices,No
+map,347,,125,EV125,1,5,402,choice_branch,Si
+map,347,,125,EV125,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,125,EV125,1,26,355,script,pbSetEventTime
+map,347,,125,EV125,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,125,EV125,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,125,EV125,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,125,EV125,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,125,EV125,1,102,402,choice_branch,No
+map,347,,125,EV125,2,0,108,comment,noshadow
+map,347,,125,EV125,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,125,EV125,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,125,EV125,2,4,102,choices,Si
+map,347,,125,EV125,2,4,102,choices,No
+map,347,,125,EV125,2,5,402,choice_branch,Si
+map,347,,125,EV125,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,125,EV125,2,26,355,script,pbSetEventTime
+map,347,,125,EV125,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,125,EV125,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,125,EV125,2,75,402,choice_branch,No
+map,347,,125,EV125,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,125,EV125,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,33,Slope,1,0,108,comment,Slope: 2x1
+map,347,,33,Slope,1,1,108,comment,Width: 1/2
+map,347,,33,Slope,1,2,108,comment,Offset: 16px
+map,347,,70,.noshadow,1,0,108,comment,noshadow
+map,347,,107,EV107,1,3,355,script,"$game_screen.weather(:None,0,0)"
+map,347,,15,EV015,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,347,,15,EV015,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,347,,15,EV015,1,2,102,choices,Si
+map,347,,15,EV015,1,2,102,choices,No
+map,347,,15,EV015,1,3,402,choice_branch,Si
+map,347,,15,EV015,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,347,,15,EV015,1,24,402,choice_branch,No
+map,347,,52,Trainer(2),1,0,355,script,pbNoticePlayer(get_character(0))
+map,347,,52,Trainer(2),1,1,101,show_text,"¡Yo vi esa Pokéball antes, es mía!"
+map,347,,52,Trainer(2),1,2,355,script,"setBattleRule(""base"", ""bridge"")"
+map,347,,52,Trainer(2),2,0,101,show_text,"Toda tuya, crack."
+map,347,,126,EV126,1,0,108,comment,noshadow
+map,347,,126,EV126,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,126,EV126,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,126,EV126,1,4,102,choices,Si
+map,347,,126,EV126,1,4,102,choices,No
+map,347,,126,EV126,1,5,402,choice_branch,Si
+map,347,,126,EV126,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,126,EV126,1,26,355,script,pbSetEventTime
+map,347,,126,EV126,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,126,EV126,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,126,EV126,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,126,EV126,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,126,EV126,1,102,402,choice_branch,No
+map,347,,126,EV126,2,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,126,EV126,3,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,34,Slope,1,0,108,comment,Slope: 2x1
+map,347,,34,Slope,1,1,108,comment,Width: 0/2
+map,347,,34,Slope,1,2,108,comment,Offset: 16px
+map,347,,71,.noshadow,1,0,108,comment,noshadow
+map,347,,108,EV108,1,3,355,script,"$game_screen.weather(:None,0,0)"
+map,347,,53,EV053,1,0,101,show_text,"Amo este ambiente de lluvia, ¿a también te gusta?"
+map,347,,127,EV127,1,0,108,comment,noshadow
+map,347,,127,EV127,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,127,EV127,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,127,EV127,1,4,102,choices,Si
+map,347,,127,EV127,1,4,102,choices,No
+map,347,,127,EV127,1,5,402,choice_branch,Si
+map,347,,127,EV127,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,127,EV127,1,26,355,script,pbSetEventTime
+map,347,,127,EV127,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,127,EV127,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,127,EV127,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,127,EV127,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,127,EV127,1,102,402,choice_branch,No
+map,347,,127,EV127,2,0,108,comment,noshadow
+map,347,,127,EV127,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,127,EV127,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,127,EV127,2,4,102,choices,Si
+map,347,,127,EV127,2,4,102,choices,No
+map,347,,127,EV127,2,5,402,choice_branch,Si
+map,347,,127,EV127,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,127,EV127,2,26,355,script,pbSetEventTime
+map,347,,127,EV127,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,127,EV127,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,127,EV127,2,75,402,choice_branch,No
+map,347,,127,EV127,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,127,EV127,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,35,Slope,1,0,108,comment,Slope: -2x-1
+map,347,,35,Slope,1,1,108,comment,Width: 1/2
+map,347,,35,Slope,1,2,108,comment,Offset: 16px
+map,347,,72,.noshadow,1,0,108,comment,noshadow
+map,347,,109,EV109,1,3,355,script,"$game_screen.weather(:None,0,0)"
+map,347,,54,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,347,,54,Trainer(4),1,1,101,show_text,¡¿Escuchaste ese rempálago?!
+map,347,,54,Trainer(4),1,2,355,script,"setBattleRule(""base"", ""bridge"")"
+map,347,,54,Trainer(4),2,0,101,show_text,"Ya sé que se llama relámpago pero es el meme, bobo."
+map,347,,17,EV017,1,0,355,script,pbBridgeOn
+map,347,,128,EV128,1,0,108,comment,noshadow
+map,347,,128,EV128,1,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,128,EV128,1,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,128,EV128,1,4,102,choices,Si
+map,347,,128,EV128,1,4,102,choices,No
+map,347,,128,EV128,1,5,402,choice_branch,Si
+map,347,,128,EV128,1,6,101,show_text,¡Usaste el Hacha!
+map,347,,128,EV128,1,26,355,script,pbSetEventTime
+map,347,,128,EV128,1,28,355,script,pbReceiveItem(:PIEZADELENA)
+map,347,,128,EV128,1,35,355,script,"pbReceiveItem(:PIEZADELENA,2)"
+map,347,,128,EV128,1,46,355,script,"pbReceiveItem(:PIEZADELENA,3)"
+map,347,,128,EV128,1,55,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,128,EV128,1,102,402,choice_branch,No
+map,347,,128,EV128,2,0,108,comment,noshadow
+map,347,,128,EV128,2,1,101,show_text,En este árbol se puede sacar madera.
+map,347,,128,EV128,2,3,101,show_text,¿Quieres talar algo de leña?
+map,347,,128,EV128,2,4,102,choices,Si
+map,347,,128,EV128,2,4,102,choices,No
+map,347,,128,EV128,2,5,402,choice_branch,Si
+map,347,,128,EV128,2,6,101,show_text,¡Usaste el Hacha mejorada!
+map,347,,128,EV128,2,26,355,script,pbSetEventTime
+map,347,,128,EV128,2,27,355,script,"pbReceiveItem(:PIEZADELENA, pbGet(218))"
+map,347,,128,EV128,2,28,108,comment,Comprobamos todos los casos y hacemos saltar una cosa u otra según eso.
+map,347,,128,EV128,2,75,402,choice_branch,No
+map,347,,128,EV128,3,0,101,show_text,"Ya has talado esta parte del árbol, espera hasta mañana."
+map,347,,128,EV128,4,1,355,script,"setTempSwitchOn(""A"")"
+map,347,,110,EV110,1,0,101,show_text,<ac>Cueva Magnetismo</ac><ac>¡Cuidado no te lleves algún calambre!</ac>
+map,347,,73,.noshadow,1,0,108,comment,noshadow
+map,347,,36,Slope,1,0,108,comment,Slope: -2x-1
+map,347,,36,Slope,1,1,108,comment,Width: 0/2
+map,347,,36,Slope,1,2,108,comment,Offset: 16px

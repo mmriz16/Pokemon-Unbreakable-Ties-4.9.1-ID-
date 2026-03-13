@@ -1,0 +1,513 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,314,,18,EV018,1,0,108,comment,noshadow
+map,314,,55,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,55,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,55,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,55,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,55,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,55,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,92,EV092,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,92,EV092,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,92,EV092,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,92,EV092,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,92,EV092,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,92,EV092,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,129,EV129,1,0,355,script,pbItemBall(:MAXREVIVE)
+map,314,,37,EV037,1,0,108,comment,noshadow
+map,314,,74,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,74,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,74,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,74,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,74,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,74,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,111,EV111,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,111,EV111,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,111,EV111,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,111,EV111,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,111,EV111,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,111,EV111,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,56,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,56,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,56,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,56,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,56,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,56,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,93,EV093,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,93,EV093,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,93,EV093,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,93,EV093,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,93,EV093,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,93,EV093,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,130,EV130,1,0,108,comment,noshadow
+map,314,,19,EV019,1,0,108,comment,noshadow
+map,314,,75,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,75,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,75,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,75,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,75,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,75,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,112,EV112,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,112,EV112,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,112,EV112,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,112,EV112,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,112,EV112,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,112,EV112,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,38,EV038,1,0,108,comment,noshadow
+map,314,,94,EV094,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,94,EV094,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,94,EV094,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,94,EV094,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,94,EV094,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,94,EV094,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,131,EV131,1,0,108,comment,noshadow
+map,314,,20,EV020,1,0,108,comment,noshadow
+map,314,,57,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,57,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,57,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,57,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,57,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,57,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,113,EV113,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,113,EV113,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,113,EV113,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,113,EV113,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,113,EV113,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,113,EV113,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,2,EV002,1,0,355,script,pbItemBall(:FULLHEAL)
+map,314,,76,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,76,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,76,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,76,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,76,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,76,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,21,EV021,1,0,108,comment,noshadow
+map,314,,58,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,58,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,58,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,58,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,58,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,58,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,95,EV095,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,95,EV095,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,95,EV095,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,95,EV095,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,95,EV095,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,95,EV095,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,3,EV003,1,0,355,script,pbItemBall(:ENERGYROOT)
+map,314,,77,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,77,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,77,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,77,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,77,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,77,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,114,EV114,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,114,EV114,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,114,EV114,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,114,EV114,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,114,EV114,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,114,EV114,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,22,EV022,1,0,108,comment,noshadow
+map,314,,59,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,59,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,59,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,59,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,59,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,59,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,96,EV096,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,96,EV096,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,96,EV096,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,96,EV096,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,96,EV096,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,96,EV096,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,78,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,78,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,78,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,78,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,78,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,78,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,115,EV115,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,115,EV115,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,115,EV115,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,115,EV115,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,115,EV115,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,115,EV115,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,23,EV023,1,0,108,comment,noshadow
+map,314,,60,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,60,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,60,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,60,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,60,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,60,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,97,EV097,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,97,EV097,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,97,EV097,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,97,EV097,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,97,EV097,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,97,EV097,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,5,EV005,1,0,108,comment,noshadow
+map,314,,42,Cave entrance,1,6,355,script,pbCaveExit
+map,314,,42,Cave entrance,2,6,355,script,pbCaveExit
+map,314,,79,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,79,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,79,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,79,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,79,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,79,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,116,EV116,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,116,EV116,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,116,EV116,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,116,EV116,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,116,EV116,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,116,EV116,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,24,EV024,1,0,108,comment,noshadow
+map,314,,61,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,61,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,61,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,61,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,61,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,61,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,98,EV098,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,98,EV098,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,98,EV098,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,98,EV098,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,98,EV098,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,98,EV098,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,6,EV006,1,0,108,comment,noshadow
+map,314,,43,Cave entrance,1,6,355,script,pbCaveExit
+map,314,,43,Cave entrance,2,6,355,script,pbCaveExit
+map,314,,80,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,80,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,80,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,80,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,80,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,80,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,117,EV117,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,117,EV117,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,117,EV117,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,117,EV117,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,117,EV117,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,117,EV117,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,25,EV025,1,0,108,comment,noshadow
+map,314,,62,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,62,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,62,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,62,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,62,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,62,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,99,EV099,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,99,EV099,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,99,EV099,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,99,EV099,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,99,EV099,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,99,EV099,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,7,EV007,1,0,108,comment,noshadow
+map,314,,44,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,314,,44,Trainer(4),1,1,101,show_text,\dxn[Salvaje F.]¿Vienes a recuperar lo que Hakan te quitó? ¡Lo llevas claro!
+map,314,,44,Trainer(4),1,2,355,script,"setBattleRule(""base"", """")"
+map,314,,44,Trainer(4),1,9,355,script,pbTrainerEnd
+map,314,,44,Trainer(4),2,0,101,show_text,\dxn[Salvaje F.]Nunca recuperarás lo que perdiste.
+map,314,,81,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,81,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,81,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,81,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,81,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,81,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,118,EV118,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,118,EV118,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,118,EV118,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,118,EV118,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,118,EV118,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,118,EV118,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,26,EV026,1,0,108,comment,noshadow
+map,314,,63,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,63,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,63,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,63,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,63,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,63,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,100,EV100,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,100,EV100,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,100,EV100,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,100,EV100,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,100,EV100,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,100,EV100,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,8,Trainer5,2,0,101,show_text,\dxn[Salvaje M.]¿Cómo ha llegado esta niña hasta aquí?
+map,314,,45,algo,1,14,355,script,"setBattleRule(""base"", """")"
+map,314,,45,algo,1,16,101,show_text,\dxn[Salvaje M.]¿Te metes en nuestro terreno por la cara? ¡Vas a ver la que te espera!
+map,314,,45,algo,1,23,355,script,pbTrainerEnd
+map,314,,82,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,82,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,82,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,82,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,82,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,82,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,119,EV119,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,119,EV119,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,119,EV119,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,119,EV119,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,119,EV119,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,119,EV119,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,27,EV027,1,0,108,comment,noshadow
+map,314,,64,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,64,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,64,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,64,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,64,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,64,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,101,EV101,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,101,EV101,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,101,EV101,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,101,EV101,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,101,EV101,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,101,EV101,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,46,,1,14,355,script,"setBattleRule(""base"", """")"
+map,314,,46,,1,16,101,show_text,\dxn[Salvaje M.]¿Te metes en nuestro terreno por la cara? ¡Vas a ver la que te espera!
+map,314,,46,,1,23,355,script,pbTrainerEnd
+map,314,,83,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,83,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,83,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,83,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,83,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,83,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,120,EV120,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,120,EV120,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,120,EV120,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,120,EV120,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,120,EV120,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,120,EV120,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,9,Trainer4,1,0,101,show_text,\dxn[Salvaje M.]¿Cómo ha llegado esta niña hasta aquí?
+map,314,,9,Trainer4,2,0,101,show_text,\dxn[Salvaje M.]¿Cómo ha llegado esta niña hasta aquí?
+map,314,,65,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,65,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,65,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,65,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,65,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,65,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,102,EV102,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,102,EV102,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,102,EV102,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,102,EV102,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,102,EV102,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,102,EV102,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,28,EV028,1,0,108,comment,noshadow
+map,314,,84,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,84,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,84,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,84,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,84,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,84,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,121,EV121,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,121,EV121,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,121,EV121,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,121,EV121,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,121,EV121,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,121,EV121,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,47,,1,14,355,script,"setBattleRule(""base"", """")"
+map,314,,47,,1,16,101,show_text,\dxn[Salvaje M.]¿Te metes en nuestro terreno por la cara? ¡Vas a ver la que te espera!
+map,314,,47,,1,23,355,script,pbTrainerEnd
+map,314,,103,EV103,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,103,EV103,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,103,EV103,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,103,EV103,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,103,EV103,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,103,EV103,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,29,EV029,1,0,108,comment,noshadow
+map,314,,66,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,66,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,66,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,66,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,66,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,66,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,122,EV122,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,122,EV122,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,122,EV122,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,122,EV122,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,122,EV122,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,122,EV122,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,48,,1,14,355,script,"setBattleRule(""base"", """")"
+map,314,,48,,1,16,101,show_text,\dxn[Salvaje M.]¿Te metes en nuestro terreno por la cara? ¡Vas a ver la que te espera!
+map,314,,48,,1,23,355,script,pbTrainerEnd
+map,314,,85,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,85,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,85,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,85,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,85,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,85,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,30,EV030,1,0,108,comment,noshadow
+map,314,,67,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,67,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,67,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,67,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,67,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,67,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,104,EV104,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,104,EV104,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,104,EV104,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,104,EV104,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,104,EV104,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,104,EV104,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,49,,1,14,355,script,"setBattleRule(""base"", """")"
+map,314,,49,,1,16,101,show_text,\dxn[Salvaje M.]¿Te metes en nuestro terreno por la cara? ¡Vas a ver la que te espera!
+map,314,,49,,1,23,355,script,pbTrainerEnd
+map,314,,86,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,86,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,86,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,86,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,86,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,86,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,123,EV123,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,123,EV123,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,123,EV123,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,123,EV123,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,123,EV123,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,123,EV123,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,31,EV031,1,0,108,comment,noshadow
+map,314,,68,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,68,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,68,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,68,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,68,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,68,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,105,EV105,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,105,EV105,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,105,EV105,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,105,EV105,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,105,EV105,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,105,EV105,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,50,Trainer(3),1,0,355,script,pbNoticePlayer(get_character(0))
+map,314,,50,Trainer(3),1,1,101,show_text,"\dxn[Salvaje M.]¡Ey, tú eres la niña que se ha escapado!"
+map,314,,50,Trainer(3),1,2,355,script,"setBattleRule(""base"", """")"
+map,314,,50,Trainer(3),1,9,355,script,pbTrainerEnd
+map,314,,50,Trainer(3),2,0,101,show_text,\dxn[Salvaje M.]¡Das más miedo que el propio Hakan!
+map,314,,87,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,87,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,87,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,87,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,87,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,87,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,124,EV124,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,124,EV124,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,124,EV124,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,124,EV124,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,124,EV124,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,124,EV124,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,32,EV032,1,0,108,comment,noshadow
+map,314,,69,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,69,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,69,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,69,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,69,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,69,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,106,EV106,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,106,EV106,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,106,EV106,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,106,EV106,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,106,EV106,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,106,EV106,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,14,EV014,1,0,108,comment,noshadow
+map,314,,51,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,314,,51,Trainer(4),1,1,101,show_text,\dxn[Salvaje F.]¡No llegarás hasta nuestro amo!
+map,314,,51,Trainer(4),1,2,355,script,"setBattleRule(""base"", """")"
+map,314,,51,Trainer(4),1,9,355,script,pbTrainerEnd
+map,314,,51,Trainer(4),2,0,101,show_text,"\dxn[Salvaje F.]Tch, tienes vía libre..."
+map,314,,88,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,88,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,88,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,88,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,88,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,88,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,125,EV125,1,0,108,comment,noshadow
+map,314,,33,EV033,1,0,108,comment,noshadow
+map,314,,70,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,70,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,70,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,70,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,70,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,70,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,107,EV107,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,107,EV107,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,107,EV107,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,107,EV107,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,107,EV107,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,107,EV107,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,15,EV015,1,0,108,comment,noshadow
+map,314,,52,EV052,1,0,355,script,Pokemon.play_cry(:CHANSEY)
+map,314,,52,EV052,1,1,101,show_text,"Parece que Chansey puede curar a tus Pokémon, ¿quieres curarlos?"
+map,314,,52,EV052,1,2,102,choices,Yep
+map,314,,52,EV052,1,2,102,choices,No
+map,314,,52,EV052,1,3,402,choice_branch,Yep
+map,314,,52,EV052,1,8,402,choice_branch,No
+map,314,,89,EV089,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,89,EV089,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,89,EV089,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,89,EV089,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,89,EV089,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,89,EV089,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,126,EV126,1,0,108,comment,noshadow
+map,314,,71,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,71,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,71,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,71,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,71,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,71,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,34,EV034,1,0,108,comment,noshadow
+map,314,,108,EV108,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,108,EV108,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,108,EV108,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,108,EV108,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,108,EV108,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,108,EV108,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,53,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,53,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,53,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,53,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,53,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,53,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,127,EV127,1,0,108,comment,noshadow
+map,314,,16,EV016,1,0,108,comment,noshadow
+map,314,,90,EV090,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,90,EV090,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,90,EV090,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,90,EV090,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,90,EV090,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,90,EV090,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,72,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,72,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,72,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,72,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,72,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,72,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,35,EV035,1,0,108,comment,noshadow
+map,314,,109,EV109,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,109,EV109,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,109,EV109,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,109,EV109,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,109,EV109,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,109,EV109,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,54,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,54,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,54,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,54,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,54,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,54,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,128,EV128,1,0,108,comment,noshadow
+map,314,,17,EV017,1,0,108,comment,noshadow
+map,314,,91,EV091,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,91,EV091,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,91,EV091,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,91,EV091,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,91,EV091,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,91,EV091,3,1,355,script,$Trainer.has_running_shoes = false
+map,314,,73,A1,1,4,355,script,$Trainer.has_running_shoes = true
+map,314,,73,A1,1,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,73,A1,2,4,355,script,$Trainer.has_running_shoes = true
+map,314,,73,A1,2,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,73,A1,3,4,355,script,$Trainer.has_running_shoes = true
+map,314,,73,A1,3,5,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,314,,36,EV036,1,0,108,comment,noshadow
+map,314,,110,EV110,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,110,EV110,1,1,355,script,$Trainer.has_running_shoes = false
+map,314,,110,EV110,2,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,110,EV110,2,1,355,script,$Trainer.has_running_shoes = false
+map,314,,110,EV110,3,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,314,,110,EV110,3,1,355,script,$Trainer.has_running_shoes = false

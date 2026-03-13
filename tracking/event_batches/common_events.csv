@@ -1,0 +1,621 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+common_event,1,Professor Oak phone,,,,0,101,show_text,......\wt[5] ......
+common_event,1,Professor Oak phone,,,,2,101,show_text,"Hello, \PN!\nI can see you calling me over there!"
+common_event,1,Professor Oak phone,,,,3,101,show_text,Come over and talk to me.
+common_event,1,Professor Oak phone,,,,7,101,show_text,"Hello, this is Professor Oak...\nOh, hello, \PN!"
+common_event,1,Professor Oak phone,,,,8,101,show_text,"So, how's your Pokédex coming along?"
+common_event,1,Professor Oak phone,,,,9,102,choices,Evaluate Pokédex
+common_event,1,Professor Oak phone,,,,9,102,choices,Quit
+common_event,1,Professor Oak phone,,,,10,402,choice_branch,Evaluate Pokédex
+common_event,1,Professor Oak phone,,,,11,355,script,"pbSet(1,$Trainer.pokedex.seen_count)"
+common_event,1,Professor Oak phone,,,,12,655,script_cont,"pbSet(2,$Trainer.pokedex.owned_count)"
+common_event,1,Professor Oak phone,,,,13,101,show_text,"Hmm, let's see..\nYou've seen \v[1] Pokémon, and"
+common_event,1,Professor Oak phone,,,,14,401,show_text_cont,\nyou've caught \v[2] Pokémon!\nI see!
+common_event,1,Professor Oak phone,,,,16,101,show_text,"Hmm, you still have a long journey ahead of you!"
+common_event,1,Professor Oak phone,,,,17,401,show_text_cont,\nKeep on going!
+common_event,1,Professor Oak phone,,,,22,101,show_text,"Hmm, you're catching Pokémon at a decent pace!"
+common_event,1,Professor Oak phone,,,,27,101,show_text,"You've caught a lot of Pokémon, but make sure you're"
+common_event,1,Professor Oak phone,,,,28,401,show_text_cont,raising them carefully!
+common_event,1,Professor Oak phone,,,,33,101,show_text,I didn't even know that many Pokémon existed!
+common_event,1,Professor Oak phone,,,,38,101,show_text,Show me your Pokédex again anytime!
+common_event,1,Professor Oak phone,,,,40,402,choice_branch,Quit
+common_event,1,Professor Oak phone,,,,41,101,show_text,Show me your Pokédex anytime!
+common_event,1,Professor Oak phone,,,,45,101,show_text,Click!\wt[10]\n......\wt[5] ......
+common_event,2,Brendan dependent event,,,,0,101,show_text,\bDo you want me to stop following you?
+common_event,2,Brendan dependent event,,,,1,102,choices,Yes
+common_event,2,Brendan dependent event,,,,1,102,choices,No
+common_event,2,Brendan dependent event,,,,2,402,choice_branch,Yes
+common_event,2,Brendan dependent event,,,,3,355,script,"pbRemoveDependency2(""Brendan"")"
+common_event,2,Brendan dependent event,,,,4,355,script,pbDeregisterPartner
+common_event,2,Brendan dependent event,,,,5,101,show_text,"\bI'll stay here, then."
+common_event,2,Brendan dependent event,,,,7,402,choice_branch,No
+common_event,2,Brendan dependent event,,,,8,101,show_text,\bLet's keep going!
+common_event,3,Eda dependiente xD,,,,1,101,show_text,\dxn[Eda]¡Claro! ¡Te curo los Pokémon!
+common_event,3,Eda dependiente xD,,,,7,101,show_text,\dxn[Eda]¡Sigamos con lo nuestro!
+common_event,4,Xiao dependiente xD,,,,1,101,show_text,\dxn[Eda]¡Claro! ¡Te curo los Pokémon!
+common_event,4,Xiao dependiente xD,,,,7,101,show_text,"\dxn[Eda]¡Vámonos, no hay tiempo que perder!"
+common_event,4,Xiao dependiente xD,,,,9,355,script,"pbRegisterPartner(:LEADER_Yangxiao,""Yang Xiao"",1)"
+common_event,5,Vesta dependiente xD,,,,1,101,show_text,\dxn[Ex Comandante Vesta]¿Qué narices quieres? Tenemos prisa.
+common_event,6,Sakura dependiente xD,,,,1,101,show_text,"\dxn[Sakura]Deberíamos investigar el bosque, a ver si descubrimos cómo salir de aquí."
+common_event,7,Lluvia dependiente xD,,,,1,101,show_text,\dxn[Lluvia]Veamos qué nos espera arriba.
+common_event,8,Adri dependiente xD,,,,1,101,show_text,\dxn[Adrián]Veamos qué nos espera arriba.
+common_event,9,Shayan dependiente xD,,,,1,101,show_text,\dxn[Shayan]¿Ocurre algo?
+common_event,10,Rodolfo dependiente xD,,,,1,101,show_text,"\dxn[Rodolfo]¡Venga, vamos!"
+common_event,11,Evento del botiquin xD,,,,1,101,show_text,El Botiquín tiene \v[254] cargas de energía.
+common_event,11,Evento del botiquin xD,,,,2,101,show_text,¿Quieres usarlo?
+common_event,11,Evento del botiquin xD,,,,3,102,choices,Si
+common_event,11,Evento del botiquin xD,,,,3,102,choices,No
+common_event,11,Evento del botiquin xD,,,,4,402,choice_branch,Si
+common_event,11,Evento del botiquin xD,,,,8,101,show_text,¡Se ha restaurado la vida de tus Pokémon!
+common_event,11,Evento del botiquin xD,,,,10,101,show_text,Al Botiquín le quedan \v[254] cargas de energía.
+common_event,11,Evento del botiquin xD,,,,12,402,choice_branch,No
+common_event,11,Evento del botiquin xD,,,,13,101,show_text,No usaste el Botiquín.
+common_event,11,Evento del botiquin xD,,,,18,101,show_text,No te quedan cargas en el Botiquín.
+common_event,12,Rodolfo dependiente 2,,,,1,101,show_text,\dxn[Rodolfo]...
+common_event,12,Rodolfo dependiente 2,,,,6,101,show_text,\dxn[Eda]No parece muy animado...
+common_event,13,Lena Dependiente xD,,,,1,101,show_text,"\dxn[Lena]¡Vamos, hay que encontrarlos!"
+common_event,16,Diario GOD,,,,1,101,show_text,Dirígete a la escuela.
+common_event,16,Diario GOD,,,,8,101,show_text,Ve al laboratorio para conseguir a tu Pokémon inicial.
+common_event,16,Diario GOD,,,,15,101,show_text,Ve a casa de Álama.
+common_event,16,Diario GOD,,,,22,101,show_text,"Dirígete a la playa, en el Sur de Pueblo Gorrión."
+common_event,16,Diario GOD,,,,29,101,show_text,Vuelve a casa para informar a tus padres.
+common_event,16,Diario GOD,,,,36,101,show_text,Dirígete a la Ruta 1.
+common_event,16,Diario GOD,,,,43,101,show_text,Dirígete a la Ruta 2.
+common_event,16,Diario GOD,,,,50,101,show_text,Encuentra a Ditto en Pueblo Pardillo.
+common_event,16,Diario GOD,,,,57,101,show_text,Ve a buscar a Álama.
+common_event,16,Diario GOD,,,,64,101,show_text,Sigue tu aventura de chill.
+common_event,16,Diario GOD,,,,71,101,show_text,Busca el hacha por el Bosque Verderón.
+common_event,16,Diario GOD,,,,78,101,show_text,Ve a Ciudad Verderón.
+common_event,16,Diario GOD,,,,85,101,show_text,Sigue tu aventura.
+common_event,16,Diario GOD,,,,92,101,show_text,Ve a Pueblo Jilguero a entregar la carta de Yang Xiao.
+common_event,16,Diario GOD,,,,99,101,show_text,"Dirígete a la Cueva Reliquia, al Sur de la Ruta 6."
+common_event,16,Diario GOD,,,,106,101,show_text,Sigue por la Ruta 7 y vuelve a Ciudad Calentra para retar a Yang Xiao.
+common_event,16,Diario GOD,,,,113,101,show_text,"Avisa a Eda que han cerrado el gimnasio, se encuentra en la Playa de Ciudad Calentra."
+common_event,16,Diario GOD,,,,120,101,show_text,Dirígete a Ciudad Ninfa.
+common_event,16,Diario GOD,,,,127,101,show_text,Dirígete a Ciudad Cardenal.
+common_event,16,Diario GOD,,,,134,101,show_text,Ve a salvar al Alcalde en el Sur de Ciudad Cardenal.
+common_event,16,Diario GOD,,,,141,101,show_text,Ve a buscar a Álama por el Norte de Ciudad Cardenal.
+common_event,16,Diario GOD,,,,148,101,show_text,Dirígete al Bar Stones del Centro de Ciudad Cardenal.
+common_event,16,Diario GOD,,,,155,101,show_text,Dirígete al Hotel del Centro de Ciudad Cardenal.
+common_event,16,Diario GOD,,,,162,101,show_text,Ve a buscar a Eda en el Gimnasio de la zona Este.
+common_event,16,Diario GOD,,,,169,101,show_text,Ve al Acuario.
+common_event,16,Diario GOD,,,,176,101,show_text,Enfréntate a Celeste en el Gimnasio.
+common_event,16,Diario GOD,,,,183,101,show_text,Ve al Bar Stones de Ciudad Cardenal Centro.
+common_event,16,Diario GOD,,,,190,101,show_text,Vuelve al Jardín de los Sueños.
+common_event,16,Diario GOD,,,,197,101,show_text,"Ve a buscar a Eda, se encuentra en uno de los puentes del centro de Ciudad Cardenal."
+common_event,16,Diario GOD,,,,204,101,show_text,Dirígete al Sur de Ciudad Cardenal para coger el Barco.
+common_event,16,Diario GOD,,,,211,101,show_text,Date una vuelta por el Symphony of the Seas.
+common_event,16,Diario GOD,,,,218,101,show_text,"Sigue tu camino, lol."
+common_event,16,Diario GOD,,,,225,101,show_text,Dirígete a la ruta 13 para llegar a Pueblo Ruiseñor.
+common_event,16,Diario GOD,,,,232,101,show_text,Baja hasta lo más bajo de la prisión.
+common_event,16,Diario GOD,,,,239,101,show_text,Intenta salir de la prisión.
+common_event,16,Diario GOD,,,,244,101,show_text,Sigue por la Ruta 15.
+common_event,16,Diario GOD,,,,251,101,show_text,Interactúa con las lápidas del lugar.
+common_event,16,Diario GOD,,,,258,101,show_text,Sal del Bosque de los Lamentos y llega a Pueblo Mirlo.
+common_event,16,Diario GOD,,,,265,101,show_text,Dirígete a la Torre Celestial.
+common_event,16,Diario GOD,,,,272,101,show_text,Derrota a Zurván en el Gimnasio de Pueblo Mirlo.
+common_event,16,Diario GOD,,,,279,101,show_text,Busca un remedio para curar a Latias.
+common_event,16,Diario GOD,,,,286,101,show_text,Busca a esos malditos Mankey.
+common_event,16,Diario GOD,,,,293,101,show_text,Busca la fuente sagrada de la cueva.
+common_event,16,Diario GOD,,,,300,101,show_text,Ve a partirle la cara a Hakan.
+common_event,16,Diario GOD,,,,307,101,show_text,Llega hasta la Cima Tué-Tué.
+common_event,16,Diario GOD,,,,314,101,show_text,Sigue por la Ruta 16.
+common_event,16,Diario GOD,,,,321,101,show_text,Descubre el pasado del Orfanato e intenta salir de ahí.
+common_event,16,Diario GOD,,,,328,101,show_text,Sigue por la Ruta 16 y atraviesa la Cueva Magnética.
+common_event,16,Diario GOD,,,,335,101,show_text,¡Huye de la Familia Real!
+common_event,16,Diario GOD,,,,342,101,show_text,Atraviesa la Ruta 17 y dirígete a Ciudad Lugano.
+common_event,16,Diario GOD,,,,349,101,show_text,Desbarata los planes de la Familia Real dentro de la Galería de Arte.
+common_event,16,Diario GOD,,,,356,101,show_text,Dirígete al Casino en la Zona Centro de Ciudad Lugano.
+common_event,16,Diario GOD,,,,363,101,show_text,Busca a Rodolfo y a Eda.
+common_event,16,Diario GOD,,,,370,101,show_text,Sal de la Guarida para empezar a buscar a Rodolfo.
+common_event,16,Diario GOD,,,,377,101,show_text,Encuentra a Rodolfo.
+common_event,16,Diario GOD,,,,384,101,show_text,Encuentra el Barrio Pobre de Ciudad Lugano.
+common_event,16,Diario GOD,,,,391,101,show_text,Vuelve a la Guarida para dormir.
+common_event,16,Diario GOD,,,,398,101,show_text,Ve a la sala de reuniones.
+common_event,16,Diario GOD,,,,405,101,show_text,Dirígete al Piso -5 de la Guarida.
+common_event,16,Diario GOD,,,,412,101,show_text,Explora las Cloacas y encuentra a Liberty.
+common_event,16,Diario GOD,,,,419,101,show_text,Ve a recoger los trajes al Centro Comercial de la Zona Norte de Ciudad Lugano.
+common_event,16,Diario GOD,,,,426,101,show_text,Dirígete a la Zona de Ejecuciones.
+common_event,16,Diario GOD,,,,433,101,show_text,Vuelve a la Guarida del Casino.
+common_event,16,Diario GOD,,,,440,101,show_text,Mejora con el Frente Batalla o dirígete a la Sala de Entrenamiento (P-4) donde Eda te espera.
+common_event,16,Diario GOD,,,,447,101,show_text,Dirígete al Teatro.
+common_event,16,Diario GOD,,,,454,101,show_text,Dirígete a las puertas del Palacio.
+common_event,16,Diario GOD,,,,461,101,show_text,Dirígete a la Guarida de Ciudad Lugano.
+common_event,16,Diario GOD,,,,468,355,script,getPepito(0)
+common_event,16,Diario GOD,,,,469,101,show_text,"Desde Ciudad Lugano Este, dirígete al Gate."
+common_event,16,Diario GOD,,,,470,355,script,removePepito()
+common_event,16,Diario GOD,,,,471,355,script,getPepito(1)
+common_event,16,Diario GOD,,,,472,101,show_text,"Saliendo del Gate verás el Parque del Retiro, dirígete arriba del todo."
+common_event,16,Diario GOD,,,,473,355,script,removePepito()
+common_event,16,Diario GOD,,,,474,355,script,getPepito(2)
+common_event,16,Diario GOD,,,,475,101,show_text,Entra en la cueva que hay justo al final.
+common_event,16,Diario GOD,,,,476,355,script,removePepito()
+common_event,16,Diario GOD,,,,483,101,show_text,Dirígete a la ruta 20.
+common_event,16,Diario GOD,,,,490,101,show_text,Ve hacia la Senda Graznido e investiga.
+common_event,16,Diario GOD,,,,497,101,show_text,Atraviesa la Caverna Tángara y llega a la Ruta 21.
+common_event,16,Diario GOD,,,,504,101,show_text,Ve a la Granja Abandonada de Eric.
+common_event,16,Diario GOD,,,,511,101,show_text,"Ve al Sur de Ciudad Cardenal, Sakura te está esperando."
+common_event,16,Diario GOD,,,,518,101,show_text,"Juega los minijuegos del Summer Resort, consigue la Summer Skin y habla con Sakura."
+common_event,16,Diario GOD,,,,525,101,show_text,Te esperas a la Beta 5 :)))))
+common_event,16,Diario GOD,,,,532,101,show_text,Investiga la Isla del Sur.
+common_event,16,Diario GOD,,,,539,101,show_text,Persigue a Tapu Koko.
+common_event,18,Celeste Dependiente xD,,,,1,101,show_text,"\dxn[Celeste]¡Vamos, Liberty debe estar en algún lado!"
+common_event,19,give items default,,,,0,355,script,$PokemonGlobal.gachaCoins += 3
+common_event,19,give items default,,,,2,101,show_text,¡Has recibido 3 Ticket-Gacha!
+common_event,22,HEAL,,,,0,355,script,currentCharacter = $Trainer&.character_ID
+common_event,22,HEAL,,,,1,655,script_cont,"if $game_switches[2092] && !$PokemonTemp.battleRules[""canLose""] && [0, 1].include?(currentCharacter)"
+common_event,22,HEAL,,,,2,655,script_cont,for i in(0...$Trainer.party.length)
+common_event,22,HEAL,,,,3,655,script_cont,if !$Trainer.party[i].fainted?
+common_event,22,HEAL,,,,4,655,script_cont,$Trainer.party[i].heal
+common_event,22,HEAL,,,,5,655,script_cont,end
+common_event,22,HEAL,,,,6,655,script_cont,end
+common_event,22,HEAL,,,,7,655,script_cont,else
+common_event,22,HEAL,,,,8,655,script_cont,$Trainer.heal_party
+common_event,22,HEAL,,,,9,655,script_cont,end
+common_event,24,SAKURA,,,,0,355,script,"pbSwitchCharacter(5,""Sakura"",1)"
+common_event,24,SAKURA,,,,1,355,script,$Trainer.has_running_shoes = true
+common_event,24,SAKURA,,,,2,355,script,"$PokemonBag.pbStoreItem(:MEGARING,1)"
+common_event,24,SAKURA,,,,3,355,script,"$PokemonBag.pbStoreItem(:FULLRESTORE,5)"
+common_event,24,SAKURA,,,,4,355,script,"$PokemonBag.pbStoreItem(:MAXREVIVE,1)"
+common_event,24,SAKURA,,,,5,355,script,"$PokemonBag.pbStoreItem(:EXPALL,1)"
+common_event,24,SAKURA,,,,6,108,comment,// Mawile
+common_event,24,SAKURA,,,,7,355,script,"pkmn = Pokemon.new(:MAWILE,59)"
+common_event,24,SAKURA,,,,8,655,script_cont,pkmn.iv[:HP] = 31
+common_event,24,SAKURA,,,,9,655,script_cont,pkmn.iv[:DEFENSE] = 31
+common_event,24,SAKURA,,,,10,655,script_cont,pkmn.iv[:ATTACK] = 31
+common_event,24,SAKURA,,,,11,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+common_event,24,SAKURA,,,,12,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+common_event,24,SAKURA,,,,13,655,script_cont,pkmn.iv[:SPEED] = 31
+common_event,24,SAKURA,,,,14,655,script_cont,pkmn.nature = :ADAMANT
+common_event,24,SAKURA,,,,15,655,script_cont,pkmn.learn_move(:PLAYROUGH)
+common_event,24,SAKURA,,,,16,655,script_cont,pkmn.learn_move(:IRONHEAD)
+common_event,24,SAKURA,,,,17,655,script_cont,pkmn.learn_move(:KNOCKOFF)
+common_event,24,SAKURA,,,,18,355,script,pkmn.learn_move(:CRUNCH)
+common_event,24,SAKURA,,,,19,655,script_cont,pkmn.makeFemale
+common_event,24,SAKURA,,,,20,655,script_cont,pkmn.item = :MAWILITE
+common_event,24,SAKURA,,,,21,655,script_cont,pkmn.ability = :INTIMIDATE
+common_event,24,SAKURA,,,,22,655,script_cont,pkmn.shiny = true
+common_event,24,SAKURA,,,,23,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,24,SAKURA,,,,24,108,comment,// Clefable
+common_event,24,SAKURA,,,,25,355,script,"pkmn = Pokemon.new(:CLEFABLE,57)"
+common_event,24,SAKURA,,,,26,655,script_cont,pkmn.iv[:HP] = 25
+common_event,24,SAKURA,,,,27,655,script_cont,pkmn.iv[:DEFENSE] = 25
+common_event,24,SAKURA,,,,28,655,script_cont,pkmn.iv[:ATTACK] = 25
+common_event,24,SAKURA,,,,29,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 25
+common_event,24,SAKURA,,,,30,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 25
+common_event,24,SAKURA,,,,31,655,script_cont,pkmn.iv[:SPEED] = 25
+common_event,24,SAKURA,,,,32,655,script_cont,pkmn.nature = :CALM
+common_event,24,SAKURA,,,,33,655,script_cont,pkmn.learn_move(:DRAININGKISS)
+common_event,24,SAKURA,,,,34,655,script_cont,pkmn.learn_move(:STEALTHROCK)
+common_event,24,SAKURA,,,,35,655,script_cont,pkmn.learn_move(:REFLECT)
+common_event,24,SAKURA,,,,36,355,script,pkmn.learn_move(:LIGHTSCREEN)
+common_event,24,SAKURA,,,,37,655,script_cont,pkmn.makeFemale
+common_event,24,SAKURA,,,,38,655,script_cont,pkmn.ability = :MAGICGUARD
+common_event,24,SAKURA,,,,39,655,script_cont,pkmn.item = :LIGHTCLAY
+common_event,24,SAKURA,,,,40,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,24,SAKURA,,,,41,108,comment,// Tinkaton
+common_event,24,SAKURA,,,,42,355,script,"pkmn = Pokemon.new(:TINKATON,58)"
+common_event,24,SAKURA,,,,43,655,script_cont,pkmn.iv[:HP] = 25
+common_event,24,SAKURA,,,,44,655,script_cont,pkmn.iv[:DEFENSE] = 25
+common_event,24,SAKURA,,,,45,655,script_cont,pkmn.iv[:ATTACK] = 25
+common_event,24,SAKURA,,,,46,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 25
+common_event,24,SAKURA,,,,47,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 25
+common_event,24,SAKURA,,,,48,655,script_cont,pkmn.iv[:SPEED] = 25
+common_event,24,SAKURA,,,,49,655,script_cont,pkmn.nature = :JOLLY
+common_event,24,SAKURA,,,,50,655,script_cont,pkmn.learn_move(:GIGATONHAMMER)
+common_event,24,SAKURA,,,,51,655,script_cont,pkmn.learn_move(:KNOCKOFF)
+common_event,24,SAKURA,,,,52,655,script_cont,pkmn.learn_move(:PLAYROUGH)
+common_event,24,SAKURA,,,,53,355,script,pkmn.learn_move(:IRONHEAD)
+common_event,24,SAKURA,,,,54,655,script_cont,pkmn.makeFemale
+common_event,24,SAKURA,,,,55,655,script_cont,pkmn.item = :ASSAULTVEST
+common_event,24,SAKURA,,,,56,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,24,SAKURA,,,,57,108,comment,// Rapidash
+common_event,24,SAKURA,,,,58,355,script,"pkmn = Pokemon.new(:RAPIDASH,57)"
+common_event,24,SAKURA,,,,59,655,script_cont,pkmn.iv[:HP] = 25
+common_event,24,SAKURA,,,,60,655,script_cont,pkmn.iv[:DEFENSE] = 25
+common_event,24,SAKURA,,,,61,655,script_cont,pkmn.iv[:ATTACK] = 25
+common_event,24,SAKURA,,,,62,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 25
+common_event,24,SAKURA,,,,63,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 25
+common_event,24,SAKURA,,,,64,655,script_cont,pkmn.iv[:SPEED] = 25
+common_event,24,SAKURA,,,,65,655,script_cont,pkmn.nature = :ADAMANT
+common_event,24,SAKURA,,,,66,655,script_cont,pkmn.learn_move(:PSYCHOCUT)
+common_event,24,SAKURA,,,,67,655,script_cont,pkmn.learn_move(:SMARTSTRIKE)
+common_event,24,SAKURA,,,,68,655,script_cont,pkmn.learn_move(:MEGAHORN)
+common_event,24,SAKURA,,,,69,355,script,pkmn.learn_move(:PLAYROUGH)
+common_event,24,SAKURA,,,,70,655,script_cont,pkmn.makeFemale
+common_event,24,SAKURA,,,,71,655,script_cont,pkmn.item = :CHOICESCARF
+common_event,24,SAKURA,,,,72,655,script_cont,pkmn.form = 1
+common_event,24,SAKURA,,,,73,655,script_cont,pkmn.ability = :PASTELVEIL
+common_event,24,SAKURA,,,,74,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,24,SAKURA,,,,75,108,comment,// Sylveon
+common_event,24,SAKURA,,,,76,355,script,"pkmn = Pokemon.new(:SYLVEON,58)"
+common_event,24,SAKURA,,,,77,655,script_cont,pkmn.iv[:HP] = 25
+common_event,24,SAKURA,,,,78,655,script_cont,pkmn.iv[:DEFENSE] = 25
+common_event,24,SAKURA,,,,79,655,script_cont,pkmn.iv[:ATTACK] = 25
+common_event,24,SAKURA,,,,80,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 25
+common_event,24,SAKURA,,,,81,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 25
+common_event,24,SAKURA,,,,82,655,script_cont,pkmn.iv[:SPEED] = 25
+common_event,24,SAKURA,,,,83,655,script_cont,pkmn.nature = :MODEST
+common_event,24,SAKURA,,,,84,655,script_cont,pkmn.learn_move(:HYPERVOICE)
+common_event,24,SAKURA,,,,85,655,script_cont,pkmn.learn_move(:SHADOWBALL)
+common_event,24,SAKURA,,,,86,655,script_cont,pkmn.learn_move(:MOONBLAST)
+common_event,24,SAKURA,,,,87,355,script,pkmn.learn_move(:MYSTICALFIRE)
+common_event,24,SAKURA,,,,88,655,script_cont,pkmn.makeFemale
+common_event,24,SAKURA,,,,89,655,script_cont,pkmn.item = :CHOICESPECS
+common_event,24,SAKURA,,,,90,655,script_cont,pkmn.ability = :PIXILATE
+common_event,24,SAKURA,,,,91,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,24,SAKURA,,,,92,108,comment,// Ninetales
+common_event,24,SAKURA,,,,93,355,script,"pkmn = Pokemon.new(:NINETALES,57)"
+common_event,24,SAKURA,,,,94,655,script_cont,pkmn.iv[:HP] = 25
+common_event,24,SAKURA,,,,95,655,script_cont,pkmn.iv[:DEFENSE] = 25
+common_event,24,SAKURA,,,,96,655,script_cont,pkmn.iv[:ATTACK] = 25
+common_event,24,SAKURA,,,,97,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 25
+common_event,24,SAKURA,,,,98,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 25
+common_event,24,SAKURA,,,,99,655,script_cont,pkmn.iv[:SPEED] = 25
+common_event,24,SAKURA,,,,100,655,script_cont,pkmn.nature = :CALM
+common_event,24,SAKURA,,,,101,655,script_cont,pkmn.learn_move(:ICEBEAM)
+common_event,24,SAKURA,,,,102,655,script_cont,pkmn.learn_move(:CALMMIND)
+common_event,24,SAKURA,,,,103,655,script_cont,pkmn.learn_move(:DRAININGKISS)
+common_event,24,SAKURA,,,,104,355,script,pkmn.learn_move(:PROTECT)
+common_event,24,SAKURA,,,,105,655,script_cont,pkmn.makeFemale
+common_event,24,SAKURA,,,,106,655,script_cont,pkmn.item = :LEFTOVERS
+common_event,24,SAKURA,,,,107,655,script_cont,pkmn.form = 1
+common_event,24,SAKURA,,,,108,655,script_cont,pkmn.ability = :SNOWWARNING
+common_event,24,SAKURA,,,,109,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,28,Cámara grabación,,,,0,102,choices,¿Ver último combate?
+common_event,28,Cámara grabación,,,,0,102,choices,Nah.
+common_event,28,Cámara grabación,,,,1,402,choice_branch,¿Ver último combate?
+common_event,28,Cámara grabación,,,,3,355,script,pbPlayLastBattle
+common_event,28,Cámara grabación,,,,6,101,show_text,No hay ningún combate guardado.
+common_event,28,Cámara grabación,,,,10,402,choice_branch,Nah.
+common_event,29,Liberty dependiente xD,,,,1,101,show_text,"\dxn[Liberty]¡Yo te protejo, Sakura-chan!"
+common_event,29,Liberty dependiente xD,,,,6,101,show_text,\sh\dxn[Sakura](¡Como siga así le partiré la mandíbula de una patada!)
+common_event,30,CAMERA GOD,,,,0,355,script,"pbCameraScroll(0,2)"
+common_event,30,CAMERA GOD,,,,1,355,script,"pbCameraScrollTo(9,12)"
+common_event,30,CAMERA GOD,,,,2,355,script,pbCameraToEvent(3)
+common_event,30,CAMERA GOD,,,,3,355,script,"pbCameraScrollDirection(8,4)"
+common_event,30,CAMERA GOD,,,,4,355,script,pbCameraShake(9)
+common_event,30,CAMERA GOD,,,,5,355,script,pbCameraShakeOff
+common_event,30,CAMERA GOD,,,,6,355,script,pbCameraReset
+common_event,30,CAMERA GOD,,,,7,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+common_event,31,Reset pkmn conducto 1,,,,5,108,comment,// INTERRUPTORES PKMN RESET
+common_event,31,Reset pkmn conducto 1,,,,16,355,script,$Trainer_outfit = 1
+common_event,32,Me han pillado D:,,,,3,101,show_text,\f[ditto002]¡Dit...!
+common_event,33,Me han pillado D: SALA EXTRA,,,,3,101,show_text,\f[ditto002]¡Dit...!
+common_event,33,Me han pillado D: SALA EXTRA,,,,15,355,script,$Trainer_outfit = 1
+common_event,34,Reset pkmn conducto NO RESET,,,,0,108,comment,// INTERRUPTORES PKMN RESET
+common_event,36,William pulsación,,,,0,355,script,"pbZoomMap(2,0.2,zoom=""in"")"
+common_event,36,William pulsación,,,,2,355,script,pbCameraShake(5)
+common_event,36,William pulsación,,,,4,355,script,"pbZoomMap(1,0.2,zoom=""out"")"
+common_event,36,William pulsación,,,,5,355,script,pbCameraShakeOff
+common_event,36,William pulsación,,,,10,101,show_text,\dxn[Kaleo]¡...!
+common_event,36,William pulsación,,,,13,355,script,"pbZoomMap(2,0.2,zoom=""in"")"
+common_event,36,William pulsación,,,,15,355,script,pbCameraShake(5)
+common_event,36,William pulsación,,,,17,355,script,pbCameraShakeOff
+common_event,38,WHICH MAIN CHARACTER,,,,1,355,script,pbSwitchCharacter(0)
+common_event,38,WHICH MAIN CHARACTER,,,,4,355,script,pbSwitchCharacter(1)
+common_event,39,LIBERTY XD,,,,0,108,comment,// Pidgeot
+common_event,39,LIBERTY XD,,,,1,355,script,"pkmn = Pokemon.new(:PIDGEOT,63)"
+common_event,39,LIBERTY XD,,,,2,655,script_cont,pkmn.iv[:HP] = 31
+common_event,39,LIBERTY XD,,,,3,655,script_cont,pkmn.iv[:DEFENSE] = 31
+common_event,39,LIBERTY XD,,,,4,655,script_cont,pkmn.iv[:ATTACK] = 31
+common_event,39,LIBERTY XD,,,,5,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+common_event,39,LIBERTY XD,,,,6,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+common_event,39,LIBERTY XD,,,,7,655,script_cont,pkmn.iv[:SPEED] = 31
+common_event,39,LIBERTY XD,,,,8,655,script_cont,pkmn.nature = :TIMID
+common_event,39,LIBERTY XD,,,,9,655,script_cont,pkmn.learn_move(:HURRICANE)
+common_event,39,LIBERTY XD,,,,10,655,script_cont,pkmn.learn_move(:HEATWAVE)
+common_event,39,LIBERTY XD,,,,11,655,script_cont,pkmn.learn_move(:ROOST)
+common_event,39,LIBERTY XD,,,,12,355,script,pkmn.learn_move(:UTURN)
+common_event,39,LIBERTY XD,,,,13,655,script_cont,pkmn.makeMale
+common_event,39,LIBERTY XD,,,,14,655,script_cont,pkmn.item = :PIDGEOTITE
+common_event,39,LIBERTY XD,,,,15,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,39,LIBERTY XD,,,,16,108,comment,// Remove
+common_event,39,LIBERTY XD,,,,17,355,script,pbRemovePokemonAt(0)
+common_event,39,LIBERTY XD,,,,18,108,comment,// Chorizard
+common_event,39,LIBERTY XD,,,,19,355,script,"pkmn = Pokemon.new(:CHARIZARD,62)"
+common_event,39,LIBERTY XD,,,,20,655,script_cont,pkmn.iv[:HP] = 25
+common_event,39,LIBERTY XD,,,,21,655,script_cont,pkmn.iv[:DEFENSE] = 25
+common_event,39,LIBERTY XD,,,,22,655,script_cont,pkmn.iv[:ATTACK] = 25
+common_event,39,LIBERTY XD,,,,23,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 25
+common_event,39,LIBERTY XD,,,,24,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 25
+common_event,39,LIBERTY XD,,,,25,655,script_cont,pkmn.iv[:SPEED] = 25
+common_event,39,LIBERTY XD,,,,26,655,script_cont,pkmn.nature = :MODEST
+common_event,39,LIBERTY XD,,,,27,655,script_cont,pkmn.learn_move(:FLAMETHROWER)
+common_event,39,LIBERTY XD,,,,28,655,script_cont,pkmn.learn_move(:DRAGONCLAW)
+common_event,39,LIBERTY XD,,,,29,655,script_cont,pkmn.learn_move(:THUNDERPUNCH)
+common_event,39,LIBERTY XD,,,,30,355,script,pkmn.learn_move(:AIRSLASH)
+common_event,39,LIBERTY XD,,,,31,655,script_cont,pkmn.makeMale
+common_event,39,LIBERTY XD,,,,32,655,script_cont,pkmn.item = :CHARCOAL
+common_event,39,LIBERTY XD,,,,33,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,39,LIBERTY XD,,,,34,108,comment,// Dragonite
+common_event,39,LIBERTY XD,,,,35,355,script,"pkmn = Pokemon.new(:DRAGONITE,62)"
+common_event,39,LIBERTY XD,,,,36,655,script_cont,pkmn.iv[:HP] = 25
+common_event,39,LIBERTY XD,,,,37,655,script_cont,pkmn.iv[:DEFENSE] = 25
+common_event,39,LIBERTY XD,,,,38,655,script_cont,pkmn.iv[:ATTACK] = 25
+common_event,39,LIBERTY XD,,,,39,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 25
+common_event,39,LIBERTY XD,,,,40,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 25
+common_event,39,LIBERTY XD,,,,41,655,script_cont,pkmn.iv[:SPEED] = 25
+common_event,39,LIBERTY XD,,,,42,655,script_cont,pkmn.nature = :ADAMANT
+common_event,39,LIBERTY XD,,,,43,655,script_cont,pkmn.learn_move(:DRAGONCLAW)
+common_event,39,LIBERTY XD,,,,44,655,script_cont,pkmn.learn_move(:DRAGONDANCE)
+common_event,39,LIBERTY XD,,,,45,655,script_cont,pkmn.learn_move(:EARTHQUAKE)
+common_event,39,LIBERTY XD,,,,46,355,script,pkmn.learn_move(:IRONHEAD)
+common_event,39,LIBERTY XD,,,,47,655,script_cont,pkmn.makeMale
+common_event,39,LIBERTY XD,,,,48,655,script_cont,pkmn.item = :LUMBERRY
+common_event,39,LIBERTY XD,,,,49,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,39,LIBERTY XD,,,,50,108,comment,// Palafin
+common_event,39,LIBERTY XD,,,,51,355,script,"pkmn = Pokemon.new(:PALAFIN,62)"
+common_event,39,LIBERTY XD,,,,52,655,script_cont,pkmn.iv[:HP] = 25
+common_event,39,LIBERTY XD,,,,53,655,script_cont,pkmn.iv[:DEFENSE] = 25
+common_event,39,LIBERTY XD,,,,54,655,script_cont,pkmn.iv[:ATTACK] = 25
+common_event,39,LIBERTY XD,,,,55,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 25
+common_event,39,LIBERTY XD,,,,56,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 25
+common_event,39,LIBERTY XD,,,,57,655,script_cont,pkmn.iv[:SPEED] = 25
+common_event,39,LIBERTY XD,,,,58,655,script_cont,pkmn.nature = :ADAMANT
+common_event,39,LIBERTY XD,,,,59,655,script_cont,pkmn.learn_move(:JETPUNCH)
+common_event,39,LIBERTY XD,,,,60,655,script_cont,pkmn.learn_move(:WAVECRASH)
+common_event,39,LIBERTY XD,,,,61,655,script_cont,pkmn.learn_move(:ACROBATICS)
+common_event,39,LIBERTY XD,,,,62,355,script,pkmn.learn_move(:DRAINPUNCH)
+common_event,39,LIBERTY XD,,,,63,655,script_cont,pkmn.makeMale
+common_event,39,LIBERTY XD,,,,64,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,39,LIBERTY XD,,,,65,108,comment,// Victini
+common_event,39,LIBERTY XD,,,,66,355,script,"pkmn = Pokemon.new(:VICTINI,65)"
+common_event,39,LIBERTY XD,,,,67,655,script_cont,pkmn.iv[:HP] = 31
+common_event,39,LIBERTY XD,,,,68,655,script_cont,pkmn.iv[:DEFENSE] = 31
+common_event,39,LIBERTY XD,,,,69,655,script_cont,pkmn.iv[:ATTACK] = 31
+common_event,39,LIBERTY XD,,,,70,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+common_event,39,LIBERTY XD,,,,71,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+common_event,39,LIBERTY XD,,,,72,655,script_cont,pkmn.iv[:SPEED] = 31
+common_event,39,LIBERTY XD,,,,73,655,script_cont,pkmn.nature = :HARDY
+common_event,39,LIBERTY XD,,,,74,655,script_cont,pkmn.learn_move(:VCREATE)
+common_event,39,LIBERTY XD,,,,75,655,script_cont,pkmn.learn_move(:OVERHEAT)
+common_event,39,LIBERTY XD,,,,76,655,script_cont,pkmn.learn_move(:ZENHEADBUTT)
+common_event,39,LIBERTY XD,,,,77,355,script,pkmn.learn_move(:WILDCHARGE)
+common_event,39,LIBERTY XD,,,,78,655,script_cont,pkmn.item = :CHARCOAL
+common_event,39,LIBERTY XD,,,,79,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,45,openCenterdoor,,,,16,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+common_event,45,openCenterdoor,,,,17,355,script,"pbZoomMap(2,0.015,zoom=""in"")"
+common_event,46,shout pkmn,,,,0,355,script,pbCameraShake(8)
+common_event,46,shout pkmn,,,,2,355,script,pbCameraShakeOff
+common_event,47,Aurith pulso,,,,0,355,script,"pbZoomMap(2,0.2,zoom=""in"")"
+common_event,47,Aurith pulso,,,,2,355,script,pbCameraShake(5)
+common_event,47,Aurith pulso,,,,4,355,script,pbCameraShakeOff
+common_event,47,Aurith pulso,,,,6,355,script,"pbZoomMap(3,0.2,zoom=""in"")"
+common_event,47,Aurith pulso,,,,8,355,script,pbCameraShake(5)
+common_event,47,Aurith pulso,,,,10,355,script,pbCameraShakeOff
+common_event,47,Aurith pulso,,,,12,355,script,"pbZoomMap(10,0.2,zoom=""in"")"
+common_event,47,Aurith pulso,,,,14,355,script,pbCameraShake(5)
+common_event,47,Aurith pulso,,,,16,355,script,pbCameraShakeOff
+common_event,49,Player pulso,,,,0,355,script,"pbZoomMap(1.2,0.025,zoom=""in"")"
+common_event,49,Player pulso,,,,2,355,script,pbCameraShake(5)
+common_event,49,Player pulso,,,,4,355,script,pbCameraShakeOff
+common_event,50,Player pulso2,,,,0,355,script,"pbZoomMap(1.5,0.25,zoom=""in"")"
+common_event,50,Player pulso2,,,,2,355,script,pbCameraShake(5)
+common_event,50,Player pulso2,,,,4,355,script,pbCameraShakeOff
+common_event,51,Player pulso3,,,,0,355,script,"pbZoomMap(1.75,0.05,zoom=""in"")"
+common_event,51,Player pulso3,,,,2,355,script,pbCameraShake(5)
+common_event,51,Player pulso3,,,,4,355,script,pbCameraShakeOff
+common_event,52,Darek dependiente SI XD,,,,1,101,show_text,"\dxn[Darek]¡No te alejes mucho, te estoy observando!"
+common_event,53,Eda dependiente SI XD,,,,1,101,show_text,\dxn[Eda]¿No quieres llevarme de la mano? ¡Me podría perder!
+common_event,53,Eda dependiente SI XD,,,,5,101,show_text,\dxn[Darek]Vas a acabar conmigo algún día...
+common_event,54,EDA DAREK CHANGE,,,,2,101,show_text,Ahora mismo no puedes cambiar de personaje.
+common_event,54,EDA DAREK CHANGE,,,,15,101,show_text,¿Quieres que \c[2]Darek\c[0] lleve el liderazgo?
+common_event,54,EDA DAREK CHANGE,,,,17,102,choices,Sí
+common_event,54,EDA DAREK CHANGE,,,,17,102,choices,No
+common_event,54,EDA DAREK CHANGE,,,,18,402,choice_branch,Sí
+common_event,54,EDA DAREK CHANGE,,,,22,108,comment,// Guardamos sus eventos dependientes y equipo
+common_event,54,EDA DAREK CHANGE,,,,23,355,script,$game_variables[420] = $Trainer.party
+common_event,54,EDA DAREK CHANGE,,,,25,108,comment,"// Removemos su dependecia, cambiamos a Eda y outfit"
+common_event,54,EDA DAREK CHANGE,,,,26,355,script,"pbRemoveDependency2(""Darek"")"
+common_event,54,EDA DAREK CHANGE,,,,28,355,script,"pbSwitchCharacter(3,""Darek"",0)"
+common_event,54,EDA DAREK CHANGE,,,,30,355,script,$Trainer.outfit = 1
+common_event,54,EDA DAREK CHANGE,,,,32,355,script,"pbAddDependency2(50,""Eda"",54)"
+common_event,54,EDA DAREK CHANGE,,,,34,355,script,pbDeregisterPartner
+common_event,54,EDA DAREK CHANGE,,,,36,108,comment,// Ponle los Pokémon que tú tenías a Eda
+common_event,54,EDA DAREK CHANGE,,,,37,355,script,"pbRegisterPartner(:POKEMONTRAINER_Yoimiya_SI,""Eda"",9)"
+common_event,54,EDA DAREK CHANGE,,,,38,355,script,$PokemonGlobal.partner[3] = pbGet(420)
+common_event,54,EDA DAREK CHANGE,,,,40,108,comment,// ESTO SOLO HACER POST COMBATE CON TAPU KOKO PARA DAR LATIOS
+common_event,54,EDA DAREK CHANGE,,,,43,355,script,for i in (0...$Trainer.party.length)
+common_event,54,EDA DAREK CHANGE,,,,44,655,script_cont,pkmn = $Trainer.party[i]
+common_event,54,EDA DAREK CHANGE,,,,45,655,script_cont,if pkmn.species == :GALLADE
+common_event,54,EDA DAREK CHANGE,,,,46,655,script_cont,"pbStorePokemonDefeated(pkmn,i)"
+common_event,54,EDA DAREK CHANGE,,,,47,655,script_cont,break
+common_event,54,EDA DAREK CHANGE,,,,48,655,script_cont,end
+common_event,54,EDA DAREK CHANGE,,,,49,655,script_cont,end
+common_event,54,EDA DAREK CHANGE,,,,51,355,script,"pkmn = Pokemon.new(:LATIOS,69)"
+common_event,54,EDA DAREK CHANGE,,,,52,655,script_cont,pkmn.iv[:HP] = 31
+common_event,54,EDA DAREK CHANGE,,,,53,655,script_cont,pkmn.iv[:DEFENSE] = 31
+common_event,54,EDA DAREK CHANGE,,,,54,655,script_cont,pkmn.iv[:ATTACK] = 31
+common_event,54,EDA DAREK CHANGE,,,,55,655,script_cont,pkmn.iv[:SPECIAL_ATTACK] = 31
+common_event,54,EDA DAREK CHANGE,,,,56,655,script_cont,pkmn.iv[:SPECIAL_DEFENSE] = 31
+common_event,54,EDA DAREK CHANGE,,,,57,655,script_cont,pkmn.iv[:SPEED] = 31
+common_event,54,EDA DAREK CHANGE,,,,58,655,script_cont,pkmn.nature = :CALM
+common_event,54,EDA DAREK CHANGE,,,,59,655,script_cont,pkmn.learn_move(:DRAGONPULSE)
+common_event,54,EDA DAREK CHANGE,,,,60,655,script_cont,pkmn.learn_move(:PSYCHIC)
+common_event,54,EDA DAREK CHANGE,,,,61,655,script_cont,pkmn.learn_move(:THUNDERBOLT)
+common_event,54,EDA DAREK CHANGE,,,,62,655,script_cont,pkmn.learn_move(:CALMMIND)
+common_event,54,EDA DAREK CHANGE,,,,63,355,script,pkmn.item = :CHOICESPECS
+common_event,54,EDA DAREK CHANGE,,,,64,655,script_cont,pbAddPokemonSilent(pkmn)
+common_event,54,EDA DAREK CHANGE,,,,75,108,comment,// Quién lleva pantalones ahora? Eda = 0 / Darek = 1
+common_event,54,EDA DAREK CHANGE,,,,77,355,script,echoln pbGet(408)
+common_event,54,EDA DAREK CHANGE,,,,82,355,script,$game_variables[997] = $PokemonGlobal.dependentEvents
+common_event,54,EDA DAREK CHANGE,,,,84,655,script_cont,if $game_switches[1221] == true
+common_event,54,EDA DAREK CHANGE,,,,85,655,script_cont,if $game_variables[408] == 0
+common_event,54,EDA DAREK CHANGE,,,,86,655,script_cont,"pbRemoveDependency2(""Darek"")"
+common_event,54,EDA DAREK CHANGE,,,,87,655,script_cont,else
+common_event,54,EDA DAREK CHANGE,,,,88,655,script_cont,"pbRemoveDependency2(""Eda"")"
+common_event,54,EDA DAREK CHANGE,,,,89,655,script_cont,end
+common_event,54,EDA DAREK CHANGE,,,,90,655,script_cont,end
+common_event,54,EDA DAREK CHANGE,,,,92,655,script_cont,pbAddDependency3(pbGet(997))
+common_event,54,EDA DAREK CHANGE,,,,99,402,choice_branch,No
+common_event,54,EDA DAREK CHANGE,,,,106,101,show_text,¿Quieres que \c[2]Eda\c[0] lleve el liderazgo?
+common_event,54,EDA DAREK CHANGE,,,,108,102,choices,Sí
+common_event,54,EDA DAREK CHANGE,,,,108,102,choices,No
+common_event,54,EDA DAREK CHANGE,,,,109,402,choice_branch,Sí
+common_event,54,EDA DAREK CHANGE,,,,113,108,comment,// Guardamos sus eventos dependientes y equipo
+common_event,54,EDA DAREK CHANGE,,,,114,355,script,$game_variables[421] = $Trainer.party
+common_event,54,EDA DAREK CHANGE,,,,116,108,comment,"// Removemos su dependecia, cambiamos a Eda y outfit"
+common_event,54,EDA DAREK CHANGE,,,,117,355,script,"pbRemoveDependency2(""Eda"")"
+common_event,54,EDA DAREK CHANGE,,,,119,355,script,"pbSwitchCharacter(2,""Eda"",0)"
+common_event,54,EDA DAREK CHANGE,,,,121,355,script,$Trainer.outfit = 2
+common_event,54,EDA DAREK CHANGE,,,,123,355,script,"pbAddDependency2(49,""Darek"",54)"
+common_event,54,EDA DAREK CHANGE,,,,125,355,script,pbDeregisterPartner
+common_event,54,EDA DAREK CHANGE,,,,127,108,comment,// Ponle los Pokémon que tú tenías a Darek
+common_event,54,EDA DAREK CHANGE,,,,128,355,script,"pbRegisterPartner(:POKEMONTRAINER_Seker_SI,""Darek"",6)"
+common_event,54,EDA DAREK CHANGE,,,,129,355,script,$PokemonGlobal.partner[3] = pbGet(421)
+common_event,54,EDA DAREK CHANGE,,,,131,108,comment,// Quién lleva pantalones ahora? Eda = 0 / Darek = 1
+common_event,54,EDA DAREK CHANGE,,,,133,355,script,echoln pbGet(408)
+common_event,54,EDA DAREK CHANGE,,,,138,355,script,$game_variables[997] = $PokemonGlobal.dependentEvents
+common_event,54,EDA DAREK CHANGE,,,,140,655,script_cont,if $game_switches[1221] == true
+common_event,54,EDA DAREK CHANGE,,,,141,655,script_cont,if $game_variables[408] == 0
+common_event,54,EDA DAREK CHANGE,,,,142,655,script_cont,"pbRemoveDependency2(""Darek"")"
+common_event,54,EDA DAREK CHANGE,,,,143,655,script_cont,else
+common_event,54,EDA DAREK CHANGE,,,,144,655,script_cont,"pbRemoveDependency2(""Eda"")"
+common_event,54,EDA DAREK CHANGE,,,,145,655,script_cont,end
+common_event,54,EDA DAREK CHANGE,,,,146,655,script_cont,end
+common_event,54,EDA DAREK CHANGE,,,,148,655,script_cont,pbAddDependency3(pbGet(997))
+common_event,54,EDA DAREK CHANGE,,,,155,402,choice_branch,No
+common_event,54,EDA DAREK CHANGE,,,,161,355,script,echo pbGet(997)
+common_event,55,GIRO FUEGO COLLISION,,,,1,355,script,pbCameraShake(8)
+common_event,55,GIRO FUEGO COLLISION,,,,2,355,script,"echo ""Soy el culpableeee"""
+common_event,55,GIRO FUEGO COLLISION,,,,14,355,script,pbCameraShake(4)
+common_event,56,Corte pelotudo,,,,30,355,script,"pbZoomMap(4,1,zoom=""in"")"
+common_event,57,Flashbacks loquete,,,,0,108,comment,// Flashback sementerio
+common_event,57,Flashbacks loquete,,,,5,101,show_text,\w[]
+common_event,57,Flashbacks loquete,,,,10,101,show_text,\w[]
+common_event,58,Corte scizor,,,,10,355,script,"pbZoomMap(4,1,zoom=""in"")"
+common_event,61,Celeste confirming level,,,,12,101,show_text,\sh\dxn[Celeste]¡Vamos a pescar! ¡Acompáñame!
+common_event,61,Celeste confirming level,,,,21,355,script,FollowingPkmn.toggle_off
+common_event,61,Celeste confirming level,,,,36,108,comment,"// NO MENU NO TURBO, DAR AL SALIR"
+common_event,61,Celeste confirming level,,,,37,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+common_event,62,Sakura confirming level,,,,12,101,show_text,"\sh\dxn[Sakura]¡Bien, vamos a ver quién se anima a bailar contra ti!"
+common_event,62,Sakura confirming level,,,,21,355,script,FollowingPkmn.toggle_off
+common_event,62,Sakura confirming level,,,,37,108,comment,// RIVAL SKIN Y CANTIDAD DE NOTAS X RONDA DEPENDIENDO DEL LVL
+common_event,62,Sakura confirming level,,,,92,108,comment,// Comentarios de los pros
+common_event,62,Sakura confirming level,,,,105,101,show_text,\dxn[Álama]¡Creo que en el Modo Fácil yo entro perfectamente!
+common_event,62,Sakura confirming level,,,,110,101,show_text,\ts[2]\dxn[Álama]No se me dan bien los juegos de memoria...
+common_event,62,Sakura confirming level,,,,115,101,show_text,"\sh\dxn[Álama]¡Lo haré lo mejor que pueda, \PN!"
+common_event,62,Sakura confirming level,,,,130,101,show_text,"\dxn[Silvano]¡No tengo la mejor memoria del mundo, pero Rillaboom y yo tenemos buen ritmo!"
+common_event,62,Sakura confirming level,,,,134,101,show_text,"\sh\dxn[Silvano]¡Espero ser un buen adversario, \PN!"
+common_event,62,Sakura confirming level,,,,149,101,show_text,"\sh\dxn[Liberty]¡Ja, já! ¡Liberty entra en escena!"
+common_event,62,Sakura confirming level,,,,160,101,show_text,"\sh\dxn[Sakura]¡Liberty! ¡Te dije que si participabas, al menos fuera con ropa!"
+common_event,62,Sakura confirming level,,,,165,101,show_text,"\dxn[Liberty]¡Oh vamos, Sakura-chan! ¡No es cómodo bailar con un traje puesto!"
+common_event,62,Sakura confirming level,,,,170,101,show_text,\sh\dxn[Liberty]¡Así puedo desatar mis mayores habilidades!
+common_event,62,Sakura confirming level,,,,177,101,show_text,"\dxn[Sakura]Mira, haz lo que te dé la gana..."
+common_event,62,Sakura confirming level,,,,183,101,show_text,"\sh\dxn[Liberty]¡No te defraudaré, Sakura-Chan!"
+common_event,62,Sakura confirming level,,,,191,101,show_text,"\sh\dxn[Liberty]¡No puedo quedar mal, ahora verás!"
+common_event,62,Sakura confirming level,,,,204,101,show_text,"\dxn[Rodolfo]¿Te soprende que esté aquí, entrenador de pacotilla?"
+common_event,62,Sakura confirming level,,,,207,101,show_text,"\dxn[Rodolfo]¿Te soprende que esté aquí, entrenadora de pacotilla?"
+common_event,62,Sakura confirming level,,,,213,101,show_text,\sh\dxn[Rodolfo]¡Yo soy el todopoderoso Rodolfo! ¡Me sé todos los patrones de memoria!
+common_event,62,Sakura confirming level,,,,219,101,show_text,\dxn[\PN](Lo peor es que realmente es un genio... ¿cómo iba a negárselo?)
+common_event,62,Sakura confirming level,,,,224,101,show_text,\dxn[\PN](Lo peor es que realmente es un genio... ¿cómo iba a negárselo?)
+common_event,62,Sakura confirming level,,,,230,101,show_text,"\sh\dxn[Rodolfo]¡Prepárate, crack!"
+common_event,62,Sakura confirming level,,,,237,108,comment,// VS SAKURA
+common_event,62,Sakura confirming level,,,,245,101,show_text,\dxn[Sakura]¡Tenía muchas ganas de jugar contigo!
+common_event,62,Sakura confirming level,,,,249,101,show_text,\dxn[Sakura]¡Vamos a ver si eres capaz de superar el récord actual!
+common_event,62,Sakura confirming level,,,,267,355,script,$Trainer.has_running_shoes = false
+common_event,62,Sakura confirming level,,,,268,355,script,$points_hud = DancingPointsMinigame.new
+common_event,62,Sakura confirming level,,,,269,108,comment,"// NO MENU NO TURBO, DAR AL SALIR"
+common_event,62,Sakura confirming level,,,,270,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+common_event,63,Sakura dance calc,,,,0,355,script,"echo ""Streak: #{pbGet(919)}"""
+common_event,63,Sakura dance calc,,,,2,355,script,"pbSet(918, pbGet(918) + ((10 * pbGet(917)) * (1 + (pbGet(919).to_f / 10.0))))"
+common_event,63,Sakura dance calc,,,,8,355,script,"pbSet(918, pbGet(918) + ((10 * pbGet(917)) * (1 + (pbGet(919).to_f / 5.0))))"
+common_event,63,Sakura dance calc,,,,14,355,script,"pbSet(918, pbGet(918) + ((10 * pbGet(917)) * (1 + (pbGet(919).to_f / 4.0))))"
+common_event,63,Sakura dance calc,,,,20,355,script,"pbSet(918, pbGet(918) + ((10 * pbGet(917)) * (1 + (pbGet(919).to_f / 3.0))))"
+common_event,63,Sakura dance calc,,,,26,355,script,"pbSet(918, pbGet(918) + ((10 * 10) * (1 + (pbGet(919).to_f / 2.0))))"
+common_event,63,Sakura dance calc,,,,31,355,script,"echo ""Points: #{pbGet(918)}"""
+common_event,64,Liberty confirming level,,,,14,101,show_text,"\sh\dxn[Liberty]¡Sube al campo de batalla, llamaré a algunos participantes!"
+common_event,64,Liberty confirming level,,,,20,355,script,FollowingPkmn.toggle_off
+common_event,64,Liberty confirming level,,,,40,108,comment,// RIVAL SKIN SEGÚN LEVEL
+common_event,64,Liberty confirming level,,,,122,355,script,$points_hud = FightingPointsMinigame.new
+common_event,64,Liberty confirming level,,,,127,108,comment,// Comentarios de los pros y mov
+common_event,65,Sakura invitation,,,,17,101,show_text,\dxn[\PN]Un mensaje de...
+common_event,65,Sakura invitation,,,,29,101,show_text,\sh\dxn[\PN]¿¡Sakura!?
+common_event,65,Sakura invitation,,,,36,101,show_text,"¡Hola, \PN!\nQuería comentarte que Álama, Angie Stones, Liberty y yo estamos preparando una pequeña fiesta en una isla a las afueras de la región."
+common_event,65,Sakura invitation,,,,38,101,show_text,"Incluso después de la caída de la Familia Real, no hemos tenido tiempo para descansar siquiera, y creemos que después de todo lo ocurrido, nos merecemos un"
+common_event,65,Sakura invitation,,,,39,401,show_text_cont,descanso.
+common_event,65,Sakura invitation,,,,41,101,show_text,"¡Ahora que Liberty ha empezado a abrir las fronteras con otras regiones, hemos invitado a mucha gente de fuera, también!"
+common_event,65,Sakura invitation,,,,43,101,show_text,"Sabemos que has pasado por un momento muy duro, y creo que tú también mereces un lugar donde disfrutar un poco de lo que queda de verano."
+common_event,65,Sakura invitation,,,,45,101,show_text,¿Te apetecería venir a nuestro \c[2]Summer Resort\c[0]? Me haría mucha ilusión que vinieras conmigo.
+common_event,65,Sakura invitation,,,,47,101,show_text,Te estaré esperando en el Sur de \c[2]Ciudad Cardenal\c[0] para coger el Symphony of the Seas.
+common_event,65,Sakura invitation,,,,49,101,show_text,"¡Sale a las 5 de la tarde, así que date prisa!"
+common_event,65,Sakura invitation,,,,51,101,show_text,"Atentamente, Sakura."
+common_event,65,Sakura invitation,,,,59,101,show_text,\sh\dxn[\PN]¿¡Una fiesta en una isla fuera de la región!?
+common_event,65,Sakura invitation,,,,63,101,show_text,\ts[2]\dxn[\PN]Creo que algo se mencionó en nuestra última reunión...
+common_event,65,Sakura invitation,,,,70,101,show_text,"\dxn[\PN]No sé si tengo muchas ganas de ir, la verdad..."
+common_event,65,Sakura invitation,,,,74,101,show_text,"\dxn[\PN]Pero si no salgo de aquí ahora mismo, no creo poder llegar a tiempo..."
+common_event,65,Sakura invitation,,,,79,101,show_text,\sh\dxn[\PN]¿¡Una fiesta en una isla fuera de la región!?
+common_event,65,Sakura invitation,,,,83,101,show_text,\ts[2]\dxn[\PN]Creo que algo se mencionó en nuestra última reunión...
+common_event,65,Sakura invitation,,,,90,101,show_text,"\dxn[\PN]No sé si tengo muchas ganas de ir, la verdad..."
+common_event,65,Sakura invitation,,,,94,101,show_text,"\dxn[\PN]Pero si no salgo de aquí ahora mismo, no creo poder llegar a tiempo..."
+common_event,98,SWIMSUIT_MALE,,,,2,355,script,$Trainer.outfit = 2
+common_event,98,SWIMSUIT_MALE,,,,3,101,show_text,Now you're wearing the swimsuit!
+common_event,98,SWIMSUIT_MALE,,,,6,355,script,$Trainer.outfit = 0
+common_event,98,SWIMSUIT_MALE,,,,7,101,show_text,Now you're wearing the basic clothes!
+common_event,98,SWIMSUIT_MALE,,,,12,101,show_text,Hmm... this swimsuit doesn’t quite fit your vibe.
+common_event,99,SWIMSUIT_FEMALE,,,,2,355,script,$Trainer.outfit = 2
+common_event,99,SWIMSUIT_FEMALE,,,,3,101,show_text,Now you're wearing the swimsuit!
+common_event,99,SWIMSUIT_FEMALE,,,,6,355,script,$Trainer.outfit = 0
+common_event,99,SWIMSUIT_FEMALE,,,,7,101,show_text,Now you're wearing the basic clothes!
+common_event,99,SWIMSUIT_FEMALE,,,,12,101,show_text,Hmm... this swimsuit doesn't quite fit your vibe.
+common_event,100,TIENDA POKEMON LOCO,,,,1,355,script,pbPokemonMart([
+common_event,100,TIENDA POKEMON LOCO,,,,2,655,script_cont,":POKEBALL, :GREATBALL, :ULTRABALL,"
+common_event,100,TIENDA POKEMON LOCO,,,,3,655,script_cont,":POTION, :SUPERPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,4,655,script_cont,":HYPERPOTION, :MAXPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,5,655,script_cont,":FULLRESTORE, :REVIVE, :MAXREVIVE,"
+common_event,100,TIENDA POKEMON LOCO,,,,6,655,script_cont,":ANTIDOTE, :PARALYZEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,7,655,script_cont,":AWAKENING, :BURNHEAL, :ICEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,8,655,script_cont,":FULLHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,9,655,script_cont,":ESCAPEROPE,"
+common_event,100,TIENDA POKEMON LOCO,,,,10,655,script_cont,":REPEL, :SUPERREPEL, :MAXREPEL,:SEXSWITCHER"
+common_event,100,TIENDA POKEMON LOCO,,,,11,655,script_cont,])
+common_event,100,TIENDA POKEMON LOCO,,,,16,355,script,pbPokemonMart([
+common_event,100,TIENDA POKEMON LOCO,,,,17,655,script_cont,":POKEBALL, :GREATBALL, :ULTRABALL,"
+common_event,100,TIENDA POKEMON LOCO,,,,18,655,script_cont,":POTION, :SUPERPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,19,655,script_cont,":HYPERPOTION, :MAXPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,20,655,script_cont,":REVIVE,  :MAXREVIVE,"
+common_event,100,TIENDA POKEMON LOCO,,,,21,655,script_cont,":ANTIDOTE, :PARALYZEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,22,655,script_cont,":AWAKENING, :BURNHEAL, :ICEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,23,655,script_cont,":FULLHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,24,655,script_cont,":ESCAPEROPE,"
+common_event,100,TIENDA POKEMON LOCO,,,,25,655,script_cont,":REPEL, :SUPERREPEL, :MAXREPEL,:SEXSWITCHER"
+common_event,100,TIENDA POKEMON LOCO,,,,26,655,script_cont,])
+common_event,100,TIENDA POKEMON LOCO,,,,31,355,script,pbPokemonMart([
+common_event,100,TIENDA POKEMON LOCO,,,,32,655,script_cont,":POKEBALL, :GREATBALL, :ULTRABALL,"
+common_event,100,TIENDA POKEMON LOCO,,,,33,655,script_cont,":POTION, :SUPERPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,34,655,script_cont,":HYPERPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,35,655,script_cont,":REVIVE,"
+common_event,100,TIENDA POKEMON LOCO,,,,36,655,script_cont,":ANTIDOTE, :PARALYZEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,37,655,script_cont,":AWAKENING, :BURNHEAL, :ICEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,38,655,script_cont,":FULLHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,39,655,script_cont,":ESCAPEROPE,"
+common_event,100,TIENDA POKEMON LOCO,,,,40,655,script_cont,":REPEL, :SUPERREPEL, :MAXREPEL,:SEXSWITCHER"
+common_event,100,TIENDA POKEMON LOCO,,,,41,655,script_cont,])
+common_event,100,TIENDA POKEMON LOCO,,,,46,355,script,pbPokemonMart([
+common_event,100,TIENDA POKEMON LOCO,,,,47,655,script_cont,":POKEBALL, :GREATBALL,"
+common_event,100,TIENDA POKEMON LOCO,,,,48,655,script_cont,":POTION, :SUPERPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,49,655,script_cont,":HYPERPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,50,655,script_cont,":REVIVE,"
+common_event,100,TIENDA POKEMON LOCO,,,,51,655,script_cont,":ANTIDOTE, :PARALYZEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,52,655,script_cont,":AWAKENING, :BURNHEAL, :ICEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,53,655,script_cont,":ESCAPEROPE,"
+common_event,100,TIENDA POKEMON LOCO,,,,54,655,script_cont,":REPEL, :SUPERREPEL,:SEXSWITCHER"
+common_event,100,TIENDA POKEMON LOCO,,,,55,655,script_cont,])
+common_event,100,TIENDA POKEMON LOCO,,,,60,355,script,pbPokemonMart([
+common_event,100,TIENDA POKEMON LOCO,,,,61,655,script_cont,":POKEBALL, :GREATBALL,"
+common_event,100,TIENDA POKEMON LOCO,,,,62,655,script_cont,":POTION, :SUPERPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,63,655,script_cont,":ANTIDOTE, :PARALYZEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,64,655,script_cont,":AWAKENING, :BURNHEAL, :ICEHEAL,"
+common_event,100,TIENDA POKEMON LOCO,,,,65,655,script_cont,":ESCAPEROPE,"
+common_event,100,TIENDA POKEMON LOCO,,,,66,655,script_cont,":REPEL,:SEXSWITCHER"
+common_event,100,TIENDA POKEMON LOCO,,,,67,655,script_cont,])
+common_event,100,TIENDA POKEMON LOCO,,,,71,355,script,pbPokemonMart([
+common_event,100,TIENDA POKEMON LOCO,,,,72,655,script_cont,":POKEBALL,"
+common_event,100,TIENDA POKEMON LOCO,,,,73,655,script_cont,":GREATBALL,"
+common_event,100,TIENDA POKEMON LOCO,,,,74,655,script_cont,":POTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,75,655,script_cont,":SUPERPOTION,"
+common_event,100,TIENDA POKEMON LOCO,,,,76,655,script_cont,":REPEL,"
+common_event,100,TIENDA POKEMON LOCO,,,,77,655,script_cont,":ANTIDOTE,:PARALYZEHEAL,:AWAKENING,"
+common_event,100,TIENDA POKEMON LOCO,,,,78,655,script_cont,":BURNHEAL,:ICEHEAL,:SEXSWITCHER"
+common_event,100,TIENDA POKEMON LOCO,,,,79,655,script_cont,])

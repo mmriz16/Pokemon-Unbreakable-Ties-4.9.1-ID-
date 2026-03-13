@@ -1,0 +1,1149 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,1,,66,EXUROOOOSION2,1,0,108,comment,noshadow
+map,1,,67,DRAGONPULSE,1,0,108,comment,noshadow
+map,1,,68,DRAGONPULSE2,1,0,108,comment,noshadow
+map,1,,49,SCIZOR,1,0,108,comment,noshadow
+map,1,,2,FLAWLESS 1,1,0,101,show_text,SEXO
+map,1,,50,HYPERRAYO 1,1,0,108,comment,noshadow
+map,1,,3,FLAWLESS 2,1,0,101,show_text,SEXO
+map,1,,3,FLAWLESS 2,2,0,108,comment,noshadow
+map,1,,32,LATA,1,0,108,comment,noshadow
+map,1,,51,BLAZIKEN,1,0,108,comment,noshadow
+map,1,,42,Latias,2,0,108,comment,noshadow
+map,1,,14,EV014,1,0,108,comment,noshadow
+map,1,,52,SCEPTILE,1,0,108,comment,noshadow
+map,1,,43,YENA,1,0,108,comment,noshadow
+map,1,,24,EV024,1,0,108,comment,noshadow
+map,1,,5,Meteorito evento,1,9,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,1,11,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,1,29,101,show_text,"\ts[1]\dxn[Dra.Vega]Yo de vosotros me iría para atrás, mis pequeñas herramientas."
+map,1,,5,Meteorito evento,1,39,101,show_text,"\ts[1]\dxn[Dra.Vega]Reportad la situación, ahora."
+map,1,,5,Meteorito evento,1,42,101,show_text,"\ts[1]\dxn[Flawless FX-03]El objetivo está muy cerca, madre."
+map,1,,5,Meteorito evento,1,44,101,show_text,"\ts[1]\dxn[Flawless FX-04]Según nuestro radar, en menos de 2 minutos llegará."
+map,1,,5,Meteorito evento,1,49,101,show_text,"\ts[1]\dxn[Dra.Vega]Parece que vuestra capacidad para detectar objetivos, es perfecta."
+map,1,,5,Meteorito evento,1,53,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,1,66,101,show_text,\dxn[Dra.Vega]¡Esto me agita más que la glucosa!
+map,1,,5,Meteorito evento,1,74,101,show_text,\sh\dxn[Dra.Vega]¡Poder presenciar este evento es gracias a la ciencia!
+map,1,,5,Meteorito evento,1,76,355,script,pbCameraShake(2)
+map,1,,5,Meteorito evento,1,95,101,show_text,"\sh\dxn[Dra.Vega]¡Ahí está, la isla empieza a temblar!"
+map,1,,5,Meteorito evento,1,99,101,show_text,"\sh\dxn[Dra.Vega]¡\c[2]Flawless\c[0] FX-03 y FX-04, acercaros a mí y mirad hacia el cielo!"
+map,1,,5,Meteorito evento,1,106,101,show_text,\ts[1]\dxn[Flawless FX-01]A sus órdenes.
+map,1,,5,Meteorito evento,1,116,355,script,pbCameraShake(5)
+map,1,,5,Meteorito evento,1,123,101,show_text,"\sh\dxn[Dra.Vega]¡El evento que cambiará la dinámica del planeta, está aquí!"
+map,1,,5,Meteorito evento,1,127,355,script,pbCameraToEvent(6)
+map,1,,5,Meteorito evento,1,160,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,1,161,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,1,163,101,show_text,\ts[2]\dxn[Dra.Vega]¡Finalmente...!
+map,1,,5,Meteorito evento,1,165,101,show_text,\ts[2]\dxn[Dra.Vega]¡Después de tantos años investigando este fenómeno...!
+map,1,,5,Meteorito evento,1,167,101,show_text,\sh\dxn[Dra.Vega]¡El meteorito está por llegar a nuestro mundo!
+map,1,,5,Meteorito evento,1,169,101,show_text,\ts[2]\dxn[Dra.Vega]¡Seré la primera persona de Akebia...!
+map,1,,5,Meteorito evento,1,181,101,show_text,\sh\dxn[Dra.Vega]¡En presenciar su rostro!
+map,1,,5,Meteorito evento,1,194,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,1,196,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,1,198,355,script,pbCameraShake(10)
+map,1,,5,Meteorito evento,1,209,101,show_text,\ts[2]\dxn[Dra.Vega]Hmm... \wt[15]Vamos a comprobar la fuerza y resistencia de sus cuerpos...
+map,1,,5,Meteorito evento,1,218,101,show_text,"\sh\dxn[Dra.Vega]¡Flawless, protegedme con una barrera y frenad el impacto del meteorito!"
+map,1,,5,Meteorito evento,1,221,101,show_text,"\ts[1]\dxn[Flawless FX-03]A sus órdenes, madre."
+map,1,,5,Meteorito evento,1,233,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,1,237,355,script,pbCameraToEvent(6)
+map,1,,5,Meteorito evento,1,252,355,script,pbCameraShake(14)
+map,1,,5,Meteorito evento,1,254,101,show_text,\sh\dxn[Dra.Vega]¡Ahí viene!
+map,1,,5,Meteorito evento,1,255,355,script,pbCameraToEvent(7)
+map,1,,5,Meteorito evento,1,256,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,1,344,355,script,pbCameraShake(20)
+map,1,,5,Meteorito evento,1,352,355,script,pbCameraToEvent(31)
+map,1,,5,Meteorito evento,1,354,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,1,388,101,show_text,"\ts[2]\dxn[Dra.Vega]Hmm... El agujero es grande, pero definitivamente el daño se ha reducido."
+map,1,,5,Meteorito evento,1,392,101,show_text,"\dxn[Dra.Vega]Cuanto más pequeña sea la zona afectada, más sencillo será encontrar dicha especie..."
+map,1,,5,Meteorito evento,1,419,101,show_text,"\ts[1]\dxn[Flawless FX-04]Los daños se han visto reducidos, madre."
+map,1,,5,Meteorito evento,1,421,101,show_text,"\ts[1]\dxn[Flawless FX-03]Nuestras energías se han reducido en un 30%, pero será suficiente para completar nuestra misión."
+map,1,,5,Meteorito evento,1,432,101,show_text,"\sh\dxn[Dra.Vega]¡Mis queridos Flawless, estáis perfectamente!"
+map,1,,5,Meteorito evento,1,436,101,show_text,"\ts[1]\dxn[Dra.Vega](Sin duda, son muchísimo más resistentes que mi primer prototipo... y mucho más poderosos que los de Tier C...)"
+map,1,,5,Meteorito evento,1,439,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,1,456,101,show_text,\ts[1]\dxn[Dra.Vega]Ahora... \wt[15]empieza el verdadero evento.
+map,1,,5,Meteorito evento,1,459,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,1,466,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,1,473,101,show_text,\ts[1]\dxn[Dra.Vega]Es tu momento de despertar...
+map,1,,5,Meteorito evento,1,489,355,script,pbCameraToEvent(33)
+map,1,,5,Meteorito evento,1,516,355,script,pbCameraShake(5)
+map,1,,5,Meteorito evento,1,520,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,1,522,101,show_text,\ts[2]\dxn[Dra.Vega]Sal de una vez...
+map,1,,5,Meteorito evento,1,524,101,show_text,\sh<ac>¡DEOXYS!</ac>
+map,1,,5,Meteorito evento,1,525,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,1,526,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,1,541,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,1,542,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,1,544,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,1,545,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,1,546,101,show_text,\f[deoxys_000]¡Deoxys!
+map,1,,5,Meteorito evento,1,547,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,1,548,355,script,pbCameraToEvent(33)
+map,1,,5,Meteorito evento,1,556,101,show_text,"\sh\dxn[Dra.Vega]¡Por fin, ante mis ojos!"
+map,1,,5,Meteorito evento,1,560,101,show_text,"\sh\dxn[Dra.Vega]¡Deoxys, el Pokémon \c[2]ADN\c[0]!"
+map,1,,5,Meteorito evento,1,562,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,1,564,101,show_text,"\ts[1]\dxn[Flawless FX-04]Objetivo localizado, madre."
+map,1,,5,Meteorito evento,1,566,101,show_text,\ts[1]\dxn[Flawless FX-03]Nuestros Pokémon están listos para el combate.
+map,1,,5,Meteorito evento,1,570,101,show_text,"\ts[1]\dxn[Dra.Vega]¡Es cierto, no podemos dejarlo escapar!"
+map,1,,5,Meteorito evento,1,578,355,script,pbCameraToEvent(33)
+map,1,,5,Meteorito evento,1,581,101,show_text,"\dxn[Dra.Vega]Ahora que acaba de despertar, con nuestro poder debería ser suficiente, pero..."
+map,1,,5,Meteorito evento,1,585,101,show_text,\ts[1]\dxn[Dra.Vega]No estaría de más probar \c[2]la herramienta\c[0] que nos ha prestado \c[2]Estela\c[0].
+map,1,,5,Meteorito evento,1,592,355,script,Pokemon.play_cry(:LUCARIO)
+map,1,,5,Meteorito evento,1,593,101,show_text,\f[lucario000]¡GRRRR!
+map,1,,5,Meteorito evento,1,596,101,show_text,"\dxn[Dra.Vega]Quizás no sea la mejor captura, pero nos será de utilidad estando en nuestro bando."
+map,1,,5,Meteorito evento,1,601,101,show_text,"\sh\dxn[Dra.Vega]¡Adelante, ven a por mí, Deoxys!"
+map,1,,5,Meteorito evento,1,603,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,1,604,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,1,606,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,1,607,355,script,pbCameraShake(10)
+map,1,,5,Meteorito evento,1,620,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,1,622,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,1,625,101,show_text,<ac>A la mañana siguiente...</ac>
+map,1,,5,Meteorito evento,3,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,9,355,script,pbCameraToEvent(31)
+map,1,,5,Meteorito evento,3,36,108,comment,// Se escucharán golpes de fondo y mini terremotos
+map,1,,5,Meteorito evento,3,40,101,show_text,"\dxn[Dra.Vega]Que estos dos puedan rivalizar con un Pokémon de ese calibre, dice mucho de su poder."
+map,1,,5,Meteorito evento,3,45,101,show_text,\sh\dxn[Dra.Vega]¡Y ese Lucario tampoco lo hace nada mal! ¡Al final ha valido bastante la pena!
+map,1,,5,Meteorito evento,3,53,101,show_text,\dxn[Dra.Vega]¿Una notificación?
+map,1,,5,Meteorito evento,3,72,101,show_text,\dxn[Dra.Vega]¿¡La energía de los Tapus ha desaparecido!?
+map,1,,5,Meteorito evento,3,77,101,show_text,\dxn[Dra.Vega]Es uno de los Flawless de la guarida... parece que se está comunicando conmigo...
+map,1,,5,Meteorito evento,3,84,101,show_text,\dxn[Dra.Vega]¿Los Tapus han sido capturados?
+map,1,,5,Meteorito evento,3,89,101,show_text,\dxn[Dra.Vega]¡Parece que me han ahorrado la faena!
+map,1,,5,Meteorito evento,3,93,101,show_text,\dxn[Dra.Vega]Eso significa que la Familia Real ha llegado a la isla...
+map,1,,5,Meteorito evento,3,114,101,show_text,\sh\dxn[Dra.Vega]¡Tener la \c[2]máxima autoridad\c[0] sobre los Flawless es toda una ventaja!
+map,1,,5,Meteorito evento,3,118,101,show_text,\ts[2]\dxn[Dra.Vega]Y gracias al perfume que usé...
+map,1,,5,Meteorito evento,3,121,101,show_text,"\sh\dxn[???]¡Ahí estar, maldita asesina!"
+map,1,,5,Meteorito evento,3,149,101,show_text,"\sh\dxn[Dra.Vega]¡Efectivamente, ha funcionado!"
+map,1,,5,Meteorito evento,3,154,101,show_text,"\dxn[Dra.Vega]Aunque puede que lo haya calculado mal, esperaba tener a Deoxys en mis manos para entonces."
+map,1,,5,Meteorito evento,3,160,101,show_text,\dxn[Mahina]¡Tú ser la misma de la última vez!
+map,1,,5,Meteorito evento,3,164,101,show_text,\sh\dxn[Mahina]¡¿Qué venir a hacer aquí?! ¡Fuera de nuestro hogar!
+map,1,,5,Meteorito evento,3,169,101,show_text,"\dxn[Dra.Vega]¿Qué hablas, muñeca?"
+map,1,,5,Meteorito evento,3,174,101,show_text,\dxn[Dra.Vega]¡Te estaba esperando!
+map,1,,5,Meteorito evento,3,186,101,show_text,\dxn[Dra.Vega]Sabía que si asesinaba a todos los presentes excepto a ese par de mocosos y amenazaba con volver...
+map,1,,5,Meteorito evento,3,190,101,show_text,\dxn[Dra.Vega]Ellos vendrían a por mí en cuanto detectaran el mismo olor a perfume.
+map,1,,5,Meteorito evento,3,199,101,show_text,\sh\dxn[Dra.Vega]¡Los salvajes de vuestra raza tenéis un olfato extraordinario!
+map,1,,5,Meteorito evento,3,205,101,show_text,"\dxn[Dra.Vega]La venganza es una conducta motivada por emociones, una mocosa salvaje como tú vendría hasta aquí sin ningún tipo de plan."
+map,1,,5,Meteorito evento,3,214,101,show_text,\ts[2]\dxn[Dra.Vega]Gracias a los datos que me dio Estela... Ahora que estoy a punto de conseguir todo lo que quería...
+map,1,,5,Meteorito evento,3,216,355,script,"pbZoomMap(2,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,3,217,108,comment,// Chasquido
+map,1,,5,Meteorito evento,3,225,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,3,238,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,3,253,101,show_text,\ts[4]\dxn[Dra.Vega]\c[2]Solo me hace falta tu sangre de Lunaris.\c[0]
+map,1,,5,Meteorito evento,3,257,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,258,355,script,pbCameraToEvent(41)
+map,1,,5,Meteorito evento,3,263,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,3,264,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,3,265,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,3,266,101,show_text,\sh\f[aggron_000]¡Aggron!
+map,1,,5,Meteorito evento,3,267,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,3,274,101,show_text,\sh\dxn[Flawless FX-03]¡Cabeza de Hierro!
+map,1,,5,Meteorito evento,3,275,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,277,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,3,290,355,script,pbCameraToEvent(38)
+map,1,,5,Meteorito evento,3,301,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,3,307,101,show_text,\sh\dxn[Mahina]¡Roc!
+map,1,,5,Meteorito evento,3,310,355,script,Pokemon.play_cry(:LYCANROC)
+map,1,,5,Meteorito evento,3,311,101,show_text,\sh\f[lycanroc_night_001]¡Roc...!
+map,1,,5,Meteorito evento,3,312,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,3,314,101,show_text,"\ts[2]\dxn[Flawless FX-03]Objetivo localizado, madre. Lunaris está desprotegido."
+map,1,,5,Meteorito evento,3,315,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,3,319,101,show_text,"\ts[2]\dxn[Dra.Vega]Traer un Pokémon exhausto no es muy inteligente por tu parte, muchacha..."
+map,1,,5,Meteorito evento,3,323,101,show_text,\sh\dxn[Dra.Vega]¡Acaba con ella!
+map,1,,5,Meteorito evento,3,325,355,script,pbCameraToEvent(41)
+map,1,,5,Meteorito evento,3,332,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,3,333,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,3,334,101,show_text,\sh\f[aggron_000]¡Aggron!
+map,1,,5,Meteorito evento,3,335,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,3,345,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,346,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,3,380,355,script,pbCameraToEvent(38)
+map,1,,5,Meteorito evento,3,410,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,3,415,101,show_text,\dxn[Dra.Vega]¿Qué ha sido eso?
+map,1,,5,Meteorito evento,3,420,101,show_text,"\sh\dxn[Dra.Vega]¿Dónde están, Flawless FX-03?"
+map,1,,5,Meteorito evento,3,422,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,3,432,101,show_text,\ts[2]\dxn[Flawless FX-03]Varias energías detectadas encima nuestro.
+map,1,,5,Meteorito evento,3,438,101,show_text,\sh\dxn[Dra.Vega]¿¡Encima!?
+map,1,,5,Meteorito evento,3,440,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,447,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,459,101,show_text,\ts[3]\dxn[Dra.Vega]¡Esos son...!
+map,1,,5,Meteorito evento,3,477,101,show_text,"\dxn[Lykos]\sh¡No osar tocar a mi hermana, asesina!"
+map,1,,5,Meteorito evento,3,478,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,3,483,101,show_text,"\dxn[Lykos]\sh¡Nosotros sacarte de esta isla, demonio!"
+map,1,,5,Meteorito evento,3,486,101,show_text,"\dxn[Lykos]\sh¡Yena, Envite Plateado!"
+map,1,,5,Meteorito evento,3,489,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,507,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,512,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,3,513,355,script,"pbZoomMap(1,1,zoom=""out"")"
+map,1,,5,Meteorito evento,3,516,355,script,pbCameraToEvent(41)
+map,1,,5,Meteorito evento,3,528,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,529,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,3,530,101,show_text,\sh\f[aggron_000]¡Aggron!
+map,1,,5,Meteorito evento,3,532,355,script,Pokemon.play_cry(:MIGHTYENA)
+map,1,,5,Meteorito evento,3,533,355,script,"pbZoomMap(2,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,3,535,355,script,pbCameraShake(12)
+map,1,,5,Meteorito evento,3,540,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,3,542,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,3,554,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,555,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,3,556,101,show_text,\sh\f[aggron_001]¡Aggron...!
+map,1,,5,Meteorito evento,3,557,355,script,"pbZoomMap(2,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,3,567,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,3,571,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,3,572,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,3,573,101,show_text,\sh\f[aggron_000]¡Aggron!
+map,1,,5,Meteorito evento,3,574,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,3,576,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,577,355,script,pbCameraToEvent(36)
+map,1,,5,Meteorito evento,3,581,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,602,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,3,604,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,610,101,show_text,\dxn[Lykos]¿Ser capaz de eliminar las místicas llamas de Yena?
+map,1,,5,Meteorito evento,3,615,101,show_text,\ts[2]\dxn[Lykos]Ese Pokémon tener una defensa espectacular...
+map,1,,5,Meteorito evento,3,619,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,3,624,101,show_text,"\dxn[Dra.Vega]Ese pelo plateado, esos rasgos en la piel..."
+map,1,,5,Meteorito evento,3,629,101,show_text,\sh\dxn[Dra.Vega]¡Es la forma mitológica de un Lunaris!
+map,1,,5,Meteorito evento,3,638,101,show_text,\dxn[Dra.Vega]Humanos capaces de cambiar su forma junto a su Pokémon cuando miran a la luna.
+map,1,,5,Meteorito evento,3,645,101,show_text,"\dxn[Dra.Vega]¡Nunca pensé que unos salvajes de este calibre existieran, y menos que fueran la pieza clave para acceder a la Esfera de Latios!"
+map,1,,5,Meteorito evento,3,652,101,show_text,"\dxn[Dra.Vega]Bien jugado, monos. Es irónico que Latios no sea necesario para acceder a ella... Todos dimos por hecho que lo era."
+map,1,,5,Meteorito evento,3,656,101,show_text,\dxn[Dra.Vega]Sin embargo... solo sois unos simios que intentaron acercarse al poder divino de Celestia. Una copia barata de los que gobernaban los cielos.
+map,1,,5,Meteorito evento,3,658,355,script,pbCameraToEvent(36)
+map,1,,5,Meteorito evento,3,662,101,show_text,\sh\dxn[Lykos]¡No menospreciar a mi raza!
+map,1,,5,Meteorito evento,3,666,101,show_text,"\dxn[Lykos]Solo ellos entender que el propósito de \c[2]Aurath\c[0] siempre fue ayudar. Cuando corazón puro tener y odio rechazar, poderes surgir de nuestras"
+map,1,,5,Meteorito evento,3,667,401,show_text_cont,raíces.
+map,1,,5,Meteorito evento,3,671,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,673,101,show_text,\ts[2]\dxn[Lykos]Y con este poder que pocos poder despertar...
+map,1,,5,Meteorito evento,3,675,108,comment,// Flashback sementerio
+map,1,,5,Meteorito evento,3,684,101,show_text,\w[]
+map,1,,5,Meteorito evento,3,689,101,show_text,\w[]
+map,1,,5,Meteorito evento,3,697,101,show_text,\sh\dxn[Lykos]¡Yo acabar contigo! ¡No pasar por alto lo que hacer a mi familia!
+map,1,,5,Meteorito evento,3,701,101,show_text,\sh\dxn[Lykos]¡No dejar poner mano en nuestro hogar!
+map,1,,5,Meteorito evento,3,703,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,3,712,101,show_text,"\ts[3]\dxn[Dra.Vega]¿Familia, dices?"
+map,1,,5,Meteorito evento,3,714,108,comment,// Flashback white room
+map,1,,5,Meteorito evento,3,718,101,show_text,\ts[2]\dxn[Dra.Vega]Mientras pueda alcanzar la perfección...
+map,1,,5,Meteorito evento,3,726,101,show_text,\sh\dxn[Dra.Vega]\c[2]Todo lo demás no importa.\c[0]
+map,1,,5,Meteorito evento,3,728,355,script,pbCameraToEvent(36)
+map,1,,5,Meteorito evento,3,750,101,show_text,\sh\dxn[Mahina]¡Hermano!
+map,1,,5,Meteorito evento,3,756,101,show_text,"\dxn[Lykos]Mahina, deber retirarte. Esto ser peligroso."
+map,1,,5,Meteorito evento,3,760,101,show_text,\dxn[Lykos]Sin tu forma Lunaris no poder hacer nada aquí.
+map,1,,5,Meteorito evento,3,765,101,show_text,\sh\dxn[Mahina]¡Yo no permitir que vengar familia tú solo!
+map,1,,5,Meteorito evento,3,769,101,show_text,"\dxn[Mahina]¡Todavía poder pelear junto a Latias, esto no ha terminado!"
+map,1,,5,Meteorito evento,3,787,101,show_text,\ts[2]\dxn[Lykos]Siempre ser tan egoísta... tú no ser la héroe de Latias...
+map,1,,5,Meteorito evento,3,792,101,show_text,"\dxn[Lykos]Hasta que Darek y Eda llegar, luchar a nuestro lado, por favor."
+map,1,,5,Meteorito evento,3,801,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,3,808,101,show_text,\ts[1]\dxn[Dra.Vega]¿Ellos tampoco pleanean huir?
+map,1,,5,Meteorito evento,3,815,101,show_text,"\sh\dxn[Dra.Vega]¡Mataré varios pájaros de un tiro, entonces!"
+map,1,,5,Meteorito evento,3,818,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,832,101,show_text,"\ts[2]\dxn[Flawless FX-04]Misión completada, madre."
+map,1,,5,Meteorito evento,3,842,101,show_text,\ts[2]\dxn[Flawless FX-04]Deoxys ha sido capturado. Aquí tiene.
+map,1,,5,Meteorito evento,3,853,101,show_text,"\sh\dxn[Dra.Vega]¡Por fin, esto es justo lo que necesitaba!"
+map,1,,5,Meteorito evento,3,860,101,show_text,"\ts[2]\dxn[Flawless FX-04]Lucario está exhausto, madre. ¿Qué debería hacer con él?"
+map,1,,5,Meteorito evento,3,863,101,show_text,"\ts[2]\dxn[Dra.Vega]No importa eso, como si se muere."
+map,1,,5,Meteorito evento,3,867,101,show_text,\dxn[Dra.Vega]Simplemente recógelo. Estoy segura de que todavía tiene energía suficiente como para sernos de ayuda.
+map,1,,5,Meteorito evento,3,870,101,show_text,"\ts[2]\dxn[Flawless FX-04]A sus órdenes, madre."
+map,1,,5,Meteorito evento,3,889,101,show_text,"\ts[1]\dxn[Dra.Vega]Flawless FX-03, \c[2]acaba con sus vidas y las de las personas que están por llegar\c[0]. Usa todo lo que tengas."
+map,1,,5,Meteorito evento,3,891,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,3,896,101,show_text,"\dxn[Flawless FX-03]De acuerdo, madre."
+map,1,,5,Meteorito evento,3,906,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,908,355,script,pbCameraToEvent(45)
+map,1,,5,Meteorito evento,3,916,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,3,917,355,script,Pokemon.play_cry(:HYDREIGON)
+map,1,,5,Meteorito evento,3,918,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,3,919,101,show_text,\sh\f[hydreigon_001]¡Gon!
+map,1,,5,Meteorito evento,3,922,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,3,923,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,3,924,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,928,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,933,355,script,pbCameraShake(5)
+map,1,,5,Meteorito evento,3,940,355,script,pbCameraToEvent(41)
+map,1,,5,Meteorito evento,3,946,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,3,953,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,954,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,3,956,355,script,"pbZoomMap(3,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,957,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,3,961,355,script,pbCameraShake(12)
+map,1,,5,Meteorito evento,3,962,355,script,"pbZoomMap(4,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,964,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,3,970,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,3,973,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,3,974,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,3,975,101,show_text,\sh\f[aggron_MEGA_000]¡Aggron!
+map,1,,5,Meteorito evento,3,976,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,3,980,355,script,pbCameraToEvent(36)
+map,1,,5,Meteorito evento,3,984,101,show_text,"\dxn[Lykos]¡Usar vuestra visión compartida, Latias, Latios! ¡Darek y Eda tener que llegar ya!"
+map,1,,5,Meteorito evento,3,990,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,3,992,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,3,995,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,3,1001,101,show_text,\ts[3]Aquí nadie va a ver nada...
+map,1,,5,Meteorito evento,3,1003,101,show_text,\ts[3]\c[2]Vais a ver qué tan poderoso es este extaterrestre...\c[0]
+map,1,,5,Meteorito evento,5,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,5,1,108,comment,// Está eda en combate???? No???? Pues change y quitamos pokemitos (Latias y Tapu KOKOKOKOKOKO)
+map,1,,5,Meteorito evento,5,2,355,script,$game_variables[421] = $Trainer.party
+map,1,,5,Meteorito evento,5,4,355,script,"pbRemoveDependency2(""Eda"")"
+map,1,,5,Meteorito evento,5,6,355,script,"pbSwitchCharacter(2,""Eda"",0)"
+map,1,,5,Meteorito evento,5,8,355,script,$Trainer.outfit = 2
+map,1,,5,Meteorito evento,5,10,355,script,"pbAddDependency2(49,""Darek"",54)"
+map,1,,5,Meteorito evento,5,12,355,script,pbDeregisterPartner
+map,1,,5,Meteorito evento,5,14,355,script,"pbRegisterPartner(:POKEMONTRAINER_Seker_SI,""Darek"",6)"
+map,1,,5,Meteorito evento,5,16,355,script,$PokemonGlobal.partner[3] = pbGet(421)
+map,1,,5,Meteorito evento,5,18,355,script,"pbRemoveDependency2(""Darek"")"
+map,1,,5,Meteorito evento,5,20,355,script,pbDeregisterPartner
+map,1,,5,Meteorito evento,5,24,108,comment,// Quitamos pokemitos (Latias y Tapu KOKOKOKOKOKO)
+map,1,,5,Meteorito evento,5,25,355,script,for i in (0...$Trainer.party.length)
+map,1,,5,Meteorito evento,5,26,655,script_cont,pkmn = $Trainer.party[i]
+map,1,,5,Meteorito evento,5,27,655,script_cont,if pkmn.species == :LATIAS
+map,1,,5,Meteorito evento,5,28,655,script_cont,$game_variables[412] = pkmn
+map,1,,5,Meteorito evento,5,29,655,script_cont,pbRemovePokemonAt(i)
+map,1,,5,Meteorito evento,5,30,655,script_cont,break
+map,1,,5,Meteorito evento,5,31,655,script_cont,end
+map,1,,5,Meteorito evento,5,32,655,script_cont,end
+map,1,,5,Meteorito evento,5,34,355,script,for i in (0...$Trainer.party.length)
+map,1,,5,Meteorito evento,5,35,655,script_cont,pkmn = $Trainer.party[i]
+map,1,,5,Meteorito evento,5,36,655,script_cont,if pkmn.species == :TAPUKOKO
+map,1,,5,Meteorito evento,5,37,655,script_cont,$game_variables[413] = pkmn
+map,1,,5,Meteorito evento,5,38,655,script_cont,pbRemovePokemonAt(i)
+map,1,,5,Meteorito evento,5,39,655,script_cont,break
+map,1,,5,Meteorito evento,5,40,655,script_cont,end
+map,1,,5,Meteorito evento,5,41,655,script_cont,end
+map,1,,5,Meteorito evento,5,52,355,script,"pbZoomMap(4,1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,60,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,5,85,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,5,91,101,show_text,\ts[4]\dxn[Lykos]¡E-ese monstruo...! \c[2]¡C-cortar co-comunicación de Lat...!\c[0]
+map,1,,5,Meteorito evento,5,93,101,show_text,"\sh\dxn[Lykos]<i>(Cof, cof...)</i>"
+map,1,,5,Meteorito evento,5,95,101,show_text,\ts[2]\dxn[Flawless FX-03]Lunaris ha sido capturado.
+map,1,,5,Meteorito evento,5,97,101,show_text,"\ts[2]\dxn[Flawless FX-03]Misión cumplida, madre."
+map,1,,5,Meteorito evento,5,99,101,show_text,\ts[5]\dxn[Lykos]¡E-ese monstruo... esconderse...!
+map,1,,5,Meteorito evento,5,101,101,show_text,\sh\ts[3]\dxn[Lykos]¡Hu... huir d-de aquí!
+map,1,,5,Meteorito evento,5,105,101,show_text,\ts[4]\dxn[Lykos]¡M-Ma... Mahi...!
+map,1,,5,Meteorito evento,5,106,355,script,"pbZoomMap(1.5,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,5,114,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,5,116,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,123,101,show_text,\ts[4]\dxn[Mahina]¡He-hermano...!
+map,1,,5,Meteorito evento,5,131,101,show_text,\ts[5]\dxn[Mahina]¡No...!
+map,1,,5,Meteorito evento,5,140,101,show_text,\sh\dxn[Mahina]¡Él ser la única familia que quedar...!
+map,1,,5,Meteorito evento,5,144,101,show_text,\sh\dxn[Mahina]¡No permitir que vosotros arrebatar!
+map,1,,5,Meteorito evento,5,146,355,script,pbCameraToEvent(41)
+map,1,,5,Meteorito evento,5,148,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,5,149,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,5,150,101,show_text,\sh\f[aggron_MEGA_000]¡Aggron!
+map,1,,5,Meteorito evento,5,151,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,5,153,355,script,pbCameraToEvent(45)
+map,1,,5,Meteorito evento,5,157,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,5,158,355,script,Pokemon.play_cry(:HYDREIGON)
+map,1,,5,Meteorito evento,5,159,101,show_text,\sh\f[hydreigon_001]¡Gon!
+map,1,,5,Meteorito evento,5,160,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,5,162,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,5,187,101,show_text,\sh\dxn[Sophie]¡¿Qué está pasando aquí?!
+map,1,,5,Meteorito evento,5,189,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,5,193,101,show_text,\dxn[Sophie]¿Y eso...? ¿Un Flawless? ¿Por qué parece \c[2]superior\c[0] a los que hemos traído nosotros?
+map,1,,5,Meteorito evento,5,195,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,5,199,101,show_text,\ts[2]\dxn[William]He looks dangerous.
+map,1,,5,Meteorito evento,5,203,101,show_text,\ts[2]\dxn[William]But more important... \wt[10]Look at that kid.
+map,1,,5,Meteorito evento,5,205,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,5,214,101,show_text,\ts[3]\dxn[Mahina]¡N-No poder creerlo...! ¡Ellos estar aquí también!
+map,1,,5,Meteorito evento,5,216,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,5,221,101,show_text,"\dxn[Sophie]Son los que dejamos escapar hace un tiempo, los Lunaris que mencionó Estela."
+map,1,,5,Meteorito evento,5,225,101,show_text,"\ts[1]\dxn[Sophie]Si ese Flawless tiene a ese muchacho, ya tenemos todo lo que necesitábamos. Solo nos hacía falta uno de ellos."
+map,1,,5,Meteorito evento,5,230,101,show_text,\ts[2]\dxn[William]That girl can not even breath... and they completed the Vega's mission.
+map,1,,5,Meteorito evento,5,234,101,show_text,\ts[2]\dxn[William]Then...
+map,1,,5,Meteorito evento,5,240,101,show_text,\ts[2]\dxn[William]Why are those Pokemon trying to kill her?
+map,1,,5,Meteorito evento,5,243,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,5,247,101,show_text,"\sh\dxn[Mahina]<i>(¡Cof, cof...!)</i>"
+map,1,,5,Meteorito evento,5,250,101,show_text,\ts[2]\dxn[Mahina]¡E-el humo... por eso no olerlos...!
+map,1,,5,Meteorito evento,5,254,101,show_text,\ts[3]\dxn[Mahina]¡N-necesitar ayu-da...!
+map,1,,5,Meteorito evento,5,259,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,263,101,show_text,\ts[5]<ac>¡L-Lykos...!</ac>
+map,1,,5,Meteorito evento,5,268,355,script,"pbZoomMap(4,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,276,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,5,282,101,show_text,\ts[3]\dxn[William]If there's a way to avoid unnecessary deaths...
+map,1,,5,Meteorito evento,5,289,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,5,294,101,show_text,\ts[2]\dxn[William]We have to take it.
+map,1,,5,Meteorito evento,5,299,101,show_text,\ts[3]\dxn[William]\c[2]I hate your methods... Vega.\c[0]
+map,1,,5,Meteorito evento,5,301,108,comment,// Tiran a Lykos al vacío
+map,1,,5,Meteorito evento,5,302,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,5,306,101,show_text,\ts[2]\dxn[Flawless FX-03]Nuevos objetivos detectados.
+map,1,,5,Meteorito evento,5,307,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,309,355,script,pbCameraToEvent(36)
+map,1,,5,Meteorito evento,5,334,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,335,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,5,348,101,show_text,\ts[2]\dxn[Flawless FX-03]Acabad con sus vidas.
+map,1,,5,Meteorito evento,5,350,355,script,"pbCameraScrollTo(80,30)"
+map,1,,5,Meteorito evento,5,354,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,5,355,355,script,Pokemon.play_cry(:HYDREIGON)
+map,1,,5,Meteorito evento,5,357,108,comment,// Animación de hyperrayo
+map,1,,5,Meteorito evento,5,358,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,367,355,script,pbCameraShake(4)
+map,1,,5,Meteorito evento,5,370,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,5,371,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,373,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,5,378,101,show_text,\sh\dxn[Sophie]¡Van a atacarnos!
+map,1,,5,Meteorito evento,5,390,101,show_text,"\ts[2]\dxn[Sophie](Es un Flawless, debería hacer caso...)"
+map,1,,5,Meteorito evento,5,395,101,show_text,"\sh\dxn[Sophie]¡Detente, Flawless, haz que cancelen el ataque!"
+map,1,,5,Meteorito evento,5,397,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,5,401,101,show_text,\ts[2]\dxn[Flawless FX-03]La orden de Madre fue terminar con la vida de todos los presentes...
+map,1,,5,Meteorito evento,5,403,101,show_text,\ts[2]\dxn[Flawless FX-03]Y \c[2]solo obedecemos sus órdenes.\c[0]
+map,1,,5,Meteorito evento,5,404,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,5,409,101,show_text,\sh\dxn[Sophie]¡P-pero somos aliados de la Dra.Vega!
+map,1,,5,Meteorito evento,5,411,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,5,414,101,show_text,\ts[2]\dxn[Flawless FX-03]Negativo.
+map,1,,5,Meteorito evento,5,415,355,script,pbCameraToEvent(33)
+map,1,,5,Meteorito evento,5,416,355,script,"pbZoomMap(3,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,423,101,show_text,\wtnp[0]\ts[3]<ac>William y Sophie \c[2]son enemigos de Madre\c[0].</ac>\wt[10]
+map,1,,5,Meteorito evento,5,424,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,425,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,5,430,101,show_text,\sh\dxn[Sophie]¿¡Q-qué estás diciendo!?
+map,1,,5,Meteorito evento,5,432,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,5,447,101,show_text,\ts[2]\dxn[William]She became incredibly powerful... without even having to fight.
+map,1,,5,Meteorito evento,5,453,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,5,463,101,show_text,\ts[2]\dxn[William]Vega trapped us...
+map,1,,5,Meteorito evento,5,465,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,5,474,108,comment,// A punto de lanzar el hyperrayo
+map,1,,5,Meteorito evento,5,476,101,show_text,"\sh\dxn[Sophie]¡William, sal de ahí!"
+map,1,,5,Meteorito evento,5,479,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,5,483,101,show_text,\ts[2]\dxn[William]Don't worry...
+map,1,,5,Meteorito evento,5,538,101,show_text,\wtnp[0]\ts[2]\dxn[William]The \c[2]God's wings\c[0] are here.\wt[20]
+map,1,,5,Meteorito evento,5,550,108,comment,// Eda y Darek appears
+map,1,,5,Meteorito evento,5,551,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,552,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,5,558,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,5,631,355,script,pbCameraShake(12)
+map,1,,5,Meteorito evento,5,632,355,script,"pbZoomMap(1.5,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,642,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,5,643,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,644,355,script,pbCameraToEvent(52)
+map,1,,5,Meteorito evento,5,645,355,script,Pokemon.play_cry(:SCEPTILE)
+map,1,,5,Meteorito evento,5,646,101,show_text,\sh\f[sceptile002]¡Scept!
+map,1,,5,Meteorito evento,5,647,355,script,pbCameraToEvent(51)
+map,1,,5,Meteorito evento,5,649,355,script,Pokemon.play_cry(:BLAZIKEN)
+map,1,,5,Meteorito evento,5,650,101,show_text,\sh\f[blaziken002]¡Ken!
+map,1,,5,Meteorito evento,5,651,355,script,"pbZoomMap(3,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,652,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,5,653,355,script,Pokemon.play_cry(:HYDREIGON)
+map,1,,5,Meteorito evento,5,655,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,5,658,355,script,pbCameraShake(15)
+map,1,,5,Meteorito evento,5,673,355,script,"pbZoomMap(1.5,1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,733,355,script,pbCameraShake(3)
+map,1,,5,Meteorito evento,5,773,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,5,777,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,783,101,show_text,\sh\dxn[Eda]¿¡Qué ha pasado aquí!?
+map,1,,5,Meteorito evento,5,785,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,5,793,101,show_text,"\dxn[Flawless FX-03]De acuerdo, madre."
+map,1,,5,Meteorito evento,5,795,101,show_text,\dxn[Flawless FX-03]No os mováis...
+map,1,,5,Meteorito evento,5,809,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,5,813,101,show_text,\sh\dxn[Eda]¡Mahina!
+map,1,,5,Meteorito evento,5,842,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,5,845,101,show_text,\dxn[Eda]Mahina... ¿Estás bien?
+map,1,,5,Meteorito evento,5,850,101,show_text,"\sh\dxn[Mahina]<i>(Cof, cof...)</i>"
+map,1,,5,Meteorito evento,5,855,101,show_text,\ts[2]\dxn[Mahina]N-no haber podido hacer nada...
+map,1,,5,Meteorito evento,5,862,101,show_text,\ts[2]\dxn[Mahina]Doler mucho... no poder ni moverme...
+map,1,,5,Meteorito evento,5,866,101,show_text,\ts[2]\dxn[Mahina]S-ser humillada... incluso cuando venir a vengarme...
+map,1,,5,Meteorito evento,5,871,101,show_text,\ts[2]\dxn[Mahina]Ahora entenderte... E-Eda.
+map,1,,5,Meteorito evento,5,876,101,show_text,\sh\dxn[Mahina]¡E-esto ser frustrante! ¡Y-yo sentirme impotente!
+map,1,,5,Meteorito evento,5,880,108,comment,// Flashback de ella tirada en el suelo
+map,1,,5,Meteorito evento,5,901,101,show_text,\ts[2]\dxn[Eda](¡Mahina...!)
+map,1,,5,Meteorito evento,5,906,101,show_text,\sh\dxn[Eda]¡Te dije que nos lo dejaras a nosotros! ¡Maldita sea!
+map,1,,5,Meteorito evento,5,908,355,script,"pbZoomMap(2,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,5,914,101,show_text,\ts[3]T-tú entender mejor que nadie... Eda
+map,1,,5,Meteorito evento,5,916,101,show_text,\ts[3]Hubieras hecho lo mismo... ¿verdad?
+map,1,,5,Meteorito evento,5,921,355,script,"pbZoomMap(3,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,5,928,101,show_text,\ts[3]L-Lykos... Ser capturado...
+map,1,,5,Meteorito evento,5,930,101,show_text,\ts[4]S-Salvarlo... Por favor...
+map,1,,5,Meteorito evento,5,936,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,938,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,5,950,101,show_text,\sh\dxn[Darek]¡Mahina!
+map,1,,5,Meteorito evento,5,959,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,5,965,108,comment,// Flashback de ella tirada en el suelo
+map,1,,5,Meteorito evento,5,987,101,show_text,\dxn[Eda](¡...!)
+map,1,,5,Meteorito evento,5,991,101,show_text,"\ts[3]\dxn[Eda]Ocúpate de ella, Darek."
+map,1,,5,Meteorito evento,5,1022,101,show_text,\sh\dxn[Darek]¡Eda...! ¡Espera!
+map,1,,5,Meteorito evento,5,1028,101,show_text,"\dxn[Eda]¿Esto es culpa vuestra, verdad?"
+map,1,,5,Meteorito evento,5,1032,101,show_text,\dxn[Eda]Los mismos que habéis capturado a Papu Koko y capturaron a Latios en su momento...
+map,1,,5,Meteorito evento,5,1037,101,show_text,"\dxn[Sophie]¡Sí, pero...!"
+map,1,,5,Meteorito evento,5,1042,101,show_text,"\sh\dxn[Sophie]¡O sea, te equivocas! ¡Nosotros no hemos hecho daño a tu amiga! ¡Hay más enemigos en esta isla!"
+map,1,,5,Meteorito evento,5,1046,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,5,1053,101,show_text,\dxn[Sophie]¡Ha sido culpa de ese Fla...!
+map,1,,5,Meteorito evento,5,1059,101,show_text,\sh\dxn[Sophie]¡¿Dónde se ha metido?!
+map,1,,5,Meteorito evento,5,1066,101,show_text,\dxn[William](Vega is always one step ahead of us... now it seems like we're lying.)
+map,1,,5,Meteorito evento,5,1075,101,show_text,"\dxn[Sophie]¡Más bien, deberíais salir de aquí de inmediato si apreciáis vuestras vi...!"
+map,1,,5,Meteorito evento,5,1077,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,5,1079,101,show_text,\sh\dxn[Eda]¡CÁLLATE!
+map,1,,5,Meteorito evento,5,1085,101,show_text,\sh\dxn[Eda]¿¡Me tomas por tonta!? ¡Lo he visto todo!
+map,1,,5,Meteorito evento,5,1089,101,show_text,\sh\dxn[Eda]¡Papu Koko me mostró lo que ha sucedido en la playa!
+map,1,,5,Meteorito evento,5,1113,101,show_text,\sh\dxn[Eda]¡Devolvednos a los Papus y a Lykos ahora mismo!
+map,1,,5,Meteorito evento,5,1120,355,script,Pokemon.play_cry(:BLAZIKEN)
+map,1,,5,Meteorito evento,5,1121,101,show_text,\sh\f[blaziken002]¡Ken!
+map,1,,5,Meteorito evento,5,1123,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,5,1127,101,show_text,\ts[2]\dxn[Sophie]¡P-pero...!
+map,1,,5,Meteorito evento,5,1137,101,show_text,"\ts[2]\dxn[William]Fair enough, Sophie. We are their enemies."
+map,1,,5,Meteorito evento,5,1143,101,show_text,\ts[2]\dxn[William]Now... we must face what we've done.
+map,1,,5,Meteorito evento,5,1147,101,show_text,\ts[2]\dxn[William]It's us against the world.
+map,1,,5,Meteorito evento,5,1155,101,show_text,\ts[1]\dxn[Sophie]Tienes razón... supongo que es consecuencia de nuestros actos.
+map,1,,5,Meteorito evento,5,1167,355,script,"pbZoomMap(2,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,5,1175,101,show_text,<ac>Yo me encargo.</ac>
+map,1,,5,Meteorito evento,5,1176,108,comment,// Scizor
+map,1,,5,Meteorito evento,5,1177,355,script,pbCameraToEvent(49)
+map,1,,5,Meteorito evento,5,1181,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,1183,355,script,Pokemon.play_cry(:SCIZOR)
+map,1,,5,Meteorito evento,5,1188,101,show_text,\sh\f[scizor000]¡Zor!
+map,1,,5,Meteorito evento,5,1190,355,script,pbCameraToEvent(42)
+map,1,,5,Meteorito evento,5,1199,101,show_text,\sh\f[latias003]¡Lat!
+map,1,,5,Meteorito evento,5,1200,355,script,pbCameraToEvent(44)
+map,1,,5,Meteorito evento,5,1203,101,show_text,\sh\f[latios005]¡Lat!
+map,1,,5,Meteorito evento,5,1205,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,5,1209,101,show_text,\ts[2]\dxn[Darek]<i>(¡Algo pasa con estos dos!)</i>
+map,1,,5,Meteorito evento,5,1213,101,show_text,\ts[1]\dxn[Darek]<i>(Parece que se quieren comunicar pero no pueden...)</i>
+map,1,,5,Meteorito evento,5,1220,101,show_text,"\sh\dxn[Darek]¡Eda, algo raro está pasando!"
+map,1,,5,Meteorito evento,5,1222,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,5,1228,101,show_text,"\sh\dxn[Eda]¡Que no le he dado su merecido, eso es lo que pasa!"
+map,1,,5,Meteorito evento,5,1232,101,show_text,\dxn[Eda]¡Os la debo desde Ciudad Cardenal! ¡Soy mucho más fuerte que en aquel entonces!
+map,1,,5,Meteorito evento,5,1238,101,show_text,\sh\dxn[Eda]¡Os vais a enterar!
+map,1,,5,Meteorito evento,5,1241,355,script,"setBattleRule(""canLose"")"
+map,1,,5,Meteorito evento,5,1254,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,5,1264,101,show_text,"\sh\dxn[William]Sophie! Get out of there, now!"
+map,1,,5,Meteorito evento,5,1276,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,5,1277,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,5,1306,355,script,"pbZoomMap(1,1,zoom=""out"")"
+map,1,,5,Meteorito evento,5,1309,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,5,1314,101,show_text,\sh\dxn[Sophie]¡William!
+map,1,,5,Meteorito evento,5,1316,101,show_text,"\ts[2]\dxn[William]Tch, I knew she was hiding from us..."
+map,1,,5,Meteorito evento,6,0,108,comment,// Está eda en combate???? No???? Pues change y quitamos pokemitos (Latias y Tapu KOKOKOKOKOKO)
+map,1,,5,Meteorito evento,6,1,355,script,$game_variables[421] = $Trainer.party
+map,1,,5,Meteorito evento,6,3,355,script,"pbRemoveDependency2(""Eda"")"
+map,1,,5,Meteorito evento,6,5,355,script,"pbSwitchCharacter(2,""Eda"",0)"
+map,1,,5,Meteorito evento,6,7,355,script,$Trainer.outfit = 2
+map,1,,5,Meteorito evento,6,9,355,script,"pbAddDependency2(49,""Darek"",54)"
+map,1,,5,Meteorito evento,6,11,355,script,pbDeregisterPartner
+map,1,,5,Meteorito evento,6,13,355,script,"pbRegisterPartner(:POKEMONTRAINER_Seker_SI,""Darek"",6)"
+map,1,,5,Meteorito evento,6,15,355,script,$PokemonGlobal.partner[3] = pbGet(421)
+map,1,,5,Meteorito evento,6,17,355,script,"pbRemoveDependency2(""Darek"")"
+map,1,,5,Meteorito evento,6,19,355,script,pbDeregisterPartner
+map,1,,5,Meteorito evento,6,23,108,comment,// Quitamos pokemitos (Latias y Tapu KOKOKOKOKOKO)
+map,1,,5,Meteorito evento,6,24,355,script,for i in (0...$Trainer.party.length)
+map,1,,5,Meteorito evento,6,25,655,script_cont,pkmn = $Trainer.party[i]
+map,1,,5,Meteorito evento,6,26,655,script_cont,if pkmn.species == :LATIAS
+map,1,,5,Meteorito evento,6,27,655,script_cont,$game_variables[414] = pkmn
+map,1,,5,Meteorito evento,6,28,655,script_cont,pbRemovePokemonAt(i)
+map,1,,5,Meteorito evento,6,29,655,script_cont,break
+map,1,,5,Meteorito evento,6,30,655,script_cont,end
+map,1,,5,Meteorito evento,6,31,655,script_cont,end
+map,1,,5,Meteorito evento,6,33,355,script,for i in (0...$Trainer.party.length)
+map,1,,5,Meteorito evento,6,34,655,script_cont,pkmn = $Trainer.party[i]
+map,1,,5,Meteorito evento,6,35,655,script_cont,if pkmn.species == :TAPUKOKO
+map,1,,5,Meteorito evento,6,36,655,script_cont,$game_variables[415] = pkmn
+map,1,,5,Meteorito evento,6,37,655,script_cont,pbRemovePokemonAt(i)
+map,1,,5,Meteorito evento,6,38,655,script_cont,break
+map,1,,5,Meteorito evento,6,39,655,script_cont,end
+map,1,,5,Meteorito evento,6,40,655,script_cont,end
+map,1,,5,Meteorito evento,6,50,355,script,"pbZoomMap(4,1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,58,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,6,83,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,6,89,101,show_text,\ts[4]\dxn[Lykos]¡E-ese monstruo...! \c[2]¡C-cortar co-comunicación de Lat...!\c[0]
+map,1,,5,Meteorito evento,6,91,101,show_text,"\sh\dxn[Lykos]<i>(Cof, cof...)</i>"
+map,1,,5,Meteorito evento,6,93,101,show_text,\ts[2]\dxn[Flawless FX-03]Lunaris ha sido capturado.
+map,1,,5,Meteorito evento,6,95,101,show_text,"\ts[2]\dxn[Flawless FX-03]Misión cumplida, madre."
+map,1,,5,Meteorito evento,6,97,101,show_text,\ts[5]\dxn[Lykos]¡E-ese monstruo... esconderse...!
+map,1,,5,Meteorito evento,6,99,101,show_text,\sh\ts[3]\dxn[Lykos]¡Hu... huir d-de aquí!
+map,1,,5,Meteorito evento,6,103,101,show_text,\ts[4]\dxn[Lykos]¡M-Ma... Mahi...!
+map,1,,5,Meteorito evento,6,104,355,script,"pbZoomMap(1.5,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,6,112,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,6,114,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,121,101,show_text,\ts[4]\dxn[Mahina]¡He-hermano...!
+map,1,,5,Meteorito evento,6,129,101,show_text,\ts[5]\dxn[Mahina]¡No...!
+map,1,,5,Meteorito evento,6,138,101,show_text,\sh\dxn[Mahina]¡Él ser la única familia que quedar...!
+map,1,,5,Meteorito evento,6,142,101,show_text,\sh\dxn[Mahina]¡No permitir que vosotros arrebatar!
+map,1,,5,Meteorito evento,6,144,355,script,pbCameraToEvent(41)
+map,1,,5,Meteorito evento,6,146,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,6,147,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,6,148,101,show_text,\sh\f[aggron_MEGA_000]¡Aggron!
+map,1,,5,Meteorito evento,6,149,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,6,151,355,script,pbCameraToEvent(45)
+map,1,,5,Meteorito evento,6,155,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,6,156,355,script,Pokemon.play_cry(:HYDREIGON)
+map,1,,5,Meteorito evento,6,157,101,show_text,\sh\f[hydreigon_001]¡Gon!
+map,1,,5,Meteorito evento,6,158,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,6,160,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,6,185,101,show_text,\sh\dxn[Sophie]¡¿Qué está pasando aquí?!
+map,1,,5,Meteorito evento,6,187,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,6,191,101,show_text,\dxn[Sophie]¿Y eso...? ¿Un Flawless? ¿Por qué parece \c[2]superior\c[0] a los que hemos traído nosotros?
+map,1,,5,Meteorito evento,6,193,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,6,197,101,show_text,\ts[2]\dxn[William]He looks dangerous.
+map,1,,5,Meteorito evento,6,201,101,show_text,\ts[2]\dxn[William]But more important... \wt[10]Look at that kid.
+map,1,,5,Meteorito evento,6,203,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,6,212,101,show_text,\ts[3]\dxn[Mahina]¡N-No poder creerlo...! ¡Ellos estar aquí también!
+map,1,,5,Meteorito evento,6,214,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,6,219,101,show_text,"\dxn[Sophie]Son los que dejamos escapar hace un tiempo, los Lunaris que mencionó Estela."
+map,1,,5,Meteorito evento,6,223,101,show_text,"\ts[1]\dxn[Sophie]Si ese Flawless tiene a ese muchacho, ya tenemos todo lo que necesitábamos. Solo nos hacía falta uno de ellos."
+map,1,,5,Meteorito evento,6,228,101,show_text,\ts[2]\dxn[William]That girl can not even breath... and they completed the Vega's mission.
+map,1,,5,Meteorito evento,6,232,101,show_text,\ts[2]\dxn[William]Then...
+map,1,,5,Meteorito evento,6,238,101,show_text,\ts[2]\dxn[William]Why are those Pokemon trying to kill her?
+map,1,,5,Meteorito evento,6,241,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,6,245,101,show_text,"\sh\dxn[Mahina]<i>(¡Cof, cof...!)</i>"
+map,1,,5,Meteorito evento,6,248,101,show_text,\ts[2]\dxn[Mahina]¡E-el humo... por eso no olerlos...!
+map,1,,5,Meteorito evento,6,252,101,show_text,\ts[3]\dxn[Mahina]¡N-necesitar ayu-da...!
+map,1,,5,Meteorito evento,6,257,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,261,101,show_text,\ts[5]<ac>¡L-Lykos...!</ac>
+map,1,,5,Meteorito evento,6,266,355,script,"pbZoomMap(4,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,274,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,6,280,101,show_text,\ts[3]\dxn[William]If there's a way to avoid unnecessary deaths...
+map,1,,5,Meteorito evento,6,287,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,6,290,101,show_text,\ts[2]\dxn[William]We have to take it.
+map,1,,5,Meteorito evento,6,295,101,show_text,\ts[3]\dxn[William]\c[2]I hate your methods... Vega.\c[0]
+map,1,,5,Meteorito evento,6,297,108,comment,// Tiran a Lykos al vacío
+map,1,,5,Meteorito evento,6,298,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,6,302,101,show_text,\ts[2]\dxn[Flawless FX-03]Nuevos objetivos detectados.
+map,1,,5,Meteorito evento,6,303,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,305,355,script,pbCameraToEvent(36)
+map,1,,5,Meteorito evento,6,330,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,331,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,6,344,101,show_text,\ts[2]\dxn[Flawless FX-03]Acabad con sus vidas.
+map,1,,5,Meteorito evento,6,346,355,script,"pbCameraScrollTo(80,30)"
+map,1,,5,Meteorito evento,6,350,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,6,351,355,script,Pokemon.play_cry(:HYDREIGON)
+map,1,,5,Meteorito evento,6,353,108,comment,// Animación de hyperrayo
+map,1,,5,Meteorito evento,6,354,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,363,355,script,pbCameraShake(4)
+map,1,,5,Meteorito evento,6,366,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,6,367,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,369,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,6,374,101,show_text,\sh\dxn[Sophie]¡Van a atacarnos!
+map,1,,5,Meteorito evento,6,386,101,show_text,"\ts[2]\dxn[Sophie](Es un Flawless, debería hacer caso...)"
+map,1,,5,Meteorito evento,6,391,101,show_text,"\sh\dxn[Sophie]¡Detente, Flawless, haz que cancelen el ataque!"
+map,1,,5,Meteorito evento,6,393,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,6,397,101,show_text,\ts[2]\dxn[Flawless FX-03]La orden de Madre fue terminar con la vida de todos los presentes...
+map,1,,5,Meteorito evento,6,399,101,show_text,\ts[2]\dxn[Flawless FX-03]Y \c[2]solo obedecemos sus órdenes.\c[0]
+map,1,,5,Meteorito evento,6,400,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,6,405,101,show_text,\sh\dxn[Sophie]¡P-pero somos aliados de la Dra.Vega!
+map,1,,5,Meteorito evento,6,407,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,6,410,101,show_text,\ts[2]\dxn[Flawless FX-03]Negativo.
+map,1,,5,Meteorito evento,6,411,355,script,pbCameraToEvent(33)
+map,1,,5,Meteorito evento,6,412,355,script,"pbZoomMap(3,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,419,101,show_text,\wtnp[0]\ts[3]<ac>William y Sophie \c[2]son enemigos de Madre\c[0].</ac>\wt[10]
+map,1,,5,Meteorito evento,6,420,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,421,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,6,426,101,show_text,\sh\dxn[Sophie]¿¡Q-qué estás diciendo!?
+map,1,,5,Meteorito evento,6,428,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,6,443,101,show_text,\ts[2]\dxn[William]She became incredibly powerful... without even having to fight.
+map,1,,5,Meteorito evento,6,449,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,6,459,101,show_text,\ts[2]\dxn[William]Vega trapped us...
+map,1,,5,Meteorito evento,6,461,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,6,470,108,comment,// A punto de lanzar el hyperrayo
+map,1,,5,Meteorito evento,6,472,101,show_text,"\sh\dxn[Sophie]¡William, sal de ahí!"
+map,1,,5,Meteorito evento,6,475,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,6,479,101,show_text,\ts[2]\dxn[William]Don't worry...
+map,1,,5,Meteorito evento,6,534,101,show_text,\wtnp[0]\ts[2]\dxn[William]The \c[2]God's wings\c[0] are here.\wt[20]
+map,1,,5,Meteorito evento,6,536,108,comment,// Eda y Darek appears
+map,1,,5,Meteorito evento,6,537,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,538,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,6,544,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,6,617,355,script,pbCameraShake(12)
+map,1,,5,Meteorito evento,6,618,355,script,"pbZoomMap(1.5,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,628,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,6,629,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,630,355,script,pbCameraToEvent(52)
+map,1,,5,Meteorito evento,6,631,355,script,Pokemon.play_cry(:SCEPTILE)
+map,1,,5,Meteorito evento,6,632,101,show_text,\sh\f[sceptile002]¡Scept!
+map,1,,5,Meteorito evento,6,633,355,script,pbCameraToEvent(51)
+map,1,,5,Meteorito evento,6,635,355,script,Pokemon.play_cry(:BLAZIKEN)
+map,1,,5,Meteorito evento,6,636,101,show_text,\sh\f[blaziken002]¡Ken!
+map,1,,5,Meteorito evento,6,637,355,script,"pbZoomMap(3,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,638,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,6,639,355,script,Pokemon.play_cry(:HYDREIGON)
+map,1,,5,Meteorito evento,6,641,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,6,644,355,script,pbCameraShake(15)
+map,1,,5,Meteorito evento,6,659,355,script,"pbZoomMap(1.5,1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,719,355,script,pbCameraShake(3)
+map,1,,5,Meteorito evento,6,758,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,6,761,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,767,101,show_text,\sh\dxn[Eda]¿¡Qué ha pasado aquí!?
+map,1,,5,Meteorito evento,6,769,355,script,pbCameraToEvent(3)
+map,1,,5,Meteorito evento,6,777,101,show_text,"\dxn[Flawless FX-03]De acuerdo, madre."
+map,1,,5,Meteorito evento,6,788,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,6,792,101,show_text,\sh\dxn[Eda]¡Mahina!
+map,1,,5,Meteorito evento,6,821,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,6,824,101,show_text,\dxn[Eda]Mahina... ¿Estás bien?
+map,1,,5,Meteorito evento,6,829,101,show_text,"\sh\dxn[Mahina]<i>(Cof, cof...)</i>"
+map,1,,5,Meteorito evento,6,834,101,show_text,\ts[2]\dxn[Mahina]N-no haber podido hacer nada...
+map,1,,5,Meteorito evento,6,841,101,show_text,\ts[2]\dxn[Mahina]Doler mucho... no poder ni moverme...
+map,1,,5,Meteorito evento,6,845,101,show_text,\ts[2]\dxn[Mahina]S-ser humillada... incluso cuando venir a vengarme...
+map,1,,5,Meteorito evento,6,850,101,show_text,\ts[2]\dxn[Mahina]Ahora entenderte... E-Eda.
+map,1,,5,Meteorito evento,6,855,101,show_text,\sh\dxn[Mahina]¡E-esto ser frustrante! ¡Y-yo sentirme impotente!
+map,1,,5,Meteorito evento,6,859,108,comment,// Flashback de ella tirada en el suelo
+map,1,,5,Meteorito evento,6,880,101,show_text,\ts[2]\dxn[Eda](¡Mahina...!)
+map,1,,5,Meteorito evento,6,885,101,show_text,\sh\dxn[Eda]¡Te dije que nos lo dejaras a nosotros! ¡Maldita sea!
+map,1,,5,Meteorito evento,6,887,355,script,"pbZoomMap(2,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,6,893,101,show_text,\ts[3]T-tú entender mejor que nadie... Eda
+map,1,,5,Meteorito evento,6,895,101,show_text,\ts[3]Hubieras hecho lo mismo... ¿verdad?
+map,1,,5,Meteorito evento,6,900,355,script,"pbZoomMap(3,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,6,907,101,show_text,\ts[3]L-Lykos... Ser capturado...
+map,1,,5,Meteorito evento,6,909,101,show_text,\ts[4]S-Salvarlo... Por favor...
+map,1,,5,Meteorito evento,6,915,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,917,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,6,929,101,show_text,\sh\dxn[Darek]¡Mahina!
+map,1,,5,Meteorito evento,6,938,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,6,944,108,comment,// Flashback de ella tirada en el suelo
+map,1,,5,Meteorito evento,6,966,101,show_text,\dxn[Eda](¡...!)
+map,1,,5,Meteorito evento,6,970,101,show_text,"\ts[3]\dxn[Eda]Ocúpate de ella, Darek."
+map,1,,5,Meteorito evento,6,1001,101,show_text,\sh\dxn[Darek]¡Eda...! ¡Espera!
+map,1,,5,Meteorito evento,6,1007,101,show_text,"\dxn[Eda]¿Esto es culpa vuestra, verdad?"
+map,1,,5,Meteorito evento,6,1011,101,show_text,\dxn[Eda]Los mismos que habéis capturado a Papu Koko y capturaron a Latios en su momento...
+map,1,,5,Meteorito evento,6,1016,101,show_text,"\dxn[Sophie]¡Sí, pero...!"
+map,1,,5,Meteorito evento,6,1021,101,show_text,"\sh\dxn[Sophie]¡O sea, te equivocas! ¡Nosotros no hemos hecho daño a tu amiga! ¡Hay más enemigos en esta isla!"
+map,1,,5,Meteorito evento,6,1025,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,6,1032,101,show_text,\dxn[Sophie]¡Ha sido culpa de ese Fla...!
+map,1,,5,Meteorito evento,6,1038,101,show_text,\sh\dxn[Sophie]¡¿Dónde se ha metido?!
+map,1,,5,Meteorito evento,6,1045,101,show_text,\dxn[William](Vega is always one step ahead of us... now it seems like we're lying.)
+map,1,,5,Meteorito evento,6,1054,101,show_text,"\dxn[Sophie]¡Más bien, deberíais salir de aquí de inmediato si apreciáis vuestras vi...!"
+map,1,,5,Meteorito evento,6,1056,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,6,1058,101,show_text,\sh\dxn[Eda]¡CÁLLATE!
+map,1,,5,Meteorito evento,6,1064,101,show_text,\sh\dxn[Eda]¿¡Me tomas por tonta!? ¡Lo he visto todo!
+map,1,,5,Meteorito evento,6,1068,101,show_text,\sh\dxn[Eda]¡Papu Koko me mostró lo que ha sucedido en la playa!
+map,1,,5,Meteorito evento,6,1092,101,show_text,\sh\dxn[Eda]¡Devolvednos a los Papus y a Lykos ahora mismo!
+map,1,,5,Meteorito evento,6,1099,355,script,Pokemon.play_cry(:BLAZIKEN)
+map,1,,5,Meteorito evento,6,1100,101,show_text,\sh\f[blaziken002]¡Ken!
+map,1,,5,Meteorito evento,6,1102,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,6,1106,101,show_text,\ts[2]\dxn[Sophie]¡P-pero...!
+map,1,,5,Meteorito evento,6,1116,101,show_text,"\ts[2]\dxn[William]Fair enough, Sophie. We are their enemies."
+map,1,,5,Meteorito evento,6,1122,101,show_text,\ts[2]\dxn[William]Now... we must face what we've done.
+map,1,,5,Meteorito evento,6,1126,101,show_text,\ts[2]\dxn[William]It's us against the world.
+map,1,,5,Meteorito evento,6,1134,101,show_text,\ts[1]\dxn[Sophie]Tienes razón... supongo que es consecuencia de nuestros actos.
+map,1,,5,Meteorito evento,6,1146,355,script,"pbZoomMap(2,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,6,1154,101,show_text,<ac>Yo me encargo.</ac>
+map,1,,5,Meteorito evento,6,1155,108,comment,// Scizor
+map,1,,5,Meteorito evento,6,1156,355,script,pbCameraToEvent(49)
+map,1,,5,Meteorito evento,6,1160,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,1162,355,script,Pokemon.play_cry(:SCIZOR)
+map,1,,5,Meteorito evento,6,1167,101,show_text,\sh\f[scizor000]¡Zor!
+map,1,,5,Meteorito evento,6,1169,355,script,pbCameraToEvent(42)
+map,1,,5,Meteorito evento,6,1178,101,show_text,\sh\f[latias003]¡Lat!
+map,1,,5,Meteorito evento,6,1179,355,script,pbCameraToEvent(44)
+map,1,,5,Meteorito evento,6,1182,101,show_text,\sh\f[latios005]¡Lat!
+map,1,,5,Meteorito evento,6,1184,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,6,1188,101,show_text,\ts[2]\dxn[Darek]<i>(¡Algo pasa con estos dos!)</i>
+map,1,,5,Meteorito evento,6,1192,101,show_text,\ts[1]\dxn[Darek]<i>(Parece que se quieren comunicar pero no pueden...)</i>
+map,1,,5,Meteorito evento,6,1199,101,show_text,"\sh\dxn[Darek]¡Eda, algo raro está pasando!"
+map,1,,5,Meteorito evento,6,1201,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,6,1207,101,show_text,"\sh\dxn[Eda]¡Que no le he dado su merecido, eso es lo que pasa!"
+map,1,,5,Meteorito evento,6,1211,101,show_text,\dxn[Eda]¡Os la debo desde Ciudad Cardenal! ¡Soy mucho más fuerte que en aquel entonces!
+map,1,,5,Meteorito evento,6,1217,101,show_text,\sh\dxn[Eda]¡Os vais a enterar!
+map,1,,5,Meteorito evento,6,1220,355,script,"setBattleRule(""canLose"")"
+map,1,,5,Meteorito evento,6,1233,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,6,1243,101,show_text,"\sh\dxn[William]Sophie! Get out of there, now!"
+map,1,,5,Meteorito evento,6,1255,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,6,1256,355,script,pbCameraToEvent(32)
+map,1,,5,Meteorito evento,6,1287,355,script,"pbZoomMap(1,1,zoom=""out"")"
+map,1,,5,Meteorito evento,6,1290,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,6,1295,101,show_text,\sh\dxn[Sophie]¡William!
+map,1,,5,Meteorito evento,6,1297,101,show_text,\ts[2]\dxn[William]I knew she was hiding from us...
+map,1,,5,Meteorito evento,7,0,108,comment,// Aquí empieza lo loco
+map,1,,5,Meteorito evento,7,8,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,14,101,show_text,\sh\dxn[Darek]¡¿D-de dónde ha salido ese \c[5]Psicocorte\c[0]?!
+map,1,,5,Meteorito evento,7,16,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,19,101,show_text,\sh\dxn[Eda]¡V-Venía directo hacia aquí!
+map,1,,5,Meteorito evento,7,21,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,32,101,show_text,\sh\dxn[Sophie]¡William! ¡¿Por qué has hecho eso?!
+map,1,,5,Meteorito evento,7,37,101,show_text,\ts[2]\dxn[Sophie]¡Tu hombro... \wt[15]está destrozado!
+map,1,,5,Meteorito evento,7,39,355,script,pbCameraToEvent(49)
+map,1,,5,Meteorito evento,7,42,101,show_text,\f[scizor001]¡Zor...!
+map,1,,5,Meteorito evento,7,46,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,7,52,101,show_text,"\ts[2]\dxn[William]T-that attack... it was meant to kill you, Sophie. It was coming straight at you."
+map,1,,5,Meteorito evento,7,57,101,show_text,"\dxn[???]Vaya, vaya... Pensé que me podría llevar uno por delante, al menos..."
+map,1,,5,Meteorito evento,7,64,108,comment,// Vega appears GOD
+map,1,,5,Meteorito evento,7,71,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,72,355,script,"pbZoomMap(1.5,0.05,zoom=""in"")"
+map,1,,5,Meteorito evento,7,144,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,147,101,show_text,\dxn[Dra. Vega]Para ser un simple \c[2]escalvo de Celestia\c[0] tienes mejor percepción que tu pareja...
+map,1,,5,Meteorito evento,7,155,101,show_text,\ts[3]\dxn[Dra. Vega]William.
+map,1,,5,Meteorito evento,7,157,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,161,101,show_text,"\sh\dxn[Sophie]¡¿Cómo puedes decir algo así, \c[1]Vega\c[0]?!"
+map,1,,5,Meteorito evento,7,163,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,167,101,show_text,"\sh\dxn[Eda]¡Hey, espera! ¡¿No son esos Lykos y Lucario?!"
+map,1,,5,Meteorito evento,7,169,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,174,101,show_text,\ts[3]\dxn[Darek]¿Vega?
+map,1,,5,Meteorito evento,7,176,108,comment,// Flashback sementerio
+map,1,,5,Meteorito evento,7,187,101,show_text,\w[]
+map,1,,5,Meteorito evento,7,198,101,show_text,\w[]
+map,1,,5,Meteorito evento,7,230,101,show_text,"\sh\dxn[Darek]¡Eda, \v[277] nos hablo de ella en la Guarida de Ciudad Lugano!"
+map,1,,5,Meteorito evento,7,234,101,show_text,\dxn[Darek]¡Ella es la que inventó la Poké Ball con la que Lucario fue atrapado!
+map,1,,5,Meteorito evento,7,236,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,241,101,show_text,\sh\dxn[Eda]¡¿HUUUUH?!
+map,1,,5,Meteorito evento,7,245,101,show_text,\dxn[Eda]¿Esta vieja es la responsable de que Lucario haya perdido sus recuerdos?
+map,1,,5,Meteorito evento,7,265,101,show_text,"\sh\dxn[Eda]¡Entonces es algo personal, se va a enterar!"
+map,1,,5,Meteorito evento,7,267,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,272,101,show_text,\sh\dxn[Sophie]¡¿Se puede saber por qué estás haciendo esto?!
+map,1,,5,Meteorito evento,7,274,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,280,101,show_text,"\dxn[Dra. Vega]¿No es evidente, muñeca?"
+map,1,,5,Meteorito evento,7,285,101,show_text,"\dxn[Dra. Vega]Quería quitarme a \c[2]Estela\c[0] de encima de una vez por todas, pero os ha mandado a vosotros por algún motivo."
+map,1,,5,Meteorito evento,7,289,101,show_text,"\dxn[Dra. Vega]Pensé que sería ella quien vendría personalmente a la isla por la esfera, pero parece que \c[2]ha sucedido algo\c[0] que no entraba en mis cálculos."
+map,1,,5,Meteorito evento,7,291,108,comment,// Flashback sementerio
+map,1,,5,Meteorito evento,7,296,101,show_text,\w[]
+map,1,,5,Meteorito evento,7,300,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,305,101,show_text,\sh\dxn[Sophie]¡¿Q-qué has dicho?! ¡¿Ocuparte de Estela?!
+map,1,,5,Meteorito evento,7,310,101,show_text,\dxn[Sophie]¿Por qué estarías en contra de ella? Tanto ella como nosotros somos descendientes de Celestia.
+map,1,,5,Meteorito evento,7,312,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,317,101,show_text,"\ts[2]\dxn[Dra. Vega]Seres celestiales, dioses... estoy harta de todo eso."
+map,1,,5,Meteorito evento,7,321,101,show_text,\dxn[Dra. Vega]¿Qué nos distingue de ellos?
+map,1,,5,Meteorito evento,7,325,101,show_text,\dxn[Dra. Vega]Simplemente son humanos que proceden de un mundo distinto gracias a sus antecesores.
+map,1,,5,Meteorito evento,7,329,101,show_text,"\dxn[Dra. Vega]Su cerebro está igual de desarrollado que el de un humano promedio, ninguno de ellos ha pasado por el \c[2]mismo proceso\c[0] que yo."
+map,1,,5,Meteorito evento,7,333,101,show_text,\dxn[Dra. Vega]Si eso es así...
+map,1,,5,Meteorito evento,7,338,101,show_text,\sh\dxn[Dra. Vega]¡¿Por qué debería estar lamiendo los zapatos de esa sucia arpía cuando mi capacidad intelectual es superior a la de ella?!
+map,1,,5,Meteorito evento,7,340,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,347,101,show_text,\sh\dxn[Sophie]¡¿Cómo te atreves a mencionar a la princesa de esa forma?!
+map,1,,5,Meteorito evento,7,351,101,show_text,"\dxn[Sophie]¡Estela es la mano derecha de Arceus! ¡Estar en su contra, y en contra de la Familia Real, significa oponerte a los dioses de este mundo!"
+map,1,,5,Meteorito evento,7,353,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,357,101,show_text,\dxn[Dra. Vega]¿De qué estás hablando?
+map,1,,5,Meteorito evento,7,362,101,show_text,\dxn[Dra. Vega]¿Acaso no lo entiendes todavía?
+map,1,,5,Meteorito evento,7,364,108,comment,// tp Tier C Flawless
+map,1,,5,Meteorito evento,7,387,101,show_text,\dxn[Dra. Vega]Ahora tengo un ejército enorme de perfectos entrenadores sin emociones y el Pokémon más fuerte del Universo.
+map,1,,5,Meteorito evento,7,391,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,392,101,show_text,\f[deoxys_000]¡Deoxys!
+map,1,,5,Meteorito evento,7,396,101,show_text,"\ts[3]\dxn[Dra. Vega]¿Quién es el Dios aquí, muchacha?"
+map,1,,5,Meteorito evento,7,400,101,show_text,\dxn[Dra. Vega]No me ha hecho falta sangre heredada ni establecer lazos con Pokémon para llegar hasta este punto.
+map,1,,5,Meteorito evento,7,404,101,show_text,"\dxn[Dra. Vega]He confiado únicamente en mi intelecto y he tratado a todos los seres a mi alrededor como lo que son, meros instrumentos."
+map,1,,5,Meteorito evento,7,406,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,411,101,show_text,\dxn[Sophie]Has trabajando durante más de 15 años para la Familia Real...
+map,1,,5,Meteorito evento,7,415,101,show_text,\dxn[Sophie]¿Y ahora intentas deshacerte de todos nosotros?
+map,1,,5,Meteorito evento,7,419,101,show_text,\sh\dxn[Sophie]¡¿Cómo no sientes ni un mínimo de empa...?!
+map,1,,5,Meteorito evento,7,421,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,423,101,show_text,\dxn[Dra. Vega]Conveniencia.
+map,1,,5,Meteorito evento,7,433,101,show_text,\dxn[Dra. Vega]Por eso no os aguanto. Los sentimientos solo nos arrastran a tomar malas decisiones.
+map,1,,5,Meteorito evento,7,437,101,show_text,\dxn[Dra. Vega]Trabajar con la Familia Real fue por simple conveniencia.
+map,1,,5,Meteorito evento,7,441,101,show_text,"\dxn[Dra. Vega]Pusimos en marcha mi proyecto Flawless. Para mantener vuestro mandato, era todo un puntazo... ¿verdad?"
+map,1,,5,Meteorito evento,7,445,101,show_text,\dxn[Dra. Vega]Sin embargo...
+map,1,,5,Meteorito evento,7,453,101,show_text,\sh\dxn[Dra. Vega]¡Nunca dije que fueran a estar a vuestro servicio del todo!
+map,1,,5,Meteorito evento,7,457,101,show_text,"\dxn[Dra. Vega]Yo soy Madre, su creadora, su máxima autoridad."
+map,1,,5,Meteorito evento,7,461,101,show_text,"\dxn[Dra. Vega]¡Sus cerebros siguen siendo el de unos niños, todos harán lo que su madre les diga!"
+map,1,,5,Meteorito evento,7,463,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,468,101,show_text,"\sh\dxn[Eda]¡Ya está bien, no pienso escuchar una palabra más!"
+map,1,,5,Meteorito evento,7,472,101,show_text,"\ts[2]\dxn[Eda]No te conozco, pero tu manera de hacer las cosas me está dando mucho asco..."
+map,1,,5,Meteorito evento,7,476,101,show_text,\sh\dxn[Eda]¡Devuélvenos a Lucario y a Lykos ahora mismo!
+map,1,,5,Meteorito evento,7,482,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,487,101,show_text,"\dxn[Dra. Vega]Vosotros sois los supuestos héroes de Latias y Latios, ¿me equivoco?"
+map,1,,5,Meteorito evento,7,492,101,show_text,\dxn[Dra. Vega]Tener los Pokémon Eón y la esfera a mi alcance puede ser más beneficioso de lo que esperaba.
+map,1,,5,Meteorito evento,7,494,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,500,101,show_text,\dxn[Sophie]Entonces... ¿Planeabas quedarte con la Esfera de Latios?
+map,1,,5,Meteorito evento,7,502,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,507,101,show_text,\dxn[Dra. Vega]No exactamente...
+map,1,,5,Meteorito evento,7,511,101,show_text,"\dxn[Dra. Vega]Después de una larga investigación, descubrí que \c[2]algo más\c[0] podía estar escondiéndose en el Corazón de la Isla del Sur."
+map,1,,5,Meteorito evento,7,515,101,show_text,"\dxn[Dra. Vega]Pero para poder capturarlo, sin duda necesitaba a este Pokémon que tengo a mi lado... ¡Deoxys!"
+map,1,,5,Meteorito evento,7,519,101,show_text,"\sh\dxn[Dra. Vega]¡Con eso, ni vuestro querido \c[2]Rey Aurath\c[0] sería capaz de pararme los pies!"
+map,1,,5,Meteorito evento,7,522,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,527,101,show_text,"\sh\dxn[Sophie]¡No digas tonterías, Vega! ¡Eso es imposible!"
+map,1,,5,Meteorito evento,7,529,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,7,533,101,show_text,\ts[3]\dxn[William]She's not lying... Sophie.
+map,1,,5,Meteorito evento,7,541,101,show_text,"\ts[2]\dxn[William]That Pokémon in front of us, Deoxys.... Its power is terrifying."
+map,1,,5,Meteorito evento,7,545,101,show_text,"\ts[1]\dxn[William]Thanks to Vega, we've seen Pokémon from other worlds and eras... but never a creature like this, Sophie."
+map,1,,5,Meteorito evento,7,552,355,script,"pbCameraScrollTo(80,33)"
+map,1,,5,Meteorito evento,7,555,101,show_text,"\ts[2]\dxn[William]This is serious, kids. You should go out of this island."
+map,1,,5,Meteorito evento,7,557,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,7,564,101,show_text,\sh\dxn[Eda]¡¿HUUUUH?! ¡Nosotros no nos vamos de aquí sin Lykos y sin la esfera!
+map,1,,5,Meteorito evento,7,573,101,show_text,"\sh\dxn[Darek]¡Latios, saca a Mahina de esta isla de inmediato!"
+map,1,,5,Meteorito evento,7,577,101,show_text,\f[latios003]¡Lat!
+map,1,,5,Meteorito evento,7,578,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,582,108,comment,// Vega con Deoxys detrás
+map,1,,5,Meteorito evento,7,583,101,show_text,\ts[2]\dxn[Dra. Vega]¿Quién ha dicho que podáis moveros de aquí?
+map,1,,5,Meteorito evento,7,585,101,show_text,\ts[2]\dxn[Dra. Vega]Nadie...
+map,1,,5,Meteorito evento,7,586,355,script,"pbZoomMap(1.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,592,101,show_text,\ts[4]\c[2]<ac>Nadie va a salir de esta isla con vida.</ac>\c[0]
+map,1,,5,Meteorito evento,7,593,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,595,101,show_text,\sh<ac>¡Adelante!</ac>
+map,1,,5,Meteorito evento,7,614,355,script,"pbCameraScrollTo(80,38)"
+map,1,,5,Meteorito evento,7,617,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,643,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,7,683,101,show_text,\sh\dxn[Eda]¡Se han puesto justo detrás!
+map,1,,5,Meteorito evento,7,689,101,show_text,\dxn[Darek]<i>(¡Esto se está poniendo demasiado feo...!!)</i>
+map,1,,5,Meteorito evento,7,693,101,show_text,"\dxn[Darek]<i>(¡Debo sacarla de aquí, pero Latias y Latios nos pueden ser necesarios...!)</i>"
+map,1,,5,Meteorito evento,7,695,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,700,355,script,pbCameraToEvent(65)
+map,1,,5,Meteorito evento,7,703,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,706,355,script,Pokemon.play_cry(:STARAPTOR)
+map,1,,5,Meteorito evento,7,707,101,show_text,\f[staraptor000]¡Raptor!
+map,1,,5,Meteorito evento,7,710,101,show_text,"\sh\dxn[Darek]¡Saca a Mahina de aquí, Staraptor!"
+map,1,,5,Meteorito evento,7,712,355,script,Pokemon.play_cry(:STARAPTOR)
+map,1,,5,Meteorito evento,7,749,355,script,pbCameraToEvent(2)
+map,1,,5,Meteorito evento,7,755,101,show_text,\ts[2]\dxn[Flawless FX-03]Ya podéis dejar de actuar.
+map,1,,5,Meteorito evento,7,756,355,script,"pbCameraScrollTo(80,29)"
+map,1,,5,Meteorito evento,7,784,355,script,Pokemon.play_cry(:AGGRON)
+map,1,,5,Meteorito evento,7,785,355,script,Pokemon.play_cry(:HYDREIGON)
+map,1,,5,Meteorito evento,7,795,355,script,"pbCameraScrollTo(80,32)"
+map,1,,5,Meteorito evento,7,799,101,show_text,\dxn[Sophie]<i>(Nos la han liado pero bien...)</i>
+map,1,,5,Meteorito evento,7,811,101,show_text,"\dxn[Sophie]Parejita, tocará hacer equipo por ahora."
+map,1,,5,Meteorito evento,7,816,101,show_text,\dxn[Sophie]Espero que podáis cubrir ahí abajo.
+map,1,,5,Meteorito evento,7,820,101,show_text,\sh\dxn[Eda]¡Más os vale que no intentéis nada raro!
+map,1,,5,Meteorito evento,7,822,355,script,"pbCameraScrollTo(80,32)"
+map,1,,5,Meteorito evento,7,839,355,script,Pokemon.play_cry(:SCIZOR)
+map,1,,5,Meteorito evento,7,840,355,script,Pokemon.play_cry(:MACHAMP)
+map,1,,5,Meteorito evento,7,842,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,7,851,101,show_text,\sh\dxn[Eda]¡Vamos a reventar a esta chatarra!
+map,1,,5,Meteorito evento,7,853,355,script,Pokemon.play_cry(:BLAZIKEN)
+map,1,,5,Meteorito evento,7,854,355,script,Pokemon.play_cry(:SCEPTILE)
+map,1,,5,Meteorito evento,7,855,355,script,Pokemon.play_cry(:LATIOS)
+map,1,,5,Meteorito evento,7,856,355,script,Pokemon.play_cry(:LATIAS)
+map,1,,5,Meteorito evento,7,859,355,script,pkmn = pbGet(414)
+map,1,,5,Meteorito evento,7,860,655,script_cont,pbAddPokemonSilent(pkmn)
+map,1,,5,Meteorito evento,7,862,108,comment,// CAMBIAMOS A DAREK Y LE QUITO A STARAPTOR XDDDDDD
+map,1,,5,Meteorito evento,7,863,355,script,$game_variables[420] = $Trainer.party
+map,1,,5,Meteorito evento,7,865,355,script,"pbRemoveDependency2(""Darek"")"
+map,1,,5,Meteorito evento,7,867,355,script,"pbSwitchCharacter(3,""Darek"",0)"
+map,1,,5,Meteorito evento,7,869,355,script,$Trainer.outfit = 1
+map,1,,5,Meteorito evento,7,871,355,script,"pbAddDependency2(50,""Eda"",54)"
+map,1,,5,Meteorito evento,7,873,355,script,pbDeregisterPartner
+map,1,,5,Meteorito evento,7,875,355,script,"pbRegisterPartner(:POKEMONTRAINER_Yoimiya_SI,""Eda"",9)"
+map,1,,5,Meteorito evento,7,876,355,script,$PokemonGlobal.partner[3] = pbGet(420)
+map,1,,5,Meteorito evento,7,880,355,script,$game_variables[997] = $PokemonGlobal.dependentEvents
+map,1,,5,Meteorito evento,7,882,655,script_cont,if $game_switches[1221] == true
+map,1,,5,Meteorito evento,7,883,655,script_cont,if $game_variables[408] == 0
+map,1,,5,Meteorito evento,7,884,655,script_cont,"pbRemoveDependency2(""Darek"")"
+map,1,,5,Meteorito evento,7,885,655,script_cont,else
+map,1,,5,Meteorito evento,7,886,655,script_cont,"pbRemoveDependency2(""Eda"")"
+map,1,,5,Meteorito evento,7,887,655,script_cont,end
+map,1,,5,Meteorito evento,7,888,655,script_cont,end
+map,1,,5,Meteorito evento,7,890,655,script_cont,pbAddDependency3(pbGet(997))
+map,1,,5,Meteorito evento,7,892,355,script,for i in (0...$Trainer.party.length)
+map,1,,5,Meteorito evento,7,893,655,script_cont,pkmn = $Trainer.party[i]
+map,1,,5,Meteorito evento,7,894,655,script_cont,if pkmn.species == :STARAPTOR
+map,1,,5,Meteorito evento,7,895,655,script_cont,$game_variables[416] = pkmn
+map,1,,5,Meteorito evento,7,896,655,script_cont,pbRemovePokemonAt(i)
+map,1,,5,Meteorito evento,7,897,655,script_cont,break
+map,1,,5,Meteorito evento,7,898,655,script_cont,end
+map,1,,5,Meteorito evento,7,899,655,script_cont,end
+map,1,,5,Meteorito evento,7,901,355,script,pkmn = pbGet(413)
+map,1,,5,Meteorito evento,7,902,655,script_cont,pbAddPokemonSilent(pkmn)
+map,1,,5,Meteorito evento,7,903,108,comment,########################
+map,1,,5,Meteorito evento,7,904,108,comment,// COMBATE CONTRA LOS FLAWLESS
+map,1,,5,Meteorito evento,7,905,355,script,"setBattleRule(""canLose"")"
+map,1,,5,Meteorito evento,7,919,101,show_text,\sh\dxn[Eda]¡¿Qué les ocurre a esos Pokémon?!
+map,1,,5,Meteorito evento,7,923,101,show_text,\ts[2]\dxn[Eda]Parecían \c[2]no tener alma\c[0] y eran \c[2]más duros\c[0] de lo normal...
+map,1,,5,Meteorito evento,7,933,101,show_text,"\sh\dxn[Darek]¡Eda, hay que destruir estos monstruos!"
+map,1,,5,Meteorito evento,7,937,101,show_text,\dxn[Darek]¡\v[277] dijo que estos androides son niños que están siendo manipulados! ¡Que podían llegar a sentir y estar sufriendo!
+map,1,,5,Meteorito evento,7,948,101,show_text,\sh\dxn[Eda]¡Entonces terminad con su sufrimiento!
+map,1,,5,Meteorito evento,7,953,355,script,"pbCameraScrollTo(80,37)"
+map,1,,5,Meteorito evento,7,974,101,show_text,\sh\dxn[Flawless Rango C]¡Peligro detectado!
+map,1,,5,Meteorito evento,7,975,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,7,978,101,show_text,\sh\dxn[Darek]¡Ahora!
+map,1,,5,Meteorito evento,7,1057,101,show_text,\dxn[Eda]...
+map,1,,5,Meteorito evento,7,1080,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,1087,101,show_text,\sh\dxn[Dra. Vega]¡¿Se puede saber qué hacéis con mis hijos?!
+map,1,,5,Meteorito evento,7,1100,101,show_text,\sh\dxn[Dra. Vega]¡Pagaréis por lo que habéis hecho!
+map,1,,5,Meteorito evento,7,1108,101,show_text,"\sh\dxn[Dra. Vega]¡Flawless-FX03, guarda tus Pokémon!"
+map,1,,5,Meteorito evento,7,1110,355,script,"pbCameraScrollTo(80,30)"
+map,1,,5,Meteorito evento,7,1121,101,show_text,"\dxn[William]You've realized what type that Pokémon is, right?"
+map,1,,5,Meteorito evento,7,1125,101,show_text,\dxn[Sophie]Por supuesto. Tu Machamp no puede hacer mucho aquí.
+map,1,,5,Meteorito evento,7,1129,101,show_text,"\dxn[Sophie]Nosotros nos ocuparemos de ello, Scizor."
+map,1,,5,Meteorito evento,7,1133,101,show_text,\f[scizor_mega_000]¡Zor!
+map,1,,5,Meteorito evento,7,1148,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,1152,101,show_text,"\sh\dxn[Dra. Vega]¡Adelante, Deoxys! ¡Empieza el espectáculo!"
+map,1,,5,Meteorito evento,7,1154,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,1155,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,7,1164,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,1165,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1168,101,show_text,\f[deoxys_000]¡Deoxys!
+map,1,,5,Meteorito evento,7,1170,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,1178,101,show_text,"\sh\dxn[Sophie]¡Niños, echadnos una mano!"
+map,1,,5,Meteorito evento,7,1180,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,1184,101,show_text,"\sh\dxn[Eda]¡No me des órdenes, no hace falta que me lo digas!"
+map,1,,5,Meteorito evento,7,1189,101,show_text,"\sh\dxn[Eda]¡Chic, no le dejes hacer lo que quiera a ese Pokémon!"
+map,1,,5,Meteorito evento,7,1193,101,show_text,\sh\dxn[Eda]¡Usa \c[2]Patada ígnea\c[0]!
+map,1,,5,Meteorito evento,7,1195,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,1198,101,show_text,"\sh\dxn[Darek]¡\c[3]Hoja Aguda\c[0], Sceptile!"
+map,1,,5,Meteorito evento,7,1200,355,script,pbCameraToEvent(51)
+map,1,,5,Meteorito evento,7,1202,355,script,Pokemon.play_cry(:BLAZIKEN)
+map,1,,5,Meteorito evento,7,1203,101,show_text,\f[blaziken002]¡Ken!
+map,1,,5,Meteorito evento,7,1204,355,script,pbCameraToEvent(52)
+map,1,,5,Meteorito evento,7,1206,355,script,Pokemon.play_cry(:SCEPTILE)
+map,1,,5,Meteorito evento,7,1207,101,show_text,\f[sceptile002]¡Scept!
+map,1,,5,Meteorito evento,7,1212,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,7,1213,355,script,"pbZoomMap(2.5,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,1300,355,script,"pbZoomMap(1.5,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,1313,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,7,1315,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,7,1326,101,show_text,\ts[5]<ac>\c[2]Demasiado débil.\c[0]</ac>
+map,1,,5,Meteorito evento,7,1328,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,1351,355,script,Pokemon.play_cry(:BLAZIKEN)
+map,1,,5,Meteorito evento,7,1352,355,script,Pokemon.play_cry(:SCEPTILE)
+map,1,,5,Meteorito evento,7,1354,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,1361,101,show_text,\ts[2]<i>\dxn[Eda]¡Tch...!</i>
+map,1,,5,Meteorito evento,7,1363,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,1368,101,show_text,\dxn[Darek]¿Cómo pueden ser tan rápidos y resistentes?
+map,1,,5,Meteorito evento,7,1370,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,1374,101,show_text,\dxn[Dra. Vega]Mis hijos han sido modificados con la sangre de algunos miembros de la Familia Real...
+map,1,,5,Meteorito evento,7,1379,101,show_text,\sh\dxn[Dra. Vega]¡Cuentan con la \c[2]fuerza física de William\c[0] y la sobresaliente \c[2]agilidad de Majime\c[0]!
+map,1,,5,Meteorito evento,7,1381,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,1386,101,show_text,\sh\dxn[Sophie]¡Es por eso que...!
+map,1,,5,Meteorito evento,7,1388,108,comment,// Flashback sementerio
+map,1,,5,Meteorito evento,7,1400,101,show_text,"\sh\dxn[Sophie]¡Maldita seas, Vega!"
+map,1,,5,Meteorito evento,7,1402,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,1405,101,show_text,\dxn[Darek]¡Todavía nos queda una baza!
+map,1,,5,Meteorito evento,7,1409,101,show_text,"\sh\dxn[Darek]¡Latios, Latias! ¡Atacad!"
+map,1,,5,Meteorito evento,7,1411,355,script,pbCameraToEvent(43)
+map,1,,5,Meteorito evento,7,1454,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,7,1494,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1496,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,7,1508,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,7,1514,101,show_text,\f[latios005]¡Lat...!
+map,1,,5,Meteorito evento,7,1515,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,1521,101,show_text,\sh\dxn[Darek]¡¿Los han detenido con poderes psíquicos?!
+map,1,,5,Meteorito evento,7,1526,101,show_text,\sh\dxn[Darek]¡Usad \c[9]Pulso Dragón\c[0]!
+map,1,,5,Meteorito evento,7,1528,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,7,1536,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,7,1539,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,7,1541,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1568,355,script,pbCameraShake(12)
+map,1,,5,Meteorito evento,7,1576,101,show_text,\sh\dxn[Eda]¡Le dimos!
+map,1,,5,Meteorito evento,7,1579,355,script,pbCameraShake(4)
+map,1,,5,Meteorito evento,7,1582,101,show_text,\ts[5]\dxn[Dra. Vega]...
+map,1,,5,Meteorito evento,7,1584,355,script,"pbZoomMap(3,1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,1587,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,7,1603,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,7,1614,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1615,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,7,1616,101,show_text,\f[deoxys_DEF_000]¡Deoxys!
+map,1,,5,Meteorito evento,7,1617,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,7,1618,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,1624,101,show_text,\sh\dxn[Eda]¡¿Ha cambiado de forma?!
+map,1,,5,Meteorito evento,7,1626,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,1630,101,show_text,"\dxn[Darek]¡Tch, se nos acaban las opciones...!"
+map,1,,5,Meteorito evento,7,1632,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,7,1636,101,show_text,\ts[3]\dxn[William]Sophie... \wt[15]that Pokémon...
+map,1,,5,Meteorito evento,7,1638,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,1641,101,show_text,\ts[2]\dxn[Sophie]Cambia de forma según la situación... ¿verdad?
+map,1,,5,Meteorito evento,7,1645,101,show_text,\ts[3]\dxn[Sophie]Entonces...
+map,1,,5,Meteorito evento,7,1647,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,1658,101,show_text,\sh\dxn[Dra. Vega]¡Deoxys es imparable!
+map,1,,5,Meteorito evento,7,1662,101,show_text,"\sh\dxn[Dra. Vega]¡Adelante, usa todo tu poder!"
+map,1,,5,Meteorito evento,7,1664,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,7,1666,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1667,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,1677,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,1682,101,show_text,"\sh\dxn[Sophie]¡Ahora, ataca!"
+map,1,,5,Meteorito evento,7,1684,355,script,pbCameraToEvent(2)
+map,1,,5,Meteorito evento,7,1691,101,show_text,"\sh\dxn[Flawless FX-04]¡En el cielo, madre!"
+map,1,,5,Meteorito evento,7,1700,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,1701,355,script,pbCameraToEvent(49)
+map,1,,5,Meteorito evento,7,1727,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,1,,5,Meteorito evento,7,1741,101,show_text,\f[scizor_mega_000]¡Zor!
+map,1,,5,Meteorito evento,7,1744,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1745,101,show_text,\sh\f[deoxys_ATK_001]¡¿De...?!
+map,1,,5,Meteorito evento,7,1763,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,1775,101,show_text,\sh\dxn[Dra. Vega]¡¿Qué demonios?! ¡¿Sophie?!
+map,1,,5,Meteorito evento,7,1781,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,1785,101,show_text,\dxn[Sophie]Sabía que debía guardar a Scizor en las sombras...
+map,1,,5,Meteorito evento,7,1789,101,show_text,"\dxn[Sophie]Gracias a los ataques de los chicos, ahora sabemos que ese monstruo puede cambiar de forma a voluntad."
+map,1,,5,Meteorito evento,7,1793,101,show_text,\dxn[Sophie]Pensé que sus estadísticas cambiarían totalmente en base a su forma.
+map,1,,5,Meteorito evento,7,1797,101,show_text,"\dxn[Sophie]¡Pero aunque eso no funcionara así, mi \c[2]Mega Scizor\c[0] es capaz de cortarlo todo!"
+map,1,,5,Meteorito evento,7,1802,101,show_text,\dxn[Sophie]¿Pensabas que nos habías encerrado? Ahora lo sabemos todo y tu Pokémon está en apuros.
+map,1,,5,Meteorito evento,7,1807,101,show_text,"\sh\dxn[Sophie]¡<i>Jaque Mate</i>, Vega!"
+map,1,,5,Meteorito evento,7,1809,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,1813,101,show_text,"\dxn[Eda]¿Qué harás ahora, vieja?"
+map,1,,5,Meteorito evento,7,1818,101,show_text,\sh\dxn[Eda]¡Vengaremos la familia de Mahina! ¡Y nos devolverás a nuestros amigos!
+map,1,,5,Meteorito evento,7,1820,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,1831,101,show_text,\ts[4]\dxn[Dra. Vega]¿Familia?
+map,1,,5,Meteorito evento,7,1833,108,comment,// Flashback sementerio
+map,1,,5,Meteorito evento,7,1844,101,show_text,"\ts[2]\dxn[Dra. Vega]Teletransporta esos dos a las \c[2]Ruinas del Este\c[0], Deoxys."
+map,1,,5,Meteorito evento,7,1846,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,7,1848,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1868,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,1874,101,show_text,\sh\dxn[Eda]¡Se los ha llevado!
+map,1,,5,Meteorito evento,7,1876,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,7,1881,101,show_text,\ts[3]\dxn[William]Something goes wrong...
+map,1,,5,Meteorito evento,7,1883,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,1887,101,show_text,"\ts[2]\dxn[Darek]Aún con ese corte, sus poderes psíquicos no han desaparecido..."
+map,1,,5,Meteorito evento,7,1889,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,1893,101,show_text,\sh\dxn[Sophie]¡Quieres decir...!
+map,1,,5,Meteorito evento,7,1895,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,1904,101,show_text,\sh\dxn[Dra. Vega]¡Pequeñas ratas! ¿Acaso creéis que cambiar de forma es su única virtud?
+map,1,,5,Meteorito evento,7,1909,101,show_text,\sh\dxn[Dra. Vega]¡Su ADN va mucho más allá!
+map,1,,5,Meteorito evento,7,1911,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,7,1913,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1914,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,1921,355,script,pbCameraShake(4)
+map,1,,5,Meteorito evento,7,1932,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,7,1967,355,script,pbCameraShake(4)
+map,1,,5,Meteorito evento,7,1980,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,7,1989,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,1990,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,1991,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,7,1993,101,show_text,\f[deoxys_000]¡Deoxys!
+map,1,,5,Meteorito evento,7,1994,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,7,1995,355,script,pbCameraToEvent(37)
+map,1,,5,Meteorito evento,7,2003,355,script,pbCameraShake(10)
+map,1,,5,Meteorito evento,7,2005,101,show_text,\sh\dxn[Darek y Eda]<ac>¡¿HUUUUUUUUUUUUH?!</ac>
+map,1,,5,Meteorito evento,7,2008,101,show_text,\sh\dxn[Darek y Eda]<ac>¡SÍ HOMBRE! ¡Y QUÉ MÁS!</ac>
+map,1,,5,Meteorito evento,7,2010,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,7,2012,355,script,pbCameraToEvent(46)
+map,1,,5,Meteorito evento,7,2018,101,show_text,\ts[3]\dxn[William]<i>(¡Tch...!)</i>
+map,1,,5,Meteorito evento,7,2020,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,2024,101,show_text,"\ts[2]\dxn[Sophie]La herida de William cada vez está peor, y ese monstruo parece invencible..."
+map,1,,5,Meteorito evento,7,2031,101,show_text,"\sh\dxn[Sophie]¡Niños, hay que huir de aquí como sea! ¡No podemos enfrentarnos a esto!"
+map,1,,5,Meteorito evento,7,2033,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,2037,101,show_text,\dxn[Eda]¡P-pero...! ¡No podemos irnos sin ellos!
+map,1,,5,Meteorito evento,7,2039,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,2042,101,show_text,"\sh\dxn[Sophie]¡Si quieres morir, adelante! ¡Nosotros nos vamos de esta isla!"
+map,1,,5,Meteorito evento,7,2044,355,script,pbCameraToEvent(58)
+map,1,,5,Meteorito evento,7,2051,101,show_text,"\dxn[Darek]¡Eda, tenemos que salir de aquí! ¡Debemos hacer un cambio de planes y pedir ayuda a \v[277] y los demás!"
+map,1,,5,Meteorito evento,7,2053,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,2062,101,show_text,"\sh\dxn[Eda]¡De acuerdo, salgamos de aquí por ahora!"
+map,1,,5,Meteorito evento,7,2066,101,show_text,"\sh\dxn[Eda]¡Latias, Latios! ¡Salid de ahí como podáis!"
+map,1,,5,Meteorito evento,7,2068,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,7,2072,101,show_text,\sh\f[latios008]¡Lat!
+map,1,,5,Meteorito evento,7,2112,101,show_text,\sh\dxn[Dra. Vega]¡Nadie va a salir de esta isla!
+map,1,,5,Meteorito evento,7,2116,101,show_text,"\sh\dxn[Dra. Vega]¡Usa \c[5]Zona Delta\c[0], Deoxys!"
+map,1,,5,Meteorito evento,7,2118,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,7,2119,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,2121,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,2127,355,script,pbCameraShake(4)
+map,1,,5,Meteorito evento,7,2140,355,script,pbCameraShake(7)
+map,1,,5,Meteorito evento,7,2145,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,2146,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,2164,101,show_text,"\sh\dxn[Sophie]¡Vamos, rápido!"
+map,1,,5,Meteorito evento,7,2223,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,1,,5,Meteorito evento,7,2224,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,7,2227,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,7,2236,355,script,pbCameraShake(9)
+map,1,,5,Meteorito evento,7,2241,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,1,,5,Meteorito evento,7,2242,355,script,pbCameraToEvent(47)
+map,1,,5,Meteorito evento,7,2263,101,show_text,"\sh\dxn[Sophie]¡Mirad, arriba!"
+map,1,,5,Meteorito evento,7,2265,355,script,pbCameraToEvent(57)
+map,1,,5,Meteorito evento,7,2269,101,show_text,\sh\dxn[Eda]¡¿Está cubriendo todo el cielo?!
+map,1,,5,Meteorito evento,8,7,101,show_text,\sh\dxn[Darek]¡¿Qué diablos?! ¡¿Se ha cubierto la isla entera?!
+map,1,,5,Meteorito evento,8,12,101,show_text,\sh\dxn[Eda]¡¿Eso significa que no podemos salir?!
+map,1,,5,Meteorito evento,8,18,101,show_text,\ts[3]\dxn[William]We are completely trapped...
+map,1,,5,Meteorito evento,8,24,101,show_text,\dxn[Sophie]Parece que no nos queda otra alternativa que permanecer aquí dentro por el momento...
+map,1,,5,Meteorito evento,8,28,101,show_text,\sh\dxn[Sophie]¡Debemos escondernos en algún lado!
+map,1,,5,Meteorito evento,8,31,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,8,34,101,show_text,\dxn[Darek]¡Nosotros conocemos un lugar!
+map,1,,5,Meteorito evento,8,38,101,show_text,\sh\dxn[Darek]¡Seguidnos! ¡Rápido!
+map,1,,5,Meteorito evento,8,40,355,script,pbCameraShakeOff
+map,1,,5,Meteorito evento,8,48,101,show_text,\ts[2]\dxn[Dra. Vega]¿A dónde creéis que vais?
+map,1,,5,Meteorito evento,8,52,101,show_text,"\sh\dxn[Dra. Vega]¡Flawless, id a buscarlos!"
+map,1,,5,Meteorito evento,8,54,355,script,pbCameraToEvent(2)
+map,1,,5,Meteorito evento,8,56,101,show_text,"\ts[2]\dxn[Flawless FX-03 y FX-04]¡A la orden, madre!"
+map,1,,5,Meteorito evento,8,75,355,script,pbCameraToEvent(1)
+map,1,,5,Meteorito evento,8,80,101,show_text,\sh\dxn[Dra. Vega]<ac>\c[2]¡Empieza la cacería!\c[0]</ac>
+map,1,,5,Meteorito evento,8,91,355,script,pbCameraToEvent(34)
+map,1,,5,Meteorito evento,8,93,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,5,Meteorito evento,10,1,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,1,,5,Meteorito evento,10,4,355,script,"pbCameraScrollTo(80,31)"
+map,1,,5,Meteorito evento,10,25,101,show_text,\ts[2]\dxn[Indaro Johnson]¿¡Q-Qué está sucediendo!?
+map,1,,5,Meteorito evento,10,27,101,show_text,\dxn[Indaro Johnson]Parece que ese monstruo se ha dividido...
+map,1,,5,Meteorito evento,10,29,101,show_text,\dxn[Indaro Johnson]Y encima hay una barrera y no podemos salir de este lugar...
+map,1,,5,Meteorito evento,10,34,101,show_text,"\dxn[Indaro Johnson]¡Pero estoy seguro de que si seguimos a esa señora de pelo azul, encontraremos \c[2]el gran tesoro\c[0] que oculta esta isla!"
+map,1,,5,Meteorito evento,10,36,355,script,Pokemon.play_cry(:ARCHEN)
+map,1,,5,Meteorito evento,10,37,101,show_text,\f[archen_002]¡Chen...!
+map,1,,5,Meteorito evento,10,40,101,show_text,"\dxn[Indaro Johnson]¿Tienes miedo, pequeño Chen?"
+map,1,,5,Meteorito evento,10,53,101,show_text,\sh\dxn[Indaro Johnson]¡No hay por qué tenerlo!
+map,1,,5,Meteorito evento,10,55,101,show_text,"\sh\dxn[Indaro Johnson]¡Yo, el gran explorador Indaro Johnson, tengo una enorme recompensa esperándome en algún lugar!"
+map,1,,5,Meteorito evento,10,63,101,show_text,"\sh\dxn[Indaro Johnson]¡Vamos, Chen! ¡Tenemos trabajo que hacer!"
+map,1,,5,Meteorito evento,10,65,355,script,Pokemon.play_cry(:ARCHEN)
+map,1,,5,Meteorito evento,10,66,101,show_text,\f[archen_001]¡Chen...!
+map,1,,15,EV015,1,0,108,comment,noshadow
+map,1,,53,HYPERRAYO 2,1,0,108,comment,noshadow
+map,1,,25,EV025,1,0,108,comment,noshadow
+map,1,,6,xd,1,0,108,comment,noshadow
+map,1,,44,Latios,2,0,108,comment,noshadow
+map,1,,54,EV054,7,4,355,script,Pokemon.play_cry(:DEOXYS)
+map,1,,26,EV026,1,0,108,comment,noshadow
+map,1,,7,METEOR,1,0,108,comment,noshadow
+map,1,,36,LYKOS,1,0,108,comment,noshadow
+map,1,,8,,1,0,355,script,"jess_fogs(0,""Isla del Sur Fire"",0,230,1)"
+map,1,,8,,2,0,355,script,"jess_fogs(0,""Isla del Sur Fire"",0,230,1)"
+map,1,,27,EV027,1,0,108,comment,noshadow
+map,1,,56,EXUROOOOSION,1,0,108,comment,noshadow

@@ -1,0 +1,652 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,165,,33,EV033,1,0,108,comment,noshadow
+map,165,,100,EV100,1,0,101,show_text,"Parece ser que este hotel es solo para personas más privilegiadas, no me dejan entrar."
+map,165,,100,EV100,3,0,101,show_text,"Parece ser que este hotel es solo para personas más privilegiadas, no me dejan entrar."
+map,165,,67,EV067,1,0,108,comment,noshadow
+map,165,,134,EV134,1,0,355,script,Pokemon.play_cry(:MILCERY)
+map,165,,34,EV034,1,0,108,comment,noshadow
+map,165,,101,EV101,1,0,108,comment,noshadow
+map,165,,168,EV168,1,0,355,script,pbItemBall(:FRESHWATER)
+map,165,,168,EV168,2,0,101,show_text,La papelera está vacía.
+map,165,,202,EV202,1,0,108,comment,noshadow
+map,165,,68,EV068,1,0,101,show_text,"He oído que la Líder de Gimnasio vive en esta parte de la ciudad, es tan joven y guapa... Ya me gustaría ser como ella."
+map,165,,135,EV135,1,0,101,show_text,¿No crees que es mejor disfrutar las cosas con el resto? ¡He traído a mi Milcery para que pruebe el helado!
+map,165,,35,EV035,1,0,108,comment,noshadow
+map,165,,102,EV102,1,0,108,comment,noshadow
+map,165,,169,EV169,1,0,101,show_text,¿Qué pasa? ¿Necesitas algo?
+map,165,,69,EV069,1,0,101,show_text,Cada mañana tengo que venir a limpiar los vómitos de
+map,165,,69,EV069,1,1,401,show_text_cont,"los borrachos del bar, estoy harto. ¿Me quitas un"
+map,165,,69,EV069,1,2,401,show_text_cont,poco el estrés?
+map,165,,69,EV069,1,7,101,show_text,"Gracias, me hacía falta."
+map,165,,69,EV069,2,0,101,show_text,"Gracias, me hacía falta."
+map,165,,136,EV136,1,0,101,show_text,Bienvenido a la Heladería Vanilluxe! ¡Donde todos los helados son deluxe!
+map,165,,203,EV203,1,0,108,comment,noshadow
+map,165,,36,EV036,1,0,108,comment,noshadow
+map,165,,103,EV103,1,0,108,comment,noshadow
+map,165,,170,EV170,1,0,101,show_text,"¿Has visto que hay una joyería? Estoy por irme allá, que tienen aire acondicionado."
+map,165,,70,EV070,1,0,101,show_text,Si coges ese camino de arriba irás a la parte norte de
+map,165,,70,EV070,1,1,401,show_text_cont,la ciudad.
+map,165,,137,EV137,1,0,101,show_text,"¡Necesitamos unos carbohidratos como sea, hemos perdido mucha energía después de hacer tanto deporte!"
+map,165,,104,EV104,1,0,108,comment,noshadow
+map,165,,171,EV171,1,0,101,show_text,La papelera está vacía.
+map,165,,37,EV037,1,0,108,comment,noshadow
+map,165,,71,EV071,1,0,101,show_text,¡Bienvenido al Bar: La Roca!
+map,165,,138,EV138,1,0,101,show_text,"¡Después del deporte, un poco de helado!"
+map,165,,138,EV138,1,3,101,show_text,"Tienes razón, quizás no sea lo mejor, ciertamente. Tomar agua es lo que va bien."
+map,165,,138,EV138,1,4,355,script,pbReceiveItem(:FRESHWATER)
+map,165,,138,EV138,2,0,101,show_text,¡El agua que no falte!
+map,165,,4,Update EV004,1,0,108,comment,noshadow
+map,165,,239,EV239,1,0,101,show_text,<ac>Hotel Miramar</ac>
+map,165,,105,EV105,1,0,108,comment,noshadow
+map,165,,38,EV038,1,0,108,comment,noshadow
+map,165,,139,EV139,1,0,355,script,Pokemon.play_cry(:VANILLUXE)
+map,165,,5,Update EV005,1,0,108,comment,noshadow
+map,165,,206,,2,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,165,,206,,4,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,165,,106,EV106,1,0,101,show_text,Más te vale darle las gracias a las estatuas de Latias y Latios cada día.
+map,165,,39,EV039,1,0,108,comment,noshadow
+map,165,,240,EV240,1,0,101,show_text,<ac>Hotel Miramar</ac>
+map,165,,73,EV073,1,0,355,script,pbItemBall(:TM56)
+map,165,,140,EV140,1,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,6,Update EV006,1,0,108,comment,noshadow
+map,165,,107,EV107,1,0,101,show_text,Yo le doy cada día unos 100 pokedólares a las estatuas de Latias y Latios. ¡Dicen que da suerte!
+map,165,,40,EV040,1,0,101,show_text,"(Está tocando para la gente, mejor no molestarlo.)"
+map,165,,241,EV241,1,0,101,show_text,<ac>Ciudad Cardenal - Centro</ac>
+map,165,,141,EV141,1,0,355,script,pbItemBall(:FRESHWATER)
+map,165,,141,EV141,2,0,101,show_text,La papelera está vacía.
+map,165,,7,EV007,1,0,101,show_text,(Está tocando una hermosa melodía con su violín...)
+map,165,,74,EV074,1,0,355,script,pbItemBall(:WATERSTONE)
+map,165,,108,EV108,1,0,101,show_text,"Yo quería estar con Marta a solas, pero tenían que estar unos abuelos al lado, qué rabia, quiero llorar."
+map,165,,41,EV041,1,0,101,show_text,"(Está tocando para la gente, mejor no molestarlo.)"
+map,165,,242,EV242,1,0,101,show_text,<ac>Ciudad Cardenal - Centro</ac>
+map,165,,142,EV142,1,0,355,script,pbItemBall(:FRESHWATER)
+map,165,,142,EV142,2,0,101,show_text,La papelera está vacía.
+map,165,,8,EV008,1,0,101,show_text,(Está tocando una hermosa melodía con su violín...)
+map,165,,75,EV075,1,0,355,script,pbItemBall(:MAXREVIVE)
+map,165,,109,EV109,1,0,101,show_text,"Con tanta gente en Ciudad Cardenal, se acumula mucha suciedad, así que tengo que ir limpiando y tirando todo en la papelera. He encontrado cada cosa más rara"
+map,165,,109,EV109,1,1,401,show_text_cont,en el suelo... Esta papelera huele fatal.
+map,165,,42,EV042,1,0,101,show_text,"(Está tocando para la gente, mejor no molestarlo.)"
+map,165,,243,EV243,1,0,101,show_text,<ac>Ciudad Cardenal - Centro</ac>
+map,165,,143,EV143,1,0,355,script,pbItemBall(:FRESHWATER)
+map,165,,143,EV143,2,0,101,show_text,La papelera está vacía.
+map,165,,9,Update EV009,1,0,108,comment,noshadow
+map,165,,76,EV076,1,0,355,script,pbItemBall(:FULLHEAL)
+map,165,,110,EV110,1,0,101,show_text,¡Pablo me ha comprado chuches! ¡Qué \c[2]AMIGO\c[0] más chupiguay tengo!
+map,165,,177,EV177,1,0,101,show_text,"El alcalde de la ciudad intenta que todos estemos bien. Aunque claro, con la Familia Real por ahí, como que no puede salvar las vidas de todo el mundo... Ojalá esto"
+map,165,,177,EV177,1,1,401,show_text_cont,terminara pronto...
+map,165,,244,EV244,1,0,101,show_text,<ac>Ciudad Cardenal - Centro</ac>
+map,165,,144,EV144,1,0,355,script,pbItemBall(:SWEETHEART)
+map,165,,144,EV144,2,0,101,show_text,La papelera está vacía.
+map,165,,10,EV010,1,0,108,comment,noshadow
+map,165,,77,,1,7,101,show_text,\dxn[\PN](Debería ir a buscar al museo. Creo recordar que estaba en el Sur...)
+map,165,,77,,2,7,101,show_text,\dxn[\PN](Debería perseguir a Álama...)
+map,165,,77,,3,7,101,show_text,\dxn[\PN](Debería ir al Bar...)
+map,165,,77,,4,7,101,show_text,\dxn[\PN](Debería ir al Hotel...)
+map,165,,178,EV178,1,32,101,show_text,"\dxn[Eda]¡Ey, \PN! Parece que hay problemas."
+map,165,,178,EV178,1,50,101,show_text,\dxn[Eda]Creo que esos reporteros están discutiendo con unos escoltas de la Familia Real.
+map,165,,178,EV178,1,60,101,show_text,\sh\dxn[Reportera]Pero... ¡Es nuestro trabajo! ¡Tenemos que grabar lo que está ocurriendo en el museo!
+map,165,,178,EV178,1,63,101,show_text,"\dxn[Escolta M.]¡Ya os he dicho que no, retiraros! ¡No queremos que la gente vea ese tipo de cosas por Akebia TV!"
+map,165,,178,EV178,1,65,101,show_text,\dxn[Reportero]¿Hasta cuando vais a estar amenazando a la población y haciendo lo que queréis?
+map,165,,178,EV178,1,67,101,show_text,"\sh\dxn[Escolta F.]¡Silencio, escoria! ¡Si quieres se lo dices a nuestro \c[2]Rey\c[0]!"
+map,165,,178,EV178,1,70,101,show_text,"\dxn[Escolta M.]Dicho esto, nosotros tenemos cosas que hacer en el <b>Museo</b>. ¡Fuera de aquí!"
+map,165,,178,EV178,1,97,101,show_text,\dxn[Reportero]¿Y qué hacemos ahora? No tenemos manera de enseñar por televisión lo que está ocurriendo...
+map,165,,178,EV178,1,99,101,show_text,"\dxn[Reportera]Tch... Qué más da, todo el mundo sabe lo que está pasando en la ciudad, necesitamos que alguien haga algo, sino..."
+map,165,,178,EV178,1,108,101,show_text,\dxn[Eda]Creo que deberíamos preguntar qué es lo que está ocurriendo.
+map,165,,178,EV178,1,113,101,show_text,\dxn[Eda]No tiene buena pinta la situación... y a lo mejor podamos descubrir algo de la profe.
+map,165,,178,EV178,1,127,101,show_text,\dxn[Eda]Esto... Disculpen...
+map,165,,178,EV178,1,136,101,show_text,\dxn[Reportera]¿Si? ¿Qué pasa?
+map,165,,178,EV178,1,140,101,show_text,"\dxn[Eda]Bueno... Hemos escuchado que algo está pasando, ¿podrían explicarnos un poco sobre eso? Nos procupa que tenga algo que ver con nuestra amiga."
+map,165,,178,EV178,1,143,101,show_text,"\dxn[Reportero]Resulta que los escoltas de la Familia Real han invadido el <b>Museo</b> de Ciudad Cardenal, en busca del propietario del lugar, en el cual, el"
+map,165,,178,EV178,1,144,401,show_text_cont,"<b>Alcalde</b> de la ciudad, estaba allí también."
+map,165,,178,EV178,1,146,101,show_text,\dxn[Reportera]Al parecer los están amenazando para sacar información de los Pokémon Eón.
+map,165,,178,EV178,1,151,101,show_text,\sh\dxn[Eda]¿Cómo? ¿Quieren sacarle información sobre esos Pokémon por la fuerza?
+map,165,,178,EV178,1,154,101,show_text,"\dxn[Reportera]Efectivamente. Por lo tanto, no tiene nada que ver con lo de vuestra amiga, lo sentimos."
+map,165,,178,EV178,1,156,101,show_text,\dxn[Reportero]¿Ahora quién va a ayudar al Alcalde y al dueño del museo?
+map,165,,178,EV178,1,158,101,show_text,\dxn[Reportero]Por mucho aprecio que les tengamos... Nadie va a actuar.
+map,165,,178,EV178,1,167,101,show_text,\dxn[Eda]Vaya... Así que la profe no tiene nada que ver con esto...
+map,165,,178,EV178,1,171,101,show_text,"\dxn[Eda]Aunque... tendremos que hacer algo al respecto, no puedo permitir esto."
+map,165,,178,EV178,1,179,101,show_text,"\sh\dxn[Eda]No se preocupen, nos encargaremos nosotros."
+map,165,,178,EV178,1,184,101,show_text,\sh\dxn[Reportera]¿Pero qué estáis diciendo? ¡Con eso no se bromea!
+map,165,,178,EV178,1,188,101,show_text,"\dxn[Eda]¡Lo digo muy en serio, esto debe parar!"
+map,165,,178,EV178,1,192,101,show_text,"\dxn[Eda]Además, ellos están relacionados con nuestra profe, quizás descubramos algo importante."
+map,165,,178,EV178,1,197,101,show_text,\dxn[Reportero]Ahora que me fijo... ¿No te suena la cara este chico?
+map,165,,178,EV178,1,200,101,show_text,\dxn[Reportero]Ahora que me fijo... ¿No te suena la cara esta chica?
+map,165,,178,EV178,1,209,101,show_text,\sh\dxn[Reportera]¡Pero si nosotros tuvimos que publicarlo para la TV!
+map,165,,178,EV178,1,217,101,show_text,\dxn[Reportera]¿¡No eres una de las personas que están buscando los de la Familia Real!?
+map,165,,178,EV178,1,224,101,show_text,"\dxn[Eda]No parece hacerle mucha gracia, la verdad."
+map,165,,178,EV178,1,227,101,show_text,\dxn[Reportera]Pero... ¿A qué viene todo esto?
+map,165,,178,EV178,1,230,101,show_text,"\dxn[Eda]Como les hemos comentado, nuestra profesora está ligada a la Familia Real de alguna manera que desconocemos y la están buscando."
+map,165,,178,EV178,1,235,101,show_text,\dxn[Reportera]¿Todo esto lo estáis haciendo por ella? ¡Estáis completamente locos!
+map,165,,178,EV178,1,242,101,show_text,"\dxn[Reportero]Escucha Cinnia, creo que... si estos chicos están dispuestos a enfrentarse a la Familia Real por una amiga... ¿Cómo no vamos a hacerlo nosotros"
+map,165,,178,EV178,1,243,401,show_text_cont,por nuestro trabajo de ensueño?
+map,165,,178,EV178,1,246,101,show_text,"\dxn[Reportera]Tienes razón, no dejaremos que nos pisen de esta manera."
+map,165,,178,EV178,1,254,101,show_text,"\dxn[Reportera]Chicos, haremos lo siguiente. Vosotros id hacia el \c[2]Museo\c[0]."
+map,165,,178,EV178,1,256,101,show_text,\dxn[Reportera]Nosotros iremos a por el equipo de grabación completo. Haremos un reportaje de esto.
+map,165,,178,EV178,1,258,101,show_text,\sh\dxn[Reportera]Debéis darles una paliza a esos malnacidos. ¡Nuestro futuro está en vuestros hombros!
+map,165,,178,EV178,1,264,101,show_text,"\dxn[Eda]Eso es mucha responsabilidad, sinceramente..."
+map,165,,178,EV178,1,272,101,show_text,"\dxn[Eda]¡Pero nos ocuparemos de ello, denlo por hecho!"
+map,165,,178,EV178,1,276,101,show_text,"\dxn[Reportera]El Museo queda en la zona del <b>Sur</b> de la ciudad, id lo más rápido que podáis y prepararos bien, he visto a bastante gente de la Familia Real"
+map,165,,178,EV178,1,277,401,show_text_cont,haciendo seguridad allá.
+map,165,,178,EV178,1,280,101,show_text,"\dxn[Eda]No se preocupen, estaremos bien. ¡Nos vemos en un rato!"
+map,165,,178,EV178,1,287,101,show_text,"\sh\dxn[Reportera]¡Vámonos, Ángelo! ¡Tenmos una exclusiva que grabar!"
+map,165,,178,EV178,1,325,101,show_text,"\dxn[Eda]¡Vamos al  Museo, \PN! ¡No dejaremos que traten así al Alcalde de esta preciosa ciudad!"
+map,165,,44,EV044,1,0,101,show_text,¡Bienvenido a la Pizzería Lickylicky! ¡Un lugar donde te
+map,165,,44,EV044,1,1,401,show_text_cont,vas a chupar los dedos!
+map,165,,245,EV245,1,0,101,show_text,<ac>Ciudad Cardenal - Centro</ac>
+map,165,,111,EV111,1,0,101,show_text,(Está tocando una hermosa melodía con su
+map,165,,111,EV111,1,1,401,show_text_cont,acordeón...)
+map,165,,145,EV145,1,0,355,script,pbItemBall(:BLACKSLUDGE)
+map,165,,145,EV145,2,0,101,show_text,La papelera está vacía.
+map,165,,11,EV011,1,0,108,comment,noshadow
+map,165,,212,EV212,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,165,,212,EV212,1,1,355,script,pbDeregisterPartner
+map,165,,212,EV212,1,6,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,165,,212,EV212,1,24,101,show_text,"\dxn[Eda]¡Burp! ¡Qué palizón de comer, creo que voy a reventar!"
+map,165,,212,EV212,1,28,101,show_text,"\dxn[Eda]Aunque... ¡Con lo buenas que estaban, casi que me pido otra!"
+map,165,,212,EV212,1,35,101,show_text,"\dxn[Eda]¿Y tú qué? ¡No comes nada, al final me he tenido que comer los bordes de pizza que te sobraban!"
+map,165,,212,EV212,1,46,101,show_text,"\dxn[\PN](No es que yo coma poco, el problema es que ella come demasiado...)"
+map,165,,212,EV212,1,50,101,show_text,"\dxn[Eda]En fin, ¿damos un paso para bajar la comida?"
+map,165,,212,EV212,1,68,101,show_text,"\dxn[Eda]¡\PN, pero si es la profe!"
+map,165,,212,EV212,1,72,101,show_text,\sh\dxn[Eda]¡Profe! ¡Te estábamos buscando!
+map,165,,212,EV212,1,99,101,show_text,\dxn[Eda]¿Pero qué le pasa?
+map,165,,212,EV212,1,104,101,show_text,\dxn[Eda]¿Le han dado un café o qué?
+map,165,,212,EV212,1,126,101,show_text,\sh\dxn[Eda]¡¿Pero se puede saber a dónde va?!
+map,165,,212,EV212,1,133,101,show_text,"\dxn[Eda]¡Espere, Profesora Álama!"
+map,165,,212,EV212,1,161,101,show_text,\dxn[\PN](Supongo que habrá que ir a buscarlas...)
+map,165,,212,EV212,3,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,165,,212,EV212,3,17,101,show_text,"\dxn[Rodolfo]Otra noche solos, ¿eh, Ditto?"
+map,165,,212,EV212,3,21,101,show_text,\f[ditto004]¡Ditto!
+map,165,,212,EV212,3,24,101,show_text,\dxn[Rodolfo]Todavía recuerdo la noche en la que nos encontramos... ¿Qué hubiera sido de mí si me hubiera quedado en el orfanato?
+map,165,,212,EV212,3,30,101,show_text,"\dxn[Rodolfo]Supongo que tienes razón, qué más dará pensar en eso."
+map,165,,212,EV212,3,34,101,show_text,"\dxn[Rodolfo]Pero, no puedo evitar pensar... ¿Dónde deben estar mis verdaderos padres?"
+map,165,,212,EV212,3,38,101,show_text,"\dxn[Rodolfo]¿Es normal que un niño como yo, crezca vagando por el mundo?"
+map,165,,212,EV212,3,42,101,show_text,"\dxn[Rodolfo]Al final, lo que he tenido que construír, es una faceta de niño duro para que no nos suceda nada en este mundo, Ditto."
+map,165,,212,EV212,3,46,101,show_text,\f[ditto004]¡Ditto!
+map,165,,212,EV212,3,50,101,show_text,"\dxn[Rodolfo]Encima siempre tienen que estar ayudándome. \n\PN, Lluvia, Álama... Sólo soy una carga para ellos."
+map,165,,212,EV212,3,53,101,show_text,"\dxn[Rodolfo]Encima siempre tienen que estar ayudándome. \n\PN, Adrián, Álama... Sólo soy una carga para ellos."
+map,165,,212,EV212,3,59,101,show_text,\dxn[Rodolfo]Merece la pena siquiera... ¿seguir viviendo así? ¿Siendo un lastre y aparentando algo que no soy?
+map,165,,212,EV212,3,62,101,show_text,"\dxn[???]No digas esas tonterías, mocoso."
+map,165,,212,EV212,3,81,101,show_text,\dxn[Rodolfo]¡Pero si eres la vieja de la espalda partida!
+map,165,,212,EV212,3,88,101,show_text,\dxn[Comandante Vesta]Encima que vengo a animarte... Por eso odio a los mocosos.
+map,165,,212,EV212,3,98,101,show_text,"\dxn[Rodolfo]Tú no lo entiendes, mi vida es una basura."
+map,165,,212,EV212,3,125,101,show_text,\dxn[Comandante Vesta]Mira niño... Todos tenemos nuestras cosas.
+map,165,,212,EV212,3,129,101,show_text,"\dxn[Comandante Vesta]Yo tampoco he tenido una vida nada fácil, ¿sabes?"
+map,165,,212,EV212,3,136,101,show_text,"\dxn[Comandante Vesta]Los que acabamos trabajando para la Familia Real, muchas veces, es porque no nos ha quedado otro lugar al que ir."
+map,165,,212,EV212,3,140,101,show_text,"\dxn[Comandante Vesta]En mi caso, me escogieron por mi alto nivel como Entrenadora Pokémon, era mi única virtud."
+map,165,,212,EV212,3,144,101,show_text,"\dxn[Comandante Vesta]Pero ahora que no les sirvo de nada, van a intentar acabar con mi vida."
+map,165,,212,EV212,3,155,101,show_text,"\dxn[Comandante Vesta]Aún así, mocoso, debes aferrarte a la vida como sea."
+map,165,,212,EV212,3,159,101,show_text,"\dxn[Comandante Vesta]Lo último que debes perder es la esperanza, siempre hay una solución para todo."
+map,165,,212,EV212,3,165,101,show_text,"\dxn[Comandante Vesta]Vivir sí vale la pena, siempre hay algo que te hará feliz."
+map,165,,212,EV212,3,171,101,show_text,"\dxn[Comandante Vesta]Amigos, familia, objetivos, sueños... Aunque tu vida sea horrible, siempre quedará algo de eso por lo que luchar."
+map,165,,212,EV212,3,178,101,show_text,\dxn[Rodolfo]Hmm... Creo que lo entiendo.
+map,165,,212,EV212,3,188,101,show_text,"\dxn[Comandante Vesta]Vaya, parece que viene gente. Debería irme, sería un problema si me encuentran."
+map,165,,212,EV212,3,195,101,show_text,\dxn[Comandante Vesta]Recuerda mantenerte firme y cuidar de los que te quieren.
+map,165,,212,EV212,3,199,101,show_text,\dxn[Comandante Vesta]Luchar por los demás es mucho más valioso que simplemente luchar por ti.
+map,165,,212,EV212,3,205,101,show_text,\dxn[Comandante Vesta]\ts[1]Eso es lo que he logrado recordar de mi \c[2]madre\c[0]...\wt[15] gracias a \c[2]ella.
+map,165,,212,EV212,3,209,101,show_text,"\dxn[Comandante Vesta]Ojalá no sea nuestra última charla, mocoso."
+map,165,,212,EV212,3,229,101,show_text,\dxn[Rodolfo]¿Cuidar... de los que me quieren?
+map,165,,212,EV212,3,232,101,show_text,\dxn[???]¡Ey Rodolfo!
+map,165,,212,EV212,3,255,101,show_text,\dxn[Álama]¿Te gustaría ir a dormir al Hotel con los chicos? ¿O prefieres dormir en el Jardín con nosotros?
+map,165,,212,EV212,3,259,101,show_text,"\dxn[Rodolfo]Iré donde vayas tú, Álama."
+map,165,,212,EV212,3,263,101,show_text,"\dxn[Álama]¡Perfecto! Te esperamos en el Jardín, ¡no vengas muy tarde!"
+map,165,,212,EV212,3,287,101,show_text,\dxn[Rodolfo](Cuidar de la gente que quiero...)
+map,165,,212,EV212,3,291,101,show_text,\dxn[Rodolfo](Creo que... He tenido mucha suerte encontrándome con ellos.)
+map,165,,212,EV212,3,300,101,show_text,"\dxn[Rodolfo]Vámonos, Ditto. Tenemos algo muy importante que hacer por nuestros amigos, creo que es nuestro momento de dejar huella en esta historia."
+map,165,,212,EV212,3,303,101,show_text,\f[ditto000]¡DITTO!
+map,165,,212,EV212,3,320,101,show_text,\dxn[\PN](Dijeron algo de ir a un <b>Hotel</b>... ¡Creo que está en esta zona del Centro!)
+map,165,,212,EV212,3,322,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,165,,212,EV212,3,323,355,script,pbAddSocialLink(:CELESTE)
+map,165,,212,EV212,3,324,355,script,"pbGainSocialLinkBond(:ALAMA, 1)"
+map,165,,212,EV212,5,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,165,,212,EV212,5,28,101,show_text,"\dxn[Yang Xiao]Oye, Silvano, ¿Seguro que es por aquí donde se encuentra el gimnasio de Celeste?"
+map,165,,212,EV212,5,33,101,show_text,"\dxn[Silvano]¡Por supuesto, mi olfato refinado de la jungla es capaz de detectar su aroma!"
+map,165,,212,EV212,5,38,101,show_text,"\dxn[Yang Xiao](Este señor me pone nervioso... Calma, Xiao, todo sea por la voluntad de tu maestro.)"
+map,165,,212,EV212,5,51,101,show_text,"\dxn[Eda]¡Anda, pero si sois Xiao y Silvano! ¿Qué hacéis por aquí?"
+map,165,,212,EV212,5,64,101,show_text,"\dxn[Silvano]¡Ey, Eda! ¿Cómo te va todo? ¡Hemos venido a proteger a Álama y a los Pokémon Eón!"
+map,165,,212,EV212,5,70,101,show_text,"\dxn[Eda]Bueno, esto... Creo que llegáis un poco tarde, los de la Familia Real se han retirado por lo visto."
+map,165,,212,EV212,5,76,101,show_text,\sh\dxn[Silvano]¡¿Cómo?! ¿Hemos llegado tarde?
+map,165,,212,EV212,5,80,101,show_text,\dxn[Silvano]¡Con razón no hemos visto a penas ningún escolta por la ciudad!
+map,165,,212,EV212,5,84,101,show_text,"\dxn[Yang Xiao]Aun así... ¿Realmente creéis que han desistido con su plan? Yo no aflojaría la seguridad, de todas formas."
+map,165,,212,EV212,5,89,101,show_text,\dxn[Eda]Supongo que tienes razón...
+map,165,,212,EV212,5,94,101,show_text,"\dxn[Eda]¡Ahora que tenemos tiempo! Xiao, ¿Qué te parece echar un combate Pokémon? Todavía necesito mi medalla de gimnasio."
+map,165,,212,EV212,5,98,101,show_text,"\dxn[Eda]Podemos ir donde se encuentran Álama, Latias y Latios, hay sitio de sobra para combatir."
+map,165,,212,EV212,5,103,101,show_text,"\dxn[Yang Xiao]Me parece una buena idea, entonces."
+map,165,,212,EV212,5,108,101,show_text,"\sh\dxn[Eda]¡Genial, vamos para allá, pues!"
+map,165,,212,EV212,5,133,101,show_text,\sh\dxn[Silvano]¡Oye! ¿Y yo qué?
+map,165,,212,EV212,5,137,101,show_text,"\sh\dxn[Silvano]¡No es justo, siempre me dejan atrás! ¡Esperadme!"
+map,165,,212,EV212,7,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,165,,212,EV212,7,22,101,show_text,"\dxn[Eda]Buaj, no había vomitado así en mi vida..."
+map,165,,212,EV212,7,27,101,show_text,\dxn[Silvano]Esta chica... Al final le ha subido más de la cuenta...
+map,165,,212,EV212,7,36,101,show_text,"\dxn[Álama]Yo tampoco me encuentro demasiado bien, creo que esa quinta ronda era innecesaria..."
+map,165,,212,EV212,7,40,101,show_text,\dxn[Silvano]Si es que... Debería haber cortado antes la cosa.
+map,165,,212,EV212,7,44,101,show_text,"\dxn[Aldrich]No se preocupe, señorita. La llevaremos a descansar, cuidaré de usted."
+map,165,,212,EV212,7,49,101,show_text,"\sh\dxn[Silvano]Ah, no, ese es mi trabajo, no me quites lo mejor que puedo hacer."
+map,165,,212,EV212,7,54,101,show_text,"\dxn[Aldrich]Ejem, no era esa mi intención, Silvano."
+map,165,,212,EV212,7,58,101,show_text,"\dxn[Aldrich]Por favor, diríjame hacia su estancia."
+map,165,,212,EV212,7,64,101,show_text,"\dxn[Silvano]Tch, acompáñame, es un lugar peculiar en el que se hospeda."
+map,165,,212,EV212,7,74,101,show_text,"\dxn[Silvano]Vosotros cuidad de Eda y Lluvia, que no están en sus mejores condiciones."
+map,165,,212,EV212,7,79,101,show_text,"\dxn[Silvano]Vosotros cuidad de Eda y Adrián, que no están en sus mejores condiciones."
+map,165,,212,EV212,7,86,101,show_text,"\dxn[Yang Xiao]Yo me llevaré a Lluvia, entonces. ¿Donde se aloja?"
+map,165,,212,EV212,7,89,101,show_text,"\dxn[Yang Xiao]Yo me llevaré a Adrián, entonces. ¿Donde se aloja?"
+map,165,,212,EV212,7,95,101,show_text,\dxn[Aldrich]Os he conseguido un par de habitaciones en el Hotel MiraMar.
+map,165,,212,EV212,7,99,101,show_text,"\dxn[Yang Xiao]Perfecto, nos retiramos pues."
+map,165,,212,EV212,7,107,101,show_text,"\dxn[Yang Xiao]Échame un cable, Celeste."
+map,165,,212,EV212,7,122,101,show_text,"\dxn[Lluvia]Gracias, chicos, siento tener que ser una carga."
+map,165,,212,EV212,7,127,101,show_text,"\dxn[Adrián]Gracias, chicos, siento tener que ser una carga."
+map,165,,212,EV212,7,133,101,show_text,"\dxn[Celeste]No te preocupes, está bien."
+map,165,,212,EV212,7,181,101,show_text,"\dxn[Silvano]Dejamos a Eda en tus manos, \PN."
+map,165,,212,EV212,7,190,101,show_text,"\dxn[Silvano]Vámonos, Álama no se aguanta de pie."
+map,165,,212,EV212,7,232,101,show_text,"\dxn[Eda]Buaj, me siento fatal, \PN."
+map,165,,212,EV212,7,236,102,choices,You're Drunk...
+map,165,,212,EV212,7,236,102,choices,That's what you get...
+map,165,,212,EV212,7,237,402,choice_branch,You're Drunk...
+map,165,,212,EV212,7,239,402,choice_branch,That's what you get...
+map,165,,212,EV212,7,245,101,show_text,"\sh\dxn[Eda]¡No me refiero a eso, \PN!"
+map,165,,212,EV212,7,253,101,show_text,\dxn[Eda]No sé si lo que hice ayer estuvo bien...
+map,165,,212,EV212,7,257,101,show_text,\dxn[Eda]Me metí en los problemas personales de Darek porque quería ayudarle.
+map,165,,212,EV212,7,261,101,show_text,"\dxn[Eda]Pero él me echó de la habitación, me enfadé y estuve mal durante toda la noche... *Hip*"
+map,165,,212,EV212,7,268,101,show_text,"\dxn[Eda]Sabes que Darek no tuvo una infancia fácil, y a día de hoy arrastra comportamientos diferentes."
+map,165,,212,EV212,7,272,101,show_text,"\dxn[Eda]De veras le quiero, y quiero ayudarle con todo lo que esté en mis manos."
+map,165,,212,EV212,7,276,101,show_text,"\dxn[Eda]Pero cada vez que estoy por atraparle, se me escapa."
+map,165,,212,EV212,7,280,101,show_text,"\dxn[Eda]Aun así, mi comportamiento tampoco fue el adecuado. Debería dejarle e intentar ayudarle desde la lejanía."
+map,165,,212,EV212,7,288,101,show_text,"\sh\dxn[Eda]¡Así es, iré a buscarlo y pedirle perdón ahora mismo! *Hip*"
+map,165,,212,EV212,7,297,101,show_text,"\dxn[Eda]¡Voy a buscarte ahora mismo, Darekzz...!"
+map,165,,212,EV212,7,311,101,show_text,\sh\dxn[\PN](¡Eda!)
+map,165,,212,EV212,7,316,101,show_text,\sh\dxn[\PN](¡Eda!)
+map,165,,212,EV212,7,322,101,show_text,\dxn[Eda]Dile... que lo sien...
+map,165,,212,EV212,9,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,165,,212,EV212,9,1,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,165,,212,EV212,9,33,101,show_text,"\dxn[Eda]Hola, \PN. ¿Has venido a ver cómo estaba?"
+map,165,,212,EV212,9,39,101,show_text,\dxn[Eda]Supongo que tú tampoco has dormido esta noche...
+map,165,,212,EV212,9,48,101,show_text,"\dxn[Eda]Me encantaría poder hacer algo al respecto, pero no tenemos ningún dato de a dónde se han llevado a Darek y compañía."
+map,165,,212,EV212,9,51,101,show_text,"\sh\dxn[???]¡Entrenadora de pacotilla, por fin te encuentro!"
+map,165,,212,EV212,9,78,101,show_text,\dxn[Eda]¡Rodolfo! ¿Dónde te habías metido? ¡No has aparecido en toda la madrugada!
+map,165,,212,EV212,9,83,101,show_text,\dxn[Eda]Y... ¿Se puede saber porqué tienes un lacito en el pelo como el de la profe?
+map,165,,212,EV212,9,100,101,show_text,"\dxn[Rodolfo]No es un lacito como el de Álama, es \c[2]su\c[0] lacito."
+map,165,,212,EV212,9,107,101,show_text,"\dxn[Eda]Pero... no puede ser, cuando se la llevaron, ella tenía su lacito puesto, ¿no?"
+map,165,,212,EV212,9,114,101,show_text,\dxn[Rodolfo]Sabía que algo así podía ocurrir esta noche.
+map,165,,212,EV212,9,118,101,show_text,\dxn[Rodolfo]Yo no puedo enfrentarme a esos malos como lo hacéis vosotros.
+map,165,,212,EV212,9,122,101,show_text,"\dxn[Rodolfo]Por ello, antes de intentar luchar contra ellos, pensé en una alternativa para ayudarla."
+map,165,,212,EV212,9,129,101,show_text,"\dxn[Rodolfo]Ayer por la tarde, le dije a Álama que tenía que hablar con ella."
+map,165,,212,EV212,9,133,101,show_text,\dxn[Rodolfo]Y decidí \c[2]intercambiarle mi Ditto\c[0] por su lacito del pelo.
+map,165,,212,EV212,9,140,101,show_text,\dxn[Rodolfo]Ditto aceptó que le colocara un \c[2]rastreador\c[0] en su cuerpo y se hizo pasar por en el lacito de Álama.
+map,165,,212,EV212,9,162,101,show_text,\sh\dxn[Eda]¿¡CÓMOOOOOO!?
+map,165,,212,EV212,9,166,101,show_text,"\dxn[Eda]¡Espera un momento! ¿Eso quiere decir que lo que llevaba Álama en la cabeza, era Ditto con un rastreador y no su propio lacito?"
+map,165,,212,EV212,9,170,101,show_text,"\dxn[Rodolfo]Así es, con este radar podemos saber dónde se encuentra Álama."
+map,165,,212,EV212,9,175,101,show_text,\dxn[Eda](¡P-Pero este niño es un genio!)
+map,165,,212,EV212,9,179,101,show_text,"\dxn[Eda]Eso significa... ¡Que si sabemos dónde se encuentra la profe, probablemente también sepamos dónde está Darek!"
+map,165,,212,EV212,9,200,101,show_text,"\sh\dxn[Eda]¡Latias, debemos irnos ya en su búsqueda!"
+map,165,,212,EV212,9,204,101,show_text,"\dxn[Eda]¡Gracias a Rodolfo, tenemos todo lo que necesitamos!"
+map,165,,212,EV212,9,208,101,show_text,\f[latias001]¡LATIAS!
+map,165,,212,EV212,9,218,101,show_text,"\dxn[Eda]Rodolfo, necesitamos tu radar."
+map,165,,212,EV212,9,222,101,show_text,"\dxn[Rodolfo]Entonces yo te acompañaré, quiero ir a buscar a Ditto de todas formas."
+map,165,,212,EV212,9,249,101,show_text,\f[latias001]¡LATIAS!
+map,165,,212,EV212,9,270,101,show_text,"\dxn[Eda]Según el radar, dice que es hacia el Norte..."
+map,165,,212,EV212,9,274,101,show_text,\dxn[Eda]¡\PN! Tú para eso tendrás que coger el <b>Barco</b> de la zona del Sur.
+map,165,,212,EV212,9,278,101,show_text,\dxn[Eda]¡Los salvaremos cueste lo que cueste! ¡Espero que nos veamos pronto!
+map,165,,212,EV212,9,282,101,show_text,"\sh\dxn[Eda]¡Vamos a salvar a tu hermano, Latias!"
+map,165,,212,EV212,9,286,101,show_text,\f[latias001]¡LATIAS!
+map,165,,212,EV212,9,332,101,show_text,<ac>En algún lugar de Akebia...</ac>
+map,165,,212,EV212,9,335,355,script,"pbAddDependency2(203, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,165,,78,EV078,1,0,101,show_text,¿Quieres que te cuente una historia totalmente verídica?
+map,165,,78,EV078,1,1,102,choices,Si
+map,165,,78,EV078,1,1,102,choices,No
+map,165,,78,EV078,1,2,402,choice_branch,Si
+map,165,,78,EV078,1,3,101,show_text,"Verás... Hace muchos años, cuando estaba en la escuela secundaria, todas las chicas de la clase venían a mi porque era demasiado guapo. Además, todos mis"
+map,165,,78,EV078,1,4,401,show_text_cont,"compañeros de clase jugaban a videojuegos, mientras yo profundizaba en mejorar mis técnicas y mi persona. La escuela me aburría muchísmo, era demasiado"
+map,165,,78,EV078,1,5,401,show_text_cont,"listo, ni siquiera estudiaba para los exámenes. Hasta las profesoras me daban bola por la persona tan sexy que era."
+map,165,,78,EV078,1,7,101,show_text,"Al final, no pude aguantar más la situación y tuve que desaparecer y ponerme a trabajar de payaso, porque así ocultaba mi rostro tan sexy que tenía. Qué cosas"
+map,165,,78,EV078,1,8,401,show_text_cont,"tiene la vida, ¿verdad?"
+map,165,,78,EV078,1,10,101,show_text,"Pues todo eso es verídico, 100% real no fake."
+map,165,,78,EV078,1,13,355,script,"system(""start https://www.youtube.com/watch?v=q_btNdmp5Y4&ab_channel=coke"")"
+map,165,,78,EV078,1,15,402,choice_branch,No
+map,165,,78,EV078,1,16,101,show_text,Pues tú mismo.
+map,165,,78,EV078,3,0,101,show_text,¿Quieres que te cuente una historia totalmente verídica?
+map,165,,78,EV078,3,1,102,choices,Si
+map,165,,78,EV078,3,1,102,choices,No
+map,165,,78,EV078,3,2,402,choice_branch,Si
+map,165,,78,EV078,3,3,101,show_text,"Verás... Hace muchos años, cuando estaba en la escuela secundaria, todas las chicas de la clase venían a mi porque era demasiado guapo. Además, todos mis"
+map,165,,78,EV078,3,4,401,show_text_cont,"compañeros de clase jugaban a videojuegos, mientras yo profundizaba en mejorar mis técnicas y mi persona. La escuela me aburría muchísmo, era demasiado"
+map,165,,78,EV078,3,5,401,show_text_cont,"listo, ni siquiera estudiaba para los exámenes. Hasta las profesoras me daban bola por la persona tan sexy que era."
+map,165,,78,EV078,3,7,101,show_text,"Al final, no pude aguantar más la situación y tuve que desaparecer y ponerme a trabajar de payaso, porque así ocultaba mi rostro tan sexy que tenía. Qué cosas"
+map,165,,78,EV078,3,8,401,show_text_cont,"tiene la vida, ¿verdad?"
+map,165,,78,EV078,3,10,101,show_text,"Pues todo eso es verídico, 100% real no fake."
+map,165,,78,EV078,3,12,355,script,"system(""start https://www.youtube.com/watch?v=q_btNdmp5Y4&ab_channel=coke"")"
+map,165,,78,EV078,3,14,402,choice_branch,No
+map,165,,78,EV078,3,15,101,show_text,Pues tú mismo.
+map,165,,78,EV078,5,0,101,show_text,¿Quieres que te cuente una historia totalmente verídica?
+map,165,,78,EV078,5,1,102,choices,Si
+map,165,,78,EV078,5,1,102,choices,No
+map,165,,78,EV078,5,2,402,choice_branch,Si
+map,165,,78,EV078,5,3,101,show_text,"Verás... Hace muchos años, cuando estaba en la escuela secundaria, todas las chicas de la clase venían a mi porque era demasiado guapo. Además, todos mis"
+map,165,,78,EV078,5,4,401,show_text_cont,"compañeros de clase jugaban a videojuegos, mientras yo profundizaba en mejorar mis técnicas y mi persona. La escuela me aburría muchísmo, era demasiado"
+map,165,,78,EV078,5,5,401,show_text_cont,"listo, ni siquiera estudiaba para los exámenes. Hasta las profesoras me daban bola por la persona tan sexy que era."
+map,165,,78,EV078,5,7,101,show_text,"Al final, no pude aguantar más la situación y tuve que desaparecer y ponerme a trabajar de payaso, porque así ocultaba mi rostro tan sexy que tenía. Qué cosas"
+map,165,,78,EV078,5,8,401,show_text_cont,"tiene la vida, ¿verdad?"
+map,165,,78,EV078,5,10,101,show_text,"Pues todo eso es verídico, 100% real no fake."
+map,165,,78,EV078,5,12,355,script,"system(""start https://www.youtube.com/watch?v=q_btNdmp5Y4&ab_channel=coke"")"
+map,165,,78,EV078,5,14,402,choice_branch,No
+map,165,,78,EV078,5,15,101,show_text,Pues tú mismo.
+map,165,,179,EV179,1,7,101,show_text,\dxn[\PN](Debería ir a buscar al museo. Creo recordar que estaba en el Sur...)
+map,165,,179,EV179,3,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,165,,45,EV045,1,0,101,show_text,¿Dónde estaba el museo? ¿No teníamos algo que
+map,165,,45,EV045,1,1,401,show_text_cont,hacer allá?
+map,165,,45,EV045,1,3,101,show_text,Creo que estaba en la zona del <b>sur</b> de la
+map,165,,45,EV045,1,4,401,show_text_cont,ciudad.
+map,165,,246,EV246,1,0,101,show_text,<ac>Ciudad Cardenal - Centro</ac>
+map,165,,112,EV112,1,0,101,show_text,"Nosotros, los gondoleros, nos ganamos bien la vida aquí. Muchas gente del norte viene sólo para que le den un paseo en góndola."
+map,165,,112,EV112,3,0,101,show_text,"Nosotros, los gondoleros, nos ganamos bien la vida aquí. Muchas gente del norte viene sólo para que le den un paseo en góndola."
+map,165,,112,EV112,4,0,101,show_text,"Nosotros, los gondoleros, nos ganamos bien la vida aquí. Muchas gente del norte viene sólo para que le den un paseo en góndola."
+map,165,,146,EV146,1,0,101,show_text,La papelera está vacía.
+map,165,,12,EV012,1,0,108,comment,noshadow
+map,165,,79,Edav2,1,0,101,show_text,"Me encanta este lugar, el ambiente vivo, el agua por"
+map,165,,79,Edav2,1,1,401,show_text_cont,"todas partes, la gente feliz... Nos hace olvidar que"
+map,165,,79,Edav2,1,2,401,show_text_cont,"estamos siendo manipulados, en verdad."
+map,165,,79,Edav2,3,0,101,show_text,"Me encanta este lugar, el ambiente vivo, el agua por"
+map,165,,79,Edav2,3,1,401,show_text_cont,"todas partes, la gente feliz... Nos hace olvidar que"
+map,165,,79,Edav2,3,2,401,show_text_cont,"estamos siendo manipulados, en verdad."
+map,165,,79,Edav2,7,0,101,show_text,"Me encanta este lugar, el ambiente vivo, el agua por"
+map,165,,79,Edav2,7,1,401,show_text_cont,"todas partes, la gente feliz... Nos hace olvidar que"
+map,165,,79,Edav2,7,2,401,show_text_cont,"estamos siendo manipulados, en verdad."
+map,165,,46,EV046,1,0,101,show_text,¿Dónde estaba el museo? ¿No teníamos algo que
+map,165,,46,EV046,1,1,401,show_text_cont,hacer allá?
+map,165,,46,EV046,1,3,101,show_text,Creo que estaba en la zona del <b>sur</b> de la
+map,165,,46,EV046,1,4,401,show_text_cont,ciudad.
+map,165,,247,EV247,1,0,108,comment,noshadow
+map,165,,113,EV113,1,0,101,show_text,"Jejejeje, quería jugar con el móvil y se lo quité a mi mamá, pero sa' enfadao'."
+map,165,,147,EV147,1,0,101,show_text,La papelera está vacía.
+map,165,,13,EV013,1,0,108,comment,noshadow
+map,165,,80,niñoditto,1,0,101,show_text,"A mi chica le procupa lo que estamos viviendo, por"
+map,165,,80,niñoditto,1,1,401,show_text_cont,eso siempre la traigo aquí para que se desvele un
+map,165,,80,niñoditto,1,2,401,show_text_cont,poco...
+map,165,,80,niñoditto,3,0,101,show_text,"A mi chica le procupa lo que estamos viviendo, por"
+map,165,,80,niñoditto,3,1,401,show_text_cont,eso siempre la traigo aquí para que se desvele un
+map,165,,80,niñoditto,3,2,401,show_text_cont,poco...
+map,165,,80,niñoditto,6,0,101,show_text,"A mi chica le procupa lo que estamos viviendo, por"
+map,165,,80,niñoditto,6,1,401,show_text_cont,eso siempre la traigo aquí para que se desvele un
+map,165,,80,niñoditto,6,2,401,show_text_cont,poco...
+map,165,,181,EV181,1,0,355,script,Pokemon.play_cry(:DUCKLETT)
+map,165,,47,EV047,1,0,101,show_text,"Estoy hablando de negocios, sal de aquí."
+map,165,,248,EV248,1,0,108,comment,noshadow
+map,165,,114,EV114,1,0,101,show_text,¡Será posible! ¡Mi hija me ha quitado el móvil!
+map,165,,215,EV215,1,0,101,show_text,Espero que la estancia sea agradable.
+map,165,,81,EV081,1,0,101,show_text,¡Esta ciudad está llena de artistas!
+map,165,,81,EV081,3,0,101,show_text,¡Esta ciudad está llena de artistas!
+map,165,,81,EV081,4,0,101,show_text,¡Esta ciudad está llena de artistas!
+map,165,,148,EV148,1,0,101,show_text,La papelera está vacía.
+map,165,,182,EV182,1,0,101,show_text,La papelera está vacía.
+map,165,,48,EV048,1,0,101,show_text,Sal de aquí mocoso.
+map,165,,249,EV249,1,0,108,comment,noshadow
+map,165,,115,EV115,1,0,101,show_text,"¡El dinero que han tirado al suelo por hacer el payaso, era mío!"
+map,165,,115,EV115,1,2,101,show_text,"¡Mentira, me lo han lanzado a mí!"
+map,165,,15,EV015,1,0,101,show_text,(Está tocando una hermosa melodía con su
+map,165,,15,EV015,1,1,401,show_text_cont,acordeón...)
+map,165,,15,EV015,3,0,101,show_text,(Está tocando una hermosa melodía con su
+map,165,,15,EV015,3,1,401,show_text_cont,acordeón...)
+map,165,,15,EV015,4,0,101,show_text,(Está tocando una hermosa melodía con su
+map,165,,15,EV015,4,1,401,show_text_cont,acordeón...)
+map,165,,82,EV082,1,0,101,show_text,¡Vamos a divertirnos!
+map,165,,82,EV082,2,0,101,show_text,¡Sigamos divirtiéndonos!
+map,165,,149,EV149,1,0,101,show_text,La papelera está vacía.
+map,165,,49,EV049,1,0,101,show_text,"Vengo siempre a regar esta plantita, pero me da mal"
+map,165,,49,EV049,1,1,401,show_text_cont,"rollo esta parte de arriba, con el Bar al lado, siempre"
+map,165,,49,EV049,1,2,401,show_text_cont,te encuentras gente chunga y borrachos también...
+map,165,,250,EV250,1,0,108,comment,noshadow
+map,165,,116,EV116,1,0,101,show_text,"¡El dinero que han tirado al suelo por hacer el payaso, era mío!"
+map,165,,116,EV116,1,2,101,show_text,"¡Mentira, me lo han lanzado a mí!"
+map,165,,16,EV016,1,0,108,comment,noshadow
+map,165,,83,EV083,1,0,101,show_text,"¿Has visto qué dibujo más bonito estoy haciendo? Se me dan bien otras cosas también, como esto."
+map,165,,83,EV083,1,5,101,show_text,"¡Ten, te regalaré algo de pintura, para que pintes tú también!"
+map,165,,83,EV083,1,6,355,script,pbReceiveItem(:PINTURA)
+map,165,,83,EV083,2,0,101,show_text,Seguiré dibujando mi retrato de Latias y Latios.
+map,165,,150,EV150,1,0,101,show_text,La papelera está vacía.
+map,165,,184,EV184,1,7,101,show_text,\dxn[\PN](Debería ir a buscar al museo. Creo recordar que estaba en el Sur...)
+map,165,,184,EV184,3,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,165,,50,EV050,1,0,355,script,Pokemon.play_cry(:ROSELIA)
+map,165,,251,EV251,1,0,108,comment,noshadow
+map,165,,17,EV017,1,0,108,comment,noshadow
+map,165,,84,EV084,1,0,108,comment,noshadow
+map,165,,151,EV151,1,0,101,show_text,La papelera está vacía.
+map,165,,51,EV051,1,0,101,show_text,"No me dejan entrar al Bar porque no tengo 16 años. Quiero hacerme mayor, papá."
+map,165,,51,EV051,1,2,101,show_text,"Ser mayor es horrible, ya te darás cuenta cuando"
+map,165,,51,EV051,1,3,401,show_text_cont,crezcas.
+map,165,,252,EV252,1,0,108,comment,noshadow
+map,165,,185,EV185,1,7,101,show_text,\dxn[\PN](Debería ir a buscar al museo. Creo recordar que estaba en el Sur...)
+map,165,,185,EV185,3,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,165,,85,EV085,1,0,108,comment,noshadow
+map,165,,152,EV152,1,0,101,show_text,La papelera está vacía.
+map,165,,18,EV018,1,0,108,comment,noshadow
+map,165,,52,EV052,1,0,101,show_text,"No me dejan entrar al Bar porque no tengo 16 años. Quiero hacerme mayor, papá."
+map,165,,52,EV052,1,2,101,show_text,"Ser mayor es horrible, ya te darás cuenta cuando"
+map,165,,52,EV052,1,3,401,show_text_cont,crezcas.
+map,165,,253,EV253,1,0,108,comment,noshadow
+map,165,,119,EV119,1,0,101,show_text,"Qué bonita es la Líder de Gimnasio de esta ciudad, ojalá ser como ella."
+map,165,,186,EV186,1,7,101,show_text,\dxn[\PN](Debería ir a buscar al museo. Creo recordar que estaba en el Sur...)
+map,165,,186,EV186,3,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,165,,220,EV220,1,4,101,show_text,"\dxn[Darek]Otra derrota más, ¿se puede saber qué me pasa?"
+map,165,,220,EV220,1,8,101,show_text,"\dxn[Darek]Tch, tenía la cabeza en otra parte... Debería haberle pedido perdón a Eda, se me quedado un mal sabor de boca."
+map,165,,220,EV220,1,12,101,show_text,"\dxn[Darek]Creo que debería ir a verla, no sé si estaré a gusto hasta que hagamos las paces."
+map,165,,220,EV220,1,18,101,show_text,\dxn[Darek]¿Desde cuando soy yo el que va detrás de ella? ¡Más le vale que se disculpe también!
+map,165,,220,EV220,1,34,101,show_text,\dxn[Darek]¡Hey! ¡Ese hombre recuerdo haberlo visto en alguna parte! ¿Puede que cerca de la Ruta 6?
+map,165,,220,EV220,1,48,101,show_text,"\dxn[Aldrich]Creo haberos dicho que no me siguierais. Y no debéis aparecer por la ciudad, ¿qué pensarán si os encuentran?"
+map,165,,220,EV220,1,51,101,show_text,"\dxn[Escolta M.]Esto, lo sentimos. El <b>Jefe</b> nos dijo que le protegiéramos."
+map,165,,220,EV220,1,54,101,show_text,\dxn[Aldrich]¡Habráse visto! ¿Ese carcamal cree que necesito protección?
+map,165,,220,EV220,1,60,101,show_text,\dxn[Escolta F.]¿¡Qué manera es esa de faltarle el respeto al Jefe!? ¡Vigile sus palabras!
+map,165,,220,EV220,1,63,101,show_text,"\dxn[Aldrich]Simplemente, largaos. Tengo un asunto pendiente."
+map,165,,220,EV220,1,66,101,show_text,"\dxn[Escolta M.]De acuerdo, pero ande con cuidado."
+map,165,,220,EV220,1,103,101,show_text,"\dxn[Aldrich]Espero que nadie me haya visto con ellos, esta noche es muy importante."
+map,165,,220,EV220,1,107,101,show_text,\dxn[Aldrich]Nadie debe estropear la fiesta que vamos a montar con Álama.
+map,165,,220,EV220,1,125,101,show_text,\dxn[Darek]¿Fiesta con Álama? ¿Jefe? ¿De qué narices está hablando ese hombre?
+map,165,,220,EV220,1,129,101,show_text,\dxn[Darek]De hecho... ¿No se suponía que los de la Familia Real se habían retirado de la ciudad?
+map,165,,220,EV220,1,133,101,show_text,"\dxn[Darek]Esto me da muy mala espina, creo que debería acercarme al Jardín de los Sueños, quizás sea una buena decisión quedarme esta noche allí."
+map,165,,86,EV086,1,0,108,comment,noshadow
+map,165,,153,EV153,1,0,101,show_text,La papelera está vacía.
+map,165,,19,EV019,1,0,108,comment,noshadow
+map,165,,53,EV053,1,0,101,show_text,A veces encuentras algún que otro borracho durante
+map,165,,53,EV053,1,1,401,show_text_cont,la noche...
+map,165,,254,EV254,1,0,108,comment,noshadow
+map,165,,120,EV120,1,0,101,show_text,¿Sabías que la líder de gimnasio suele ir a surfear a Ciudad Ninfa? Tengo entendido que su gimnasio está tematizado con el Surf...
+map,165,,87,EV087,1,0,108,comment,noshadow
+map,165,,154,EV154,1,0,101,show_text,"Si tuviera Pokémon voladores, podría moverme hasta la playa sin ir caminando. Pero madre mía, hasta la cala de la Ruta 10 me queda un trecho a pata, la desgracia"
+map,165,,154,EV154,1,1,401,show_text_cont,de usar Pokémon de agua...
+map,165,,20,EV020,1,0,108,comment,noshadow
+map,165,,54,EV054,1,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,255,EV255,1,0,108,comment,noshadow
+map,165,,255,EV255,1,1,101,show_text,¿Quieres dar una ofrenda a los Pokémon Eón?
+map,165,,255,EV255,1,2,102,choices,Siii
+map,165,,255,EV255,1,2,102,choices,Toy pobre
+map,165,,255,EV255,1,3,402,choice_branch,Siii
+map,165,,255,EV255,1,4,102,choices,100
+map,165,,255,EV255,1,4,102,choices,1000
+map,165,,255,EV255,1,4,102,choices,10000
+map,165,,255,EV255,1,4,102,choices,No way.
+map,165,,255,EV255,1,5,402,choice_branch,100
+map,165,,255,EV255,1,11,101,show_text,Diste 100 Pokedólares para agradecer a los Pokémon Eón.
+map,165,,255,EV255,1,13,101,show_text,<b>Arceus</b> te lo agradecerá en un futuro.
+map,165,,255,EV255,1,16,101,show_text,No tienes suficiente dinero.
+map,165,,255,EV255,1,20,402,choice_branch,1000
+map,165,,255,EV255,1,26,101,show_text,Diste 1000 Pokedólares para agradecer a los Pokémon Eón.
+map,165,,255,EV255,1,28,101,show_text,<b>Arceus</b> te lo agradecerá en un futuro.
+map,165,,255,EV255,1,31,101,show_text,No tienes suficiente dinero.
+map,165,,255,EV255,1,35,402,choice_branch,10000
+map,165,,255,EV255,1,41,101,show_text,Diste 10000 Pokedólares para agradecer a los Pokémon Eón.
+map,165,,255,EV255,1,43,101,show_text,<b>Arceus</b> te lo agradecerá en un futuro.
+map,165,,255,EV255,1,46,101,show_text,No tienes suficiente dinero.
+map,165,,255,EV255,1,51,402,choice_branch,No way.
+map,165,,255,EV255,1,52,101,show_text,No das ni un duro.
+map,165,,255,EV255,1,56,402,choice_branch,Toy pobre
+map,165,,255,EV255,1,57,101,show_text,No das ni un duro.
+map,165,,188,,1,7,101,show_text,\dxn[\PN](Debería ir a buscar al museo. Creo recordar que estaba en el Sur...)
+map,165,,188,,2,7,101,show_text,\dxn[\PN](Debería perseguir a Álama...)
+map,165,,188,,3,7,101,show_text,\dxn[\PN](Debería ir al Bar...)
+map,165,,188,,4,7,101,show_text,\dxn[\PN](Debería ir al Hotel...)
+map,165,,88,EV088,1,0,108,comment,noshadow
+map,165,,155,EV155,1,0,101,show_text,"Lo sentimos, actualmente el hotel sólo permite entrar a ciertas personas de renombre."
+map,165,,155,EV155,2,3,101,show_text,¡Tú eres la persona de la que me ha hablado Celeste!
+map,165,,155,EV155,2,5,101,show_text,"Muchas gracias por salvar al Alcalde, te daremos estancia totalmente gratis."
+map,165,,155,EV155,2,7,101,show_text,Tus amigos te están esperando en la habitación 203.
+map,165,,155,EV155,2,8,401,show_text_cont,\nQue pase una linda noche.
+map,165,,21,EV021,1,0,108,comment,noshadow
+map,165,,256,EV256,1,0,101,show_text,"Sabías que si donas capital en esta fuente, Arceus te recompensará por ello en el futuro."
+map,165,,189,,1,7,101,show_text,\dxn[\PN](Debería ir a buscar al museo. Creo recordar que estaba en el Sur...)
+map,165,,189,,2,7,101,show_text,\dxn[\PN](Debería perseguir a Álama...)
+map,165,,189,,3,7,101,show_text,\dxn[\PN](Debería ir al Bar...)
+map,165,,189,,4,7,101,show_text,\dxn[\PN](Debería ir al Hotel...)
+map,165,,55,EV055,1,0,101,show_text,"Me tienen explotada en la Pizzería, ojalá trabajara"
+map,165,,55,EV055,1,1,401,show_text_cont,alguien más con nosotros... Estoy muy cansada.
+map,165,,89,EV089,1,0,108,comment,noshadow
+map,165,,156,EV156,1,0,101,show_text,¿Que porqué estoy sentada? Bueno...
+map,165,,156,EV156,1,7,101,show_text,"Ya te imaginas porqué, jejejeje."
+map,165,,22,EV022,1,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,22,EV022,3,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,22,EV022,4,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,190,EV190,1,0,101,show_text,<ac>Casa de Celeste</ac>
+map,165,,56,EV056,1,0,101,show_text,"Vengo todos los días a la pizzería, ¡que vivan los"
+map,165,,56,EV056,1,1,401,show_text_cont,carbohidratos!
+map,165,,90,EV090,1,0,108,comment,noshadow
+map,165,,157,EV157,1,0,101,show_text,"¡Me encanta el ambiente de este lugar, todo el mundo parece feliz!"
+map,165,,23,EV023,1,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,258,gondola xd,1,0,108,comment,noshadow
+map,165,,191,EV191,1,0,101,show_text,"Si vas hacia el Este, pásate por la Biblioteca. Hay mucha información de la ciudad y del pasado de los Pokémon Eón."
+map,165,,57,EV057,1,0,101,show_text,¡Aquí amamos la pizza!
+map,165,,91,EV091,1,0,108,comment,noshadow
+map,165,,24,EV024,1,0,108,comment,noshadow
+map,165,,192,Vending machine 1,1,0,355,script,pbPokemonMart2([
+map,165,,192,Vending machine 1,1,1,655,script_cont,":FRESHWATER,"
+map,165,,192,Vending machine 1,1,2,655,script_cont,":SODAPOP,"
+map,165,,192,Vending machine 1,1,3,655,script_cont,:LEMONADE])
+map,165,,58,EV058,1,0,101,show_text,"¡Qué rico, ñamñam!"
+map,165,,259,evento venecia,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,165,,259,evento venecia,1,4,101,show_text,"Hace muchos años, Ciudad Cardenal estaba construida bajo el agua y vivíamos junto a los Pokémon del océano. Estaba rodeada de una gigante burbuja, con una"
+map,165,,259,evento venecia,1,5,401,show_text_cont,membrana que parecía indestructible.
+map,165,,259,evento venecia,1,7,101,show_text,"Sin embargo, un día, una \c[2]esfera \c[0] prohibida, fue arrancada de su incógnito lugar."
+map,165,,259,evento venecia,1,12,101,show_text,"Empezó a suceder algo impensable, la membrana empezó a debilitarse y el resto de la región entró en una terrible catástrofe. Toda la región de Akebia estaba en"
+map,165,,259,evento venecia,1,13,401,show_text_cont,peligro...
+map,165,,259,evento venecia,1,15,101,show_text,"Pero, gracias a los poderes psíquicos de Latias, la membrana se mantuvo intácta durante horas, salvando así, de una muerte segura, a los habitantes de la antigua"
+map,165,,259,evento venecia,1,16,401,show_text_cont,Ciudad Cardenal.
+map,165,,259,evento venecia,1,21,101,show_text,"Mientras tanto, Latios y un misterioso humano, dieron su vida para hacer nacer una nueva esfera, que devolvería todo a la normalidad..."
+map,165,,259,evento venecia,1,26,101,show_text,"Se dice que ese humano fue traído por el mismísimo Arceus. Por ello, gracias a él y su voluntad, la región de Akebia fue salvada."
+map,165,,259,evento venecia,1,31,101,show_text,"Sin embargo, la antigua Ciudad Cardenal, fue trasladada a la superficie, ya que la membrana podría suponer un problema si alguien, en un futuro, fuera capaz de"
+map,165,,259,evento venecia,1,32,401,show_text_cont,extraer la esfera de su desconocido paradero de nuevo...
+map,165,,259,evento venecia,1,56,101,show_text,"\dxn[Gondolero]Y por eso mismo, a día de hoy, nuestra ciudad es tan religiosa y amamos a nuestros héroes, los Pokémon Eón."
+map,165,,259,evento venecia,1,78,101,show_text,"\dxn[Gondolero]Hay gente que dice haberlos visto. De Latias es posible, pero Latios... Se supone que falleció..."
+map,165,,259,evento venecia,1,80,101,show_text,"\dxn[Gondolero]¿Existirán varios Pokémon Legendarios, o será una reencarnación?"
+map,165,,259,evento venecia,1,96,101,show_text,"\dxn[Gondolero]Eso lo dejo totalmente a tu imaginación, hay cosas que el ser humano es incapaz de comprender."
+map,165,,259,evento venecia,1,99,101,show_text,"\dxn[Gondolero]Espero que te haya gustado la experiencia, si algún día quieres que te cuente la historia de nuevo, ya sabes dónde estoy."
+map,165,,259,evento venecia,1,102,101,show_text,"\dxn[Gondolero]Grazie ragazzo, ciao."
+map,165,,259,evento venecia,1,105,101,show_text,"\dxn[Gondolero]Grazie ragazza, ciao."
+map,165,,259,evento venecia,1,111,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,165,,159,EV159,1,0,101,show_text,"He intentado vencer a la líder de gimnasio, pero es imposible, su composición de tipo <b>agua</b> es toda una locura."
+map,165,,25,EV025,1,0,108,comment,noshadow
+map,165,,92,EV092,1,0,108,comment,noshadow
+map,165,,193,Vending machine 1,1,0,355,script,pbPokemonMart2([
+map,165,,193,Vending machine 1,1,1,655,script_cont,":FRESHWATER,"
+map,165,,193,Vending machine 1,1,2,655,script_cont,":SODAPOP,"
+map,165,,193,Vending machine 1,1,3,655,script_cont,:LEMONADE])
+map,165,,59,EV059,1,0,101,show_text,"A mi hija le encanta la pizza, aunque me da miedo que"
+map,165,,59,EV059,1,1,401,show_text_cont,se acostumbre a una comida tan poco
+map,165,,59,EV059,1,2,401,show_text_cont,saludable y grasienta. Hay que cuidar la alimentación.
+map,165,,260,ERICO,1,2,101,show_text,\dxn[Plubio]¡Hola! ¿Quién eres?
+map,165,,260,ERICO,1,4,101,show_text,"\dxn[Plubio]Soy Plubio, comparto el título de Campeón de la región de Hoenn junto a Máximo."
+map,165,,260,ERICO,1,6,101,show_text,"\dxn[Plubio]A la vez, también soy Líder de Gimnasio en Ciudad Arrecípolis."
+map,165,,260,ERICO,1,8,101,show_text,\dxn[Plubio]He venido para avistar las hermosas vistas de la ciudad del agua.
+map,165,,260,ERICO,1,10,101,show_text,\dxn[Plubio]No sabía que en Akebia teníais un lugar tan bello con mi estimada región.
+map,165,,260,ERICO,1,13,101,show_text,"\dxn[Plubio]Tienes pinta de entrenar Pokémon, en tu belleza resalta."
+map,165,,260,ERICO,1,15,101,show_text,\dxn[Plubio]¿Te apetece echar un combate? ¡Mis bellos Pokémon quieren disfrutar del clima de esta maravillosa región!
+map,165,,260,ERICO,1,28,101,show_text,\sh\dxn[Plubio]\ts[2]¡Has...\wt[15] conseguido derrotarme!
+map,165,,260,ERICO,1,30,101,show_text,\dxn[Plubio]¡Eso significa... \wt[15]que prácticamente has alcanzado el nivel de un Campeón!
+map,165,,260,ERICO,1,32,101,show_text,"\dxn[Plubio]¡Por tu gran destreza, te voy a dar esto como recompensa!"
+map,165,,260,ERICO,1,33,355,script,pbReceiveItem(:SHARPEDONITE)
+map,165,,260,ERICO,1,35,101,show_text,\dxn[Plubio]Seguiré admirando estas maravillosas vistas de Ciudad Cardenal.
+map,165,,260,ERICO,1,37,101,show_text,\dxn[Plubio]Ha sido un placer conocerte.
+map,165,,260,ERICO,2,0,101,show_text,\dxn[Plubio]Ha sido un placer conocerte.
+map,165,,160,EV160,1,0,101,show_text,"Yo y mi colega hemos intentado ganar a la líder de gimnasio, pero su <b>Vaporeon</b> es demasiado fuerte."
+map,165,,26,EV026,1,0,101,show_text,(Está tocando una hermosa melodía con su
+map,165,,26,EV026,1,1,401,show_text_cont,acordeón...)
+map,165,,93,EV093,1,0,108,comment,noshadow
+map,165,,194,Vending machine 1,1,0,355,script,pbPokemonMart2([
+map,165,,194,Vending machine 1,1,1,655,script_cont,":FRESHWATER,"
+map,165,,194,Vending machine 1,1,2,655,script_cont,":SODAPOP,"
+map,165,,194,Vending machine 1,1,3,655,script_cont,:LEMONADE])
+map,165,,60,EV060,1,0,101,show_text,"A mi no me gusta la pizza, pero qué mejor que invitar"
+map,165,,60,EV060,1,1,401,show_text_cont,a la chica que me gusta a comer su comida favorita...
+map,165,,60,EV060,1,6,101,show_text,¿Cómo? ¿Eso no va a servir para nada? ¿Qué hago?
+map,165,,60,EV060,1,9,101,show_text,¡Oh ya veo! Con que soy un pagafantas.
+map,165,,60,EV060,1,11,101,show_text,Entonces... ¿debería simplemente ser yo mismo?
+map,165,,60,EV060,1,13,101,show_text,"Muchas gracias por el consejo, toma un poco anda."
+map,165,,60,EV060,1,15,355,script,pbReceiveItem(:PIZZA)
+map,165,,60,EV060,1,17,101,show_text,"Haré lo que me has dicho, gracias por tu consejo."
+map,165,,60,EV060,2,0,101,show_text,"Haré lo que me has dicho, gracias por tu consejo."
+map,165,,261,EV261,1,0,108,comment,noshadow
+map,165,,161,EV161,1,0,101,show_text,"Aquí vive la líder de Ciudad Cardenal, pero parece que nunca está en casa."
+map,165,,27,EV027,1,0,108,comment,noshadow
+map,165,,94,EV094,1,0,108,comment,noshadow
+map,165,,61,EV061,1,0,101,show_text,Hasta nosotros queremos descansar de vez en
+map,165,,61,EV061,1,1,401,show_text_cont,cuando.
+map,165,,195,Vending machine 1,1,0,355,script,pbPokemonMart2([
+map,165,,195,Vending machine 1,1,1,655,script_cont,":FRESHWATER,"
+map,165,,195,Vending machine 1,1,2,655,script_cont,":SODAPOP,"
+map,165,,195,Vending machine 1,1,3,655,script_cont,:LEMONADE])
+map,165,,95,EV095,1,0,108,comment,noshadow
+map,165,,28,EV028,1,0,108,comment,noshadow
+map,165,,162,EV162,1,0,355,script,Pokemon.play_cry(:DUCKLETT)
+map,165,,229,EV229,1,0,101,show_text,<ac>Joyería Giorno</ac>
+map,165,,196,Vending machine 1,1,0,355,script,pbPokemonMart2([
+map,165,,196,Vending machine 1,1,1,655,script_cont,":FRESHWATER,"
+map,165,,196,Vending machine 1,1,2,655,script_cont,":SODAPOP,"
+map,165,,196,Vending machine 1,1,3,655,script_cont,:LEMONADE])
+map,165,,62,EV062,1,0,101,show_text,¿Has visto las estatuas de los famosos Pokémon
+map,165,,62,EV062,1,1,401,show_text_cont,Eón? Se dice que una vez Latios murió por proteger
+map,165,,62,EV062,1,2,401,show_text_cont,la ciuadad.
+map,165,,96,EV096,1,0,108,comment,noshadow
+map,165,,163,EV163,1,0,355,script,Pokemon.play_cry(:DUCKLETT)
+map,165,,29,EV029,1,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,230,EV230,1,0,101,show_text,<ac>Hotel Miramar</ac>
+map,165,,197,Vending machine 1,1,0,355,script,pbPokemonMart2([
+map,165,,197,Vending machine 1,1,1,655,script_cont,":FRESHWATER,"
+map,165,,197,Vending machine 1,1,2,655,script_cont,":SODAPOP,"
+map,165,,197,Vending machine 1,1,3,655,script_cont,:LEMONADE])
+map,165,,63,EV063,1,0,101,show_text,Creo que los Pokémon Eón deben seguir rondando
+map,165,,63,EV063,1,1,401,show_text_cont,"por alguna parte de la ciudad, he oído a más de una"
+map,165,,63,EV063,1,2,401,show_text_cont,persona decir que los han visto por aquí cerca...
+map,165,,97,EV097,1,0,108,comment,noshadow
+map,165,,30,EV030,1,0,108,comment,noshadow
+map,165,,164,EV164,1,0,355,script,Pokemon.play_cry(:DUCKLETT)
+map,165,,231,EV231,1,1,101,show_text,"\dxn[Eda]De acuerdo, Celeste y yo iremos encima de Latias."
+map,165,,231,EV231,1,5,101,show_text,"\dxn[Eda]Tendréis que ir a pata hasta el \c[2]Jardín de los Sueños\c[0], os esperamos allí."
+map,165,,231,EV231,1,9,101,show_text,"\dxn[Celeste]Quizás haya seguridad por la zona del norte, tened mucho cuidado."
+map,165,,231,EV231,1,18,101,show_text,"\sh\dxn[Eda]¡No hay tiempo que perder, vámonos, Celeste!"
+map,165,,231,EV231,1,44,101,show_text,"\dxn[Yang Xiao]¡Vamos al Jardín de los Sueños, no hay tiempo que perder! Te espero en la zona del norte."
+map,165,,231,EV231,1,53,101,show_text,"(Ten todo listo para la batalla decisiva, luego no podrás guardar hasta que terminen las escenas.)"
+map,165,,198,Gondolero,1,1,101,show_text,"\dxn[Gondolero]Buongiorno ragazzo, ¿quieres un paseo en góndola? Te contaré la historia de esta bellissima ciudad. Sólo por 1000 Pokedólares."
+map,165,,198,Gondolero,1,4,101,show_text,"\dxn[Gondolero]Buongiorno ragazza, ¿quieres un paseo en góndola? Te contaré la historia de esta bellissima ciudad. Sólo por 1000 Pokedólares."
+map,165,,198,Gondolero,1,8,102,choices,Suuureee.
+map,165,,198,Gondolero,1,8,102,choices,To expensive.
+map,165,,198,Gondolero,1,9,402,choice_branch,Suuureee.
+map,165,,198,Gondolero,1,15,101,show_text,\dxn[Gondolero]¡Subámonos a la góndola!
+map,165,,198,Gondolero,1,16,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,165,,198,Gondolero,1,34,101,show_text,"\dxn[Gondolero]¡Salta, con cuidado!"
+map,165,,198,Gondolero,1,56,101,show_text,\dxn[Gondolero]¡Vamos a darnos una vuelta!
+map,165,,198,Gondolero,1,76,101,show_text,\dxn[Gondolero]No tienes suficiente dinero.
+map,165,,198,Gondolero,1,80,402,choice_branch,To expensive.
+map,165,,198,Gondolero,1,82,101,show_text,"\dxn[Gondolero]Arrivederci, entonces."
+map,165,,64,EV064,1,0,101,show_text,(Está tocando una hermosa melodía con su
+map,165,,64,EV064,1,1,401,show_text_cont,acordeón...)
+map,165,,131,EV131,1,0,101,show_text,"¡Ey! ¿Qué pasa, colega?"
+map,165,,131,EV131,1,4,101,show_text,¿Que me aparte? ¡Pero si estoy tocándole una canción a ese Ducklett!
+map,165,,131,EV131,1,6,101,show_text,"Espérate a que termine, aunque probablemente me pase el \c[2]día\c[0] aquí, ¡Ja, ja, ja!"
+map,165,,98,EV098,1,0,108,comment,noshadow
+map,165,,165,EV165,1,0,355,script,Pokemon.play_cry(:DUCKLETT)
+map,165,,31,EV031,1,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,199,EV199,1,0,355,script,Pokemon.play_cry(:DUCKLETT)
+map,165,,65,EV065,1,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,132,EV132,1,0,101,show_text,"Da igual en qué parte de la región esté, ¡un helado siempre entra genial!"
+map,165,,99,EV099,1,0,108,comment,noshadow
+map,165,,32,EV032,1,0,101,show_text,(Está tocando una hermosa melodía con su flauta...)
+map,165,,233,EV233,1,0,101,show_text,La papelera está vacía.
+map,165,,200,EV200,1,0,108,comment,noshadow
+map,165,,66,EV066,1,0,101,show_text,"Creo que tienen al Likylicky trabajando, ¿no es maravilloso que los Pokémon trabajen codo con codo con los humanos?"
+map,165,,133,EV133,1,0,101,show_text,"¡Hey! ¿A ti también te gusta refrescarte? Pues toma anda, que te veo sudando."
+map,165,,133,EV133,1,1,355,script,pbReceiveItem(:LEMONADE)
+map,165,,133,EV133,1,2,101,show_text,"De nada, aquí solo hay amor por regalar."
+map,165,,133,EV133,2,0,101,show_text,"De nada, aquí solo hay amor por regalar."

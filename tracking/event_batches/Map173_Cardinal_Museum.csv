@@ -1,0 +1,418 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,173,,85,EV085,1,0,101,show_text,La papelera está vacía.
+map,173,,28,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,173,,28,Trainer(4),1,1,101,show_text,¡Ya os podéis ir largando de aquí!
+map,173,,28,Trainer(4),1,8,355,script,pbTrainerEnd
+map,173,,28,Trainer(4),2,0,101,show_text,Pero qué niños tan fuertes...
+map,173,,104,EV104,1,0,108,comment,noshadow
+map,173,,76,EV076,1,0,101,show_text,"<ac><b>Kabuto: </b>\n<i>Un Pokémon casi extinto. Cada tres días, muda el caparazón, que se va endureciendo de forma progresiva.</i></ac>"
+map,173,,57,EV057,1,0,355,script,"pbItemBall(:SODAPOP,5)"
+map,173,,57,EV057,2,0,101,show_text,La papelera está vacía.
+map,173,,95,EV095,1,0,101,show_text,"El tiempo me hace recordar que en algún momento me convertiré en un saco de huesos, como ellos."
+map,173,,86,EV086,1,0,101,show_text,La papelera está vacía.
+map,173,,29,Recluta,1,2,101,show_text,"¿Unos críos? Largaros ahora mismo, no sé como habéis entrado, pero no puedo permitir que molestéis a la Comandante."
+map,173,,29,Recluta,1,9,355,script,pbTrainerEnd
+map,173,,29,Recluta,1,12,101,show_text,No puede estar pasando... ¿Qué van a hacer conmigo cuando se enteren?
+map,173,,29,Recluta,1,14,101,show_text,¡Me largo de aquí!
+map,173,,67,EV067,1,0,355,script,pbItemBall(:TM103)
+map,173,,67,EV067,1,2,355,script,"pbSetSelfSwitch(56,""A"",true)"
+map,173,,105,EV105,1,0,108,comment,noshadow
+map,173,,58,EV058,1,34,355,script,"pbRemoveDependency2(""Eda"")"
+map,173,,58,EV058,1,35,355,script,pbDeregisterPartner
+map,173,,58,EV058,1,38,355,script,pbCameraToEvent(31)
+map,173,,58,EV058,1,45,101,show_text,"\dxn[Comandante Vesta]Deja de resistirte, me estás haciendo perder el tiempo."
+map,173,,58,EV058,1,49,101,show_text,"\dxn[Comandante Vesta]Tú eres un paleontólogo, tienes que saber algo al respecto."
+map,173,,58,EV058,1,53,101,show_text,"\dxn[Paleontólogo Donatello]Te lo hemos dicho varias veces, nosotros no podemos saber dónde se esconden."
+map,173,,58,EV058,1,55,101,show_text,"\dxn[Paleontólogo Donatello]Sólo aquellas personas de corazón puro, serán capaces de avistarlos."
+map,173,,58,EV058,1,64,101,show_text,"\sh\dxn[Comandante Vesta]¡Déjate de bromas, ya me estáis tocando las narices!"
+map,173,,58,EV058,1,68,101,show_text,\dxn[Comandante Vesta]¡SALAZZLE!
+map,173,,58,EV058,1,73,101,show_text,\f[salazzle000]¡SALAZZLE!
+map,173,,58,EV058,1,76,101,show_text,\sh\dxn[???]¡Ni se te ocurra tocarlo!
+map,173,,58,EV058,1,90,101,show_text,\dxn[Comandante Vesta]¿¡Quién ha dicho eso!?
+map,173,,58,EV058,1,143,101,show_text,\sh\dxn[Comandante Vesta]¿Qu... Qué? ¿Qué haces tú aquí?
+map,173,,58,EV058,1,152,101,show_text,\f[riolu010]¡RIOLU!
+map,173,,58,EV058,1,155,101,show_text,\f[salazzle001]¡SA...SALAZ...!
+map,173,,58,EV058,1,158,101,show_text,\dxn[Comandante Vesta]¿Nos has estado siguiendo o qué te pasa?
+map,173,,58,EV058,1,169,101,show_text,\dxn[Eda]Oye \PN. ¿Conoces de algo a esta vieja?
+map,173,,58,EV058,1,175,101,show_text,"\sh\dxn[Comandante Vesta]¿Cómo me has llamado, sucia mocosa?"
+map,173,,58,EV058,1,183,101,show_text,\dxn[Eda]¡Oh disculpe!
+map,173,,58,EV058,1,188,101,show_text,\dxn[Eda]¡Pensaba que esa curvatura en la espalda era por la edad!
+map,173,,58,EV058,1,205,101,show_text,\sh\dxn[Comandante Vesta]¡AAAAAH! ¡No puedo más con estos mocosos!
+map,173,,58,EV058,1,209,101,show_text,\dxn[Comandante Vesta]¡Me voy a encargar personalmente de vosotros!
+map,173,,58,EV058,1,213,101,show_text,"\dxn[Comandante Vesta]¡La última vez, mis Pokémon estaban bastante debilitados! ¡Vas a ver lo que es luchar conmigo desde cero!"
+map,173,,58,EV058,1,222,101,show_text,"\sh\dxn[Comandante Vesta]¡Tú, la de mi izquierda! ¡Vamos a partirles la cara a estos críos!"
+map,173,,58,EV058,1,225,101,show_text,"\dxn[Recluta F.]¡A la orden, Comandante!"
+map,173,,58,EV058,1,240,101,show_text,"\dxn[Comandante Vesta]¡El resto! ¡No dejéis que se escapen esos dos, el interrogatorio no ha terminado!"
+map,173,,58,EV058,1,247,355,script,Pokemon.play_cry(:SKUNTANK)
+map,173,,58,EV058,1,248,101,show_text,\f[skun000]¡SKUNTANK!
+map,173,,58,EV058,1,251,101,show_text,"\sh\dxn[Eda]¡Vamos a darles pal' pelo, Chic!"
+map,173,,58,EV058,1,253,355,script,"pbRegisterPartner(:POKEMONTRAINER_Yoimiya,""Eda"",5)"
+map,173,,58,EV058,1,283,101,show_text,\f[salazzle002]¡SA...!
+map,173,,58,EV058,1,288,101,show_text,\dxn[Comandante Vesta]¡Rayos! ¡Esto no puede estar pasando!
+map,173,,58,EV058,1,292,101,show_text,"\dxn[Comandante Vesta]¡De nuevo, mis planes han sido arruinados!"
+map,173,,58,EV058,1,299,101,show_text,\dxn[Comandante Vesta](¿Qué... Qué se supone que debería hacer ahora?)
+map,173,,58,EV058,1,303,101,show_text,\dxn[Comandante Vesta](No puedo volver al Palacio Real con las manos vacías...)
+map,173,,58,EV058,1,310,101,show_text,"\sh\dxn[Comandante Vesta]¡Chicos! ¡Se acabó lo que se daba! ¡Hay que largarse de aquí, hemos fracasado!"
+map,173,,58,EV058,1,320,101,show_text,\sh\dxn[Eda]¡Como si fuéramos a dejar que te vayas así de rositas!
+map,173,,58,EV058,1,326,101,show_text,\dxn[Comandante Vesta]Niños... No creo que volvamos a vernos de nuevo. Mi vida está sentenciada.
+map,173,,58,EV058,1,339,101,show_text,\dxn[Eda]¿¡Cómo!? ¡¿A qué te refieres con eso?!
+map,173,,58,EV058,1,350,101,show_text,\dxn[Comandante Vesta]Algunos de nosotros tenemos información confidencial de la Familia Real.
+map,173,,58,EV058,1,359,101,show_text,"\dxn[Comandante Vesta]¿Crees acaso que después de varios fracasos, seguiremos trabajando para ellos?"
+map,173,,58,EV058,1,363,101,show_text,\dxn[Comandante Vesta]\ts[2]Lo único que nos queda... es la muerte.
+map,173,,58,EV058,1,368,101,show_text,\dxn[Eda]Pero... ¿No es eso un poco extremista?
+map,173,,58,EV058,1,373,101,show_text,"\sh\dxn[Comandante Vesta]¿En qué mundo te crees que vives, niñita?"
+map,173,,58,EV058,1,380,101,show_text,"\dxn[Comandante Vesta]Se acabó, no nos queda de otra..."
+map,173,,58,EV058,1,384,101,show_text,"\dxn[Eda]Hmm... Antes de que os vayáis, me gustaría saber algo."
+map,173,,58,EV058,1,391,101,show_text,\dxn[Comandante Vesta]¿Y ahora qué quieres?
+map,173,,58,EV058,1,395,101,show_text,\dxn[Eda]¿Por qué estáis persiguiendo a la Profesora Álama? ¡Responde!
+map,173,,58,EV058,1,400,101,show_text,\dxn[Comandante Vesta]¿Profesora Álama? No sé a quién te refieres.
+map,173,,58,EV058,1,404,101,show_text,\dxn[Comandante Vesta]Nosotros estamos buscando a la \c[2]princesa\c[0] que escapó del reino hace más de 10 años.
+map,173,,58,EV058,1,416,101,show_text,\sh\dxn[Eda]¿Cómo? Entonces... ¿Q-Qué está pasando aquí?
+map,173,,58,EV058,1,420,101,show_text,"\dxn[Comandante Vesta]En fin, siento tener que decir adiós."
+map,173,,58,EV058,1,426,101,show_text,\dxn[Comandante Vesta]En realidad me sabe mal por el viejo... No me dejó alternativa...
+map,173,,58,EV058,1,430,101,show_text,\sh\dxn[Comandante Vesta]¡Despejen la sala!
+map,173,,58,EV058,1,454,101,show_text,\dxn[Eda]¿Al final no buscan a la Profesora Álama?
+map,173,,58,EV058,1,460,101,show_text,\dxn[Eda]¿Qué está pasando? ¡Ya no sé ni qué pensar!
+map,173,,58,EV058,1,471,101,show_text,\dxn[Eda]Imagino que tu debes estar igual...
+map,173,,58,EV058,1,475,101,show_text,"\dxn[Eda]Aún así, después de todo esto... Me sabe mal por esa señora... ¿Vesta, se llamaba?"
+map,173,,58,EV058,1,478,101,show_text,"\sh\dxn[Paleontólogo Donatello]¡Resista, señor Alcalde!"
+map,173,,58,EV058,1,495,101,show_text,"\sh\dxn[Eda]¡Cierto, el Alcalde y el dueño del Museo! ¡Debemos llamar a un médico!"
+map,173,,96,EV096,1,0,108,comment,noshadow
+map,173,,77,EV077,1,0,101,show_text,"<ac><b>Archeops:</b>\n<i>Está basado en un Archaeopteryx, un género de aves primitivas que vivieron en el Jurásico Superior. Posee un plumaje de tonalidades"
+map,173,,77,EV077,1,1,401,show_text_cont,"amarillas, verdes y azules en todo su cuerpo a excepción de su cuello, cabeza y cola."
+map,173,,77,EV077,1,2,401,show_text_cont,</i></ac>
+map,173,,87,EV087,1,0,101,show_text,Disfrute del Museo de Ciudad Cardenal.
+map,173,,30,,1,7,101,show_text,<ac>Mientras tanto...</ac>
+map,173,,30,,1,11,355,script,"pbRemoveDependency2(""Eda"")"
+map,173,,30,,1,12,355,script,pbDeregisterPartner
+map,173,,68,EV068,1,0,101,show_text,"<ac><b>Tyrantrum:</b>\n<i>Se dice que, a pesar de su ferocidad, poseía una firmeza y una presencia dignas de un rey.</i></ac>"
+map,173,,106,EV106,1,0,108,comment,noshadow
+map,173,,49,EV049,1,34,355,script,"pbRemoveDependency2(""Eda"")"
+map,173,,49,EV049,1,35,355,script,pbDeregisterPartner
+map,173,,49,EV049,1,38,355,script,pbCameraToEvent(31)
+map,173,,49,EV049,1,45,101,show_text,"\dxn[Comandante Vesta]Deja de resistirte, me estás haciendo perder el tiempo."
+map,173,,49,EV049,1,49,101,show_text,"\dxn[Comandante Vesta]Tú eres un paleontólogo, tienes que saber algo al respecto."
+map,173,,49,EV049,1,53,101,show_text,"\dxn[Paleontólogo Donatello]Te lo hemos dicho varias veces, nosotros no podemos saber dónde se esconden."
+map,173,,49,EV049,1,55,101,show_text,"\dxn[Paleontólogo Donatello]Sólo aquellas personas de corazón puro, serán capaces de avistarlos."
+map,173,,49,EV049,1,64,101,show_text,"\sh\dxn[Comandante Vesta]¡Déjate de bromas, ya me estáis tocando las narices!"
+map,173,,49,EV049,1,68,101,show_text,\dxn[Comandante Vesta]¡SALAZZLE!
+map,173,,49,EV049,1,73,101,show_text,\f[salazzle000]¡SALAZZLE!
+map,173,,49,EV049,1,76,101,show_text,\sh\dxn[???]¡Ni se te ocurra tocarlo!
+map,173,,49,EV049,1,90,101,show_text,\dxn[Comandante Vesta]¿¡Quién ha dicho eso!?
+map,173,,49,EV049,1,143,101,show_text,\sh\dxn[Comandante Vesta]¿Qu... Qué? ¿Qué haces tú aquí?
+map,173,,49,EV049,1,152,101,show_text,\f[riolu010]¡RIOLU!
+map,173,,49,EV049,1,155,101,show_text,\f[salazzle001]¡SA...SALAZ...!
+map,173,,49,EV049,1,158,101,show_text,\dxn[Comandante Vesta]¿Nos has estado siguiendo o qué te pasa?
+map,173,,49,EV049,1,169,101,show_text,\dxn[Eda]Oye \PN. ¿Conoces de algo a esta vieja?
+map,173,,49,EV049,1,175,101,show_text,"\sh\dxn[Comandante Vesta]¿Cómo me has llamado, sucia mocosa?"
+map,173,,49,EV049,1,183,101,show_text,\dxn[Eda]¡Oh disculpe!
+map,173,,49,EV049,1,188,101,show_text,\dxn[Eda]¡Pensaba que esa curvatura en la espalda era por la edad!
+map,173,,49,EV049,1,205,101,show_text,\sh\dxn[Comandante Vesta]¡AAAAAH! ¡No puedo más con estos mocosos!
+map,173,,49,EV049,1,209,101,show_text,\dxn[Comandante Vesta]¡Me voy a encargar personalmente de vosotros!
+map,173,,49,EV049,1,213,101,show_text,"\dxn[Comandante Vesta]¡La última vez, mis Pokémon estaban bastante debilitados! ¡Vas a ver lo que es luchar conmigo desde cero!"
+map,173,,49,EV049,1,222,101,show_text,"\sh\dxn[Comandante Vesta]¡Tú, la de mi izquierda! ¡Vamos a partirles la cara a estos críos!"
+map,173,,49,EV049,1,225,101,show_text,"\dxn[Recluta F.]¡A la orden, Comandante!"
+map,173,,49,EV049,1,240,101,show_text,"\dxn[Comandante Vesta]¡El resto! ¡No dejéis que se escapen esos dos, el interrogatorio no ha terminado!"
+map,173,,49,EV049,1,247,355,script,Pokemon.play_cry(:SKUNTANK)
+map,173,,49,EV049,1,248,101,show_text,\f[skun000]¡SKUNTANK!
+map,173,,49,EV049,1,251,101,show_text,"\sh\dxn[Eda]¡Vamos a darles pal' pelo, Chic!"
+map,173,,49,EV049,1,253,355,script,"pbRegisterPartner(:POKEMONTRAINER_Yoimiya,""Eda"",5)"
+map,173,,49,EV049,1,283,101,show_text,\f[salazzle002]¡SA...!
+map,173,,49,EV049,1,288,101,show_text,\dxn[Comandante Vesta]¡Rayos! ¡Esto no puede estar pasando!
+map,173,,49,EV049,1,292,101,show_text,"\dxn[Comandante Vesta]¡De nuevo, mis planes han sido arruinados!"
+map,173,,49,EV049,1,299,101,show_text,\dxn[Comandante Vesta](¿Qué... Qué se supone que debería hacer ahora?)
+map,173,,49,EV049,1,303,101,show_text,\dxn[Comandante Vesta](No puedo volver al Palacio Real con las manos vacías...)
+map,173,,49,EV049,1,310,101,show_text,"\sh\dxn[Comandante Vesta]¡Chicos! ¡Se acabó lo que se daba! ¡Hay que largarse de aquí, hemos fracasado!"
+map,173,,49,EV049,1,320,101,show_text,\sh\dxn[Eda]¡Como si fuéramos a dejar que te vayas así de rositas!
+map,173,,49,EV049,1,326,101,show_text,\dxn[Comandante Vesta]Niños... No creo que volvamos a vernos de nuevo. Mi vida está sentenciada.
+map,173,,49,EV049,1,339,101,show_text,\dxn[Eda]¿¡Cómo!? ¡¿A qué te refieres con eso?!
+map,173,,49,EV049,1,350,101,show_text,\dxn[Comandante Vesta]Algunos de nosotros tenemos información confidencial de la Familia Real.
+map,173,,49,EV049,1,359,101,show_text,"\dxn[Comandante Vesta]¿Crees acaso que después de varios fracasos, seguiremos trabajando para ellos?"
+map,173,,49,EV049,1,363,101,show_text,\dxn[Comandante Vesta]\ts[2]Lo único que nos queda... es la muerte.
+map,173,,49,EV049,1,368,101,show_text,\dxn[Eda]Pero... ¿No es eso un poco extremista?
+map,173,,49,EV049,1,373,101,show_text,"\sh\dxn[Comandante Vesta]¿En qué mundo te crees que vives, niñita?"
+map,173,,49,EV049,1,380,101,show_text,"\dxn[Comandante Vesta]Se acabó, no nos queda de otra..."
+map,173,,49,EV049,1,384,101,show_text,"\dxn[Eda]Hmm... Antes de que os vayáis, me gustaría saber algo."
+map,173,,49,EV049,1,391,101,show_text,\dxn[Comandante Vesta]¿Y ahora qué quieres?
+map,173,,49,EV049,1,395,101,show_text,\dxn[Eda]¿Por qué estáis persiguiendo a la Profesora Álama? ¡Responde!
+map,173,,49,EV049,1,400,101,show_text,\dxn[Comandante Vesta]¿Profesora Álama? No sé a quién te refieres.
+map,173,,49,EV049,1,404,101,show_text,\dxn[Comandante Vesta]Nosotros estamos buscando a la \c[2]princesa\c[0] que escapó del reino hace más de 10 años.
+map,173,,49,EV049,1,416,101,show_text,\sh\dxn[Eda]¿Cómo? Entonces... ¿Q-Qué está pasando aquí?
+map,173,,49,EV049,1,420,101,show_text,"\dxn[Comandante Vesta]En fin, siento tener que decir adiós."
+map,173,,49,EV049,1,426,101,show_text,\dxn[Comandante Vesta]En realidad me sabe mal por el viejo... No me dejó alternativa...
+map,173,,49,EV049,1,430,101,show_text,\sh\dxn[Comandante Vesta]¡Despejen la sala!
+map,173,,49,EV049,1,454,101,show_text,\dxn[Eda]¿Al final no buscan a la Profesora Álama?
+map,173,,49,EV049,1,460,101,show_text,\dxn[Eda]¿Qué está pasando? ¡Ya no sé ni qué pensar!
+map,173,,49,EV049,1,471,101,show_text,\dxn[Eda]Imagino que tu debes estar igual...
+map,173,,49,EV049,1,475,101,show_text,"\dxn[Eda]Aún así, después de todo esto... Me sabe mal por esa señora... ¿Vesta, se llamaba?"
+map,173,,49,EV049,1,478,101,show_text,"\sh\dxn[Paleontólogo Donatello]¡Resista, señor Alcalde!"
+map,173,,49,EV049,1,495,101,show_text,"\sh\dxn[Eda]¡Cierto, el Alcalde y el dueño del Museo! ¡Debemos llamar a un médico!"
+map,173,,59,EV059,1,34,355,script,"pbRemoveDependency2(""Eda"")"
+map,173,,59,EV059,1,35,355,script,pbDeregisterPartner
+map,173,,59,EV059,1,38,355,script,pbCameraToEvent(31)
+map,173,,59,EV059,1,45,101,show_text,"\dxn[Comandante Vesta]Deja de resistirte, me estás haciendo perder el tiempo."
+map,173,,59,EV059,1,49,101,show_text,"\dxn[Comandante Vesta]Tú eres un paleontólogo, tienes que saber algo al respecto."
+map,173,,59,EV059,1,53,101,show_text,"\dxn[Paleontólogo Donatello]Te lo hemos dicho varias veces, nosotros no podemos saber dónde se esconden."
+map,173,,59,EV059,1,55,101,show_text,"\dxn[Paleontólogo Donatello]Sólo aquellas personas de corazón puro, serán capaces de avistarlos."
+map,173,,59,EV059,1,64,101,show_text,"\sh\dxn[Comandante Vesta]¡Déjate de bromas, ya me estáis tocando las narices!"
+map,173,,59,EV059,1,68,101,show_text,\dxn[Comandante Vesta]¡SALAZZLE!
+map,173,,59,EV059,1,73,101,show_text,\f[salazzle000]¡SALAZZLE!
+map,173,,59,EV059,1,76,101,show_text,\sh\dxn[???]¡Ni se te ocurra tocarlo!
+map,173,,59,EV059,1,90,101,show_text,\dxn[Comandante Vesta]¿¡Quién ha dicho eso!?
+map,173,,59,EV059,1,143,101,show_text,\sh\dxn[Comandante Vesta]¿Qu... Qué? ¿Qué haces tú aquí?
+map,173,,59,EV059,1,152,101,show_text,\f[riolu010]¡RIOLU!
+map,173,,59,EV059,1,155,101,show_text,\f[salazzle001]¡SA...SALAZ...!
+map,173,,59,EV059,1,158,101,show_text,\dxn[Comandante Vesta]¿Nos has estado siguiendo o qué te pasa?
+map,173,,59,EV059,1,169,101,show_text,\dxn[Eda]Oye \PN. ¿Conoces de algo a esta vieja?
+map,173,,59,EV059,1,175,101,show_text,"\sh\dxn[Comandante Vesta]¿Cómo me has llamado, sucia mocosa?"
+map,173,,59,EV059,1,183,101,show_text,\dxn[Eda]¡Oh disculpe!
+map,173,,59,EV059,1,188,101,show_text,\dxn[Eda]¡Pensaba que esa curvatura en la espalda era por la edad!
+map,173,,59,EV059,1,205,101,show_text,\sh\dxn[Comandante Vesta]¡AAAAAH! ¡No puedo más con estos mocosos!
+map,173,,59,EV059,1,209,101,show_text,\dxn[Comandante Vesta]¡Me voy a encargar personalmente de vosotros!
+map,173,,59,EV059,1,213,101,show_text,"\dxn[Comandante Vesta]¡La última vez, mis Pokémon estaban bastante debilitados! ¡Vas a ver lo que es luchar conmigo desde cero!"
+map,173,,59,EV059,1,222,101,show_text,"\sh\dxn[Comandante Vesta]¡Tú, la de mi izquierda! ¡Vamos a partirles la cara a estos críos!"
+map,173,,59,EV059,1,225,101,show_text,"\dxn[Recluta F.]¡A la orden, Comandante!"
+map,173,,59,EV059,1,240,101,show_text,"\dxn[Comandante Vesta]¡El resto! ¡No dejéis que se escapen esos dos, el interrogatorio no ha terminado!"
+map,173,,59,EV059,1,247,355,script,Pokemon.play_cry(:SKUNTANK)
+map,173,,59,EV059,1,248,101,show_text,\f[skun000]¡SKUNTANK!
+map,173,,59,EV059,1,251,101,show_text,"\sh\dxn[Eda]¡Vamos a darles pal' pelo, Chic!"
+map,173,,59,EV059,1,253,355,script,"pbRegisterPartner(:POKEMONTRAINER_Yoimiya,""Eda"",5)"
+map,173,,59,EV059,1,283,101,show_text,\f[salazzle002]¡SA...!
+map,173,,59,EV059,1,288,101,show_text,\dxn[Comandante Vesta]¡Rayos! ¡Esto no puede estar pasando!
+map,173,,59,EV059,1,292,101,show_text,"\dxn[Comandante Vesta]¡De nuevo, mis planes han sido arruinados!"
+map,173,,59,EV059,1,299,101,show_text,\dxn[Comandante Vesta](¿Qué... Qué se supone que debería hacer ahora?)
+map,173,,59,EV059,1,303,101,show_text,\dxn[Comandante Vesta](No puedo volver al Palacio Real con las manos vacías...)
+map,173,,59,EV059,1,310,101,show_text,"\sh\dxn[Comandante Vesta]¡Chicos! ¡Se acabó lo que se daba! ¡Hay que largarse de aquí, hemos fracasado!"
+map,173,,59,EV059,1,320,101,show_text,\sh\dxn[Eda]¡Como si fuéramos a dejar que te vayas así de rositas!
+map,173,,59,EV059,1,326,101,show_text,\dxn[Comandante Vesta]Niños... No creo que volvamos a vernos de nuevo. Mi vida está sentenciada.
+map,173,,59,EV059,1,339,101,show_text,\dxn[Eda]¿¡Cómo!? ¡¿A qué te refieres con eso?!
+map,173,,59,EV059,1,350,101,show_text,\dxn[Comandante Vesta]Algunos de nosotros tenemos información confidencial de la Familia Real.
+map,173,,59,EV059,1,359,101,show_text,"\dxn[Comandante Vesta]¿Crees acaso que después de varios fracasos, seguiremos trabajando para ellos?"
+map,173,,59,EV059,1,363,101,show_text,\dxn[Comandante Vesta]\ts[2]Lo único que nos queda... es la muerte.
+map,173,,59,EV059,1,368,101,show_text,\dxn[Eda]Pero... ¿No es eso un poco extremista?
+map,173,,59,EV059,1,373,101,show_text,"\sh\dxn[Comandante Vesta]¿En qué mundo te crees que vives, niñita?"
+map,173,,59,EV059,1,380,101,show_text,"\dxn[Comandante Vesta]Se acabó, no nos queda de otra..."
+map,173,,59,EV059,1,384,101,show_text,"\dxn[Eda]Hmm... Antes de que os vayáis, me gustaría saber algo."
+map,173,,59,EV059,1,391,101,show_text,\dxn[Comandante Vesta]¿Y ahora qué quieres?
+map,173,,59,EV059,1,395,101,show_text,\dxn[Eda]¿Por qué estáis persiguiendo a la Profesora Álama? ¡Responde!
+map,173,,59,EV059,1,400,101,show_text,\dxn[Comandante Vesta]¿Profesora Álama? No sé a quién te refieres.
+map,173,,59,EV059,1,404,101,show_text,\dxn[Comandante Vesta]Nosotros estamos buscando a la \c[2]princesa\c[0] que escapó del reino hace más de 10 años.
+map,173,,59,EV059,1,416,101,show_text,\sh\dxn[Eda]¿Cómo? Entonces... ¿Q-Qué está pasando aquí?
+map,173,,59,EV059,1,420,101,show_text,"\dxn[Comandante Vesta]En fin, siento tener que decir adiós."
+map,173,,59,EV059,1,426,101,show_text,\dxn[Comandante Vesta]En realidad me sabe mal por el viejo... No me dejó alternativa...
+map,173,,59,EV059,1,430,101,show_text,\sh\dxn[Comandante Vesta]¡Despejen la sala!
+map,173,,59,EV059,1,454,101,show_text,\dxn[Eda]¿Al final no buscan a la Profesora Álama?
+map,173,,59,EV059,1,460,101,show_text,\dxn[Eda]¿Qué está pasando? ¡Ya no sé ni qué pensar!
+map,173,,59,EV059,1,471,101,show_text,\dxn[Eda]Imagino que tu debes estar igual...
+map,173,,59,EV059,1,475,101,show_text,"\dxn[Eda]Aún así, después de todo esto... Me sabe mal por esa señora... ¿Vesta, se llamaba?"
+map,173,,59,EV059,1,478,101,show_text,"\sh\dxn[Paleontólogo Donatello]¡Resista, señor Alcalde!"
+map,173,,59,EV059,1,495,101,show_text,"\sh\dxn[Eda]¡Cierto, el Alcalde y el dueño del Museo! ¡Debemos llamar a un médico!"
+map,173,,97,EV097,1,0,108,comment,noshadow
+map,173,,40,EV040,1,5,101,show_text,\sh\dxn[Comandante Vesta]¡No me hagas repetírtelo! ¿¡Dónde porras se esconden Latias y Latios!?
+map,173,,40,EV040,1,9,101,show_text,\dxn[Alcalde Raffaello]¡Ya... Ya se lo dije! ¡No sé dónde se esconden! ¡Los Pokémon Eón no se dejan avistar así como así!
+map,173,,40,EV040,1,14,101,show_text,"\dxn[Paleontólogo Donatello]¡Detén esta locura, porfavor! ¡El Alcalde Raffaello es innocente, no podemos ayudarte con lo que nos pides!"
+map,173,,40,EV040,1,20,101,show_text,"\dxn[Comandante Vesta]¡Silencio, si no le saco las palabras a este viejo, te las sacaré a ti!"
+map,173,,40,EV040,1,26,101,show_text,\dxn[Alcalde Raffaello]Le dije que es imposible... ¡No le puedo dar una información que desconozco! ¡Suéltenme!
+map,173,,40,EV040,1,30,101,show_text,"\dxn[Comandante Vesta](Maldita sea, este viejo se resiste...)"
+map,173,,40,EV040,1,34,101,show_text,"\dxn[Comandante Vesta]Perfecto abuelo, si no es por las buenas... ¡Lo haremos por las malas!"
+map,173,,40,EV040,1,37,101,show_text,\f[salazzle000]¡SALAZZLE!
+map,173,,40,EV040,1,52,101,show_text,\wtnp[0]\dxn[Alcalde Raffaello]¡Deténga...!\wt[20]
+map,173,,40,EV040,1,96,101,show_text,\sh\dxn[Alcalde Raffaello]¡¡AAAAAAAARG!!
+map,173,,40,EV040,1,99,101,show_text,\sh\dxn[Paleontólogo Donatello]¡ALCALDE!
+map,173,,40,EV040,1,102,101,show_text,\dxn[Paleontólogo Donatello]¡Estás loca! ¿Cómo se te ocurre hacerle eso?
+map,173,,40,EV040,1,108,101,show_text,"\sh\dxn[Comandante Vesta]¡Cállate! ¡Ahora vas tú, si no sueltas lo que quiero oír!"
+map,173,,40,EV040,1,168,101,show_text,"\dxn[Eda]Pueeess... Aquí estamos, supongo..."
+map,173,,40,EV040,1,183,101,show_text,\dxn[Eda]\ts[2]Hum...
+map,173,,40,EV040,1,193,101,show_text,"\dxn[Eda]Esto es un poco anticlimático, ¿no crees?"
+map,173,,40,EV040,1,210,101,show_text,"\dxn[Eda]Nunca fuiste muy hablador, ahora que me doy cuenta..."
+map,173,,40,EV040,1,213,101,show_text,"\dxn[Eda]Nunca fuiste muy habladora, ahora que me doy cuenta..."
+map,173,,40,EV040,1,231,101,show_text,"\dxn[Eda]¡Por fin hemos llegado, vamos álla!"
+map,173,,40,EV040,1,240,355,script,pbAddDependency2(
+map,173,,40,EV040,1,241,655,script_cont,"@event_id, ""Eda"", 3"
+map,173,,40,EV040,1,242,655,script_cont,)
+map,173,,40,EV040,1,243,355,script,"pbRegisterPartner(:POKEMONTRAINER_Yoimiya,""Eda"",5)"
+map,173,,78,EV078,1,0,101,show_text,<ac><b>Kabutops: </b>\n<i>Un Pokémon casi extinto. Despedaza a las presas que atrapa para sorber sus fluidos y deja los restos para que otros Pokémon den
+map,173,,78,EV078,1,1,401,show_text_cont,buena cuenta de ellos.</i></ac>
+map,173,,69,EV069,1,0,101,show_text,"<ac><b>Aurorus:</b>\n<i>Dicen que, el rugido de este Pokémon, hacía aparecer la aurora boreal en el cielo nocturno.</i></ac>"
+map,173,,107,EV107,1,0,101,show_text,Disfrute del Museo de Ciudad Cardenal.
+map,173,,88,EV088,1,0,108,comment,noshadow
+map,173,,98,EV098,1,0,108,comment,noshadow
+map,173,,3,,2,2,101,show_text,\dxn[Eda]¿A dónde vas? ¿Vas a dejar morir al Alcalde o qué?
+map,173,,41,EV041,1,34,355,script,"pbRemoveDependency2(""Eda"")"
+map,173,,41,EV041,1,35,355,script,pbDeregisterPartner
+map,173,,41,EV041,1,38,355,script,pbCameraToEvent(31)
+map,173,,41,EV041,1,45,101,show_text,"\dxn[Comandante Vesta]Deja de resistirte, me estás haciendo perder el tiempo."
+map,173,,41,EV041,1,49,101,show_text,"\dxn[Comandante Vesta]Tú eres un paleontólogo, tienes que saber algo al respecto."
+map,173,,41,EV041,1,53,101,show_text,"\dxn[Paleontólogo Donatello]Te lo hemos dicho varias veces, nosotros no podemos saber dónde se esconden."
+map,173,,41,EV041,1,55,101,show_text,"\dxn[Paleontólogo Donatello]Sólo aquellas personas de corazón puro, serán capaces de avistarlos."
+map,173,,41,EV041,1,64,101,show_text,"\sh\dxn[Comandante Vesta]¡Déjate de bromas, ya me estáis tocando las narices!"
+map,173,,41,EV041,1,68,101,show_text,\dxn[Comandante Vesta]¡SALAZZLE!
+map,173,,41,EV041,1,73,101,show_text,\f[salazzle000]¡SALAZZLE!
+map,173,,41,EV041,1,76,101,show_text,\sh\dxn[???]¡Ni se te ocurra tocarlo!
+map,173,,41,EV041,1,90,101,show_text,\dxn[Comandante Vesta]¿¡Quién ha dicho eso!?
+map,173,,41,EV041,1,143,101,show_text,\sh\dxn[Comandante Vesta]¿Qu... Qué? ¿Qué haces tú aquí?
+map,173,,41,EV041,1,152,101,show_text,\f[riolu010]¡RIOLU!
+map,173,,41,EV041,1,155,101,show_text,\f[salazzle001]¡SA...SALAZ...!
+map,173,,41,EV041,1,158,101,show_text,\dxn[Comandante Vesta]¿Nos has estado siguiendo o qué te pasa?
+map,173,,41,EV041,1,169,101,show_text,\dxn[Eda]Oye \PN. ¿Conoces de algo a esta vieja?
+map,173,,41,EV041,1,175,101,show_text,"\sh\dxn[Comandante Vesta]¿Cómo me has llamado, sucia mocosa?"
+map,173,,41,EV041,1,183,101,show_text,\dxn[Eda]¡Oh disculpe!
+map,173,,41,EV041,1,188,101,show_text,\dxn[Eda]¡Pensaba que esa curvatura en la espalda era por la edad!
+map,173,,41,EV041,1,205,101,show_text,\sh\dxn[Comandante Vesta]¡AAAAAH! ¡No puedo más con estos mocosos!
+map,173,,41,EV041,1,209,101,show_text,\dxn[Comandante Vesta]¡Me voy a encargar personalmente de vosotros!
+map,173,,41,EV041,1,213,101,show_text,"\dxn[Comandante Vesta]¡La última vez, mis Pokémon estaban bastante debilitados! ¡Vas a ver lo que es luchar conmigo desde cero!"
+map,173,,41,EV041,1,222,101,show_text,"\sh\dxn[Comandante Vesta]¡Tú, la de mi izquierda! ¡Vamos a partirles la cara a estos críos!"
+map,173,,41,EV041,1,225,101,show_text,"\dxn[Recluta F.]¡A la orden, Comandante!"
+map,173,,41,EV041,1,240,101,show_text,"\dxn[Comandante Vesta]¡El resto! ¡No dejéis que se escapen esos dos, el interrogatorio no ha terminado!"
+map,173,,41,EV041,1,247,355,script,Pokemon.play_cry(:SKUNTANK)
+map,173,,41,EV041,1,248,101,show_text,\f[skun000]¡SKUNTANK!
+map,173,,41,EV041,1,251,101,show_text,"\sh\dxn[Eda]¡Vamos a darles pal' pelo, Chic!"
+map,173,,41,EV041,1,253,355,script,"pbRegisterPartner(:POKEMONTRAINER_Yoimiya,""Eda"",5)"
+map,173,,41,EV041,1,283,101,show_text,\f[salazzle002]¡SA...!
+map,173,,41,EV041,1,288,101,show_text,\dxn[Comandante Vesta]¡Rayos! ¡Esto no puede estar pasando!
+map,173,,41,EV041,1,292,101,show_text,"\dxn[Comandante Vesta]¡De nuevo, mis planes han sido arruinados!"
+map,173,,41,EV041,1,299,101,show_text,\dxn[Comandante Vesta](¿Qué... Qué se supone que debería hacer ahora?)
+map,173,,41,EV041,1,303,101,show_text,\dxn[Comandante Vesta](No puedo volver al Palacio Real con las manos vacías...)
+map,173,,41,EV041,1,310,101,show_text,"\sh\dxn[Comandante Vesta]¡Chicos! ¡Se acabó lo que se daba! ¡Hay que largarse de aquí, hemos fracasado!"
+map,173,,41,EV041,1,320,101,show_text,\sh\dxn[Eda]¡Como si fuéramos a dejar que te vayas así de rositas!
+map,173,,41,EV041,1,326,101,show_text,\dxn[Comandante Vesta]Niños... No creo que volvamos a vernos de nuevo. Mi vida está sentenciada.
+map,173,,41,EV041,1,339,101,show_text,\dxn[Eda]¿¡Cómo!? ¡¿A qué te refieres con eso?!
+map,173,,41,EV041,1,350,101,show_text,\dxn[Comandante Vesta]Algunos de nosotros tenemos información confidencial de la Familia Real.
+map,173,,41,EV041,1,359,101,show_text,"\dxn[Comandante Vesta]¿Crees acaso que después de varios fracasos, seguiremos trabajando para ellos?"
+map,173,,41,EV041,1,363,101,show_text,\dxn[Comandante Vesta]\ts[2]Lo único que nos queda... es la muerte.
+map,173,,41,EV041,1,368,101,show_text,\dxn[Eda]Pero... ¿No es eso un poco extremista?
+map,173,,41,EV041,1,373,101,show_text,"\sh\dxn[Comandante Vesta]¿En qué mundo te crees que vives, niñita?"
+map,173,,41,EV041,1,380,101,show_text,"\dxn[Comandante Vesta]Se acabó, no nos queda de otra..."
+map,173,,41,EV041,1,384,101,show_text,"\dxn[Eda]Hmm... Antes de que os vayáis, me gustaría saber algo."
+map,173,,41,EV041,1,391,101,show_text,\dxn[Comandante Vesta]¿Y ahora qué quieres?
+map,173,,41,EV041,1,395,101,show_text,\dxn[Eda]¿Por qué estáis persiguiendo a la Profesora Álama? ¡Responde!
+map,173,,41,EV041,1,400,101,show_text,\dxn[Comandante Vesta]¿Profesora Álama? No sé a quién te refieres.
+map,173,,41,EV041,1,404,101,show_text,\dxn[Comandante Vesta]Nosotros estamos buscando a la \c[2]princesa\c[0] que escapó del reino hace más de 10 años.
+map,173,,41,EV041,1,416,101,show_text,\sh\dxn[Eda]¿Cómo? Entonces... ¿Q-Qué está pasando aquí?
+map,173,,41,EV041,1,420,101,show_text,"\dxn[Comandante Vesta]En fin, siento tener que decir adiós."
+map,173,,41,EV041,1,426,101,show_text,\dxn[Comandante Vesta]En realidad me sabe mal por el viejo... No me dejó alternativa...
+map,173,,41,EV041,1,430,101,show_text,\sh\dxn[Comandante Vesta]¡Despejen la sala!
+map,173,,41,EV041,1,454,101,show_text,\dxn[Eda]¿Al final no buscan a la Profesora Álama?
+map,173,,41,EV041,1,460,101,show_text,\dxn[Eda]¿Qué está pasando? ¡Ya no sé ni qué pensar!
+map,173,,41,EV041,1,471,101,show_text,\dxn[Eda]Imagino que tu debes estar igual...
+map,173,,41,EV041,1,475,101,show_text,"\dxn[Eda]Aún así, después de todo esto... Me sabe mal por esa señora... ¿Vesta, se llamaba?"
+map,173,,41,EV041,1,478,101,show_text,"\sh\dxn[Paleontólogo Donatello]¡Resista, señor Alcalde!"
+map,173,,41,EV041,1,495,101,show_text,"\sh\dxn[Eda]¡Cierto, el Alcalde y el dueño del Museo! ¡Debemos llamar a un médico!"
+map,173,,79,EV079,1,0,101,show_text,"<ac><b>Relicanth:</b>\n<i>Es capaz de soportar la alta presión del fondo marino gracias a sus escamas, duras como rocas, y a sus vejigas natatorias llenas de"
+map,173,,79,EV079,1,1,401,show_text_cont,grasa.</i></ac>
+map,173,,70,EV070,1,0,101,show_text,"<ac><b>Shieldon:</b>\n<i>Pokémon que, con su dura protección facial, podía desenterrar las raíces de los árboles para comérselas.</i></ac>"
+map,173,,108,Fossil reviver,1,0,101,show_text,"\dxn[Arqueólogo]Hola \PN, ¿Tienes algún fósil por enseñarme?"
+map,173,,108,Fossil reviver,1,1,102,choices,Si
+map,173,,108,Fossil reviver,1,1,102,choices,No
+map,173,,108,Fossil reviver,1,2,402,choice_branch,Si
+map,173,,108,Fossil reviver,1,3,101,show_text,\dxn[Arqueólogo]¿Qué fósil quieres que reviva?
+map,173,,108,Fossil reviver,1,4,355,script,pbChooseFossil(9)
+map,173,,108,Fossil reviver,1,6,108,comment,Player didn't choose a fossil.
+map,173,,108,Fossil reviver,1,7,101,show_text,"\dxn[Arqueólogo]¿Nada? Pues cuando quieras que te reviva un fósil, házmelo saber."
+map,173,,108,Fossil reviver,1,10,108,comment,Player chose a fossil.
+map,173,,108,Fossil reviver,1,11,355,script,$PokemonBag.pbDeleteItem(pbGet(9))
+map,173,,108,Fossil reviver,1,12,355,script,data = GameData::Item.get(pbGet(9))
+map,173,,108,Fossil reviver,1,13,655,script_cont,"pbSet(3, data.name)"
+map,173,,108,Fossil reviver,1,14,101,show_text,\dxn[Arqueólogo]Hmm... Este fósil tiene pinta de ser...
+map,173,,108,Fossil reviver,1,16,101,show_text,\dxn[Arqueólogo]¡Dame unos minutos!
+map,173,,108,Fossil reviver,1,23,355,script,conversion_hash = {
+map,173,,108,Fossil reviver,1,24,655,script_cont,":HELIXFOSSIL => :OMANYTE,"
+map,173,,108,Fossil reviver,1,25,655,script_cont,":DOMEFOSSIL  => :KABUTO,"
+map,173,,108,Fossil reviver,1,26,655,script_cont,":OLDAMBER    => :AERODACTYL,"
+map,173,,108,Fossil reviver,1,27,655,script_cont,":ROOTFOSSIL  => :LILEEP,"
+map,173,,108,Fossil reviver,1,28,655,script_cont,":CLAWFOSSIL  => :ANORITH,"
+map,173,,108,Fossil reviver,1,29,655,script_cont,":SKULLFOSSIL => :CRANIDOS,"
+map,173,,108,Fossil reviver,1,30,655,script_cont,":ARMORFOSSIL => :SHIELDON,"
+map,173,,108,Fossil reviver,1,31,655,script_cont,:ODDKEYSTONE => :SPIRITOMB
+map,173,,108,Fossil reviver,1,32,655,script_cont,}
+map,173,,108,Fossil reviver,1,33,355,script,conversion_hash.merge!({
+map,173,,108,Fossil reviver,1,34,655,script_cont,":COVERFOSSIL => :TIRTOUGA,"
+map,173,,108,Fossil reviver,1,35,655,script_cont,":PLUMEFOSSIL => :ARCHEN,"
+map,173,,108,Fossil reviver,1,36,655,script_cont,":JAWFOSSIL   => :TYRUNT,"
+map,173,,108,Fossil reviver,1,37,655,script_cont,:SAILFOSSIL  => :AMAURA
+map,173,,108,Fossil reviver,1,38,655,script_cont,})
+map,173,,108,Fossil reviver,1,39,355,script,item = pbGet(9)
+map,173,,108,Fossil reviver,1,40,655,script_cont,species = conversion_hash[item]
+map,173,,108,Fossil reviver,1,41,655,script_cont,"pbSet(9, species)"
+map,173,,108,Fossil reviver,1,45,101,show_text,"\dxn[Arqueólogo]¡Como me imaginaba, se trata de un Pokémon extinto!"
+map,173,,108,Fossil reviver,1,49,101,show_text,\dxn[Arqueólogo]¿Que como lo hice tan rápido?
+map,173,,108,Fossil reviver,1,51,101,show_text,\dxn[Arqueólogo]¡A un profesional nunca le cuestiones sus métodos! ¿O acaso querías esperarte muchas horas de juego para tener un simple fósil?
+map,173,,108,Fossil reviver,1,53,101,show_text,"\dxn[Arqueólogo]¡Toma, es todo tuyo!"
+map,173,,108,Fossil reviver,1,54,355,script,"pkmn = Pokemon.new(pbGet(9), 25)"
+map,173,,108,Fossil reviver,1,55,355,script,pbAddPokemon(pkmn)
+map,173,,108,Fossil reviver,1,59,402,choice_branch,No
+map,173,,108,Fossil reviver,1,60,108,comment,Player doesn't want to choose a fossil.
+map,173,,108,Fossil reviver,1,61,101,show_text,\dxn[Arqueólogo]Estaré por aquí si necesitas mi ayuda.
+map,173,,89,EV089,1,0,101,show_text,Todo me recuerda a él...
+map,173,,4,,2,2,101,show_text,\dxn[Eda]¿A dónde vas? ¿Vas a dejar morir al Alcalde o qué?
+map,173,,80,EV080,1,0,101,show_text,<ac><b>Anorith:</b>\n<i>Este Pokémon se regeneró a partir de un fósil. Habitaba en los mares de hace cien millones de años. Atrapaba a sus presas con sus dos
+map,173,,80,EV080,1,1,401,show_text_cont,pinzas.</i></ac>
+map,173,,99,EV099,1,0,108,comment,noshadow
+map,173,,90,EV090,1,0,101,show_text,"¡Un dinosaurio, qué chulo!"
+map,173,,71,EV071,1,0,101,show_text,"<ac><b>Rampardos:</b>\n<i>Se dice que, los hombres de antaño, usaban su cráneo, más duro que el metal, para fabricar cascos.</i></ac>"
+map,173,,62,EV062,1,0,355,script,pbItemBall(:RARECANDY)
+map,173,,62,EV062,2,0,101,show_text,La papelera está vacía.
+map,173,,24,EV024,1,0,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,173,,24,EV024,1,8,101,show_text,"\dxn[Eda]Bien, supongo que deben de estar en lo más profundo del museo."
+map,173,,24,EV024,1,13,101,show_text,"\dxn[Eda]A partir de ahora iremos juntos, ¿de"
+map,173,,24,EV024,1,14,401,show_text_cont,acuerdo?
+map,173,,24,EV024,1,17,101,show_text,"\dxn[Eda]A partir de ahora iremos juntas, ¿de"
+map,173,,24,EV024,1,18,401,show_text_cont,acuerdo?
+map,173,,24,EV024,1,24,101,show_text,\dxn[Eda]Deben haber varios guardias por aquí
+map,173,,24,EV024,1,25,401,show_text_cont,cerca.
+map,173,,24,EV024,1,29,101,show_text,"\dxn[Eda]Si necesitas curar a tus Pokémon, házmelo"
+map,173,,24,EV024,1,30,401,show_text_cont,"saber, que tengo pociones por doquier."
+map,173,,24,EV024,1,38,101,show_text,\dxn[Eda]Jo... qué hambre...
+map,173,,24,EV024,1,43,101,show_text,"\dxn[Eda]¡Acabemos esto cuanto antes, que ya me ruge la tripa!"
+map,173,,24,EV024,1,54,101,show_text,\dxn[\PN](Incluso en momentos como estos piensa en
+map,173,,24,EV024,1,55,401,show_text_cont,comer...)
+map,173,,24,EV024,1,59,101,show_text,"\sh\dxn[Eda]¡Vamos, \PN!"
+map,173,,24,EV024,1,65,355,script,pbAddDependency2(
+map,173,,24,EV024,1,66,655,script_cont,"@event_id, ""Eda"", 3"
+map,173,,24,EV024,1,67,655,script_cont,)
+map,173,,24,EV024,1,68,355,script,"pbRegisterPartner(:POKEMONTRAINER_Yoimiya,""Eda"",5)"
+map,173,,81,EV081,1,0,101,show_text,"<ac><b>Armaldo:</b>\n<i>Tras evolucionar, pasó a vivir en tierra firme. Posee tal fuerza en la parte inferior del cuerpo que un solo coletazo puede resultar"
+map,173,,81,EV081,1,1,401,show_text_cont,devastador.</i></ac>
+map,173,,100,EV100,1,0,108,comment,noshadow
+map,173,,5,,2,2,101,show_text,\dxn[Eda]¿A dónde vas? ¿Vas a dejar morir al Alcalde o qué?
+map,173,,72,EV072,1,0,101,show_text,"<ac><b>Bastiodon:</b>\n<i>Se especula que hasta que no se regeneró por completo este Pokémon, se pensaba que los grandes y recios huesos de su"
+map,173,,72,EV072,1,1,401,show_text_cont,"rostro, eran su columna vertebral.</i></ac>"
+map,173,,91,EV091,1,0,101,show_text,"A mi hija le encantan los dinosaurios, a mí me parecen aterradores, la verdad."
+map,173,,6,,2,2,101,show_text,\dxn[Eda]¿A dónde vas? ¿Vas a dejar morir al Alcalde o qué?
+map,173,,63,EV063,1,0,101,show_text,Necesitas unas llaves para poder entrar...
+map,173,,63,EV063,2,2,101,show_text,(Parece que las llaves son para esta puerta...¡Ya puedo entrar!)
+map,173,,25,Trainer(3),1,0,355,script,pbNoticePlayer(get_character(0))
+map,173,,25,Trainer(3),1,1,101,show_text,¡Hey! ¿De dónde han salido estos mocosos? ¡Salid de aquí!
+map,173,,25,Trainer(3),1,8,355,script,pbTrainerEnd
+map,173,,25,Trainer(3),2,0,101,show_text,No sé qué decirle a la Comandante la verdad...
+map,173,,82,EV082,1,0,101,show_text,"<ac><b>Cradily:</b>\n<i>Sus cortas patas le impiden desplazarse con rapidez, pero puede triplicar la longitud de sus tentáculos y cuello para atrapar a presas"
+map,173,,82,EV082,1,1,401,show_text_cont,lejanas.</i></ac>
+map,173,,101,EV101,1,0,108,comment,noshadow
+map,173,,73,EV073,1,0,101,show_text,<ac>Parecen restos vegetales de a saber qué.</i></ac>
+map,173,,92,EV092,1,0,101,show_text,"Dicen que una vez, despertó un Aerodactyl en esta ciudad, causando un gran revuelo."
+map,173,,92,EV092,1,5,101,show_text,\dxn[\PN]Señor... Eso es un Archeops...
+map,173,,92,EV092,1,10,101,show_text,\dxn[\PN]Señor... Eso es un Archeops...
+map,173,,92,EV092,1,16,101,show_text,\sh¡Diablo! ¡Me he equivocado!
+map,173,,26,Trainer(3),1,0,355,script,pbNoticePlayer(get_character(0))
+map,173,,26,Trainer(3),1,1,101,show_text,¿Cómo han entrado? ¡Os vamos a echar sea como sea!
+map,173,,26,Trainer(3),1,8,355,script,pbTrainerEnd
+map,173,,26,Trainer(3),2,0,101,show_text,La Comandante Vesta se va a enfadar de lo lindo...
+map,173,,83,EV083,1,0,355,script,pbItemBall(:FRESHWATER)
+map,173,,83,EV083,2,0,101,show_text,La papelera está vacía.
+map,173,,102,EV102,1,0,108,comment,noshadow
+map,173,,55,EV055,1,0,101,show_text,Necesitas unas llaves para poder entrar...
+map,173,,55,EV055,2,2,101,show_text,(Parece que las llaves son para esta puerta...¡Ya puedo entrar!)
+map,173,,36,Alcalde,1,0,108,comment,noshadow
+map,173,,74,EV074,1,0,101,show_text,<ac><b>Ámbar viejo</b></ac>
+map,173,,93,EV093,1,0,101,show_text,"Parece que se estén dando de cabezazos, como los políticos de mi región."
+map,173,,27,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,173,,27,Trainer(4),1,1,101,show_text,Pero... ¿Cómo nadie ha reportado esto?
+map,173,,27,Trainer(4),1,8,355,script,pbTrainerEnd
+map,173,,27,Trainer(4),2,0,101,show_text,Qué vergüenza...
+map,173,,84,EV084,1,0,355,script,pbItemBall(:FRESHWATER)
+map,173,,84,EV084,2,0,101,show_text,La papelera está vacía.
+map,173,,103,EV103,1,0,108,comment,noshadow
+map,173,,56,EV056,1,0,355,script,pbItemBall(:TM103)
+map,173,,75,EV075,1,0,101,show_text,"<ac><b>Omanyte:</b>\n<i>Varios ejemplares han escapado o bien han sido liberados tras su restauración, lo que comienza a suscitar una serie de"
+map,173,,75,EV075,1,1,401,show_text_cont,problemas..</i></ac>
+map,173,,94,EV094,1,0,101,show_text,¿Es este el Pokémon que atacó a Máximo hace unos días en AkebiaTV?

@@ -1,0 +1,446 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,605,,22,PARED,2,0,108,comment,noshadow
+map,605,,23,SOMBRERO,1,0,108,comment,noshadow
+map,605,,12,ANTORCHA,1,0,108,comment,noshadow
+map,605,,7,EV007,1,0,108,comment,noshadow
+map,605,,18,EV018,1,0,355,script,pbCameraShake(12)
+map,605,,18,EV018,1,16,355,script,pbCameraShakeOff
+map,605,,18,EV018,1,18,355,script,pbCameraShake(12)
+map,605,,18,EV018,1,19,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,13,PARED REVENTAR,1,0,108,comment,noshadow
+map,605,,8,,1,3,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,605,,8,,1,4,355,script,"pbSwitchCharacter(4,""Edward"",1)"
+map,605,,8,,1,6,355,script,"pbRegisterPartner(:POKEMONTRAINER_Seker,""Darek"",4)"
+map,605,,8,,1,9,355,script,"pbRegisterPartner(:POKEMONTRAINER_Seker,""Darek"",3)"
+map,605,,8,,1,13,355,script,for i in (0...$Trainer.party.length)
+map,605,,8,,1,14,655,script_cont,if $Trainer.party[i].species == :RAIKOU
+map,605,,8,,1,15,655,script_cont,pbRemovePokemonAt(i)
+map,605,,8,,1,16,655,script_cont,break
+map,605,,8,,1,17,655,script_cont,end
+map,605,,8,,1,18,655,script_cont,end
+map,605,,8,,1,23,355,script,pbCameraToEvent(2)
+map,605,,8,,1,24,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,32,355,script,pbCameraShake(5)
+map,605,,8,,1,48,355,script,"pbZoomMap(1,0.3,zoom=""out"")"
+map,605,,8,,1,50,355,script,pbCameraShakeOff
+map,605,,8,,1,51,355,script,Pokemon.play_cry(:TOGEKISS)
+map,605,,8,,1,52,101,show_text,\f[togekiss_003]Kiss...
+map,605,,8,,1,56,101,show_text,\sh\dxn[Álama]¡To...Togekiss!
+map,605,,8,,1,66,101,show_text,\dxn[Henry]Es vergonzoso... Con más de 20 años y todavía te tiemblan las manos al combatir.
+map,605,,8,,1,70,101,show_text,"\ts[1]\dxn[Henry]Eres la deshonra de la familia, Lilith."
+map,605,,8,,1,75,101,show_text,\sh\dxn[Henry]¡No mereces tener la sangre de los dioses!
+map,605,,8,,1,79,101,show_text,"\sh\dxn[Henry]¡Bisharp, córtale la cabeza!"
+map,605,,8,,1,82,101,show_text,\f[bisharp000]¡Sharp!
+map,605,,8,,1,83,355,script,pbCameraToEvent(3)
+map,605,,8,,1,89,101,show_text,"\sh\dxn[Darek]¡Ni se te ocurra tocarla, maldito!"
+map,605,,8,,1,91,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,92,108,comment,// Poner animación ojos y manos
+map,605,,8,,1,104,355,script,pbCameraShake(4)
+map,605,,8,,1,107,355,script,pbCameraShakeOff
+map,605,,8,,1,110,355,script,"pbZoomMap(1,0.3,zoom=""out"")"
+map,605,,8,,1,113,101,show_text,"\sh\dxn[Darek]¡Demonios, no puedo moverme!"
+map,605,,8,,1,115,355,script,pbCameraToEvent(6)
+map,605,,8,,1,125,101,show_text,"\f[psyduck006]¡Psy, psy!"
+map,605,,8,,1,128,355,script,pbCameraToEvent(5)
+map,605,,8,,1,134,108,comment,// Efecto luz desde fuera
+map,605,,8,,1,136,355,script,"pbCameraScrollTo(28,15)"
+map,605,,8,,1,138,101,show_text,"\sh\dxn[???]¡Adelante, compañero!"
+map,605,,8,,1,146,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,149,355,script,pbCameraToEvent(11)
+map,605,,8,,1,177,355,script,Pokemon.play_cry(:GALLADE)
+map,605,,8,,1,180,355,script,pbCameraShake(5)
+map,605,,8,,1,182,355,script,pbCameraShakeOff
+map,605,,8,,1,183,355,script,"pbZoomMap(1,0.3,zoom=""out"")"
+map,605,,8,,1,184,355,script,pbCameraToEvent(4)
+map,605,,8,,1,191,101,show_text,\dxn[Henry]¡Ese... Ese es!
+map,605,,8,,1,195,101,show_text,\sh\dxn[Henry]¡Es el Mega Gallade de Edward!
+map,605,,8,,1,197,355,script,pbCameraToEvent(11)
+map,605,,8,,1,198,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,219,355,script,"pbZoomMap(1.5,0.5,zoom=""out"")"
+map,605,,8,,1,220,355,script,pbCameraShake(9)
+map,605,,8,,1,233,355,script,pbCameraShakeOff
+map,605,,8,,1,234,355,script,pbCameraToEvent(5)
+map,605,,8,,1,235,108,comment,// Hacer que atraviese la pared
+map,605,,8,,1,247,355,script,pbCameraShake(12)
+map,605,,8,,1,269,355,script,pbCameraShakeOff
+map,605,,8,,1,283,355,script,pbCameraShake(20)
+map,605,,8,,1,296,355,script,pbCameraShakeOff
+map,605,,8,,1,299,355,script,pbCameraShake(25)
+map,605,,8,,1,301,355,script,pbCameraShakeOff
+map,605,,8,,1,302,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,304,101,show_text,\f[bisharp001]¡Sharp...!
+map,605,,8,,1,310,355,script,pbCameraToEvent(4)
+map,605,,8,,1,315,101,show_text,\dxn[Henry]¡No...!
+map,605,,8,,1,320,101,show_text,"\sh\dxn[Henry]¡No es posible, he puesto en guardia a todos los que tenía a mano en los pisos inferiores!"
+map,605,,8,,1,323,355,script,pbCameraToEvent(11)
+map,605,,8,,1,324,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,333,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,334,355,script,Pokemon.play_cry(:GALLADE)
+map,605,,8,,1,335,101,show_text,\f[gallade_mega_000]¡Gallade!
+map,605,,8,,1,337,101,show_text,"\sh\dxn[???]¡Eso no será suficiente, Henry!"
+map,605,,8,,1,341,355,script,pbCameraToEvent(16)
+map,605,,8,,1,354,101,show_text,\sh\dxn[Edward]¡Necesitarás cien mil hombres más para detenerme!
+map,605,,8,,1,356,355,script,pbCameraToEvent(1)
+map,605,,8,,1,361,101,show_text,\dxn[Álama]¡Eres...!
+map,605,,8,,1,366,101,show_text,"\sh\dxn[Álama]¡Eres tú, Edward!"
+map,605,,8,,1,368,355,script,pbCameraToEvent(16)
+map,605,,8,,1,372,101,show_text,"\dxn[Edward]No esperaba verte aquí, Lilith, como siempre haciendo las cosas sin pensar."
+map,605,,8,,1,376,101,show_text,"\dxn[Edward]Has crecido mucho, pequeña, me alegra haber llegado a tiempo."
+map,605,,8,,1,378,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,385,101,show_text,"\sh¡Y el resto, te lo dejo a ti!"
+map,605,,8,,1,386,355,script,pbCameraToEvent(17)
+map,605,,8,,1,421,355,script,pbCameraToEvent(3)
+map,605,,8,,1,422,355,script,pbCameraShake(12)
+map,605,,8,,1,439,355,script,pbCameraShakeOff
+map,605,,8,,1,440,355,script,pbCameraToEvent(3)
+map,605,,8,,1,443,108,comment,// Animación Darek cadenas
+map,605,,8,,1,464,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,465,108,comment,// Texto bla bla bla
+map,605,,8,,1,468,101,show_text,\dxn[Darek]¡Grovyle... has venido a por mí!
+map,605,,8,,1,472,101,show_text,\dxn[Darek]Incluso después de lo que te dije...
+map,605,,8,,1,474,355,script,pbCameraToEvent(17)
+map,605,,8,,1,482,101,show_text,\f[grovyle008]¡Grov!
+map,605,,8,,1,488,355,script,pbCameraToEvent(3)
+map,605,,8,,1,494,101,show_text,\dxn[Darek]¡Encima has traído a mis Pokémon!
+map,605,,8,,1,498,101,show_text,\dxn[Darek]Supongo que no puedo engañarte...
+map,605,,8,,1,503,101,show_text,"\dxn[Darek]Muchas gracias por todo, Grovyle."
+map,605,,8,,1,506,101,show_text,\f[grovyle007]¡Grov!
+map,605,,8,,1,507,355,script,pbCameraToEvent(19)
+map,605,,8,,1,511,355,script,"pbZoomMap(1.5,0.5,zoom=""in"")"
+map,605,,8,,1,522,355,script,pbCameraShake(12)
+map,605,,8,,1,523,355,script,Pokemon.play_cry(:RAIKOU)
+map,605,,8,,1,531,355,script,pbCameraShakeOff
+map,605,,8,,1,532,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,533,355,script,pbCameraToEvent(16)
+map,605,,8,,1,546,101,show_text,"\sh\dxn[Edward]¡Lilith, Darek, subid sobre Raikou, debéis largaros de aquí!"
+map,605,,8,,1,548,355,script,pbCameraToEvent(4)
+map,605,,8,,1,553,101,show_text,\sh\dxn[Henry]¡¿Creéis que podéis venir y hacer lo que os apetece?!
+map,605,,8,,1,560,101,show_text,\sh\dxn[Henry]¡No dejaré que salgáis de aquí!
+map,605,,8,,1,563,355,script,pbCameraToEvent(5)
+map,605,,8,,1,566,355,script,"pbZoomMap(1.5,0.5,zoom=""in"")"
+map,605,,8,,1,583,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,585,101,show_text,\sh\f[bisharp000]¡Sharp!
+map,605,,8,,1,586,355,script,pbCameraToEvent(1)
+map,605,,8,,1,594,101,show_text,"\sh\dxn[Álama]¡AAAAAAH, SE HA LEVANTADO!"
+map,605,,8,,1,596,355,script,pbCameraToEvent(16)
+map,605,,8,,1,616,101,show_text,"\sh\dxn[Edward]¡Vamos, no perdáis más el tiempo!"
+map,605,,8,,1,618,355,script,pbCameraToEvent(1)
+map,605,,8,,1,632,108,comment,// Sacan a Lilith con Raikou
+map,605,,8,,1,636,355,script,pbCameraToEvent(19)
+map,605,,8,,1,639,101,show_text,"\sh\dxn[Álama]¡Vamos, Darek, no te quedes ahí!"
+map,605,,8,,1,643,355,script,pbCameraToEvent(3)
+map,605,,8,,1,651,101,show_text,\dxn[Darek]Yo...
+map,605,,8,,1,655,101,show_text,\dxn[Darek]Ahora que sé quién soy...
+map,605,,8,,1,662,101,show_text,\sh\dxn[Darek]¡No puedo irme de aquí sin pegarle una paliza a este viejo!
+map,605,,8,,1,664,355,script,pbCameraToEvent(4)
+map,605,,8,,1,668,101,show_text,"\dxn[Henry]¿Hablas de mí, insecto?"
+map,605,,8,,1,674,101,show_text,\ts[1]\dxn[Henry]No me hagas reír...
+map,605,,8,,1,678,101,show_text,"\dxn[???]Ara, ara..."
+map,605,,8,,1,680,101,show_text,\dxn[???]¿Habéis empezado la fiesta sin mí?
+map,605,,8,,1,694,355,script,pbCameraToEvent(20)
+map,605,,8,,1,696,355,script,"pbZoomMap(1.5,0.5,zoom=""in"")"
+map,605,,8,,1,705,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,708,101,show_text,"\dxn[Amatista]Ya estoy aquí, cariño."
+map,605,,8,,1,710,355,script,pbCameraToEvent(4)
+map,605,,8,,1,715,101,show_text,"\sh\dxn[Henry]¿¡Donde diablos te habías metido, honey!?"
+map,605,,8,,1,719,101,show_text,\dxn[Henry]¡Debías llegar antes que yo!
+map,605,,8,,1,721,355,script,pbCameraToEvent(20)
+map,605,,8,,1,726,101,show_text,"\dxn[Amatista]¡No será para tanto, cariño!"
+map,605,,8,,1,730,101,show_text,\ts[1]\dxn[Amatista]Estaba ocupada... \wt[15] con ciertos asuntos.
+map,605,,8,,1,741,101,show_text,"\dxn[Amatista]Parece que necesitas ayuda, cielo."
+map,605,,8,,1,743,355,script,pbCameraToEvent(3)
+map,605,,8,,1,754,101,show_text,"\dxn[Darek]¡Edward, esa mujer es la culpable de todo lo que nos ha pasado!"
+map,605,,8,,1,769,101,show_text,"\sh\dxn[Darek]¡Álama, sal de aquí ahora mismo, es peligroso!"
+map,605,,8,,1,771,355,script,pbCameraToEvent(19)
+map,605,,8,,1,774,101,show_text,\ts[1]\dxn[Álama]¡P-Pero... Debes venir conmigo!
+map,605,,8,,1,776,355,script,pbCameraToEvent(3)
+map,605,,8,,1,781,101,show_text,\sh\dxn[Darek]¡No pienso dejar solo a Edward contra esos dos monstruos!
+map,605,,8,,1,787,101,show_text,"\dxn[Darek]¡Yo he recuperado a mis Pokémon, pero tú ahora mismo no puedes hacer nada aquí!"
+map,605,,8,,1,791,101,show_text,"\sh\dxn[Darek]¡Sal de inmediato del Palacio, iremos detrás de ti cuando acabemos con ellos!"
+map,605,,8,,1,793,355,script,pbCameraToEvent(19)
+map,605,,8,,1,798,101,show_text,\ts[1]\dxn[Álama]¡De acuerdo... Os esperaré fuera del Palacio!
+map,605,,8,,1,800,355,script,pbCameraToEvent(4)
+map,605,,8,,1,801,355,script,Pokemon.play_cry(:RAIKOU)
+map,605,,8,,1,824,101,show_text,"\dxn[Henry]Déjala ir, no es necesario perseguirla."
+map,605,,8,,1,826,355,script,pbCameraToEvent(20)
+map,605,,8,,1,833,101,show_text,\dxn[Amatista]¿No quieres que los detenga?
+map,605,,8,,1,835,355,script,pbCameraToEvent(4)
+map,605,,8,,1,838,101,show_text,"\dxn[Henry]No tener a Raikou de su lado, será toda una desventaja para ellos."
+map,605,,8,,1,843,101,show_text,\dxn[Henry]Es una oportunidad perfecta para acabar con sus vidas por completo.
+map,605,,8,,1,845,355,script,pbCameraToEvent(20)
+map,605,,8,,1,850,101,show_text,\dxn[Amatista](¡Tch!)
+map,605,,8,,1,857,101,show_text,"\ts[1]\dxn[Amatista]Tienes razón, cariño, eres muy astuto."
+map,605,,8,,1,862,355,script,pbCameraToEvent(16)
+map,605,,8,,1,894,101,show_text,"\dxn[Edward]¿Qué has querido decir con eso, Darek?"
+map,605,,8,,1,896,355,script,pbCameraToEvent(3)
+map,605,,8,,1,900,101,show_text,"\sh\dxn[Darek]¡Esa señora, Amatista, es la culpable de que tu relación con mamá fuera descubierta!"
+map,605,,8,,1,905,101,show_text,\dxn[Darek]¡Ella se quitó de encima a mamá para llegar al poder y convertirse en la reina de Akebia!
+map,605,,8,,1,907,355,script,pbCameraToEvent(16)
+map,605,,8,,1,911,101,show_text,\dxn[Edward]¿¡C-Cómo dices!?
+map,605,,8,,1,913,355,script,pbCameraToEvent(3)
+map,605,,8,,1,920,101,show_text,\dxn[Darek]Encima puso la vida de Álama en peligro para conseguirlo...
+map,605,,8,,1,924,101,show_text,\sh\dxn[Darek]¡No pienso dejar que se vaya de rositas ahora que sé toda la historia!
+map,605,,8,,1,926,355,script,pbCameraToEvent(17)
+map,605,,8,,1,928,355,script,pbCameraShake(7)
+map,605,,8,,1,932,101,show_text,\f[grovyle003]¡Grovyle!
+map,605,,8,,1,933,355,script,pbCameraShakeOff
+map,605,,8,,1,935,355,script,pbCameraToEvent(16)
+map,605,,8,,1,944,101,show_text,\dxn[Edward]Lena...
+map,605,,8,,1,955,101,show_text,"\sh\dxn[Edward]¡Este combate será en tu honor, Lena!"
+map,605,,8,,1,959,101,show_text,"\sh\dxn[Edward]¡Hijo, vamos a recuperar nuestro glorioso pasado!"
+map,605,,8,,1,963,101,show_text,"\sh\dxn[Edward]¡Hagamos de este, un nuevo país donde la Familia Real ya no exista!"
+map,605,,8,,1,965,355,script,pbCameraToEvent(11)
+map,605,,8,,1,978,355,script,pbCameraShake(7)
+map,605,,8,,1,979,355,script,Pokemon.play_cry(:GALLADE)
+map,605,,8,,1,980,101,show_text,\f[gallade_mega_000]¡Gallade!
+map,605,,8,,1,981,355,script,pbCameraShakeOff
+map,605,,8,,1,982,355,script,pbCameraToEvent(20)
+map,605,,8,,1,987,101,show_text,"\dxn[Amatista]Ara, ara... Creo que nos está subestimando, caballero."
+map,605,,8,,1,989,355,script,pbCameraToEvent(21)
+map,605,,8,,1,995,355,script,Pokemon.play_cry(:NIHILEGO)
+map,605,,8,,1,996,101,show_text,\f[nihilego000]¡Nihi!
+map,605,,8,,1,997,355,script,pbCameraToEvent(5)
+map,605,,8,,1,1010,355,script,pbCameraShake(7)
+map,605,,8,,1,1012,101,show_text,\sh\f[bisharp000]¡Sharp!
+map,605,,8,,1,1013,355,script,pbCameraShakeOff
+map,605,,8,,1,1014,355,script,pbCameraToEvent(4)
+map,605,,8,,1,1020,101,show_text,"\dxn[Henry]Siempre he odiado esa soltura con la que me hablas, Wright."
+map,605,,8,,1,1024,101,show_text,\sh\dxn[Henry]¡Acabaré con vuestro linaje de una vez por todas!
+map,605,,8,,1,1026,355,script,"pbCameraScrollTo(28,9)"
+map,605,,8,,1,1031,355,script,"setBattleRule(""canLose"")"
+map,605,,8,,1,1041,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,605,,8,,1,1043,355,script,"pbZoomMap(1.5,0.5,zoom=""in"")"
+map,605,,8,,1,1044,355,script,pbCameraToEvent(17)
+map,605,,8,,1,1072,355,script,pbCameraShake(15)
+map,605,,8,,1,1074,355,script,pbCameraShakeOff
+map,605,,8,,1,1075,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,1077,101,show_text,\f[grovyle010]¡Grov...!
+map,605,,8,,1,1084,101,show_text,\sh\dxn[Darek]¡G-Grovyle!
+map,605,,8,,1,1086,355,script,pbCameraToEvent(11)
+map,605,,8,,1,1102,108,comment,// Hacer que gallade caiga un poco y pierda la transformación
+map,605,,8,,1,1106,355,script,Pokemon.play_cry(:GALLADE)
+map,605,,8,,1,1107,101,show_text,\f[gallade005]¡Ga...!
+map,605,,8,,1,1108,355,script,pbCameraToEvent(16)
+map,605,,8,,1,1113,101,show_text,\dxn[Edward]¡Gallade... Ha perdido su megaevolución!
+map,605,,8,,1,1115,355,script,pbCameraToEvent(4)
+map,605,,8,,1,1122,101,show_text,"\dxn[Henry]¿Se puede saber a qué estás jugando, honey?"
+map,605,,8,,1,1126,101,show_text,\dxn[Henry]Eso fue bastante mediocre por tu parte.
+map,605,,8,,1,1132,101,show_text,\dxn[Amatista]¿Ara? ¿Tanto se me nota?
+map,605,,8,,1,1139,101,show_text,\dxn[Amatista]No puedo tomarme en serio a un mocoso de este calibre.
+map,605,,8,,1,1143,101,show_text,"\dxn[Amatista]Al final ""El Navajas"" no era para tanto."
+map,605,,8,,1,1148,101,show_text,"\dxn[Amatista]Es hereditario, supongo."
+map,605,,8,,1,1150,355,script,pbCameraToEvent(3)
+map,605,,8,,1,1159,101,show_text,"\sh\dxn[Darek]¡¿Qué dijiste, desgraciada?!"
+map,605,,8,,1,1161,108,comment,"// Intenta pegarle una ostia, pero Darek recibe un guantazo y cae al suelo, Edward evidentemente se alarma"
+map,605,,8,,1,1178,355,script,pbCameraToEvent(16)
+map,605,,8,,1,1182,101,show_text,\dxn[Edward]¡Darek!
+map,605,,8,,1,1184,355,script,pbCameraToEvent(21)
+map,605,,8,,1,1186,355,script,Pokemon.play_cry(:NIHILEGO)
+map,605,,8,,1,1187,101,show_text,\f[nihilego000]¡Nihi!
+map,605,,8,,1,1188,355,script,pbCameraToEvent(4)
+map,605,,8,,1,1191,108,comment,// Llamada de emergensiaaa
+map,605,,8,,1,1199,101,show_text,\dxn[Henry]¿Una llamada de emergencia?
+map,605,,8,,1,1212,101,show_text,"\sh\dxn[Henry]¡Más te vale que sea importante, estoy en medio de un combate!"
+map,605,,8,,1,1215,101,show_text,\sh\dxn[Escolta]¡S-Señor Henry!
+map,605,,8,,1,1217,101,show_text,\dxn[Escolta]¡L-La Flauta Celestial...!
+map,605,,8,,1,1219,101,show_text,\sh\dxn[Escolta]¡HA SIDO ROBADA!
+map,605,,8,,1,1220,355,script,"pbZoomMap(1.5,0.5,zoom=""in"")"
+map,605,,8,,1,1230,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,1231,355,script,pbCameraShake(7)
+map,605,,8,,1,1234,101,show_text,\sh\dxn[Henry]¡¿¡QUE HA SIDO QUÉ!?
+map,605,,8,,1,1236,355,script,pbCameraShakeOff
+map,605,,8,,1,1237,355,script,pbCameraToEvent(16)
+map,605,,8,,1,1243,101,show_text,\dxn[Edward]¿¡Alguien ha robado la Flauta Celestial!?
+map,605,,8,,1,1245,355,script,pbCameraToEvent(4)
+map,605,,8,,1,1252,101,show_text,"\sh\dxn[Henry]¡Y un cuerno, es imposible entrar ahí, solo Estela y yo sabemos la contraseña y hay cámaras vigilando!"
+map,605,,8,,1,1255,101,show_text,\dxn[Escolta]...
+map,605,,8,,1,1261,101,show_text,"\sh\dxn[Henry]¡Oye, no te quedes callado! ¿¡Qué ha pasado ahí dentro!? ¡Responde!"
+map,605,,8,,1,1263,355,script,pbCameraToEvent(20)
+map,605,,8,,1,1266,101,show_text,\dxn[Amatista]...
+map,605,,8,,1,1278,101,show_text,"\dxn[Amatista]Ara ara... ¡No te preocupues, cariño!"
+map,605,,8,,1,1282,101,show_text,"\dxn[Amatista]Iré a mirar qué ha ocurrido, dime cuál es la contraseña para entrar."
+map,605,,8,,1,1286,101,show_text,\dxn[Henry]Hmm...
+map,605,,8,,1,1290,101,show_text,"\dxn[Henry]Pon la oreja, honey."
+map,605,,8,,1,1296,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,1297,108,comment,// Poner a henry y amatista juntitos jeje god
+map,605,,8,,1,1302,101,show_text,*Le susurra al oído*
+map,605,,8,,1,1303,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,1318,101,show_text,"\dxn[Amatista]¡Estupendo, iré para allá!"
+map,605,,8,,1,1321,355,script,pbCameraToEvent(16)
+map,605,,8,,1,1337,101,show_text,\dxn[Edward]¡¿Quién ha podido robar la Flauta Celestial?!
+map,605,,8,,1,1344,101,show_text,\dxn[Edward]¡Dijimos que dejaríamos el plan de lado!
+map,605,,8,,1,1346,355,script,pbCameraToEvent(4)
+map,605,,8,,1,1350,101,show_text,"\dxn[Henry]Yo de ti no me distraería, Edward."
+map,605,,8,,1,1356,101,show_text,\dxn[Henry]¡Nuestro combate aún no ha terminado!
+map,605,,8,,1,1358,108,comment,"// Le pega ostión a Gallade y los tumba a los dos, F"
+map,605,,8,,1,1359,355,script,pbCameraToEvent(5)
+map,605,,8,,1,1360,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,1371,355,script,pbCameraShake(5)
+map,605,,8,,1,1384,355,script,pbCameraShakeOff
+map,605,,8,,1,1385,355,script,pbCameraToEvent(16)
+map,605,,8,,1,1387,101,show_text,\sh¡AAAAAARG!
+map,605,,8,,1,1389,355,script,pbCameraToEvent(11)
+map,605,,8,,1,1391,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,1392,355,script,Pokemon.play_cry(:GALLADE)
+map,605,,8,,1,1393,101,show_text,\f[gallade005]¡Ga...!
+map,605,,8,,1,1395,108,comment,// Mete a gallade en la pkeball
+map,605,,8,,1,1400,108,comment,// Darek se percata de la ayuda que necesita Edward
+map,605,,8,,1,1401,355,script,pbCameraToEvent(3)
+map,605,,8,,1,1405,101,show_text,\sh\ts[2]\dxn[Darek]¡Ed-Edward!
+map,605,,8,,1,1410,101,show_text,\ts[3]\dxn[Darek](Mi cuerpo...\wt[15] Está al límite...)
+map,605,,8,,1,1412,108,comment,// Se levanta y se acerca a EDu
+map,605,,8,,1,1413,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,1425,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,1428,101,show_text,"\ts[2]\dxn[Darek]¿Te encuentras bien, Edward?"
+map,605,,8,,1,1431,355,script,pbCameraShake(5)
+map,605,,8,,1,1434,355,script,pbCameraShakeOff
+map,605,,8,,1,1440,101,show_text,\ts[2]\dxn[Darek]¡Ese... Es Latios!
+map,605,,8,,1,1445,101,show_text,\ts[1]\sh\dxn[Darek]¡Debo ir a buscarlo también... Necesita mi ayuda!
+map,605,,8,,1,1447,355,script,pbCameraToEvent(4)
+map,605,,8,,1,1448,108,comment,// Henry se dispone a matar a Darek
+map,605,,8,,1,1459,101,show_text,\dxn[Henry]¿¡Os creéis que podéis entrar en mi Palacio y hacer lo que os da la gana!?
+map,605,,8,,1,1463,101,show_text,"\sh\dxn[Henry]¡Que encima me hayáis robado el tesoro más importante de Akebia, no tiene precio!"
+map,605,,8,,1,1470,101,show_text,"\sh\dxn[Henry]¡Estoy harto de esta humillación, primero acabaré con tu hijo, Edward!"
+map,605,,8,,1,1472,355,script,pbCameraToEvent(5)
+map,605,,8,,1,1475,101,show_text,\sh\f[bisharp000]¡Sharp!
+map,605,,8,,1,1477,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,1487,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,1,1488,355,script,pbCameraToEvent(16)
+map,605,,8,,1,1493,101,show_text,"\sh\dxn[Edward]¡DETRÁS DE TI, DAREK!"
+map,605,,8,,1,1501,355,script,pbCameraToEvent(3)
+map,605,,8,,1,1504,101,show_text,\sh\f[grovyle009]¡Grov!!
+map,605,,8,,1,1505,355,script,pbCameraToEvent(5)
+map,605,,8,,1,1508,101,show_text,"\sh\dxn[Henry]¡MÁTALO, BISHARP!"
+map,605,,8,,1,1510,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,605,,8,,1,1511,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,1512,108,comment,// Se ve como Edward se medio levanta
+map,605,,8,,1,1533,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,605,,8,,1,1542,108,comment,// Sombrero cayendo
+map,605,,8,,1,1543,355,script,"pbCameraScrollTo(43,12)"
+map,605,,8,,1,1562,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,605,,8,,1,1566,108,comment,// Dibujo de cómo Edward es p3netrado :c
+map,605,,8,,1,1568,101,show_text,\ts[5]\dxn[Darek]...
+map,605,,8,,1,1569,355,script,pbCameraToEvent(16)
+map,605,,8,,1,1573,101,show_text,\ts[5]\dxn[Darek]¡¿Ed... \wt[25]Edward?!
+map,605,,8,,1,1575,101,show_text,\sh\dxn[Darek]¡¡EDWARD!!
+map,605,,8,,1,1576,108,comment,// Se ve cómo Bisharp le retira del pecho
+map,605,,8,,1,1577,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,1,1593,101,show_text,*Cof cof*
+map,605,,8,,1,1603,355,script,pbCameraToEvent(3)
+map,605,,8,,1,1606,101,show_text,\sh¡Edward!
+map,605,,8,,1,1616,101,show_text,"\ts[2]¡Estás... \wt[25]Estás sangrando mucho, Edward!"
+map,605,,8,,1,1618,101,show_text,"\sh¡Debo llamar a alguien, hay que curarte eso!"
+map,605,,8,,1,1619,355,script,pbCameraToEvent(16)
+map,605,,8,,1,1621,101,show_text,\ts[2]Es... \wt[15]Es tarde...\wt[20] D-Darek...
+map,605,,8,,1,1622,355,script,pbCameraToEvent(3)
+map,605,,8,,1,1625,101,show_text,\ts[1]\sh¡¿Q-Qué quieres decir con eso?!
+map,605,,8,,1,1627,101,show_text,\ts[5]¡No...!
+map,605,,8,,1,1630,101,show_text,\ts[1]\sh¡¿P-Por qué?!
+map,605,,8,,1,1632,101,show_text,"\sh\ts[1]¡¿Por qué me has protegido, Ed...?!"
+map,605,,8,,1,1637,355,script,pbCameraToEvent(16)
+map,605,,8,,2,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,605,,8,,2,1,108,comment,// Le abraza
+map,605,,8,,2,3,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,2,7,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,605,,8,,2,10,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]¿Cómo... \wt[50]Cómo no iba a proteger a mi propio hijo?\wt[20]
+map,605,,8,,2,13,101,show_text,\wtnp[0]\ts[3]\dxn[Edward]Esta...\wt[20]\ts[3] es la primera vez que\wt[5] puedo abrazarte...\wt[25]
+map,605,,8,,2,15,101,show_text,"\wtnp[0]\dxn[Edward]\ts[3]Creo...\wt[23]\ts[3] que hasta aquí he llegado, \wt[8]Darek.\wt[20]"
+map,605,,8,,2,17,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Qué injusto... \wt[35]\ts[3]A penas he podido pasar tiempo contigo.\wt[20]
+map,605,,8,,2,22,101,show_text,\wtnp[0]\dxn[Darek]\ts[3]¡No...!\wt[10]
+map,605,,8,,2,24,101,show_text,\wtnp[0]\sh\ts[4]¡No pienso dejar que te vayas!\wt[10]
+map,605,,8,,2,26,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Shhh...\wt[20]
+map,605,,8,,2,28,101,show_text,"\wtnp[0]\dxn[Edward]\ts[3]Mantén la compostura, Darek.\wt[10]"
+map,605,,8,,2,31,101,show_text,\wtnp[0]\dxn[Darek]\ts[3]¡P-Pero...!\wt[10]
+map,605,,8,,2,33,101,show_text,\wtnp[0]\dxn[Edward]\ts[4]Quiero... \wt[10]que me escuches \wt[10]atentamente.\wt[20]
+map,605,,8,,2,35,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Desde que me detuvieron...\wt[15] pasé todos esos años en prisión con la esperanza de \wt[15] poder verte de nuevo.\wt[20]
+map,605,,8,,2,37,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Me alegra... \wt[20]\ts[3]haber podido tener un combate a tu lado \wt[15]antes de irme...\wt[10]
+map,605,,8,,2,39,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Siento... \wt[20]No haber sido el mejor padre del mundo.\wt[10]
+map,605,,8,,2,41,101,show_text,\wtnp[0]\dxn[Edward]\ts[4]Lo has tenido difícil por nuestra culpa.\wt[10]
+map,605,,8,,2,43,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Ni siquiera... \wt[15]tuve la oportunidad de verte crecer.\wt[10]
+map,605,,8,,2,45,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Y eso... \wt[20]\ts[4]Me duele mucho más que esta herida.\wt[10]
+map,605,,8,,2,49,101,show_text,\wtnp[0]\dxn[Darek]\ts[3]¡Papá...!\wt[15]
+map,605,,8,,2,51,101,show_text,"\wtnp[0]\dxn[Edward]\ts[3]No te preocupes por mí,\wt[5] Darek.\wt[10]"
+map,605,,8,,2,53,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Estoy feliz de poder compartir mis últimos momentos contigo.\wt[15]
+map,605,,8,,2,55,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Eres un chico amable...\wt[13] de buen corazón.\wt[10]
+map,605,,8,,2,57,101,show_text,"\wtnp[0]\dxn[Edward]\ts[3]Tu madre, \wt[12]Lena...\wt[10]"
+map,605,,8,,2,59,101,show_text,\wtnp[0]\dxn[Edward]\ts[4]Estaría muy orgullosa de quién eres.\wt[10]
+map,605,,8,,2,64,101,show_text,"\wtnp[0]\dxn[Darek]\ts[3]¡P-Papá, \wt[10]aguanta!\wt[20]"
+map,605,,8,,2,66,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Estoy seguro...\wt[15]
+map,605,,8,,2,68,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]De que conseguirás devolver Akebia a su estado original.\wt[10]
+map,605,,8,,2,70,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Cuida de Lilith por mí...\wt[8] por favor.\wt[15]
+map,605,,8,,2,72,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Y ten cura de esa chica... \wt[12]Eda.\wt[15]
+map,605,,8,,2,74,101,show_text,\wtnp[0]\dxn[Edward]\ts[3]Ella... \wt[30]Haría lo que fuera por ti.\wt[10]
+map,605,,8,,2,77,101,show_text,\wtnp[0]\dxn[Edward]\ts[4]Al menos... \wt[25]Ahora podré reunirme de nuevo con Lena.\wt[18]
+map,605,,8,,2,79,101,show_text,"\wtnp[0]\dxn[Edward]\ts[4]Adiós, \wt[8]Darek.\wt[10]"
+map,605,,8,,2,81,101,show_text,\wtnp[0]\dxn[Edward]\ts[4]Te quiero.\wt[15]
+map,605,,8,,2,90,108,comment,// Edward muere :'ccc
+map,605,,8,,2,92,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,2,111,101,show_text,\sh\f[grovyle009]¡Grov!
+map,605,,8,,2,113,355,script,"pbZoomMap(2,0.05,zoom=""in"")"
+map,605,,8,,2,114,355,script,pbCameraToEvent(3)
+map,605,,8,,2,116,101,show_text,¡¿P... \wt[25]Papá?!
+map,605,,8,,2,122,108,comment,// Expresión negra
+map,605,,8,,2,123,101,show_text,¡No...!
+map,605,,8,,2,125,101,show_text,\sh¡No puede... estar pasando!
+map,605,,8,,2,126,108,comment,// Cae al suelo
+map,605,,8,,2,132,108,comment,// Se escucha llorar
+map,605,,8,,2,143,101,show_text,<ac>Y así...</ac>
+map,605,,8,,2,145,101,show_text,<ac>Darek reventó a llorar y sacó todo lo que había llevado a sus espaldas durante toda su vida.</ac>
+map,605,,8,,2,147,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,605,,8,,2,148,355,script,pbCameraToEvent(17)
+map,605,,8,,2,156,101,show_text,\sh\f[grovyle011]¡¿Grov...?!
+map,605,,8,,2,160,101,show_text,"<ac>Y Grovyle, por primera vez...</ac>"
+map,605,,8,,2,162,101,show_text,<ac>Por fin pudo ver los verdaderos sentimientos de su fiel compañero.</ac>
+map,605,,8,,2,165,355,script,pbCameraToEvent(4)
+map,605,,8,,2,169,101,show_text,"\dxn[Henry]Hay algo que respetaba de tu padre, y era su honor."
+map,605,,8,,2,173,101,show_text,\dxn[Henry]Pero no merecía seguir con vida después de manchar mi orgullo y reputación.
+map,605,,8,,2,177,101,show_text,\dxn[Henry]\ts[2]Ahora... \wt[20]\ts[1]Debo zanjar vuestro linaje de una vez por todas.
+map,605,,8,,2,181,101,show_text,\sh\dxn[Henry]\ts[2]¡Es el momento... \wt[20]\ts[1]de extinguir a los Wright!
+map,605,,8,,2,184,355,script,pbCameraToEvent(5)
+map,605,,8,,2,185,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,2,193,355,script,pbCameraToEvent(3)
+map,605,,8,,2,203,101,show_text,...
+map,605,,8,,2,205,101,show_text,\ts[3](No... No puedo moverme...)
+map,605,,8,,2,207,101,show_text,\ts[2](Supongo... \wt[20]\ts[1]que aquí se acabó...)
+map,605,,8,,2,209,355,script,pbCameraShake(4)
+map,605,,8,,2,212,355,script,pbCameraToEvent(4)
+map,605,,8,,2,215,101,show_text,\sh¿¡Qué está pasando!?
+map,605,,8,,2,218,355,script,pbCameraToEvent(3)
+map,605,,8,,2,225,101,show_text,¡¿G-Grovyle?!
+map,605,,8,,2,226,355,script,"pbZoomMap(1,0.5,zoom=""out"")"
+map,605,,8,,2,227,355,script,pbCameraToEvent(17)
+map,605,,8,,2,230,101,show_text,\sh\f[grovyle003]¡GROVYLE!
+map,605,,8,,2,232,355,script,pbCameraShake(8)
+map,605,,8,,2,233,355,script,"pbZoomMap(2,0.5,zoom=""in"")"
+map,605,,8,,2,263,355,script,"pbZoomMap(3,0.05,zoom=""in"")"
+map,605,,8,,2,287,355,script,"pbZoomMap(4,0.5,zoom=""in"")"
+map,605,,8,,2,300,355,script,"pbZoomMap(1,0.05,zoom=""out"")"
+map,605,,8,,2,301,355,script,pbCameraShakeOff
+map,605,,8,,2,303,355,script,pbCameraShake(7)
+map,605,,8,,2,306,355,script,Pokemon.play_cry(:SCEPTILE)
+map,605,,8,,2,307,101,show_text,\f[sceptile002]¡SCEPTILE!
+map,605,,8,,2,308,355,script,pbCameraShakeOff
+map,605,,8,,2,309,355,script,pbCameraToEvent(3)
+map,605,,8,,2,324,101,show_text,"\sh\dxn[Darek]¡Grovyle, has evolucionado!"
+map,605,,8,,2,327,355,script,Pokemon.play_cry(:SCEPTILE)
+map,605,,8,,2,328,101,show_text,\f[sceptile001]¡Scept!
+map,605,,8,,2,329,355,script,pbCameraToEvent(4)
+map,605,,8,,2,338,101,show_text,\dxn[Henry]Parece que su Pokémon ha evolucionado cuando ha visto que su compañero estaba mostrando vulnerabilidad.
+map,605,,8,,2,342,101,show_text,\dxn[Henry]Eso dice mucho de los lazos que comparten ambos.
+map,605,,8,,2,347,101,show_text,"\sh\dxn[Henry]¡Aun así, una simple evolución no va a cambiar nada!"
+map,605,,8,,2,351,101,show_text,"\dxn[Henry]Ese Sceptile sigue estando en las últimas, solo hay que ver la espesura que rodea su cuerpo."
+map,605,,8,,2,355,101,show_text,\f[bisharp000]¡Sharp!
+map,605,,8,,2,356,355,script,pbCameraToEvent(17)
+map,605,,8,,2,360,355,script,Pokemon.play_cry(:SCEPTILE)
+map,605,,8,,2,361,101,show_text,\f[sceptile002]¡SCEPTILE!
+map,605,,8,,2,363,355,script,pbCameraToEvent(3)
+map,605,,8,,2,369,101,show_text,\dxn[Darek]¡Sceptile...!
+map,605,,8,,2,376,101,show_text,\ts[1]\sh\dxn[Darek]¡No podemos dejar que la voluntad de papá y mamá se desvanezca!
+map,605,,8,,2,389,101,show_text,\sh\dxn[Darek]¡Nosotros nos ocuparemos de cambiar Akebia!
+map,605,,8,,2,391,355,script,pbCameraToEvent(17)
+map,605,,8,,2,393,355,script,Pokemon.play_cry(:SCEPTILE)
+map,605,,8,,2,394,355,script,pbCameraShake(7)
+map,605,,8,,2,398,355,script,pbCameraShakeOff
+map,605,,14,Ascensor,1,0,108,comment,noshadow
+map,605,,14,Ascensor,1,1,101,show_text,"No parece que puedas usarlo, necesitas una llave..."
+map,605,,15,PARED REVENTAR 2,1,0,108,comment,noshadow

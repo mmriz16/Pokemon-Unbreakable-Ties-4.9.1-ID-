@@ -1,0 +1,424 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,691,,18,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,55,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,92,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,129,EV129,1,0,108,comment,noshadow
+map,691,,166,EV166,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,166,EV166,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,166,EV166,2,1,102,choices,Si
+map,691,,166,EV166,2,1,102,choices,No
+map,691,,166,EV166,2,2,402,choice_branch,Si
+map,691,,166,EV166,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,166,EV166,2,46,355,script,FollowingPkmn.toggle_on
+map,691,,166,EV166,2,48,402,choice_branch,No
+map,691,,37,EV037,1,0,108,comment,noshadow
+map,691,,74,EV074,1,0,108,comment,noshadow
+map,691,,111,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,148,Slope,1,0,108,comment,Slope: 3x-2
+map,691,,148,Slope,1,1,108,comment,Width: 0/2
+map,691,,148,Slope,1,2,108,comment,Offset: 16px
+map,691,,185,loquesea,1,0,355,script,pbEncounter(:Land)
+map,691,,56,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,93,EV093,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,691,,93,EV093,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,691,,93,EV093,1,2,102,choices,Si
+map,691,,93,EV093,1,2,102,choices,No
+map,691,,93,EV093,1,3,402,choice_branch,Si
+map,691,,93,EV093,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,691,,93,EV093,1,24,402,choice_branch,No
+map,691,,130,EV130,1,0,108,comment,noshadow
+map,691,,167,EV167,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,167,EV167,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,167,EV167,2,1,102,choices,Si
+map,691,,167,EV167,2,1,102,choices,No
+map,691,,167,EV167,2,2,402,choice_branch,Si
+map,691,,167,EV167,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,167,EV167,2,46,355,script,FollowingPkmn.toggle_on
+map,691,,167,EV167,2,48,402,choice_branch,No
+map,691,,75,EV075,1,0,108,comment,noshadow
+map,691,,112,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,149,Slope,1,0,108,comment,Slope: -3x2
+map,691,,149,Slope,1,1,108,comment,Width: 1/2
+map,691,,149,Slope,1,2,108,comment,Offset: 16px
+map,691,,186,loquesea,1,0,355,script,pbEncounter(:Land)
+map,691,,1,EV001,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL)
+map,691,,1,EV001,1,9,355,script,"setBattleRule(""base"", ""bridge"")"
+map,691,,1,EV001,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 65)"
+map,691,,1,EV001,1,11,355,script,pbSetEventTime
+map,691,,1,EV001,1,15,101,show_text,Parece que ha soltado una extraña moneda...
+map,691,,1,EV001,1,16,355,script,pbReceiveItem(:GOLD)
+map,691,,1,EV001,3,1,355,script,"setTempSwitchOn(""A"")"
+map,691,,38,EV038,1,0,108,comment,noshadow
+map,691,,94,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,131,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,168,EV168,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,168,EV168,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,168,EV168,2,1,102,choices,Si
+map,691,,168,EV168,2,1,102,choices,No
+map,691,,168,EV168,2,2,402,choice_branch,Si
+map,691,,168,EV168,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,168,EV168,2,46,355,script,FollowingPkmn.toggle_on
+map,691,,168,EV168,2,48,402,choice_branch,No
+map,691,,20,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,57,EV057,1,0,108,comment,noshadow
+map,691,,113,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,150,Slope,1,0,108,comment,Slope: -3x2
+map,691,,150,Slope,1,1,108,comment,Width: 0/2
+map,691,,150,Slope,1,2,108,comment,Offset: 16px
+map,691,,187,loquesea,1,0,355,script,pbEncounter(:Land)
+map,691,,2,EV002,1,0,355,script,pbItemBall(:HEATROCK)
+map,691,,39,EV039,1,0,108,comment,noshadow
+map,691,,76,EV076,1,0,108,comment,noshadow
+map,691,,132,EV132,1,0,108,comment,noshadow
+map,691,,169,EV169,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,169,EV169,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,169,EV169,2,1,102,choices,Si
+map,691,,169,EV169,2,1,102,choices,No
+map,691,,169,EV169,2,2,402,choice_branch,Si
+map,691,,169,EV169,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,169,EV169,2,47,355,script,FollowingPkmn.toggle_on
+map,691,,169,EV169,2,49,402,choice_branch,No
+map,691,,58,EV058,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,691,,58,EV058,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,691,,58,EV058,1,2,102,choices,Si
+map,691,,58,EV058,1,2,102,choices,No
+map,691,,58,EV058,1,3,402,choice_branch,Si
+map,691,,58,EV058,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,691,,58,EV058,1,24,402,choice_branch,No
+map,691,,95,EV095,1,0,108,comment,noshadow
+map,691,,151,EV151,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,151,EV151,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,151,EV151,2,1,102,choices,Si
+map,691,,151,EV151,2,1,102,choices,No
+map,691,,151,EV151,2,2,402,choice_branch,Si
+map,691,,151,EV151,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,151,EV151,2,47,355,script,FollowingPkmn.toggle_on
+map,691,,151,EV151,2,49,402,choice_branch,No
+map,691,,188,EV188,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,188,EV188,1,12,355,script,FollowingPkmn.toggle_on
+map,691,,3,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,40,EV040,1,0,108,comment,noshadow
+map,691,,77,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,170,EV170,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,170,EV170,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,170,EV170,2,1,102,choices,Si
+map,691,,170,EV170,2,1,102,choices,No
+map,691,,170,EV170,2,2,402,choice_branch,Si
+map,691,,170,EV170,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,170,EV170,2,46,355,script,FollowingPkmn.toggle_on
+map,691,,170,EV170,2,48,402,choice_branch,No
+map,691,,22,EV022,1,0,108,comment,noshadow
+map,691,,59,EV059,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,691,,59,EV059,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,691,,59,EV059,1,2,102,choices,Si
+map,691,,59,EV059,1,2,102,choices,No
+map,691,,59,EV059,1,3,402,choice_branch,Si
+map,691,,59,EV059,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,691,,59,EV059,1,24,402,choice_branch,No
+map,691,,96,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,133,EV133,1,0,108,comment,noshadow
+map,691,,189,EV189,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,189,EV189,1,12,355,script,FollowingPkmn.toggle_on
+map,691,,41,EV041,1,0,108,comment,noshadow
+map,691,,78,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,115,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,152,El montañero,1,4,101,show_text,¿Eres nuevo por aquí?
+map,691,,152,El montañero,1,6,101,show_text,"Supongo que querrás llegar a la Ruta 21, este es el único camino existente para llegar hasta ahí."
+map,691,,152,El montañero,1,8,101,show_text,"Tendrás que \c[2]trepar rocas\c[0] para llegar a tu destino, ya que no hay muchas escaleras."
+map,691,,152,El montañero,1,11,101,show_text,"Pero como parece que te gustan las aventuras, te voy a dar esto para que puedas continuar tu camino."
+map,691,,152,El montañero,1,12,355,script,pbReceiveItem(:EXPLORATIONKIT)
+map,691,,152,El montañero,1,14,101,show_text,"\sh¡Adelante, aventurero, es hora de trepar!"
+map,691,,152,El montañero,1,16,101,show_text,"Y ten cuidado, que en esta zona te puedes quemar."
+map,691,,152,El montañero,2,0,101,show_text,"Ten cuidado, que en esta zona te puedes quemar."
+map,691,,152,El montañero,2,3,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,691,,23,EV023,1,0,108,comment,noshadow
+map,691,,60,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,97,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,134,EV134,1,0,108,comment,noshadow
+map,691,,171,EV171,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,171,EV171,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,171,EV171,2,1,102,choices,Si
+map,691,,171,EV171,2,1,102,choices,No
+map,691,,171,EV171,2,2,402,choice_branch,Si
+map,691,,171,EV171,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,171,EV171,2,54,355,script,FollowingPkmn.toggle_on
+map,691,,171,EV171,2,56,402,choice_branch,No
+map,691,,5,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,42,EV042,1,0,108,comment,noshadow
+map,691,,116,EV116,1,0,355,script,pbItemBall(:HOUNDOOMINITE)
+map,691,,153,AAAAAAAAAAA,1,0,108,comment,noshadow
+map,691,,190,EV190,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,190,EV190,1,11,355,script,FollowingPkmn.toggle_on
+map,691,,24,EV024,1,0,108,comment,noshadow
+map,691,,61,EV061,1,0,108,comment,noshadow
+map,691,,98,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,135,Slope,1,0,108,comment,Slope: -2x-1
+map,691,,135,Slope,1,1,108,comment,Width: 1/2
+map,691,,135,Slope,1,2,108,comment,Offset: 16px
+map,691,,172,EV172,1,0,355,script,pbBridgeOn
+map,691,,80,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,117,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,154,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,691,,154,Trainer(4),1,1,101,show_text,"No te veo sudando suficiente, vamos a darle al tema."
+map,691,,154,Trainer(4),1,2,355,script,"setBattleRule(""base"", ""bridge"")"
+map,691,,154,Trainer(4),2,0,101,show_text,"Ostias, pues yo he sudao' un montón."
+map,691,,191,EV191,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,191,EV191,1,12,355,script,FollowingPkmn.toggle_on
+map,691,,62,EV062,1,0,355,script,pbItemBall(:TM16)
+map,691,,99,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,136,Slope,1,0,108,comment,Slope: -2x-1
+map,691,,136,Slope,1,1,108,comment,Width: 0/2
+map,691,,136,Slope,1,2,108,comment,Offset: 16px
+map,691,,173,EV173,1,0,355,script,pbBridgeOn
+map,691,,7,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,44,EV044,1,0,108,comment,noshadow
+map,691,,81,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,118,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,155,EV155,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,155,EV155,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,155,EV155,2,1,102,choices,Si
+map,691,,155,EV155,2,1,102,choices,No
+map,691,,155,EV155,2,2,402,choice_branch,Si
+map,691,,155,EV155,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,155,EV155,2,46,355,script,FollowingPkmn.toggle_on
+map,691,,155,EV155,2,48,402,choice_branch,No
+map,691,,192,EV192,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,192,EV192,1,14,355,script,FollowingPkmn.toggle_on
+map,691,,26,EV026,1,0,355,script,pbItemBall(:FULLRESTORE)
+map,691,,63,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,137,Slope,1,0,108,comment,Slope: 2x1
+map,691,,137,Slope,1,1,108,comment,Width: 1/2
+map,691,,137,Slope,1,2,108,comment,Offset: 16px
+map,691,,174,EV174,1,0,355,script,pbBridgeOff
+map,691,,45,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,82,Trainer(3),1,0,355,script,pbTrainerIntro(:MONTANERO)
+map,691,,82,Trainer(3),1,1,355,script,pbNoticePlayer(get_character(0))
+map,691,,82,Trainer(3),1,2,101,show_text,"Se te da bien escalar, veamos qué tal se te dan los combates."
+map,691,,82,Trainer(3),1,7,355,script,pbTrainerEnd
+map,691,,82,Trainer(3),2,0,101,show_text,Durísimo.
+map,691,,119,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,156,EV156,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,156,EV156,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,156,EV156,2,1,102,choices,Si
+map,691,,156,EV156,2,1,102,choices,No
+map,691,,156,EV156,2,2,402,choice_branch,Si
+map,691,,156,EV156,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,156,EV156,2,47,355,script,FollowingPkmn.toggle_on
+map,691,,156,EV156,2,49,402,choice_branch,No
+map,691,,193,EV193,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,193,EV193,1,14,355,script,FollowingPkmn.toggle_on
+map,691,,27,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,64,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,138,Slope,1,0,108,comment,Slope: 2x1
+map,691,,138,Slope,1,1,108,comment,Width: 0/2
+map,691,,138,Slope,1,2,108,comment,Offset: 16px
+map,691,,175,EV175,1,0,355,script,pbBridgeOff
+map,691,,46,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,83,Trainer(3),1,0,355,script,pbNoticePlayer(get_character(0))
+map,691,,83,Trainer(3),1,1,101,show_text,"¡Estoy en mi hábitat, vas a ver lo duro que son mis Pokémon de Fuego!"
+map,691,,83,Trainer(3),2,0,101,show_text,¡Me he quemado con tu energía!
+map,691,,120,EV120,1,0,108,comment,noshadow
+map,691,,157,EV157,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,157,EV157,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,157,EV157,2,1,102,choices,Si
+map,691,,157,EV157,2,1,102,choices,No
+map,691,,157,EV157,2,2,402,choice_branch,Si
+map,691,,157,EV157,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,157,EV157,2,47,355,script,FollowingPkmn.toggle_on
+map,691,,157,EV157,2,49,402,choice_branch,No
+map,691,,194,EV194,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,194,EV194,1,12,355,script,FollowingPkmn.toggle_on
+map,691,,9,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,65,EV065,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,691,,65,EV065,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,691,,65,EV065,1,2,102,choices,Si
+map,691,,65,EV065,1,2,102,choices,No
+map,691,,65,EV065,1,3,402,choice_branch,Si
+map,691,,65,EV065,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,691,,65,EV065,1,24,402,choice_branch,No
+map,691,,102,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,139,Slope,1,0,108,comment,Slope: 2x-1
+map,691,,139,Slope,1,1,108,comment,Width: 0/2
+map,691,,139,Slope,1,2,108,comment,Offset: 16px
+map,691,,176,EV176,1,0,355,script,pbBridgeOn
+map,691,,195,EV195,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,195,EV195,1,10,355,script,FollowingPkmn.toggle_on
+map,691,,158,EV158,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,158,EV158,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,158,EV158,2,1,102,choices,Si
+map,691,,158,EV158,2,1,102,choices,No
+map,691,,158,EV158,2,2,402,choice_branch,Si
+map,691,,158,EV158,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,158,EV158,2,47,355,script,FollowingPkmn.toggle_on
+map,691,,158,EV158,2,49,402,choice_branch,No
+map,691,,84,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,121,EV121,1,0,108,comment,noshadow
+map,691,,10,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,47,EV047,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL)
+map,691,,47,EV047,1,9,355,script,"setBattleRule(""base"", ""bridge"")"
+map,691,,47,EV047,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 65)"
+map,691,,47,EV047,1,11,355,script,pbSetEventTime
+map,691,,47,EV047,1,15,101,show_text,Parece que ha soltado una extraña moneda...
+map,691,,47,EV047,1,16,355,script,pbReceiveItem(:GOLD)
+map,691,,47,EV047,3,1,355,script,"setTempSwitchOn(""A"")"
+map,691,,140,Slope,1,0,108,comment,Slope: 2x-1
+map,691,,140,Slope,1,1,108,comment,Width: 1/2
+map,691,,140,Slope,1,2,108,comment,Offset: 16px
+map,691,,103,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,177,EV177,1,0,355,script,pbBridgeOff
+map,691,,29,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,66,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,196,EV196,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,196,EV196,1,16,355,script,FollowingPkmn.toggle_on
+map,691,,159,EV159,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,159,EV159,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,159,EV159,2,1,102,choices,Si
+map,691,,159,EV159,2,1,102,choices,No
+map,691,,159,EV159,2,2,402,choice_branch,Si
+map,691,,159,EV159,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,159,EV159,2,47,355,script,FollowingPkmn.toggle_on
+map,691,,159,EV159,2,49,402,choice_branch,No
+map,691,,122,EV122,1,0,108,comment,noshadow
+map,691,,48,EV048,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,691,,48,EV048,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,691,,48,EV048,1,2,102,choices,Si
+map,691,,48,EV048,1,2,102,choices,No
+map,691,,48,EV048,1,3,402,choice_branch,Si
+map,691,,48,EV048,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,691,,48,EV048,1,24,402,choice_branch,No
+map,691,,85,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,178,EV178,1,0,355,script,pbBridgeOff
+map,691,,104,EV104,1,0,108,comment,noshadow
+map,691,,67,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,30,EV030,1,0,108,comment,noshadow
+map,691,,141,Slope,1,0,108,comment,Slope: -2x1
+map,691,,141,Slope,1,1,108,comment,Width: 1/2
+map,691,,141,Slope,1,2,108,comment,Offset: 16px
+map,691,,197,EV197,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,197,EV197,1,16,355,script,FollowingPkmn.toggle_on
+map,691,,123,EV123,1,0,108,comment,noshadow
+map,691,,86,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,49,EV049,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,691,,49,EV049,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,691,,49,EV049,1,2,102,choices,Si
+map,691,,49,EV049,1,2,102,choices,No
+map,691,,49,EV049,1,3,402,choice_branch,Si
+map,691,,49,EV049,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,691,,49,EV049,1,24,402,choice_branch,No
+map,691,,12,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,160,EV160,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,160,EV160,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,160,EV160,2,1,102,choices,Si
+map,691,,160,EV160,2,1,102,choices,No
+map,691,,160,EV160,2,2,402,choice_branch,Si
+map,691,,160,EV160,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,160,EV160,2,54,355,script,FollowingPkmn.toggle_on
+map,691,,160,EV160,2,56,402,choice_branch,No
+map,691,,179,EV179,1,0,355,script,pbBridgeOff
+map,691,,105,EV105,1,0,108,comment,noshadow
+map,691,,68,EV068,1,0,108,comment,noshadow
+map,691,,142,Slope,1,0,108,comment,Slope: -2x1
+map,691,,142,Slope,1,1,108,comment,Width: 0/2
+map,691,,142,Slope,1,2,108,comment,Offset: 16px
+map,691,,31,EV031,1,0,355,script,pbItemBall(:PPMAX)
+map,691,,124,EV124,1,0,108,comment,noshadow
+map,691,,87,EV087,1,0,355,script,pbItemBall(:TM37)
+map,691,,50,EV050,1,0,108,comment,noshadow
+map,691,,13,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,161,EV161,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,161,EV161,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,161,EV161,2,1,102,choices,Si
+map,691,,161,EV161,2,1,102,choices,No
+map,691,,161,EV161,2,2,402,choice_branch,Si
+map,691,,161,EV161,2,45,402,choice_branch,No
+map,691,,180,EV180,1,0,355,script,pbBridgeOff
+map,691,,106,EV106,1,0,108,comment,noshadow
+map,691,,32,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,143,Slope,1,0,108,comment,Slope: -3x-2
+map,691,,143,Slope,1,1,108,comment,Width: 1/2
+map,691,,143,Slope,1,2,108,comment,Offset: 16px
+map,691,,125,EV125,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,125,EV125,1,12,355,script,FollowingPkmn.toggle_on
+map,691,,51,EV051,1,0,108,comment,noshadow
+map,691,,14,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,162,EV162,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,162,EV162,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,162,EV162,2,1,102,choices,Si
+map,691,,162,EV162,2,1,102,choices,No
+map,691,,162,EV162,2,2,402,choice_branch,Si
+map,691,,162,EV162,2,45,402,choice_branch,No
+map,691,,88,EV088,1,0,355,script,pbItemBall(:BIGMUSHROOM)
+map,691,,88,EV088,1,2,108,comment,noshadow
+map,691,,88,EV088,2,0,108,comment,noshadow
+map,691,,181,loquesea,1,0,355,script,pbEncounter(:Land)
+map,691,,107,EV107,1,0,108,comment,noshadow
+map,691,,70,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,33,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,144,Slope,1,0,108,comment,Slope: -3x-2
+map,691,,144,Slope,1,1,108,comment,Width: 0/2
+map,691,,144,Slope,1,2,108,comment,Offset: 16px
+map,691,,163,EV163,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,163,EV163,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,163,EV163,2,1,102,choices,Si
+map,691,,163,EV163,2,1,102,choices,No
+map,691,,163,EV163,2,2,402,choice_branch,Si
+map,691,,163,EV163,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,163,EV163,2,47,355,script,FollowingPkmn.toggle_on
+map,691,,163,EV163,2,49,402,choice_branch,No
+map,691,,89,EV089,1,0,355,script,pbItemBall(:NUGGET)
+map,691,,89,EV089,1,2,108,comment,noshadow
+map,691,,89,EV089,2,0,108,comment,noshadow
+map,691,,52,EV052,1,0,355,script,"jess_fogs(0,""Cueva Tángara"",0,255)"
+map,691,,15,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,126,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,108,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,691,,108,Trainer(4),1,1,101,show_text,"Vengo aquí para soportar el calor, veamos si puedo aguantar un combate a la vez."
+map,691,,108,Trainer(4),2,0,101,show_text,Creo que me voy a desmayar...
+map,691,,182,loquesea,1,0,355,script,pbEncounter(:Land)
+map,691,,71,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,34,EV034,1,0,355,script,pbItemBall(:BIGMUSHROOM)
+map,691,,34,EV034,1,2,108,comment,noshadow
+map,691,,34,EV034,2,0,108,comment,noshadow
+map,691,,145,Slope,1,0,108,comment,Slope: 3x2
+map,691,,145,Slope,1,1,108,comment,Width: 0/2
+map,691,,145,Slope,1,2,108,comment,Offset: 16px
+map,691,,164,EV164,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,164,EV164,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,164,EV164,2,1,102,choices,Si
+map,691,,164,EV164,2,1,102,choices,No
+map,691,,164,EV164,2,2,402,choice_branch,Si
+map,691,,164,EV164,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,164,EV164,2,46,355,script,FollowingPkmn.toggle_on
+map,691,,164,EV164,2,48,402,choice_branch,No
+map,691,,90,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,53,EV053,1,0,108,comment,noshadow
+map,691,,183,EV183,1,0,355,script,FollowingPkmn.toggle_off
+map,691,,183,EV183,1,12,355,script,FollowingPkmn.toggle_on
+map,691,,109,EV109,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,691,,109,EV109,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,691,,109,EV109,1,2,102,choices,Si
+map,691,,109,EV109,1,2,102,choices,No
+map,691,,109,EV109,1,3,402,choice_branch,Si
+map,691,,109,EV109,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,691,,109,EV109,1,24,402,choice_branch,No
+map,691,,72,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,35,EV035,1,0,355,script,pbItemBall(:CHARCOAL)
+map,691,,146,Slope,1,0,108,comment,Slope: 3x2
+map,691,,146,Slope,1,1,108,comment,Width: 1/2
+map,691,,146,Slope,1,2,108,comment,Offset: 16px
+map,691,,165,EV165,1,0,101,show_text,Necesitas algo para poder escalar y descender montañas.
+map,691,,165,EV165,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,691,,165,EV165,2,1,102,choices,Si
+map,691,,165,EV165,2,1,102,choices,No
+map,691,,165,EV165,2,2,402,choice_branch,Si
+map,691,,165,EV165,2,3,355,script,FollowingPkmn.toggle_off
+map,691,,165,EV165,2,46,355,script,FollowingPkmn.toggle_on
+map,691,,165,EV165,2,48,402,choice_branch,No
+map,691,,91,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,128,EV128,1,0,108,comment,noshadow
+map,691,,184,loquesea,1,0,355,script,pbEncounter(:Land)
+map,691,,73,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,691,,36,EV036,1,0,108,comment,noshadow
+map,691,,147,Slope,1,0,108,comment,Slope: 3x-2
+map,691,,147,Slope,1,1,108,comment,Width: 1/2
+map,691,,147,Slope,1,2,108,comment,Offset: 16px

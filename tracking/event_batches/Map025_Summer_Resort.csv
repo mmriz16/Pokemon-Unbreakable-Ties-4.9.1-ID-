@@ -1,0 +1,1246 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,25,,33,EV033,1,0,108,comment,noshadow
+map,25,,100,Slope,1,0,108,comment,Slope: 2x1
+map,25,,100,Slope,1,1,108,comment,Width: 1/2
+map,25,,100,Slope,1,2,108,comment,Offset: 16px
+map,25,,167,EV167,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,201,EV201,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,134,EV134,1,0,101,show_text,\dxn[Kiawe]¿Y tú quién eres? ¿Otro invitado?
+map,25,,134,EV134,1,2,101,show_text,\dxn[Kiawe]A mí y algunos amigos más nos han invitado para participar como contrincantes en el \c[2]Minijuego de Combate\c[0].
+map,25,,134,EV134,1,5,101,show_text,"\dxn[Kiawe]Supongo que si alcanzas cierto nivel en el minijuego, podrás pelear contra mí."
+map,25,,34,Angie Stones,2,0,101,show_text,(Está ocupada tocando para el público...)
+map,25,,101,Slope,1,0,108,comment,Slope: 2x1
+map,25,,101,Slope,1,1,108,comment,Width: 0/2
+map,25,,101,Slope,1,2,108,comment,Offset: 16px
+map,25,,168,EV168,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,202,EV202,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,135,LANA,1,2,101,show_text,"\dxn[Nereida]¡Hola! ¿Vienes por el torneo, también?"
+map,25,,135,LANA,1,4,101,show_text,\dxn[Nereida]A mi Liberty me ganó cuando me dijo que se podían pescar cosas chulas en estas aguas.
+map,25,,135,LANA,1,6,101,show_text,"\dxn[Nereida]Y bueno, tampoco se equivocaba, así que ni tan mal."
+map,25,,135,LANA,1,8,101,show_text,\dxn[Nereida]¡Nos veremos por el \c[2]Minijuego de Combate\c[0]!
+map,25,,102,LIBERTY,1,4,101,show_text,"\dxn[Liberty]¡Qué pasa, \PN! ¿Disfrutando de la fiesta?"
+map,25,,102,LIBERTY,1,10,101,show_text,\dxn[Liberty]¿Todavía no has pasado por el \c[2]Punto de Información\c[0]?
+map,25,,102,LIBERTY,1,15,101,show_text,\dxn[Liberty]Sin el pase no podrás participar en estas peleas.
+map,25,,102,LIBERTY,1,19,101,show_text,"\dxn[Liberty]Así que espabila, no he venido aquí para nada. Un presidente tiene mucha faena por hacer."
+map,25,,102,LIBERTY,1,25,101,show_text,"\dxn[\PN]<i>(Sí claro, faena...)</i>"
+map,25,,102,LIBERTY,1,30,101,show_text,"\dxn[\PN]<i>(Sí claro, faena...)</i>"
+map,25,,102,LIBERTY,2,4,101,show_text,"\dxn[Liberty]¡Qué pasa, \PN! ¿Disfrutando de la fiesta?"
+map,25,,102,LIBERTY,2,10,101,show_text,\dxn[Liberty]¿Todavía no has pasado por el \c[2]Punto de Información\c[0]?
+map,25,,102,LIBERTY,2,15,101,show_text,\dxn[Liberty]Sin el pase no podrás participar en estas peleas.
+map,25,,102,LIBERTY,2,19,101,show_text,"\dxn[Liberty]Así que espabila, no he venido aquí para nada. Un presidente tiene mucha faena por hacer."
+map,25,,102,LIBERTY,2,25,101,show_text,"\dxn[\PN]<i>(Sí claro, faena...)</i>"
+map,25,,102,LIBERTY,2,30,101,show_text,"\dxn[\PN]<i>(Sí claro, faena...)</i>"
+map,25,,102,LIBERTY,3,5,101,show_text,"\dxn[Liberty]¡Qué pasa, \PN! ¿Disfrutando de la fiesta?"
+map,25,,102,LIBERTY,3,10,101,show_text,\dxn[Liberty]¿Vienes para participar en los \c[2]Combates Tropicales\c[0]?
+map,25,,102,LIBERTY,3,14,101,show_text,\dxn[Liberty]¡Hemos invitado a gente realmente fuerte de otra región!
+map,25,,102,LIBERTY,3,22,101,show_text,\dxn[Liberty]¡Es verdad! ¡Has conseguido todos los tickets!
+map,25,,102,LIBERTY,3,24,108,comment,// En el caso de que hayas conseguido todos los rewards
+map,25,,102,LIBERTY,3,30,101,show_text,"\sh\dxn[Liberty]¡Espera, también has derrotado a todos los oponentes!"
+map,25,,102,LIBERTY,3,35,101,show_text,\ts[2]\dxn[Liberty]Creo que ha llegado el momento de...
+map,25,,102,LIBERTY,3,40,101,show_text,\dxn[\PN]¿Luchar contra ti?
+map,25,,102,LIBERTY,3,45,101,show_text,\dxn[\PN]¿Luchar contra ti?
+map,25,,102,LIBERTY,3,52,101,show_text,\ts[2]\dxn[Liberty]¿Conmigo?
+map,25,,102,LIBERTY,3,56,101,show_text,"\dxn[Liberty]Sí hombre, ya tuve que ejercer de líder hace poco contigo. No lo repito de nuevo."
+map,25,,102,LIBERTY,3,62,101,show_text,\dxn[\PN]<i>(Pero si es parte de tu trabajo...)</i>
+map,25,,102,LIBERTY,3,67,101,show_text,\dxn[\PN]<i>(Pero si es parte de tu trabajo...)</i>
+map,25,,102,LIBERTY,3,75,101,show_text,"\ts[2]\dxn[Liberty]Pero si no hago nada al respecto, Sakura me reventará algo más que la mandíbula..."
+map,25,,102,LIBERTY,3,79,101,show_text,\ts[2]\dxn[Liberty]Y mis Exeggcutes son sagrados...
+map,25,,102,LIBERTY,3,97,101,show_text,\sh\dxn[Liberty]¡Ya sé qué hacer!
+map,25,,102,LIBERTY,3,106,355,script,pbCameraToEvent(111)
+map,25,,102,LIBERTY,3,111,101,show_text,"\sh\dxn[Liberty]¡Kukui, tengo aquí a un novato con ganas de fiesta!"
+map,25,,102,LIBERTY,3,116,101,show_text,\dxn[Liberty]¿Te apetece jugar un poco con él?
+map,25,,102,LIBERTY,3,120,101,show_text,\sh\dxn[Kukui]¡Por supuesto! ¡Uno siempre debe estar dispuesto a tener un combate Pokémon!
+map,25,,102,LIBERTY,3,121,355,script,pbCameraReset
+map,25,,102,LIBERTY,3,126,101,show_text,"\dxn[Liberty]Se trata de Kukui, el Ex Campeón de Alola."
+map,25,,102,LIBERTY,3,130,101,show_text,\dxn[Liberty]¿Qué te parece? ¿Suficiente para ti o te has hecho caca?
+map,25,,102,LIBERTY,3,133,102,choices,Let's go!
+map,25,,102,LIBERTY,3,133,102,choices,"Nothing, nothing..."
+map,25,,102,LIBERTY,3,134,402,choice_branch,Let's go!
+map,25,,102,LIBERTY,3,145,101,show_text,\sh\dxn[Liberty]¿Ves? ¡Liberty siempre gana!
+map,25,,102,LIBERTY,3,149,101,show_text,\dxn[Liberty]¡Otro combate por mí y así no tengo que interactuar contigo!
+map,25,,102,LIBERTY,3,156,101,show_text,"\sh\dxn[Liberty]¡Bueno, vamos para el campo de batalla!"
+map,25,,102,LIBERTY,3,163,402,choice_branch,"Nothing, nothing..."
+map,25,,102,LIBERTY,3,168,101,show_text,\dxn[Liberty]¿Pero tú te estás quedando conmigo o qué te pasa?
+map,25,,102,LIBERTY,3,173,101,show_text,"\dxn[Liberty]En fin, haz lo que quieras. ¿Al menos quieres jugar algún nivel?"
+map,25,,102,LIBERTY,3,181,101,show_text,\dxn[Liberty]¡Pero todavía tienes oponentes por derrotar!
+map,25,,102,LIBERTY,3,188,101,show_text,"\dxn[Liberty]Todavía tienes puntos por conseguir, ¿quieres participar?"
+map,25,,102,LIBERTY,3,192,355,script,echo pbGet(901)
+map,25,,102,LIBERTY,3,244,355,script,$points_hud = FightingPointsDisplayHUD.new
+map,25,,102,LIBERTY,4,0,108,comment,noshadow
+map,25,,169,EV169,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,69,EV069,1,0,108,comment,noshadow
+map,25,,136,EV136,1,0,101,show_text,"\dxn[Denio]Odio el calor, odio las fiestas."
+map,25,,136,EV136,1,2,101,show_text,"\dxn[Denio]Liberty me ha pagado lo suyo, sino no hubiera venido."
+map,25,,203,EV203,1,0,101,show_text,\dxn[Mina]I love turning others' joy into art on my canvas!
+map,25,,203,EV203,1,2,101,show_text,\dxn[Mina]Do you like painting?
+map,25,,203,EV203,1,3,102,choices,Yes
+map,25,,203,EV203,1,3,102,choices,No
+map,25,,203,EV203,1,4,402,choice_branch,Yes
+map,25,,203,EV203,1,7,101,show_text,\dxn[Mina]That's awesome! Then I'm sure you'll understand me!
+map,25,,203,EV203,1,9,402,choice_branch,No
+map,25,,203,EV203,1,10,101,show_text,\dxn[Mina]I guess you're more into battles... right?
+map,25,,36,EV036,1,5,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,25,,70,EV070,1,0,108,comment,noshadow
+map,25,,137,EV137,1,0,101,show_text,"\dxn[Lulú]Me gusta mucho el clima que tenéis en Akebia, se asemeja mucho al de Alola."
+map,25,,137,EV137,1,2,101,show_text,"\dxn[Lulú]¡Y cuando Liberty me dijo que se haría una fiesta, no pude decir que no!"
+map,25,,204,PLACAS,1,0,108,comment,noshadow
+map,25,,71,EV071,1,0,108,comment,noshadow
+map,25,,138,xd,1,0,355,script,Pokemon.play_cry(:TSAREENA)
+map,25,,205,PLACAS EDITOR,1,0,108,comment,// CINEMÁTICA PLACAS FUERA DE MINIJUEGO
+map,25,,172,EV172,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,38,CELESTE,1,3,101,show_text,"\dxn[Celeste]¡Ey, \PN! ¡Te estábamos esperando!"
+map,25,,38,CELESTE,1,8,101,show_text,"\dxn[Celeste]Todos estábamos un poco preocupados por ti, así que hemos decidido preparar este evento para que te animes un poquito."
+map,25,,38,CELESTE,1,13,101,show_text,\sh\dxn[Celeste]¡Estoy segura de que el olor del mar y el sonido de las olas te ayudarán a mejorar ese ánimo!
+map,25,,38,CELESTE,1,18,101,show_text,"\dxn[Celeste]En este Summer Resort, yo me ocupo del \c[2]Minijuego de Pesca\c[0]."
+map,25,,38,CELESTE,1,22,101,show_text,"\dxn[Celeste]Para poder participar, necesitarás un \c[2]Resort Pass\c[0] y esto."
+map,25,,38,CELESTE,1,24,355,script,pbReceiveItem(:MEGAROD)
+map,25,,38,CELESTE,1,28,101,show_text,"\sh\dxn[Celeste]¡Si te apetece competir con gente, ganar algunos puntos y recompensas, ven a verme!"
+map,25,,38,CELESTE,2,4,101,show_text,\dxn[Celeste]¿No te lo dije?
+map,25,,38,CELESTE,2,8,101,show_text,\dxn[Celeste]Para participar tendrás que tener el \c[2]Resort Pass\c[0].
+map,25,,38,CELESTE,2,13,101,show_text,\dxn[Celeste]Podrás adquirirlo si enseñas la invitación en la casita que hay justo delante.
+map,25,,38,CELESTE,3,3,101,show_text,\dxn[Celeste]¿Has venido a participar en el \c[2]Minijuego de Pesca\c[0]?
+map,25,,38,CELESTE,3,8,101,show_text,\dxn[Celeste]¡Ya has conseguido todos los puntos!
+map,25,,38,CELESTE,3,10,108,comment,// En el caso de que hayas conseguido todos los rewards
+map,25,,38,CELESTE,3,16,101,show_text,"\sh\dxn[Celeste]¡Espera, también has superado todos los niveles y has reclamado todas las recompensas!"
+map,25,,38,CELESTE,3,21,101,show_text,\ts[2]\dxn[Celeste]Creo que ha llegado el momento...
+map,25,,38,CELESTE,3,26,101,show_text,\ts[2]\dxn[Celeste]¿Quieres retarme a mí?
+map,25,,38,CELESTE,3,30,102,choices,¡Vamos!
+map,25,,38,CELESTE,3,30,102,choices,"Nada, nada..."
+map,25,,38,CELESTE,3,31,402,choice_branch,¡Vamos!
+map,25,,38,CELESTE,3,42,101,show_text,"\sh\dxn[Celeste]¡Genial, vamos a ver si eres capaz de superarme!"
+map,25,,38,CELESTE,3,49,402,choice_branch,"Nada, nada..."
+map,25,,38,CELESTE,3,54,101,show_text,"\ts[2]\dxn[Celeste]De acuerdo, no importa..."
+map,25,,38,CELESTE,3,58,101,show_text,\dxn[Celeste]Entonces... ¿quieres jugar algún nivel?
+map,25,,38,CELESTE,3,66,101,show_text,\dxn[Celeste]¡Pero todavía tienes recompensas por ganar!
+map,25,,38,CELESTE,3,74,101,show_text,\dxn[Celeste]¡Todavía tienes <i>Resort Points</i> por conseguir!
+map,25,,38,CELESTE,3,78,355,script,echo pbGet(901)
+map,25,,38,CELESTE,3,130,355,script,$points_hud = FishingPointsDisplayHUD.new
+map,25,,72,EV072,1,0,108,comment,noshadow
+map,25,,139,xd,1,0,355,script,Pokemon.play_cry(:PERSIAN)
+map,25,,206,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,25,,173,EV173,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,39,CELESTE MENU OPEN,1,0,108,comment,// CONTROL ALL THE INTERFACE
+map,25,,39,CELESTE MENU OPEN,1,2,355,script,$points_hud.update if $points_hud
+map,25,,39,CELESTE MENU OPEN,1,4,108,comment,// PARTE VISIBLE
+map,25,,39,CELESTE MENU OPEN,1,51,108,comment,// CAMBIAS DE DIFICULTAD
+map,25,,39,CELESTE MENU OPEN,1,63,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,1,77,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,1,91,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,1,110,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,1,122,101,show_text,¿Estás seguro de que quieres salir?
+map,25,,39,CELESTE MENU OPEN,1,123,102,choices,Sí
+map,25,,39,CELESTE MENU OPEN,1,123,102,choices,No
+map,25,,39,CELESTE MENU OPEN,1,124,402,choice_branch,Sí
+map,25,,39,CELESTE MENU OPEN,1,126,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,1,136,101,show_text,"\dxn[Celeste]No te preocupes, si necesitas algo me dices."
+map,25,,39,CELESTE MENU OPEN,1,142,402,choice_branch,No
+map,25,,39,CELESTE MENU OPEN,1,153,101,show_text,¿Quieres jugar el \c[2]Nivel 1\c[0]?
+map,25,,39,CELESTE MENU OPEN,1,154,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,1,154,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,1,155,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,1,156,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,1,160,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,1,168,101,show_text,¿Quieres jugar el \c[2]Nivel 2\c[0]?
+map,25,,39,CELESTE MENU OPEN,1,169,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,1,169,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,1,170,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,1,171,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,1,175,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,1,183,101,show_text,¿Quieres jugar el \c[2]Nivel 3\c[0]?
+map,25,,39,CELESTE MENU OPEN,1,184,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,1,184,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,1,185,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,1,186,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,1,190,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,1,198,101,show_text,¿Quieres jugar el \c[2]Nivel 4\c[0]?
+map,25,,39,CELESTE MENU OPEN,1,199,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,1,199,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,1,200,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,1,201,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,1,205,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,2,0,108,comment,// CONTROL ALL THE INTERFACE
+map,25,,39,CELESTE MENU OPEN,2,2,355,script,$points_hud.update if $points_hud
+map,25,,39,CELESTE MENU OPEN,2,4,108,comment,// PARTE VISIBLE
+map,25,,39,CELESTE MENU OPEN,2,51,108,comment,// CAMBIAS DE DIFICULTAD
+map,25,,39,CELESTE MENU OPEN,2,63,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,2,77,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,2,91,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,2,110,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,2,122,101,show_text,¿Estás seguro de que quieres salir?
+map,25,,39,CELESTE MENU OPEN,2,123,102,choices,Sí
+map,25,,39,CELESTE MENU OPEN,2,123,102,choices,No
+map,25,,39,CELESTE MENU OPEN,2,124,402,choice_branch,Sí
+map,25,,39,CELESTE MENU OPEN,2,126,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,2,137,101,show_text,\dxn[Sakura]¿No vas a jugar?
+map,25,,39,CELESTE MENU OPEN,2,142,101,show_text,"\dxn[Sakura]¡Bueno, aquí estaré por si cambias de opinión!"
+map,25,,39,CELESTE MENU OPEN,2,148,402,choice_branch,No
+map,25,,39,CELESTE MENU OPEN,2,159,101,show_text,¿Quieres jugar el \c[2]Nivel 1\c[0]?
+map,25,,39,CELESTE MENU OPEN,2,160,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,2,160,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,2,161,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,2,162,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,2,166,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,2,174,101,show_text,¿Quieres jugar el \c[2]Nivel 2\c[0]?
+map,25,,39,CELESTE MENU OPEN,2,175,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,2,175,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,2,176,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,2,177,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,2,181,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,2,189,101,show_text,¿Quieres jugar el \c[2]Nivel 3\c[0]?
+map,25,,39,CELESTE MENU OPEN,2,190,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,2,190,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,2,191,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,2,192,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,2,196,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,2,204,101,show_text,¿Quieres jugar el \c[2]Nivel 4\c[0]?
+map,25,,39,CELESTE MENU OPEN,2,205,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,2,205,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,2,206,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,2,207,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,2,211,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,3,0,108,comment,// CONTROL ALL THE INTERFACE
+map,25,,39,CELESTE MENU OPEN,3,2,355,script,$points_hud.update if $points_hud
+map,25,,39,CELESTE MENU OPEN,3,4,108,comment,// PARTE VISIBLE
+map,25,,39,CELESTE MENU OPEN,3,51,108,comment,// CAMBIAS DE DIFICULTAD
+map,25,,39,CELESTE MENU OPEN,3,63,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,3,77,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,3,91,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,3,110,355,script,echo pbGet(900)
+map,25,,39,CELESTE MENU OPEN,3,122,101,show_text,¿Estás seguro de que quieres salir?
+map,25,,39,CELESTE MENU OPEN,3,123,102,choices,Sí
+map,25,,39,CELESTE MENU OPEN,3,123,102,choices,No
+map,25,,39,CELESTE MENU OPEN,3,124,402,choice_branch,Sí
+map,25,,39,CELESTE MENU OPEN,3,126,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,3,138,101,show_text,\dxn[Liberty]¿Te da miedo o qué? ¿Te echas para atrás?
+map,25,,39,CELESTE MENU OPEN,3,143,101,show_text,"\sh\dxn[Liberty]¡Se lo diré a Sakura, que conste!"
+map,25,,39,CELESTE MENU OPEN,3,150,402,choice_branch,No
+map,25,,39,CELESTE MENU OPEN,3,161,101,show_text,¿Quieres jugar el \c[2]Nivel 1\c[0]?
+map,25,,39,CELESTE MENU OPEN,3,162,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,3,162,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,3,163,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,3,164,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,3,168,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,3,176,101,show_text,¿Quieres jugar el \c[2]Nivel 2\c[0]?
+map,25,,39,CELESTE MENU OPEN,3,177,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,3,177,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,3,178,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,3,179,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,3,183,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,3,191,101,show_text,¿Quieres jugar el \c[2]Nivel 3\c[0]?
+map,25,,39,CELESTE MENU OPEN,3,192,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,3,192,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,3,193,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,3,194,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,3,198,402,choice_branch,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,3,206,101,show_text,¿Quieres jugar el \c[2]Nivel 4\c[0]?
+map,25,,39,CELESTE MENU OPEN,3,207,102,choices,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,3,207,102,choices,"¡No, no!"
+map,25,,39,CELESTE MENU OPEN,3,208,402,choice_branch,¡Vamos!
+map,25,,39,CELESTE MENU OPEN,3,209,355,script,$points_hud.dispose
+map,25,,39,CELESTE MENU OPEN,3,213,402,choice_branch,"¡No, no!"
+map,25,,73,EV073,1,0,108,comment,noshadow
+map,25,,140,xd,1,0,355,script,Pokemon.play_cry(:NINETALES)
+map,25,,207,"Fuente, size(1,3)",1,0,108,comment,noshadow
+map,25,,174,EV174,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,40,RODOLFO,1,3,101,show_text,"\dxn[Rodolfo]¡Ey, \PN! ¿Has visto qué outift más guapo llevo?"
+map,25,,40,RODOLFO,1,6,102,choices,What are you doing here?
+map,25,,40,RODOLFO,1,6,102,choices,Were you invited as well?
+map,25,,40,RODOLFO,1,7,402,choice_branch,What are you doing here?
+map,25,,40,RODOLFO,1,10,101,show_text,"\dxn[Rodolfo]Pues mira, te cuento."
+map,25,,40,RODOLFO,1,13,402,choice_branch,Were you invited as well?
+map,25,,40,RODOLFO,1,16,101,show_text,"\dxn[Rodolfo]Je, je. Más o menos."
+map,25,,40,RODOLFO,1,22,101,show_text,"\dxn[Rodolfo]Yo estaba tranquilamente saliendo de \c[2]Pueblo Mandarín\c[0], cuando mami me llamó por teléfono."
+map,25,,40,RODOLFO,1,28,101,show_text,\dxn[\PN]<i>(¿Como que mami? ¿Se refiere a Álama?)</i>
+map,25,,40,RODOLFO,1,33,101,show_text,\dxn[\PN]<i>(¿Como que mami? ¿Se refiere a Álama?)</i>
+map,25,,40,RODOLFO,1,41,101,show_text,\ts[2]\dxn[\PN]<i>(Además... eso que lleva ahí es un teléfono de juguete...)</i>
+map,25,,40,RODOLFO,1,46,101,show_text,\ts[2]\dxn[\PN]<i>(Además... eso que lleva ahí es un teléfono de juguete...)</i>
+map,25,,40,RODOLFO,1,52,101,show_text,"\dxn[Rodolfo]Me dijo de venir a la playa, pero no tenía bañador."
+map,25,,40,RODOLFO,1,56,101,show_text,\dxn[Rodolfo]Asi que nos reunimos todos y fuimos a comprar trajes de baño a Ciudad Lugano.
+map,25,,40,RODOLFO,1,60,101,show_text,"\dxn[Rodolfo]A Ditto le hacía mucha ilusión aprender a nadar, así que le compraron un flotador."
+map,25,,40,RODOLFO,1,64,101,show_text,\f[ditto000]¡Ditto!
+map,25,,40,RODOLFO,1,73,101,show_text,"\dxn[Rodolfo]Además, me dijo que vendían un \c[2]helado exclusivo\c[0], así que no me pude negar de ninguna forma."
+map,25,,40,RODOLFO,1,80,101,show_text,"\dxn[Rodolfo]Entre tú y yo. Este helado lo ha robado Ditto, así que quédate calladitto."
+map,25,,40,RODOLFO,1,86,101,show_text,\ts[2]\dxn[\PN]<i>(Quizás robaba en el pasado para sobrevivir... pero no debería volver a hacerlo.)</i>
+map,25,,40,RODOLFO,1,90,101,show_text,"\dxn[\PN]Oye, Rodolfo, eso no está bien."
+map,25,,40,RODOLFO,1,95,101,show_text,\ts[2]\dxn[\PN]<i>(Quizás robaba en el pasado para sobrevivir... pero no debería volver a hacerlo.)</i>
+map,25,,40,RODOLFO,1,99,101,show_text,"\dxn[\PN]Oye, Rodolfo, eso no está bien."
+map,25,,40,RODOLFO,1,106,101,show_text,"\ts[2]\dxn[Rodolfo]Lo sé, pero... \wt[15]me apetece..."
+map,25,,40,RODOLFO,1,110,102,choices,Ask Alama
+map,25,,40,RODOLFO,1,110,102,choices,I'll buy one for you
+map,25,,40,RODOLFO,1,111,402,choice_branch,Ask Alama
+map,25,,40,RODOLFO,1,115,101,show_text,\ts[2]\dxn[Rodolfo]Es que no quiero molestarla...
+map,25,,40,RODOLFO,1,118,355,script,pbCameraToEvent(29)
+map,25,,40,RODOLFO,1,121,101,show_text,\ts[2]\dxn[Rodolfo]Está disfrutando como una niña del concierto de Angie y no quiero ser una carga para ella...
+map,25,,40,RODOLFO,1,123,355,script,pbCameraReset
+map,25,,40,RODOLFO,1,129,101,show_text,\ts[2]\dxn[\PN]<i>(Ya veo...)</i>
+map,25,,40,RODOLFO,1,134,101,show_text,\ts[2]\dxn[\PN]<i>(Ya veo...)</i>
+map,25,,40,RODOLFO,1,141,101,show_text,"\ts[2]\dxn[\PN]Te lo compro yo, entonces."
+map,25,,40,RODOLFO,1,146,101,show_text,"\ts[2]\dxn[\PN]Te lo compro yo, entonces."
+map,25,,40,RODOLFO,1,153,101,show_text,\sh\dxn[Rodolfo]¿¡De verdad!?
+map,25,,40,RODOLFO,1,163,101,show_text,"\sh\dxn[Rodolfo]¡Eres el mejor (después de mí, claro)!"
+map,25,,40,RODOLFO,1,166,101,show_text,"\sh\dxn[Rodolfo]¡Eres la mejor (después de mí, claro)!"
+map,25,,40,RODOLFO,1,173,101,show_text,"\dxn[Rodolfo]¡Te espero aquí, entonces!"
+map,25,,40,RODOLFO,1,176,402,choice_branch,I'll buy one for you
+map,25,,40,RODOLFO,1,180,101,show_text,\sh\dxn[Rodolfo]¿¡De verdad!?
+map,25,,40,RODOLFO,1,190,101,show_text,"\sh\dxn[Rodolfo]¡Eres el mejor (después de mí, claro)!"
+map,25,,40,RODOLFO,1,193,101,show_text,"\sh\dxn[Rodolfo]¡Eres la mejor (después de mí, claro)!"
+map,25,,40,RODOLFO,1,199,355,script,pbCameraToEvent(29)
+map,25,,40,RODOLFO,1,202,101,show_text,"\ts[2]\dxn[Rodolfo]Es que no quería molestar a Álama, se lo está pasando como una niña con el concierto de Angie..."
+map,25,,40,RODOLFO,1,204,355,script,pbCameraReset
+map,25,,40,RODOLFO,1,210,101,show_text,\ts[2]\dxn[\PN]<i>(Ya veo...)</i>
+map,25,,40,RODOLFO,1,215,101,show_text,\ts[2]\dxn[\PN]<i>(Ya veo...)</i>
+map,25,,40,RODOLFO,1,221,101,show_text,"\dxn[Rodolfo]¡Te espero aquí, entonces!"
+map,25,,40,RODOLFO,2,10,101,show_text,"\sh\dxn[Rodolfo]That's it, exactly the one I wanted!"
+map,25,,40,RODOLFO,2,14,101,show_text,"\sh\dxn[Rodolfo]May Arceus repay you, or something like that!"
+map,25,,40,RODOLFO,2,18,355,script,"$PokemonBag.pbDeleteItem(:HELADOGOD,1)"
+map,25,,40,RODOLFO,2,19,355,script,"pbGainSocialLinkBond(:RODOLFO, 1, silent: false)"
+map,25,,40,RODOLFO,2,26,101,show_text,\dxn[Rodolfo]Where's the ice cream?
+map,25,,40,RODOLFO,2,30,101,show_text,\dxn[Rodolfo]I didn't see you buy it...
+map,25,,40,RODOLFO,3,1,101,show_text,"\sh\dxn[Rodolfo]May Arceus repay you, or something like that!"
+map,25,,141,xd,1,0,355,script,Pokemon.play_cry(:PRIMARINA)
+map,25,,7,barca god,1,0,108,comment,noshadow
+map,25,,208,EV208,1,0,108,comment,"// whenever you enter to the resort, set text as bottom show"
+map,25,,74,EV074,1,0,108,comment,noshadow
+map,25,,175,"Fuente, size(2,1)",1,0,108,comment,noshadow
+map,25,,41,,1,0,101,show_text,(He fell asleep in the sun...)
+map,25,,142,Update,1,0,101,show_text,(Está jugando con su hermano.)
+map,25,,8,EV008,1,0,108,comment,noshadow
+map,25,,209,EV209,1,1,355,script,"pbSummerMart({:BUGMEMORY => [2601,100], :DARKMEMORY => [2602,100], :DRAGONMEMORY => [2603,100],"
+map,25,,209,EV209,1,2,655,script_cont,":ELECTRICMEMORY => [2604,100], :FAIRYMEMORY => [2605,100], :FIGHTINGMEMORY => [2606,100],"
+map,25,,209,EV209,1,3,655,script_cont,":FIREMEMORY => [2607,100], :FLYINGMEMORY => [2608,100], :GHOSTMEMORY => [2609,100], :GRASSMEMORY => [2610,100],"
+map,25,,209,EV209,1,4,655,script_cont,":GROUNDMEMORY => [2611,100], :ICEMEMORY => [2612,100], :POISONMEMORY => [2613,100], :PSYCHICMEMORY => [2614,100],"
+map,25,,209,EV209,1,5,655,script_cont,":ROCKMEMORY => [2615,100], :STEELMEMORY => [2616,100], :WATERMEMORY => [2617,100], :ELECTRICSEED => [2618,150],"
+map,25,,209,EV209,1,6,655,script_cont,":MISTYSEED => [2619,150], :GRASSYSEED => [2620,150], :PSYCHICSEED => [2621,150], :VICTREEBELITE => [2622,300],"
+map,25,,209,EV209,1,7,655,script_cont,":HAWLUCHITE => [2626,300], :DRAGONITITE => [2624,400], :WEIRDEGG => [2623,500], :SWIMSUIT_MALE => [2625,1200]})"
+map,25,,209,EV209,1,10,355,script,"pbSummerMart({:BUGMEMORY => [2601,100], :DARKMEMORY => [2602,100], :DRAGONMEMORY => [2603,100],"
+map,25,,209,EV209,1,11,655,script_cont,":ELECTRICMEMORY => [2604,100], :FAIRYMEMORY => [2605,100], :FIGHTINGMEMORY => [2606,100],"
+map,25,,209,EV209,1,12,655,script_cont,":FIREMEMORY => [2607,100], :FLYINGMEMORY => [2608,100], :GHOSTMEMORY => [2609,100], :GRASSMEMORY => [2610,100],"
+map,25,,209,EV209,1,13,655,script_cont,":GROUNDMEMORY => [2611,100], :ICEMEMORY => [2612,100], :POISONMEMORY => [2613,100], :PSYCHICMEMORY => [2614,100],"
+map,25,,209,EV209,1,14,655,script_cont,":ROCKMEMORY => [2615,100], :STEELMEMORY => [2616,100], :WATERMEMORY => [2617,100], :ELECTRICSEED => [2618,150],"
+map,25,,209,EV209,1,15,655,script_cont,":MISTYSEED => [2619,150], :GRASSYSEED => [2620,150], :PSYCHICSEED => [2621,150], :VICTREEBELITE => [2622,300],"
+map,25,,209,EV209,1,16,655,script_cont,":HAWLUCHITE => [2626,300], :DRAGONITITE => [2624,400], :WEIRDEGG => [2623,500], :SWIMSUIT_FEMALE => [2625,1200]})"
+map,25,,209,EV209,1,22,355,script,Kernel.pbGenerateEgg(:TYPENULL)
+map,25,,209,EV209,1,23,355,script,$PokemonBag.pbDeleteItem(:WEIRDEGG)
+map,25,,209,EV209,2,1,355,script,"pbSummerMart({:BUGMEMORY => [2601,100], :DARKMEMORY => [2602,100], :DRAGONMEMORY => [2603,100],"
+map,25,,209,EV209,2,2,655,script_cont,":ELECTRICMEMORY => [2604,100], :FAIRYMEMORY => [2605,100], :FIGHTINGMEMORY => [2606,100],"
+map,25,,209,EV209,2,3,655,script_cont,":FIREMEMORY => [2607,100], :FLYINGMEMORY => [2608,100], :GHOSTMEMORY => [2609,100], :GRASSMEMORY => [2610,100],"
+map,25,,209,EV209,2,4,655,script_cont,":GROUNDMEMORY => [2611,100], :ICEMEMORY => [2612,100], :POISONMEMORY => [2613,100], :PSYCHICMEMORY => [2614,100],"
+map,25,,209,EV209,2,5,655,script_cont,":ROCKMEMORY => [2615,100], :STEELMEMORY => [2616,100], :WATERMEMORY => [2617,100], :ELECTRICSEED => [2618,150],"
+map,25,,209,EV209,2,6,655,script_cont,":MISTYSEED => [2619,150], :GRASSYSEED => [2620,150], :PSYCHICSEED => [2621,150], :VICTREEBELITE => [2622,300],"
+map,25,,209,EV209,2,7,655,script_cont,":HAWLUCHITE => [2626,300], :DRAGONITITE => [2624,400], :WEIRDEGG => [2623,500], :SWIMSUIT_MALE => [2625,1200]})"
+map,25,,209,EV209,2,10,355,script,"pbSummerMart({:BUGMEMORY => [2601,100], :DARKMEMORY => [2602,100], :DRAGONMEMORY => [2603,100],"
+map,25,,209,EV209,2,11,655,script_cont,":ELECTRICMEMORY => [2604,100], :FAIRYMEMORY => [2605,100], :FIGHTINGMEMORY => [2606,100],"
+map,25,,209,EV209,2,12,655,script_cont,":FIREMEMORY => [2607,100], :FLYINGMEMORY => [2608,100], :GHOSTMEMORY => [2609,100], :GRASSMEMORY => [2610,100],"
+map,25,,209,EV209,2,13,655,script_cont,":GROUNDMEMORY => [2611,100], :ICEMEMORY => [2612,100], :POISONMEMORY => [2613,100], :PSYCHICMEMORY => [2614,100],"
+map,25,,209,EV209,2,14,655,script_cont,":ROCKMEMORY => [2615,100], :STEELMEMORY => [2616,100], :WATERMEMORY => [2617,100], :ELECTRICSEED => [2618,150],"
+map,25,,209,EV209,2,15,655,script_cont,":MISTYSEED => [2619,150], :GRASSYSEED => [2620,150], :PSYCHICSEED => [2621,150], :VICTREEBELITE => [2622,300],"
+map,25,,209,EV209,2,16,655,script_cont,":HAWLUCHITE => [2626,300], :DRAGONITITE => [2624,400], :WEIRDEGG => [2623,500], :SWIMSUIT_FEMALE => [2625,1200]})"
+map,25,,75,EV075,1,0,108,comment,noshadow
+map,25,,176,EV176,1,0,101,show_text,"The inside has collapsed, I can't let you through."
+map,25,,42,,1,0,101,show_text,(Se ha quedado dormida al sol...)
+map,25,,143,Update,1,0,101,show_text,(Está jugando con su hermano.)
+map,25,,9,EV009,1,0,108,comment,noshadow
+map,25,,210,EV210,1,1,355,script,"pbPokemonMart([:FRESHWATER,:SODAPOP,:LEMONADE,:ZUMOCORPHISH,:SHELLDERECHO,:COCOJUICE,:HELADOGOD])"
+map,25,,76,EV076,1,0,108,comment,noshadow
+map,25,,177,LIBERTY POINTS,1,0,108,comment,noshadow
+map,25,,43,EV043,1,0,355,script,Pokemon.play_cry(:SANDYGAST)
+map,25,,144,EV144,1,0,101,show_text,Mi AMIGO me ha pagado el viaje en crucero y ha cogido 2 entradas para el evento.
+map,25,,144,EV144,1,2,101,show_text,Es muy amable de su parte.
+map,25,,178,LIBERTY POINTS,1,0,108,comment,noshadow
+map,25,,44,xd,1,0,355,script,Pokemon.play_cry(:KRABBY)
+map,25,,145,EV145,1,0,101,show_text,"Oh vamos, es mi oportunidad de declararme y me estoy cagando encima."
+map,25,,145,EV145,1,2,101,show_text,"¡Si hasta me he teñido el pelo para parecer más molón, ya no sé qué hacer!"
+map,25,,179,LIBERTY POINTS,1,0,108,comment,noshadow
+map,25,,45,EV045,1,0,101,show_text,Demonios... otra vez igual...
+map,25,,45,EV045,1,2,101,show_text,\sh¡Estaba buscando Pueblo Gorrión y he terminado extremadamente lejos!
+map,25,,146,EV146,1,0,101,show_text,"Cuando me enteré de que Celeste organizaba uno de los minijuegos, no dudé ni un segundo en venir a conocerla en persona."
+map,25,,146,EV146,1,2,101,show_text,¡Soy súper fan!
+map,25,,12,EV012,1,0,355,script,pbItemBall(:MAXREVIVE)
+map,25,,79,EV079,1,0,108,comment,noshadow
+map,25,,180,EV180,1,0,355,script,pbSetPokemonCenter
+map,25,,147,EV147,1,0,101,show_text,Yo no me quito la chaqueta ni aunque peguen 50 grados. El outfit siempre va por delante.
+map,25,,80,EV080,1,0,108,comment,noshadow
+map,25,,181,EV181,1,0,101,show_text,\dxn[Olivia]Now this is a party!
+map,25,,181,EV181,1,2,101,show_text,\dxn[Olivia]Liberty knows what he's doing!
+map,25,,47,EV047,1,0,108,comment,noshadow
+map,25,,215,EV215,1,0,101,show_text,¡Qué guapo! ¡Se pueden canjear hasta Megapiedras!
+map,25,,81,EV081,1,0,108,comment,noshadow
+map,25,,148,EV148,1,0,101,show_text,"Dicen que para poder jugar con Sakura, debes haber \c[2]completado todos los niveles anteriores y sacar todas las recompensas\c[0]."
+map,25,,148,EV148,1,2,101,show_text,"Bastante complicado, si me preguntan."
+map,25,,182,EV182,1,0,101,show_text,\dxn[Hapu]Are you also taking part in the \c[2]Battle\c[0] Minigame?
+map,25,,182,EV182,1,2,101,show_text,"\dxn[Hapu]We'll see each other around, if you're strong enough!"
+map,25,,48,Slope,1,0,108,comment,Slope: -2x-1
+map,25,,48,Slope,1,1,108,comment,Width: 1/2
+map,25,,48,Slope,1,2,108,comment,Offset: 16px
+map,25,,216,EV216,1,0,101,show_text,"Estoy por pillarme una de esas semillas, parecen bastante buenas en combate."
+map,25,,82,EV082,1,0,108,comment,noshadow
+map,25,,149,EV149,1,0,101,show_text,Mola poder estar rodeado de gente tan importante en esta isla.
+map,25,,149,EV149,1,2,101,show_text,"La verdad es que la influencia de Liberty ha llegado a todo el mundo, por eso tantos han aceptado."
+map,25,,183,xd,1,0,355,script,Pokemon.play_cry(:LYCANROC)
+map,25,,49,RIVAL MOVE,1,4,108,comment,// Seteamos la cantidad de notas que hace el rival
+map,25,,49,RIVAL MOVE,1,5,355,script,$notes = []
+map,25,,49,RIVAL MOVE,1,7,655,script_cont,for i in (0...pbGet(917))
+map,25,,49,RIVAL MOVE,1,8,655,script_cont,$notes << rand(4)
+map,25,,49,RIVAL MOVE,1,9,655,script_cont,end
+map,25,,49,RIVAL MOVE,1,11,655,script_cont,$game_variables[915] = $notes
+map,25,,49,RIVAL MOVE,1,13,655,script_cont,echoln pbGet(915)
+map,25,,49,RIVAL MOVE,1,14,655,script_cont,echoln pbGet(915).length
+map,25,,49,RIVAL MOVE,1,15,655,script_cont,echoln pbGet(915)[pbGet(916)]
+map,25,,217,EV217,1,0,108,comment,noshadow
+map,25,,83,EV083,1,0,108,comment,noshadow
+map,25,,150,EV150,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,184,xd,1,0,355,script,Pokemon.play_cry(:MUDSDALE)
+map,25,,50,EV050,1,13,355,script,pbGet(915).shift
+map,25,,50,EV050,1,17,355,script,echoln pbGet(915)
+map,25,,50,EV050,1,21,355,script,$points_hud.update if $points_hud
+map,25,,50,EV050,1,35,355,script,$points_hud.update if $points_hud
+map,25,,117,EV117,1,0,101,show_text,He pillado uno de los pases ilimitados para pescar en estas aguas.
+map,25,,117,EV117,1,2,101,show_text,Dicen que salen Pokémon de todo tipo.
+map,25,,218,EV218,1,0,108,comment,noshadow
+map,25,,84,EV084,1,0,108,comment,noshadow
+map,25,,151,EV151,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,51,EV051,1,13,355,script,pbGet(915).shift
+map,25,,51,EV051,1,17,355,script,echoln pbGet(915)
+map,25,,51,EV051,1,21,355,script,$points_hud.update if $points_hud
+map,25,,51,EV051,1,35,355,script,$points_hud.update if $points_hud
+map,25,,118,EV118,1,0,101,show_text,<ac>¡Bienvenido al \c[2]Summer Resort!</ac>
+map,25,,185,CALVO VS LIBERTY,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,185,CALVO VS LIBERTY,3,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,219,EV219,1,0,108,comment,noshadow
+map,25,,85,EV085,1,0,108,comment,noshadow
+map,25,,152,GUARDIA,1,0,101,show_text,(No parece que quiera dejar pasar a nadie...)
+map,25,,52,EV052,1,13,355,script,pbGet(915).shift
+map,25,,52,EV052,1,17,355,script,echoln pbGet(915)
+map,25,,52,EV052,1,21,355,script,$points_hud.update if $points_hud
+map,25,,52,EV052,1,35,355,script,$points_hud.update if $points_hud
+map,25,,119,EV119,1,0,101,show_text,"\sh¡Castillo de arena, castillo de arena!"
+map,25,,119,EV119,2,0,101,show_text,\sh¡MI CASTILLOOOOO!
+map,25,,186,EV186,1,0,108,comment,noshadow
+map,25,,220,EV220,1,0,108,comment,noshadow
+map,25,,86,EV086,1,0,108,comment,noshadow
+map,25,,153,EV153,1,0,101,show_text,(No parece que quiera bajes por aquí...)
+map,25,,53,EV053,1,13,355,script,pbGet(915).shift
+map,25,,53,EV053,1,17,355,script,echoln pbGet(915)
+map,25,,53,EV053,1,21,355,script,$points_hud.update if $points_hud
+map,25,,53,EV053,1,35,355,script,$points_hud.update if $points_hud
+map,25,,120,castilloArena,1,0,108,comment,noshadow
+map,25,,120,castilloArena,2,0,108,comment,noshadow
+map,25,,187,EV187,1,0,108,comment,noshadow
+map,25,,187,EV187,1,1,355,script,pbGoBehindPlayer(@event_id)
+map,25,,221,EV221,1,0,108,comment,noshadow
+map,25,,87,EV087,1,0,108,comment,noshadow
+map,25,,154,EV154,1,0,101,show_text,(No parece que quiera bajes por aquí...)
+map,25,,54,"Fuente, size(9,1)",1,0,108,comment,noshadow
+map,25,,188,EV188,1,0,108,comment,noshadow
+map,25,,88,EV088,1,0,108,comment,noshadow
+map,25,,155,EV155,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,189,EV189,1,0,108,comment,noshadow
+map,25,,189,EV189,1,1,355,script,pbGoBehindPlayer(@event_id)
+map,25,,55,EV055,1,0,108,comment,noshadow
+map,25,,89,EV089,1,0,108,comment,noshadow
+map,25,,156,EV156,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,22,TORCH,1,0,108,comment,noshadow
+map,25,,223,"Fuente, size(1,5)",1,0,108,comment,noshadow
+map,25,,190,CALVO VS LIBERTY 2,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,190,CALVO VS LIBERTY 2,3,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,56,EV056,1,0,108,comment,noshadow
+map,25,,90,EV090,1,0,108,comment,noshadow
+map,25,,157,EV157,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,23,TORCH,1,0,108,comment,noshadow
+map,25,,224,"Fuente, size(1,5)",1,0,108,comment,noshadow
+map,25,,191,EV191,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,57,EV057,1,0,108,comment,noshadow
+map,25,,91,xd,1,0,355,script,Pokemon.play_cry(:KRABBY)
+map,25,,158,EV158,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,24,LIBERTY MINIGAME,1,0,108,comment,// Empezamos un contador para hacer el bucle de combates
+map,25,,24,LIBERTY MINIGAME,1,6,108,comment,// SI ES COMBATE FINAL
+map,25,,24,LIBERTY MINIGAME,1,8,355,script,pbCameraToEvent(96)
+map,25,,24,LIBERTY MINIGAME,1,21,101,show_text,"\sh\dxn[Sakura]¡Vamos, \PN! ¡Vas a ganar!"
+map,25,,24,LIBERTY MINIGAME,1,23,355,script,pbCameraToEvent(25)
+map,25,,24,LIBERTY MINIGAME,1,26,101,show_text,\f[mawile000]¡Wile!
+map,25,,24,LIBERTY MINIGAME,1,27,355,script,pbCameraToEvent(40)
+map,25,,24,LIBERTY MINIGAME,1,30,101,show_text,\sh\dxn[Rodolfo]¡Enséñale quién es el más fuerte! (después de mí)
+map,25,,24,LIBERTY MINIGAME,1,34,101,show_text,\f[ditto000]¡Ditto!
+map,25,,24,LIBERTY MINIGAME,1,35,355,script,pbCameraToEvent(28)
+map,25,,24,LIBERTY MINIGAME,1,39,101,show_text,"\sh\dxn[Lluvia]¡Confío en ti, \PN!"
+map,25,,24,LIBERTY MINIGAME,1,44,101,show_text,"\sh\dxn[Adrián]¡Confío en ti, \PN!"
+map,25,,24,LIBERTY MINIGAME,1,48,355,script,pbCameraReset
+map,25,,24,LIBERTY MINIGAME,1,54,355,script,"pbCameraScrollTo(29,25)"
+map,25,,24,LIBERTY MINIGAME,1,61,108,comment,// Escena xd con Sakura
+map,25,,24,LIBERTY MINIGAME,1,63,355,script,pbCameraToEvent(96)
+map,25,,24,LIBERTY MINIGAME,1,76,101,show_text,"\sh\dxn[Sakura]¡Vamos, \PN! ¡Tú puedes!"
+map,25,,24,LIBERTY MINIGAME,1,78,355,script,pbCameraToEvent(25)
+map,25,,24,LIBERTY MINIGAME,1,81,101,show_text,\f[mawile000]¡Wile!
+map,25,,24,LIBERTY MINIGAME,1,82,355,script,pbCameraReset
+map,25,,24,LIBERTY MINIGAME,1,86,355,script,pbCameraToEvent(102)
+map,25,,24,LIBERTY MINIGAME,1,93,101,show_text,"\dxn[Liberty]¡¿Has venido a ver cómo trabajo, Sakura-chan?!"
+map,25,,24,LIBERTY MINIGAME,1,98,101,show_text,\sh\dxn[Liberty]¡Qué amable de tu parte!
+map,25,,24,LIBERTY MINIGAME,1,100,355,script,pbCameraToEvent(96)
+map,25,,24,LIBERTY MINIGAME,1,107,101,show_text,\sh\dxn[Sakura]¡Que no me dirijas la palabra con eso colgando! ¡Gírate de una vez!
+map,25,,24,LIBERTY MINIGAME,1,111,355,script,"pbCameraScrollTo(29,25)"
+map,25,,24,LIBERTY MINIGAME,1,119,101,show_text,"\sh\dxn[Liberty]¡Bien, empecemos!"
+map,25,,24,LIBERTY MINIGAME,1,125,108,comment,// Background before fight
+map,25,,24,LIBERTY MINIGAME,1,126,355,script,"setBattleRule(""backdrop"",""summer"")"
+map,25,,24,LIBERTY MINIGAME,1,127,355,script,"setBattleRule(""canLose"")"
+map,25,,24,LIBERTY MINIGAME,1,128,355,script,"setBattleRule(""noexp"")"
+map,25,,24,LIBERTY MINIGAME,1,129,355,script,"setBattleRule(""double"")"
+map,25,,24,LIBERTY MINIGAME,1,130,355,script,pbCameraToEvent(105)
+map,25,,24,LIBERTY MINIGAME,1,138,355,script,"pbCameraScrollTo(29,25)"
+map,25,,24,LIBERTY MINIGAME,1,141,101,show_text,\dxn[Liberty]¡Combate doble de 6 Pokémon por banda!
+map,25,,24,LIBERTY MINIGAME,1,145,101,show_text,\sh\dxn[Liberty]¡Podéis empezar!
+map,25,,24,LIBERTY MINIGAME,1,148,101,show_text,"\dxn[Kukui]¡Alola, compañero!"
+map,25,,24,LIBERTY MINIGAME,1,150,101,show_text,"\dxn[Kukui]Qué emoción me da poder estar en la región de Akebia. Me han dicho que los pocos entrenadores que quedan, son realmente poderosos."
+map,25,,24,LIBERTY MINIGAME,1,152,101,show_text,"\dxn[Kukui]Soy el Profesor Kukui, conocido en Alola por darlo todo en la batalla. No por nada fui Campeón..."
+map,25,,24,LIBERTY MINIGAME,1,154,101,show_text,"\sh\dxn[Kukui]¡Prepárate, porque en nuestra sangre también radia la misma energía tropical!"
+map,25,,24,LIBERTY MINIGAME,1,159,101,show_text,\sh\dxn[Liberty]¡Se acabó el combate!
+map,25,,24,LIBERTY MINIGAME,1,163,101,show_text,\sh\dxn[Liberty]¡La victoria es para \PN!
+map,25,,24,LIBERTY MINIGAME,1,172,101,show_text,\sh\dxn[Liberty]¡Se acabó el combate!
+map,25,,24,LIBERTY MINIGAME,1,176,101,show_text,\sh\dxn[Liberty]¡La victoria es para Kukui!
+map,25,,24,LIBERTY MINIGAME,1,211,355,script,$points_hud.update if $points_hud
+map,25,,24,LIBERTY MINIGAME,1,215,108,comment,// Background before fight
+map,25,,24,LIBERTY MINIGAME,1,217,355,script,"setBattleRule(""backdrop"",""summer"")"
+map,25,,24,LIBERTY MINIGAME,1,218,355,script,"setBattleRule(""canLose"")"
+map,25,,24,LIBERTY MINIGAME,1,219,355,script,"setBattleRule(""noexp"")"
+map,25,,24,LIBERTY MINIGAME,1,220,355,script,"setBattleRule(""double"")"
+map,25,,24,LIBERTY MINIGAME,1,221,108,comment,############ 1ST FIGHT ############
+map,25,,24,LIBERTY MINIGAME,1,223,355,script,pbCameraToEvent(103)
+map,25,,24,LIBERTY MINIGAME,1,231,355,script,"pbCameraScrollTo(29,25)"
+map,25,,24,LIBERTY MINIGAME,1,234,101,show_text,\sh\dxn[Liberty]¡Que dé comienzo el primer combate!
+map,25,,24,LIBERTY MINIGAME,1,237,108,comment,// Dependiendo del nivel selected
+map,25,,24,LIBERTY MINIGAME,1,238,108,comment,############### LEVEL 1 ################
+map,25,,24,LIBERTY MINIGAME,1,240,101,show_text,\sh\dxn[Chris]¡He adaptado mis estrategias para el calor playero! ¡Vamos a demostrar lo que vale la ciencia!
+map,25,,24,LIBERTY MINIGAME,1,243,355,script,"pbSet(918, (pbGet(918) + 100 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,255,108,comment,############### LEVEL 2 ################
+map,25,,24,LIBERTY MINIGAME,1,257,101,show_text,\sh\dxn[Denio]Qué fastidio... ¿terminamos rápido?
+map,25,,24,LIBERTY MINIGAME,1,260,355,script,"pbSet(918, (pbGet(918) + 150 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,272,108,comment,############### LEVEL 3 ################
+map,25,,24,LIBERTY MINIGAME,1,273,355,script,"echo ""AAAAAAAAAAAAAAAAAAAA"""
+map,25,,24,LIBERTY MINIGAME,1,275,101,show_text,\sh\dxn[Kaudan]¡El calor del sol no detiene la fuerza de un Kahuna!
+map,25,,24,LIBERTY MINIGAME,1,276,355,script,"setBattleRule(""double"")"
+map,25,,24,LIBERTY MINIGAME,1,279,355,script,"pbSet(918, (pbGet(918) + 200 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,291,108,comment,############### LEVEL 4 ################
+map,25,,24,LIBERTY MINIGAME,1,293,101,show_text,\sh\dxn[Tilo]¡A ver si aguantas mi equipo y después nos comemos unas Malasadas juntos!
+map,25,,24,LIBERTY MINIGAME,1,296,355,script,"pbSet(918, (pbGet(918) + 250 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,312,108,comment,############ 2ND FIGHT ############
+map,25,,24,LIBERTY MINIGAME,1,314,355,script,pbCameraToEvent(104)
+map,25,,24,LIBERTY MINIGAME,1,322,355,script,"pbCameraScrollTo(29,25)"
+map,25,,24,LIBERTY MINIGAME,1,326,101,show_text,\sh\dxn[Liberty]¡Que dé comienzo el segundo combate!
+map,25,,24,LIBERTY MINIGAME,1,328,108,comment,// Dependiendo del nivel selected
+map,25,,24,LIBERTY MINIGAME,1,329,355,script,"setBattleRule(""backdrop"",""summer"")"
+map,25,,24,LIBERTY MINIGAME,1,330,355,script,"setBattleRule(""canLose"")"
+map,25,,24,LIBERTY MINIGAME,1,331,355,script,"setBattleRule(""noexp"")"
+map,25,,24,LIBERTY MINIGAME,1,333,108,comment,############### LEVEL 1 ################
+map,25,,24,LIBERTY MINIGAME,1,335,101,show_text,\sh\dxn[Rika]La brisa me inspira... ¡Que mis Pokémon pinten la batalla!
+map,25,,24,LIBERTY MINIGAME,1,338,355,script,"pbSet(918, (pbGet(918) + 150 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,350,108,comment,############### LEVEL 2 ################
+map,25,,24,LIBERTY MINIGAME,1,352,101,show_text,\sh\dxn[Kiawe]¡El fuego arde incluso sobre la arena!
+map,25,,24,LIBERTY MINIGAME,1,355,355,script,"pbSet(918, (pbGet(918) + 200 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,367,108,comment,############### LEVEL 3 ################
+map,25,,24,LIBERTY MINIGAME,1,369,101,show_text,\sh\dxn[Lario]¡Mis estrategias giran como engranajes! ¡Vamos allá!
+map,25,,24,LIBERTY MINIGAME,1,370,355,script,"setBattleRule(""double"")"
+map,25,,24,LIBERTY MINIGAME,1,373,355,script,"pbSet(918, (pbGet(918) + 250 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,385,108,comment,############### LEVEL 4 ################
+map,25,,24,LIBERTY MINIGAME,1,387,101,show_text,"\sh\dxn[Guzmán]¡Prepárate, porque aquí manda el jefe de la peor banda de Alola!"
+map,25,,24,LIBERTY MINIGAME,1,390,355,script,"pbSet(918, (pbGet(918) + 300 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,406,108,comment,############ 3RD FIGHT ############
+map,25,,24,LIBERTY MINIGAME,1,408,355,script,pbCameraToEvent(105)
+map,25,,24,LIBERTY MINIGAME,1,416,355,script,"pbCameraScrollTo(29,25)"
+map,25,,24,LIBERTY MINIGAME,1,420,101,show_text,\sh\dxn[Liberty]¡Que dé comienzo el tercer combate!
+map,25,,24,LIBERTY MINIGAME,1,422,108,comment,// Dependiendo del nivel selected
+map,25,,24,LIBERTY MINIGAME,1,423,355,script,"setBattleRule(""backdrop"",""summer"")"
+map,25,,24,LIBERTY MINIGAME,1,424,355,script,"setBattleRule(""canLose"")"
+map,25,,24,LIBERTY MINIGAME,1,425,355,script,"setBattleRule(""noexp"")"
+map,25,,24,LIBERTY MINIGAME,1,427,108,comment,############### LEVEL 1 ################
+map,25,,24,LIBERTY MINIGAME,1,429,101,show_text,\sh\dxn[Lulú]¡Tengo la receta perfecta para ganar en la playa!
+map,25,,24,LIBERTY MINIGAME,1,432,355,script,"pbSet(918, (pbGet(918) + 200 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,444,108,comment,############### LEVEL 2 ################
+map,25,,24,LIBERTY MINIGAME,1,446,101,show_text,\sh\dxn[Hela]La tierra firme sostiene hasta esta playa. ¡Lucharé con ella!
+map,25,,24,LIBERTY MINIGAME,1,449,355,script,"pbSet(918, (pbGet(918) + 250 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,461,108,comment,############### LEVEL 3 ################
+map,25,,24,LIBERTY MINIGAME,1,463,101,show_text,"\sh\dxn[Zarala]Je, je... ¡Aunque brille el sol, mis fantasmas juegarán contigo!"
+map,25,,24,LIBERTY MINIGAME,1,464,355,script,"setBattleRule(""double"")"
+map,25,,24,LIBERTY MINIGAME,1,467,355,script,"pbSet(918, (pbGet(918) + 300 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,479,108,comment,############### LEVEL 4 ################
+map,25,,24,LIBERTY MINIGAME,1,481,101,show_text,\dxn[Gladio]No estoy aquí para jugar ni para pasar el rato. Demuestra tu fuerza... o serás arrollado por la mía.
+map,25,,24,LIBERTY MINIGAME,1,484,355,script,"pbSet(918, (pbGet(918) + 350 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,500,108,comment,############ 4TH FIGHT ############
+map,25,,24,LIBERTY MINIGAME,1,502,355,script,pbCameraToEvent(106)
+map,25,,24,LIBERTY MINIGAME,1,510,355,script,"pbCameraScrollTo(29,25)"
+map,25,,24,LIBERTY MINIGAME,1,515,101,show_text,\dxn[Liberty]¿Ya estamos en el último combate?
+map,25,,24,LIBERTY MINIGAME,1,519,101,show_text,\sh\dxn[Liberty]¡Adelante!
+map,25,,24,LIBERTY MINIGAME,1,521,108,comment,// Dependiendo del nivel selected
+map,25,,24,LIBERTY MINIGAME,1,522,355,script,"setBattleRule(""backdrop"",""summer"")"
+map,25,,24,LIBERTY MINIGAME,1,523,355,script,"setBattleRule(""canLose"")"
+map,25,,24,LIBERTY MINIGAME,1,524,355,script,"setBattleRule(""noexp"")"
+map,25,,24,LIBERTY MINIGAME,1,526,108,comment,############### LEVEL 1 ################
+map,25,,24,LIBERTY MINIGAME,1,528,101,show_text,\dxn[Liam]¿Un caluroso combate? ¡Te mostraré mi estilo!
+map,25,,24,LIBERTY MINIGAME,1,531,355,script,"pbSet(918, (pbGet(918) + 250 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,543,108,comment,############### LEVEL 2 ################
+map,25,,24,LIBERTY MINIGAME,1,545,101,show_text,"\sh\dxn[Nereida]¡Soy como el mar! ¡Tranquila al inicio, implacable en combate!"
+map,25,,24,LIBERTY MINIGAME,1,548,355,script,"pbSet(918, (pbGet(918) + 300 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,560,108,comment,############### LEVEL 3 ################
+map,25,,24,LIBERTY MINIGAME,1,562,355,script,"setBattleRule(""double"")"
+map,25,,24,LIBERTY MINIGAME,1,563,101,show_text,\sh\dxn[Mayla]¡Mis Pokémon brillarán como joyas bajo este sol!
+map,25,,24,LIBERTY MINIGAME,1,566,355,script,"pbSet(918, (pbGet(918) + 350 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,578,108,comment,############### LEVEL 4 ################
+map,25,,24,LIBERTY MINIGAME,1,580,101,show_text,\dxn[Lillie]Sigo poniéndome algo nerviosa cuando lucho...
+map,25,,24,LIBERTY MINIGAME,1,582,101,show_text,"\sh\dxn[Lillie]Pero he aprendido mucho, ¡y quiero demostrarlo en este combate!"
+map,25,,24,LIBERTY MINIGAME,1,585,355,script,"pbSet(918, (pbGet(918) + 400 * (1 + (pbGet(919).to_f / 5.0))))"
+map,25,,24,LIBERTY MINIGAME,1,601,108,comment,Aplausos y se retiran
+map,25,,24,LIBERTY MINIGAME,1,602,355,script,$points_hud.update if $points_hud
+map,25,,24,LIBERTY MINIGAME,1,640,101,show_text,Se acabó
+map,25,,24,LIBERTY MINIGAME,1,648,108,comment,// Healing
+map,25,,24,LIBERTY MINIGAME,1,649,355,script,pbCameraReset
+map,25,,24,LIBERTY MINIGAME,1,655,101,show_text,Te curo bb
+map,25,,24,LIBERTY MINIGAME,1,675,355,script,$points_hud.dispose
+map,25,,24,LIBERTY MINIGAME,2,2,108,comment,// CASO DE COMBATE FINAL
+map,25,,24,LIBERTY MINIGAME,2,13,101,show_text,"\dxn[Liberty]¡No esperaba que derrotaras a Kukui, la verdad!"
+map,25,,24,LIBERTY MINIGAME,2,18,101,show_text,"\dxn[Liberty]¡Toma, esto es para ti como regalo por ganarlo otra vez!"
+map,25,,24,LIBERTY MINIGAME,2,21,355,script,$PokemonGlobal.gachaCoins += 3
+map,25,,24,LIBERTY MINIGAME,2,22,101,show_text,<ac>¡Has recibido 3 Gacha Tickets!</ac>
+map,25,,24,LIBERTY MINIGAME,2,26,101,show_text,\dxn[Liberty]¡Vuelve cuando quieras!
+map,25,,24,LIBERTY MINIGAME,2,28,355,script,FollowingPkmn.toggle_on
+map,25,,24,LIBERTY MINIGAME,2,29,355,script,$Trainer.has_running_shoes = true
+map,25,,24,LIBERTY MINIGAME,2,40,101,show_text,"\dxn[Liberty]¡Toma, esto es para ti como regalo por ganarle por primera vez!"
+map,25,,24,LIBERTY MINIGAME,2,43,355,script,$PokemonGlobal.gachaCoins += 15
+map,25,,24,LIBERTY MINIGAME,2,44,101,show_text,<ac>¡Has recibido 15 Gacha Tickets!</ac>
+map,25,,24,LIBERTY MINIGAME,2,49,101,show_text,\dxn[Liberty]¡Vuelve cuando quieras!
+map,25,,24,LIBERTY MINIGAME,2,51,355,script,FollowingPkmn.toggle_on
+map,25,,24,LIBERTY MINIGAME,2,52,355,script,$Trainer.has_running_shoes = true
+map,25,,24,LIBERTY MINIGAME,2,68,101,show_text,"\ts[1]\dxn[Liberty]Esperaba algo más de ti, la verdad..."
+map,25,,24,LIBERTY MINIGAME,2,73,101,show_text,"\sh\dxn[Liberty]¡Bueno, en verdad no tanto!"
+map,25,,24,LIBERTY MINIGAME,2,78,101,show_text,"\dxn[Liberty]¡Bueno, prueba de nuevo si te atreves!"
+map,25,,24,LIBERTY MINIGAME,2,80,355,script,FollowingPkmn.toggle_on
+map,25,,24,LIBERTY MINIGAME,2,81,355,script,$Trainer.has_running_shoes = true
+map,25,,24,LIBERTY MINIGAME,2,100,101,show_text,"\dxn[Liberty]¡Bueno, bueno! ¡Hora de ver qué tal te ha ido!"
+map,25,,24,LIBERTY MINIGAME,2,103,108,comment,// Si el rendimiento es horrible KEKW
+map,25,,24,LIBERTY MINIGAME,2,109,101,show_text,"\dxn[Liberty]¡Já, penoso! ¿Cómo has podido siquiera vencerme a mí?"
+map,25,,24,LIBERTY MINIGAME,2,114,101,show_text,\dxn[Liberty]¡Te quedas sin recompensas!
+map,25,,24,LIBERTY MINIGAME,2,119,101,show_text,"\dxn[Liberty]Pero bueno, estaré aquí por si quieres volver a intentarlo."
+map,25,,24,LIBERTY MINIGAME,2,125,108,comment,################# EASY MODE #################
+map,25,,24,LIBERTY MINIGAME,2,132,101,show_text,"\dxn[Liberty]Nada mal, aunque podrías haberlo hecho mejor."
+map,25,,24,LIBERTY MINIGAME,2,137,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,142,101,show_text,"\dxn[Liberty]Pero bueno, espero que al menos lo hayas pasado bien."
+map,25,,24,LIBERTY MINIGAME,2,147,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,150,101,show_text,<ac>¡Has recibido 200 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,169,101,show_text,"\dxn[Liberty]¡Bastante bien, debo decir!"
+map,25,,24,LIBERTY MINIGAME,2,174,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,179,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,183,101,show_text,"<ac>¡Has recibido 10,000 Pokedólares!</ac>"
+map,25,,24,LIBERTY MINIGAME,2,190,101,show_text,<ac>¡Has recibido 200 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,211,101,show_text,\sh\dxn[Liberty]¡Sí hombre! ¿Qué demonios?
+map,25,,24,LIBERTY MINIGAME,2,217,101,show_text,\dxn[\PN]¿Ni siquiera estabas mirando o qué pasa?
+map,25,,24,LIBERTY MINIGAME,2,222,101,show_text,\dxn[\PN]¿Ni siquiera estabas mirando o qué pasa?
+map,25,,24,LIBERTY MINIGAME,2,229,101,show_text,"\dxn[Liberty]<i>(Tenía los ojos en otra parte, pero mejor no digo nada...)</i>"
+map,25,,24,LIBERTY MINIGAME,2,234,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,239,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,242,355,script,$PokemonGlobal.gachaCoins += 3
+map,25,,24,LIBERTY MINIGAME,2,243,101,show_text,<ac>¡Has recibido 3 Gacha Tickets!</ac>
+map,25,,24,LIBERTY MINIGAME,2,246,101,show_text,<ac>¡Ahora puedes acceder al \c[2]Nivel 2\c[0]!</ac>
+map,25,,24,LIBERTY MINIGAME,2,254,101,show_text,"<ac>¡Has recibido 10,000 Pokedólares!</ac>"
+map,25,,24,LIBERTY MINIGAME,2,263,101,show_text,<ac>¡Has recibido 200 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,280,108,comment,################# NORMAL MODE #################
+map,25,,24,LIBERTY MINIGAME,2,287,101,show_text,"\dxn[Liberty]Nada mal, aunque podrías haberlo hecho mejor."
+map,25,,24,LIBERTY MINIGAME,2,292,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,297,101,show_text,"\dxn[Liberty]Pero bueno, espero que al menos lo hayas pasado bien."
+map,25,,24,LIBERTY MINIGAME,2,302,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,305,101,show_text,<ac>¡Has recibido 300 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,324,101,show_text,"\dxn[Liberty]¡Bastante bien, debo decir!"
+map,25,,24,LIBERTY MINIGAME,2,329,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,334,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,338,101,show_text,"<ac>¡Has recibido 20,000 Pokedólares!</ac>"
+map,25,,24,LIBERTY MINIGAME,2,345,101,show_text,<ac>¡Has recibido 300 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,366,101,show_text,\sh\dxn[Liberty]¡Sí hombre! ¿Qué demonios?
+map,25,,24,LIBERTY MINIGAME,2,372,101,show_text,\dxn[\PN]¿Ni siquiera estabas mirando o qué pasa?
+map,25,,24,LIBERTY MINIGAME,2,377,101,show_text,\dxn[\PN]¿Ni siquiera estabas mirando o qué pasa?
+map,25,,24,LIBERTY MINIGAME,2,384,101,show_text,"\dxn[Liberty]<i>(Tenía los ojos en otra parte, pero mejor no digo nada...)</i>"
+map,25,,24,LIBERTY MINIGAME,2,389,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,394,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,397,355,script,$PokemonGlobal.gachaCoins += 5
+map,25,,24,LIBERTY MINIGAME,2,398,101,show_text,<ac>¡Has recibido 5 Gacha Tickets!</ac>
+map,25,,24,LIBERTY MINIGAME,2,401,101,show_text,<ac>¡Ahora puedes acceder al \c[2]Nivel 3\c[0]!</ac>
+map,25,,24,LIBERTY MINIGAME,2,409,101,show_text,"<ac>¡Has recibido 20,000 Pokedólares!</ac>"
+map,25,,24,LIBERTY MINIGAME,2,418,101,show_text,<ac>¡Has recibido 300 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,435,108,comment,################# HARD MODE #################
+map,25,,24,LIBERTY MINIGAME,2,442,101,show_text,"\dxn[Liberty]Nada mal, aunque podrías haberlo hecho mejor."
+map,25,,24,LIBERTY MINIGAME,2,447,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,452,101,show_text,"\dxn[Liberty]Pero bueno, espero que al menos lo hayas pasado bien."
+map,25,,24,LIBERTY MINIGAME,2,457,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,460,101,show_text,<ac>¡Has recibido 600 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,479,101,show_text,"\dxn[Liberty]¡Bastante bien, debo decir!"
+map,25,,24,LIBERTY MINIGAME,2,484,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,489,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,493,101,show_text,"<ac>¡Has recibido 50,000 Pokedólares!</ac>"
+map,25,,24,LIBERTY MINIGAME,2,500,101,show_text,<ac>¡Has recibido 600 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,521,101,show_text,\sh\dxn[Liberty]¡Sí hombre! ¿Qué demonios?
+map,25,,24,LIBERTY MINIGAME,2,527,101,show_text,\dxn[\PN]¿Ni siquiera estabas mirando o qué pasa?
+map,25,,24,LIBERTY MINIGAME,2,532,101,show_text,\dxn[\PN]¿Ni siquiera estabas mirando o qué pasa?
+map,25,,24,LIBERTY MINIGAME,2,539,101,show_text,"\dxn[Liberty]<i>(Tenía los ojos en otra parte, pero mejor no digo nada...)</i>"
+map,25,,24,LIBERTY MINIGAME,2,544,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,549,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,552,355,script,$PokemonGlobal.gachaCoins += 7
+map,25,,24,LIBERTY MINIGAME,2,553,101,show_text,<ac>¡Has recibido 7 Gacha Tickets!</ac>
+map,25,,24,LIBERTY MINIGAME,2,556,101,show_text,<ac>¡Ahora puedes acceder al \c[2]Nivel 4\c[0]!</ac>
+map,25,,24,LIBERTY MINIGAME,2,564,101,show_text,"<ac>¡Has recibido 50,000 Pokedólares!</ac>"
+map,25,,24,LIBERTY MINIGAME,2,573,101,show_text,<ac>¡Has recibido 600 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,590,108,comment,################# VERYHARD MODE #################
+map,25,,24,LIBERTY MINIGAME,2,597,101,show_text,"\dxn[Liberty]Nada mal, aunque podrías haberlo hecho mejor."
+map,25,,24,LIBERTY MINIGAME,2,602,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,607,101,show_text,"\dxn[Liberty]Pero bueno, espero que al menos lo hayas pasado bien."
+map,25,,24,LIBERTY MINIGAME,2,612,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,615,101,show_text,<ac>¡Has recibido 900 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,634,101,show_text,"\dxn[Liberty]¡Bastante bien, debo decir!"
+map,25,,24,LIBERTY MINIGAME,2,639,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,644,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,648,101,show_text,"<ac>¡Has recibido 100,000 Pokedólares!</ac>"
+map,25,,24,LIBERTY MINIGAME,2,655,101,show_text,<ac>¡Has recibido 900 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,676,101,show_text,\sh\dxn[Liberty]¡Sí hombre! ¿Qué demonios?
+map,25,,24,LIBERTY MINIGAME,2,682,101,show_text,\dxn[\PN]¿Ni siquiera estabas mirando o qué pasa?
+map,25,,24,LIBERTY MINIGAME,2,687,101,show_text,\dxn[\PN]¿Ni siquiera estabas mirando o qué pasa?
+map,25,,24,LIBERTY MINIGAME,2,694,101,show_text,"\dxn[Liberty]<i>(Tenía los ojos en otra parte, pero mejor no digo nada...)</i>"
+map,25,,24,LIBERTY MINIGAME,2,699,101,show_text,\dxn[Liberty]Hmm... ya reclamaste esta recompensa.
+map,25,,24,LIBERTY MINIGAME,2,704,101,show_text,"\dxn[Liberty]Toma, tu recompensa."
+map,25,,24,LIBERTY MINIGAME,2,707,355,script,$PokemonGlobal.gachaCoins += 10
+map,25,,24,LIBERTY MINIGAME,2,708,101,show_text,<ac>¡Has recibido 10 Gacha Tickets!</ac>
+map,25,,24,LIBERTY MINIGAME,2,711,101,show_text,<ac>¡Ahora puedes acceder al combate final!</ac>
+map,25,,24,LIBERTY MINIGAME,2,719,101,show_text,"<ac>¡Has recibido 100,000 Pokedólares!</ac>"
+map,25,,24,LIBERTY MINIGAME,2,728,101,show_text,<ac>¡Has recibido 900 <i>Summer Points</i>!</ac>
+map,25,,24,LIBERTY MINIGAME,2,748,101,show_text,\sh\dxn[Liberty]¡Vuelve cuando quieras!
+map,25,,24,LIBERTY MINIGAME,2,750,355,script,FollowingPkmn.toggle_on
+map,25,,125,EV125,1,0,101,show_text,Esta es nuestra primera escapada en familia. Mi hija está súper contenta.
+map,25,,192,EV192,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,58,EV058,1,0,108,comment,noshadow
+map,25,,159,EV159,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,25,Mawile,1,1,101,show_text,\f[mawile000]¡Wile!
+map,25,,92,xd,1,0,355,script,Pokemon.play_cry(:KRABBY)
+map,25,,126,EV126,1,0,101,show_text,"En realidad iba a quedar con mis amigos, pero mi mujer me ha obligado a venir con ellos."
+map,25,,193,EV193,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,59,EV059,1,0,108,comment,noshadow
+map,25,,160,EV160,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,26,STARTING THE EVENT,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,25,,26,STARTING THE EVENT,1,4,108,comment,// Los pibes
+map,25,,26,STARTING THE EVENT,1,16,355,script,pbCameraToEvent(27)
+map,25,,26,STARTING THE EVENT,1,34,355,script,pbCameraToEvent(29)
+map,25,,26,STARTING THE EVENT,1,44,101,show_text,"\dxn[Álama]¡Bienvenido al \c[2]Summer Resort\c[0], \PN!"
+map,25,,26,STARTING THE EVENT,1,47,101,show_text,"\dxn[Álama]¡Bienvenida al \c[2]Summer Resort\c[0], \PN!"
+map,25,,26,STARTING THE EVENT,1,51,355,script,pbCameraToEvent(28)
+map,25,,26,STARTING THE EVENT,1,55,101,show_text,"\dxn[Lluvia]¡Te echábamos de menos, \PN!"
+map,25,,26,STARTING THE EVENT,1,60,101,show_text,"\dxn[Adrián]¡Te echábamos de menos, \PN!"
+map,25,,26,STARTING THE EVENT,1,64,355,script,pbCameraToEvent(40)
+map,25,,26,STARTING THE EVENT,1,74,101,show_text,"\sh\dxn[Rodolfo]¡Te estábamos esperando, entrenador de pacotilla!"
+map,25,,26,STARTING THE EVENT,1,77,101,show_text,"\sh\dxn[Rodolfo]¡Te estábamos esperando, entrenadora de pacotilla!"
+map,25,,26,STARTING THE EVENT,1,83,101,show_text,\f[ditto000]¡Ditto!
+map,25,,26,STARTING THE EVENT,1,84,355,script,pbCameraToEvent(31)
+map,25,,26,STARTING THE EVENT,1,87,101,show_text,\f[psyduck000]¡Psy!
+map,25,,26,STARTING THE EVENT,1,88,355,script,pbCameraToEvent(34)
+map,25,,26,STARTING THE EVENT,1,92,101,show_text,"\dxn[Angie Stones]¡Has tardado en llegar! ¿Eh, crack?"
+map,25,,26,STARTING THE EVENT,1,97,101,show_text,"\dxn[Angie Stones]¿Os habéis distraido por el camino, pillines?"
+map,25,,26,STARTING THE EVENT,1,99,355,script,pbCameraToEvent(96)
+map,25,,26,STARTING THE EVENT,1,104,101,show_text,\sh\dxn[Sakura]¡Oye! ¡¿Q-Qué... qué insinúas?!
+map,25,,26,STARTING THE EVENT,1,106,355,script,pbCameraToEvent(38)
+map,25,,26,STARTING THE EVENT,1,110,101,show_text,"\dxn[Celeste]¡Espero que hayáis tenido un bonito viaje, parejita!"
+map,25,,26,STARTING THE EVENT,1,112,355,script,pbCameraToEvent(30)
+map,25,,26,STARTING THE EVENT,1,117,101,show_text,"\dxn[Silvano]¡Pero bueno, \PN! ¿Te has olvidado el bañador?"
+map,25,,26,STARTING THE EVENT,1,120,101,show_text,"\dxn[Silvano]¡Pero bueno, \PN! ¿Te has olvidado el bikini?"
+map,25,,26,STARTING THE EVENT,1,124,355,script,pbCameraToEvent(102)
+map,25,,26,STARTING THE EVENT,1,132,101,show_text,\dxn[Liberty]¡Pero mira quién aparece por aquí!
+map,25,,26,STARTING THE EVENT,1,139,101,show_text,"\sh\dxn[Liberty]¡Te estábamos esperando, Sakura!"
+map,25,,26,STARTING THE EVENT,1,141,355,script,pbCameraToEvent(27)
+map,25,,26,STARTING THE EVENT,1,146,101,show_text,\dxn[\PN]¡Chicos...!
+map,25,,26,STARTING THE EVENT,1,151,101,show_text,\dxn[\PN]¡Chicos...!
+map,25,,26,STARTING THE EVENT,1,155,355,script,pbCameraToEvent(96)
+map,25,,26,STARTING THE EVENT,1,160,101,show_text,"\sh\dxn[Sakura]¡Liberty! ¡Te dije que si participabas en el evento, te pusieras algo encima!"
+map,25,,26,STARTING THE EVENT,1,162,355,script,pbCameraToEvent(102)
+map,25,,26,STARTING THE EVENT,1,176,101,show_text,\sh\dxn[Liberty]¡Nadie dijo que la playa no fuera nudista!
+map,25,,26,STARTING THE EVENT,1,178,355,script,pbCameraToEvent(29)
+map,25,,26,STARTING THE EVENT,1,195,101,show_text,"\dxn[Álama]En fin, supongo que Sakura ya te habrá puesto más o menos al día."
+map,25,,26,STARTING THE EVENT,1,199,101,show_text,\dxn[Álama]Pensamos que todos necesitábamos un descanso después de todo lo que ha pasado últimamente.
+map,25,,26,STARTING THE EVENT,1,204,101,show_text,"\dxn[Álama]Así que entre Angie, Sakura, Celeste y yo, hemos organizado un Summer Resort con diferentes minijuegos."
+map,25,,26,STARTING THE EVENT,1,209,101,show_text,"\sh\dxn[Álama]¡Puedes venir a jugar cuando quieras, te estaremos esperando!"
+map,25,,26,STARTING THE EVENT,1,211,355,script,pbCameraToEvent(27)
+map,25,,26,STARTING THE EVENT,1,221,101,show_text,"\dxn[Sakura]¡Por cierto, \PN!"
+map,25,,26,STARTING THE EVENT,1,226,101,show_text,"\dxn[Sakura]¡Para poder jugar dichos minijuegos, te hará falta un \c[2]Summer Pass\c[0]!"
+map,25,,26,STARTING THE EVENT,1,230,101,show_text,\dxn[Sakura]Puedes reclamarlo en la casita que hay justo delante.\nEs un \c[2]Punto de Información\c[0].
+map,25,,26,STARTING THE EVENT,1,234,101,show_text,\dxn[Sakura]¡Así podrás acumular tus \c[2]Summer Points\c[0] y comprarte algo chulo en la tienda!
+map,25,,26,STARTING THE EVENT,1,239,101,show_text,\dxn[Sakura]¡Te puedes comprar hasta un \c[2]Traje de Verano\c[0]! ¡Irás mucho más cómodo por la playa!
+map,25,,26,STARTING THE EVENT,1,245,101,show_text,\dxn[Sakura]¡\c[2]Avísame\c[0] cuando lo consigas!
+map,25,,26,STARTING THE EVENT,1,253,355,script,pbCameraToEvent(29)
+map,25,,26,STARTING THE EVENT,1,257,101,show_text,"\dxn[Álama]Pues ale. Si tienes cualquier duda, ya sabes."
+map,25,,26,STARTING THE EVENT,1,262,101,show_text,\sh\dxn[Álama]¡Nosotros volveremos a lo nuestro! ¡A disfrutar de la playa y de las actividades!
+map,25,,26,STARTING THE EVENT,1,282,355,script,FollowingPkmn.toggle_on
+map,25,,26,STARTING THE EVENT,3,0,355,script,pbGoBehindPlayer(33)
+map,25,,26,STARTING THE EVENT,3,1,355,script,pbGoBehindPlayer(57)
+map,25,,26,STARTING THE EVENT,3,6,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,25,,26,STARTING THE EVENT,3,34,355,script,"pbCameraScrollTo(29,25)"
+map,25,,26,STARTING THE EVENT,3,45,101,show_text,\sh\dxn[Liberty]¡Nadie puede tumbarnos con el alcohol!
+map,25,,26,STARTING THE EVENT,3,50,101,show_text,\sh\dxn[Silvano]¡No nos ganará nadie en toda la noche!
+map,25,,26,STARTING THE EVENT,3,55,101,show_text,"\sh\dxn[Liberty]¡A seguir bebiendo, compatriota!"
+map,25,,26,STARTING THE EVENT,3,57,108,comment,// Le meten trago a muerte
+map,25,,26,STARTING THE EVENT,3,58,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,25,,26,STARTING THE EVENT,3,70,101,show_text,<ac>\sh¡¿Quién se atreve a desafiarnos?!</ac>
+map,25,,26,STARTING THE EVENT,3,71,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,25,,26,STARTING THE EVENT,3,72,355,script,pbCameraToEvent(185)
+map,25,,26,STARTING THE EVENT,3,74,101,show_text,\ts[2]\dxn[Calvo alcoholizado]¡Q-Qué es esa resistencia con el alcohol que tienen esos dos...!
+map,25,,26,STARTING THE EVENT,3,75,355,script,pbCameraToEvent(190)
+map,25,,26,STARTING THE EVENT,3,77,101,show_text,\ts[2]\dxn[Calvo alcoholizado 2]¡N-No puedo creerlo...! ¿De qué están hechos sus cuerpos?
+map,25,,26,STARTING THE EVENT,3,79,355,script,pbCameraToEvent(29)
+map,25,,26,STARTING THE EVENT,3,85,101,show_text,"\ts[1]\dxn[Álama]Pero vamos a ver, si el concierto todavía ni ha empezado... ¿Qué hacéis bebiendo tan pronto?"
+map,25,,26,STARTING THE EVENT,3,87,355,script,pbCameraToEvent(38)
+map,25,,26,STARTING THE EVENT,3,93,101,show_text,"\ts[1]\dxn[Celeste]Hasta se ha desnudado... Quizá no fue buena idea juntarlo con Liberty, mira la que están armando..."
+map,25,,26,STARTING THE EVENT,3,95,355,script,pbCameraToEvent(28)
+map,25,,26,STARTING THE EVENT,3,99,101,show_text,"\dxn[Lluvia]¡Liberty puede cambiar la voluntad de cualquiera, si se lo propone!"
+map,25,,26,STARTING THE EVENT,3,104,101,show_text,"\dxn[Adrián]¡Liberty puede cambiar la voluntad de cualquiera, si se lo propone!"
+map,25,,26,STARTING THE EVENT,3,109,355,script,pbCameraToEvent(96)
+map,25,,26,STARTING THE EVENT,3,119,101,show_text,"\sh\dxn[Sakura]¡Sí hombre, no os bebáis todo lo que hay!"
+map,25,,26,STARTING THE EVENT,3,123,101,show_text,"\sh\dxn[Sakura]¡Que \PN y yo también queremos beber...! ¿A que sí, \PN?"
+map,25,,26,STARTING THE EVENT,3,132,101,show_text,\ts[2]\dxn[Sakura]¿\PN? ¿Dónde se ha metido esta vez?
+map,25,,26,STARTING THE EVENT,3,140,355,script,pbCameraToEvent(27)
+map,25,,26,STARTING THE EVENT,3,142,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,25,,26,STARTING THE EVENT,3,149,101,show_text,\dxn[\PN]...
+map,25,,26,STARTING THE EVENT,3,154,101,show_text,\dxn[\PN]...
+map,25,,26,STARTING THE EVENT,3,162,101,show_text,\ts[2]\dxn[\PN]<i>(Todavía tengo picazones en el brazo...)</i>
+map,25,,26,STARTING THE EVENT,3,167,101,show_text,\ts[2]\dxn[\PN]<i>(Todavía tengo picazones en el brazo...)</i>
+map,25,,26,STARTING THE EVENT,3,184,101,show_text,\dxn[Sakura]¿Otra vez te vuelves a aislar?
+map,25,,26,STARTING THE EVENT,3,206,101,show_text,\dxn[Sakura]¿Te importa si me siento a tu lado?
+map,25,,26,STARTING THE EVENT,3,208,108,comment,// Sentadittos
+map,25,,26,STARTING THE EVENT,3,222,108,comment,// Charla
+map,25,,26,STARTING THE EVENT,3,225,101,show_text,"\ts[2]\dxn[Sakura]Supongo... \wt[15]que hay recuerdos que no se borran tan fácilmente, ¿verdad?"
+map,25,,26,STARTING THE EVENT,3,251,101,show_text,\ts[2]\dxn[Sakura]Todos hemos vivido una situación un tanto traumática...
+map,25,,26,STARTING THE EVENT,3,255,101,show_text,\ts[2]\dxn[Sakura]Creo que aquella escena en el Teatro...\wt[15] siempre quedará en mi memoria.
+map,25,,26,STARTING THE EVENT,3,259,101,show_text,"\ts[2]\dxn[Sakura]Mi padre se había desmayado por el veneno, y tú... \wt[20]no eras la persona que había conocido..."
+map,25,,26,STARTING THE EVENT,3,264,101,show_text,\ts[2]\dxn[Sakura]Cuando vi que habías golpeado a aquella niña... me quedé atónita.
+map,25,,26,STARTING THE EVENT,3,269,101,show_text,\sh\dxn[Sakura]¡Por un momento pensé... \wt[20]que simplemente habías estado jugado con mi confianza!
+map,25,,26,STARTING THE EVENT,3,275,101,show_text,\ts[2]\dxn[\PN]<i>(Sakura...)</i>
+map,25,,26,STARTING THE EVENT,3,280,101,show_text,\ts[2]\dxn[\PN]<i>(Sakura...)</i>
+map,25,,26,STARTING THE EVENT,3,299,101,show_text,\ts[2]\dxn[Sakura]Aun así... supongo que a ti eso te pesa incluso más que a mí... ¿verdad?
+map,25,,26,STARTING THE EVENT,3,305,101,show_text,\ts[2]\dxn[\PN]Todavía me preocupa...
+map,25,,26,STARTING THE EVENT,3,310,101,show_text,\ts[2]\dxn[\PN]Todavía me preocupa...
+map,25,,26,STARTING THE EVENT,3,314,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,25,,26,STARTING THE EVENT,3,328,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,25,,26,STARTING THE EVENT,3,332,101,show_text,\ts[2]\dxn[Sakura]¡Son...!
+map,25,,26,STARTING THE EVENT,3,337,101,show_text,\sh\dxn[Sakura]¡Son las marcas del veneno de Nihilego!
+map,25,,26,STARTING THE EVENT,3,355,101,show_text,\ts[2]\dxn[\PN]Si el veneno llegara a afectarme de nuevo... \wt[15]Lucario ya no estaría aquí para salvarme.
+map,25,,26,STARTING THE EVENT,3,359,101,show_text,\sh\dxn[\PN]¡No quiero...\wt[15] no quiero hacerle daño a nadie nunca más!
+map,25,,26,STARTING THE EVENT,3,364,101,show_text,\ts[2]\dxn[\PN]Si el veneno llegara a afectarme de nuevo... \wt[15]Lucario ya no estaría aquí para salvarme.
+map,25,,26,STARTING THE EVENT,3,368,101,show_text,\sh\dxn[\PN]¡No quiero...\wt[15] no quiero hacerle daño a nadie nunca más!
+map,25,,26,STARTING THE EVENT,3,375,101,show_text,\ts[2]\dxn[Sakura]\PN...
+map,25,,26,STARTING THE EVENT,3,390,101,show_text,\ts[2]\dxn[Sakura]Lo sé perfectamente.
+map,25,,26,STARTING THE EVENT,3,404,101,show_text,\dxn[Sakura]Creo que todos los que te rodean saben perfectamente que nunca harías daño a alguien.
+map,25,,26,STARTING THE EVENT,3,408,101,show_text,"\dxn[Sakura]Tienes un corazón enorme, por eso estamos contigo."
+map,25,,26,STARTING THE EVENT,3,424,101,show_text,\dxn[Sakura]Siempre estás preocupado por los demás y piensas en su bienestar.
+map,25,,26,STARTING THE EVENT,3,427,101,show_text,\dxn[Sakura]Siempre estás preocupada por los demás y piensas en su bienestar.
+map,25,,26,STARTING THE EVENT,3,433,101,show_text,"\dxn[Sakura]Y aunque no siempre estén encima de ti, no significa que no te quieran."
+map,25,,26,STARTING THE EVENT,3,448,101,show_text,"\ts[1]\dxn[Sakura]A diferencia de ti, yo suelo aparentar ser dura con los demás... pero en realidad no lo soy."
+map,25,,26,STARTING THE EVENT,3,453,101,show_text,\ts[1]\dxn[Sakura]Supongo que se debe a que crecí sin mi padre cerca... desde pequeña aprendí a defenderme sola de los fans.
+map,25,,26,STARTING THE EVENT,3,457,101,show_text,\ts[1]\dxn[Sakura]Ser una idol es todo un martirio...
+map,25,,26,STARTING THE EVENT,3,462,101,show_text,"\ts[2]\dxn[Sakura]Sin embargo, ni tú ni yo estamos solos."
+map,25,,26,STARTING THE EVENT,3,477,101,show_text,\ts[1]\dxn[Sakura]Ahora nos tenemos el uno al otro.
+map,25,,26,STARTING THE EVENT,3,481,101,show_text,\ts[1]\dxn[Sakura]Y tus amigos harán todo lo posible por ayudarte.
+map,25,,26,STARTING THE EVENT,3,485,101,show_text,"\ts[1]\dxn[Sakura]Además, ahora es mi turno de hacer todo lo posible para que tú estés bien. Así que aquí me tienes para lo que sea."
+map,25,,26,STARTING THE EVENT,3,500,101,show_text,"\ts[1]\dxn[Sakura]Para eso están los amigos, ¿no crees?"
+map,25,,26,STARTING THE EVENT,3,506,101,show_text,\ts[2]\dxn[\PN]<i>(¡Sakura...!)</i>
+map,25,,26,STARTING THE EVENT,3,511,101,show_text,\ts[2]\dxn[\PN]<i>(¡Sakura...!)</i>
+map,25,,26,STARTING THE EVENT,3,528,101,show_text,"\ts[2]\dxn[Sakura]Por cierto, me lo he estado preguntando desde que nos conocimos, pero..."
+map,25,,26,STARTING THE EVENT,3,533,101,show_text,\ts[1]\dxn[Sakura]¿Por qué ayudas a todo el mundo sin recibir nada a cambio?
+map,25,,26,STARTING THE EVENT,3,537,101,show_text,\ts[1]\dxn[Sakura]Nunca dijiste por qué querías ayudarme con lo de mi padre...
+map,25,,26,STARTING THE EVENT,3,552,101,show_text,\ts[2]\dxn[\PN]Cuando era pequeño... las palabras de mi madre se quedaron grabadas en mi corazón...
+map,25,,26,STARTING THE EVENT,3,557,101,show_text,\ts[2]\dxn[\PN]Cuando era pequeña... las palabras de mi madre se quedaron grabadas en mi corazón...
+map,25,,26,STARTING THE EVENT,4,0,355,script,pbGoBehindPlayer(33)
+map,25,,26,STARTING THE EVENT,4,1,355,script,pbGoBehindPlayer(57)
+map,25,,26,STARTING THE EVENT,4,6,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,25,,26,STARTING THE EVENT,4,30,355,script,pbCameraToEvent(27)
+map,25,,26,STARTING THE EVENT,4,37,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,25,,26,STARTING THE EVENT,4,45,101,show_text,\ts[2]\dxn[Sakura]Ya veo...
+map,25,,26,STARTING THE EVENT,4,50,101,show_text,"\ts[2]\dxn[Sakura]Tus padres parecen ser muy buena gente, me gustaría conocerlos..."
+map,25,,26,STARTING THE EVENT,4,64,101,show_text,"\sh\dxn[Sakura]¡O sea, q-quiero decir! ¡S-sin ningún tipo de intención, eh!"
+map,25,,26,STARTING THE EVENT,4,80,101,show_text,"\ts[1]\dxn[Sakura]Dejando eso de lado, creo que tienen mucha razón en lo que dicen."
+map,25,,26,STARTING THE EVENT,4,84,101,show_text,"\ts[1]\dxn[Sakura]Has conseguido tener a mucha gente a tu lado, y eso es gracias a tu bondad."
+map,25,,26,STARTING THE EVENT,4,101,101,show_text,\ts[2]\dxn[Sakura]Yo... si es posible...
+map,25,,26,STARTING THE EVENT,4,105,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,25,,26,STARTING THE EVENT,4,107,101,show_text,<ac>\ts[2]M-me gustaría... \wt[15]q-quedarme a tu lado...</ac>
+map,25,,26,STARTING THE EVENT,4,108,355,script,"pbZoomMap(3,0.1,zoom=""in"")"
+map,25,,26,STARTING THE EVENT,4,110,101,show_text,<ac>\ts[4]¡P-Para siem...!</ac>
+map,25,,26,STARTING THE EVENT,4,111,355,script,"pbZoomMap(1,1,zoom=""out"")"
+map,25,,26,STARTING THE EVENT,4,113,101,show_text,\sh\dxn[Angie Stones]¡¿Estáis listos?!
+map,25,,26,STARTING THE EVENT,4,126,101,show_text,\sh\dxn[Sakura]¡AAAAAAAAAAAAH!
+map,25,,26,STARTING THE EVENT,4,142,101,show_text,\sh\dxn[Sakura]¡Se me olvidaba por completo!
+map,25,,26,STARTING THE EVENT,4,160,101,show_text,"\sh\dxn[Sakura]¡\PN, el concierto está por empezar! ¡No nos lo podemos perder!"
+map,25,,26,STARTING THE EVENT,4,166,101,show_text,\sh\dxn[Sakura]¡Vamos con todos los demás!
+map,25,,26,STARTING THE EVENT,4,170,101,show_text,\dxn[Sakura]¡Nos estarán esperando!
+map,25,,26,STARTING THE EVENT,4,176,355,script,pbCameraToEvent(98)
+map,25,,26,STARTING THE EVENT,4,197,108,comment,// ESCENA TODOS
+map,25,,26,STARTING THE EVENT,4,201,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,25,,26,STARTING THE EVENT,4,215,101,show_text,\sh\dxn[Angie Stones]¡Esta noche hay que romperla!
+map,25,,26,STARTING THE EVENT,4,220,355,script,pbCameraToEvent(96)
+map,25,,26,STARTING THE EVENT,4,235,101,show_text,\sh\dxn[Sakura]¡Esta noche va a ser increíble!
+map,25,,26,STARTING THE EVENT,4,242,101,show_text,"\sh\dxn[Sakura]¡Lilith, pásame unas cervezas!"
+map,25,,26,STARTING THE EVENT,4,244,355,script,pbCameraToEvent(29)
+map,25,,26,STARTING THE EVENT,4,248,101,show_text,\ts[2]\dxn[Álama]Esto... cómo te lo digo...
+map,25,,26,STARTING THE EVENT,4,255,101,show_text,\ts[2]\dxn[Álama]Creo que Liberty y Silvano han acabado con todo el alcohol que teníamos...
+map,25,,26,STARTING THE EVENT,4,257,355,script,pbCameraToEvent(96)
+map,25,,26,STARTING THE EVENT,4,261,101,show_text,\sh\dxn[Sakura]¡¿QUE QUÉEEEEEEEE?!
+map,25,,26,STARTING THE EVENT,4,268,101,show_text,"\sh\dxn[Sakura]¡LIBERTY, TE VAS A CAGAAAAAAAR!"
+map,25,,26,STARTING THE EVENT,4,273,355,script,pbCameraToEvent(102)
+map,25,,26,STARTING THE EVENT,4,279,101,show_text,"\sh\dxn[Liberty]¡Ven a por mí, Sakura-chan!"
+map,25,,26,STARTING THE EVENT,4,283,355,script,pbCameraToEvent(96)
+map,25,,26,STARTING THE EVENT,4,284,355,script,"pbZoomMap(2,0.1,zoom=""in"")"
+map,25,,26,STARTING THE EVENT,4,290,108,comment,// flying
+map,25,,26,STARTING THE EVENT,4,306,355,script,"pbZoomMap(1,0.1,zoom=""out"")"
+map,25,,26,STARTING THE EVENT,4,316,355,script,pbCameraShake(8)
+map,25,,26,STARTING THE EVENT,4,319,355,script,pbCameraShakeOff
+map,25,,26,STARTING THE EVENT,4,324,101,show_text,\ts[2]<ac>Gracias a Sakura que me sacó de la granja para venir a este evento...</ac>
+map,25,,26,STARTING THE EVENT,4,326,101,show_text,\ts[2]<ac>Descubrí que la mejor forma de sobrellevar el dolor es con quienes permanecen a tu lado.</ac>
+map,25,,26,STARTING THE EVENT,4,328,101,show_text,\ts[2]<ac>Con ellos... \wt[15]las penas se hacen más llevaderas.</ac>
+map,25,,26,STARTING THE EVENT,4,330,101,show_text,\ts[2]<ac>Es hora... \wt[15]de continuar mi camino.</ac>
+map,25,,26,STARTING THE EVENT,4,332,101,show_text,"\ts[2]<ac>Pero esta vez, con la cabeza bien alta.</ac>"
+map,25,,26,STARTING THE EVENT,4,349,101,show_text,<ac>¡Y hasta aquí la update 4.8 de Pokémon Unbreakable Ties! ¡Espero que la hayas disfrutado!<ac>
+map,25,,26,STARTING THE EVENT,4,351,101,show_text,"<ac>Sé que es algo cortito, pero sirve de conclusión y cierre de la Beta 4.<ac>"
+map,25,,26,STARTING THE EVENT,4,353,101,show_text,<ac>Esta es la última versión jugable hasta la Beta 5.<ac>
+map,25,,26,STARTING THE EVENT,4,355,101,show_text,"<ac>Por ahora puedes intentar completar todo el Summer Resort, que tiene bastante contenido.<ac>"
+map,25,,26,STARTING THE EVENT,4,357,101,show_text,<ac>¡Además de haber logros por sacar!<ac>
+map,25,,26,STARTING THE EVENT,4,359,101,show_text,"<ac>¡Nos vemos pronto, Entrenador/a!<ac>"
+map,25,,93,EV093,1,0,101,show_text,(Se ha quedado dormida al sol... parece una gamba.)
+map,25,,127,EV127,1,0,108,comment,noshadow
+map,25,,194,EV194,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,60,EV060,1,0,108,comment,noshadow
+map,25,,161,EV161,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,27,PLAYER1,2,0,108,comment,noshadow
+map,25,,27,PLAYER1,4,0,108,comment,noshadow
+map,25,,94,EV094,1,0,101,show_text,"He participado en el evento de baile, pero mi pareja no me ha dejado desafiar a Sakura."
+map,25,,94,EV094,1,2,101,show_text,Creo que se ha puesto celosa...
+map,25,,195,EV195,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,61,EV061,1,0,108,comment,noshadow
+map,25,,162,EV162,1,0,101,show_text,(Parece estar atenta al concierto...)
+map,25,,28,PLAYER2,2,0,101,show_text,\dxn[Lluvia]...
+map,25,,28,PLAYER2,2,5,101,show_text,"\dxn[Lluvia]¡H-Hola, \PN! ¿Qué tal lo estás pasando?"
+map,25,,28,PLAYER2,2,9,101,show_text,\dxn[Lluvia]¿Has probado ya alguno de los minijuegos?
+map,25,,28,PLAYER2,2,12,102,choices,How have you been?
+map,25,,28,PLAYER2,2,12,102,choices,Everything OK?
+map,25,,28,PLAYER2,2,13,402,choice_branch,How have you been?
+map,25,,28,PLAYER2,2,15,402,choice_branch,Everything OK?
+map,25,,28,PLAYER2,2,21,101,show_text,\ts[3]\dxn[Lluvia]Bueno...
+map,25,,28,PLAYER2,2,25,101,show_text,\ts[1]\dxn[Lluvia]La verdad es que me es difícil no tener la cabeza en mil cosas...
+map,25,,28,PLAYER2,2,29,101,show_text,\ts[1]\dxn[Lluvia]Pero no quiero molestarte con mis problemas.
+map,25,,28,PLAYER2,2,34,101,show_text,"\ts[1]\dxn[\PN]<i>(Suele estar de buenos ánimos, algo habrá que hacer.)</i>"
+map,25,,28,PLAYER2,2,36,102,choices,Tell me what's wrong.
+map,25,,28,PLAYER2,2,36,102,choices,I'm here to listen.
+map,25,,28,PLAYER2,2,37,402,choice_branch,Tell me what's wrong.
+map,25,,28,PLAYER2,2,39,402,choice_branch,I'm here to listen.
+map,25,,28,PLAYER2,2,45,101,show_text,\ts[3]\dxn[Lluvia]\PN...
+map,25,,28,PLAYER2,2,50,101,show_text,\ts[1]\dxn[Lluvia]Bueno... estuve un poco preocupada por mi nivel después de perder de nuevo contra Aldrich en el Palacio Real.
+map,25,,28,PLAYER2,2,54,101,show_text,"\ts[1]\dxn[Lluvia]Silvano y su hermano tuvieron que ayudarme. De no ser por ellos, no sé si estaría aquí..."
+map,25,,28,PLAYER2,2,59,101,show_text,"\dxn[Lluvia]Claro, tú no lo sabes porque estabas yendo a ayudar a Latios, pero pasaron muchas cosas ahí adentro."
+map,25,,28,PLAYER2,2,63,101,show_text,"\dxn[Lluvia]Durante estos días, quise ayudar a Lilith con su investigación, pero me vio un tanto deprimida. Así que le conté la situación y me dejó vía libre."
+map,25,,28,PLAYER2,2,67,101,show_text,\dxn[Lluvia]Estuve entrenando con Angie estos días. No quiero que algo así vuelva a ocurrir.
+map,25,,28,PLAYER2,2,71,101,show_text,\dxn[Lluvia]¿Te gustaría comparar nuestro nivel actual?
+map,25,,28,PLAYER2,2,76,102,choices,Let's go!
+map,25,,28,PLAYER2,2,76,102,choices,Not right now...
+map,25,,28,PLAYER2,2,77,402,choice_branch,Let's go!
+map,25,,28,PLAYER2,2,81,101,show_text,\sh\dxn[Lluvia]¡Genial! ¡Vamos a divertirnos!
+map,25,,28,PLAYER2,2,84,355,script,"setBattleRule(""backdrop"",""playa"")"
+map,25,,28,PLAYER2,2,85,355,script,"setBattleRule(""canLose"")"
+map,25,,28,PLAYER2,2,91,101,show_text,"\dxn[Lluvia]No sé cómo lo haces, pero siempre estás por encima de mí."
+map,25,,28,PLAYER2,2,99,101,show_text,"\dxn[Lluvia]Nada mal, siempre mantienes un buen nivel."
+map,25,,28,PLAYER2,2,105,101,show_text,\dxn[Lluvia]Ha sido divertido. Creo que ahora me encuentro bastante mejor.
+map,25,,28,PLAYER2,2,109,101,show_text,\dxn[Lluvia]Espero que te hayas divertido también.
+map,25,,28,PLAYER2,2,114,101,show_text,"\dxn[Lluvia]No sé si te será útil, pero estoy segura de que le darás un buen uso."
+map,25,,28,PLAYER2,2,116,355,script,pbReceiveItem(:SWAMPERTITE)
+map,25,,28,PLAYER2,2,119,101,show_text,\ts[2]\dxn[Lluvia]Ahora.. estoy preocupada por otra cosa...
+map,25,,28,PLAYER2,2,124,101,show_text,"\ts[1]\dxn[Lluvia]Con Latias y Latios en la \c[2]Isla del Sur\c[0], no debería haber problema para tomar la esfera, pero..."
+map,25,,28,PLAYER2,2,128,101,show_text,"\ts[1]\dxn[Lluvia]A pesar de que quiero cuidar de Lilith, tengo unos \c[2]amigos\c[0] allí y es posible que puedan estar en peligro."
+map,25,,28,PLAYER2,2,133,101,show_text,"\ts[1]\dxn[Lluvia]Sí, tienes razón. Darek y Eda deberían llegar mucho antes que la Familia Real. No hay nada más veloz que volar junto a Latias y Latios."
+map,25,,28,PLAYER2,2,137,101,show_text,"\ts[1]\dxn[Lluvia]Ahora que la Familia Real parece estar en una situación vulnerable, deberíamos seguir investigando dónde se están escondiendo y realizar un"
+map,25,,28,PLAYER2,2,138,401,show_text_cont,ataque entre todos.
+map,25,,28,PLAYER2,2,143,101,show_text,\ts[1]\dxn[\PN]¿Sabes algo sobre...?
+map,25,,28,PLAYER2,2,144,102,choices,Lucario
+map,25,,28,PLAYER2,2,144,102,choices,Intra Ball
+map,25,,28,PLAYER2,2,145,402,choice_branch,Lucario
+map,25,,28,PLAYER2,2,147,402,choice_branch,Intra Ball
+map,25,,28,PLAYER2,2,154,101,show_text,"\ts[1]\dxn[Lluvia]Hmm, entiendo que te preocupe tanto."
+map,25,,28,PLAYER2,2,158,101,show_text,"\ts[1]\dxn[Lluvia]Por desgracia no tenemos información sobre Lucario, pero sí hemos estado investigando el \c[2]Laboratorio de la Dra.Vega\c[0] de la que nos"
+map,25,,28,PLAYER2,2,159,401,show_text_cont,"hablaste, y..."
+map,25,,28,PLAYER2,2,163,101,show_text,"\ts[2]\dxn[Lluvia]No hemos encontrado su nombre en el registro regional de Akebia, la policía se está encargando de eso."
+map,25,,28,PLAYER2,2,167,101,show_text,"\ts[1]\dxn[Lluvia]Sin embargo, las siglas \c[2]VEGA\c[0] aparecieron en un catastrófico evento que ocurrió hace unos 15 años, a las afueras de la \c[2]región de"
+map,25,,28,PLAYER2,2,168,401,show_text_cont,Teselia\c[0].
+map,25,,28,PLAYER2,2,173,101,show_text,"\ts[1]\dxn[Lluvia]Como puedes imaginar, todavía estamos muy verdes."
+map,25,,28,PLAYER2,2,177,101,show_text,\ts[1]\dxn[Lluvia]Angie se ha ocupado de analizar los documentos que encontramos en el laboratorio sobre la \c[2]Intra Ball\c[0].
+map,25,,28,PLAYER2,2,181,101,show_text,"\ts[1]\dxn[Lluvia]Según ella, está siendo muy difícil entender su funcionalidad, pero no parte de una tecnología que desconozcamos."
+map,25,,28,PLAYER2,2,185,101,show_text,\ts[2]\dxn[Lluvia]Entonces... eso de que sea \c[2]única\c[0] es un tanto sospechoso...
+map,25,,28,PLAYER2,2,190,101,show_text,"\ts[1]\dxn[Lluvia]En fin, gracias por hablar y luchar conmigo, me siento mejor."
+map,25,,28,PLAYER2,2,194,101,show_text,\ts[1]\dxn[Lluvia]¡Estaré por aquí por si quieres hablar!
+map,25,,28,PLAYER2,2,200,402,choice_branch,Not right now...
+map,25,,28,PLAYER2,2,204,101,show_text,"\dxn[Lluvia]Ya veo, tú tampoco tienes los ánimos por los aires. Aunque creo que nos iría bien."
+map,25,,28,PLAYER2,2,208,101,show_text,"\dxn[Lluvia]Si cambias de idea, estaré por aquí."
+map,25,,28,PLAYER2,3,3,101,show_text,"\dxn[Lluvia]¡Hola, \PN! ¿Quieres algo?"
+map,25,,28,PLAYER2,3,5,102,choices,About Southern Island...
+map,25,,28,PLAYER2,3,5,102,choices,Nothing
+map,25,,28,PLAYER2,3,6,402,choice_branch,About Southern Island...
+map,25,,28,PLAYER2,3,10,101,show_text,\ts[1]\dxn[Lluvia]¿Te interesa saber la relación que tengo con la Isla del Sur?
+map,25,,28,PLAYER2,3,14,101,show_text,"\dxn[Lluvia]En resumidas cuentas, yo nací y me crié allí."
+map,25,,28,PLAYER2,3,18,101,show_text,\dxn[Lluvia]Lilith estuvo cuidando de mí cuando ella había huido del Palacio Real. Yo era un bebé abandonado para entonces.
+map,25,,28,PLAYER2,3,23,101,show_text,\dxn[Lluvia]Vivía con ella y con una tribu llamada \c[2]Lunaris\c[0].
+map,25,,28,PLAYER2,3,27,101,show_text,"\dxn[Lluvia]Sin embargo, no sé nada de ellos desde que Lilith se mudó a \c[2]Pueblo Gorrión\c[0] para cuidar de Darek."
+map,25,,28,PLAYER2,3,31,101,show_text,"\dxn[Lluvia]Ella solía ir con Latias y Latios para verlos, pero como su ayudante que soy, yo seguía sus investigaciones por Akebia."
+map,25,,28,PLAYER2,3,35,101,show_text,"\dxn[Lluvia]Aunque lo de profesora fuera una tapadera, Lilith siempre tuvo curiosidad por los Pokémon y su naturaleza."
+map,25,,28,PLAYER2,3,39,101,show_text,"\dxn[Lluvia]Su alma pura le permite conectar con los Pokémon de manera distinta, así que yo siempre estuve dispuesta a ayudarla."
+map,25,,28,PLAYER2,3,43,101,show_text,"\dxn[Lluvia]Además, estábamos muy preocupados con el misterio del \c[2]Huevo de tu Riolu\c[0]."
+map,25,,28,PLAYER2,3,48,101,show_text,"\dxn[Lluvia]Parecía que nunca iba a eclosionar, hasta que tuvo contacto con Latias y Latios."
+map,25,,28,PLAYER2,3,53,101,show_text,\dxn[\PN]<i>(Es cierto... eso sigue siendo todo un misterio...)</i>
+map,25,,28,PLAYER2,3,57,101,show_text,"\dxn[Lluvia]En fin, eso es lo más básico que te puedo contar sobre mi relación con Lilith y la Isla del Sur."
+map,25,,28,PLAYER2,3,61,101,show_text,\ts[1]\dxn[Lluvia]¡Estaré por aquí por si quieres hablar!
+map,25,,28,PLAYER2,3,64,402,choice_branch,Nothing
+map,25,,28,PLAYER2,3,66,101,show_text,\ts[1]\dxn[Lluvia]¡Estaré por aquí por si quieres hablar!
+map,25,,28,PLAYER2,5,0,101,show_text,\dxn[Adrián]...
+map,25,,28,PLAYER2,5,5,101,show_text,"\dxn[Adrián]¡H-Hola, \PN! ¿Qué tal lo estás pasando?"
+map,25,,28,PLAYER2,5,9,101,show_text,\dxn[Adrián]¿Has probado ya alguno de los minijuegos?
+map,25,,28,PLAYER2,5,12,102,choices,How have you been?
+map,25,,28,PLAYER2,5,12,102,choices,Everything OK?
+map,25,,28,PLAYER2,5,13,402,choice_branch,How have you been?
+map,25,,28,PLAYER2,5,15,402,choice_branch,Everything OK?
+map,25,,28,PLAYER2,5,21,101,show_text,\ts[3]\dxn[Adrián]Bueno...
+map,25,,28,PLAYER2,5,25,101,show_text,\ts[1]\dxn[Adrián]La verdad es que me es difícil no tener la cabeza en mil cosas...
+map,25,,28,PLAYER2,5,29,101,show_text,\ts[1]\dxn[Adrián]Pero no quiero molestarte con mis problemas.
+map,25,,28,PLAYER2,5,34,101,show_text,"\ts[1]\dxn[\PN]<i>(Suele estar de buenos ánimos, algo habrá que hacer.)</i>"
+map,25,,28,PLAYER2,5,36,102,choices,Tell me whats wrong.
+map,25,,28,PLAYER2,5,36,102,choices,I'm here to listen.
+map,25,,28,PLAYER2,5,37,402,choice_branch,Tell me whats wrong.
+map,25,,28,PLAYER2,5,39,402,choice_branch,I'm here to listen.
+map,25,,28,PLAYER2,5,45,101,show_text,\ts[3]\dxn[Adrián]\PN...
+map,25,,28,PLAYER2,5,50,101,show_text,\ts[1]\dxn[Adrián]Bueno... estuve un poco preocupado por mi nivel después de perder de nuevo contra Aldrich en el Palacio Real.
+map,25,,28,PLAYER2,5,54,101,show_text,"\ts[1]\dxn[Adrián]Silvano y su hermano tuvieron que ayudarme. De no ser por ellos, no sé si estaría aquí..."
+map,25,,28,PLAYER2,5,59,101,show_text,"\dxn[Adrián]Claro, tú no lo sabes porque estabas yendo a ayudar a Latios, pero pasaron muchas cosas ahí adentro."
+map,25,,28,PLAYER2,5,63,101,show_text,"\dxn[Adrián]Durante estos días, quise ayudar a Lilith con su investigación, pero me vio un tanto deprimida. Así que le conté la situación y me dejó vía libre."
+map,25,,28,PLAYER2,5,67,101,show_text,\dxn[Adrián]Estuve entrenando con Angie estos días. No quiero que algo así vuelva a ocurrir.
+map,25,,28,PLAYER2,5,71,101,show_text,\dxn[Adrián]¿Te gustaría comparar nuestro nivel actual?
+map,25,,28,PLAYER2,5,76,102,choices,Let's go!
+map,25,,28,PLAYER2,5,76,102,choices,Not right now...
+map,25,,28,PLAYER2,5,77,402,choice_branch,Let's go!
+map,25,,28,PLAYER2,5,81,101,show_text,\sh\dxn[Adrián]¡Genial! ¡Vamos a divertirnos!
+map,25,,28,PLAYER2,5,84,355,script,"setBattleRule(""backdrop"",""playa"")"
+map,25,,28,PLAYER2,5,85,355,script,"setBattleRule(""canLose"")"
+map,25,,28,PLAYER2,5,91,101,show_text,"\dxn[Adrián]No sé cómo lo haces, pero siempre estás por encima de mí."
+map,25,,28,PLAYER2,5,99,101,show_text,"\dxn[Adrián]Nada mal, siempre mantienes un buen nivel."
+map,25,,28,PLAYER2,5,105,101,show_text,\dxn[Adrián]Ha sido divertido. Creo que ahora me encuentro bastante mejor.
+map,25,,28,PLAYER2,5,109,101,show_text,\dxn[Adrián]Espero que te hayas divertido también.
+map,25,,28,PLAYER2,5,114,101,show_text,"\dxn[Adrián]No sé si te será útil, pero estoy segura de que le darás un buen uso."
+map,25,,28,PLAYER2,5,116,355,script,pbReceiveItem(:SWAMPERTITE)
+map,25,,28,PLAYER2,5,119,101,show_text,\ts[2]\dxn[Adrián]Ahora.. estoy preocupado por otra cosa...
+map,25,,28,PLAYER2,5,124,101,show_text,"\ts[1]\dxn[Adrián]Con Latias y Latios en la \c[2]Isla del Sur\c[0], no debería haber problema para tomar la esfera, pero..."
+map,25,,28,PLAYER2,5,128,101,show_text,"\ts[1]\dxn[Adrián]A pesar de que quiero cuidar de Lilith, tengo unos \c[2]amigos\c[0] allí y es posible que puedan estar en peligro."
+map,25,,28,PLAYER2,5,133,101,show_text,"\ts[1]\dxn[Adrián]Sí, tienes razón. Darek y Eda deberían llegar mucho antes que la Familia Real. No hay nada más veloz que volar junto a Latias y Latios."
+map,25,,28,PLAYER2,5,137,101,show_text,"\ts[1]\dxn[Adrián]Ahora que la Familia Real parece estar en una situación vulnerable, deberíamos seguir investigando dónde se están escondiendo y realizar un"
+map,25,,28,PLAYER2,5,138,401,show_text_cont,ataque entre todos.
+map,25,,28,PLAYER2,5,143,101,show_text,\ts[1]\dxn[\PN]¿Sabes algo sobre...?
+map,25,,28,PLAYER2,5,144,102,choices,Lucario
+map,25,,28,PLAYER2,5,144,102,choices,Intra Ball
+map,25,,28,PLAYER2,5,145,402,choice_branch,Lucario
+map,25,,28,PLAYER2,5,147,402,choice_branch,Intra Ball
+map,25,,28,PLAYER2,5,154,101,show_text,"\ts[1]\dxn[Adrián]Hmm, entiendo que te preocupe tanto."
+map,25,,28,PLAYER2,5,158,101,show_text,"\ts[1]\dxn[Adrián]Por desgracia no tenemos información sobre Lucario, pero sí hemos estado investigando el \c[2]Laboratorio de la Dra.Vega\c[0] de la que nos"
+map,25,,28,PLAYER2,5,159,401,show_text_cont,"hablaste, y..."
+map,25,,28,PLAYER2,5,163,101,show_text,"\ts[2]\dxn[Adrián]No hemos encontrado su nombre en el registro regional de Akebia, la policía se está encargando de eso."
+map,25,,28,PLAYER2,5,167,101,show_text,"\ts[1]\dxn[Adrián]Sin embargo, las siglas \c[2]VEGA\c[0] aparecieron en un catastrófico evento que ocurrió hace unos 15 años, a las afueras de la \c[2]región de"
+map,25,,28,PLAYER2,5,168,401,show_text_cont,Teselia\c[0].
+map,25,,28,PLAYER2,5,173,101,show_text,"\ts[1]\dxn[Adrián]Como puedes imaginar, todavía estamos muy verdes."
+map,25,,28,PLAYER2,5,177,101,show_text,\ts[1]\dxn[Adrián]Angie se ha ocupado de analizar los documentos que encontramos en el laboratorio sobre la \c[2]Intra Ball\c[0].
+map,25,,28,PLAYER2,5,181,101,show_text,"\ts[1]\dxn[Adrián]Según ella, está siendo muy difícil entender su funcionalidad, pero no parte de una tecnología que desconozcamos."
+map,25,,28,PLAYER2,5,185,101,show_text,\ts[2]\dxn[Adrián]Entonces... eso de que sea \c[2]única\c[0] es un tanto sospechoso...
+map,25,,28,PLAYER2,5,190,101,show_text,"\ts[1]\dxn[Adrián]En fin, gracias por hablar y luchar conmigo, me siento mejor."
+map,25,,28,PLAYER2,5,194,101,show_text,\ts[1]\dxn[Adrián]¡Estaré por aquí por si quieres hablar!
+map,25,,28,PLAYER2,5,200,402,choice_branch,Not right now...
+map,25,,28,PLAYER2,5,204,101,show_text,"\dxn[Adrián]Ya veo, tú tampoco tienes los ánimos por los aires. Aunque creo que nos iría bien."
+map,25,,28,PLAYER2,5,208,101,show_text,"\dxn[Adrián]Si cambias de idea, estaré por aquí."
+map,25,,28,PLAYER2,6,3,101,show_text,"\dxn[Adrián]¡Hola, \PN! ¿Quieres algo?"
+map,25,,28,PLAYER2,6,5,102,choices,About Southern Island...
+map,25,,28,PLAYER2,6,5,102,choices,Nothing
+map,25,,28,PLAYER2,6,6,402,choice_branch,About Southern Island...
+map,25,,28,PLAYER2,6,10,101,show_text,\ts[1]\dxn[Adrián]¿Te interesa saber la relación que tengo con la Isla del Sur?
+map,25,,28,PLAYER2,6,14,101,show_text,"\dxn[Adrián]En resumidas cuentas, yo nací y me crié allí."
+map,25,,28,PLAYER2,6,18,101,show_text,\dxn[Adrián]Lilith estuvo cuidando de mí cuando ella había huido del Palacio Real. Yo era un bebé abandonado para entonces.
+map,25,,28,PLAYER2,6,23,101,show_text,\dxn[Adrián]Vivía con ella y con una tribu llamada \c[2]Lunaris\c[0].
+map,25,,28,PLAYER2,6,27,101,show_text,"\dxn[Adrián]Sin embargo, no sé nada de ellos desde que Lilith se mudó a \c[2]Pueblo Gorrión\c[0] para cuidar de Darek."
+map,25,,28,PLAYER2,6,31,101,show_text,"\dxn[Adrián]Ella solía ir con Latias y Latios para verlos, pero como su ayudante que soy, yo seguía sus investigaciones por Akebia."
+map,25,,28,PLAYER2,6,35,101,show_text,"\dxn[Adrián]Aunque lo de profesora fuera una tapadera, Lilith siempre tuvo curiosidad por los Pokémon y su naturaleza."
+map,25,,28,PLAYER2,6,39,101,show_text,"\dxn[Adrián]Su alma pura le permite conectar con los Pokémon de manera distinta, así que yo siempre estuve dispuesta a ayudarla."
+map,25,,28,PLAYER2,6,43,101,show_text,"\dxn[Adrián]Además, estábamos muy preocupados con el misterio del \c[2]Huevo de tu Riolu\c[0]."
+map,25,,28,PLAYER2,6,48,101,show_text,"\dxn[Adrián]Parecía que nunca iba a eclosionar, hasta que tuvo contacto con Latias y Latios."
+map,25,,28,PLAYER2,6,53,101,show_text,\dxn[\PN]<i>(Es cierto... eso sigue siendo todo un misterio...)</i>
+map,25,,28,PLAYER2,6,57,101,show_text,"\dxn[Adrián]En fin, eso es lo más básico que te puedo contar sobre mi relación con Lilith y la Isla del Sur."
+map,25,,28,PLAYER2,6,61,101,show_text,\ts[1]\dxn[Adrián]¡Estaré por aquí por si quieres hablar!
+map,25,,28,PLAYER2,6,64,402,choice_branch,Nothing
+map,25,,28,PLAYER2,6,66,101,show_text,\ts[1]\dxn[Adrián]¡Estaré por aquí por si quieres hablar!
+map,25,,95,EV095,1,0,101,show_text,"Sí claro, mi novio es más listo que el hambre. Todos quieren ver a Sakura bailar."
+map,25,,196,EV196,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,62,EV062,1,0,108,comment,noshadow
+map,25,,129,EV129,1,4,101,show_text,\dxn[Vendedor]¡Oye! ¿A dónde vas?
+map,25,,163,EV163,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,29,LILITH,2,12,101,show_text,\sh\dxn[Álama]¡\PN! ¡Angie está tocando! ¡Angie está tocando!
+map,25,,29,LILITH,2,18,101,show_text,\dxn[\PN]<i>(Ahora mismo está como una cría...)</i>
+map,25,,29,LILITH,2,23,101,show_text,\dxn[\PN]<i>(Ahora mismo está como una cría...)</i>
+map,25,,29,LILITH,2,29,101,show_text,"\dxn[Álama]¡Si te animas a jugar al \c[2]Memory Dance\c[0], subiré para jugar contigo, no lo dudes!"
+map,25,,29,LILITH,2,34,101,show_text,"\dxn[Álama]¡Habla con Sakura, seguro que está impaciente de que juegues lo que ha estado preparando con tantas ganas!"
+map,25,,29,LILITH,2,39,101,show_text,"\dxn[Álama]De mientras, seguiré disfrutando del concierto junto a Silvano."
+map,25,,29,LILITH,2,44,101,show_text,"\dxn[Álama]Siempre está cuidando de mí, como solían hacer Edward y mamá."
+map,25,,29,LILITH,2,48,101,show_text,\sh\dxn[Álama]¡Es el mejor!
+map,25,,96,SAKURA,2,4,101,show_text,"\dxn[Sakura]¡Ey, \PN! ¿Quieres que juguemos un rato?"
+map,25,,96,SAKURA,2,10,101,show_text,\dxn[Sakura]¿Todavía no has pasado por el \c[2]Punto de Información\c[0]?
+map,25,,96,SAKURA,2,15,101,show_text,\dxn[Sakura]Sin el pase no podrás participar en mi minijuego...
+map,25,,96,SAKURA,2,22,101,show_text,"\sh\dxn[Sakura]¡E-es decir... solo si quieres divertirte tanto como yo! ¡No lo digo por ti, eh!"
+map,25,,96,SAKURA,2,27,101,show_text,"\dxn[Sakura]Bueno, estaré por ti cuando tengas el pase."
+map,25,,96,SAKURA,3,13,101,show_text,"\sh\dxn[Sakura]¡\PN, ese outfit te queda genial!"
+map,25,,96,SAKURA,3,19,101,show_text,"\sh\dxn[Sakura]¡O sea, quiero decir...!"
+map,25,,96,SAKURA,3,24,101,show_text,\ts[2]\dxn[Sakura]No te queda mal del todo...
+map,25,,96,SAKURA,3,32,101,show_text,\ts[1]\dxn[Sakura]Parece que se está haciendo tarde...
+map,25,,96,SAKURA,3,37,101,show_text,"\sh\dxn[Sakura]¡Vamos a prepararnos, \PN! ¡Se hace una gran fiesta esta noche!"
+map,25,,96,SAKURA,3,56,101,show_text,"\dxn[Sakura]¡Ey, \PN! ¿Te lo estás pasando bien?"
+map,25,,96,SAKURA,3,60,101,show_text,\dxn[Sakura]¿Vienes a jugar a mi \c[2]Memory Dance\c[0]?
+map,25,,96,SAKURA,3,67,101,show_text,"\dxn[Sakura]¡Anda, pero si ya has conseguido todos los puntos! ¡Eres increíble!"
+map,25,,96,SAKURA,3,72,101,show_text,"\sh\dxn[Sakura]¡Q-quiero decir, yo lo haría mejor!"
+map,25,,96,SAKURA,3,76,108,comment,// En el caso de que hayas conseguido todos los rewards
+map,25,,96,SAKURA,3,82,101,show_text,"\sh\dxn[Sakura]¡Espera, también has superado todos los niveles y has reclamado todas las recompensas!"
+map,25,,96,SAKURA,3,87,101,show_text,\ts[2]\dxn[Sakura]Creo que ha llegado el momento...
+map,25,,96,SAKURA,3,92,101,show_text,\ts[2]\dxn[Sakura]¿Quieres retarme a mí?
+map,25,,96,SAKURA,3,96,102,choices,Let's go!
+map,25,,96,SAKURA,3,96,102,choices,"Nothing, nothing..."
+map,25,,96,SAKURA,3,97,402,choice_branch,Let's go!
+map,25,,96,SAKURA,3,108,101,show_text,"\sh\dxn[Sakura]¡Genial, vamos a ver si eres capaz de seguirme el ritmo!"
+map,25,,96,SAKURA,3,115,402,choice_branch,"Nothing, nothing..."
+map,25,,96,SAKURA,3,120,101,show_text,"\ts[2]\dxn[Sakura]De acuerdo, no pasa nada..."
+map,25,,96,SAKURA,3,124,101,show_text,\dxn[Sakura]Entonces... ¿quieres jugar algún nivel?
+map,25,,96,SAKURA,3,132,101,show_text,\dxn[Sakura]¡Todavía tienes recompensas por ganar!
+map,25,,96,SAKURA,3,141,101,show_text,"\dxn[Sakura]Todavía tienes puntos por conseguir, ¿quieres participar?"
+map,25,,96,SAKURA,3,145,355,script,echo pbGet(901)
+map,25,,96,SAKURA,3,179,355,script,$points_hud = DancingPointsDisplayHUD.new
+map,25,,197,EV197,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,63,EV063,1,0,108,comment,noshadow
+map,25,,130,EV130,1,0,101,show_text,Nos mola mucho el ambiente del concierto.
+map,25,,130,EV130,1,2,101,show_text,"Si te acercas, hasta se escucha a todo el mundo gritar."
+map,25,,164,EV164,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,30,SILVANO,2,9,101,show_text,\dxn[Silvano]¡\PN! ¿Cómo te va todo? ¿Te lo estás pasando bien?
+map,25,,30,SILVANO,2,14,101,show_text,\dxn[Silvano]Nosotros estamos disfrutando del concierto mientras nadie participa en el \c[2]minijuego de baile\c[0].
+map,25,,30,SILVANO,2,18,101,show_text,"\dxn[Silvano]Me hace muy feliz ver a Lilith de esta forma, me contó que de pequeña hacía esto con Edward y su mamá."
+map,25,,30,SILVANO,2,24,101,show_text,"\dxn[Silvano]Por cierto, si te apetece jugar al minijuego de baile, puedo intentar ser tu contrincante."
+map,25,,30,SILVANO,2,29,101,show_text,\sh\dxn[Silvano]¡Pero no esperes demasiado de mi ritmo!
+map,25,,97,LATIAS TIMER,2,3,101,show_text,\sh\dxn[Sakura]¡Se acabó!
+map,25,,97,LATIAS TIMER,2,15,355,script,$points_hud.dispose
+map,25,,97,LATIAS TIMER,2,42,101,show_text,\dxn[Sakura]¡¿Cómo?! ¡¿Me has superado?!
+map,25,,97,LATIAS TIMER,2,47,101,show_text,\dxn[Sakura]¡Eres mejor de lo que había imaginado!
+map,25,,97,LATIAS TIMER,2,52,101,show_text,"\dxn[Sakura]¡Toma, esto es para ti como regalo por ganarme otra vez!"
+map,25,,97,LATIAS TIMER,2,55,355,script,$PokemonGlobal.gachaCoins += 3
+map,25,,97,LATIAS TIMER,2,56,101,show_text,<ac>¡Has recibido 3 Gacha Tickets!</ac>
+map,25,,97,LATIAS TIMER,2,60,101,show_text,\dxn[Sakura]¡Vuelve cuando quieras!
+map,25,,97,LATIAS TIMER,2,62,355,script,FollowingPkmn.toggle_on
+map,25,,97,LATIAS TIMER,2,63,355,script,$Trainer.has_running_shoes = true
+map,25,,97,LATIAS TIMER,2,75,101,show_text,"\dxn[Sakura]¡Toma, esto es para ti como regalo por superarme por primera vez!"
+map,25,,97,LATIAS TIMER,2,78,355,script,$PokemonGlobal.gachaCoins += 15
+map,25,,97,LATIAS TIMER,2,79,101,show_text,<ac>¡Has recibido 15 Gacha Tickets!</ac>
+map,25,,97,LATIAS TIMER,2,83,101,show_text,\dxn[Sakura]¡Vuelve cuando quieras!
+map,25,,97,LATIAS TIMER,2,85,355,script,FollowingPkmn.toggle_on
+map,25,,97,LATIAS TIMER,2,86,355,script,$Trainer.has_running_shoes = true
+map,25,,97,LATIAS TIMER,2,103,101,show_text,\ts[2]\dxn[Sakura]Bueno... al menos lo has intentado.
+map,25,,97,LATIAS TIMER,2,108,101,show_text,\sh\dxn[Sakura]¡Prueba de nuevo cuando quieras!
+map,25,,97,LATIAS TIMER,2,110,355,script,FollowingPkmn.toggle_on
+map,25,,97,LATIAS TIMER,2,111,355,script,$Trainer.has_running_shoes = true
+map,25,,97,LATIAS TIMER,2,128,101,show_text,\dxn[Sakura]¡Vamos a ver qué tal te ha ido!
+map,25,,97,LATIAS TIMER,2,131,108,comment,// Si el rendimiento es horrible KEKW
+map,25,,97,LATIAS TIMER,2,137,101,show_text,\dxn[Sakura]Esto... como te lo digo...
+map,25,,97,LATIAS TIMER,2,142,101,show_text,\dxn[Sakura]No has sacado muy buena puntuación... así que no tienes recompensa.
+map,25,,97,LATIAS TIMER,2,147,101,show_text,\sh\dxn[Sakura]¡Pero puedes venir a intentarlo cuando quieras!
+map,25,,97,LATIAS TIMER,2,152,101,show_text,\dxn[Sakura]¡Aquí te espero!
+map,25,,97,LATIAS TIMER,2,158,108,comment,################# EASY MODE #################
+map,25,,97,LATIAS TIMER,2,165,101,show_text,"\dxn[Sakura]¡Bueno, no está mal!"
+map,25,,97,LATIAS TIMER,2,170,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,175,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,178,101,show_text,<ac>¡Has recibido 150 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,197,101,show_text,"\dxn[Sakura]¡Ey, está muy bien!"
+map,25,,97,LATIAS TIMER,2,202,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,207,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,211,101,show_text,"<ac>¡Has recibido 10,000 Pokedólares!</ac>"
+map,25,,97,LATIAS TIMER,2,218,101,show_text,<ac>¡Has recibido 150 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,239,101,show_text,\sh\dxn[Sakura]¡P-pero...! ¡Si es una puntuación impresionante!
+map,25,,97,LATIAS TIMER,2,245,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,250,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,253,355,script,$PokemonGlobal.gachaCoins += 3
+map,25,,97,LATIAS TIMER,2,254,101,show_text,<ac>¡Has recibido 3 Gacha Tickets!</ac>
+map,25,,97,LATIAS TIMER,2,257,101,show_text,<ac>¡Ahora puedes acceder al \c[2]Nivel 2\c[0]!</ac>
+map,25,,97,LATIAS TIMER,2,265,101,show_text,"<ac>¡Has recibido 10,000 Pokedólares!</ac>"
+map,25,,97,LATIAS TIMER,2,274,101,show_text,<ac>¡Has recibido 150 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,291,108,comment,################# NORMAL MODE #################
+map,25,,97,LATIAS TIMER,2,298,101,show_text,"\dxn[Sakura]¡Bueno, no está mal!"
+map,25,,97,LATIAS TIMER,2,303,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,308,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,311,101,show_text,<ac>¡Has recibido 250 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,330,101,show_text,"\dxn[Sakura]¡Ey, está muy bien!"
+map,25,,97,LATIAS TIMER,2,335,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,340,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,344,101,show_text,"<ac>¡Has recibido 20,000 Pokedólares!</ac>"
+map,25,,97,LATIAS TIMER,2,351,101,show_text,<ac>¡Has recibido 250 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,372,101,show_text,\sh\dxn[Sakura]¡P-pero...! ¡Si es una puntuación impresionante!
+map,25,,97,LATIAS TIMER,2,378,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,383,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,386,355,script,$PokemonGlobal.gachaCoins += 5
+map,25,,97,LATIAS TIMER,2,387,101,show_text,<ac>¡Has recibido 5 Gacha Tickets!</ac>
+map,25,,97,LATIAS TIMER,2,390,101,show_text,<ac>¡Ahora puedes acceder al \c[2]Nivel 3\c[0]!</ac>
+map,25,,97,LATIAS TIMER,2,398,101,show_text,"<ac>¡Has recibido 20,000 Pokedólares!</ac>"
+map,25,,97,LATIAS TIMER,2,407,101,show_text,<ac>¡Has recibido 250 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,424,108,comment,################# HARD MODE #################
+map,25,,97,LATIAS TIMER,2,431,101,show_text,"\dxn[Sakura]¡Bueno, no está mal!"
+map,25,,97,LATIAS TIMER,2,436,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,441,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,444,101,show_text,<ac>¡Has recibido 400 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,463,101,show_text,"\dxn[Sakura]¡Ey, está muy bien!"
+map,25,,97,LATIAS TIMER,2,468,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,473,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,477,101,show_text,"<ac>¡Has recibido 50,000 Pokedólares!</ac>"
+map,25,,97,LATIAS TIMER,2,484,101,show_text,<ac>¡Has recibido 400 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,505,101,show_text,\sh\dxn[Sakura]¡P-pero...! ¡Si es una puntuación impresionante!
+map,25,,97,LATIAS TIMER,2,511,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,516,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,519,355,script,$PokemonGlobal.gachaCoins += 7
+map,25,,97,LATIAS TIMER,2,520,101,show_text,<ac>¡Has recibido 7 Gacha Tickets!</ac>
+map,25,,97,LATIAS TIMER,2,523,101,show_text,<ac>¡Ahora puedes acceder al \c[2]Nivel 4\c[0]!</ac>
+map,25,,97,LATIAS TIMER,2,531,101,show_text,"<ac>¡Has recibido 50,000 Pokedólares!</ac>"
+map,25,,97,LATIAS TIMER,2,540,101,show_text,<ac>¡Has recibido 400 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,557,108,comment,################# VERYHARD MODE #################
+map,25,,97,LATIAS TIMER,2,564,101,show_text,"\dxn[Sakura]¡Bueno, no está mal!"
+map,25,,97,LATIAS TIMER,2,569,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,574,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,577,101,show_text,<ac>¡Has recibido 700 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,596,101,show_text,"\dxn[Sakura]¡Ey, está muy bien!"
+map,25,,97,LATIAS TIMER,2,601,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,606,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,610,101,show_text,"<ac>¡Has recibido 100,000 Pokedólares!</ac>"
+map,25,,97,LATIAS TIMER,2,617,101,show_text,<ac>¡Has recibido 700 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,638,101,show_text,\sh\dxn[Sakura]¡P-pero...! ¡Si es una puntuación impresionante!
+map,25,,97,LATIAS TIMER,2,644,101,show_text,"\dxn[Sakura]¡Ya reclamaste esta recompensa, pero gracias por participar!"
+map,25,,97,LATIAS TIMER,2,649,101,show_text,"\dxn[Sakura]Toma, tu recompensa."
+map,25,,97,LATIAS TIMER,2,652,355,script,$PokemonGlobal.gachaCoins += 10
+map,25,,97,LATIAS TIMER,2,653,101,show_text,<ac>¡Has recibido 10 Gacha Tickets!</ac>
+map,25,,97,LATIAS TIMER,2,655,101,show_text,<ac>¡Ahora puedes acceder al \c[2]nivel secreto\c[0]!</ac>
+map,25,,97,LATIAS TIMER,2,657,101,show_text,<ac>\sh¡Enfrentar a \c[2]Sakura\c[0]!</ac>
+map,25,,97,LATIAS TIMER,2,664,101,show_text,"<ac>¡Has recibido 100,000 Pokedólares!</ac>"
+map,25,,97,LATIAS TIMER,2,673,101,show_text,<ac>¡Has recibido 700 <i>Summer Points</i>!</ac>
+map,25,,97,LATIAS TIMER,2,693,101,show_text,\sh\dxn[Sakura]¡Ven a jugar cuando quieras!
+map,25,,97,LATIAS TIMER,2,696,355,script,FollowingPkmn.toggle_on
+map,25,,97,LATIAS TIMER,2,697,355,script,$Trainer.has_running_shoes = true
+map,25,,198,EV198,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,64,EV064,1,0,108,comment,noshadow
+map,25,,131,EV131,1,0,101,show_text,"No podía ni hablar con él cerca del concierto, están todos cantando."
+map,25,,165,EV165,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,31,PSYDUCK,1,0,355,script,Pokemon.play_cry(:PSYDUCK)
+map,25,,31,PSYDUCK,1,1,101,show_text,\f[psyduck000]¡Psy!
+map,25,,98,MELOETTA,1,1,101,show_text,\f[meloetta_dance_000]¡Melooo!
+map,25,,199,EV199,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,65,EV065,1,0,108,comment,noshadow
+map,25,,132,xd,1,0,355,script,Pokemon.play_cry(:TURTONATOR)
+map,25,,99,Slope,1,0,108,comment,Slope: -2x-1
+map,25,,99,Slope,1,1,108,comment,Width: 0/2
+map,25,,99,Slope,1,2,108,comment,Offset: 16px
+map,25,,166,EV166,1,0,101,show_text,(Parece estar atento al concierto...)
+map,25,,66,EV066,1,0,108,comment,noshadow
+map,25,,200,EV200,1,0,101,show_text,(Seems to be paying attention to the battle...)
+map,25,,133,EV133,1,2,101,show_text,\dxn[Lillie]¡Hola! Liberty nos llamó a mí y a mi hermano para participar en su torneo.
+map,25,,133,EV133,1,4,101,show_text,"\dxn[Lillie]Como parecía un buen señor y el lugar era parecido a Alola, pues le dijimos que sí."
+map,25,,133,EV133,1,6,101,show_text,\dxn[Lillie]Pero no me dijo que tenía que pelear en su torneo...
+map,25,,133,EV133,1,11,101,show_text,"\dxn[\PN]<i>(Pobre chavala, no conoce a Liberty del todo...)</i>"
+map,25,,133,EV133,1,16,101,show_text,"\dxn[\PN]<i>(Pobre chavala, no conoce a Liberty del todo...)</i>"

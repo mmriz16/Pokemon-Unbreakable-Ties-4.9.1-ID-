@@ -1,0 +1,520 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,707,,55,"Fuente, size(4,1)",1,0,108,comment,noshadow
+map,707,,92,"Puente, size(1,3)",1,0,355,script,pbBridgeOff
+map,707,,129,Trainer(4),1,0,355,script,pbTrainerIntro(:EXPLORADOR)
+map,707,,129,Trainer(4),1,1,355,script,pbNoticePlayer(get_character(0))
+map,707,,129,Trainer(4),1,2,101,show_text,¿Has venido a explorar la isla? ¡Yo también!
+map,707,,129,Trainer(4),1,7,355,script,pbTrainerEnd
+map,707,,129,Trainer(4),2,0,101,show_text,¡Se me va a poner un culazo de tanto caminar!
+map,707,,166,EV166,1,0,355,script,pbItemBall(:HEATROCK)
+map,707,,166,EV166,3,0,355,script,pbItemBall(:HEATROCK)
+map,707,,74,"Puente, size(4,1)",1,0,355,script,pbBridgeOff
+map,707,,148,EV148,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,148,EV148,1,1,102,choices,Si
+map,707,,148,EV148,1,1,102,choices,No
+map,707,,148,EV148,1,2,402,choice_branch,Si
+map,707,,148,EV148,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,148,EV148,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,148,EV148,1,44,402,choice_branch,No
+map,707,,148,EV148,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,148,EV148,2,1,102,choices,Si
+map,707,,148,EV148,2,1,102,choices,No
+map,707,,148,EV148,2,2,402,choice_branch,Si
+map,707,,148,EV148,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,148,EV148,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,148,EV148,2,44,402,choice_branch,No
+map,707,,185,"Fuente, size(3,1)",1,0,355,script,Pokemon.play_cry(:CHATOT)
+map,707,,185,"Fuente, size(3,1)",1,19,101,show_text,\sh\dxn[Darek]¡C-Creo que por aquí no es!
+map,707,,185,"Fuente, size(3,1)",1,24,101,show_text,\dxn[Eda]¿Huh? ¿Acaso le tienes miedo a los loros?
+map,707,,185,"Fuente, size(3,1)",1,29,101,show_text,\dxn[Darek]Tú no has visto nada... ¿sí?
+map,707,,56,"Fuente, size(1,4)",1,0,108,comment,noshadow
+map,707,,93,"Puente, size(3,1)",1,0,355,script,pbBridgeOn
+map,707,,130,xd,1,0,108,comment,noshadow
+map,707,,167,EV167,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL)
+map,707,,167,EV167,1,9,355,script,"setBattleRule(""base"", ""bridge"")"
+map,707,,167,EV167,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 65)"
+map,707,,167,EV167,1,11,355,script,pbSetEventTime
+map,707,,167,EV167,1,15,101,show_text,Parece que ha soltado una extraña moneda...
+map,707,,167,EV167,1,16,355,script,pbReceiveItem(:GOLD)
+map,707,,167,EV167,3,1,355,script,"setTempSwitchOn(""A"")"
+map,707,,75,"Puente, size(3,1)",1,0,355,script,pbBridgeOff
+map,707,,149,EV149,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,149,EV149,1,1,102,choices,Si
+map,707,,149,EV149,1,1,102,choices,No
+map,707,,149,EV149,1,2,402,choice_branch,Si
+map,707,,149,EV149,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,149,EV149,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,149,EV149,1,44,402,choice_branch,No
+map,707,,149,EV149,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,149,EV149,2,1,102,choices,Si
+map,707,,149,EV149,2,1,102,choices,No
+map,707,,149,EV149,2,2,402,choice_branch,Si
+map,707,,149,EV149,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,149,EV149,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,149,EV149,2,44,402,choice_branch,No
+map,707,,1,EV001,1,0,355,script,pbItemBall(:SUNSTONE)
+map,707,,94,Update,1,0,108,comment,noshadow
+map,707,,131,xd,1,0,108,comment,noshadow
+map,707,,168,Slope,1,0,108,comment,Slope: -2x-1
+map,707,,168,Slope,1,1,108,comment,Width: 1/2
+map,707,,168,Slope,1,2,108,comment,Offset: 16px
+map,707,,20,EV020,1,0,355,script,pbItemBall(:FULLRESTORE)
+map,707,,20,EV020,3,0,355,script,pbItemBall(:FULLRESTORE)
+map,707,,57,"Fuente, size(1,3)",1,0,108,comment,noshadow
+map,707,,113,"Fuente, size(1,3)",1,0,108,comment,noshadow
+map,707,,150,EV150,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,150,EV150,1,1,102,choices,Si
+map,707,,150,EV150,1,1,102,choices,No
+map,707,,150,EV150,1,2,402,choice_branch,Si
+map,707,,150,EV150,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,150,EV150,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,150,EV150,1,44,402,choice_branch,No
+map,707,,150,EV150,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,150,EV150,2,1,102,choices,Si
+map,707,,150,EV150,2,1,102,choices,No
+map,707,,150,EV150,2,2,402,choice_branch,Si
+map,707,,150,EV150,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,150,EV150,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,150,EV150,2,44,402,choice_branch,No
+map,707,,187,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,2,EV002,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL)
+map,707,,2,EV002,1,9,355,script,"setBattleRule(""base"", ""bridge"")"
+map,707,,2,EV002,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 65)"
+map,707,,2,EV002,1,11,355,script,pbSetEventTime
+map,707,,2,EV002,1,15,101,show_text,Parece que ha soltado una extraña moneda...
+map,707,,2,EV002,1,16,355,script,pbReceiveItem(:GOLD)
+map,707,,2,EV002,3,1,355,script,"setTempSwitchOn(""A"")"
+map,707,,39,KOKOCULO,1,7,101,show_text,¡Has recogido un \c[6]Kokoculus\c[0]!
+map,707,,76,"Puente, size(4,1)",1,0,355,script,pbBridgeOff
+map,707,,132,Trainer,1,0,355,script,pbNoticePlayer(get_character(0))
+map,707,,132,Trainer,1,1,101,show_text,¡Estas aguas son geniales para capturar Pokémon! ¡Déjame enseñártelos!
+map,707,,132,Trainer,1,6,355,script,pbTrainerEnd
+map,707,,132,Trainer,2,0,101,show_text,¡Siguen siendo mis Pokémon favoritos!
+map,707,,169,Slope,1,0,108,comment,Slope: -2x-1
+map,707,,169,Slope,1,1,108,comment,Width: 0/2
+map,707,,169,Slope,1,2,108,comment,Offset: 16px
+map,707,,21,KOKOCULO,1,7,101,show_text,¡Has recogido un \c[6]Kokoculus\c[0]!
+map,707,,58,"Fuente, size(1,3)",1,0,108,comment,noshadow
+map,707,,95,Update,1,0,108,comment,noshadow
+map,707,,151,EV151,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,151,EV151,1,1,102,choices,Si
+map,707,,151,EV151,1,1,102,choices,No
+map,707,,151,EV151,1,2,402,choice_branch,Si
+map,707,,151,EV151,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,151,EV151,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,151,EV151,1,44,402,choice_branch,No
+map,707,,151,EV151,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,151,EV151,2,1,102,choices,Si
+map,707,,151,EV151,2,1,102,choices,No
+map,707,,151,EV151,2,2,402,choice_branch,Si
+map,707,,151,EV151,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,151,EV151,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,151,EV151,2,44,402,choice_branch,No
+map,707,,3,KOKOCULO,1,7,101,show_text,¡Has recogido un \c[6]Kokoculus\c[0]!
+map,707,,40,EV040,1,0,355,script,pbItemBall(:PEARL)
+map,707,,77,"Puente, size(6,1)",1,0,355,script,pbBridgeOff
+map,707,,114,"Fuente, size(1,3)",1,0,108,comment,noshadow
+map,707,,170,Slope,1,0,108,comment,Slope: 2x1
+map,707,,170,Slope,1,1,108,comment,Width: 1/2
+map,707,,170,Slope,1,2,108,comment,Offset: 16px
+map,707,,22,EV022,1,0,355,script,pbItemBall(:LUCKYEGG)
+map,707,,59,"Fuente, size(1,1)",1,0,108,comment,noshadow
+map,707,,96,Update,1,0,108,comment,noshadow
+map,707,,133,NOSE,1,0,101,show_text,"\sh¡La arena quema una barbaridad, y llevo zapatos!"
+map,707,,189,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,41,xd,1,0,108,comment,noshadow
+map,707,,78,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,152,EV152,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,152,EV152,1,1,102,choices,Si
+map,707,,152,EV152,1,1,102,choices,No
+map,707,,152,EV152,1,2,402,choice_branch,Si
+map,707,,152,EV152,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,152,EV152,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,152,EV152,1,44,402,choice_branch,No
+map,707,,152,EV152,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,152,EV152,2,1,102,choices,Si
+map,707,,152,EV152,2,1,102,choices,No
+map,707,,152,EV152,2,2,402,choice_branch,Si
+map,707,,152,EV152,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,152,EV152,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,152,EV152,2,44,402,choice_branch,No
+map,707,,23,xd,1,0,108,comment,noshadow
+map,707,,60,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,97,Update,1,0,108,comment,noshadow
+map,707,,134,EV134,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,134,EV134,1,1,102,choices,Si
+map,707,,134,EV134,1,1,102,choices,No
+map,707,,134,EV134,1,2,402,choice_branch,Si
+map,707,,134,EV134,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,134,EV134,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,134,EV134,1,44,402,choice_branch,No
+map,707,,134,EV134,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,134,EV134,2,1,102,choices,Si
+map,707,,134,EV134,2,1,102,choices,No
+map,707,,134,EV134,2,2,402,choice_branch,Si
+map,707,,134,EV134,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,134,EV134,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,134,EV134,2,44,402,choice_branch,No
+map,707,,171,Slope,1,0,108,comment,Slope: 2x1
+map,707,,171,Slope,1,1,108,comment,Width: 0/2
+map,707,,171,Slope,1,2,108,comment,Offset: 16px
+map,707,,42,xd,1,0,108,comment,noshadow
+map,707,,79,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,153,EV153,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,153,EV153,1,1,102,choices,Si
+map,707,,153,EV153,1,1,102,choices,No
+map,707,,153,EV153,1,2,402,choice_branch,Si
+map,707,,153,EV153,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,153,EV153,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,153,EV153,1,44,402,choice_branch,No
+map,707,,153,EV153,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,153,EV153,2,1,102,choices,Si
+map,707,,153,EV153,2,1,102,choices,No
+map,707,,153,EV153,2,2,402,choice_branch,Si
+map,707,,153,EV153,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,153,EV153,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,153,EV153,2,44,402,choice_branch,No
+map,707,,190,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,61,"Fuente, size(1,7)",1,0,108,comment,noshadow
+map,707,,98,Update,1,0,108,comment,noshadow
+map,707,,135,EV135,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,135,EV135,1,1,102,choices,Si
+map,707,,135,EV135,1,1,102,choices,No
+map,707,,135,EV135,1,2,402,choice_branch,Si
+map,707,,135,EV135,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,135,EV135,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,135,EV135,1,44,402,choice_branch,No
+map,707,,135,EV135,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,135,EV135,2,1,102,choices,Si
+map,707,,135,EV135,2,1,102,choices,No
+map,707,,135,EV135,2,2,402,choice_branch,Si
+map,707,,135,EV135,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,135,EV135,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,135,EV135,2,44,402,choice_branch,No
+map,707,,172,xd,1,0,108,comment,noshadow
+map,707,,43,xd,1,0,108,comment,noshadow
+map,707,,80,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,117,"Fuente, size(1,3)",1,0,108,comment,noshadow
+map,707,,154,Slope,1,0,108,comment,Slope: 2x-1
+map,707,,154,Slope,1,1,108,comment,Width: 0/2
+map,707,,154,Slope,1,2,108,comment,Offset: 16px
+map,707,,191,EV191,1,0,355,script,activateQuest(:Quest1)
+map,707,,62,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,99,xd,1,0,108,comment,noshadow
+map,707,,136,EV136,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,136,EV136,1,1,102,choices,Si
+map,707,,136,EV136,1,1,102,choices,No
+map,707,,136,EV136,1,2,402,choice_branch,Si
+map,707,,136,EV136,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,136,EV136,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,136,EV136,1,44,402,choice_branch,No
+map,707,,136,EV136,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,136,EV136,2,1,102,choices,Si
+map,707,,136,EV136,2,1,102,choices,No
+map,707,,136,EV136,2,2,402,choice_branch,Si
+map,707,,136,EV136,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,136,EV136,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,136,EV136,2,44,402,choice_branch,No
+map,707,,173,"Fuente, size(1,4)",1,0,108,comment,noshadow
+map,707,,7,EV007,1,0,355,script,pbItemBall(:PROTEIN)
+map,707,,44,EV044,1,0,355,script,pbItemBall(:CHOICESPECS)
+map,707,,81,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,155,Slope,1,0,108,comment,Slope: 2x-1
+map,707,,155,Slope,1,1,108,comment,Width: 1/2
+map,707,,155,Slope,1,2,108,comment,Offset: 16px
+map,707,,192,EV192,1,0,355,script,$game_variables[99] = 75
+map,707,,192,EV192,1,4,355,script,getPointMultiplier
+map,707,,26,EV026,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,707,,26,EV026,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,707,,26,EV026,1,2,102,choices,Si
+map,707,,26,EV026,1,2,102,choices,No
+map,707,,26,EV026,1,3,402,choice_branch,Si
+map,707,,26,EV026,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,707,,26,EV026,1,24,402,choice_branch,No
+map,707,,63,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,100,xd,1,0,108,comment,noshadow
+map,707,,137,EV137,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,137,EV137,1,1,102,choices,Si
+map,707,,137,EV137,1,1,102,choices,No
+map,707,,137,EV137,1,2,402,choice_branch,Si
+map,707,,137,EV137,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,137,EV137,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,137,EV137,1,44,402,choice_branch,No
+map,707,,137,EV137,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,137,EV137,2,1,102,choices,Si
+map,707,,137,EV137,2,1,102,choices,No
+map,707,,137,EV137,2,2,402,choice_branch,Si
+map,707,,137,EV137,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,137,EV137,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,137,EV137,2,44,402,choice_branch,No
+map,707,,174,"Fuente, size(1,2)",1,0,355,script,Pokemon.play_cry(:CHATOT)
+map,707,,174,"Fuente, size(1,2)",1,19,101,show_text,\sh\dxn[Darek]¡C-Creo que por aquí no es!
+map,707,,174,"Fuente, size(1,2)",1,24,101,show_text,\dxn[Eda]¿Huh? ¿Acaso le tienes miedo a los loros?
+map,707,,174,"Fuente, size(1,2)",1,29,101,show_text,\dxn[Darek]Tú no has visto nada... ¿sí?
+map,707,,45,xd,1,0,108,comment,noshadow
+map,707,,82,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,119,xd,1,0,108,comment,noshadow
+map,707,,156,Slope,1,0,108,comment,Slope: -2x1
+map,707,,156,Slope,1,1,108,comment,Width: 1/2
+map,707,,156,Slope,1,2,108,comment,Offset: 16px
+map,707,,193,EV193,1,0,355,script,$game_variables[98] = 1500
+map,707,,27,EV027,1,0,355,script,pbItemBall(:TM52)
+map,707,,64,"Fuente, size(1,4)",1,0,108,comment,noshadow
+map,707,,138,EV138,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,138,EV138,1,1,102,choices,Si
+map,707,,138,EV138,1,1,102,choices,No
+map,707,,138,EV138,1,2,402,choice_branch,Si
+map,707,,138,EV138,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,138,EV138,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,138,EV138,1,44,402,choice_branch,No
+map,707,,138,EV138,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,138,EV138,2,1,102,choices,Si
+map,707,,138,EV138,2,1,102,choices,No
+map,707,,138,EV138,2,2,402,choice_branch,Si
+map,707,,138,EV138,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,138,EV138,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,138,EV138,2,44,402,choice_branch,No
+map,707,,46,xd,1,0,108,comment,noshadow
+map,707,,83,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,120,"Fuente, size(1,3)",1,0,108,comment,noshadow
+map,707,,157,Slope,1,0,108,comment,Slope: -2x1
+map,707,,157,Slope,1,1,108,comment,Width: 0/2
+map,707,,157,Slope,1,2,108,comment,Offset: 16px
+map,707,,194,EV194,1,0,355,script,"setBattleRule(""backdrop"",""celestia"")"
+map,707,,194,EV194,1,1,355,script,"pbWildBattle(:DRAGONITE_1, 80)"
+map,707,,65,xd,1,0,108,comment,noshadow
+map,707,,102,"Fuente, size(1,4)",1,0,108,comment,noshadow
+map,707,,139,EV139,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,139,EV139,1,1,102,choices,Si
+map,707,,139,EV139,1,1,102,choices,No
+map,707,,139,EV139,1,2,402,choice_branch,Si
+map,707,,139,EV139,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,139,EV139,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,139,EV139,1,44,402,choice_branch,No
+map,707,,139,EV139,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,139,EV139,2,1,102,choices,Si
+map,707,,139,EV139,2,1,102,choices,No
+map,707,,139,EV139,2,2,402,choice_branch,Si
+map,707,,139,EV139,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,139,EV139,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,139,EV139,2,44,402,choice_branch,No
+map,707,,28,EV028,1,0,355,script,pbItemBall(:AERODACTYLITE)
+map,707,,195,EV195,1,0,355,script,"setBattleRule(""backdrop"",""gym1"")"
+map,707,,195,EV195,1,1,355,script,"pbWildBattle(:HAWLUCHA_1, 70)"
+map,707,,47,xd,1,0,108,comment,noshadow
+map,707,,158,NOSE,1,0,101,show_text,¿Qué hacen unos niños por aquí?
+map,707,,158,NOSE,1,2,101,show_text,"Este lugar no es para novatos, los Pokémon salvajes son de alto nivel."
+map,707,,121,xd,1,0,108,comment,noshadow
+map,707,,84,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,10,EV010,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres romperla?
+map,707,,10,EV010,1,1,102,choices,Si
+map,707,,10,EV010,1,1,102,choices,No
+map,707,,10,EV010,1,2,402,choice_branch,Si
+map,707,,10,EV010,1,22,402,choice_branch,No
+map,707,,66,xd,1,0,108,comment,noshadow
+map,707,,29,EV029,1,0,355,script,pbItemBall(:ABSORBBULB)
+map,707,,103,"Puente, size(5,1)",1,0,355,script,pbBridgeOff
+map,707,,140,EV140,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,140,EV140,1,1,102,choices,Si
+map,707,,140,EV140,1,1,102,choices,No
+map,707,,140,EV140,1,2,402,choice_branch,Si
+map,707,,140,EV140,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,140,EV140,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,140,EV140,1,44,402,choice_branch,No
+map,707,,140,EV140,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,140,EV140,2,1,102,choices,Si
+map,707,,140,EV140,2,1,102,choices,No
+map,707,,140,EV140,2,2,402,choice_branch,Si
+map,707,,140,EV140,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,140,EV140,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,140,EV140,2,44,402,choice_branch,No
+map,707,,196,EV196,1,0,355,script,completeQuest(:Quest1)
+map,707,,11,KOKOCULO,1,7,101,show_text,¡Has recogido un \c[6]Kokoculus\c[0]!
+map,707,,48,xd,1,0,108,comment,noshadow
+map,707,,159,NOSE,1,0,101,show_text,He entrado un segundo ahí dentro y me he quedado seco.
+map,707,,159,NOSE,1,2,101,show_text,"El calor es sofocante, menos mal que he traído agua para este viaje."
+map,707,,85,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,141,EV141,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,141,EV141,1,1,102,choices,Si
+map,707,,141,EV141,1,1,102,choices,No
+map,707,,141,EV141,1,2,402,choice_branch,Si
+map,707,,141,EV141,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,141,EV141,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,141,EV141,1,44,402,choice_branch,No
+map,707,,141,EV141,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,141,EV141,2,1,102,choices,Si
+map,707,,141,EV141,2,1,102,choices,No
+map,707,,141,EV141,2,2,402,choice_branch,Si
+map,707,,141,EV141,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,141,EV141,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,141,EV141,2,44,402,choice_branch,No
+map,707,,67,"Fuente, size(4,1)",1,0,108,comment,noshadow
+map,707,,197,EV197,1,0,355,script,failQuest(:Quest1)
+map,707,,86,"Puente, size(5,1)",1,0,355,script,pbBridgeOff
+map,707,,160,EV160,1,1,101,show_text,"\dxn[Eda]¡Oye, Darek! ¿Y lo de entrar a un volcán lo ves factible?"
+map,707,,160,EV160,1,5,101,show_text,"\dxn[Darek]Dudo mucho que la esfera esté ahí dentro, no te voy a mentir."
+map,707,,49,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,142,EV142,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,142,EV142,1,1,102,choices,Si
+map,707,,142,EV142,1,1,102,choices,No
+map,707,,142,EV142,1,2,402,choice_branch,Si
+map,707,,142,EV142,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,142,EV142,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,142,EV142,1,44,402,choice_branch,No
+map,707,,142,EV142,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,142,EV142,2,1,102,choices,Si
+map,707,,142,EV142,2,1,102,choices,No
+map,707,,142,EV142,2,2,402,choice_branch,Si
+map,707,,142,EV142,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,142,EV142,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,142,EV142,2,44,402,choice_branch,No
+map,707,,179,EV179,2,10,355,script,pbCameraToEvent(46)
+map,707,,179,EV179,2,15,355,script,pbCameraShake(7)
+map,707,,179,EV179,2,25,355,script,pbCameraShakeOff
+map,707,,179,EV179,2,28,101,show_text,Parece que la puerta de las ruinas se ha abierto...
+map,707,,179,EV179,2,32,355,script,pbCameraReset
+map,707,,68,"Fuente, size(4,1)",1,0,108,comment,noshadow
+map,707,,124,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,707,,124,Trainer(4),1,1,101,show_text,¿Me echarías crema en la esplada?
+map,707,,124,Trainer(4),1,6,101,show_text,\sh\dxn[Darek]¿¡Q-Qué!? ¡¿Yo?!
+map,707,,124,Trainer(4),1,11,101,show_text,\sh\dxn[Eda]¡Daaaaareeeek!
+map,707,,124,Trainer(4),1,16,101,show_text,"\sh\dxn[Darek]¡Esto... No, lo siento!"
+map,707,,124,Trainer(4),1,19,101,show_text,\sh¡Pues ahora verás!
+map,707,,124,Trainer(4),1,22,101,show_text,¿Qué tal un combate en la arena?
+map,707,,124,Trainer(4),1,29,355,script,pbTrainerEnd
+map,707,,124,Trainer(4),2,0,101,show_text,¡Habrá que darse un chapuzón!
+map,707,,87,"Puente, size(5,1)",1,0,355,script,pbBridgeOff
+map,707,,50,"Fuente, size(3,1)",1,0,108,comment,noshadow
+map,707,,161,EV161,1,1,101,show_text,"\dxn[Eda]¡Oye, Darek! ¿Y lo de entrar a un volcán lo ves factible?"
+map,707,,161,EV161,1,5,101,show_text,"\dxn[Darek]Dudo mucho que la esfera esté ahí dentro, no te voy a mentir."
+map,707,,198,EV198,1,0,355,script,"setBattleRule(""backdrop"",""prado"")"
+map,707,,198,EV198,1,1,355,script,"pbWildBattle(:VICTREEBEL_1, 70)"
+map,707,,180,KOKOCULO,1,7,101,show_text,¡Has recogido un \c[6]Kokoculus\c[0]!
+map,707,,69,"Fuente, size(q,1)",1,0,108,comment,noshadow
+map,707,,32,EV032,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,707,,32,EV032,1,1,401,show_text_cont,<b>Palmeo</b>?
+map,707,,32,EV032,1,2,102,choices,Si
+map,707,,32,EV032,1,2,102,choices,No
+map,707,,32,EV032,1,3,402,choice_branch,Si
+map,707,,32,EV032,1,5,101,show_text,¡Has usado <b>Palmeo</b>!
+map,707,,32,EV032,1,24,402,choice_branch,No
+map,707,,143,EV143,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,143,EV143,1,1,102,choices,Si
+map,707,,143,EV143,1,1,102,choices,No
+map,707,,143,EV143,1,2,402,choice_branch,Si
+map,707,,143,EV143,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,143,EV143,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,143,EV143,1,44,402,choice_branch,No
+map,707,,143,EV143,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,143,EV143,2,1,102,choices,Si
+map,707,,143,EV143,2,1,102,choices,No
+map,707,,143,EV143,2,2,402,choice_branch,Si
+map,707,,143,EV143,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,143,EV143,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,143,EV143,2,44,402,choice_branch,No
+map,707,,125,Trainer(3),1,0,355,script,pbNoticePlayer(get_character(0))
+map,707,,125,Trainer(3),1,1,101,show_text,¿Vienes a investigar las ruinas? ¡Déjame ver si estás preparado!
+map,707,,125,Trainer(3),1,6,355,script,pbTrainerEnd
+map,707,,125,Trainer(3),2,0,101,show_text,Me quedé en la ruina... ¿Lo pillas?
+map,707,,88,"Puente, size(3,1)",1,0,355,script,pbBridgeOff
+map,707,,51,xd,1,0,108,comment,noshadow
+map,707,,14,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,707,,162,"Fuente, size(4,1)",1,0,108,comment,noshadow
+map,707,,181,xd,1,0,108,comment,noshadow
+map,707,,70,"Fuente, size(4,1)",1,0,108,comment,noshadow
+map,707,,33,KOKOCULO,1,7,101,show_text,¡Has recogido un \c[6]Kokoculus\c[0]!
+map,707,,144,EV144,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,144,EV144,1,1,102,choices,Si
+map,707,,144,EV144,1,1,102,choices,No
+map,707,,144,EV144,1,2,402,choice_branch,Si
+map,707,,144,EV144,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,144,EV144,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,144,EV144,1,44,402,choice_branch,No
+map,707,,144,EV144,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,144,EV144,2,1,102,choices,Si
+map,707,,144,EV144,2,1,102,choices,No
+map,707,,144,EV144,2,2,402,choice_branch,Si
+map,707,,144,EV144,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,144,EV144,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,144,EV144,2,44,402,choice_branch,No
+map,707,,89,"Puente, size(3,1)",1,0,355,script,pbBridgeOn
+map,707,,52,"Fuente, size(1,4)",1,0,108,comment,noshadow
+map,707,,15,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,707,,126,Trainer(2),1,0,355,script,pbTrainerIntro(:ORNITOLOGO)
+map,707,,126,Trainer(2),1,1,355,script,pbNoticePlayer(get_character(0))
+map,707,,126,Trainer(2),1,2,101,show_text,¿Has visto lo bonitos qué son los pájaros de esta zona?
+map,707,,126,Trainer(2),1,4,101,show_text,¡Déjame enseñártelos!
+map,707,,126,Trainer(2),1,9,355,script,pbTrainerEnd
+map,707,,126,Trainer(2),2,0,101,show_text,"Akebia, la región de las jodidas aves."
+map,707,,163,"Fuente, size(4,1)",1,0,108,comment,noshadow
+map,707,,145,EV145,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,145,EV145,1,1,102,choices,Si
+map,707,,145,EV145,1,1,102,choices,No
+map,707,,145,EV145,1,2,402,choice_branch,Si
+map,707,,145,EV145,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,145,EV145,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,145,EV145,1,44,402,choice_branch,No
+map,707,,145,EV145,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,145,EV145,2,1,102,choices,Si
+map,707,,145,EV145,2,1,102,choices,No
+map,707,,145,EV145,2,2,402,choice_branch,Si
+map,707,,145,EV145,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,145,EV145,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,145,EV145,2,44,402,choice_branch,No
+map,707,,182,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,71,"Puente, size(4,1)",1,0,355,script,pbBridgeOff
+map,707,,90,"Puente, size(3,1)",1,0,355,script,pbBridgeOn
+map,707,,53,"Fuente, size(1,4)",1,0,108,comment,noshadow
+map,707,,16,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,707,,127,Trainer(4),1,0,355,script,pbTrainerIntro(:MONTANERO)
+map,707,,127,Trainer(4),1,1,355,script,pbNoticePlayer(get_character(0))
+map,707,,127,Trainer(4),1,2,101,show_text,¿Quieres que te enseñe mi palo?
+map,707,,127,Trainer(4),1,5,101,show_text,"\sh¡M-Mi palo para caminar por la montaña, quiero decir!"
+map,707,,127,Trainer(4),1,10,355,script,pbTrainerEnd
+map,707,,127,Trainer(4),2,0,101,show_text,"¡Estaba seguro de que llevaba uno, lo he perdido por el camino!"
+map,707,,164,EV164,1,0,101,show_text,Parece que la roca se puede romper. ¿Quieres romperla?
+map,707,,164,EV164,1,1,102,choices,Si
+map,707,,164,EV164,1,1,102,choices,No
+map,707,,164,EV164,1,2,402,choice_branch,Si
+map,707,,164,EV164,1,22,402,choice_branch,No
+map,707,,146,EV146,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,146,EV146,1,1,102,choices,Si
+map,707,,146,EV146,1,1,102,choices,No
+map,707,,146,EV146,1,2,402,choice_branch,Si
+map,707,,146,EV146,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,146,EV146,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,146,EV146,1,44,402,choice_branch,No
+map,707,,146,EV146,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,146,EV146,2,1,102,choices,Si
+map,707,,146,EV146,2,1,102,choices,No
+map,707,,146,EV146,2,2,402,choice_branch,Si
+map,707,,146,EV146,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,146,EV146,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,146,EV146,2,44,402,choice_branch,No
+map,707,,183,"Fuente, size(1,5)",1,0,108,comment,noshadow
+map,707,,72,"Puente, size(3,1)",1,0,355,script,pbBridgeOn
+map,707,,35,KOKOCULO,1,7,101,show_text,¡Has recogido un \c[6]Kokoculus\c[0]!
+map,707,,165,"Fuente, size(1,4)",1,0,108,comment,noshadow
+map,707,,91,"Puente, size(1,3)",1,0,355,script,pbBridgeOn
+map,707,,54,"Fuente, size(1,2)",1,0,108,comment,noshadow
+map,707,,17,"Volcan, size(2,1) Update",1,0,108,comment,noshadow
+map,707,,128,Trainer(4),1,0,355,script,pbNoticePlayer(get_character(0))
+map,707,,128,Trainer(4),1,1,101,show_text,¡Echa el freno madaleno! ¡Hora de combatir!
+map,707,,128,Trainer(4),1,6,355,script,pbTrainerEnd
+map,707,,128,Trainer(4),2,0,101,show_text,"¡BOH, eres muy fuerte!"
+map,707,,147,EV147,1,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,147,EV147,1,1,102,choices,Si
+map,707,,147,EV147,1,1,102,choices,No
+map,707,,147,EV147,1,2,402,choice_branch,Si
+map,707,,147,EV147,1,3,355,script,FollowingPkmn.toggle_off
+map,707,,147,EV147,1,42,355,script,FollowingPkmn.toggle_on
+map,707,,147,EV147,1,44,402,choice_branch,No
+map,707,,147,EV147,2,0,101,show_text,¿Quieres usar el kit de escalada?
+map,707,,147,EV147,2,1,102,choices,Si
+map,707,,147,EV147,2,1,102,choices,No
+map,707,,147,EV147,2,2,402,choice_branch,Si
+map,707,,147,EV147,2,3,355,script,FollowingPkmn.toggle_off
+map,707,,147,EV147,2,42,355,script,FollowingPkmn.toggle_on
+map,707,,147,EV147,2,44,402,choice_branch,No
+map,707,,184,"Fuente, size(2,2)",1,0,108,comment,noshadow
+map,707,,73,"Puente, size(3,1)",1,0,355,script,pbBridgeOn
