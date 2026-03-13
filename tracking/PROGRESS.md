@@ -19,6 +19,7 @@
 - Proofreading pass battle diterapkan ke runtime data untuk memperhalus kalimat yang paling sering muncul, misalnya status/stat down, pemblokiran jurus, serangan yang dihindari, dan beberapa pesan efek ability/item.
 - Proofreading pass battle kedua diterapkan untuk effectiveness, flee text, miss text, dan beberapa pesan status/ability yang sangat sering tampil saat turn berjalan.
 - Proofreading pass battle ketiga diterapkan untuk status ailment text dan beberapa kalimat flavour yang masih kaku, termasuk paralysis cure, drowsy/levitate text, dan beberapa deskripsi karakter yang sempat masih bercampur Spanyol.
+- Cleanup pass item/overworld diterapkan ke `messages.dat` untuk memulihkan path asset runtime (`Graphics/Pictures/...`), merapikan prompt mail/item/editor, dan membersihkan beberapa string story/profile yang masih bercampur Spanyol atau terlalu literal.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
@@ -31,7 +32,7 @@
 - Tidak ada akses Notion API/connector di environment ini.
 - `english.dat` Indonesia lama tidak ditemukan di folder sumber saat ini, jadi rebuild dilakukan dari file Inggris yang ada sekarang.
 - Hasil translasi mesin masih perlu proofreading, terutama trainer types, ribbon text, dan battle descriptions.
-- Hasil translasi mesin untuk `messages.dat` masih perlu proofreading; contoh yang masih kasar terlihat di trainer types seperti `Rival -> Menyaingi`.
+- Hasil translasi mesin untuk `messages.dat` masih perlu proofreading lanjutan, terutama event/story text dan prompt editor yang jarang muncul.
 
 ## Working Rules
 - Nama Pokemon, item, move, ability tetap pakai istilah asli kecuali diputuskan lain.
