@@ -1,0 +1,203 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,80,,9,EV009,1,0,108,comment,noshadow
+map,80,,47,EV047,1,0,108,comment,noshadow
+map,80,,28,EV028,1,0,101,show_text,<b><ac>RUTA 2</ac></b><ac>¡Pista de
+map,80,,28,EV028,1,1,401,show_text_cont,entrenadores!</ac>
+map,80,,66,EV066,1,0,108,comment,noshadow
+map,80,,104,EV104,1,0,108,comment,noshadow
+map,80,,57,EV057,1,0,108,comment,noshadow
+map,80,,95,EV095,1,0,108,comment,noshadow
+map,80,,10,EV010,1,0,108,comment,noshadow
+map,80,,48,EV048,1,0,108,comment,noshadow
+map,80,,29,EV029,1,0,101,show_text,"Hace unos años había un Butterfree volando sobre una piedra justo delante, pero hace poco decidieron intercambiar dicha piedra por una fuente."
+map,80,,67,EV067,1,0,108,comment,noshadow
+map,80,,105,EV105,1,0,108,comment,noshadow
+map,80,,20,EV020,1,0,101,show_text,Sólo hay basura.
+map,80,,58,EV058,1,0,108,comment,noshadow
+map,80,,96,EV096,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,80,,39,EV039,1,0,108,comment,noshadow
+map,80,,30,EV030,1,0,108,comment,noshadow
+map,80,,68,EV068,1,0,108,comment,noshadow
+map,80,,106,EV106,1,0,108,comment,noshadow
+map,80,,11,EV011,1,0,108,comment,noshadow
+map,80,,49,EV049,1,0,108,comment,noshadow
+map,80,,21,Darek,1,5,101,show_text,"\dxn[Darek]Buah, ya me he perdido... Qué mal se me da orientarme, por favor..."
+map,80,,21,Darek,1,17,101,show_text,\dxn[Darek]¿\PN? ¿Qué haces aquí? ¿Tú también te has perdido?
+map,80,,21,Darek,1,24,101,show_text,"\dxn[Darek](¡Espera, Darek!)"
+map,80,,21,Darek,1,30,101,show_text,"\dxn[Darek](\PN no puede pensar que me he perdido. Yo soy Darek, el increíble y perfecto Darek...)"
+map,80,,21,Darek,1,34,101,show_text,"\dxn[Darek]Ejem, ejem... (Tose)"
+map,80,,21,Darek,1,40,101,show_text,"\dxn[Darek]Quiero decir... ¡Es... estaba aquí explorando la zona, buscando Pokémon y eso!"
+map,80,,21,Darek,1,56,101,show_text,\dxn[\PN](...)
+map,80,,21,Darek,1,60,101,show_text,"\dxn[Darek]¡Oye, que va en serio!"
+map,80,,21,Darek,1,71,101,show_text,"\dxn[Darek]Tú no has visto nada, ¿vale? Toma, anda."
+map,80,,21,Darek,1,73,355,script,pbReceiveItem(:GREATBALL)
+map,80,,21,Darek,1,76,101,show_text,"\dxn[Darek]Bu... bueno, he terminado con mi... exploración, me voy a por el primer líder de gimnasio."
+map,80,,59,EV059,1,0,108,comment,noshadow
+map,80,,97,Update EV097,1,0,108,comment,noshadow
+map,80,,2,EV002,1,0,108,comment,noshadow
+map,80,,40,EV040,1,0,108,comment,noshadow
+map,80,,31,EV031,1,0,108,comment,noshadow
+map,80,,69,lucha rival f,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,69,lucha rival f,1,4,101,show_text,"\dxn[Eda]¡Espera, \PN!"
+map,80,,69,lucha rival f,1,24,101,show_text,\dxn[Eda]¡Parece que te me has adelantado!
+map,80,,69,lucha rival f,1,28,101,show_text,"\dxn[Eda]Yo estuve comprando algunas cosillas y buscando a la profesora en Pueblo Pardillo, pero creo que está más lejos todavía..."
+map,80,,69,lucha rival f,1,40,101,show_text,\dxn[Eda]También he sacado algún que otro Pokémon con el Gacha...
+map,80,,69,lucha rival f,1,44,101,show_text,\dxn[Eda]¿Qué te parece si echamos un combate rápido para poder probarlo?
+map,80,,69,lucha rival f,1,52,355,script,"setBattleRule(""canLose"")"
+map,80,,69,lucha rival f,1,54,101,show_text,"\dxn[Eda]¡Adelante Chic, vamos a calentar el ambiente!"
+map,80,,69,lucha rival f,1,57,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,69,lucha rival f,1,68,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es"
+map,80,,69,lucha rival f,1,69,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.
+map,80,,69,lucha rival f,1,73,101,show_text,\dxn[Eda]Sin duda voy a esforzarme por llegar a ser la
+map,80,,69,lucha rival f,1,74,401,show_text_cont,Campeona de la región. Pero parece que primero voy
+map,80,,69,lucha rival f,1,75,401,show_text_cont,a tener que superarte.
+map,80,,69,lucha rival f,1,79,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora, la cafetería debería estar en el próximo pueblo."
+map,80,,69,lucha rival f,1,83,101,show_text,\dxn[Eda]¡Nos vemos \PN!
+map,80,,69,lucha rival f,1,87,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,69,lucha rival f,1,99,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es"
+map,80,,69,lucha rival f,1,100,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.
+map,80,,69,lucha rival f,1,104,101,show_text,\dxn[Eda]Sin duda estoy un paso más cerca de llegar
+map,80,,69,lucha rival f,1,105,401,show_text_cont,a ser la Campeona de la región.
+map,80,,69,lucha rival f,1,109,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora! La cafetería debería estar en el próximo pueblo."
+map,80,,69,lucha rival f,1,113,101,show_text,"\dxn[Eda]¡Nos vemos, \PN!"
+map,80,,107,EV107,1,0,108,comment,noshadow
+map,80,,12,EV012,1,0,108,comment,noshadow
+map,80,,50,EV050,1,0,108,comment,noshadow
+map,80,,98,EV098,1,0,108,comment,noshadow
+map,80,,3,EV003,1,0,355,script,pbItemBall(:SUPERPOTION)
+map,80,,41,EV041,1,0,108,comment,noshadow
+map,80,,22,lucha rival f,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,22,lucha rival f,1,4,101,show_text,"\dxn[Eda]¡Espera, \PN!"
+map,80,,22,lucha rival f,1,23,101,show_text,\dxn[Eda]¡Parece que te me has adelantado!
+map,80,,22,lucha rival f,1,27,101,show_text,"\dxn[Eda]Yo estuve comprando algunas cosillas y buscando a la profesora en Pueblo Pardillo, pero creo que está más lejos todavía..."
+map,80,,22,lucha rival f,1,39,101,show_text,\dxn[Eda]También he sacado algún que otro Pokémon con el Gacha...
+map,80,,22,lucha rival f,1,43,101,show_text,\dxn[Eda]¿Qué te parece si echamos un combate rápido para poder probarlo?
+map,80,,22,lucha rival f,1,51,355,script,"setBattleRule(""canLose"")"
+map,80,,22,lucha rival f,1,53,101,show_text,"\dxn[Eda]¡Adelante Chic, vamos a calentar el ambiente!"
+map,80,,22,lucha rival f,1,56,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,22,lucha rival f,1,67,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es"
+map,80,,22,lucha rival f,1,68,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.
+map,80,,22,lucha rival f,1,72,101,show_text,\dxn[Eda]Sin duda voy a esforzarme por llegar a ser la
+map,80,,22,lucha rival f,1,73,401,show_text_cont,Campeona de la región. Pero parece que primero voy
+map,80,,22,lucha rival f,1,74,401,show_text_cont,a tener que superarte.
+map,80,,22,lucha rival f,1,78,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora, la cafetería debería estar en el próximo pueblo."
+map,80,,22,lucha rival f,1,82,101,show_text,\dxn[Eda]¡Nos vemos \PN!
+map,80,,22,lucha rival f,1,86,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,22,lucha rival f,1,98,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es"
+map,80,,22,lucha rival f,1,99,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.
+map,80,,22,lucha rival f,1,103,101,show_text,\dxn[Eda]Sin duda estoy un paso más cerca de llegar
+map,80,,22,lucha rival f,1,104,401,show_text_cont,a ser la Campeona de la región.
+map,80,,22,lucha rival f,1,108,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora! La cafetería debería estar en el próximo pueblo."
+map,80,,22,lucha rival f,1,112,101,show_text,"\dxn[Eda]¡Nos vemos, \PN!"
+map,80,,60,EV060,1,0,108,comment,noshadow
+map,80,,32,EV032,1,0,108,comment,noshadow
+map,80,,70,lucha rival f,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,70,lucha rival f,1,4,101,show_text,"\dxn[Eda]¡Espera, \PN!"
+map,80,,70,lucha rival f,1,24,101,show_text,\dxn[Eda]¡Parece que te me has adelantado!
+map,80,,70,lucha rival f,1,28,101,show_text,"\dxn[Eda]Yo estuve comprando algunas cosillas y buscando a la profesora en Pueblo Pardillo, pero creo que está más lejos todavía..."
+map,80,,70,lucha rival f,1,40,101,show_text,\dxn[Eda]También he sacado algún que otro Pokémon con el Gacha...
+map,80,,70,lucha rival f,1,44,101,show_text,\dxn[Eda]¿Qué te parece si echamos un combate rápido para poder probarlo?
+map,80,,70,lucha rival f,1,52,355,script,"setBattleRule(""canLose"")"
+map,80,,70,lucha rival f,1,54,101,show_text,"\dxn[Eda]¡Adelante Chic, vamos a calentar el ambiente!"
+map,80,,70,lucha rival f,1,57,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,70,lucha rival f,1,68,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es"
+map,80,,70,lucha rival f,1,69,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.
+map,80,,70,lucha rival f,1,73,101,show_text,\dxn[Eda]Sin duda voy a esforzarme por llegar a ser la
+map,80,,70,lucha rival f,1,74,401,show_text_cont,Campeona de la región. Pero parece que primero voy
+map,80,,70,lucha rival f,1,75,401,show_text_cont,a tener que superarte.
+map,80,,70,lucha rival f,1,79,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora, la cafetería debería estar en el próximo pueblo."
+map,80,,70,lucha rival f,1,83,101,show_text,\dxn[Eda]¡Nos vemos \PN!
+map,80,,70,lucha rival f,1,87,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,80,,70,lucha rival f,1,99,101,show_text,"\dxn[Eda]Me encanta pelear con los Pokémon, es"
+map,80,,70,lucha rival f,1,100,401,show_text_cont,mucho mejor de lo que imaginé cuando era pequeña.
+map,80,,70,lucha rival f,1,104,101,show_text,\dxn[Eda]Sin duda estoy un paso más cerca de llegar
+map,80,,70,lucha rival f,1,105,401,show_text_cont,a ser la Campeona de la región.
+map,80,,70,lucha rival f,1,109,101,show_text,"\dxn[Eda]¡En fin, voy a buscar a la profesora! La cafetería debería estar en el próximo pueblo."
+map,80,,70,lucha rival f,1,113,101,show_text,"\dxn[Eda]¡Nos vemos, \PN!"
+map,80,,108,EV108,1,0,108,comment,noshadow
+map,80,,13,EV013,1,0,101,show_text,"Atrapé a este Roselia cuando todavía era un Budew justamente en esta ruta, ojalá volver a ser jovencita..."
+map,80,,13,EV013,1,1,102,choices,Usted se conserva bien
+map,80,,13,EV013,1,1,102,choices,El tiempo pasa volando
+map,80,,13,EV013,1,2,402,choice_branch,Usted se conserva bien
+map,80,,13,EV013,1,3,101,show_text,"Gracias cielo. Por ser tan amable, te voy a dar esto."
+map,80,,13,EV013,1,4,355,script,pbReceiveItem(:GRASSGEM)
+map,80,,13,EV013,1,7,402,choice_branch,El tiempo pasa volando
+map,80,,13,EV013,1,8,101,show_text,"Ciertamente, es triste pensar en ello..."
+map,80,,13,EV013,2,0,101,show_text,"Aprovecha el tiempo, nos vemos preciosidad."
+map,80,,51,EV051,1,0,108,comment,noshadow
+map,80,,4,EV004,1,6,355,script,Pokemon.play_cry(:GIMMIGHOUL)
+map,80,,4,EV004,1,9,355,script,"setBattleRule(""base"", ""bridge"")"
+map,80,,4,EV004,1,10,355,script,"pbWildBattle(:GIMMIGHOUL, 7)"
+map,80,,4,EV004,1,11,355,script,pbSetEventTime
+map,80,,4,EV004,1,15,101,show_text,Parece que ha soltado una extraña moneda...
+map,80,,4,EV004,1,16,355,script,pbReceiveItem(:GOLD)
+map,80,,4,EV004,3,1,355,script,"setTempSwitchOn(""A"")"
+map,80,,42,EV042,1,0,108,comment,noshadow
+map,80,,80,EV080,1,0,108,comment,noshadow
+map,80,,23,EV023,1,0,108,comment,noshadow
+map,80,,61,EV061,1,0,108,comment,noshadow
+map,80,,99,EV099,1,0,108,comment,noshadow
+map,80,,109,EV109,1,0,108,comment,noshadow
+map,80,,14,EV014,1,0,108,comment,noshadow
+map,80,,52,EV052,1,0,108,comment,noshadow
+map,80,,33,EV033,1,0,101,show_text,Me gusta esta ruta porque es muy llana para correr.
+map,80,,100,EV100,1,0,108,comment,noshadow
+map,80,,62,Slope,1,0,108,comment,Slope: -3x-2
+map,80,,62,Slope,1,1,108,comment,Width: 1/2
+map,80,,62,Slope,1,2,108,comment,Offset: 16px
+map,80,,24,EV024,1,0,355,script,pbItemBall(:POTION)
+map,80,,81,EV081,1,0,108,comment,noshadow
+map,80,,43,EV043,1,0,108,comment,noshadow
+map,80,,5,Trainer(5),1,0,355,script,pbTrainerIntro(:CHICA)
+map,80,,5,Trainer(5),1,1,355,script,pbNoticePlayer(get_character(0))
+map,80,,5,Trainer(5),1,2,101,show_text,Tengo el Pokémon más fuerte del mundo.
+map,80,,5,Trainer(5),1,7,355,script,pbTrainerEnd
+map,80,,5,Trainer(5),2,0,101,show_text,Pensaba que Bidoof era más fuerte...
+map,80,,15,EV015,1,0,108,comment,noshadow
+map,80,,91,EV091,1,0,108,comment,noshadow
+map,80,,101,EV101,1,0,108,comment,noshadow
+map,80,,63,Slope,1,0,108,comment,Slope: -3x-2
+map,80,,63,Slope,1,1,108,comment,Width: 0/2
+map,80,,63,Slope,1,2,108,comment,Offset: 16px
+map,80,,44,EV044,1,0,108,comment,noshadow
+map,80,,25,EV025,1,0,355,script,pbItemBall(:REPEL)
+map,80,,6,Trainer(4),1,0,355,script,pbTrainerIntro(:JOVEN)
+map,80,,6,Trainer(4),1,1,355,script,pbNoticePlayer(get_character(0))
+map,80,,6,Trainer(4),1,2,101,show_text,Acabo de atrapar un Pokémon y quiero probarlo. ¿Te
+map,80,,6,Trainer(4),1,3,401,show_text_cont,apuntas a un combate?
+map,80,,6,Trainer(4),1,8,355,script,pbTrainerEnd
+map,80,,6,Trainer(4),2,0,101,show_text,Intentaré atrapar otra cosa...
+map,80,,16,EV016,1,0,108,comment,noshadow
+map,80,,54,EV054,1,0,108,comment,noshadow
+map,80,,35,EV035,1,0,108,comment,noshadow
+map,80,,92,EV092,1,0,108,comment,noshadow
+map,80,,102,EV102,1,0,108,comment,noshadow
+map,80,,83,EV083,1,0,355,script,Pokemon.play_cry(:ROSELIA)
+map,80,,26,EV026,1,0,101,show_text,<b><ac>RUTA 2</ac></b><ac>¡Pista de
+map,80,,26,EV026,1,1,401,show_text_cont,entrenadores!</ac>
+map,80,,64,Slope,1,0,108,comment,Slope: 3x2
+map,80,,64,Slope,1,1,108,comment,Width: 1/2
+map,80,,64,Slope,1,2,108,comment,Offset: 16px
+map,80,,7,EV007,1,0,355,script,pbItemBall(:TM10)
+map,80,,45,EV045,1,0,101,show_text,<b><ac>RUTA 2</ac></b><ac>¡Pista de
+map,80,,45,EV045,1,1,401,show_text_cont,entrenadores!</ac>
+map,80,,36,EV036,1,0,108,comment,noshadow
+map,80,,17,EV017,1,0,108,comment,noshadow
+map,80,,55,EV055,1,0,108,comment,noshadow
+map,80,,93,EV093,1,0,108,comment,noshadow
+map,80,,103,EV103,1,0,108,comment,noshadow
+map,80,,65,Slope,1,0,108,comment,Slope: 3x2
+map,80,,65,Slope,1,1,108,comment,Width: 0/2
+map,80,,65,Slope,1,2,108,comment,Offset: 16px
+map,80,,8,Trainer(2),1,0,355,script,pbTrainerIntro(:JOVEN)
+map,80,,8,Trainer(2),1,1,355,script,pbNoticePlayer(get_character(0))
+map,80,,8,Trainer(2),1,2,101,show_text,"Soy el más fuerte de la escuela, prepárate."
+map,80,,8,Trainer(2),1,7,355,script,pbTrainerEnd
+map,80,,8,Trainer(2),2,0,101,show_text,Tendré que entrenar más entonces.
+map,80,,46,EV046,1,0,108,comment,noshadow
+map,80,,27,EV027,1,0,101,show_text,<b><ac>RUTA 2</ac></b><ac>¡Pista de
+map,80,,27,EV027,1,1,401,show_text_cont,entrenadores!</ac>
+map,80,,37,EV037,1,0,108,comment,noshadow
+map,80,,18,EV018,1,0,108,comment,noshadow
+map,80,,56,EV056,1,0,108,comment,noshadow
+map,80,,94,EV094,1,0,108,comment,noshadow

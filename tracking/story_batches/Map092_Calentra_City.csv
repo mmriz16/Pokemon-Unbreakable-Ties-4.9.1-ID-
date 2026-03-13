@@ -1,0 +1,330 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,92,,92,EV092,1,0,101,show_text,<b><ac>Ciudad Calentra</ac></b><ac>¡Una ciudad muy tranquila con playa!</ac><ac>
+map,92,,37,EV037,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,92,,37,EV037,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,74,Slope,1,0,108,comment,Slope: 2x1
+map,92,,74,Slope,1,1,108,comment,Width: 1/2
+map,92,,74,Slope,1,2,108,comment,Offset: 16px
+map,92,,111,EV111,1,0,108,comment,noshadow
+map,92,,148,EV148,1,0,108,comment,noshadow
+map,92,,93,Slope,1,0,108,comment,Slope: 2x1
+map,92,,93,Slope,1,1,108,comment,Width: 0/2
+map,92,,93,Slope,1,2,108,comment,Offset: 16px
+map,92,,19,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)"
+map,92,,19,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)"
+map,92,,19,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)"
+map,92,,19,Vending machine 1,1,3,355,script,pbPokemonMart2([
+map,92,,19,Vending machine 1,1,4,655,script_cont,":FRESHWATER,"
+map,92,,19,Vending machine 1,1,5,655,script_cont,":SODAPOP,"
+map,92,,19,Vending machine 1,1,6,655,script_cont,:LEMONADE])
+map,92,,75,EV075,1,0,101,show_text,Llego de trabajar bastante tarde... Una cervecita y pa' casa.
+map,92,,112,Slope,1,0,355,script,pbBridgeOff
+map,92,,112,Slope,1,1,108,comment,Slope: -2x1
+map,92,,112,Slope,1,2,108,comment,Width: 0/2
+map,92,,112,Slope,1,3,108,comment,Offset: 16px
+map,92,,149,EV149,1,1,355,script,$PokemonGlobal.gachaCoins += 3
+map,92,,38,EV038,1,5,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,92,,38,EV038,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,94,Slope,1,0,108,comment,Slope: 2x-1
+map,92,,94,Slope,1,1,108,comment,Width: 1/2
+map,92,,94,Slope,1,2,108,comment,Offset: 16px
+map,92,,131,EV131,1,0,108,comment,noshadow
+map,92,,20,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)"
+map,92,,20,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)"
+map,92,,20,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)"
+map,92,,20,Vending machine 1,1,3,355,script,pbPokemonMart2([
+map,92,,20,Vending machine 1,1,4,655,script_cont,":FRESHWATER,"
+map,92,,20,Vending machine 1,1,5,655,script_cont,":SODAPOP,"
+map,92,,20,Vending machine 1,1,6,655,script_cont,:LEMONADE])
+map,92,,57,EV057,1,0,101,show_text,"Tengo entendido que el Líder de Gimnasio de este pueblo, usa Pokémon de tipo Lucha."
+map,92,,113,EV113,1,0,108,comment,noshadow
+map,92,,39,EV039,1,5,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,92,,39,EV039,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,76,EV076,1,0,355,script,Pokemon.play_cry(:SANDYGAST)
+map,92,,132,EV132,1,0,108,comment,noshadow
+map,92,,21,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)"
+map,92,,21,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)"
+map,92,,21,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)"
+map,92,,21,Vending machine 1,1,3,355,script,pbPokemonMart2([
+map,92,,21,Vending machine 1,1,4,655,script_cont,":FRESHWATER,"
+map,92,,21,Vending machine 1,1,5,655,script_cont,":SODAPOP,"
+map,92,,21,Vending machine 1,1,6,655,script_cont,:LEMONADE])
+map,92,,58,EV058,1,0,101,show_text,"Estoy regando mis plantitas, ¡con este clima crecen genial!"
+map,92,,95,Slope,1,0,108,comment,Slope: 2x-1
+map,92,,95,Slope,1,1,108,comment,Width: 0/2
+map,92,,95,Slope,1,2,108,comment,Offset: 16px
+map,92,,40,EV040,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,92,,40,EV040,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,77,EV077,1,0,355,script,Pokemon.play_cry(:SANDYGAST)
+map,92,,114,EV114,1,0,108,comment,noshadow
+map,92,,22,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)"
+map,92,,22,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)"
+map,92,,22,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)"
+map,92,,22,Vending machine 1,1,3,355,script,pbPokemonMart2([
+map,92,,22,Vending machine 1,1,4,655,script_cont,":FRESHWATER,"
+map,92,,22,Vending machine 1,1,5,655,script_cont,":SODAPOP,"
+map,92,,22,Vending machine 1,1,6,655,script_cont,:LEMONADE])
+map,92,,59,EV059,1,0,355,script,Pokemon.play_cry(:BUDEW)
+map,92,,96,Slope,1,0,355,script,pbBridgeOff
+map,92,,96,Slope,1,1,108,comment,Slope: -2x1
+map,92,,96,Slope,1,2,108,comment,Width: 1/2
+map,92,,96,Slope,1,3,108,comment,Offset: 16px
+map,92,,133,EV133,1,0,108,comment,noshadow
+map,92,,115,EV115,1,0,108,comment,noshadow
+map,92,,23,EV023,1,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,60,EV060,1,0,101,show_text,¿Qué quieres? Estoy trabajando.
+map,92,,97,EV097,1,0,101,show_text,<b><ac>Ciudad Calentra</ac></b><ac>¡Una ciudad muy tranquila con playa!</ac><ac>
+map,92,,134,EV134,1,0,108,comment,noshadow
+map,92,,42,,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,79,EV079,1,0,101,show_text,Estoy entrenando para poder luchar contra el líder de esta ciudad.
+map,92,,79,EV079,1,2,101,show_text,"No me molestes, por favor."
+map,92,,116,EV116,1,0,108,comment,noshadow
+map,92,,24,EV024,1,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,61,EV061,1,0,101,show_text,Qué agotador tener que trabajar para la \c[2]Familia Real\c[0]...
+map,92,,135,EV135,1,0,108,comment,noshadow
+map,92,,43,,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,80,EV080,1,0,101,show_text,"Estudié para ser abogado. Exactamente, el que tengo aquí colgado."
+map,92,,117,EV117,1,0,108,comment,noshadow
+map,92,,25,evento playa,1,8,101,show_text,"\dxn[???]Muy bien Sawk, es hora de comprobar si eres capaz de usar nuestro movimiento clave."
+map,92,,25,evento playa,1,14,101,show_text,\f[Sawk]¡SAAAAWK!
+map,92,,25,evento playa,1,17,101,show_text,"\dxn[???]Primero lo haré yo, fíjate bien en la posición. Controla tu alma, respira profundamente... y cuando tu energía llegue a tus puños..."
+map,92,,25,evento playa,1,21,101,show_text,\sh\dxn[???]¡PALMEO!
+map,92,,25,evento playa,1,48,101,show_text,"\dxn[???]Este movimiento es esencial para un luchador cuerpo a cuerpo, destruyes al rival desde dentro hasta el punto de paralizar su cuerpo. No es un golpe"
+map,92,,25,evento playa,1,49,401,show_text_cont,"simple, es un choque de energía."
+map,92,,25,evento playa,1,58,101,show_text,"\dxn[???]Es tu turno, demuéstrame lo mucho que has mejorado."
+map,92,,25,evento playa,1,67,101,show_text,\f[Sawk]¡SAAAAWK!
+map,92,,25,evento playa,1,90,101,show_text,\f[ditto000]¡DITTO!
+map,92,,25,evento playa,1,115,101,show_text,\dxn[???]¡¿Cómo?! ¡¿Se puede saber de dónde ha salido este Ditto?!
+map,92,,25,evento playa,1,119,101,show_text,\sh\dxn[Rodolfo]¡Ey! ¿Qué estáis haciendo con mi Ditto? ¡Mocosos!
+map,92,,25,evento playa,1,129,101,show_text,\dxn[Rodolfo]¿No os da vergüenza tratar así a un Pokémon?
+map,92,,25,evento playa,1,135,101,show_text,\dxn[???]Espera... ¿Me acaba de llamar mocoso un crío?
+map,92,,25,evento playa,1,149,101,show_text,\wtnp[0]\dxn[???]¡Vuelve Sawk!\wt[10]
+map,92,,25,evento playa,1,155,101,show_text,"\wtnp[0]\dxn[Rodolfo]¡Ditto, ven tú también!\wt[10]"
+map,92,,25,evento playa,1,172,101,show_text,\dxn[Rodolfo]¿Cómo te atreves a golpear a mi Pokémon?
+map,92,,25,evento playa,1,176,101,show_text,\dxn[???]Esto... Fue sin querer.
+map,92,,25,evento playa,1,180,101,show_text,"\dxn[???]Sawk y yo estábamos entrenando, no sabíamos que esa roca era tu Ditto."
+map,92,,25,evento playa,1,185,101,show_text,\dxn[???]De hecho... ¿Se puede saber cómo llegó a la roca en medio del mar?
+map,92,,25,evento playa,1,189,101,show_text,\dxn[Rodolfo]A Ditto le gusta salir corriendo y convertirse en cosas.
+map,92,,25,evento playa,1,194,101,show_text,\sh\dxn[Rodolfo]Y por haber tocado a mi Ditto... ¡Nuestra furia caerá sobre ti!
+map,92,,25,evento playa,1,199,101,show_text,\dxn[Rodolfo]¡Adelante Ditto! ¡Conviértete en un Pokémon poderoso!
+map,92,,25,evento playa,1,212,101,show_text,\f[sawk]¡SAWK!
+map,92,,25,evento playa,1,216,101,show_text,"\dxn[Rodolfo]¡Ya que Ditto ha visto a Sawk, puede convertirse en él, estás acabado!"
+map,92,,25,evento playa,1,222,101,show_text,\dxn[???]Mocoso... ¿Me estás retando? ¿Es una broma?
+map,92,,25,evento playa,1,230,101,show_text,\f[lucario000]¡LUCARIO!
+map,92,,25,evento playa,1,235,101,show_text,"\sh\dxn[Rodolfo]¡WAAAAH! ¡Un Lucario, este tío va en serio!"
+map,92,,25,evento playa,1,267,101,show_text,\sh\dxn[Rodolfo]¡BUAAAAAAA! ¡Es \PN! ¡Sube Ditto!
+map,92,,25,evento playa,1,301,101,show_text,\dxn[???]¿Y tú quién eres?
+map,92,,25,evento playa,1,306,101,show_text,\dxn[Rodolfo]¡Es un Entrenador Pokémon! ¡Estás acabado!
+map,92,,25,evento playa,1,309,101,show_text,\dxn[Rodolfo]¡Es una Entrenadora Pokémon! ¡Estás acabado!
+map,92,,25,evento playa,1,318,101,show_text,\dxn[Rodolfo]¡Ahora no tendrás ninguna oportunidad! ¡Te has metido con la persona más fuerte del mundo (yo) y \PN!
+map,92,,25,evento playa,1,322,101,show_text,"\sh\dxn[Rodolfo]¡Adelante, \PN! ¡Ataca!"
+map,92,,25,evento playa,1,332,101,show_text,\sh\dxn[Rodolfo]¡Oye! ¡¿Qué estás haciendo?!
+map,92,,25,evento playa,1,346,102,choices,I think you should leave.
+map,92,,25,evento playa,1,346,102,choices,It'is better for you to leave.
+map,92,,25,evento playa,1,347,402,choice_branch,I think you should leave.
+map,92,,25,evento playa,1,349,402,choice_branch,It'is better for you to leave.
+map,92,,25,evento playa,1,367,101,show_text,"\dxn[Rodolfo]¡Está bien, te librarás de mí por ahora, pero me vengaré!"
+map,92,,25,evento playa,1,373,101,show_text,"\dxn[Rodolfo]¡Mientras tanto lo dejo en tus manos, \PN! ¡Mucha suerte!"
+map,92,,25,evento playa,1,419,101,show_text,"\dxn[???]En fin, qué más dará, es solo un niño."
+map,92,,25,evento playa,1,424,101,show_text,"\dxn[???]¿Y qué te trae por aquí? ¿Eres un Entrenador, cierto?"
+map,92,,25,evento playa,1,427,101,show_text,"\dxn[???]¿Y qué te trae por aquí? ¿Eres una Entrenadora, cierto?"
+map,92,,25,evento playa,1,438,101,show_text,\f[riolu002]¡RIOLU!
+map,92,,25,evento playa,1,454,101,show_text,\dxn[???]¡Vaya! ¿Tienes un Riolu?
+map,92,,25,evento playa,1,475,101,show_text,\dxn[???]Parece que tu Riolu quería saludar a mi Lucario.
+map,92,,25,evento playa,1,479,101,show_text,\f[lucario001]¡LUCARIO!
+map,92,,25,evento playa,1,482,101,show_text,\dxn[???]Lucario es la forma evolucionada de Riolu. Evoluciona cuando el aprecio que siente por su entrenador es tan grande que siente la necesidad de ir más
+map,92,,25,evento playa,1,483,401,show_text_cont,allá de sus límites físicos.
+map,92,,25,evento playa,1,488,101,show_text,"\dxn[???]Veo que estás cuidando de tu Riolu como se debe, parece bastante feliz."
+map,92,,25,evento playa,1,492,101,show_text,"\dxn[???]Por cierto, se me ha olvidado presentarme. Soy Yang Xiao, el Líder de Gimnasio de <b>Ciudad Calentra</b>. Tu nombre es \PN... ¿Me equivoco?"
+map,92,,25,evento playa,1,496,101,show_text,\dxn[Yang Xiao]¿Qué te trae por esta ciudad? No os había visto nunca por aquí.
+map,92,,25,evento playa,1,499,102,choices,I want to be a Pkmn Master
+map,92,,25,evento playa,1,499,102,choices,I wanna challenge the Gym.
+map,92,,25,evento playa,1,500,402,choice_branch,I want to be a Pkmn Master
+map,92,,25,evento playa,1,502,402,choice_branch,I wanna challenge the Gym.
+map,92,,25,evento playa,1,509,101,show_text,"\dxn[Yang Xiao]Así que estás reuniendo las 8 medallas de gimnasio para presentarte a la Liga de este año y hacerte un hueco en este mundillo, supongo."
+map,92,,25,evento playa,1,516,101,show_text,"\dxn[Yang Xiao]Aún así, lamento decirte que no estás listo para enfrentarme, ni siquiera conoces el movimiento \c[2]Palmeo\c[0], esencial para los \c[2]Cultivadores"
+map,92,,25,evento playa,1,517,401,show_text_cont,del Alma\c[0].
+map,92,,25,evento playa,1,520,101,show_text,"\dxn[Yang Xiao]Aún así, lamento decirte que no estás lista para enfrentarme, ni siquiera conoces el movimiento \c[2]Palmeo\c[0], esencial para los \c[2]Cultivadores"
+map,92,,25,evento playa,1,521,401,show_text_cont,del Alma\c[0].
+map,92,,25,evento playa,1,527,101,show_text,"\dxn[Yang Xiao]Te recomiendo que vayas a <b>Ciudad Verderón</b> a librar un combate de Gimnasio, es conocido por ser muy... ""salvaje""."
+map,92,,25,evento playa,1,531,101,show_text,\dxn[Yang Xiao]Mejorarás muchísimo si eres capaz de vencerle.
+map,92,,25,evento playa,1,536,101,show_text,\dxn[Yang Xiao]¡Por cierto! Ya que estás... ¿Podrías hacerme un favor?
+map,92,,25,evento playa,1,547,101,show_text,\dxn[Yang Xiao]Tengo a mi maestro en <b>Pueblo Jilguero</b>. ¿Te importaría entregarle una carta de mi parte?
+map,92,,25,evento playa,1,551,101,show_text,\dxn[Yang Xiao]Haz lo que dije y después de eso te daré la oportunidad de combatir contra mí. ¿De acuerdo?
+map,92,,25,evento playa,1,562,101,show_text,"\dxn[Yang Xiao]Muchas gracias de antemano. Ahora, si me disculpas, volveré al gimnasio Pokémon. Un chaval ha venido esta mañana a retarme y hay que"
+map,92,,25,evento playa,1,563,401,show_text_cont,reconstruir las paredes.
+map,92,,25,evento playa,1,574,101,show_text,"\dxn[Yang Xiao]No te preocupes, lo entenderás cuando lo veas con tus propios ojos."
+map,92,,25,evento playa,1,584,101,show_text,"\dxn[Yang Xiao]Nos vemos pronto, \PN."
+map,92,,25,evento playa,1,615,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,92,,25,evento playa,1,618,355,script,pbAddSocialLink(:YANGXIAO)
+map,92,,25,evento playa,1,619,355,script,"pbGainSocialLinkBond(:YANGXIAO, 1)"
+map,92,,62,EV062,1,0,101,show_text,Y lo bien que estaría yo tomando el sol aquí... Quizás me acabe mudando a esta parte de la región.
+map,92,,136,EV136,1,0,108,comment,noshadow
+map,92,,44,,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,81,EV081,1,0,101,show_text,"Me gusta venir por la noche a ver el mar, me recuerda a ella..."
+map,92,,118,EV118,1,0,108,comment,noshadow
+map,92,,63,EV063,1,0,101,show_text,"Qué calor, por dios, encima tenemos que hacer vigilancia por esta zona."
+map,92,,100,EV100,1,0,108,comment,noshadow
+map,92,,137,EV137,1,0,108,comment,noshadow
+map,92,,45,,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,82,EV082,1,0,101,show_text,"Llevo todo el día en casa con el aire acondicionado puesto, he salido porque sino me acabaré resfriando..."
+map,92,,119,EV119,1,0,108,comment,noshadow
+map,92,,64,EV064,1,0,101,show_text,Estamos buscando a una señorita de unos 23 años. ¿Has visto a alguien así?
+map,92,,101,EV101,1,0,108,comment,noshadow
+map,92,,138,EV138,1,0,108,comment,noshadow
+map,92,,46,EV046,1,0,101,show_text,<b><ac>Ciudad Calentra</ac></b><ac>¡Una ciudad muy tranquila con playa!</ac><ac>
+map,92,,83,EV083,1,0,101,show_text,"La región de Akebia tiene muchos pueblos y ciudades tranquilas, pero Ciudad Lugano es todo lo contrario."
+map,92,,120,EV120,1,0,108,comment,noshadow
+map,92,,9,EV009,1,4,355,script,"pbZoomMap(1,1,zoom=""out"")"
+map,92,,9,EV009,1,5,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,92,,65,EV065,1,0,101,show_text,"Me estiraría en una de esas tumbonas, pero no sé yo si habrá que pagar..."
+map,92,,102,EV102,1,0,108,comment,noshadow
+map,92,,139,EV139,1,0,108,comment,noshadow
+map,92,,84,EV084,1,0,101,show_text,"Me gustaría ir a \c[2]Ciudad Cardenal\c[0], dicen que es la ciudad más importante del sur de la región. Le llaman \c[2]la ciudad del agua\c[0]."
+map,92,,121,EV121,1,0,108,comment,noshadow
+map,92,,10,EV010,1,0,108,comment,noshadow
+map,92,,47,EV047,1,0,101,show_text,<b><ac>Ciudad Calentra</ac></b><ac>¡Una ciudad muy tranquila con playa!</ac><ac>
+map,92,,103,EV103,1,0,108,comment,noshadow
+map,92,,140,EV140,1,0,108,comment,noshadow
+map,92,,29,EV029,1,0,101,show_text,<b><ac>LÍDER DE GIMNASIO</ac></b><ac>¡Demuestra la fuerza de tu alma!</ac><ac>By: Yang Xiao</ac>
+map,92,,66,EV066,1,0,101,show_text,No sé si meterme en el agua... Debe estar muy fría.
+map,92,,48,Slope,1,0,108,comment,Slope: -2x-1
+map,92,,48,Slope,1,1,108,comment,Width: 1/2
+map,92,,48,Slope,1,2,108,comment,Offset: 16px
+map,92,,85,EV085,1,0,101,show_text,¡Qué bien huelen las flores!
+map,92,,141,EV141,1,0,108,comment,noshadow
+map,92,,67,EV067,1,0,101,show_text,"¡Mira, he hecho un castillo de arena!"
+map,92,,67,EV067,1,2,102,choices,So cool!
+map,92,,67,EV067,1,2,102,choices,What nonsense.
+map,92,,67,EV067,1,3,402,choice_branch,So cool!
+map,92,,67,EV067,1,4,101,show_text,"¡Muchas gracias! Mira, te voy a dar esto para que puedas hacer los tuyos."
+map,92,,67,EV067,1,5,355,script,pbReceiveItem(:SOFTSAND)
+map,92,,67,EV067,1,8,402,choice_branch,What nonsense.
+map,92,,67,EV067,1,9,101,show_text,Menudo idiota.
+map,92,,67,EV067,2,0,101,show_text,¡Inténtalo tú ahora!
+map,92,,104,EV104,1,0,108,comment,noshadow
+map,92,,49,Slope,1,0,108,comment,Slope: -2x-1
+map,92,,49,Slope,1,1,108,comment,Width: 0/2
+map,92,,49,Slope,1,2,108,comment,Offset: 16px
+map,92,,86,EV086,1,0,101,show_text,"Había venido a realizar un combate de Gimnasio, pero al parecer se está reconstruyendo..."
+map,92,,86,EV086,1,1,101,show_text,A saber por qué será.
+map,92,,31,EV031,1,0,101,show_text,"Lo sentimos, el gimnasio está en reconstrucción. Si necesitas ver al líder de gimnasio, debe estar en la playa entrenando."
+map,92,,31,EV031,2,0,101,show_text,"Lo sentimos, el gimnasio está en reconstrucción. Vuelve en otro momento."
+map,92,,31,EV031,4,0,101,show_text,"Lo sentimos, el gimnasio está cerrado temporalmente."
+map,92,,68,EV068,1,0,101,show_text,"Vengo de noche a pescar un poco, aquí salen algunos Pokémon de agua salada."
+map,92,,105,EV105,1,0,108,comment,noshadow
+map,92,,142,EV142,1,0,108,comment,noshadow
+map,92,,50,EV050,1,2,101,show_text,\dxn[???]¡\PN!
+map,92,,50,EV050,1,25,101,show_text,"\sh\dxn[Eda]¡Buff, vaya pateada me he pegado desde la Cueva Reliquia!"
+map,92,,50,EV050,1,30,101,show_text,\dxn[Eda]¿Dónde te metiste? ¿Te perdiste por el camino?
+map,92,,50,EV050,1,35,101,show_text,"\dxn[Eda]Yo estuve buscando a la profesora Álama, y no la encuentro por ninguna parte... Espero que esté bien."
+map,92,,50,EV050,1,42,101,show_text,\dxn[Eda]¿Y Darek? ¿Dónde se ha metido ese chico?
+map,92,,50,EV050,1,52,101,show_text,\sh\dxn[Eda]¿Se puede saber por qué siempre vais por delante de mí? ¡No es justo!
+map,92,,50,EV050,1,57,101,show_text,"\dxn[Eda]En fin, espero que al menos no hayas estado divagando por ahí sin hacer nada. Habrás entrenado algo, supongo."
+map,92,,50,EV050,1,66,101,show_text,\dxn[Eda]¡Vamos a ver lo mucho que has progresado desde nuestro último combate juntos en Ciudad Verderón!
+map,92,,50,EV050,1,69,101,show_text,\dxn[Eda]¡Chic!
+map,92,,50,EV050,1,79,101,show_text,\f[combusken000]¡KEN!
+map,92,,50,EV050,1,82,101,show_text,"\sh\dxn[Eda]¡Disfrutemos de un combate, antes de enfrentarnos al Líder de Gimnasio!"
+map,92,,50,EV050,1,97,101,show_text,\dxn[Eda]¡Eres más fuerte de lo que imaginaba! ¿Qué ha pasado mientras no estábamos juntos?
+map,92,,50,EV050,1,101,101,show_text,"\dxn[Eda]¡Buen intento, Chic, muchas gracias!"
+map,92,,50,EV050,1,107,101,show_text,"\dxn[Eda]Te dejo retar al Líder de Gimnasio. Yo me voy a refrescar un rato en la playa, no siempre es entrenar y entrenar."
+map,92,,50,EV050,1,112,101,show_text,"\dxn[Eda]Iré a retarle cuando hayas acabado. ¡Mucha suerte, \PN!"
+map,92,,106,EV106,1,0,108,comment,noshadow
+map,92,,69,EV069,1,0,101,show_text,"Tengo a mi hijo jugando en la playa, a ver si con tanto construir castillos de arena, se acaba haciendo arquitecto."
+map,92,,32,EV032,1,0,101,show_text,"Lo sentimos, el gimnasio está en reconstrucción. Si necesitas ver al líder de gimnasio, debe estar en la playa entrenando."
+map,92,,32,EV032,2,0,101,show_text,"Lo sentimos, el gimnasio está en reconstrucción. Vuelve en otro momento."
+map,92,,32,EV032,4,0,101,show_text,"Lo sentimos, el gimnasio está cerrado temporalmente."
+map,92,,143,EV143,1,0,108,comment,noshadow
+map,92,,88,EV088,1,18,101,show_text,\dxn[Darek](¿Cómo puede ser tan fuerte?)
+map,92,,88,EV088,1,22,101,show_text,"\dxn[???]Ya te dije que no hacía falta ni que entraras al Gimnasio, no tienes el nivel suficiente."
+map,92,,88,EV088,1,26,101,show_text,"\dxn[???]No dejas de golpear al azar, tener un movimiento potente no te asegura la victoria. No puedes ir atacando a ciegas así como así."
+map,92,,88,EV088,1,31,101,show_text,"\sh\dxn[Darek]¡Deja de decirme lo que debo hacer, llevo años estudiando para esto!"
+map,92,,88,EV088,1,36,101,show_text,\dxn[???]¿Estudiar? ¿Te crees que eso te dará ventaja?
+map,92,,88,EV088,1,40,101,show_text,\dxn[???]Se nota que acabas de empezar a ser Entrenador Pokémon.
+map,92,,88,EV088,1,44,101,show_text,\dxn[???]Te queda mucho por aprender.
+map,92,,88,EV088,1,48,101,show_text,"\dxn[???]Y no sólo es eso. Para poder ganarme no sólo debes mejorar tu técnica, sino que tienes que cambiar tú como tal."
+map,92,,88,EV088,1,53,101,show_text,\dxn[???]No me parece normal que te enfades con tu Pokémon por tu incapacidad.
+map,92,,88,EV088,1,58,101,show_text,"\sh\dxn[Darek]¡Tch, no me des lecciones!"
+map,92,,88,EV088,1,65,101,show_text,"\dxn[???]No aparezcas de nuevo por aquí, no al menos hasta que hayas cambiado tu actitud. Puedes retirarte."
+map,92,,88,EV088,1,69,101,show_text,"\dxn[Darek]Ya verás, la próxima vez no será igual, quedas avisado."
+map,92,,88,EV088,1,91,101,show_text,\dxn[???]¿Se puede saber de dónde ha salido este chico? Ese comportamiento no es normal.
+map,92,,88,EV088,1,95,101,show_text,\dxn[???]¿Qué tipo de infancia ha debido de vivir?
+map,92,,88,EV088,1,102,101,show_text,"\dxn[???]En fin, no es cosa mía, suficiente tengo con investigar a la gente esa \c[2]vestida de negro\c[0]..."
+map,92,,88,EV088,1,107,101,show_text,"\dxn[???]Qué estrés de día, por favor... Me voy a la playa a entrenar un poco el alma."
+map,92,,88,EV088,1,123,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,92,,51,EDA,2,1,101,show_text,"\dxn[Eda]¿Fuiste a retar al líder de gimnasio? Yo estoy aquí, relajada. Necesito tener un buen mental para enfrentarme al líder de gimnasio."
+map,92,,51,EDA,3,5,101,show_text,"\dxn[Eda]¡Hey, \PN! ¿Ya retaste al líder de gimnasio?"
+map,92,,51,EDA,3,10,101,show_text,"\dxn[Eda]¿Ganaste? ¡Enhorabuena, sabía que lo lograrías!"
+map,92,,51,EDA,3,17,101,show_text,\sh\dxn[Eda]¿CÓMO? ¡¿HAN CERRADO EL GIMNASIO?!
+map,92,,51,EDA,3,21,101,show_text,\dxn[Eda]¿Y ahora qué hago yo?
+map,92,,51,EDA,3,25,101,show_text,\dxn[Eda]Supongo que le retaré en otro momento.
+map,92,,51,EDA,3,30,101,show_text,\dxn[Eda]¿Ir a <b>Ciudad Cardenal</b>?
+map,92,,51,EDA,3,37,101,show_text,\sh\dxn[Eda]¿La profe está en problemas? ¿Qué me dices?
+map,92,,51,EDA,3,43,101,show_text,(Le explicas todo lo ocurrido...)
+map,92,,51,EDA,3,50,101,show_text,"\dxn[Eda]Entiendo, así que esas son las intenciones de la Familia Real."
+map,92,,51,EDA,3,59,101,show_text,"\dxn[Eda]Parece que habrá que echar una mano, podemos quedarnos quietos."
+map,92,,51,EDA,3,63,101,show_text,"\dxn[Eda]Habría que buscar a Darek y explicarle la situación, seguro que nos será de ayuda."
+map,92,,51,EDA,3,67,101,show_text,"\dxn[Eda]Según el mapa, tendremos que ir al <b>Este</b> y pasar por <b>Ciudad Ninfa</b> para llegar hasta allá."
+map,92,,51,EDA,3,74,101,show_text,"\sh\dxn[Eda]¡Nos vemos entonces en dicha ciudad, \PN!"
+map,92,,70,EV070,1,0,355,script,pbItemBall(:FRESHWATER)
+map,92,,70,EV070,2,0,101,show_text,La papelera está vacía.
+map,92,,107,EV107,1,0,108,comment,noshadow
+map,92,,144,EV144,1,0,108,comment,noshadow
+map,92,,71,EV071,1,0,101,show_text,La papelera está vacía.
+map,92,,108,EV108,1,0,108,comment,noshadow
+map,92,,145,EV145,1,0,108,comment,noshadow
+map,92,,53,EV053,1,2,101,show_text,\dxn[???]¡\PN!
+map,92,,53,EV053,1,24,101,show_text,"\sh\dxn[Eda]¡Buff, vaya pateada me he pegado desde la Cueva Reliquia!"
+map,92,,53,EV053,1,29,101,show_text,\dxn[Eda]¿Dónde te metiste? ¿Te perdiste por el camino?
+map,92,,53,EV053,1,34,101,show_text,"\dxn[Eda]Yo estuve buscando a la profesora Álama, y no la encuentro por ninguna parte... Espero que esté bien."
+map,92,,53,EV053,1,41,101,show_text,\dxn[Eda]¿Y Darek? ¿Dónde se ha metido ese chico?
+map,92,,53,EV053,1,51,101,show_text,\sh\dxn[Eda]¿Se puede saber por qué siempre vais por delante de mí? ¡No es justo!
+map,92,,53,EV053,1,56,101,show_text,"\dxn[Eda]En fin, espero que al menos no hayas estado divagando por ahí sin hacer nada. Habrás entrenado algo, supongo."
+map,92,,53,EV053,1,65,101,show_text,\dxn[Eda]¡Vamos a ver lo mucho que has progresado desde nuestro último combate juntos en Ciudad Verderón!
+map,92,,53,EV053,1,68,101,show_text,\dxn[Eda]¡Chic!
+map,92,,53,EV053,1,78,101,show_text,\f[combusken000]¡KEN!
+map,92,,53,EV053,1,81,101,show_text,"\sh\dxn[Eda]¡Disfrutemos de un combate, antes de enfrentarnos al Líder de Gimnasio!"
+map,92,,53,EV053,1,96,101,show_text,\dxn[Eda]¡Eres más fuerte de lo que imaginaba! ¿Qué ha pasado mientras no estábamos juntos?
+map,92,,53,EV053,1,100,101,show_text,"\dxn[Eda]¡Buen intento, Chic, muchas gracias!"
+map,92,,53,EV053,1,106,101,show_text,"\dxn[Eda]Te dejo retar al Líder de Gimnasio. Yo me voy a refrescar un rato en la playa, no siempre es entrenar y entrenar."
+map,92,,53,EV053,1,111,101,show_text,"\dxn[Eda]Iré a retarle cuando hayas acabado. ¡Mucha suerte, \PN!"
+map,92,,109,EV109,1,0,108,comment,noshadow
+map,92,,72,EV072,1,0,355,script,"system(""start https://www.youtube.com/watch?v=w8MbR-No4X8"")"
+map,92,,72,EV072,2,0,355,script,"system(""start https://www.youtube.com/watch?v=w8MbR-No4X8"")"
+map,92,,35,EV035,1,0,101,show_text,"Mi hermana se cree que puede ganar, lo que no sabe es que Zangoose es mucho mejor que Seviper."
+map,92,,146,EV146,1,0,108,comment,noshadow
+map,92,,54,EV054,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,92,,54,EV054,1,39,101,show_text,"\dxn[Yang Xiao]En principio tu próxima parada es Ciudad Cardenal, si quieres seguir retando a los líderes de gimnasio."
+map,92,,54,EV054,1,43,101,show_text,"\dxn[Yang Xiao]He oído que la Familia Real va para allá. Ten mucho cuidado, no son trigo limpio. Intenta no meterte mucho en medio."
+map,92,,54,EV054,1,56,101,show_text,\sh\dxn[Yang Xiao]¿Cómo? ¿Ya has tenido contacto con ellos?
+map,92,,54,EV054,1,60,101,show_text,\dxn[Yang Xiao]Sin duda eres toda una sorpresa...
+map,92,,54,EV054,1,64,101,show_text,\dxn[Yang Xiao]Mi familia lleva mucho tiempo intentando cambiar el sistema actual.
+map,92,,54,EV054,1,68,101,show_text,"\dxn[Yang Xiao]Mi abuelo, que pertence al Alto Mando, no puede revelarse así como así. Eso afectaría a su posición."
+map,92,,54,EV054,1,80,101,show_text,"\dxn[???]Así es, pero algo deberíamos hacer."
+map,92,,54,EV054,1,95,101,show_text,\dxn[Yang Xiao]¡Maestro!
+map,92,,54,EV054,1,102,101,show_text,"\dxn[Yang Lao]\PN, ¿has conseguido proteger la lápida?"
+map,92,,54,EV054,1,113,101,show_text,"\dxn[Yang Lao]Hmm... Ya veo, conque han descifrado lo que pone."
+map,92,,54,EV054,1,117,101,show_text,"\dxn[Yang Lao]Puede que la cosa se ponga seria, sabrán que su lugar actual de residencia, es \c[2]Ciudad Cardenal\c[0]."
+map,92,,54,EV054,1,124,101,show_text,"\dxn[Yang Lao]Los Pokémon Eón necesitan nuestro apoyo, la Familia Real concentrará su seguri..."
+map,92,,54,EV054,1,128,101,show_text,"\sh\dxn[Yang Lao]¡Cof, Cof...!"
+map,92,,54,EV054,1,144,101,show_text,\sh\dxn[Yang Xiao]¡Maestro!
+map,92,,54,EV054,1,157,101,show_text,"\dxn[Yang Xiao]No se preocupe, maestro, nosotros nos ocuparemos de todo esto."
+map,92,,54,EV054,1,161,101,show_text,\dxn[Yang Lao]\ts[2]Por Arceus... La edad me pasa factura...
+map,92,,54,EV054,1,165,101,show_text,\dxn[Yang Lao](¿Debería dejar esto a los jóvenes?)
+map,92,,54,EV054,1,169,101,show_text,\dxn[Yang Lao]De acuerdo... Os dejaremos tomar el control de la situación.
+map,92,,54,EV054,1,173,101,show_text,"\dxn[Yang Lao]Pero ponte en contacto con el resto de líderes del Sur, tanto con \c[2]Silvano\c[0] como con \c[2]Celeste\c[0]."
+map,92,,54,EV054,1,177,101,show_text,"\dxn[Yang Lao]Si ya tenían suficiente poder, junto al misterioso poder de Latios, nunca podríamos darle la vuelta a la tortilla."
+map,92,,54,EV054,1,186,101,show_text,"\dxn[Yang Xiao]Sin problema, eso haremos."
+map,92,,54,EV054,1,190,101,show_text,"\dxn[Yang Xiao]Cerraremos el gimnasio temporalmente, no es prioridad ahora mismo."
+map,92,,54,EV054,1,194,101,show_text,\dxn[Yang Xiao]¿Podrás volver solo a casa?
+map,92,,54,EV054,1,199,101,show_text,"\dxn[Yang Lao]Por supuesto que sí, sigo teniendo una salud de hierro, novato, sólo son problemas de la edad."
+map,92,,54,EV054,1,203,101,show_text,\dxn[Yang Xiao]Perfecto entonces.
+map,92,,54,EV054,1,218,101,show_text,"\dxn[Yang Xiao]\PN, me gustaría que nos ayudaras con esta situación, tu fuerza puede ser indispensable."
+map,92,,54,EV054,1,222,101,show_text,"\dxn[Yang Xiao]Ve adelantándote a Ciudad Cardenal, yo tengo trabajo que hacer."
+map,92,,54,EV054,1,226,101,show_text,"\sh\dxn[Yang Xiao]¡Nos vemos pronto, \PN!"
+map,92,,54,EV054,1,233,101,show_text,"Mientras tanto, en alguna parte de la región..."
+map,92,,110,EV110,1,0,108,comment,noshadow
+map,92,,73,EV073,1,0,355,script,pbItemBall(:FRESHWATER)
+map,92,,73,EV073,2,0,101,show_text,La papelera está vacía.
+map,92,,36,EV036,1,0,101,show_text,"Mi hermano va de chulo con su Zangoose, no sabe la paliza que le voy a dar con mi Seviper."
+map,92,,147,EV147,1,0,108,comment,noshadow

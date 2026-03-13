@@ -1,0 +1,157 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,22,,5,EV005,1,24,355,script,pbChangePlayer(0)
+map,22,,5,EV005,1,38,355,script,pbChangePlayer(1)
+map,22,,1,Quick start intro,1,0,108,comment,"This is the Debug intro, used to quickly start a game."
+map,22,,1,Quick start intro,1,1,408,comment_cont,The player's name and trainer type are chosen
+map,22,,1,Quick start intro,1,2,408,comment_cont,automatically.
+map,22,,1,Quick start intro,1,3,355,script,pbChangePlayer(0)
+map,22,,1,Quick start intro,1,4,355,script,"pbTrainerName(""Red"")"
+map,22,,1,Quick start intro,1,6,355,script,pbToneChangeAll(
+map,22,,1,Quick start intro,1,7,655,script_cont,"Tone.new(-255, -255, -255, 0),"
+map,22,,1,Quick start intro,1,8,655,script_cont,0
+map,22,,1,Quick start intro,1,9,655,script_cont,)
+map,22,,1,Quick start intro,1,11,355,script,pbToneChangeAll(
+map,22,,1,Quick start intro,1,12,655,script_cont,"Tone.new(0, 0, 0, 0),"
+map,22,,1,Quick start intro,1,13,655,script_cont,10
+map,22,,1,Quick start intro,1,14,655,script_cont,)
+map,22,,2,Intro,1,8,101,show_text,"Antes de empezar, ¿necesitas saber cómo funcionan los controles?"
+map,22,,2,Intro,1,9,102,choices,Si
+map,22,,2,Intro,1,9,102,choices,Nah
+map,22,,2,Intro,1,10,402,choice_branch,Si
+map,22,,2,Intro,1,11,355,script,pbEventScreen(ButtonEventScene)
+map,22,,2,Intro,1,13,402,choice_branch,Nah
+map,22,,2,Intro,1,17,101,show_text,Un par de preguntas antes de empezar...
+map,22,,2,Intro,1,19,101,show_text,¿Quieres subir este juego a Internet? Esta opción sustituirá algunas canciones que contienen copyright para evitar problemas.
+map,22,,2,Intro,1,20,102,choices,"Sí, subiré el juego a Internet"
+map,22,,2,Intro,1,20,102,choices,"Nope, solo estoy jugando."
+map,22,,2,Intro,1,21,402,choice_branch,"Sí, subiré el juego a Internet"
+map,22,,2,Intro,1,22,355,script,$PokemonSystem.streamer = 1
+map,22,,2,Intro,1,24,402,choice_branch,"Nope, solo estoy jugando."
+map,22,,2,Intro,1,28,101,show_text,Para evitar cualquier problema... ¿Eres fotosensible a algunas luces e iluminación?
+map,22,,2,Intro,1,29,102,choices,"Sip, soy fotosensible"
+map,22,,2,Intro,1,29,102,choices,Nope
+map,22,,2,Intro,1,30,402,choice_branch,"Sip, soy fotosensible"
+map,22,,2,Intro,1,31,355,script,$PokemonSystem.flashlight = 1
+map,22,,2,Intro,1,33,402,choice_branch,Nope
+map,22,,2,Intro,1,42,108,comment,Selección de dificultad
+map,22,,2,Intro,1,45,101,show_text,Selecciona un modo de dificultad.
+map,22,,2,Intro,2,1,108,comment,Al pulsar hacia abajo
+map,22,,2,Intro,2,3,355,script,echo pbGet(406)
+map,22,,2,Intro,2,17,108,comment,Al pulsar hacia arriba
+map,22,,2,Intro,2,32,108,comment,Qué imagen me enseña
+map,22,,2,Intro,2,57,108,comment,Si la tecla de Aceptar está presionada
+map,22,,2,Intro,2,60,101,show_text,El \c[2]Modo Fácil\c[0] es para gente que no está muy familiarizada con Pokémon.
+map,22,,2,Intro,2,62,101,show_text,Los Pokémon de los entrenadores tienen \c[2]2 nivel menos\c[0].
+map,22,,2,Intro,2,64,101,show_text,"Todos los Pokémon de entrenadores, tendrán sus \c[2]IVs y EVs a 0\c[0]."
+map,22,,2,Intro,2,66,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x0.75\c[0]."
+map,22,,2,Intro,2,68,101,show_text,¿Estás seguro de que quieres jugar en \c[2]Modo Fácil\c[0]?
+map,22,,2,Intro,2,69,102,choices,Sí
+map,22,,2,Intro,2,69,102,choices,No
+map,22,,2,Intro,2,70,402,choice_branch,Sí
+map,22,,2,Intro,2,82,402,choice_branch,No
+map,22,,2,Intro,2,91,101,show_text,El \c[2]Modo Normal\c[0] es el más recomendado para el público.
+map,22,,2,Intro,2,93,101,show_text,"Una dificultad estándar, para gente que juega Pokémon de manera casual."
+map,22,,2,Intro,2,95,101,show_text,¿Estás seguro de que quieres jugar en \c[2]Modo Normal\c[0]?
+map,22,,2,Intro,2,96,102,choices,Sí
+map,22,,2,Intro,2,96,102,choices,No
+map,22,,2,Intro,2,97,402,choice_branch,Sí
+map,22,,2,Intro,2,109,402,choice_branch,No
+map,22,,2,Intro,2,118,101,show_text,"El \c[2]Modo Difícil\c[0] es un poco más complicado, el nivel de todos los Pokémon de los entrenadores \c[2]aumentan en 1\c[0]."
+map,22,,2,Intro,2,120,101,show_text,"Además, todos sus Pokémon tendrán \c[2]31 IVs en cada estadística\c[0]."
+map,22,,2,Intro,2,122,101,show_text,"No es lo más difícil, pero se te puede llegar a complicar en alguna situación."
+map,22,,2,Intro,2,124,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.25\c[0]."
+map,22,,2,Intro,2,126,101,show_text,¿Estás seguro de que quieres jugar en \c[2]Modo Difícil\c[0]?
+map,22,,2,Intro,2,127,102,choices,Sí
+map,22,,2,Intro,2,127,102,choices,No
+map,22,,2,Intro,2,128,402,choice_branch,Sí
+map,22,,2,Intro,2,140,402,choice_branch,No
+map,22,,2,Intro,2,149,101,show_text,"Oh dios mío, el \c[2]Modo Radical\c[0] es para gente muy loca..."
+map,22,,2,Intro,2,151,101,show_text,\sh¡Pero que muuuy loca!
+map,22,,2,Intro,2,153,101,show_text,¡Los niveles de todos los Pokémon de tus adversarios aumentarán en \c[2]+3\c[0]!
+map,22,,2,Intro,2,155,101,show_text,Sus \c[2]EVs estarán al máximo y perfectamente repartidos según el Pokémon\c[0] y sus \c[2]IVs serán perfectos\c[0] en todas sus estadísticas!
+map,22,,2,Intro,2,157,101,show_text,"Además, \c[2]NO podrás hacer uso de la mochila en combate contra ellos\c[0]."
+map,22,,2,Intro,2,159,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.75\c[0]."
+map,22,,2,Intro,2,161,101,show_text,¿Estás seguro de que quieres jugar en \c[2]Modo Radical\c[0]?
+map,22,,2,Intro,2,162,102,choices,Sí
+map,22,,2,Intro,2,162,102,choices,No
+map,22,,2,Intro,2,163,402,choice_branch,Sí
+map,22,,2,Intro,2,175,402,choice_branch,No
+map,22,,2,Intro,3,1,108,comment,Al pulsar hacia abajo
+map,22,,2,Intro,3,3,355,script,echo pbGet(406)
+map,22,,2,Intro,3,17,108,comment,Al pulsar hacia arriba
+map,22,,2,Intro,3,32,108,comment,Le doy al BACK
+map,22,,2,Intro,3,83,108,comment,Le doy al START
+map,22,,2,Intro,3,92,108,comment,Si la tecla de Aceptar está presionada
+map,22,,2,Intro,3,96,102,choices,Deselect
+map,22,,2,Intro,3,96,102,choices,Information
+map,22,,2,Intro,3,96,102,choices,Nothing
+map,22,,2,Intro,3,97,402,choice_branch,Deselect
+map,22,,2,Intro,3,104,402,choice_branch,Information
+map,22,,2,Intro,3,105,101,show_text,"Si se debilita un Pokémon, se considera muerto. Irá directamente a la caja del PC y no podrá ser revivido."
+map,22,,2,Intro,3,107,101,show_text,Solo podrás atrapar un Pokémon de la misma linea evolutiva.
+map,22,,2,Intro,3,109,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.5\c[0]."
+map,22,,2,Intro,3,112,402,choice_branch,Nothing
+map,22,,2,Intro,3,118,102,choices,Select
+map,22,,2,Intro,3,118,102,choices,Information
+map,22,,2,Intro,3,118,102,choices,Nothing
+map,22,,2,Intro,3,119,402,choice_branch,Select
+map,22,,2,Intro,3,126,402,choice_branch,Information
+map,22,,2,Intro,3,127,101,show_text,"Si se debilita un Pokémon, se considera muerto. Irá directamente a la caja del PC y no podrá ser revivido."
+map,22,,2,Intro,3,129,101,show_text,Solo podrás atrapar un Pokémon de la misma linea evolutiva.
+map,22,,2,Intro,3,131,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.5\c[0]."
+map,22,,2,Intro,3,134,402,choice_branch,Nothing
+map,22,,2,Intro,3,145,101,show_text,Este modo no está activo por el momento. Se implementará en el futuro.
+map,22,,2,Intro,3,153,102,choices,Deselect
+map,22,,2,Intro,3,153,102,choices,Information
+map,22,,2,Intro,3,153,102,choices,Nothing
+map,22,,2,Intro,3,154,402,choice_branch,Deselect
+map,22,,2,Intro,3,161,402,choice_branch,Information
+map,22,,2,Intro,3,162,101,show_text,"El \c[2]Lucariolocke\c[0] es un modo donde \c[2]si Riolu / Lucario muere\c[0], será \c[2]Game Over\c[0] y \c[2]NO podrás continuar tu partida\c[0]."
+map,22,,2,Intro,3,164,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.1\c[0]."
+map,22,,2,Intro,3,167,402,choice_branch,Nothing
+map,22,,2,Intro,3,173,102,choices,Select
+map,22,,2,Intro,3,173,102,choices,Information
+map,22,,2,Intro,3,173,102,choices,Nothing
+map,22,,2,Intro,3,174,402,choice_branch,Select
+map,22,,2,Intro,3,181,402,choice_branch,Information
+map,22,,2,Intro,3,182,101,show_text,"El \c[2]Lucariolocke\c[0] es un modo donde \c[2]si Riolu / Lucario muere\c[0], será \c[2]Game Over\c[0] y \c[2]NO podrás continuar tu partida\c[0]."
+map,22,,2,Intro,3,184,101,show_text,"Todos los PL (Puntos Locales) que ganes, se multiplicarán en \c[2]x1.1\c[0]."
+map,22,,2,Intro,3,187,402,choice_branch,Nothing
+map,22,,2,Intro,3,197,108,comment,Le doy al START
+map,22,,2,Intro,3,199,101,show_text,"Los Modos de Locke \c[2]NO\c[0] son modificables en opciones, el Modo de Dificultad sí."
+map,22,,2,Intro,3,201,101,show_text,¿Estás seguro que quieres jugar con esta configuración?
+map,22,,2,Intro,3,203,102,choices,Yes
+map,22,,2,Intro,3,203,102,choices,No
+map,22,,2,Intro,3,204,402,choice_branch,Yes
+map,22,,2,Intro,3,221,402,choice_branch,No
+map,22,,2,Intro,4,0,101,show_text,"Para activar el <b>turbo</b>, pulsa la tecla ""Q""</b>. Sólo recomendado en combate y fuera de escenas. Se desactiva pulsando por segunda vez."
+map,22,,2,Intro,4,9,101,show_text,\dxn[???]¡Hey! ¿Y tú quién eres? ¿Quién interrumpe mi paseo por la playa?
+map,22,,2,Intro,4,18,101,show_text,"\dxn[???]¡Oh, rayos! ¡Ya me había olvidado de ti!"
+map,22,,2,Intro,4,24,101,show_text,"\dxn[???]Lo siento, dicen que soy una chica muy despistada. Espero que sepas perdonarme."
+map,22,,2,Intro,4,28,101,show_text,"\dxn[Álama]Me presento. Me llamo \c[2]Álama\c[0] y soy la profesora de \c[2]Pueblo Gorrión\c[0], de la región de \c[2]Akebia\c[0]."
+map,22,,2,Intro,4,32,101,show_text,\dxn[Álama]Akebia es una región tropical llena de Pokémon de todo tipo.
+map,22,,2,Intro,4,39,101,show_text,\dxn[Álama]¿Cómo? ¿No sabes lo que son los Pokémon?
+map,22,,2,Intro,4,45,101,show_text,\dxn[Álama]Este mundo está habitado por unas criaturas llamadas Pokémon. La gente suele vivir con ellos.
+map,22,,2,Intro,4,49,101,show_text,"\dxn[Álama]Te voy a presentar a mi compañero del alma. ¡Sal, Psyduck!"
+map,22,,2,Intro,4,69,101,show_text,\sh\dxn[Álama]¡¿P-Psyduck?! ¿A dónde vas?
+map,22,,2,Intro,4,74,101,show_text,\dxn[Álama]Otra vez se me escapa... Si es que no hay manera de tratar con él.
+map,22,,2,Intro,4,79,101,show_text,"\dxn[Álama]En fin... Dicen que de tal Palossand tal astilla, o algo así."
+map,22,,2,Intro,4,84,101,show_text,"\dxn[Álama]Volviendo a ti... Tú estás en mi clase, ¿verdad?"
+map,22,,2,Intro,4,88,101,show_text,"\dxn[Álama]Háblame un poco sobre ti, que mi memoria es bastante mala."
+map,22,,2,Intro,4,91,101,show_text,¿Con quién te sientes más identificado/a?
+map,22,,2,Intro,6,2,101,show_text,"\dxn[Álama]¡Ajá, ya veo!"
+map,22,,2,Intro,6,6,101,show_text,\dxn[Álama]Esto... ¿Cómo te llamabas?
+map,22,,2,Intro,6,8,355,script,pbTrainerName
+map,22,,2,Intro,6,11,101,show_text,"\dxn[Álama]¡Ah, ya sé quién eres! ¿Eres \PN, quien vive justo a mi lado?"
+map,22,,2,Intro,6,12,102,choices,Sí
+map,22,,2,Intro,6,12,102,choices,No
+map,22,,2,Intro,6,13,402,choice_branch,Sí
+map,22,,2,Intro,6,15,402,choice_branch,No
+map,22,,2,Intro,6,17,101,show_text,"\dxn[Álama]¿Cómo te equivocas con tu nombre? ¡Eres peor que yo, eh!"
+map,22,,2,Intro,6,30,101,show_text,"\dxn[Álama]¡Perfecto, estamos listos!"
+map,22,,2,Intro,6,34,101,show_text,\dxn[Álama]¡Te doy la bienvenida...!
+map,22,,2,Intro,6,38,101,show_text,\sh\dxn[Álama]¡Al mundo de los Pokémon!
+map,22,,2,Intro,6,41,355,script,pbToneChangeAll(
+map,22,,2,Intro,6,42,655,script_cont,"Tone.new(-255, -255, -255, 0),"
+map,22,,2,Intro,6,43,655,script_cont,10)
+map,22,,2,Intro,6,48,355,script,getPointMultiplier

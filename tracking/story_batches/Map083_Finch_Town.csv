@@ -1,0 +1,114 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,83,,85,EV085,1,0,108,comment,noshadow
+map,83,,28,EV028,1,0,101,show_text,Sólo hay basura.
+map,83,,66,EV066,1,0,108,comment,noshadow
+map,83,,66,EV066,1,1,355,script,pbItemBall(:STARDUST)
+map,83,,76,EV076,1,0,108,comment,noshadow
+map,83,,57,EV057,1,0,101,show_text,"Estoy aquí tomándome un refresco. Hay muchas máquinas expendedoras por toda la región, por el tema del clima y eso. Está bien pensado."
+map,83,,38,EV038,1,0,108,comment,noshadow
+map,83,,48,EV048,1,0,108,comment,noshadow
+map,83,,86,EV086,1,0,108,comment,noshadow
+map,83,,29,EV029,1,0,101,show_text,Sólo hay basura.
+map,83,,67,Slope,1,0,108,comment,Slope: -2x-1
+map,83,,67,Slope,1,1,108,comment,Width: 1/2
+map,83,,67,Slope,1,2,108,comment,Offset: 16px
+map,83,,20,EV020,1,0,101,show_text,<b><ac>PUEBLO PINZÓN</ac></b><ac>¡El ambiente
+map,83,,20,EV020,1,1,401,show_text_cont,de este pueblo es muy acogedor y el clima ya no
+map,83,,20,EV020,1,2,401,show_text_cont,"es tan caliente, por las noches hace frío!</ac>"
+map,83,,58,EV058,1,0,101,show_text,"A mí me gusta entrenar con mi Pokémon, me importa un Pyukumuku lo que me digan mis padres."
+map,83,,39,EV039,1,0,108,comment,noshadow
+map,83,,77,EV077,1,0,108,comment,noshadow
+map,83,,87,EV087,1,0,108,comment,noshadow
+map,83,,30,EV030,1,0,355,script,pbItemBall(:LEMONADE)
+map,83,,68,Slope,1,0,108,comment,Slope: -2x-1
+map,83,,68,Slope,1,1,108,comment,Width: 1/2
+map,83,,68,Slope,1,2,108,comment,Offset: 16px
+map,83,,21,EV021,1,0,101,show_text,<b><ac>PUEBLO PINZÓN</ac></b><ac>¡El ambiente
+map,83,,21,EV021,1,1,401,show_text_cont,de este pueblo es muy acogedor y el clima ya no
+map,83,,21,EV021,1,2,401,show_text_cont,"es tan caliente, por las noches hace frío!</ac>"
+map,83,,59,EV059,1,0,355,script,Pokemon.play_cry(:SHINX)
+map,83,,2,EV002,1,0,108,comment,noshadow
+map,83,,40,EV040,1,0,101,show_text,"Me duelen los pies, no pienso andar más."
+map,83,,78,EV078,1,0,108,comment,noshadow
+map,83,,31,EV031,1,0,101,show_text,¿Has visto estas flores? ¡Son preciosas!
+map,83,,69,Slope,1,0,108,comment,Slope: 2x1
+map,83,,69,Slope,1,1,108,comment,Width: 1/2
+map,83,,69,Slope,1,2,108,comment,Offset: 16px
+map,83,,88,EV088,1,0,355,script,pbItemBall(:GREATBALL)
+map,83,,3,EV003,1,0,355,script,pbItemBall(:GREATBALL)
+map,83,,41,EV041,1,0,101,show_text,¡Me cago en el bicho rosa este!
+map,83,,79,EV079,1,0,108,comment,noshadow
+map,83,,60,EV060,1,0,101,show_text,¿Sabías que el nombre de Eda proviene de la salud y la felicidad?
+map,83,,32,EV032,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,83,,70,Slope,1,0,108,comment,Slope: 2x1
+map,83,,70,Slope,1,1,108,comment,Width: 1/2
+map,83,,70,Slope,1,2,108,comment,Offset: 16px
+map,83,,89,EV089,1,0,108,comment,noshadow
+map,83,,4,EV004,1,0,108,comment,noshadow
+map,83,,42,EV042,1,0,355,script,Pokemon.play_cry(:HAPPINY)
+map,83,,80,EV080,1,0,108,comment,noshadow
+map,83,,61,EV061,1,0,101,show_text,<ac>¡BattleCoffe!</ac> ¡Disfruta de un buen café mientras combates contra entrenadores!
+map,83,,52,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)"
+map,83,,52,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)"
+map,83,,52,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)"
+map,83,,52,Vending machine 1,1,3,355,script,pbPokemonMart2([
+map,83,,52,Vending machine 1,1,4,655,script_cont,":FRESHWATER,"
+map,83,,52,Vending machine 1,1,5,655,script_cont,":SODAPOP,"
+map,83,,52,Vending machine 1,1,6,655,script_cont,:LEMONADE])
+map,83,,90,EV090,1,0,108,comment,noshadow
+map,83,,33,EV033,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,83,,71,Slope,1,0,108,comment,Slope: 2x-1
+map,83,,71,Slope,1,1,108,comment,Width: 1/2
+map,83,,71,Slope,1,2,108,comment,Offset: 16px
+map,83,,43,EV043,1,0,101,show_text,"La juventud solo piensa en fumar, beber y salir de fiesta."
+map,83,,43,EV043,1,2,101,show_text,\sh¡En mis tiempos todas íbamos a un colegio de monjas!
+map,83,,81,EV081,1,0,108,comment,noshadow
+map,83,,24,EV024,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,83,,24,EV024,2,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,83,,62,EV062,1,0,101,show_text,Sólo hay basura.
+map,83,,15,EV015,1,4,355,script,"pbZoomMap(1,1,zoom=""out"")"
+map,83,,15,EV015,1,5,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,83,,53,Vending machine 1,1,0,355,script,"setPrice(:FRESHWATER,300)"
+map,83,,53,Vending machine 1,1,1,355,script,"setPrice(:SODAPOP,450)"
+map,83,,53,Vending machine 1,1,2,355,script,"setPrice(:LEMONADE,600)"
+map,83,,53,Vending machine 1,1,3,355,script,pbPokemonMart2([
+map,83,,53,Vending machine 1,1,4,655,script_cont,":FRESHWATER,"
+map,83,,53,Vending machine 1,1,5,655,script_cont,":SODAPOP,"
+map,83,,53,Vending machine 1,1,6,655,script_cont,:LEMONADE])
+map,83,,91,EV091,1,0,101,show_text,Siempre me he preguntado qué diablos hace esta piedra de aquí en medio.
+map,83,,91,EV091,1,2,101,show_text,"Quiero decir, no hace nada, es una piedra y solo molesta."
+map,83,,34,EV034,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,83,,72,Slope,1,0,108,comment,Slope: 2x-1
+map,83,,72,Slope,1,1,108,comment,Width: 1/2
+map,83,,72,Slope,1,2,108,comment,Offset: 16px
+map,83,,63,EV063,1,0,101,show_text,Sólo hay basura.
+map,83,,82,EV082,1,0,108,comment,noshadow
+map,83,,16,EV016,1,0,108,comment,noshadow
+map,83,,73,Slope,1,0,355,script,pbBridgeOff
+map,83,,73,Slope,1,1,108,comment,Slope: -2x1
+map,83,,73,Slope,1,2,108,comment,Width: 1/2
+map,83,,73,Slope,1,3,108,comment,Offset: 16px
+map,83,,54,niña,1,0,101,show_text,¿Seguro que esta no es la princesa que estamos buscando?
+map,83,,54,niña,1,2,101,show_text,Se parece a la antigua \c[2]Reina de Akebia\c[0]...
+map,83,,35,EV035,1,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,83,,92,niña,1,0,101,show_text,"Mamá, quiero ser entrenadora cuando sea mayor."
+map,83,,45,EV045,1,0,101,show_text,"¡Este es el BattleCoffe, servimos cafés, batidos, de"
+map,83,,45,EV045,1,1,401,show_text_cont,todo!
+map,83,,64,EV064,1,0,108,comment,noshadow
+map,83,,83,EV083,1,0,108,comment,noshadow
+map,83,,74,Slope,1,0,355,script,pbBridgeOff
+map,83,,74,Slope,1,1,108,comment,Slope: -2x1
+map,83,,74,Slope,1,2,108,comment,Width: 1/2
+map,83,,74,Slope,1,3,108,comment,Offset: 16px
+map,83,,36,EV036,1,0,101,show_text,"Mira esa niña con su Happiny, le está dando mucho cariño."
+map,83,,36,EV036,1,2,101,show_text,¡Hay muchos Pokémon que evolucionan por amistad!
+map,83,,93,niña,1,0,101,show_text,"Mamá, quiero ser entrenadora cuando sea mayor."
+map,83,,55,niña,1,0,101,show_text,¿Seguro que esta no es la princesa que estamos buscando?
+map,83,,55,niña,1,2,101,show_text,Se parece a la antigua \c[2]Reina de Akebia\c[0]...
+map,83,,46,EV046,1,0,108,comment,noshadow
+map,83,,65,EV065,1,0,108,comment,noshadow
+map,83,,84,EV084,1,0,108,comment,noshadow
+map,83,,27,EV027,1,0,108,comment,noshadow
+map,83,,37,EV037,1,0,101,show_text,Mi marido y yo estamos en esta parte de la región porque la \c[2]Familia Real\c[0] tiene el Palacio en \c[2]Ciudad Lugano\c[0].
+map,83,,37,EV037,1,2,101,show_text,"Aún así, incluso aquí, es muy normal ver situaciones desagradables."
+map,83,,75,EV075,1,0,108,comment,noshadow

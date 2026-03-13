@@ -1,0 +1,51 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,76,,5,ayudante,1,0,101,show_text,"La profesora Álama llegó a Pueblo Gorrión hace como unos 7 años y fue asignada como profesora en la escuela, pero nunca hizo una carrera o algo similar..."
+map,76,,5,ayudante,1,1,101,show_text,"No sé de dónde ha sacado sus conocimientos sobre los Pokémon, es una chica ciertamente curiosa."
+map,76,,16,Tele,1,0,108,comment,noshadow
+map,76,,27,EV027,1,0,108,comment,noshadow
+map,76,,22,EV022,1,0,108,comment,noshadow
+map,76,,33,EV033,1,0,108,comment,noshadow
+map,76,,17,EV017,1,0,108,comment,noshadow
+map,76,,28,EV028,1,0,108,comment,noshadow
+map,76,,23,EV023,1,0,108,comment,noshadow
+map,76,,18,EV018,1,0,108,comment,noshadow
+map,76,,29,EV029,1,0,108,comment,noshadow
+map,76,,2,EV002,1,6,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,76,,24,EV024,1,0,108,comment,noshadow
+map,76,,46,EV046,1,0,108,comment,noshadow
+map,76,,19,EV019,1,0,108,comment,noshadow
+map,76,,30,EV030,1,0,108,comment,noshadow
+map,76,,3,Escogiendo Pokémon,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,76,,3,Escogiendo Pokémon,1,89,101,show_text,"\dxn[Eda]¡Qué ilusión, por favor! ¡Son preciosos!"
+map,76,,3,Escogiendo Pokémon,1,97,101,show_text,\dxn[Eda]Espera... ¿No deberían ser tres Pokémon? Ahí sólo hay dos.
+map,76,,3,Escogiendo Pokémon,1,109,101,show_text,"\dxn[Álama]¡Anda! ¡Pues sí, no me había dado cuenta!"
+map,76,,3,Escogiendo Pokémon,1,116,101,show_text,\dxn[Ayudante]Esto... Profesora Álama... Le recuerdo que esta mañana ha venido aquella joven entrenadora a recoger su Pokémon.
+map,76,,3,Escogiendo Pokémon,1,119,101,show_text,\dxn[Ayudante]Esto... Profesora Álama... Le recuerdo que esta mañana ha venido aquél joven entrenador a recoger su Pokémon.
+map,76,,3,Escogiendo Pokémon,1,124,101,show_text,"\dxn[Álama]¡Es verdad, qué cabeza la mía!"
+map,76,,3,Escogiendo Pokémon,1,136,101,show_text,\dxn[Darek]Me temía algo parecido cuando he visto sólo a dos Pokémon...
+map,76,,3,Escogiendo Pokémon,1,140,101,show_text,\dxn[Eda]Y... ¿qué vamos a hacer ahora?
+map,76,,3,Escogiendo Pokémon,1,145,101,show_text,"\dxn[Álama]Pues es una buena pregunta, la verdad..."
+map,76,,3,Escogiendo Pokémon,1,148,101,show_text,\f[treecko000]¡TREECKO!
+map,76,,3,Escogiendo Pokémon,1,151,101,show_text,\f[Torchic000]¡CHIC!
+map,76,,3,Escogiendo Pokémon,1,182,101,show_text,\dxn[Álama]¡Parece que les habéis caído bien!
+map,76,,3,Escogiendo Pokémon,1,191,101,show_text,\dxn[Eda]¡Ay! ¡Justamente es el que más me gusta de los dos!
+map,76,,3,Escogiendo Pokémon,1,195,101,show_text,"\dxn[Darek]Lo mismo digo, Treecko tiene el mismo carácter que yo."
+map,76,,3,Escogiendo Pokémon,1,227,101,show_text,\dxn[Eda]Pero... ¿y \PN?
+map,76,,3,Escogiendo Pokémon,1,231,101,show_text,\dxn[Eda]¿Con qué Pokémon se va a quedar?
+map,76,,3,Escogiendo Pokémon,1,247,101,show_text,\dxn[Álama]¡Espera! ¡Creo que sé qué podemos hacer!
+map,76,,3,Escogiendo Pokémon,1,251,101,show_text,"\dxn[Álama]Pásate por mi casa en un rato, creo que tengo una solución."
+map,76,,3,Escogiendo Pokémon,1,255,101,show_text,"\dxn[Álama]Darek, Eda. Vosotros os podéis ir ya, si lo tenéis claro. Tomad la Pokédex y las Poké Ball."
+map,76,,3,Escogiendo Pokémon,1,300,101,show_text,"\dxn[Álama]Somos vecinos, así que no tiene mucha pérdida."
+map,76,,3,Escogiendo Pokémon,1,304,101,show_text,"\dxn[Álama]¡Vamos, Psyduck!"
+map,76,,3,Escogiendo Pokémon,1,308,101,show_text,\f[psyduck000]¡PSYDUCK!
+map,76,,3,Escogiendo Pokémon,1,350,355,script,"pbSetSocialLinkFavoritePokemon(:DAREK,:TREECKO,0,0,false)"
+map,76,,3,Escogiendo Pokémon,1,351,355,script,"pbSetSocialLinkFavoritePokemon(:EDA,:TORCHIC,0,0,false)"
+map,76,,25,EV025,1,0,108,comment,noshadow
+map,76,,47,EV047,1,0,108,comment,noshadow
+map,76,,20,"Fuente, size(3,1)",1,0,108,comment,noshadow
+map,76,,31,EV031,1,0,108,comment,noshadow
+map,76,,15,EV015,1,6,355,script,"pbAddDependency2(001, ""FollowerPkmn"", FollowingPkmn::FOLLOWER_COMMON_EVENT)"
+map,76,,26,EV026,1,0,108,comment,noshadow
+map,76,,48,EV048,1,0,108,comment,noshadow
+map,76,,21,EV021,1,0,108,comment,noshadow
+map,76,,32,EV032,1,0,108,comment,noshadow

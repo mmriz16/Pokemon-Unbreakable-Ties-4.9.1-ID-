@@ -1,0 +1,64 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,78,,38,EV038,1,0,101,show_text,<b><ac>Ruta 1</ac></b><ac>¡Cuidado con los Pokémon salvajes!
+map,78,,16,EV016,1,0,355,script,pbItemBall(:POTION)
+map,78,,5,EV005,1,0,355,script,pbItemBall(:POTION)
+map,78,,49,EV049,1,0,108,comment,noshadow
+map,78,,22,Trainer(3),1,0,355,script,pbTrainerIntro(:CHICA)
+map,78,,22,Trainer(3),1,1,355,script,pbNoticePlayer(get_character(0))
+map,78,,22,Trainer(3),1,2,101,show_text,¡Vas con mucha prisa! ¿No quieres un combate?
+map,78,,22,Trainer(3),1,7,355,script,pbTrainerEnd
+map,78,,22,Trainer(3),2,0,101,show_text,Si lo llego a saber te dejo ir de primeras...
+map,78,,11,EV011,1,0,108,comment,noshadow
+map,78,,6,EV006,1,0,101,show_text,<b><ac>Ruta 1</ac></b><ac>¡Cuidado con los Pokémon salvajes!
+map,78,,17,EV017,1,0,108,comment,noshadow
+map,78,,50,EV050,1,0,108,comment,noshadow
+map,78,,12,EV012,1,0,101,show_text,"Esta es la típica ruta en la que sólo hay puro magikarp, vaya tela."
+map,78,,23,EV023,1,32,101,show_text,"\dxn[Álama]¡Espera, \PN!"
+map,78,,23,EV023,1,80,101,show_text,\dxn[Eda]¡\PN! ¡Menos mal que te hemos encontrado a tiempo!
+map,78,,23,EV023,1,90,101,show_text,"\dxn[Álama]Al menos no ha volado como Darek, no me ha dado tiempo de darle nada."
+map,78,,23,EV023,1,95,101,show_text,"\dxn[Álama]En fin, ya lo pillaré, tú necesitarás una <b>Pokédex</b> y unas <b>Poké Ball</b>."
+map,78,,23,EV023,1,103,101,show_text,\wtnp[0]¡Has obtenido una <b>Pokédex</b>!\wt[30]
+map,78,,23,EV023,1,104,355,script,$Trainer.has_pokedex=true
+map,78,,23,EV023,1,105,355,script,pbUnlockDex
+map,78,,23,EV023,1,107,355,script,"pbReceiveItem(:POKEBALL,5)"
+map,78,,23,EV023,1,110,101,show_text,"\dxn[Álama]Bueno, ahora sí que sí. Yo me voy a buscar a Darek, que necesitará un <b>Mapa</b> o algo."
+map,78,,23,EV023,1,124,101,show_text,"\dxn[Álama]¡Vamos Psyduck! ¡Quiero ir a una cafetería, que tengo hambre!"
+map,78,,23,EV023,1,128,101,show_text,\f[psyduck000]¡PSYDUCK!
+map,78,,23,EV023,1,185,101,show_text,\dxn[Eda]No sé si llegarán a una cafetería estos dos...
+map,78,,23,EV023,1,191,101,show_text,"\dxn[Eda]Bueno, tengo que ir en busca de Darek, que la profe dudo que lo encuentre."
+map,78,,23,EV023,1,195,101,show_text,"\dxn[Eda]Aunque Darek parezca tan independiente, en verdad me necesita a su lado. Es capaz de perderse incluso con un mapa."
+map,78,,23,EV023,1,200,101,show_text,\sh\dxn[Eda]¡Ahora que caigo!
+map,78,,23,EV023,1,204,101,show_text,"\dxn[Eda]Hablando de mapas, la profe no nos ha dado un mapa para movernos. Habrá que ir a buscarla."
+map,78,,23,EV023,1,209,101,show_text,\dxn[Eda]¡Me adelanto antes de que la pierda de vista!
+map,78,,23,EV023,1,240,101,show_text,"Ahora podrás usar la función de ""Encuentros"" del menú para saber qué Pokémon puedes encontrar en cada ruta. ¡Échale un vistazo!"
+map,78,,23,EV023,1,244,101,show_text,¡A partir de ahora empieza el Modo Hardcore!
+map,78,,23,EV023,1,250,101,show_text,¡A partir de ahora empieza el Lucariolocke!
+map,78,,1,EV001,1,0,108,comment,noshadow
+map,78,,18,EV018,1,0,101,show_text,"¿Quieres una caña? No voy bien de pasta, espabílate."
+map,78,,29,Trainer(3),1,0,355,script,pbTrainerIntro(:JOVEN)
+map,78,,29,Trainer(3),1,1,355,script,pbNoticePlayer(get_character(0))
+map,78,,29,Trainer(3),1,2,101,show_text,¡Hey! Acabo de empezar en esto de ser entrenador... ¿Te apetece un combate?
+map,78,,29,Trainer(3),1,7,355,script,pbTrainerEnd
+map,78,,29,Trainer(3),2,0,101,show_text,"Pues nada, tengo hambre."
+map,78,,51,EV051,1,0,108,comment,noshadow
+map,78,,46,EV046,1,0,108,comment,noshadow
+map,78,,2,EV002,1,0,355,script,pbItemBall(:POKEBALL)
+map,78,,13,EV013,1,0,108,comment,noshadow
+map,78,,30,EV030,1,0,101,show_text,"Estoy entrenando a mi Pokémon en esta ruta, es"
+map,78,,30,EV030,1,1,401,show_text_cont,probablemente la más fácil para entrenadores
+map,78,,30,EV030,1,2,401,show_text_cont,novatos.
+map,78,,8,EV008,1,0,108,comment,noshadow
+map,78,,52,EV052,1,0,108,comment,noshadow
+map,78,,47,EV047,1,0,108,comment,noshadow
+map,78,,3,EV003,1,0,108,comment,noshadow
+map,78,,14,EV014,1,0,108,comment,noshadow
+map,78,,9,EV009,1,0,108,comment,noshadow
+map,78,,31,EV031,1,0,355,script,Pokemon.play_cry(:LILLIPUP)
+map,78,,53,EV053,1,0,108,comment,noshadow
+map,78,,4,EV004,1,0,108,comment,noshadow
+map,78,,15,EV015,1,0,108,comment,noshadow
+map,78,,48,EV048,1,0,108,comment,noshadow
+map,78,,54,EV054,1,0,108,comment,noshadow
+map,78,,32,EV032,1,1,101,show_text,"¡Hey! ¡No me des esos sustos, estoy intentado"
+map,78,,32,EV032,1,2,401,show_text_cont,atrapar un Pokémon!
+map,78,,10,EV010,1,0,108,comment,noshadow

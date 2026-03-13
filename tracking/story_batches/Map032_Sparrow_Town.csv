@@ -1,0 +1,126 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,32,,9,EV009,1,0,101,show_text,<ac>Laboratorio</ac>
+map,32,,47,EV047,1,0,101,show_text,<ac>Casa de \PN</ac>
+map,32,,85,EV085,1,0,108,comment,noshadow
+map,32,,28,EV028,1,0,355,script,pbItemBall(:POTION)
+map,32,,66,EV066,1,0,108,comment,noshadow
+map,32,,19,EV019,1,0,108,comment,noshadow
+map,32,,57,EV057,1,0,108,comment,noshadow
+map,32,,38,EV038,1,0,108,comment,noshadow
+map,32,,48,EV048,1,0,101,show_text,<ac>¡Bienvenido a Pueblo Gorrión!</ac>
+map,32,,48,EV048,1,1,101,show_text,<ac>Dirección Sur: Playa Gorrión</ac>
+map,32,,48,EV048,1,2,101,show_text,<ac>Dirección Este: Ruta 1</ac>
+map,32,,86,EV086,1,0,108,comment,noshadow
+map,32,,29,EV029,1,0,108,comment,noshadow
+map,32,,67,"size(3,3) EV067",1,0,108,comment,noshadow
+map,32,,20,EV020,1,0,108,comment,noshadow
+map,32,,58,EV058,1,0,108,comment,noshadow
+map,32,,39,EV039,1,0,108,comment,noshadow
+map,32,,87,Monotype Challenge,1,2,101,show_text,¡Hola! ¿Quieres activar el \c[2]reto monotipo\c[0]?
+map,32,,87,Monotype Challenge,1,4,101,show_text,Solo puedes activarlo si NO es tu primera partida.
+map,32,,87,Monotype Challenge,1,5,102,choices,"Sí, quiero monotipo."
+map,32,,87,Monotype Challenge,1,5,102,choices,No quiero.
+map,32,,87,Monotype Challenge,1,6,402,choice_branch,"Sí, quiero monotipo."
+map,32,,87,Monotype Challenge,1,7,355,script,options = MonotypeChallenge.type_options
+map,32,,87,Monotype Challenge,1,8,655,script_cont,"ret = pbMessage(""Elige el tipo para tu reto"", options)"
+map,32,,87,Monotype Challenge,1,9,655,script_cont,MonotypeChallenge.type = ret
+map,32,,87,Monotype Challenge,1,10,101,show_text,"Estupendo, a partir de aquí, solo podrás tener Pokémon de dicho tipo."
+map,32,,87,Monotype Challenge,1,12,101,show_text,¡Nos vemos!
+map,32,,87,Monotype Challenge,1,16,402,choice_branch,No quiero.
+map,32,,87,Monotype Challenge,1,19,108,comment,Salimos del evento para que no ejecute lo que viene
+map,32,,87,Monotype Challenge,1,20,408,comment_cont,después.
+map,32,,87,Monotype Challenge,1,28,101,show_text,No tienes instalado en tu juego el script del
+map,32,,87,Monotype Challenge,1,29,401,show_text_cont,Monotype. Añádelo para poder usar estas funciones.
+map,32,,30,EV030,1,0,108,comment,noshadow
+map,32,,68,"size(3,3) EV068",1,0,108,comment,noshadow
+map,32,,11,EV011,1,0,101,show_text,<ac>Casa de Eda</ac>
+map,32,,49,EV049,1,0,101,show_text,<ac>¡Bienvenido a Pueblo Gorrión!</ac>
+map,32,,49,EV049,1,1,101,show_text,<ac>Dirección Sur: Playa Gorrión</ac>
+map,32,,49,EV049,1,2,101,show_text,<ac>Dirección Este: Ruta 1</ac>
+map,32,,21,,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,32,,59,EV059,1,0,108,comment,noshadow
+map,32,,2,Intro2,1,40,355,script,pbToneChangeAll(
+map,32,,2,Intro2,1,41,655,script_cont,"Tone.new(-255, -255, -255, 0),"
+map,32,,2,Intro2,1,42,655,script_cont,20)
+map,32,,2,Intro2,1,47,355,script,pbToneChangeAll(
+map,32,,2,Intro2,1,48,655,script_cont,"Tone.new(0, 0, 0, 0),"
+map,32,,2,Intro2,1,49,655,script_cont,30)
+map,32,,40,EV040,1,0,108,comment,noshadow
+map,32,,31,EV031,1,0,108,comment,noshadow
+map,32,,69,EV069,1,0,108,comment,noshadow
+map,32,,12,EV012,1,0,101,show_text,<ac>Casa de Darek</ac>
+map,32,,50,EV050,1,0,101,show_text,<ac>Dirección Este: Ruta 1</ac>
+map,32,,3,EV003,1,0,101,show_text,Por algún motivo mi Pikachu es más moreno...
+map,32,,3,EV003,1,1,401,show_text_cont,Supongo que será porque le ha dado mucho el sol.
+map,32,,79,PELIPPER,1,0,108,comment,noshadow
+map,32,,22,,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,32,,60,EV060,1,0,108,comment,noshadow
+map,32,,32,EV032,1,0,355,script,ChangeSpeed.new.pbChangeSpeed(0)
+map,32,,32,EV032,1,19,101,show_text,"\dxn[Mamá]Buenos días, cariño."
+map,32,,32,EV032,1,21,101,show_text,\dxn[Mamá]Tus amigos han marchado hace un rato y no querían despertarte.
+map,32,,32,EV032,1,23,101,show_text,"\dxn[Mamá]Me han dicho que te esperan en una \c[2]Guarida\c[0] de Ciudad Lugano, en la \c[2]Sala de Reuniones\c[0]."
+map,32,,32,EV032,1,26,101,show_text,\dxn[Mamá]Supongo que te irás sin siquiera desayunar.
+map,32,,32,EV032,1,28,101,show_text,\dxn[Mamá]Espero que vengas a vernos a tu padre y a mí de vez en cuando.
+map,32,,32,EV032,1,31,101,show_text,\dxn[Mamá]¡Ten mucho cuidado y suerte con el resto de tu viaje!
+map,32,,32,EV032,1,48,355,script,pbCameraReset
+map,32,,32,EV032,1,51,101,show_text,\dxn[\PN]Puede que todos estén reunidos en Ciudad Lugano otra vez.
+map,32,,32,EV032,1,55,101,show_text,\dxn[\PN]¡Vayamos de nuevo a la Guarida!
+map,32,,32,EV032,1,60,101,show_text,\dxn[\PN]Puede que todos estén reunidos en Ciudad Lugano otra vez.
+map,32,,32,EV032,1,64,101,show_text,\dxn[\PN]¡Vayamos de nuevo a la Guarida!
+map,32,,70,EV070,1,0,108,comment,noshadow
+map,32,,51,EV051,1,0,101,show_text,<ac>Dirección Este: Ruta 1</ac>
+map,32,,4,EV004,1,1,101,show_text,¡PIKACHU!
+map,32,,80,PELIPPER,1,0,108,comment,noshadow
+map,32,,23,,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,32,,61,EV061,1,0,108,comment,noshadow
+map,32,,14,EV014,2,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,32,,33,EV033,1,0,108,comment,noshadow
+map,32,,43,Evento Eda,1,15,101,show_text,"\dxn[Eda]¡Ey, \PN! ¿Qué tal, ya tienes a tu Pokémon?"
+map,32,,43,Evento Eda,1,28,101,show_text,\dxn[Eda]¿Cómo? ¿Un huevo?
+map,32,,43,Evento Eda,1,32,101,show_text,"\dxn[Eda]Ya veo... En fin, nos vemos en la playa, haremos una pequeña despedida junto a Darek. Te esperamos allá."
+map,32,,81,PELIPPER,1,0,108,comment,noshadow
+map,32,,24,EV024,1,0,101,show_text,<ac>Escuela Pokémon</ac>
+map,32,,62,EV062,1,0,108,comment,noshadow
+map,32,,5,EV005,1,0,101,show_text,<ac>Casa de Álama</ac>
+map,32,,15,EV015,1,6,101,show_text,"Se está haciendo una investigación en la Ruta 1, no"
+map,32,,15,EV015,1,7,401,show_text_cont,se puede pasar todavía.
+map,32,,34,EV034,1,0,101,show_text,Tengo entendido que la profesora del colegio vive en
+map,32,,34,EV034,1,1,401,show_text_cont,"la casa de abajo, he visto casos de profesores"
+map,32,,34,EV034,1,2,401,show_text_cont,viviendo en su propio laboratorio. ¿Te parece normal?
+map,32,,34,EV034,1,3,102,choices,Si
+map,32,,34,EV034,1,3,102,choices,No
+map,32,,34,EV034,1,4,402,choice_branch,Si
+map,32,,34,EV034,1,7,101,show_text,Pues mira que eres rarito.
+map,32,,34,EV034,1,9,402,choice_branch,No
+map,32,,34,EV034,1,10,101,show_text,Menos mal que estamos de acuerdo.
+map,32,,72,EV072,1,0,108,comment,noshadow
+map,32,,25,EV025,1,0,108,comment,noshadow
+map,32,,63,EV063,1,0,108,comment,noshadow
+map,32,,6,escolta,1,0,101,show_text,"Se está haciendo una investigación en la Ruta 1, no"
+map,32,,6,escolta,1,1,401,show_text_cont,se puede pasar todavía.
+map,32,,82,PELIPPER2,1,0,108,comment,noshadow
+map,32,,16,EV016,1,6,101,show_text,"Se está haciendo una investigación en la Ruta 1, no"
+map,32,,16,EV016,1,7,401,show_text_cont,se puede pasar todavía.
+map,32,,73,EV073,1,0,108,comment,noshadow
+map,32,,54,EV054,1,0,108,comment,noshadow
+map,32,,35,EV035,1,0,101,show_text,"No, no soy el típico que te habla de tecnología, de"
+map,32,,35,EV035,1,1,401,show_text_cont,hecho me dedico a la dietética.
+map,32,,83,PELIPPER2,1,0,108,comment,noshadow
+map,32,,26,EV026,1,0,101,show_text,<ac>Laboratorio</ac>
+map,32,,64,EV064,1,0,108,comment,noshadow
+map,32,,7,EV007,1,0,101,show_text,Este pueblo es pequeño pero acogedor. Sin embargo
+map,32,,7,EV007,1,1,401,show_text_cont,nosotros tenemos la casita en la playa.
+map,32,,7,EV007,1,2,108,comment,$Trainer.party[1] = $game_variables[999]
+map,32,,55,EV055,1,0,108,comment,noshadow
+map,32,,74,EV074,1,0,108,comment,noshadow
+map,32,,36,EV036,1,13,101,show_text,Está cerrado con llave.
+map,32,,36,EV036,2,3,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,32,,17,EV017,1,7,101,show_text,"Se está haciendo una investigación en la Ruta 1, no"
+map,32,,17,EV017,1,8,401,show_text_cont,se puede pasar todavía.
+map,32,,84,PELIPPER2,1,0,108,comment,noshadow
+map,32,,8,EV008,1,0,101,show_text,<ac>Laboratorio</ac>
+map,32,,65,EV065,1,0,108,comment,noshadow
+map,32,,27,EV027,1,0,108,comment,noshadow
+map,32,,37,EV037,1,0,101,show_text,La puerta está cerrada con llave.
+map,32,,37,EV037,4,4,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,32,,56,EV056,1,0,108,comment,noshadow

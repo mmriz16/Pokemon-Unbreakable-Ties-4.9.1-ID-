@@ -1,0 +1,121 @@
+source_type,source_id,source_name,event_id,event_name,page,command_index,code,kind,text
+map,79,,49,EV049,1,0,108,comment,noshadow
+map,79,,38,"size(1,3) Evento niñoditto",1,29,101,show_text,\sh\dxn[???]¡BUAAAAAAA!
+map,79,,38,"size(1,3) Evento niñoditto",1,42,101,show_text,\dxn[\PN](¿Qué está pasando?)
+map,79,,38,"size(1,3) Evento niñoditto",1,71,101,show_text,\dxn[???]¡BUAAAAAAA!
+map,79,,38,"size(1,3) Evento niñoditto",1,73,101,show_text,\sh\dxn[???]¡BUAAAAAAAAAAAA!
+map,79,,38,"size(1,3) Evento niñoditto",1,83,101,show_text,\dxn[\PN](Parece que ese niño necesita ayuda...)
+map,79,,38,"size(1,3) Evento niñoditto",1,102,101,show_text,"\dxn[???]Un... ¿Entrenador? Snif, snif..."
+map,79,,38,"size(1,3) Evento niñoditto",1,114,101,show_text,"\dxn[???]Sabía que si me ponía a llorar alguien me ayudaría je, je, je."
+map,79,,38,"size(1,3) Evento niñoditto",1,122,101,show_text,\dxn[???]Resulta que mi Pokémon se ha perdido y no sé dónde está... ¿Podrías ayudarme a buscarlo?
+map,79,,38,"size(1,3) Evento niñoditto",1,126,102,choices,Yes
+map,79,,38,"size(1,3) Evento niñoditto",1,126,102,choices,No
+map,79,,38,"size(1,3) Evento niñoditto",1,127,402,choice_branch,Yes
+map,79,,38,"size(1,3) Evento niñoditto",1,136,101,show_text,"\dxn[???]¡Qué chuli, menos mal!"
+map,79,,38,"size(1,3) Evento niñoditto",1,140,101,show_text,"\dxn[???]Mi \c[2]Ditto\c[0] no puede andar muy lejos, pero es capaz de transformarse en cualquier cosa, aunque tiene preferencia por las \c[2]rocas\c[0]..."
+map,79,,38,"size(1,3) Evento niñoditto",1,144,101,show_text,"\dxn[???]Suerte con ello, yo mientras te esperaré sentado haciendo absolutamente nada."
+map,79,,38,"size(1,3) Evento niñoditto",1,149,402,choice_branch,No
+map,79,,38,"size(1,3) Evento niñoditto",1,158,101,show_text,\sh\dxn[???]¡BUAAAAAAAAAAAAAAAAAA!
+map,79,,38,"size(1,3) Evento niñoditto",1,168,101,show_text,\dxn[\PN](Así no llegaremos a ninguna parte...)
+map,79,,38,"size(1,3) Evento niñoditto",2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,38,"size(1,3) Evento niñoditto",3,0,355,script,Pokemon.play_cry(:DITTO)
+map,79,,38,"size(1,3) Evento niñoditto",3,1,101,show_text,\f[ditto000]¡DITTO!
+map,79,,38,"size(1,3) Evento niñoditto",3,19,355,script,Pokemon.play_cry(:DITTO)
+map,79,,38,"size(1,3) Evento niñoditto",3,20,101,show_text,\f[ditto000]¡DITTO!
+map,79,,38,"size(1,3) Evento niñoditto",3,31,101,show_text,\dxn[???]¿Dónde te habías metido? ¡Te tengo dicho que no te separes de mi!
+map,79,,38,"size(1,3) Evento niñoditto",3,35,101,show_text,"\sh\dxn[???]¡Anda, sube!"
+map,79,,38,"size(1,3) Evento niñoditto",3,38,355,script,Pokemon.play_cry(:DITTO)
+map,79,,38,"size(1,3) Evento niñoditto",3,39,101,show_text,\f[ditto000]¡DITTO!
+map,79,,38,"size(1,3) Evento niñoditto",3,51,101,show_text,"\dxn[???]¡Entrenador, dime tu nombre!"
+map,79,,38,"size(1,3) Evento niñoditto",3,54,101,show_text,"\dxn[???]¡Entrenadora, dime tu nombre!"
+map,79,,38,"size(1,3) Evento niñoditto",3,60,101,show_text,"\dxn[???]Ya veo, encantado, \PN."
+map,79,,38,"size(1,3) Evento niñoditto",3,64,101,show_text,"\sh\dxn[???]¡Yo soy Rodolfo, la persona que dominará el mundo!"
+map,79,,38,"size(1,3) Evento niñoditto",3,69,101,show_text,\dxn[Rodolfo]¿No me crees? ¡Algún día te lo demostraré!
+map,79,,38,"size(1,3) Evento niñoditto",3,76,101,show_text,"\dxn[Rodolfo]¡Adiós, entrenador de pacotilla!"
+map,79,,38,"size(1,3) Evento niñoditto",3,98,355,script,pbAddSocialLink(:RODOLFO)
+map,79,,38,"size(1,3) Evento niñoditto",3,99,355,script,"pbGainSocialLinkBond(:RODOLFO, 1, silent: true)"
+map,79,,16,EV016,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,27,niño ditto,3,1,101,show_text,\dxn[???]¿Has encontrado ya a mi Pokémon?
+map,79,,27,niño ditto,3,10,102,choices,Yes
+map,79,,27,niño ditto,3,10,102,choices,No
+map,79,,27,niño ditto,3,11,402,choice_branch,Yes
+map,79,,27,niño ditto,3,13,101,show_text,"\dxn[???]Es mentira, soy un niño pero no tonto"
+map,79,,27,niño ditto,3,14,401,show_text_cont,precisamente.
+map,79,,27,niño ditto,3,17,402,choice_branch,No
+map,79,,27,niño ditto,3,19,101,show_text,\dxn[???]¿Y a qué estás esperando? ¡Muévete!
+map,79,,5,EV005,1,0,108,comment,noshadow
+map,79,,60,EV060,1,0,108,comment,noshadow
+map,79,,33,EV033,1,0,108,comment,noshadow
+map,79,,22,EV022,1,0,355,script,Pokemon.play_cry(:FURRET)
+map,79,,11,EV011,1,0,101,show_text,"Mira mi nieta, se pasa el día jugando con nuestro Buneary."
+map,79,,55,EV055,1,0,108,comment,noshadow
+map,79,,28,PUERTA,1,6,355,script,"pbZoomMap(1,1,zoom=""out"")"
+map,79,,17,EV017,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,6,EV006,1,0,355,script,pbItemBall(:POTION)
+map,79,,61,EV061,1,0,108,comment,noshadow
+map,79,,34,EV034,1,0,108,comment,noshadow
+map,79,,23,EV023,1,0,101,show_text,<b><ac>Pueblo Pardillo</ac></b><ac>¡Un lugar donde
+map,79,,23,EV023,1,1,401,show_text_cont,a los furret les gusta caminar!
+map,79,,12,EV012,1,0,101,show_text,Ya le vale a mi hija encasquetarme a mi nieta todos los fines de semana.
+map,79,,56,EV056,1,0,108,comment,noshadow
+map,79,,40,EV040,1,1,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,79,,40,EV040,1,2,401,show_text_cont,<b>Palmeo</b>?
+map,79,,40,EV040,1,3,102,choices,Si
+map,79,,40,EV040,1,3,102,choices,No
+map,79,,40,EV040,1,4,402,choice_branch,Si
+map,79,,40,EV040,1,6,101,show_text,¡Has usado <b>Palmeo</b>!
+map,79,,40,EV040,1,25,402,choice_branch,No
+map,79,,40,EV040,1,30,101,show_text,No parece que puedas romperla ahora mismo.
+map,79,,62,EV062,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,51,EV051,1,0,108,comment,noshadow
+map,79,,18,EV018,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,7,EV007,1,0,355,script,pbItemBall(:PEARL)
+map,79,,29,EV029,1,1,101,show_text,Parece que la roca se puede romper. ¿Quieres usar
+map,79,,29,EV029,1,2,401,show_text_cont,<b>Palmeo</b>?
+map,79,,29,EV029,1,3,102,choices,Si
+map,79,,29,EV029,1,3,102,choices,No
+map,79,,29,EV029,1,4,402,choice_branch,Si
+map,79,,29,EV029,1,6,101,show_text,¡Has usado <b>Palmeo</b>!
+map,79,,29,EV029,1,25,402,choice_branch,No
+map,79,,29,EV029,1,30,101,show_text,No parece que puedas romperla ahora mismo.
+map,79,,35,EV035,1,0,108,comment,noshadow
+map,79,,24,EV024,1,0,101,show_text,<b><ac>Pueblo Pardillo</ac></b><ac>¡Un lugar donde
+map,79,,24,EV024,1,1,401,show_text_cont,a los furret les gusta caminar!
+map,79,,13,EV013,1,0,101,show_text,¡Apártate! ¡Estoy jugando con el Pokémon de la abuela!
+map,79,,2,EV002,1,0,108,comment,noshadow
+map,79,,57,EV057,1,0,108,comment,noshadow
+map,79,,30,EV030,1,0,101,show_text,"Pueblo Gorrión... No queda muy lejos, ¿cierto?"
+map,79,,19,EV019,1,0,101,show_text,Vivo con mi madre porque no me puedo permitir
+map,79,,19,EV019,1,1,401,show_text_cont,"comprar una casa, la inflación se está empezando a"
+map,79,,19,EV019,1,2,401,show_text_cont,notar en la región de Akebia.
+map,79,,8,EV008,1,0,108,comment,noshadow
+map,79,,52,EV052,1,0,101,show_text,<ac>Hacia el Este: Pueblo Pinzón</ac>
+map,79,,52,EV052,1,1,101,show_text,<ac>Hacia el Sur: Pueblo Gorrión</ac>
+map,79,,63,EV063,1,0,108,comment,noshadow
+map,79,,47,EV047,1,0,108,comment,noshadow
+map,79,,36,EV036,1,0,108,comment,noshadow
+map,79,,25,EV025,1,0,101,show_text,"¿Estás de viaje? ¡Qué guay, cuando sea mayor me iré de aventuras como tú!"
+map,79,,3,EV003,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,14,EV014,1,1,355,script,Pokemon.play_cry(:BUNEARY)
+map,79,,14,EV014,1,3,101,show_text,\xn[\PN](Parece estar hasta el moño de correr con la
+map,79,,14,EV014,1,4,401,show_text_cont,niña...)
+map,79,,58,EV058,1,0,108,comment,noshadow
+map,79,,31,Ditto encontrado,2,0,355,script,Pokemon.play_cry(:DITTO)
+map,79,,20,EV020,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,79,,20,EV020,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,20,EV020,3,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,79,,53,EV053,1,0,101,show_text,<ac>Hacia el Este: Pueblo Pinzón</ac>
+map,79,,53,EV053,1,1,101,show_text,<ac>Hacia el Sur: Pueblo Gorrión</ac>
+map,79,,64,EV064,1,0,108,comment,noshadow
+map,79,,48,EV048,1,0,108,comment,noshadow
+map,79,,26,EV026,1,0,355,script,Pokemon.play_cry(:AIPOM)
+map,79,,4,EV004,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,15,EV015,1,0,101,show_text,"¡Mira qué mono es mi Furret, me encanta!"
+map,79,,15,EV015,1,2,101,show_text,"Aunque eso no me hace furro, que lo sepas."
+map,79,,59,EV059,1,0,108,comment,noshadow
+map,79,,32,EV032,1,0,101,show_text,"Vine para ver qué Pokémon aparecen aquí, pero en estas aguas solo hay puro Azurill, qué pereza."
+map,79,,21,EV021,1,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,79,,21,EV021,2,7,101,show_text,\dxn[\PN](Debería ayudar al niño...)
+map,79,,21,EV021,3,6,355,script,"pbRemoveDependency2(""FollowerPkmn"")"
+map,79,,54,EV054,1,0,101,show_text,<b><ac>Pueblo Pardillo</ac></b><ac>¡Un lugar donde
+map,79,,54,EV054,1,1,401,show_text_cont,a los furret les gusta caminar!
