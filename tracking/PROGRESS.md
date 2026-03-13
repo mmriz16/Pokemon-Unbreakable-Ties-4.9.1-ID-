@@ -1,15 +1,16 @@
 # Progress
 
 ## Dashboard
-- Overall playable Indonesian progress: `58%`
+- Overall playable Indonesian progress: `63%`
 - Phase 1. Audit source text: `100%`
 - Phase 2. Build Indonesian runtime baseline (`english.dat`, `messages.dat`): `100%`
 - Phase 3. Proofread runtime/UI/system text: `70%`
 - Phase 4. Audit story/event text (`CommonEvents.rxdata`, `Map*.rxdata`): `100%`
 - Phase 5. Draft story translation per batch/map: `100%`
-- Phase 6. Inject translated story back into event runtime: `0%`
+- Phase 6. Inject translated story back into event runtime: `15%`
 - Phase 7. In-game verification and polish pass: `0%`
 - Opening Sequence translation coverage (`Map022 -> Map092`): `100%`
+- Opening Sequence proofread + injected to runtime (`Map022 -> Map092`): `100%`
 
 ## How To Read
 - `Overall playable Indonesian progress` mengukur kesiapan game untuk dimainkan penuh dalam Bahasa Indonesia, bukan sekadar jumlah file yang sudah disentuh.
@@ -44,12 +45,15 @@
 - Draft story-order sekarang sudah dimulai untuk tiga map awal jalur utama, yaitu `Map022` (intro), `Map042` (rumah), dan `Map032` (Sparrow Town), sehingga translasi story tidak lagi bertumpu pada map berteks terbanyak yang belum tentu muncul di awal permainan.
 - Draft baseline otomatis untuk seluruh jalur story sudah berhasil digenerate ke `tracking/story_translation_draft.csv` dengan cakupan `34,994` row teks terjemahan awal di `646` map story-order + `100` common events. Tahap berikutnya bukan lagi membuat draft dari nol, tetapi merapikan hasil machine draft dan meng-inject-nya kembali ke event runtime.
 - Opening Sequence berhasil diexport sebagai artefak kerja terpisah di `tracking/opening_sequence_translation.csv` dengan cakupan `100%` untuk `871` row teks yang bisa diterjemahkan di `11` map awal (`Map022 -> Map092`).
+- Opening Sequence sudah diproofread ke status `proofread_opening` untuk seluruh `871` row translatable, lalu di-inject ke runtime event files di `Data/CommonEvents.rxdata` dan `Data/Map022.rxdata` s.d. `Data/Map092.rxdata`. Summary kerja tersimpan di `tracking/opening_sequence_proofread_summary.md` dan `tracking/opening_sequence_injection_summary.md`.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
 - Audit `CommonEvents.rxdata` dan `Map*.rxdata` per urutan story.
 - Prioritaskan translasi event/story berdasarkan `tracking/story_order_priority.md`, bukan hanya jumlah row teks.
 - Proofread machine draft story mulai dari `Map022 -> Map042 -> Map032 -> Map076 -> Map078`.
+- Verifikasi Opening Sequence langsung di game.
+- Lanjut proofread + inject story setelah Opening Sequence, dimulai dari map berikutnya pada jalur utama.
 - Rapikan istilah UI dan trainer class yang masih kaku.
 - Mulai translasi `011_Battle`, `012_Overworld`, `013_Items`, dan `999_Main`.
 - Putuskan apakah `english.dat` hasil rebuild akan dipakai langsung atau dijadikan baseline lalu diproofread dulu.

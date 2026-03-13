@@ -15,4 +15,6 @@
 - [x] Audit `CommonEvents.rxdata` dan `Map*.rxdata` di luar cakupan `messages.dat`
 - [x] Bentuk backlog khusus berdasarkan urutan story awal game
 - [x] Generate draft baseline untuk semua map berdasarkan urutan story
-- [ ] Proofread istilah penting agar hasil benar-benar playable
+- [x] Proofread Opening Sequence (`Map022 -> Map092`)
+- [x] Inject Opening Sequence ke `CommonEvents.rxdata` dan `Map*.rxdata` di folder `ID`
+- [ ] Proofread istilah penting agar hasil benar-benar playable untuk story di luar Opening Sequence
