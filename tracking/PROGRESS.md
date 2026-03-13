@@ -13,11 +13,12 @@
 - Script resumable untuk rebuild `messages.dat` dibuat.
 - `Data/messages.dat` versi Indonesia berhasil dibangun di folder `ID`.
 - Verifikasi sample `messages.dat` berhasil: type text, move descriptions, ability descriptions, trainer types, dan map/common messages sudah terbaca dari file hasil rebuild.
+- Proofreading pass runtime pertama diterapkan langsung ke `english.dat` dan `messages.dat` untuk istilah yang paling terlihat salah, terutama `types` dan `trainer types`.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
 - Audit `CommonEvents.rxdata` dan `Map*.rxdata` per urutan story.
-- Rapikan istilah UI yang masih kaku.
+- Rapikan istilah UI dan trainer class yang masih kaku.
 - Mulai translasi `011_Battle`, `012_Overworld`, `013_Items`, dan `999_Main`.
 - Putuskan apakah `english.dat` hasil rebuild akan dipakai langsung atau dijadikan baseline lalu diproofread dulu.
 
