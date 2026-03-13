@@ -9,7 +9,8 @@
 - [x] Verifikasi sample isi `english.dat` hasil rebuild
 - [x] Update progress dan backlog setelah rebuild
 - [x] Buat script resumable untuk rebuild `messages.dat`
-- [ ] Selesaikan rebuild `messages.dat` versi Indonesia
+- [x] Selesaikan rebuild `messages.dat` versi Indonesia
+- [x] Verifikasi sample struktur `messages.dat` hasil rebuild
 - [ ] Verifikasi `messages.dat` hasil rebuild di game
 - [ ] Audit `CommonEvents.rxdata` dan `Map*.rxdata` di luar cakupan `messages.dat`
 - [ ] Proofread istilah penting agar hasil benar-benar playable

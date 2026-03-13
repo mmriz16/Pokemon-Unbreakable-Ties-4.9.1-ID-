@@ -11,11 +11,11 @@
 - `Data/english.dat` versi Indonesia berhasil dibangun di folder `ID`.
 - Verifikasi sample berhasil: nama species tetap asli, sedangkan kinds/entries/deskripsi terjemah ke Indonesia.
 - Script resumable untuk rebuild `messages.dat` dibuat.
-- Rebuild `messages.dat` sudah berjalan dan checkpoint terakhir ada di `section_0_index = 130` dari total `708` blok map/common messages.
+- `Data/messages.dat` versi Indonesia berhasil dibangun di folder `ID`.
+- Verifikasi sample `messages.dat` berhasil: type text, move descriptions, ability descriptions, trainer types, dan map/common messages sudah terbaca dari file hasil rebuild.
 
 ## Next
-- Selesaikan rebuild `messages.dat` sampai output final `Data/messages.dat` terbentuk.
-- Verifikasi sample `messages.dat` setelah rebuild selesai.
+- Verifikasi `messages.dat` langsung di game.
 - Audit `CommonEvents.rxdata` dan `Map*.rxdata` per urutan story.
 - Rapikan istilah UI yang masih kaku.
 - Mulai translasi `011_Battle`, `012_Overworld`, `013_Items`, dan `999_Main`.
@@ -25,7 +25,7 @@
 - Tidak ada akses Notion API/connector di environment ini.
 - `english.dat` Indonesia lama tidak ditemukan di folder sumber saat ini, jadi rebuild dilakukan dari file Inggris yang ada sekarang.
 - Hasil translasi mesin masih perlu proofreading, terutama trainer types, ribbon text, dan battle descriptions.
-- Rebuild `messages.dat` untuk story/event text masih memakan waktu berjam-jam walau sudah dibuat resumable dan dibatch.
+- Hasil translasi mesin untuk `messages.dat` masih perlu proofreading; contoh yang masih kasar terlihat di trainer types seperti `Rival -> Menyaingi`.
 
 ## Working Rules
 - Nama Pokemon, item, move, ability tetap pakai istilah asli kecuali diputuskan lain.
