@@ -6,7 +6,7 @@
 - Phase 2. Build Indonesian runtime baseline (`english.dat`, `messages.dat`): `100%`
 - Phase 3. Proofread runtime/UI/system text: `70%`
 - Phase 4. Audit story/event text (`CommonEvents.rxdata`, `Map*.rxdata`): `100%`
-- Phase 5. Draft story translation per batch/map: `12%`
+- Phase 5. Draft story translation per batch/map: `16%`
 - Phase 6. Inject translated story back into event runtime: `0%`
 - Phase 7. In-game verification and polish pass: `0%`
 
@@ -40,6 +40,7 @@
 - Backlog story per map mulai dibentuk dengan `tools/build_event_priority_report.rb`, yang menghasilkan `tracking/event_text_priority.md` dan batch CSV di `tracking/event_batches/` untuk common events serta 15 map paling padat teks.
 - Draft translasi story pertama mulai disusun di `tracking/translation_drafts/`, mencakup `common_events` awal dan bagian pembuka `Map001` (event meteor Dra. Vega) sebagai batch kerja pertama sebelum proses inject ke event runtime.
 - Jalur kerja story diubah agar mengikuti urutan game awal berdasarkan `metadata.txt` dan `MapInfos.rxdata`. Batch khusus urutan story sekarang tersedia di `tracking/story_order_priority.md` dan `tracking/story_batches/`, dimulai dari `Map022 -> Map042 -> Map032 -> Map076 -> Map078 -> Map079 -> Map080 -> Map083 -> Map088 -> Map090 -> Map092`.
+- Draft story-order sekarang sudah dimulai untuk tiga map awal jalur utama, yaitu `Map022` (intro), `Map042` (rumah), dan `Map032` (Sparrow Town), sehingga translasi story tidak lagi bertumpu pada map berteks terbanyak yang belum tentu muncul di awal permainan.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
