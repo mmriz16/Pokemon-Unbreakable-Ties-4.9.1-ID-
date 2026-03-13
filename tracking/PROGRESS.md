@@ -24,6 +24,7 @@
 - Cleanup pass residual story/dialog diterapkan ke `messages.dat` untuk mengubah wording `gerakan -> jurus` di pesan gameplay tertentu, merapikan deskripsi karakter Akebia, dan memperhalus sejumlah string meta/editor yang masih terasa seperti hasil translasi mesin.
 - Audit event source di luar `messages.dat` selesai dengan extractor baru `tools/extract_event_text_audit.rb`. Hasil awal: `100` common events, `646` maps, dan `61,004` row teks event berhasil diekstrak ke `tracking/event_text_audit.csv`, dengan map paling padat teks saat ini antara lain `Map698`, `Map025`, dan `Map001`.
 - Backlog story per map mulai dibentuk dengan `tools/build_event_priority_report.rb`, yang menghasilkan `tracking/event_text_priority.md` dan batch CSV di `tracking/event_batches/` untuk common events serta 15 map paling padat teks.
+- Draft translasi story pertama mulai disusun di `tracking/translation_drafts/`, mencakup `common_events` awal dan bagian pembuka `Map001` (event meteor Dra. Vega) sebagai batch kerja pertama sebelum proses inject ke event runtime.
 
 ## Next
 - Verifikasi `messages.dat` langsung di game.
